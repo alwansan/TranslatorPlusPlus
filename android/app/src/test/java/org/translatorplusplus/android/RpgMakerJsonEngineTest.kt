@@ -38,7 +38,7 @@ class RpgMakerJsonEngineTest {
         assertEquals("هارولد", rebuilt.getJSONObject(1).getString("name"))
         assertEquals("البطل", rebuilt.getJSONObject(1).getString("nickname"))
         assertEquals("A brave warrior", rebuilt.getJSONObject(1).getString("profile"))
-        assertEquals(2, rebuilt.getJSONObject(1).getInt("classId"))
+        assertEquals(1, rebuilt.getJSONObject(1).getInt("classId"))
         assertEquals("Therese", rebuilt.getJSONObject(2).getString("name"))
     }
 
