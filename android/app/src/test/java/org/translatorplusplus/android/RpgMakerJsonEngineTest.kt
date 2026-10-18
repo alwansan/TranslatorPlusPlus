@@ -184,6 +184,70 @@ class RpgMakerJsonEngineTest {
     }
 
     @Test
+    fun extractsCommonEventAndTroopPageDialogue() {
+        val commonEvents = """
+            [
+              null,
+              {
+                "id":1,
+                "name":"Greeting",
+                "trigger":0,
+                "switchId":1,
+                "list":[
+                  {"code":401,"indent":0,"parameters":["Hello from common event"]},
+                  {"code":108,"indent":0,"parameters":["do not translate"]},
+                  {"code":102,"indent":0,"parameters":[["Continue","Leave"],0,0,2,0]}
+                ]
+              }
+            ]
+        """.trimIndent()
+        val commonEntries = RpgMakerJsonEngine.extractEntriesForTest(commonEvents, "CommonEvents.json")
+        assertEquals(listOf("Hello from common event", "Continue", "Leave"), commonEntries.map { it.source })
+        assertTrue(commonEntries.first().context.contains("Common Event 1 (Greeting)"))
+
+        val troops = """
+            [
+              null,
+              {
+                "id":1,
+                "name":"Slimes",
+                "members":[],
+                "pages":[
+                  {
+                    "conditions":{"turnEnding":true},
+                    "list":[
+                      {"code":401,"indent":0,"parameters":["The slimes appear!"]}
+                    ]
+                  }
+                ]
+              }
+            ]
+        """.trimIndent()
+        val troopEntries = RpgMakerJsonEngine.extractEntriesForTest(troops, "Troops.json")
+        assertTrue(troopEntries.any { it.source == "Slimes" })
+        assertTrue(troopEntries.any {
+            it.source == "The slimes appear!" && it.pointer == "/1/pages/0/list/0/parameters/0"
+        })
+
+        val projectText = RpgMakerJsonEngine.createTranslationProject(troops, "Troops.json")
+        assertNotNull(projectText)
+        val project = JSONObject(projectText!!)
+        val rowIndex = project.getJSONArray("data").let { data ->
+            (0 until data.length()).first { data.getJSONArray(it).optString(0) == "The slimes appear!" }
+        }
+        project.getJSONArray("data").getJSONArray(rowIndex).put(1, "ظهرت السلايمات!")
+        val result = RpgMakerJsonEngine.rebuildTranslatedJson(project.toString())
+        assertNotNull(result)
+        val rebuiltTroop = JSONArray(result!!).getJSONObject(1)
+        assertEquals(
+            "ظهرت السلايمات!",
+            rebuiltTroop.getJSONArray("pages").getJSONObject(0).getJSONArray("list")
+                .getJSONObject(0).getJSONArray("parameters").getString(0)
+        )
+        assertEquals(1, rebuiltTroop.getJSONArray("members").length())
+    }
+
+    @Test
     fun rejectsUnknownFilesAndInvalidTranslationProjects() {
         assertNull(RpgMakerJsonEngine.createTranslationProject("not json", "Actors.json"))
         assertNull(RpgMakerJsonEngine.createTranslationProject("""{"foo":"bar"}""", "unsupported.json"))
