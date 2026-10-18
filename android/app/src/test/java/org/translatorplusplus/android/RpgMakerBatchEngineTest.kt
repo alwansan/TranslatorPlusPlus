@@ -97,5 +97,17 @@ class RpgMakerBatchEngineTest {
                 "Unsafe"
             )
         )
+        assertNull(
+            RpgMakerBatchEngine.createBatchProject(
+                listOf(RpgMakerBatchEngine.SourceFile("/Actors.json", """[null,{"id":1,"name":"Hero"}]""")),
+                "Absolute path"
+            )
+        )
+        assertNull(
+            RpgMakerBatchEngine.createBatchProject(
+                listOf(RpgMakerBatchEngine.SourceFile("C:/Actors.json", """[null,{"id":1,"name":"Hero"}]""")),
+                "Windows drive path"
+            )
+        )
     }
 }
