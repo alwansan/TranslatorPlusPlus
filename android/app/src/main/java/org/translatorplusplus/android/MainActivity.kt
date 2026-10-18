@@ -159,10 +159,10 @@ private fun TranslatorPrototype(
     val cleanBase = fileBase
         .removeSuffix("-translated")
         .removeSuffix("-edited")
-    val defaultExportName = if (fileName.endsWith(".trans", ignoreCase = true)) {
-        "$cleanBase-edited.trans"
-    } else {
-        "$fileBase-translated.trans"
+    val defaultExportName = when {
+        project == null -> "$fileBase-translated.txt"
+        fileName.endsWith(".trans", ignoreCase = true) -> "$cleanBase-edited.trans"
+        else -> "$fileBase-translated.trans"
     }
     val defaultJsonName = "$cleanBase-translated.json"
 
@@ -183,7 +183,7 @@ private fun TranslatorPrototype(
                     onExport(defaultExportName, output)
                 }
             ) {
-                Text("حفظ مشروع")
+                Text(if (project == null) "حفظ نسخة نصية" else "حفظ مشروع")
             }
         }
         if (canExportGameJson && project != null) {
