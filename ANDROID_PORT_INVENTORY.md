@@ -13,6 +13,17 @@ This is an unpacked Windows/NW.js distribution with significant application-side
 - `data/template.trans` documents the core project/table shape: top-level `data` matrix, `colHeaders`, `columns`, and a `project` object with `indexOriginal` and `indexTranslation`. Individual projects also retain metadata, references, tags, and file mappings.
 - `package.json` lists useful portable JS packages such as `iconv-lite`, `encoding-japanese`, `pako`, `jsonata`, `dexie`, `csv` helpers, `renpy-js`, and a customized Kaitai parser package.
 
+## Measured footprint of the unpacked `www/` tree
+
+The recursive Git tree contained 11,654 entries (including directories; not all are application source). File extension counts include bundled libraries and assets:
+- 4,070 `.js` files and 186 `.mjs` files
+- 146 `.css` and 40 `.html` files
+- 396 `.json` files
+- 1,056 `.php` files
+- 25 `.exe`, 140 `.dll`, 17 `.bat`, and 7 `.ps1` files
+
+There are 189 paths ending in `.exe`, `.dll`, `.bat`, or `.ps1` under `www/`. Some DLLs are .NET dependencies, but the inventory still shows why enabling every addon unchanged is not realistic.
+
 ## Desktop assumptions that block a direct Android build
 
 - `main.js` uses `nw.App`, `nw.Window.open`, `nw.App.argv`, and desktop window life-cycle events.
