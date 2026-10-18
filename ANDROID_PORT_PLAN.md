@@ -1,43 +1,29 @@
 # Translator++ Android ARM64 Port
 
-## Current state
+## Verified source state
 
-The public GitHub repository currently exposes documentation and image assets, not the full application source tree or a reproducible source build. The supplied Windows release archive is a packaged application, not a source checkout. Therefore a complete port cannot be produced safely by merely changing the window manager.
+The repository now includes the unpacked 8.8.9 Windows/NW.js distribution under `builds/Translator++_8.8.9_x64_.51895b12/Translator++/`. It contains the actual web workspace, substantial application-side JavaScript, project template, parser add-ons, and bundled runtime/tooling. It is not the original cross-platform source build: the shipped desktop entry point and several import/export/parser paths still rely on NW.js, Node desktop APIs, PHP/Ruby executables, and Windows-specific binaries.
 
-An initial native Android prototype lives in `android/`. It demonstrates the Android Storage Access Framework for opening and exporting plain text. It is not yet a Translator++ engine port and must not be presented as a complete APK.
+See [ANDROID_PORT_INVENTORY.md](ANDROID_PORT_INVENTORY.md) for the code-level findings.
 
 ## Porting strategy
 
-1. **Obtain and inventory the real implementation**
-   - Inspect the supplied 8.8.9 archive and identify its NW.js/Node runtime, bundled JS, native modules, parsers, external executables, and licensing notices.
-   - Separate application code from packaged runtime and platform-specific binaries.
-   - Preserve a clean baseline and work on `android-arm64-port`.
+1. **Keep the Android implementation independently buildable.** Use Kotlin/Jetpack Compose for Android navigation, SAF file permissions, native document access, lifecycle-aware work, persistent preferences, and logging. Do not make installation depend on broad external-storage permissions.
+2. **Port the project model before porting all UI.** Recognize the `.trans` JSON document, preserve the complete root object and metadata, edit rows using `project.indexOriginal` / `project.indexTranslation`, and validate round-trip integrity. The first vertical slice is now implemented in the prototype.
+3. **Build a small capability adapter layer.** Replace path-string I/O with document streams/URI IDs, `nw.Window` with Android navigation, `nw.Clipboard`/desktop clipboard with Android clipboard, and background Node jobs with Android-supported workers/foreground services where suitable.
+4. **Re-use JavaScript only selectively.** Pure format and translation routines may be ported or bundled after their Node imports are mapped. Do not assume every Node package/native module will run in WebView or on Android.
+5. **Replace desktop tools format-by-format.** PHP-based project import/export, archive utilities, .NET tools, and EXE/DLL helpers need portable implementations, Android NDK builds, or a supported mobile-runtime integration. Explicitly disable unsupported formats rather than risking damaged game files.
+6. **Preserve the UI where economical.** The main screen uses jQuery/Handsontable in `www/trans.html`, but that page loads Node modules and NW.js globals at startup. It cannot simply be opened in a stock WebView. Reuse its visual assets and semantics after the platform dependencies are removed or replaced.
+7. **Test the complete round trip.** Validate Unicode/Arabic, empty cells, tags/placeholders, duplicate rows, large documents, SAF revocation, app restarts, and preservation of unrelated project metadata before enabling export for each format.
 
-2. **Build an Android-native shell**
-   - Native phone-first navigation and responsive editing UI.
-   - Android Storage Access Framework; no broad storage permission requirement.
-   - Persistent project storage via user-selected document trees or app-private storage.
-   - Background jobs with cancellation, progress, and recoverable logs.
+## Current Android milestone
 
-3. **Port reusable JavaScript logic**
-   - Identify pure JavaScript parsers and translation logic that can run in an Android-compatible JS runtime.
-   - Replace NW.js window APIs, Windows paths, registry/COM calls, shell commands, and Windows-only binaries with capability interfaces.
-   - Use portable Node-compatible modules only where a supported Android runtime exists; do not assume desktop Node native modules work on Android.
+The ARM64 APK prototype opens documents through Android's Storage Access Framework. For recognized Translator++ `.trans` project JSON it shows the original-text column and configured translation column, allows row editing, and writes a translated copy of the full JSON structure. Unrecognized text/JSON/XML files use a text-only fallback. It does **not** yet extract or rebuild game files, execute the original desktop parser add-ons, or provide feature parity with Windows Translator++.
 
-4. **Replace Windows-only engine tools incrementally**
-   - Map each parser/extractor/rebuilder to source availability, dependencies, and tests.
-   - Prefer portable implementations or Android NDK builds for native components.
-   - Mark unsupported formats explicitly rather than silently producing corrupt output.
+## Build
 
-5. **Validation and release**
-   - Unit tests for parse/edit/rebuild round trips and tag preservation.
-   - Test large files, interrupted jobs, Unicode/Arabic, SAF permissions, and low-memory devices.
-   - Build an `arm64-v8a` APK only after Gradle builds and functional tests pass.
+The `android/` Gradle project targets `arm64-v8a`. GitHub Actions builds a debug APK artifact on pushes to `android-arm64-port`. A successful build confirms the Android prototype compiles; it does not certify game-format compatibility.
 
-## Initial scope
+## Licensing
 
-The first Android prototype only opens, edits, and exports UTF-8 text files. The next meaningful milestone is source/runtime inventory and a tested project-file model, not claiming parity with the Windows application.
-
-## License
-
-Translator++ upstream identifies itself as GPL-3.0. Keep license notices and verify obligations for any redistributed source or binary components.
+The main Translator++ code identifies itself as GPL-3.0-or-later. Preserve notices and audit each bundled dependency/add-on/tool license before redistributing any port.
