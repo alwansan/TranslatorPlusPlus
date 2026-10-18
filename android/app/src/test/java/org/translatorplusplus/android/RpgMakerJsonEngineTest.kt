@@ -147,6 +147,43 @@ class RpgMakerJsonEngineTest {
     }
 
     @Test
+    fun extractsActorNameNicknameAndProfileWithoutTreatingActorIdAsText() {
+        val source = """
+            {
+              "events": [
+                {"id":1,"name":"Change Actor","pages":[{"list":[
+                  {"code":320,"indent":0,"parameters":[7,"Hero Prime"]},
+                  {"code":324,"indent":0,"parameters":[7,"The Brave"]},
+                  {"code":325,"indent":0,"parameters":[7,"A brave explorer"]}
+                ]}]}
+              ]
+            }
+        """.trimIndent()
+        val entries = RpgMakerJsonEngine.extractEntriesForTest(source, "Map001.json")
+        assertEquals(listOf("Hero Prime", "The Brave", "A brave explorer"), entries.map { it.source })
+        assertTrue(entries.none { it.source == "7" })
+
+        val projectText = RpgMakerJsonEngine.createTranslationProject(source, "Map001.json")
+        assertNotNull(projectText)
+        val project = JSONObject(projectText!!)
+        val rows = project.getJSONArray("data")
+        rows.getJSONArray(0).put(1, "البطل الأول")
+        rows.getJSONArray(1).put(1, "الشجاع")
+        rows.getJSONArray(2).put(1, "مستكشف شجاع")
+
+        val rebuiltText = RpgMakerJsonEngine.rebuildTranslatedJson(project.toString())
+        assertNotNull(rebuiltText)
+        val list = JSONObject(rebuiltText!!).getJSONArray("events")
+            .getJSONObject(0).getJSONArray("pages").getJSONObject(0).getJSONArray("list")
+        assertEquals(7, list.getJSONObject(0).getJSONArray("parameters").getInt(0))
+        assertEquals("البطل الأول", list.getJSONObject(0).getJSONArray("parameters").getString(1))
+        assertEquals(7, list.getJSONObject(1).getJSONArray("parameters").getInt(0))
+        assertEquals("الشجاع", list.getJSONObject(1).getJSONArray("parameters").getString(1))
+        assertEquals(7, list.getJSONObject(2).getJSONArray("parameters").getInt(0))
+        assertEquals("مستكشف شجاع", list.getJSONObject(2).getJSONArray("parameters").getString(1))
+    }
+
+    @Test
     fun rejectsUnknownFilesAndInvalidTranslationProjects() {
         assertNull(RpgMakerJsonEngine.createTranslationProject("not json", "Actors.json"))
         assertNull(RpgMakerJsonEngine.createTranslationProject("""{"foo":"bar"}""", "unsupported.json"))
