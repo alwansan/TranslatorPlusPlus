@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Translator++</string>
+    <string name="title_projects">Game Projects</string>
+    <string name="title_editor">Translation Grid</string>
+    <string name="title_glossary">Terminology &amp; TM</string>
+    <string name="title_engines">Machine Translation</string>
+    <string name="title_simulator">Dialogue Preview</string>
+</resources>

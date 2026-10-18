@@ -1,0 +1,8 @@
+{
+  "name": "Translator++",
+  "description": "The Computer-Assisted Translation (CAT) tool for video games and visual novels with multi-engine support, syntax preservation, and batch translation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
