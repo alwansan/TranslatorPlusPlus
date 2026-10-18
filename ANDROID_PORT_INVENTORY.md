@@ -47,8 +47,9 @@ The Android app now recognizes the JSON structure used by Translator++ `.trans` 
 
 ## Next gates
 
-- Add JVM tests using a sanitized fixture based on `data/template.trans`; verify source/target index mapping, preservation of unrelated metadata and columns, and Unicode/Arabic round-trip.
-- Move parsing/model code out of the activity into a testable module.
+- [x] Add JVM tests using a sanitized fixture model; verify source/target index mapping, preservation of unrelated metadata and columns, Unicode/Arabic round-trip, BOM handling, short rows, invalid project shapes, and non-array data rows.
+- [x] Move parsing/model code out of the activity into a testable `TransProject` module.
+- [ ] Confirm the latest CI test-and-build run passes before treating the new milestone as verified.
 - Add robust CSV/TSV support and project creation/history.
 - Port one engine end-to-end only after its parser and rebuild path have an Android-compatible implementation.
 - Add format capability registry so unsupported Windows-only formats are disabled with a clear explanation.
