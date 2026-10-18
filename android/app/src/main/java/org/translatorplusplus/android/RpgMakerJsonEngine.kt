@@ -134,6 +134,10 @@ internal object RpgMakerJsonEngine {
             extractSystemText(root, entries)
         } else if (root is JSONArray) {
             extractDatabaseArray(root, lowerName, entries)
+            when (lowerName) {
+                "commonevents.json" -> extractCommonEvents(root, entries)
+                "troops.json" -> extractTroopEventText(root, entries)
+            }
         }
 
         return entries.filter { it.source.isNotBlank() }.distinctBy { it.pointer }
@@ -162,6 +166,74 @@ internal object RpgMakerJsonEngine {
                     context = "${fileName.substringBeforeLast('.', fileName)} #${obj.optInt("id", i)} • $field",
                     out = out
                 )
+            }
+        }
+    }
+
+    private fun extractCommonEvents(root: JSONArray, out: MutableList<Entry>) {
+        for (index in 0 until root.length()) {
+            val event = root.optJSONObject(index) ?: continue
+            val eventId = event.optInt("id", index)
+            val eventName = event.optString("name").takeIf { it.isNotBlank() } ?: "Common Event"
+            val commands = event.optJSONArray("list") ?: continue
+            extractCommandList(
+                root = root,
+                commands = commands,
+                pointerPrefix = "/$index/list",
+                contextPrefix = "Common Event $eventId ($eventName)",
+                out = out
+            )
+        }
+    }
+
+    private fun extractTroopEventText(root: JSONArray, out: MutableList<Entry>) {
+        for (troopIndex in 0 until root.length()) {
+            val troop = root.optJSONObject(troopIndex) ?: continue
+            val troopId = troop.optInt("id", troopIndex)
+            val troopName = troop.optString("name").takeIf { it.isNotBlank() } ?: "Troop"
+            val pages = troop.optJSONArray("pages") ?: continue
+            for (pageIndex in 0 until pages.length()) {
+                val page = pages.optJSONObject(pageIndex) ?: continue
+                val commands = page.optJSONArray("list") ?: continue
+                extractCommandList(
+                    root = root,
+                    commands = commands,
+                    pointerPrefix = "/$troopIndex/pages/$pageIndex/list",
+                    contextPrefix = "Troop $troopId ($troopName) • page ${pageIndex + 1}",
+                    out = out
+                )
+            }
+        }
+    }
+
+    private fun extractCommandList(
+        root: Any,
+        commands: JSONArray,
+        pointerPrefix: String,
+        contextPrefix: String,
+        out: MutableList<Entry>
+    ) {
+        for (commandIndex in 0 until commands.length()) {
+            val command = commands.optJSONObject(commandIndex) ?: continue
+            val code = command.optInt("code", -1)
+            val parameters = command.optJSONArray("parameters") ?: continue
+            val context = "$contextPrefix • command $code"
+            val base = "$pointerPrefix/$commandIndex/parameters"
+            when (code) {
+                401, 405 -> addIfString(root, "$base/0", context, out)
+                // Actor name/nickname/profile: parameter 0 is the ID, parameter 1 is the text.
+                320, 324, 325 -> addIfString(root, "$base/1", context, out)
+                102 -> {
+                    val choices = parameters.optJSONArray(0) ?: continue
+                    for (choiceIndex in 0 until choices.length()) {
+                        addIfString(
+                            root,
+                            "$base/0/$choiceIndex",
+                            "$context • choice ${choiceIndex + 1}",
+                            out
+                        )
+                    }
+                }
             }
         }
     }
