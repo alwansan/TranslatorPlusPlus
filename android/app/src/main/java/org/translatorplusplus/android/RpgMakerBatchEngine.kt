@@ -166,8 +166,10 @@ internal object RpgMakerBatchEngine {
     }
 
     private fun safeRelativePath(rawPath: String): String? {
-        val normalized = rawPath.replace('\\', '/').trimStart('/')
-        if (normalized.isBlank()) return null
+        val normalized = rawPath.replace('\\', '/')
+        if (normalized.isBlank() || normalized.startsWith('/') ||
+            Regex("^[A-Za-z]:").containsMatchIn(normalized)
+        ) return null
         val segments = normalized.split('/')
         if (segments.any { it.isBlank() || it == "." || it == ".." }) return null
         return segments.joinToString("/")
