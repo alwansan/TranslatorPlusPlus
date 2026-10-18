@@ -154,7 +154,10 @@ private fun TranslatorPrototype(
     }
 
     val project = parsedProject
-    val canExportGameJson = project?.let { RpgMakerJsonEngine.canRebuild(it.toJson()) } == true
+    // Metadata does not change while typing, so don't serialize/parse the full original JSON on every keystroke.
+    val canExportGameJson = remember(project) {
+        project?.let { RpgMakerJsonEngine.canRebuild(it.toJson()) } == true
+    }
     val fileBase = fileName.substringBeforeLast('.', fileName)
     val cleanBase = fileBase
         .removeSuffix("-translated")
