@@ -208,9 +208,16 @@ internal object RpgMakerJsonEngine {
                     val parameters = command.optJSONArray("parameters") ?: continue
                     val context = "Event $eventId ($eventName) • page ${pageIndex + 1} • command $code"
                     when (code) {
-                        401, 405, 320, 324, 325 -> addIfString(
+                        401, 405 -> addIfString(
                             root = root,
                             pointer = "/events/$eventIndex/pages/$pageIndex/list/$commandIndex/parameters/0",
+                            context = context,
+                            out = out
+                        )
+                        // Codes 320/324/325 store actorId in parameter 0 and the editable string in parameter 1.
+                        320, 324, 325 -> addIfString(
+                            root = root,
+                            pointer = "/events/$eventIndex/pages/$pageIndex/list/$commandIndex/parameters/1",
                             context = context,
                             out = out
                         )
