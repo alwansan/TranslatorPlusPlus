@@ -161,7 +161,7 @@ private fun TranslatorPrototype(
                     ?.substringAfterLast('/')
                     ?.substringAfterLast(':')
                     ?.takeIf { it.isNotBlank() } ?: "ملف مستورد"
-                val project = parseTransProject(content)
+                val project = parseTransProject(content.removePrefix("\uFEFF"))
                 if (project != null) {
                     parsedProject = project
                     projectRows = project.rows
@@ -208,7 +208,7 @@ private fun TranslatorPrototype(
         Text("Translator++ Android", style = MaterialTheme.typography.headlineSmall)
         Text("ARM64 • مرحلة نقل أولية")
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Button(onClick = { openFile.launch(arrayOf("text/*", "application/json", "application/xml")) }) {
+            Button(onClick = { openFile.launch(arrayOf("*/*")) }) {
                 Text("فتح ملف")
             }
             Button(
