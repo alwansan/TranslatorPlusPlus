@@ -6,7 +6,8 @@ import org.json.JSONObject
 internal data class TransRow(
     val index: Int,
     val source: String,
-    val target: String
+    val target: String,
+    val context: String = ""
 )
 
 /**
@@ -57,6 +58,8 @@ internal class TransProject private constructor(
                 val targetIndex = project.optInt("indexTranslation", 1)
                 if (sourceIndex < 0 || targetIndex < 0 || sourceIndex == targetIndex) return null
                 if (sourceIndex >= headers.length() || targetIndex >= headers.length()) return null
+                val contextIndex = (0 until headers.length())
+                    .firstOrNull { headers.optString(it) == "File / Location" } ?: -1
 
                 val rows = buildList {
                     for (i in 0 until data.length()) {
@@ -65,7 +68,8 @@ internal class TransProject private constructor(
                             TransRow(
                                 index = i,
                                 source = cellAsText(cells, sourceIndex),
-                                target = cellAsText(cells, targetIndex)
+                                target = cellAsText(cells, targetIndex),
+                                context = if (contextIndex >= 0) cellAsText(cells, contextIndex) else ""
                             )
                         )
                     }
