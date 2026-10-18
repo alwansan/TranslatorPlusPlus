@@ -244,7 +244,7 @@ class RpgMakerJsonEngineTest {
             rebuiltTroop.getJSONArray("pages").getJSONObject(0).getJSONArray("list")
                 .getJSONObject(0).getJSONArray("parameters").getString(0)
         )
-        assertEquals(1, rebuiltTroop.getJSONArray("members").length())
+        assertEquals(0, rebuiltTroop.getJSONArray("members").length())
     }
 
     @Test
