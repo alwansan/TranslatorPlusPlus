@@ -24,12 +24,17 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.documentfile.provider.DocumentFile
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
 class MainActivity : ComponentActivity() {
     private var pendingExport by mutableStateOf("")
     private var pendingJsonExport by mutableStateOf("")
+    private var pendingZipExport by mutableStateOf<ByteArray?>(null)
     private var exportStatus by mutableStateOf("")
 
     private val exportLauncher = registerForActivityResult(
@@ -52,11 +57,36 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    private val zipExportLauncher = registerForActivityResult(
+        ActivityResultContracts.CreateDocument("application/zip")
+    ) { uri: Uri? ->
+        val bytes = pendingZipExport
+        if (uri == null) {
+            exportStatus = "تم إلغاء تصدير ZIP."
+        } else if (bytes == null) {
+            exportStatus = "لا توجد بيانات ZIP جاهزة للتصدير."
+        } else {
+            writeBinaryDocument(uri, bytes, "تم تصدير ملفات JSON إلى ZIP بنجاح.")
+        }
+    }
+
     private fun writeDocument(uri: Uri, content: String, successMessage: String) {
         runCatching {
             val output = contentResolver.openOutputStream(uri)
                 ?: error("تعذر فتح الملف للكتابة")
             output.bufferedWriter(Charsets.UTF_8).use { it.write(content) }
+        }.onSuccess {
+            exportStatus = successMessage
+        }.onFailure { error ->
+            exportStatus = "فشل الحفظ: ${error.message ?: "خطأ غير معروف"}"
+        }
+    }
+
+    private fun writeBinaryDocument(uri: Uri, content: ByteArray, successMessage: String) {
+        runCatching {
+            val output = contentResolver.openOutputStream(uri)
+                ?: error("تعذر فتح الملف للكتابة")
+            output.use { it.write(content) }
         }.onSuccess {
             exportStatus = successMessage
         }.onFailure { error ->
@@ -81,6 +111,11 @@ class MainActivity : ComponentActivity() {
                             pendingJsonExport = text
                             exportStatus = "اختر مكان حفظ نسخة JSON المترجمة."
                             jsonExportLauncher.launch(name)
+                        },
+                        onExportZip = { name, bytes ->
+                            pendingZipExport = bytes
+                            exportStatus = "اختر مكان حفظ أرشيف JSON المترجم."
+                            zipExportLauncher.launch(name)
                         }
                     )
                 }
@@ -94,14 +129,16 @@ private fun TranslatorPrototype(
     resolver: ContentResolver,
     exportStatus: String,
     onExport: (String, String) -> Unit,
-    onExportJson: (String, String) -> Unit
+    onExportJson: (String, String) -> Unit,
+    onExportZip: (String, ByteArray) -> Unit
 ) {
     var fileName by remember { mutableStateOf("لم يتم اختيار ملف") }
     var sourceText by remember { mutableStateOf("") }
     var parsedProject by remember { mutableStateOf<TransProject?>(null) }
     var projectRows by remember { mutableStateOf<List<TransRow>>(emptyList()) }
     var isFileLoaded by remember { mutableStateOf(false) }
-    var status by remember { mutableStateOf("نموذج Android أولي: افتح ملفاً لتبدأ") }
+    var status by remember { mutableStateOf("افتح ملفاً أو مجلد Data للبدء") }
+    val coroutineScope = rememberCoroutineScope()
 
     val openFile = rememberLauncherForActivityResult(
         ActivityResultContracts.OpenDocument()
@@ -130,6 +167,8 @@ private fun TranslatorPrototype(
                     projectRows = project.rows
                     sourceText = ""
                     status = when {
+                        RpgMakerBatchEngine.canRebuild(project.toJson()) ->
+                            "تم فتح مشروع RPG Maker متعدد الملفات. ترجم النصوص ثم صدّر ZIP."
                         RpgMakerJsonEngine.canRebuild(project.toJson()) ->
                             "تم فتح مشروع ترجمة RPG Maker. عدّل النصوص ثم صدّر مشروع .trans أو ملف JSON."
                         existingProject != null ->
@@ -153,10 +192,92 @@ private fun TranslatorPrototype(
         }
     }
 
+    val openFolder = rememberLauncherForActivityResult(
+        ActivityResultContracts.OpenDocumentTree()
+    ) { treeUri ->
+        if (treeUri != null) {
+            coroutineScope.launch {
+                status = "يجري فحص مجلد البيانات..."
+                val folderResult = withContext(Dispatchers.IO) {
+                    val root = DocumentFile.fromTreeUri(resolver, treeUri)
+                        ?: return@withContext null
+                    val files = mutableListOf<RpgMakerBatchEngine.SourceFile>()
+                    var totalChars = 0L
+                    var limitReached = false
+                    val acceptedNames = setOf(
+                        "actors.json", "classes.json", "skills.json", "items.json",
+                        "weapons.json", "armors.json", "enemies.json", "states.json",
+                        "troops.json", "mapinfos.json", "system.json"
+                    )
+
+                    fun isSupportedName(name: String): Boolean {
+                        val lower = name.lowercase()
+                        return lower in acceptedNames || Regex("map\\d+\\.json").matches(lower)
+                    }
+
+                    fun visit(directory: DocumentFile, prefix: String, depth: Int) {
+                        if (limitReached || depth > 8) return
+                        val children = runCatching {
+                            directory.listFiles().sortedBy { it.name ?: "" }
+                        }.getOrDefault(emptyList())
+
+                        for (child in children) {
+                            if (limitReached) return
+                            val childName = child.name ?: continue
+                            if (child.isDirectory) {
+                                val nextPrefix = if (prefix.isBlank()) childName else "$prefix/$childName"
+                                visit(child, nextPrefix, depth + 1)
+                            } else if (child.isFile && isSupportedName(childName)) {
+                                if (files.size >= 500) {
+                                    limitReached = true
+                                    return
+                                }
+                                val relativePath = if (prefix.isBlank()) childName else "$prefix/$childName"
+                                val text = runCatching {
+                                    resolver.openInputStream(child.uri)?.use { input ->
+                                        BufferedReader(InputStreamReader(input, Charsets.UTF_8)).readText()
+                                    }
+                                }.getOrNull() ?: continue
+
+                                totalChars += text.length.toLong()
+                                if (totalChars > 24L * 1024 * 1024) {
+                                    limitReached = true
+                                    return
+                                }
+                                files += RpgMakerBatchEngine.SourceFile(relativePath, text)
+                            }
+                        }
+                    }
+
+                    visit(root, "", 0)
+                    val label = root.name?.takeIf { it.isNotBlank() } ?: "RPG Maker"
+                    val batchText = if (limitReached) null else RpgMakerBatchEngine.createBatchProject(files, label)
+                    Pair(label, batchText)
+                }
+
+                val batchText = folderResult?.second
+                val batchProject = batchText?.let { TransProject.parse(it) }
+                if (folderResult != null && batchProject != null) {
+                    parsedProject = batchProject
+                    projectRows = batchProject.rows
+                    sourceText = ""
+                    fileName = "${folderResult.first}-translated.trans"
+                    isFileLoaded = true
+                    status = "تم تحليل المجلد: ${batchProject.rows.size} نصاً من ملفات RPG Maker المدعومة. صدّر ZIP بعد الترجمة."
+                } else {
+                    status = "لم أجد ملفات RPG Maker JSON مدعومة، أو تجاوز المجلد حد الحجم التجريبي."
+                }
+            }
+        }
+    }
+
     val project = parsedProject
     // Metadata does not change while typing, so don't serialize/parse the full original JSON on every keystroke.
     val canExportGameJson = remember(project) {
         project?.let { RpgMakerJsonEngine.canRebuild(it.toJson()) } == true
+    }
+    val canExportBatchZip = remember(project) {
+        project?.let { RpgMakerBatchEngine.canRebuild(it.toJson()) } == true
     }
     val fileBase = fileName.substringBeforeLast('.', fileName)
     val cleanBase = fileBase
@@ -168,6 +289,7 @@ private fun TranslatorPrototype(
         else -> "$fileBase-translated.trans"
     }
     val defaultJsonName = "$cleanBase-translated.json"
+    val defaultZipName = "$cleanBase-translated-json.zip"
 
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
@@ -187,6 +309,27 @@ private fun TranslatorPrototype(
                 }
             ) {
                 Text(if (project == null) "حفظ نسخة نصية" else "حفظ مشروع")
+            }
+        }
+        Button(
+            modifier = Modifier.fillMaxWidth(),
+            onClick = { openFolder.launch(null) }
+        ) {
+            Text("فتح مجلد Data لـ RPG Maker")
+        }
+        if (canExportBatchZip && project != null) {
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                onClick = {
+                    val zip = RpgMakerBatchEngine.rebuildZip(project.toJson())
+                    if (zip == null) {
+                        status = "تعذر إنشاء ZIP: تحقق من بيانات المشروع ومسارات الملفات."
+                    } else {
+                        onExportZip(defaultZipName, zip)
+                    }
+                }
+            ) {
+                Text("تصدير ملفات اللعبة المترجمة إلى ZIP")
             }
         }
         if (canExportGameJson && project != null) {
@@ -260,7 +403,7 @@ private fun TranslatorPrototype(
                 minLines = 8
             )
             Text(
-                "دعم RPG Maker هنا يقتصر حالياً على ملفات JSON المستخرجة. لا يدعم فك حزم اللعبة أو إعادة بناء الأصول الثنائية.",
+                "يدعم الملفات ومجلد Data المستخرج بصيغة JSON فقط. لا يفك حزم اللعبة أو الأصول الثنائية المشفّرة.",
                 style = MaterialTheme.typography.bodySmall
             )
         }
