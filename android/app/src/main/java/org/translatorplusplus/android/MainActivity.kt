@@ -24,71 +24,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.json.JSONArray
-import org.json.JSONObject
 import java.io.BufferedReader
 import java.io.InputStreamReader
-
-private data class TransRow(
-    val index: Int,
-    val source: String,
-    val target: String
-)
-
-private data class ParsedTransProject(
-    val root: JSONObject,
-    val rows: List<TransRow>,
-    val sourceIndex: Int,
-    val targetIndex: Int,
-    val sourceLabel: String,
-    val targetLabel: String
-)
-
-private fun jsonCell(row: JSONArray, index: Int): String {
-    if (index < 0 || index >= row.length() || row.isNull(index)) return ""
-    val value = row.opt(index) ?: return ""
-    return if (value == JSONObject.NULL) "" else value.toString()
-}
-
-/**
- * Recognizes the JSON project structure used by Translator++ .trans files.
- * The entire original object is retained so project metadata and other columns
- * survive an edit/export round trip.
- */
-private fun parseTransProject(content: String): ParsedTransProject? {
-    return try {
-        val root = JSONObject(content)
-        val data = root.optJSONArray("data") ?: return null
-        val project = root.optJSONObject("project") ?: return null
-        val headers = root.optJSONArray("colHeaders") ?: return null
-        val sourceIndex = project.optInt("indexOriginal", 0).coerceAtLeast(0)
-        val targetIndex = project.optInt("indexTranslation", 1).coerceAtLeast(0)
-        if (sourceIndex == targetIndex) return null
-
-        val rows = buildList {
-            for (i in 0 until data.length()) {
-                val cells = data.optJSONArray(i) ?: continue
-                add(
-                    TransRow(
-                        index = i,
-                        source = jsonCell(cells, sourceIndex),
-                        target = jsonCell(cells, targetIndex)
-                    )
-                )
-            }
-        }
-        ParsedTransProject(
-            root = root,
-            rows = rows,
-            sourceIndex = sourceIndex,
-            targetIndex = targetIndex,
-            sourceLabel = headers.optString(sourceIndex, "النص الأصلي"),
-            targetLabel = headers.optString(targetIndex, "الترجمة")
-        )
-    } catch (_: Exception) {
-        null
-    }
-}
 
 class MainActivity : ComponentActivity() {
     private var pendingExport by mutableStateOf("")
@@ -140,7 +77,7 @@ private fun TranslatorPrototype(
 ) {
     var fileName by remember { mutableStateOf("لم يتم اختيار ملف") }
     var sourceText by remember { mutableStateOf("") }
-    var parsedProject by remember { mutableStateOf<ParsedTransProject?>(null) }
+    var parsedProject by remember { mutableStateOf<TransProject?>(null) }
     var projectRows by remember { mutableStateOf<List<TransRow>>(emptyList()) }
     var isFileLoaded by remember { mutableStateOf(false) }
     var status by remember { mutableStateOf("نموذج Android أولي: افتح ملفاً لتبدأ") }
@@ -158,7 +95,7 @@ private fun TranslatorPrototype(
                     ?.substringAfterLast('/')
                     ?.substringAfterLast(':')
                     ?.takeIf { it.isNotBlank() } ?: "ملف مستورد"
-                val project = parseTransProject(content.removePrefix("\uFEFF"))
+                val project = TransProject.parse(content)
                 if (project != null) {
                     parsedProject = project
                     projectRows = project.rows
@@ -177,17 +114,6 @@ private fun TranslatorPrototype(
                 isFileLoaded = false
                 status = "فشل فتح الملف: ${error.message ?: "خطأ غير معروف"}"
             }
-        }
-    }
-
-    fun updateTarget(rowIndex: Int, newValue: String) {
-        val project = parsedProject ?: return
-        val data = project.root.optJSONArray("data") ?: return
-        val cells = data.optJSONArray(rowIndex) ?: return
-        while (cells.length() <= project.targetIndex) cells.put(JSONObject.NULL)
-        cells.put(project.targetIndex, newValue)
-        projectRows = projectRows.map { row ->
-            if (row.index == rowIndex) row.copy(target = newValue) else row
         }
     }
 
@@ -211,7 +137,7 @@ private fun TranslatorPrototype(
             Button(
                 enabled = isFileLoaded,
                 onClick = {
-                    val output = parsedProject?.root?.toString(2) ?: sourceText
+                    val output = parsedProject?.toJson() ?: sourceText
                     onExport(defaultExportName, output)
                 }
             ) {
@@ -250,7 +176,10 @@ private fun TranslatorPrototype(
                             )
                             OutlinedTextField(
                                 value = row.target,
-                                onValueChange = { updateTarget(row.index, it) },
+                                onValueChange = { newValue ->
+                                    project.updateTranslation(row.index, newValue)
+                                    projectRows = project.rows
+                                },
                                 modifier = Modifier.fillMaxWidth(),
                                 label = { Text("الترجمة") },
                                 minLines = 2
