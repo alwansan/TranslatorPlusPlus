@@ -23,6 +23,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.documentfile.provider.DocumentFile
 import kotlinx.coroutines.Dispatchers
@@ -139,6 +140,7 @@ private fun TranslatorPrototype(
     var isFileLoaded by remember { mutableStateOf(false) }
     var status by remember { mutableStateOf("افتح ملفاً أو مجلد Data للبدء") }
     val coroutineScope = rememberCoroutineScope()
+    val context = LocalContext.current
 
     val openFile = rememberLauncherForActivityResult(
         ActivityResultContracts.OpenDocument()
@@ -199,7 +201,7 @@ private fun TranslatorPrototype(
             coroutineScope.launch {
                 status = "يجري فحص مجلد البيانات..."
                 val folderResult = withContext(Dispatchers.IO) {
-                    val root = DocumentFile.fromTreeUri(resolver, treeUri)
+                    val root = DocumentFile.fromTreeUri(context, treeUri)
                         ?: return@withContext null
                     val files = mutableListOf<RpgMakerBatchEngine.SourceFile>()
                     var totalChars = 0L
