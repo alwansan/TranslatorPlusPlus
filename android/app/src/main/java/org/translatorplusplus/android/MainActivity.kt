@@ -241,6 +241,9 @@ private fun TranslatorPrototype(
                                 label = { Text("الترجمة") },
                                 minLines = 2
                             )
+                            if (row.context.isNotBlank()) {
+                                Text(row.context, style = MaterialTheme.typography.bodySmall)
+                            }
                         }
                     }
                 }
