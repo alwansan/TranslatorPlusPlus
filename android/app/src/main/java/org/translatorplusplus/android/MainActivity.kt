@@ -29,6 +29,7 @@ import java.io.InputStreamReader
 
 class MainActivity : ComponentActivity() {
     private var pendingExport by mutableStateOf("")
+    private var pendingJsonExport by mutableStateOf("")
     private var exportStatus by mutableStateOf("")
 
     private val exportLauncher = registerForActivityResult(
@@ -37,15 +38,29 @@ class MainActivity : ComponentActivity() {
         if (uri == null) {
             exportStatus = "تم إلغاء الحفظ."
         } else {
-            runCatching {
-                val output = contentResolver.openOutputStream(uri)
-                    ?: error("تعذر فتح الملف للكتابة")
-                output.bufferedWriter(Charsets.UTF_8).use { it.write(pendingExport) }
-            }.onSuccess {
-                exportStatus = "تم حفظ الملف بنجاح."
-            }.onFailure { error ->
-                exportStatus = "فشل الحفظ: ${error.message ?: "خطأ غير معروف"}"
-            }
+            writeDocument(uri, pendingExport, "تم حفظ الملف بنجاح.")
+        }
+    }
+
+    private val jsonExportLauncher = registerForActivityResult(
+        ActivityResultContracts.CreateDocument("application/json")
+    ) { uri: Uri? ->
+        if (uri == null) {
+            exportStatus = "تم إلغاء تصدير JSON."
+        } else {
+            writeDocument(uri, pendingJsonExport, "تم تصدير ملف JSON بنجاح.")
+        }
+    }
+
+    private fun writeDocument(uri: Uri, content: String, successMessage: String) {
+        runCatching {
+            val output = contentResolver.openOutputStream(uri)
+                ?: error("تعذر فتح الملف للكتابة")
+            output.bufferedWriter(Charsets.UTF_8).use { it.write(content) }
+        }.onSuccess {
+            exportStatus = successMessage
+        }.onFailure { error ->
+            exportStatus = "فشل الحفظ: ${error.message ?: "خطأ غير معروف"}"
         }
     }
 
@@ -59,8 +74,13 @@ class MainActivity : ComponentActivity() {
                         exportStatus = exportStatus,
                         onExport = { name, text ->
                             pendingExport = text
-                            exportStatus = "اختر مكان حفظ الملف."
+                            exportStatus = "اختر مكان حفظ مشروع الترجمة."
                             exportLauncher.launch(name)
+                        },
+                        onExportJson = { name, text ->
+                            pendingJsonExport = text
+                            exportStatus = "اختر مكان حفظ نسخة JSON المترجمة."
+                            jsonExportLauncher.launch(name)
                         }
                     )
                 }
@@ -73,7 +93,8 @@ class MainActivity : ComponentActivity() {
 private fun TranslatorPrototype(
     resolver: ContentResolver,
     exportStatus: String,
-    onExport: (String, String) -> Unit
+    onExport: (String, String) -> Unit,
+    onExportJson: (String, String) -> Unit
 ) {
     var fileName by remember { mutableStateOf("لم يتم اختيار ملف") }
     var sourceText by remember { mutableStateOf("") }
@@ -95,17 +116,32 @@ private fun TranslatorPrototype(
                     ?.substringAfterLast('/')
                     ?.substringAfterLast(':')
                     ?.takeIf { it.isNotBlank() } ?: "ملف مستورد"
-                val project = TransProject.parse(content)
+
+                val existingProject = TransProject.parse(content.removePrefix("\uFEFF"))
+                val project = if (existingProject != null) {
+                    existingProject
+                } else {
+                    val generatedProject = RpgMakerJsonEngine.createTranslationProject(content, fileName)
+                    generatedProject?.let { TransProject.parse(it) }
+                }
+
                 if (project != null) {
                     parsedProject = project
                     projectRows = project.rows
                     sourceText = ""
-                    status = "تم التعرف على مشروع Translator++: ${project.rows.size} صفاً قابلاً للتحرير."
+                    status = when {
+                        RpgMakerJsonEngine.canRebuild(project.toJson()) ->
+                            "تم فتح مشروع ترجمة RPG Maker. عدّل النصوص ثم صدّر مشروع .trans أو ملف JSON."
+                        existingProject != null ->
+                            "تم فتح مشروع Translator++: ${project.rows.size} صفاً قابلاً للتحرير."
+                        else ->
+                            "تم تحليل ملف RPG Maker JSON: ${project.rows.size} نصاً قابلاً للترجمة."
+                    }
                 } else {
                     parsedProject = null
                     projectRows = emptyList()
-                    sourceText = content
-                    status = "تم فتح ملف نصي. هذا الوضع لا يحلل ملفات الألعاب."
+                    sourceText = content.removePrefix("\uFEFF")
+                    status = "تم فتح ملف نصي. لم تُكتشف بنية مشروع .trans أو ملف RPG Maker مدعوم."
                 }
                 isFileLoaded = true
             }.onFailure { error ->
@@ -118,11 +154,17 @@ private fun TranslatorPrototype(
     }
 
     val project = parsedProject
-    val defaultExportName = if (project != null) {
-        "${fileName.substringBeforeLast('.', fileName)}-translated.trans"
+    val canExportGameJson = project?.let { RpgMakerJsonEngine.canRebuild(it.toJson()) } == true
+    val fileBase = fileName.substringBeforeLast('.', fileName)
+    val cleanBase = fileBase
+        .removeSuffix("-translated")
+        .removeSuffix("-edited")
+    val defaultExportName = if (fileName.endsWith(".trans", ignoreCase = true)) {
+        "$cleanBase-edited.trans"
     } else {
-        "${fileName.substringBeforeLast('.', fileName)}-translated.txt"
+        "$fileBase-translated.trans"
     }
+    val defaultJsonName = "$cleanBase-translated.json"
 
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
@@ -137,11 +179,27 @@ private fun TranslatorPrototype(
             Button(
                 enabled = isFileLoaded,
                 onClick = {
-                    val output = parsedProject?.toJson() ?: sourceText
+                    val output = project?.toJson() ?: sourceText
                     onExport(defaultExportName, output)
                 }
             ) {
-                Text("حفظ نسخة")
+                Text("حفظ مشروع")
+            }
+        }
+        if (canExportGameJson && project != null) {
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                onClick = {
+                    val rebuilt = RpgMakerJsonEngine.rebuildTranslatedJson(project.toJson())
+                    if (rebuilt == null) {
+                        // The saved source and pointer map must both validate before export.
+                        onExportJson(defaultJsonName, "")
+                    } else {
+                        onExportJson(defaultJsonName, rebuilt)
+                    }
+                }
+            ) {
+                Text("تصدير JSON اللعبة المترجم")
             }
         }
         Text("الملف: $fileName", style = MaterialTheme.typography.bodySmall)
@@ -152,7 +210,7 @@ private fun TranslatorPrototype(
 
         if (project != null) {
             Text(
-                "مشروع Translator++ • ${project.rows.size} صف • عمود الترجمة: ${project.targetLabel}",
+                "المشروع • ${project.rows.size} صف • عمود الترجمة: ${project.targetLabel}",
                 style = MaterialTheme.typography.titleSmall
             )
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
@@ -184,6 +242,7 @@ private fun TranslatorPrototype(
                                 label = { Text("الترجمة") },
                                 minLines = 2
                             )
+                            Text(rowContext(row), style = MaterialTheme.typography.bodySmall)
                         }
                     }
                 }
@@ -197,9 +256,19 @@ private fun TranslatorPrototype(
                 minLines = 8
             )
             Text(
-                "الملفات التي لا تطابق بنية .trans تُفتح كنص عادي. لا توجد بعد أدوات استخراج وإعادة بناء ملفات الألعاب.",
+                "دعم RPG Maker هنا يقتصر حالياً على ملفات JSON المستخرجة. لا يدعم فك حزم اللعبة أو إعادة بناء الأصول الثنائية.",
                 style = MaterialTheme.typography.bodySmall
             )
         }
     }
+}
+
+@Composable
+private fun rowContext(row: TransRow) {
+    Text("الموقع: ${rowContextText(row)}", style = MaterialTheme.typography.bodySmall)
+}
+
+private fun rowContextText(row: TransRow): String {
+    // Third column is metadata/location for the RPG Maker JSON vertical slice.
+    return row.target.takeIf { false } ?: row.source.takeIf { false } ?: "نص المشروع"
 }
