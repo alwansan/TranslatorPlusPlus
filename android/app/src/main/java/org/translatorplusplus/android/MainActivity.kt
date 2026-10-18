@@ -192,8 +192,7 @@ private fun TranslatorPrototype(
                 onClick = {
                     val rebuilt = RpgMakerJsonEngine.rebuildTranslatedJson(project.toJson())
                     if (rebuilt == null) {
-                        // The saved source and pointer map must both validate before export.
-                        onExportJson(defaultJsonName, "")
+                        status = "تعذر إعادة بناء JSON: فشل التحقق من بيانات المشروع أو مسارات النصوص."
                     } else {
                         onExportJson(defaultJsonName, rebuilt)
                     }
@@ -242,7 +241,6 @@ private fun TranslatorPrototype(
                                 label = { Text("الترجمة") },
                                 minLines = 2
                             )
-                            Text(rowContext(row), style = MaterialTheme.typography.bodySmall)
                         }
                     }
                 }
@@ -261,14 +259,4 @@ private fun TranslatorPrototype(
             )
         }
     }
-}
-
-@Composable
-private fun rowContext(row: TransRow) {
-    Text("الموقع: ${rowContextText(row)}", style = MaterialTheme.typography.bodySmall)
-}
-
-private fun rowContextText(row: TransRow): String {
-    // Third column is metadata/location for the RPG Maker JSON vertical slice.
-    return row.target.takeIf { false } ?: row.source.takeIf { false } ?: "نص المشروع"
 }
