@@ -133,7 +133,7 @@ internal object RpgMakerJsonEngine {
         } else if (root is JSONObject && lowerName == "system.json") {
             extractSystemText(root, entries)
         } else if (root is JSONArray) {
-            extractDatabaseArray(root, lowerName, entries)
+            extractDatabaseArray(root, fileName.substringAfterLast('/'), entries)
             when (lowerName) {
                 "commonevents.json" -> extractCommonEvents(root, entries)
                 "troops.json" -> extractTroopEventText(root, entries)
@@ -144,7 +144,8 @@ internal object RpgMakerJsonEngine {
     }
 
     private fun extractDatabaseArray(root: JSONArray, fileName: String, out: MutableList<Entry>) {
-        val fields = when (fileName) {
+        val normalizedName = fileName.substringAfterLast('/').lowercase()
+        val fields = when (normalizedName) {
             "actors.json" -> listOf("name", "nickname", "profile")
             "classes.json" -> listOf("name")
             "skills.json" -> listOf("name", "description", "message1", "message2")
