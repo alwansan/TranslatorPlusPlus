@@ -26,7 +26,7 @@ internal object RpgMakerBatchEngine {
         }.distinctBy { it.relativePath }.sortedBy { it.relativePath }
 
         if (usable.isEmpty() || usable.size > MAX_FILES) return null
-        if (usable.sumOf { it.content.length.toLong() } > MAX_SOURCE_CHARS) return null
+        if (usable.sumOf { it.content.length.toLong() } > MAX_SOURCE_CHARS.toLong()) return null
 
         var templateRoot: JSONObject? = null
         val combinedData = JSONArray()
@@ -92,9 +92,9 @@ internal object RpgMakerBatchEngine {
             ?: return false
         val metadata = project.optJSONObject(META_KEY) ?: return false
         val files = metadata.optJSONArray("files") ?: return false
+        val targetIndex = project.optJSONObject("project")?.optInt("indexTranslation", -1) ?: -1
         return metadata.optInt("version", -1) == VERSION && files.length() > 0 &&
-            project.optJSONArray("data") != null &&
-            project.optJSONObject("project")?.optInt("indexTranslation", -1) in 0..32
+            project.optJSONArray("data") != null && targetIndex in 0..32
     }
 
     /**
