@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wolfJs.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"0","tags":null}
+#. tid/99/type/StringLiteral
+#. tid/12843/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:0"
+msgid "Maximum number of line in message box."
+msgstr "Số dòng tối đa trong hộp thông báo."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"1","tags":null}
+#. tid/109/type/StringLiteral
+#. tid/12853/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:1"
+msgid "Default value is 4. Type 0 to disable this feature. If the number of line in message box is greater than this number, Translator++ will generates a new message box to prevents the texts overflowing the boxes."
+msgstr "Giá trị mặc định là 4. Nhập 0 để tắt tính năng này. Nếu số dòng trong hộp thông báo lớn hơn số này, Translator++ sẽ tạo một hộp thông báo mới để ngăn văn bản tràn ra ngoài hộp."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"2","tags":null}
+#. tid/486/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:2"
+msgid "Use shell copy if possible"
+msgstr "Sử dụng sao chép shell nếu có thể"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"3","tags":null}
+#. tid/496/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:3"
+msgid "Use shell copy instead of native NodeJS copy handler."
+msgstr "Sử dụng sao chép shell thay vì trình xử lý sao chép NodeJS gốc."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"4","tags":null}
+#. tid/513/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:4"
+msgid "Use shell copy"
+msgstr "Sử dụng sao chép shell"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"5","tags":null}
+#. tid/7571/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:5"
+msgid ""
+"WRPGE Editor is not installed\r\n"
+"Please install it from T++ menu > Third party application installer\r\n"
+"\r\n"
+"Open Third Party application installer now?"
+msgstr ""
+"Trình chỉnh sửa WRPGE chưa được cài đặt\r\n"
+"Vui lòng cài đặt từ menu T++ > Trình cài đặt ứng dụng bên thứ ba\r\n"
+"\r\n"
+"Mở trình cài đặt ứng dụng bên thứ ba ngay bây giờ?"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"6","tags":null}
+#. tid/7624/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:6"
+msgid "Unable to determina WRPGE path."
+msgstr "Không thể xác định đường dẫn WRPGE."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"7","tags":null}
+#. tid/7670/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:7"
+msgid ""
+"Translator++ is about to install WRPGE editor in the destination folder.\r\n"
+"Continue?"
+msgstr ""
+"Translator++ sắp cài đặt trình chỉnh sửa WRPGE trong thư mục đích.\r\n"
+"Tiếp tục?"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"8","tags":null}
+#. tid/7851/type/StringLiteral
+#. tid/12443/type/StringLiteral
+#. tid/12542/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:8"
+msgid ""
+"Dev path is not defined.\n"
+"You should inject your game once to generate dev path."
+msgstr ""
+"Đường dẫn phát triển chưa được xác định.\n"
+"Bạn nên tiêm trò chơi một lần để tạo đường dẫn phát triển."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"9","tags":null}
+#. tid/10368/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:9"
+msgid "Translate a Wolf RPG game up to ver. 3.330 with WolfJs library. The default Wolf RPG parser for Translator++."
+msgstr "Dịch trò chơi Wolf RPG lên đến phiên bản 3.330 với thư viện WolfJs. Bộ phân tích Wolf RPG mặc định cho Translator++."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"10","tags":null}
+#. tid/10411/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:10"
+msgid "Wolf RPG Editor games"
+msgstr "Trò chơi Wolf RPG Editor"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"11","tags":null}
+#. tid/10416/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:11"
+msgid "Parsing Wolf RPG Game with"
+msgstr "Đang phân tích trò chơi Wolf RPG với"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"12","tags":null}
+#. tid/10429/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:12"
+msgid "Wolf RPG Editor game"
+msgstr "Trò chơi Wolf RPG Editor"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"13","tags":null}
+#. tid/10434/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:13"
+msgid "Select the game's executable file"
+msgstr "Chọn tệp thực thi của trò chơi"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"14","tags":null}
+#. tid/10447/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:14"
+msgid "Engine version"
+msgstr "Phiên bản động cơ"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"15","tags":null}
+#. tid/10452/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:15"
+msgid "Detected WolfRPG Engine version of the selected game"
+msgstr "Đã phát hiện phiên bản WolfRPG Engine của trò chơi được chọn"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"16","tags":null}
+#. tid/10752/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:16"
+msgid ""
+"Heads up!\r\n"
+""
+msgstr ""
+"Chú ý!\r\n"
+""
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"17","tags":null}
+#. tid/10759/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:17"
+msgid ""
+"\r\n"
+"doesn't seem to be a Wolf RPG executable file!\r\n"
+"Are you sure want to start Wolf RPG Project from this entry point?"
+msgstr ""
+"\r\n"
+"không có vẻ là tệp thực thi Wolf RPG!\r\n"
+"Bạn có chắc muốn bắt đầu dự án Wolf RPG từ điểm nhập này?"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"18","tags":null}
+#. tid/11124/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:18"
+msgid "Create a new project"
+msgstr "Tạo một dự án mới"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"19","tags":null}
+#. tid/11221/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:19"
+msgid "Please specify a game to be processed!"
+msgstr "Vui lòng chỉ định một trò chơi để xử lý!"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"20","tags":null}
+#. tid/12334/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:20"
+msgid "Set dev path. Path to the directory of the translated game."
+msgstr "Đặt đường dẫn phát triển. Đường dẫn đến thư mục của trò chơi đã dịch."
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"21","tags":null}
+#. tid/12394/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:21"
+msgid "Play last build"
+msgstr "Chơi bản dựng cuối cùng"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"22","tags":null}
+#. tid/12493/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:22"
+msgid "Open editor"
+msgstr "Mở trình chỉnh sửa"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"23","tags":null}
+#. tid/12592/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:23"
+msgid "Open Wolf RPG Editor online manual"
+msgstr "Mở hướng dẫn trực tuyến Wolf RPG Editor"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"24","tags":null}
+#. tid/12650/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:24"
+msgid "Open Wolf RPG Editor english manual"
+msgstr "Mở sách hướng dẫn tiếng Anh của Wolf RPG Editor"
+
+# {"path":"/addons/wolfJs/wolfJs.js","row":"25","tags":null}
+#. tid/12697/type/StringLiteral
+msgctxt "tpp:/addons/wolfJs/wolfJs.js:25"
+msgid ""
+"Can not find the manual file.\n"
+"Please install Wolf RPG Editor through 3rd Party app installer."
+msgstr ""
+"Không thể tìm thấy tệp sách hướng dẫn.\n"
+"Vui lòng cài đặt Wolf RPG Editor thông qua trình cài đặt ứng dụng bên thứ ba."

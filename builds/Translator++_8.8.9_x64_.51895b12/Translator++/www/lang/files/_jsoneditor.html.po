@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jsoneditor.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/jsoneditor.html","row":"0","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/jsoneditor.html:0"
+msgid "Remove note"
+msgstr "Xóa ghi chú"

@@ -1,0 +1,225 @@
+/**=====LICENSE STATEMENT START=====
+Translator++ 
+CAT (Computer-Assisted Translation) tools and framework to create quality
+translations and localizations efficiently.
+
+Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+body {
+    min-width: 200px;
+    overflow:auto;
+    background-color: var(--gr-lv2);
+}
+
+.column {
+    width: calc(100% - 4px);
+    /*float: left;*/
+    padding-bottom: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    padding:4px 0px 4px 4px;
+}
+.portlet {
+    margin: 0 .3em .3em 0;
+    padding: 0.3em;
+    resize: vertical;
+    overflow: hidden;
+    min-height:76px;
+    padding: 0px;
+    border: 1px solid var(--gr-lv11);
+    box-shadow: var(--main-menu-box-shadow);
+}
+.portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+    /* border-radius: unset; */
+
+}
+
+.portlet:hover .portlet-header {
+    background: var(--menu-button-bg-hover);
+}
+
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+.portlet-content {
+    padding: 0.4em;
+    height: calc(100% - 42px);
+    overflow:auto;
+    white-space: pre-wrap;	
+}
+.portlet-status {
+    padding: 0.5em;
+}  
+.portlet-placeholder {
+    border: 1px dotted var(--gr-lv10);
+    /*margin: 0 1em 1em 0;*/
+    margin: 0 .3em .3em 0;
+    
+    height: 50px;
+}
+
+.portlet-shortcut {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 10px;
+    color: var(--gr-lv1); /*#f1f1f1;*/
+    background: var(--gr-lv14); /*#7a7a7a;*/
+    border-radius: 4px;
+    padding: 1px 2px;
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    margin-top: -6px;
+    cursor: default;
+    /* line-height: 16px; */
+} 
+
+
+.column .portlet { /*one pane*/
+    width:100%;
+    transition:width .2s ease-out;
+}
+
+.column.col2 .portlet {
+    width: calc(50% - 1.1em);
+}
+
+.column.col3 .portlet {
+    width: calc(33.3% - 1.03em);
+}
+.column.col4 .portlet {
+    width: calc(25% - 1.04em);
+}
+
+.column .portlet.disabled {
+    min-height: unset;
+    overflow: hidden;
+    resize: none;
+    height: 24px;
+    opacity:.5;
+}
+.column .portlet.disabled .portlet-header{
+    margin-bottom:0px;
+}
+.column .portlet.disabled .portlet-content {
+    display:none;
+}
+
+.inlineIcon {
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid var(--gr-lv4); /*#c0c0c0;*/
+    padding: 2px 4px;
+    border-radius: 4px;
+    background: var(--gray-300); /** static color both dark and light themes */
+}
+
+.loadingTranslation {
+    text-align: center;
+    font-size: 2em;
+    color: var(--gr-lv4); /**#c0c0c0;	*/
+}
+.loadingTranslation:before {
+    font-family: fontello;
+    content: '\e839';
+}
+
+.portlet .portlet-title {
+    display: block;
+    width: calc(100% - 2em);
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    text-shadow: var(--text-shadow);
+}
+
+.portlet .btn-portlet-toggle {
+    opacity: .7;
+}
+
+.portlet .btn-portlet-toggle:hover {
+    opacity: 1;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 2s infinite linear;
+    
+}	
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .menu-button.column-4 {
+        display:none
+    }
+    
+    .column.col4 .portlet {
+        width: calc(33.3% - 1.03em);
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .menu-button.column-3,
+    .menu-button.column-4
+    {
+        display:none
+    }
+    
+    .column.col3 .portlet,
+    .column.col4 .portlet {
+        width: calc(50% - 1.1em);
+        min-width: 200px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .toolbar {
+        display:none
+    }
+    
+    .column .portlet,
+    .column.col2 .portlet,
+    .column.col3 .portlet,
+    .column.col4 .portlet
+    {
+        width:100%;
+    }
+}
+
+body.inFrame .toolbar {
+    display: none;
+}
+
+body.inFrame .column .portlet {
+    width: 100%;
+}

@@ -1,0 +1,590 @@
+{
+  "Python": {
+    "constructor": {
+      "Python": {
+        "signature": "new Python(venvID, version, options)",
+        "description": "Python constructor.",
+        "parameters": [
+          {
+            "name": "venvID",
+            "type": "string",
+            "description": "The virtual environment ID.",
+            "required": true
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "The Python version.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "The options for Python.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "const python = new Python();\nawait python.runPy(\"path/to/script.py\", \"path/to/cwd\", [\"arg1\", \"arg2\"]);"
+        ],
+        "usage": "new Python(venvID, version, options)"
+      }
+    },
+    "extends": {},
+    "methods": {
+      "py.checkAvailablePackageVersion": {
+        "signature": "checkAvailablePackageVersion(packageName) → Promise.<Array.<string>>",
+        "description": "Checks all available versions of a package from the Python Package Index.\nNOTE: This uses an experimental pip command (pip index versions).",
+        "parameters": [
+          {
+            "name": "packageName",
+            "type": "string",
+            "description": "The name of the package to check.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Array.<string>>",
+          "description": "A promise that resolves to an array of available versions, sorted from newest to oldest. Returns an empty array if the package is not found or an error occurs."
+        },
+        "examples": [],
+        "usage": "py.checkAvailablePackageVersion(packageName) : Promise.<Array.<string>>"
+      },
+      "py.checkLatestPackageVersion": {
+        "signature": "checkLatestPackageVersion(packageName) → Promise.<(string|null)>",
+        "description": "Checks the latest available version of a package from the Python Package Index.",
+        "parameters": [
+          {
+            "name": "packageName",
+            "type": "string",
+            "description": "The name of the package to check.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<(string|null)>",
+          "description": "A promise that resolves to the latest version string, or null if not found."
+        },
+        "examples": [],
+        "usage": "py.checkLatestPackageVersion(packageName) : Promise.<(string|null)>"
+      },
+      "py.getConfig": {
+        "signature": "getConfig(key) → Object",
+        "description": "Get the configuration.",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The key of the configuration.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The configuration."
+        },
+        "examples": [],
+        "usage": "py.getConfig(key) : Object"
+      },
+      "py.getPackageInfo": {
+        "signature": "getPackageInfo(pkg) → Promise.<Object>",
+        "description": "Gets information about a specific Python package.",
+        "parameters": [
+          {
+            "name": "pkg",
+            "type": "string",
+            "description": "The name of the package to get information about.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Object>",
+          "description": "A promise that resolves to an object containing information about the package."
+        },
+        "examples": [
+          "const python = new Python();\nconst info = await python.getPackageInfo(\"translators\");\nconsole.log(info);\n// Output:\n// {\n//     \"Name\": \"translators\",\n//     \"Version\": \"5.9.3\",\n//     \"Summary\": \"Translators is a library that aims to bring free, multiple, enjoyable translations to individuals and students in Python.\",\n//     \"Home-page\": \"https://github.com/uliontse/translators\",\n//     \"Author\": \"UlionTse\",\n//     \"Author-email\": \"uliontse@outlook.com\",\n//     \"License\": \"GPLv3\",\n//     \"Location\": \"e:\\\\dreamsavior\\\\tpp\\\\translator++\\\\python\\\\3.10.5-x64-def\\\\lib\\\\site-packages\",\n//     \"Requires\": \"cryptography, lxml, pathos, PyExecJS, requests, tqdm\",\n//     \"Required-by\": \"\"\n// }"
+        ],
+        "usage": "py.getPackageInfo(pkg) : Promise.<Object>"
+      },
+      "py.init": {
+        "signature": "init()",
+        "description": "Initialize Python class.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "py.init()"
+      },
+      "py.installPackage": {
+        "signature": "installPackage(pkg)",
+        "description": "Installing a package",
+        "parameters": [
+          {
+            "name": "pkg",
+            "type": "String",
+            "description": "Package name",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "await python.installPackage(\"litellm\");\nawait python.installPackage(\"fastapi==0.109.0\");"
+        ],
+        "usage": "py.installPackage(pkg)"
+      },
+      "py.installPython": {
+        "signature": "installPython() → boolean",
+        "description": "Install Python.",
+        "parameters": [],
+        "returns": {
+          "type": "boolean",
+          "description": "True if installation is successful, false otherwise."
+        },
+        "examples": [],
+        "usage": "py.installPython() : boolean"
+      },
+      "py.installRequirements": {
+        "signature": "installRequirements(requirementsFile, force) → Promise.<void>",
+        "description": "Installs the packages from a specific requirements file.",
+        "parameters": [
+          {
+            "name": "requirementsFile",
+            "type": "string",
+            "description": "The path to the requirements file.",
+            "required": true
+          },
+          {
+            "name": "force",
+            "type": "boolean",
+            "description": "Whether to force the installation even if the requirements file is already installed.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<void>",
+          "description": "A promise that resolves when the packages have been installed."
+        },
+        "examples": [],
+        "usage": "py.installRequirements(requirementsFile, force) : Promise.<void>"
+      },
+      "py.isPackage": {
+        "signature": "isPackage(packageName) → Promise.<boolean>",
+        "description": "Checks if a specific Python package is installed.",
+        "parameters": [
+          {
+            "name": "packageName",
+            "type": "string",
+            "description": "The name of the package to check.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<boolean>",
+          "description": "A promise that resolves to true if the package is installed, false otherwise."
+        },
+        "examples": [],
+        "usage": "py.isPackage(packageName) : Promise.<boolean>"
+      },
+      "py.isScript": {
+        "signature": "isScript(scriptName) → Promise.<boolean>",
+        "description": "Checks if a specific script exists.",
+        "parameters": [
+          {
+            "name": "scriptName",
+            "type": "string",
+            "description": "The name of the script to check.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<boolean>",
+          "description": "A promise that resolves to true if the script exists, false otherwise."
+        },
+        "examples": [],
+        "usage": "py.isScript(scriptName) : Promise.<boolean>"
+      },
+      "py.listPackages": {
+        "signature": "listPackages() → Promise.<Array>",
+        "description": "Lists all installed Python packages.",
+        "parameters": [],
+        "returns": {
+          "type": "Promise.<Array>",
+          "description": "A promise that resolves to an array of installed packages."
+        },
+        "examples": [],
+        "usage": "py.listPackages() : Promise.<Array>"
+      },
+      "py.loadConfig": {
+        "signature": "loadConfig() → Object",
+        "description": "Load the configuration.",
+        "parameters": [],
+        "returns": {
+          "type": "Object",
+          "description": "The configuration."
+        },
+        "examples": [],
+        "usage": "py.loadConfig() : Object"
+      },
+      "py.off": {
+        "signature": "off(evt, fn)",
+        "description": "Removes an event\nEqual to $(document).off()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "trans.off('transLoaded', (e, opt)=> {\n\t// do something\n})"
+        ],
+        "usage": "py.off(evt, fn)"
+      },
+      "py.on": {
+        "signature": "on(evt, fn)",
+        "description": "Create a new event with JQuery eventing convenience\nEqual to $(document).on()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "py.on(evt, fn)"
+      },
+      "py.one": {
+        "signature": "one(evt, fn)",
+        "description": "Run the event once\nTrigger an event and immediately removes it\nEqual to $(document).one()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "py.one(evt, fn)"
+      },
+      "py.processWith": {
+        "signature": "processWith(processName, value) → *",
+        "description": "Add a custom process to a value.",
+        "parameters": [
+          {
+            "name": "processName",
+            "type": "String",
+            "description": "Name of the process",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value to be processed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "By default will return value as is"
+        },
+        "examples": [],
+        "usage": "py.processWith(processName, value) : *"
+      },
+      "py.rejectState": {
+        "signature": "rejectState(state, error?)",
+        "description": "Reject a state",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          },
+          {
+            "name": "error",
+            "type": "String",
+            "description": "Error message",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "py.rejectState(state, error)"
+      },
+      "py.requirementIsInstalled": {
+        "signature": "requirementIsInstalled(requirementsFile) → boolean",
+        "description": "Checks if a specific requirements file is installed.",
+        "parameters": [
+          {
+            "name": "requirementsFile",
+            "type": "string",
+            "description": "The path to the requirements file.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "boolean",
+          "description": "True if the requirements file is installed, false otherwise."
+        },
+        "examples": [],
+        "usage": "py.requirementIsInstalled(requirementsFile) : boolean"
+      },
+      "py.resolveState": {
+        "signature": "resolveState(state, arg?)",
+        "description": "Resolve a state",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          },
+          {
+            "name": "arg",
+            "type": "*",
+            "description": "Arguments to be passed to until",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "py.resolveState(state, arg)"
+      },
+      "py.runPy": {
+        "signature": "runPy(pathToPy, cwd?, args?) → String",
+        "description": "Run a python script and return the result",
+        "parameters": [
+          {
+            "name": "pathToPy",
+            "type": "String",
+            "description": "Path to the python script",
+            "required": true
+          },
+          {
+            "name": "cwd",
+            "type": "String",
+            "description": "Directory where the python script will be called",
+            "required": false
+          },
+          {
+            "name": "args",
+            "type": "Array.<String>",
+            "description": "Arguments to be passed to the script",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Output of the execution"
+        },
+        "examples": [],
+        "usage": "py.runPy(pathToPy, cwd, args) : String"
+      },
+      "py.runPyDetached": {
+        "signature": "runPyDetached(pathToPy, cwd?, args?) → String",
+        "description": "Run a python script as a new shell window\nAll paths must be wrapped in double quotes",
+        "parameters": [
+          {
+            "name": "pathToPy",
+            "type": "String",
+            "description": "Path to the python script",
+            "required": true
+          },
+          {
+            "name": "cwd",
+            "type": "String",
+            "description": "Directory where the python script will be called",
+            "required": false
+          },
+          {
+            "name": "args",
+            "type": "Array.<String>",
+            "description": "Arguments to be passed to the script",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Output of the execution"
+        },
+        "examples": [],
+        "usage": "py.runPyDetached(pathToPy, cwd, args) : String"
+      },
+      "py.saveConfig": {
+        "signature": "saveConfig() → Object",
+        "description": "Save the configuration.",
+        "parameters": [],
+        "returns": {
+          "type": "Object",
+          "description": "The configuration."
+        },
+        "examples": [],
+        "usage": "py.saveConfig() : Object"
+      },
+      "py.setConfig": {
+        "signature": "setConfig(key, value)",
+        "description": "Set the configuration.",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The key of the configuration.",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "any",
+            "description": "The value to set.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "py.setConfig(key, value)"
+      },
+      "py.trigger": {
+        "signature": "trigger(evt, fn)",
+        "description": "Trigger an event\nEqual to $(document).trigger()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "py.trigger(evt, fn)"
+      },
+      "py.uninstallPackage": {
+        "signature": "uninstallPackage(pkg) → Promise.<void>",
+        "description": "Uninstalls a specific Python package.",
+        "parameters": [
+          {
+            "name": "pkg",
+            "type": "string|Array.<string>",
+            "description": "The name of the package(s) to uninstall.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<void>",
+          "description": "A promise that resolves when the package(s) have been uninstalled."
+        },
+        "examples": [],
+        "usage": "py.uninstallPackage(pkg) : Promise.<void>"
+      },
+      "py.uninstallRequirements": {
+        "signature": "uninstallRequirements(requirementsFile) → Promise.<void>",
+        "description": "Uninstalls the packages from a specific requirements file.",
+        "parameters": [
+          {
+            "name": "requirementsFile",
+            "type": "string",
+            "description": "The path to the requirements file.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<void>",
+          "description": "A promise that resolves when the packages have been uninstalled."
+        },
+        "examples": [],
+        "usage": "py.uninstallRequirements(requirementsFile) : Promise.<void>"
+      },
+      "py.until": {
+        "signature": "async until(state) → Promise.<*>",
+        "description": "State monitor. Wait until a state is resolved.\nWill wait until resolveState is called.\nWill immidiately executed if resolveState is already called",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<*>",
+          "description": "Returns any variables passed on resolveState"
+        },
+        "examples": [
+          "await basicEventHandler.until(\"ready\");"
+        ],
+        "usage": "py.until(state) : Promise.<*>"
+      },
+      "py..downloader": {
+        "signature": "(static) downloader(from, to) → Promise.<string>",
+        "description": "Downloads a file using Python.",
+        "parameters": [
+          {
+            "name": "from",
+            "type": "string",
+            "description": "The URL of the file to download.",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "The path where to save the downloaded file.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise that resolves to the path of the downloaded file."
+        },
+        "examples": [],
+        "usage": "py..downloader(from, to) : Promise.<string>"
+      }
+    },
+    "type definitions": {
+      "Event": {
+        "signature": "Event",
+        "description": "BasicEventHandler's event. This itself extends the standard Event API for html element. So, you can use the default element's event such as click, focus, blur, etc.\nMethods that uses Event are: on(), off(), one(), trigger()",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "Event"
+      },
+      "State": {
+        "signature": "State",
+        "description": "Javascript's Promise type event handler.\nThe state will switch from off to on once. And after that, it will stay in that state forever, so any further until() call will be resolved immidiately.\nMethods that uses Event are: until(), resolveState(), rejectState()",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "State"
+      }
+    }
+  }
+}

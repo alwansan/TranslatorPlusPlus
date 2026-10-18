@@ -1,0 +1,14 @@
+{
+  "BC": {
+    "constructor": {
+      "BC": {
+        "signature": "new BC()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new BC()"
+      }
+    }
+  }
+}

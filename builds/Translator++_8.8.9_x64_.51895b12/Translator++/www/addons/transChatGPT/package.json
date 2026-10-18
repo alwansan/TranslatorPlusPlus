@@ -1,0 +1,24 @@
+{
+    "name": "transChatGPT",
+    "title": "OpenAI API Translator",
+    "description": "Previously named ChatGPT for Translator++. Renamed because now it supports major OpenAI-compatible APIs, such as ChatGPT, DeepSeek, Google Gemini, XAi (Grok), etc.",
+    "main": "chatGPT.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.56",
+    "author": {
+        "name": "Dreamsavior",
+        "email": "dreamsavior@gmail.com"
+    },
+    "autoload": false,
+    "icon": "chatgpt-icon.png",
+    "load": [
+        "options.js",
+        "utility.js",
+        "completion.js",
+        "chatGPT.js"
+    ],
+    "minimumVersion": "8.8.8",
+    "dependencies": {
+        "openai": "^3.3.0"
+    }
+}

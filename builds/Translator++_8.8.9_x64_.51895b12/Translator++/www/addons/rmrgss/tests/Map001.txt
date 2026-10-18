@@ -1,0 +1,121 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+
+> END STRING
+
+> BEGIN STRING
+Hello world \# escaped comment
+Hello world2
+Hello world3
+> CONTEXT: Map001/events/1/pages/0/0/Dialogue
+Translated Hello world
+Translated Hello world2
+Translated Hello world3
+> END STRING
+
+> BEGIN STRING
+Scrolling text 1
+Scrolling text 2
+Scrolling text 3
+Scrolling text 4
+Scrolling text 5
+Scrolling text 6
+Scrolling text 7
+Scrolling text 8
+Scrolling text 9
+Scrolling text 10
+Scrolling text 11
+Scrolling text 12
+Scrolling text 13
+Scrolling text 14
+> CONTEXT: Map001/events/1/pages/0/10/ScrollingText
+Translated Scrolling text 1
+Translated Scrolling text 2
+Translated Scrolling text 3
+Translated Scrolling text 4
+Scrolling text 5
+Scrolling text 6
+Scrolling text 7
+Scrolling text 8
+Scrolling text 9
+Scrolling text 10
+Scrolling text 11
+Scrolling text 12
+Scrolling text 13
+Scrolling text 14
+> END STRING
+
+> BEGIN STRING
+Some comment
+Comment Line 2
+Comment Line 3
+Comment Line 4
+Comment Line 5
+Comment Line 6
+> CONTEXT: Map001/events/1/pages/0/4/Comment < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Map note 01
+> CONTEXT: Map001/note/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+EV001
+> CONTEXT: Map001/events/1/name/ < UNTRANSLATED
+> CONTEXT: Map003/events/1/name/ < UNTRANSLATED
+translated in context 2
+> CONTEXT: Map002/events/1/name/ < UNTRANSLATED
+> CONTEXT: Map004/events/1/name/ < UNTRANSLATED
+translated in context 1
+> END STRING
+
+> BEGIN STRING
+$win2 = Window_Base.new(181, 125, 48, 36)
+$win2.opacity = 0
+$win2.contents.font.size = 12
+> CONTEXT: Commonevents/13/109/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/13/478/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/19/110/EventScript < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+if $va[105] == 0
+ tex0 = "main_otoko_skill_con0"
+ else tex0 = "main_otoko_skill_con1_\#{$va[105]}"
+end
+$il[50].show(tex0,0,283,55,100,100,255,0)
+> CONTEXT: Commonevents/13/77/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/17/73/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/20/85/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/20/591/EventScript < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+if $va[67] == 0
+ tex0 = "main_mikami_skillcon0a"
+ else tex0 = "main_mikami_skillcon3_\#{$va[67]}"
+end
+$il[52].show(tex0,0,283,165,100,100,255,0)
+> CONTEXT: Commonevents/13/589/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/19/221/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/19/1334/EventScript < UNTRANSLATED
+
+> END STRING
+
+
+> BEGIN STRING
+if $va[67] == 0
+ tex3 = "main_mikami_skillcon0a"
+ else tex3 = "main_mikami_skillcon3_\#{$va[67]}"
+end
+$il[52].show(tex0,0,283,165,100,100,255,0)
+> CONTEXT: Commonevents/13/5890/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/19/2210/EventScript < UNTRANSLATED
+> CONTEXT: Commonevents/19/13340/EventScript < UNTRANSLATED
+
+> END STRING

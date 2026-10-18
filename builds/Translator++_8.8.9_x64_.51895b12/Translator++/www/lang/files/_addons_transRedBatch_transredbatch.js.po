@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: transredbatch.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transRedBatch/transredbatch.js","row":"0","tags":null}
+#. tid/2002/type/StringLiteral
+msgctxt "tpp:/addons/transRedBatch/transredbatch.js:0"
+msgid "Are you sure you want to abort?"
+msgstr "Bạn có chắc chắn muốn hủy bỏ?"
+
+# {"path":"/addons/transRedBatch/transredbatch.js","row":"1","tags":null}
+#. tid/2070/type/StringLiteral
+msgctxt "tpp:/addons/transRedBatch/transredbatch.js:1"
+msgid ""
+"Process paused!\n"
+"Press OK to continue!"
+msgstr ""
+"Quá trình tạm dừng!\n"
+"Nhấn OK để tiếp tục!"

@@ -1,0 +1,364 @@
+{
+  "ui": {
+    "constructor": {
+      "ui": {
+        "signature": "ui",
+        "description": "Handling user interface stuff",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new ui()"
+      }
+    },
+    "classes": {},
+    "methods": {
+      "ui..bumpGridScroll": {
+        "signature": "(static) bumpGridScroll()",
+        "description": "Add 20% to the grid's scroll height",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..bumpGridScroll()"
+      },
+      "ui..disableButtons": {
+        "signature": "(static) disableButtons()",
+        "description": "Disable buttons when no project is currently oppened",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..disableButtons()"
+      },
+      "ui..drawWordWrapByTagField": {
+        "signature": "(static) drawWordWrapByTagField(options)",
+        "description": "Create wordWrapperByTag DOM element",
+        "parameters": [
+          {
+            "name": "options",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..drawWordWrapByTagField(options)"
+      },
+      "ui..log": {
+        "signature": "(static) log()",
+        "description": "Log a message to the console",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..log()"
+      },
+      "ui..off": {
+        "signature": "(static) off(evt, fn)",
+        "description": "Removes an event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "ui.off('transLoaded', (e, opt)=> {\n\t// do something\n})"
+        ],
+        "usage": "ui..off(evt, fn)"
+      },
+      "ui..on": {
+        "signature": "(static) on(evt, fn)",
+        "description": "Create a new event with JQuery eventing convenience",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "ui.on('transLoaded', (e, opt)=> {\n\t// do something\n})"
+        ],
+        "usage": "ui..on(evt, fn)"
+      },
+      "ui..onDOMReady": {
+        "signature": "(static) onDOMReady(fn)",
+        "description": "This function is called when the DOM is ready. It takes a function as a parameter and calls it immediately if the DOM is already available.\nIf the DOM is not available, it adds an event listener to call the function when the DOMContentLoaded event is fired.",
+        "parameters": [
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "The function to be called when the DOM is ready.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..onDOMReady(fn)"
+      },
+      "ui..onReady": {
+        "signature": "(static) onReady(onReadyEvent)",
+        "description": "This function is called when the UI is ready. It takes a function as a parameter and adds it to the onReadyPool if the UI is not initialized.\nIf the UI is already initialized, it calls all the functions in the onReadyPool and then clears the pool.",
+        "parameters": [
+          {
+            "name": "onReadyEvent",
+            "type": "function",
+            "description": "The function to be called when the UI is ready.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..onReady(onReadyEvent)"
+      },
+      "ui..one": {
+        "signature": "(static) one(evt, fn)",
+        "description": "Run the event once\nTrigger an event and immediately removes it",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..one(evt, fn)"
+      },
+      "ui..openImportTrans": {
+        "signature": "(static) openImportTrans(transFile, options?)",
+        "description": "Open import translator dialog window",
+        "parameters": [
+          {
+            "name": "transFile",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "options",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..openImportTrans(transFile, options)"
+      },
+      "ui..openOptionsWindow": {
+        "signature": "(static) openOptionsWindow(options)",
+        "description": "Open Options Window\nCan handle both nwjs v2 and legacy",
+        "parameters": [
+          {
+            "name": "optionsfocusmenufind",
+            "type": "ObjectStringStringString",
+            "description": "Find text in the opened menu",
+            "required": true
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "focusmenufind",
+            "type": "StringStringString",
+            "description": "Find text in the opened menu",
+            "required": true
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "menu",
+            "type": "String",
+            "description": "Menu to open",
+            "required": true
+          },
+          {
+            "name": "find",
+            "type": "String",
+            "description": "Find text in the opened menu",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "ui.openOptionsWindow({\n    focus: {\n        menu: \"chatGPT\",\n        find: \"Code Escaping Algorithm\"\n    }\n})"
+        ],
+        "usage": "ui..openOptionsWindow(optionsfocusmenufind, , focusmenufind, , menu, find)"
+      },
+      "ui..renderExternalLinks": {
+        "signature": "(static) renderExternalLinks(html)",
+        "description": "Render HTML element to open external link in default browser.",
+        "parameters": [
+          {
+            "name": "html",
+            "type": "jQuery",
+            "description": "jQuery object to be rendered",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..renderExternalLinks(html)"
+      },
+      "ui..saveAs": {
+        "signature": "(async, static) saveAs(filePath) → Promise.<string>",
+        "description": "Open a modal and blocking save as dialog",
+        "parameters": [
+          {
+            "name": "filePath",
+            "type": "String",
+            "description": "Default path of the file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "Path of the file. Empty when canceled"
+        },
+        "examples": [],
+        "usage": "ui..saveAs(filePath) : Promise.<string>"
+      },
+      "ui..saveAsTPP": {
+        "signature": "(async, static) saveAsTPP(filePath) → Promise.<string>",
+        "description": "Open a modal and blocking save as dialog",
+        "parameters": [
+          {
+            "name": "filePath",
+            "type": "String",
+            "description": "Default path of the file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "Path of the file. Empty when canceled"
+        },
+        "examples": [],
+        "usage": "ui..saveAsTPP(filePath) : Promise.<string>"
+      },
+      "ui..setCurrentCellText": {
+        "signature": "(static) setCurrentCellText(value, trigger)",
+        "description": "Set Current Cell Text",
+        "parameters": [
+          {
+            "name": "value",
+            "type": "String",
+            "description": "New value",
+            "required": true
+          },
+          {
+            "name": "trigger",
+            "type": "Boolean",
+            "description": "Immidiately trigger change event",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..setCurrentCellText(value, trigger)"
+      },
+      "ui..trigger": {
+        "signature": "(static) trigger(evt, fn)",
+        "description": "Trigger an event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "ui..trigger(evt, fn)"
+      }
+    },
+    "events": {
+      "event:busyOverlayClosed": {
+        "signature": "busyOverlayClosed",
+        "description": "Triggered when busyOverlay closed",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:busyOverlayClosed"
+      },
+      "event:busyOverlayOpened": {
+        "signature": "busyOverlayOpened",
+        "description": "Triggered when busyOverlay opened",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:busyOverlayOpened"
+      },
+      "event:dialogRowPropertiesOpened": {
+        "signature": "dialogRowPropertiesOpened",
+        "description": "Triggered when dialog Row Properties Opened",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:dialogRowPropertiesOpened"
+      },
+      "event:loadingScreenIsClosed": {
+        "signature": "loadingScreenIsClosed",
+        "description": "Triggered when loading console closed",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:loadingScreenIsClosed"
+      },
+      "event:optionsWindowClosed": {
+        "signature": "optionsWindowClosed",
+        "description": "Triggered when option window is closed",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:optionsWindowClosed"
+      },
+      "event:optionsWindowOpened": {
+        "signature": "optionsWindowOpened",
+        "description": "Triggered when option window is opened",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:optionsWindowOpened"
+      }
+    }
+  }
+}

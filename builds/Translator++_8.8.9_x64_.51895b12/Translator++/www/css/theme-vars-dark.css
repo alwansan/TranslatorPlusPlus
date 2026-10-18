@@ -1,0 +1,592 @@
+/* var init - DARK THEME */
+:root {
+    /* general */
+    --postit-yellow: #653000; /* Darker yellow for bg, text on it will be light */
+
+    --left-pane-tooltip-window-bg: var(--postit-yellow);
+    /* BG color */
+    --bg-highlighted: var(--blue-500); /* #007fff - often good to keep accents vibrant */
+    
+    --bg-alt-1: var(--gr-lv3); /* Darker alternative */
+    --bg-row-even: var(--gr-lv1); /* Darker */
+    --bg-row-even-disabled: var(--gr-lv2); /* Slightly less dark */
+    --bg-row-odd: var(--gr-lv0); /* Darkest main bg for rows */
+
+    --bg-medium-dark: var(--gr-lv16); /* This was already dark, so it becomes the lightest for contrast */
+    --bg-alert-box: var(--yellow-900); /* Dark yellow bg for alerts */
+
+    --bg-gradient-1: linear-gradient(to bottom, var(--gr-lv2) 0%,var(--gr-lv1) 50%,var(--gr-lv0) 51%,var(--gr-lv2) 100%);
+    --bg-gradient-2: linear-gradient(to bottom, var(--gr-lv3) 0%,var(--gr-lv2) 50%,var(--gr-lv1) 51%,var(--gr-lv3) 100%);
+    --bg-gradient-3: linear-gradient(to bottom, var(--blue-800) 0%,var(--blue-700) 50%,var(--blue-900) 51%,var(--blue-800) 100%);
+
+    --box-shadow-color: rgba(0,0,0,0.7); /* Stronger dark shadow for depth on dark */
+
+    /* Inverted Gray Scale for Dark Theme */
+    --gr-lv0: #121212;  /* Darkest Background */
+    --gr-lv1: #1e1e1e;  /* Common Background */
+    --gr-lv2: #2c2c2c;  /* Slightly Lighter Background / Darker Element BG */
+    --gr-lv3: #3a3a3a;
+    --gr-lv4: #484848;  /* Borders, dividers */
+    --gr-lv5: #565656;
+    --gr-lv6: #646464;  /* Medium-dark UI elements, less important text */
+    --gr-lv7: #727272;
+    --gr-lv8: #808080;  /* Dimmed text, icons */
+    --gr-lv9: #9e9e9e;
+    --gr-lv10: #b0b0b0; /* Secondary text */
+    --gr-lv11: #c2c2c2;
+    --gr-lv12: #d4d4d4; /* Primary text */
+    --gr-lv13: #e0e0e0;
+    --gr-lv14: #eeeeee; /* Brighter text / highlights */
+    --gr-lv15: #f5f5f5; /* Almost white text */
+    --gr-lv16: #ffffff; /* Pure white text / icons */
+
+    /** left panel */
+    --progress-completed-color: rgb(167 255 231);
+    --progress-incompleted-color: rgb(255 155 108);
+    --left-panel-toggle-bg: url(../img/corner-tab-dark.png);
+
+
+    /*toolbars*/
+    --toolbar-bg:linear-gradient(to bottom, var(--gr-lv3) 0%,var(--gr-lv2) 50%,var(--gr-lv1) 51%,var(--gr-lv3) 100%);
+    --toolbar-border-bottom:1px inset var(--gr-lv0); 
+    --toolbar-text-shadow:1px 1px 0px rgba(0,0,0,0.2); /* Subtle dark shadow for light text */
+
+    /*menu*/
+    --menu-button-border : 1px solid var(--gr-lv5); 
+    --menu-button-border-hover : 1px solid var(--gr-lv7); 
+    --menu-button-bg-hover : linear-gradient(to bottom, var(--gr-lv4) 0%,var(--gr-lv3) 50%,var(--gr-lv2) 51%,var(--gr-lv4) 100%);	
+    --menu-button-bg-checked: linear-gradient(to bottom, var(--gr-lv5) 0%,var(--gr-lv4) 47%,var(--gr-lv3) 100%);
+    --menu-button-bg-active:linear-gradient(to bottom, var(--gr-lv5) 0%,var(--gr-lv4) 47%,var(--gr-lv3) 100%);
+
+    --menu-button2-border: 1px solid var(--gr-lv7);
+    --menu-button2-border-checked: 1px solid var(--orange-400); 
+    --menu-button2-border-active: 1px solid var(--gr-lv15); 
+    --menu-button2-border-hover: 1px solid var(--gr-lv9); 
+
+    --main-menu-bg: linear-gradient(to bottom, var(--gr-lv2) 0%,var(--gr-lv1) 49%,var(--gr-lv1) 49%,var(--gr-lv2) 50%,var(--gr-lv3) 100%);
+    --main-menu-bg-hover: linear-gradient(to bottom, var(--gr-lv3) 0%,var(--gr-lv2) 49%,var(--gr-lv2) 49%,var(--gr-lv3) 50%,var(--purple-700) 100%);
+    --main-menu-bg-active:linear-gradient(to bottom, var(--gr-lv3) 0%,var(--gr-lv2) 49%,var(--gr-lv2) 49%,var(--gr-lv3) 50%,var(--purple-700) 100%);
+    --main-menu-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.65);
+    --main-menu-box-shadow2: 0px 2px 8px 0px rgba(0,0,0,0.85);
+    --main-menu-border-color: var(--gr-lv1);
+
+    --infoblock-bg: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url(/www/img/info.png); /* Add filter:invert(1) hue-rotate(180deg) to img if needed */
+    --infoblock-bg-solid: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(/www/img/info.png), var(--gr-lv1);
+    --attentionblock-bg : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(/www/img/bt_attention.png);
+    --warningblock-bg : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(/www/img/warning.png);
+    --warningblock-bg-solid : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(/www/img/warning.png), var(--gr-lv1);
+    --errorblock-bg : linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(/www/img/remove.png);
+
+    --drag-select-hover-bg: var(--blue-900); /* Darker blue */
+    --object-selector-checked-bg: var(--blue-800); /* Darker blue */
+
+    /*Footer*/
+    --footer-bg: var(--gr-lv1); 
+
+    /* GRID */
+    --grid-bg: var(--gr-lv0); 
+    --grid-disabled-cell-bg: var(--gr-lv1); 
+    --grid-active-cell-bg: #212131; 
+    --grid-highlight-border: var(--blue-400); /* Slightly brighter blue for better visibility */
+    --grid-comment-bg: var(--yellow-700); 
+
+    --text-color-dark: var(--gr-lv15); /* Light text */
+    --text-color: var(--gr-lv12);     /* Main light text */
+    --text-color2: var(--gr-lv10);    /* Secondary light text */
+    --text-color3: var(--gr-lv8);     /* Dimmer light text */
+    --text-color-secondary: var(--gr-lv9);
+    --text-color-disabled: var(--gr-lv9);
+    --text-color-placeholder: var(--gr-lv7);
+    --text-color-highlighted: var(--gr-lv14); /* Usually white or off-white for highlighted elements */
+    --text-color-info: var(--gr-lv11);
+    --text-dark-bg: var(--gr-lv2); /* This was "text FOR dark backgrounds", now it's dark text ON a potentially lighter element */
+    --text-romaji: var(--blue-300); /* Brighter blue for dark bg */
+    --text-link: var(--blue-400);   /* Brighter blue */
+    --text-button: var(--gr-lv15);  /* Light text for buttons */
+    --text-badge: var(--gr-lv0);    /* Text on badges (often dark if badge is light, or vice-versa) */
+
+    --text-shadow : 1px 1px 0px rgba(0,0,0,0.1); /* Subtle dark shadow */
+    --text-shadow2 : 1px 0px 0px rgba(0,0,0,0.1);
+
+    /* New Variables from light theme, adapted for dark */
+    --input-error-bg: var(--red-900);
+    --input-warning-bg: var(--yellow-900);
+    --input-readonly-bg: var(--gr-lv1);
+    --progress-stripe-color: rgba(255, 255, 255, .08);
+    --progress-gradient-highlight: rgba(255, 255, 255, .1);
+    --progress-gradient-shadow: rgba(0, 0, 0, .2);
+    --progress-bar-start-color: var(--cyan-500); /* Keep vibrant or adjust */
+    --progress-bar-end-color: var(--pink-500);   /* Keep vibrant or adjust */
+    --progress-value-text-color: var(--gr-lv15);
+    --input-autofill-bg: var(--blue-900); /* Darker blueish */
+    --input-autofill-text-color: var(--gr-lv15);
+    --scrollbar-thumb-bg: var(--gr-lv6);
+    --scrollbar-thumb-hover-bg: var(--gr-lv7);
+    --selection-text-shadow-color: rgba(0,0,0,0.5); /* Dark shadow for light selected text */
+    --panel-left-item-hover-text-color: var(--gr-lv16);
+    --panel-left-item-hover-bg: var(--gr-lv3);
+    --context-menu-active-shadow-color: var(--blue-400); /* Keep accent */
+    --list-header-bg: var(--gr-lv4);
+    --panel-left-item-selected-bg: var(--primary-600); /* Darker selected blue */
+    --marker-text-color: var(--gr-lv14);
+    --percent-badge-text-color: var(--gr-lv1);
+    --percent-badge-bg: var(--gr-lv12);
+    --percent-badge-hover-bg: var(--gr-lv14);
+    --percent-badge-hover-text-color: var(--gr-lv0);
+    --percent-badge-completed-bg: var(--green-600);
+    --progress-left-color: var(--blue-400);
+    --progress-right-color: var(--red-400);
+    --group-header-bg: var(--gr-lv2); /* Light text on dark header */
+    --bottom-toolbar-bg: var(--gr-lv2);
+    --bottom-toolbar-icon-hover-border: var(--gr-lv5);
+    --table-mc-icon-color: var(--gr-lv9);
+    --table-tc-icon-color: var(--red-400);
+    --button-group-hover-bg: linear-gradient(to bottom, var(--gr-lv3) 0%,var(--gr-lv1) 100%);
+    --button-group-outline-hover-color: var(--gr-lv5);
+    --button-active-special-border: var(--orange-400);
+    --pathinfo-icon-hover-color: var(--blue-300);
+    --cell-info-ctrl-button-bg: var(--menu-button-bg-hover);
+    --dropdown-shadow-color: rgba(0,0,0,.5);
+    --overlay-bg: rgba(0,0,0,.75); /* Darker overlay */
+    --overlay-bg-darker: rgba(0,0,0,.9);
+    --console-stderr-color: var(--red-300);
+    --console-warning-color: var(--yellow-300);
+    --console-info-color: var(--blue-300);
+    --console-success-color: var(--green-300);
+    --loading-info-bg: rgba(30,30,30,.8);
+    --loading-info-border-color: var(--gr-lv9);
+    --loading-info-color: #c0c0c0;
+    --loading-thread-id-color: var(--cyan-300);
+    --loading-bar-border-color: var(--gr-lv9);
+    --loading-bar-bg: rgba(0,0,0,.3);
+    --loading-progress-gradient: linear-gradient(90deg, var(--yellow-400), var(--pink-400) 17%, var(--purple-400) 34%, var(--cyan-400) 51%, var(--yellow-400) 68%, var(--pink-400) 85%, var(--purple-400));
+    --loading-progress-stopped-bg: var(--green-500);
+    --loading-progress-failed-bg: var(--red-500);
+    --loading-progress-warning-bg: var(--orange-500);
+    --loading-bar-overlay-text-shadow-color: var(--gr-lv0);
+    --loading-button-border-color: var(--gr-lv10);
+    --loading-button-hover-border-color: var(--orange-300);
+    --loading-button-hover-bg: linear-gradient(to bottom, var(--orange-700) 0%,var(--orange-600) 50%,var(--orange-500) 51%,var(--orange-600) 100%);
+    --loading-button-active-border-color: var(--blue-300);
+    --loading-button-active-bg: linear-gradient(top, var(--blue-700) 0%,var(--blue-600) 50%,var(--blue-500) 51%,var(--blue-600) 100%);
+    --tray-icon-notice-color: var(--blue-400);
+    --tray-icon-warning-color: var(--orange-400);
+    --tray-icon-error-color: var(--red-400);
+    --intro-close-icon-color: var(--gr-lv10);
+    --intro-item-text-color: var(--gr-lv12);
+    --intro-item-border-color: var(--gr-lv8);
+    --intro-item-hover-text-color: var(--gr-lv16);
+    --intro-item-hover-bg: var(--gr-lv3);
+    --intro-item-hover-border-color: var(--gr-lv5);
+    --tips-text-color: var(--yellow-300);
+    --tips-link-color: var(--blue-300);
+    --tips-link-hover-color: var(--blue-200);
+    --tips-navigator-link-color: var(--gr-lv10);
+    --loader-dot-color: var(--cyan-300);
+    --text-slider-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+    --grid-disabler-bg: rgba(0,0,0,.7);
+    --info-block-border-top-color: var(--blue-500);
+    --attention-block-border-top-color: var(--yellow-500);
+    --error-block-border-top-color: var(--red-500);
+    --field-info-icon-color: var(--bg-highlighted);
+    --field-info-attention-icon-color: var(--orange-400);
+    --field-info-cancel-icon-color: var(--red-400);
+    --resize-handle-hover-bg: rgba(128,128,255,.3);
+    --status-red: var(--red-400);
+    --status-green: var(--green-400);
+    --status-yellow: var(--yellow-400);
+    --status-blue: var(--blue-400);
+    --status-gold: var(--yellow-500); /* gold is a type of yellow */
+    --status-darkyellow: var(--orange-400);
+    --status-green-bright: var(--green-300);
+    --status-red-dark: var(--red-300);
+    --flipswitch-off-color: var(--gr-lv8);
+    --flipswitch-on-color: var(--status-green);
+    --color-tag-shadow-color: rgba(255,255,255,0.2);
+    --color-tag-checked-shadow-color: var(--cyan-300);
+    --color-tag-before-bg: rgba(0,0,0,0.3);
+    --mark-cross-color: var(--red-300);
+    --mark-check-color: var(--green-300);
+    --mark-unknown-color: var(--blue-300);
+    --comment-textarea-border-color: var(--yellow-500);
+    --comment-cell-triangle-color: var(--status-red);
+    --tooltip-shadow-color: var(--box-shadow-color);
+    --release-category-color: var(--blue-300);
+    --release-category-beta-color: var(--gr-lv14);
+    --release-category-public-color: var(--green-300);
+    --update-type-text-color: var(--gr-lv1);
+    --update-type-default-bg: var(--gr-lv10);
+    --update-type-fix-bg: var(--blue-700);
+    --update-type-update-bg: var(--yellow-700);
+    --update-type-add-bg: var(--green-700);
+    --update-type-remove-bg: var(--gr-lv8);
+    --update-type-chore-bg: var(--orange-800);
+    --update-type-deprecated-bg: var(--red-800);
+
+    /* For options.css specific elements */
+    --input-error-border-color: var(--red-500);
+    /* --input-error-bg is already var(--red-900) */
+    /* --input-error-text-color: var(--gr-lv14); for light text on dark error bg - already defined in general */
+
+    --text-color-discord-red: var(--red-300); /* Brighter red for dark theme */
+
+    --btn-addon-install-bg-gradient: linear-gradient(to bottom, var(--green-600) 0%,var(--green-500) 50%,var(--green-700) 51%,var(--green-600) 100%);
+    --btn-addon-install-border-color: var(--green-400);
+    --btn-addon-install-text-color: var(--gr-lv15); /* Light text for dark theme */
+    --btn-addon-uninstall-bg-gradient: linear-gradient(to bottom, var(--red-600) 0%,var(--red-500) 50%,var(--red-700) 51%,var(--red-600) 100%);
+    --btn-addon-uninstall-border-color: var(--red-400);
+    --btn-addon-uninstall-text-color: var(--gr-lv15); /* Light text */
+
+    --addon-desc-text-color: var(--indigo-200); /* Light purplish blue */
+
+    --user-level-border-color: var(--orange-400);
+    --user-level-bg-color: var(--orange-700); /* Darker bg for light text */
+    --user-level-text-color: var(--gr-lv15);
+
+    --user-points-border-color: var(--indigo-400);
+    --user-points-bg-color: var(--indigo-700); /* Darker bg for light text */
+    --user-points-text-color: var(--gr-lv15);
+
+    --custom-escaper-highlight-bg: var(--blue-400); /* Brighter blue for visibility */
+
+    --config-control-border-dotted: var(--gr-lv4); /* #484848 */
+    --config-control-border-solid: currentColor;
+
+    --btn-danger-bg: var(--red-600);
+    --btn-danger-border: var(--red-700);
+    --btn-danger-text-color: var(--gr-lv15);
+    --btn-danger-hover-bg: var(--red-700);
+    --btn-danger-hover-border: var(--red-800);
+    --btn-danger-hover-text-color: var(--gr-lv15);
+
+    --horiz-tab-menu-selected-bg: linear-gradient(to bottom, var(--gr-lv3) 0%, var(--gr-lv1) 50%, var(--gr-lv1) 100%); /* Dark gradient for dark theme */
+    --horiz-tab-menu-selected-border-top-color: var(--status-red); /* var(--red-400) */
+
+    --table-header-bg: var(--gr-lv10); /* #b0b0b0 light gray */
+    --table-header-text-color: var(--gr-lv0); /* #121212 dark text */
+    --table-row-even-bg: var(--gr-lv2); /* #2c2c2c */
+
+    /** bootstrap custom variables */
+    /* Button Default States */
+    --btn-default-border-color: var(--gr-lv4); /* Original: #ccc */
+    --btn-default-active-bg: var(--gr-lv2); /* Original: #e6e6e6 */
+    --btn-default-active-border: var(--gr-lv5); /* Original: #adadad */
+    --btn-default-hover-active-bg: var(--gr-lv3); /* Original: #d4d4d4 */
+    --btn-default-hover-active-border: var(--gr-lv7); /* Original: #8c8c8c */
+
+    /* Button Success States */
+    --btn-success-bg: #5cb85c;
+    --btn-success-border: #4cae4c;
+    --btn-success-active-bg: #449d44;
+    --btn-success-active-border: #398439;
+    --btn-success-hover-active-bg: var(--btn-success-active-border); /* Original: #398439, same as active border */
+    --btn-success-hover-active-border: #255625;
+
+    /* Nav Tabs */
+    --tab-inactive-bg: var(--gr-lv8); /* Original: #808080 */
+    --tab-active-bg: var(--grid-highlight-border); /* Original: #4b89ff, matches existing var */
+    --tab-active-border: var(--gr-lv3); /* Original: #ddd */
+    --tab-hover-border-top-left: var(--surface-200); /* Original: #eee */
+    --tab-hover-border-bottom: var(--surface-300); /* Original: #ddd */
+    --tab-hover-bg: var(--gr-lv4); /* Original: #cbcbcb */
+
+    /* Legend */
+    --legend-expanded-bg: var(--gr-lv1); /* Original: #111 */
+    --legend-expanded-text-color: var(--gr-lv12); /* Original: #f1f1f1 */
+    --legend-expanded-border-color: var(--gr-lv9); /* Original: #c0c0c0 */
+
+    /* JSON Form */
+    --jsonform-array-buttons-before-text-color: var(--surface-600); /* Original: #777 */
+
+    /* Fieldset & Tab Container */
+    --fieldset-bg: var(--surface-50); /* Original: #fafafa */
+    --fieldset-border: var(--gr-lv8); /* Original: #888 */
+
+    /* ACE Editor Addon */
+    --ace-addon-bg: var(--gr-lv14); /* Original: #141414 */
+    --ace-addon-text-color: var(--surface-50); /* Original: #F8F8F8 */
+
+    /* Tab Content Area */
+    --tab-content-bg: var(--gr-lv1); /* Original: #f3f3f3 */
+    --tab-content-border: var(--gr-lv8); /* Original: #888 */
+
+    /* Form Error States (trans window specific) */
+    --form-error-outline: var(--status-red); /* Original: red */
+    --form-error-text-color: var(--status-red); /* Original: red */
+
+    /** end of bootstrap variables */
+    
+    /** jsonform specific variables */
+    --form-label-text-color: var(--surface-800); /* Original: #444444, var(--surface-800) is #424242 */
+    --form-fieldline-label-text-color: var(--indigo-700); /* Original: #4841a7, var(--indigo-700) is #4547a9 */
+    --form-help-block-text-color: var(--text-color2); /* Original: #676767, var(--text-color2) is #666666 */
+    --form-checkbox-unchecked-color: var(--gr-lv8); /* Original: gray, var(--gr-lv8) is #808080 */
+    --form-checkbox-checked-color: var(--status-green); /* Original: green */
+    --form-checkbox-help-block-border-color: var(--gr-lv4); /* Original: #c0c0c0 */
+    --form-help-block-h2-text-color: var(--surface-700); /* Original: #5d5d5d, var(--surface-700) is #616161 */
+    --form-help-block-h2-border-color: var(--gr-lv3); /* Original: #dcdcdc, var(--gr-lv3) is #d0d0d0 */
+
+    --input-group-addon-bg: var(--gr-lv8); /* Original: #888 */
+    --input-group-addon-text-color: var(--text-color-highlighted); /* Original: #fff */
+    --input-group-addon-border-color: var(--gr-lv8); /* Original: #888, same as --fieldset-border */
+    /** end of jsonform specific variables */       
+
+    /** SEARCH Window */
+    --search-info-bar-bg: var(--gr-lv2); 
+    --search-info-bar-color: var(--gr-lv12); 
+    --search-section-header-bg: var(--gr-lv4);
+    --search-section-header-color: var(--gr-lv14);    
+
+    --border-radius:6px;
+    --primary-color: var(--blue-500); /* Use a specific blue shade from static colors */
+    --primary-color-text: var(--gr-lv16);
+    --surface-ground: var(--gr-lv0); /* Main page background */
+    --surface-section: var(--gr-lv1); /* Sections, cards */
+    --surface-card: var(--gr-lv1);
+    --surface-overlay: var(--gr-lv2); /* Popups, menus */
+    --surface-border: var(--gr-lv4); /* Borders */
+    --surface-hover: var(--gr-lv3);  /* Hover states */
+    
+    /* Surface shades are now mapped from the inverted gr-lvX */
+    --surface-0: var(--gr-lv0);
+    --surface-50: var(--gr-lv1); 
+    --surface-100: var(--gr-lv1);
+    --surface-200: var(--gr-lv2);
+    --surface-300: var(--gr-lv3);
+    --surface-400: var(--gr-lv5);
+    --surface-500: var(--gr-lv7);
+    --surface-600: var(--gr-lv9);
+    --surface-700: var(--gr-lv10);
+    --surface-800: var(--gr-lv12);
+    --surface-900: var(--gr-lv14);
+
+    /* Primary shades remain as defined, but their usage context changes */
+    --primary-50: var(--blue-50);
+    --primary-100: var(--blue-100);
+    --primary-200: var(--blue-200);
+    --primary-300: var(--blue-300);
+    --primary-400: var(--blue-400);
+    --primary-500: var(--blue-500);
+    --primary-600: var(--blue-600);
+    --primary-700: var(--blue-700);
+    --primary-800: var(--blue-800);
+    --primary-900: var(--blue-900);
+
+    /* STATIC COLOR (These definitions don't change, their usage might) */
+    --blue-50:#f5f9ff;
+    --blue-100:#d0e1fd;
+    --blue-200:#abc9fb;
+    --blue-300:#85b2f9;
+    --blue-400:#609af8;
+    --blue-500:#3b82f6;
+    --blue-600:#326fd1;
+    --blue-700:#295bac;
+    --blue-800:#204887;
+    --blue-900:#183462;
+    --green-50:#f4fcf7;
+    --green-100:#caf1d8;
+    --green-200:#a0e6ba;
+    --green-300:#76db9b;
+    --green-400:#4cd07d;
+    --green-500:#22c55e;
+    --green-600:#1da750;
+    --green-700:#188a42;
+    --green-800:#136c34;
+    --green-900:#0e4f26;
+    --yellow-50:#fefbf3;
+    --yellow-100:#faedc4;
+    --yellow-200:#f6de95;
+    --yellow-300:#f2d066;
+    --yellow-400:#eec137;
+    --yellow-500:#eab308;
+    --yellow-600:#c79807; /* Added from light theme, was missing */
+    --yellow-700:#a47d06;
+    --yellow-800:#816204;
+    --yellow-900:#5e4803;
+    --cyan-50:#f3fbfd;
+    --cyan-100:#c3edf5;
+    --cyan-200:#94e0ed;
+    --cyan-300:#65d2e4;
+    --cyan-400:#35c4dc;
+    --cyan-500:#06b6d4;
+    --cyan-600:#059bb4;
+    --cyan-700:#047f94;
+    --cyan-800:#036475;
+    --cyan-900:#024955;
+    --pink-50:#fef6fa;
+    --pink-100:#fad3e7;
+    --pink-200:#f7b0d3;
+    --pink-300:#f38ec0;
+    --pink-400:#f06bac;
+    --pink-500:#ec4899;
+    --pink-600:#c93d82;
+    --pink-700:#a5326b;
+    --pink-800:#822854;
+    --pink-900:#5e1d3d;
+    --indigo-50:#f7f7fe;
+    --indigo-100:#dadafc;
+    --indigo-200:#bcbdf9;
+    --indigo-300:#9ea0f6;
+    --indigo-400:#8183f4;
+    --indigo-500:#6366f1;
+    --indigo-600:#5457cd;
+    --indigo-700:#4547a9;
+    --indigo-800:#363885;
+    --indigo-900:#282960;
+    --teal-50:#f3fbfb;
+    --teal-100:#c7eeea;
+    --teal-200:#9ae0d9;
+    --teal-300:#6dd3c8;
+    --teal-400:#41c5b7;
+    --teal-500:#14b8a6;
+    --teal-600:#119c8d;
+    --teal-700:#0e8174;
+    --teal-800:#0b655b;
+    --teal-900:#084a42;
+    --orange-50:#fff8f3;
+    --orange-100:#feddc7;
+    --orange-200:#fcc39b;
+    --orange-300:#fba86f;
+    --orange-400:#fa8e42;
+    --orange-500:#f97316;
+    --orange-600:#d46213;
+    --orange-700:#ae510f;
+    --orange-800:#893f0c;
+    --orange-900:#642e09;
+    --bluegray-50:#f7f8f9;
+    --bluegray-100:#dadee3;
+    --bluegray-200:#bcc3cd;
+    --bluegray-300:#9fa9b7;
+    --bluegray-400:#818ea1;
+    --bluegray-500:#64748b;
+    --bluegray-600:#556376;
+    --bluegray-700:#465161;
+    --bluegray-800:#37404c;
+    --bluegray-900:#282e38;
+    --purple-50:#fbf7ff;
+    --purple-100:#ead6fd;
+    --purple-200:#dab6fc;
+    --purple-300:#c996fa;
+    --purple-400:#b975f9;
+    --purple-500:#a855f7;
+    --purple-600:#8f48d2;
+    --purple-700:#763cad;
+    --purple-800:#5c2f88;
+    --purple-900:#432263;
+    --red-50:#fff5f5;
+    --red-100:#ffd0ce;
+    --red-200:#ffaca7;
+    --red-300:#ff8780;
+    --red-400:#ff6259;
+    --red-500:#ff3d32;
+    --red-600:#d9342b;
+    --red-700:#b32b23;
+    --red-800:#8c221c;
+    --red-900:#661814;
+
+    --gray-50: #FAFAFA; /* These are generally for light text on dark bg in dark mode or vice versa */
+    --gray-100: #F5F5F5;
+    --gray-200: #EEEEEE;
+    --gray-300: #E0E0E0;
+    --gray-400: #BDBDBD;
+    --gray-500: #9E9E9E; /* Mid-gray, use with caution for text */
+    --gray-600: #757575; /* Darker text on light elements or vice-versa */
+    --gray-700: #616161;
+    --gray-800: #424242;
+    --gray-900: #212121;
+    color-scheme: dark;
+}
+
+
+
+.toolbar-content img {
+    filter: invert(1) hue-rotate(180deg);
+}
+.toolbar-content img:hover {
+    filter: invert(1) hue-rotate(180deg) brightness(1.2);
+}
+
+.cellInfoMenu img {
+    filter: invert(1) hue-rotate(180deg);
+}
+.cellInfoMenu img:hover {
+    filter: invert(1) hue-rotate(180deg) brightness(1.2);
+}
+
+.currentCellTextCtrl img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.currentCellTextCtrl img:hover {
+    filter: invert(1) hue-rotate(180deg) brightness(1.2);
+}
+
+/** ribbon **/
+
+body[data-theme=dark] .applicationBar {
+	background:#2b2b2b;
+}
+
+body[data-theme=dark] .applicationBar .appTitle{
+	color:#fff;
+}
+
+body[data-theme=dark] .applicationBar .appBarIcon {
+	color:#fff;
+}
+
+body[data-theme=dark] .applicationBar .appBarIcon:hover {
+	color:#111;
+}
+
+
+body[data-theme=dark] .applicationBar .ribbonMenu {
+	background:#2b2b2b;
+    color: #f1f1f1;
+}
+body[data-theme=dark] .applicationBar .ribbonMenu:hover {
+    background: #000;
+}
+body[data-theme=dark] .applicationBar .ribbonMenu.active {
+    background: #111;
+}
+
+/* JQuery UI Menu */
+.ui-menu .ui-menu-item > div {
+    padding: 4px 8px 4px 8px;
+}
+
+#button-translatorplus::before {
+    background: url(/www/img/icon-negative.png) no-repeat center !important;
+    background-size: 26px !important;
+}
+
+.ui-widget-content {
+    color: var(--text-color);
+}
+
+/** options.css specific styles */
+.addonsOption .addonsIconBlock img {
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 4px;
+    background: #dfdfdf;
+}
+
+[data-theme-exclusive] {
+    display: none;
+}
+
+[data-theme-exclusive="dark"] {
+    display: initial;
+}
+
+div#dialogExport label img,
+div#dialogImport label img{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.invertableImageColor img {
+    filter: invert(1) hue-rotate(180deg);
+}

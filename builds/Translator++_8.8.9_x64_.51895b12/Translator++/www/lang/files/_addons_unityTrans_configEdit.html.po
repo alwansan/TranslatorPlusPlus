@@ -1,0 +1,910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: configEdit.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"0","tags":null}
+#. idx/0/innerText
+#. idx/7/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:0"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"1","tags":null}
+#. idx/1/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:1"
+msgid "Executable file location"
+msgstr "Vị trí tệp thực thi"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"2","tags":null}
+#. idx/2/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:2"
+msgid ""
+"\n"
+"\t\t\t\tPath to the application's executable file.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tĐường dẫn đến tệp thực thi của ứng dụng.\n"
+"\t\t\t"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"3","tags":null}
+#. idx/3/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:3"
+msgid "Field can not be empty!"
+msgstr "Trường không thể để trống!"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"4","tags":null}
+#. idx/4/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:4"
+msgid "Service"
+msgstr "Dịch vụ"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"5","tags":null}
+#. idx/5/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:5"
+msgid "End Point"
+msgstr "Điểm Kết Nối"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"6","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:6"
+msgid "Auto translation service to use."
+msgstr "Dịch vụ dịch tự động để sử dụng."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"7","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:7"
+msgid "Target Language"
+msgstr "Ngôn Ngữ Đích"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"8","tags":null}
+#. idx/9/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:8"
+msgid "The language to translate into"
+msgstr "Ngôn ngữ để dịch sang."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"9","tags":null}
+#. idx/10/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:9"
+msgid "Source Language"
+msgstr "Ngôn Ngữ Nguồn"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"10","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:10"
+msgid "The original language of the game. \"auto\" is also supported for some endpoints, but it is generally not recommended"
+msgstr "Ngôn ngữ gốc của trò chơi. \"tự động\" cũng được hỗ trợ cho một số điểm kết nối, nhưng thường không được khuyến nghị."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"11","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:11"
+msgid "Files"
+msgstr "Tệp"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"12","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:12"
+msgid "Directory"
+msgstr "Thư Mục"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"13","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:13"
+msgid "Directory to search for cached translation files. Can use placeholder: {GameExeName}, {Lang}"
+msgstr "Thư mục để tìm tệp bản dịch đã lưu. Có thể sử dụng chỗ dành sẵn: {GameExeName}, {Lang}"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"14","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:14"
+msgid "Output File"
+msgstr "Tệp Đầu Ra"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"15","tags":null}
+#. idx/16/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:15"
+msgid "File to insert generated translations into. Can use placeholders: {GameExeName}, {Lang}"
+msgstr "Tệp để chèn bản dịch đã tạo vào. Có thể sử dụng chỗ dành sẵn: {GameExeName}, {Lang}"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"16","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:16"
+msgid "Substitution File"
+msgstr "Tệp Thay Thế"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"17","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:17"
+msgid "File that contains substitution applied before translations. Can use placeholders: {GameExeName}, {Lang}"
+msgstr "Tệp chứa thay thế được áp dụng trước khi dịch. Có thể sử dụng chỗ dành sẵn: {GameExeName}, {Lang}"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"18","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:18"
+msgid "Preprocessors File"
+msgstr "Tệp Tiền Xử Lý"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"19","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:19"
+msgid "File that contains preprocessors to be applied before sending a text to a translator. Can use placeholders: {GameExeName}, {Lang}"
+msgstr "Tệp chứa tiền xử lý để áp dụng trước khi gửi văn bản đến dịch vụ dịch. Có thể sử dụng chỗ dành sẵn: {GameExeName}, {Lang}"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"20","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:20"
+msgid "Text Frameworks"
+msgstr "Khung Văn Bản"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"21","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:21"
+msgid "Enable/Disable auto translation for Unity's text frameworks."
+msgstr "Bật/Tắt dịch tự động cho khung văn bản của Unity."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"22","tags":null}
+#. idx/29/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:22"
+msgid "Behaviour"
+msgstr "Hành Vi"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"23","tags":null}
+#. idx/30/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:23"
+msgid "Max Characters Per Translation"
+msgstr "Số Ký Tự Tối Đa Mỗi Bản Dịch"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"24","tags":null}
+#. idx/31/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:24"
+msgid "Max characters per text to translate. Max 2500."
+msgstr "Số ký tự tối đa cho mỗi văn bản để dịch. Tối đa 2500."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"25","tags":null}
+#. idx/32/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:25"
+msgid "Whether or not to ignore whitespace, including newlines, in dialogue keys"
+msgstr "Có bỏ qua khoảng trắng, bao gồm dòng mới, trong khóa hội thoại hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"26","tags":null}
+#. idx/33/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:26"
+msgid "Whether or not to ignore whitespace, including newlines, in NGUI"
+msgstr "Có bỏ qua khoảng trắng, bao gồm dòng mới, trong NGUI hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"27","tags":null}
+#. idx/34/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:27"
+msgid "Minimum Dialogue Chars"
+msgstr "Số ký tự tối thiểu cho hội thoại"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"28","tags":null}
+#. idx/35/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:28"
+msgid "The length of the text for it to be considered a dialogue"
+msgstr "Độ dài văn bản để được coi là một hội thoại"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"29","tags":null}
+#. idx/36/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:29"
+msgid "Force Split Text After Characters"
+msgstr "Buộc tách văn bản sau số ký tự"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"30","tags":null}
+#. idx/37/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:30"
+msgid "Split text into multiple lines once the translated text exceeds this number of characters. (0 is no split)"
+msgstr "Tách văn bản thành nhiều dòng khi bản dịch vượt quá số ký tự này. (0 là không tách)"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"31","tags":null}
+#. idx/38/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:31"
+msgid "Whether or not to copy hooked texts to clipboard"
+msgstr "Có sao chép văn bản đã hook vào clipboard hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"32","tags":null}
+#. idx/39/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:32"
+msgid "MaxClipboardCopyCharacters"
+msgstr "Số ký tự tối đa sao chép vào clipboard"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"33","tags":null}
+#. idx/40/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:33"
+msgid "Max number of characters to hook to clipboard at a time"
+msgstr "Số ký tự tối đa để hook vào clipboard cùng lúc"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"34","tags":null}
+#. idx/41/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:34"
+msgid "Whether or not the plugin should provide a \"best attempt\" at resizing UI components upon translation"
+msgstr "Plugin có nên cung cấp \"nỗ lực tốt nhất\" để thay đổi kích thước thành phần UI khi dịch hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"35","tags":null}
+#. idx/42/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:35"
+msgid "Indicates whether batching of translations should be enabled for supported endpoints"
+msgstr "Cho biết có nên bật batch dịch cho các endpoint được hỗ trợ hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"36","tags":null}
+#. idx/43/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:36"
+msgid "Indicates whether or not to use translations from the included static translation cache"
+msgstr "Cho biết có sử dụng bản dịch từ bộ nhớ cache tĩnh đi kèm hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"37","tags":null}
+#. idx/44/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:37"
+msgid "Override Font"
+msgstr "Ghi đè phông chữ"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"38","tags":null}
+#. idx/45/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:38"
+msgid "Overrides the fonts used for texts when updating text components. NOTE: Only works for UGUI"
+msgstr "Ghi đè phông chữ được sử dụng cho văn bản khi cập nhật thành phần văn bản. LƯU Ý: Chỉ hoạt động cho UGUI"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"39","tags":null}
+#. idx/46/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:39"
+msgid "Override Font TextMeshPro"
+msgstr "Ghi đè phông chữ TextMeshPro"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"40","tags":null}
+#. idx/47/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:40"
+msgid "Overrides the fonts used for texts when updating text components. NOTE: Only works for TextMeshPro"
+msgstr "Ghi đè phông chữ được sử dụng cho văn bản khi cập nhật thành phần văn bản. LƯU Ý: Chỉ hoạt động cho TextMeshPro"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"41","tags":null}
+#. idx/48/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:41"
+msgid "Resize UI Line Spacing Scale"
+msgstr "Tỷ lệ khoảng cách dòng khi thay đổi kích thước UI"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"42","tags":null}
+#. idx/49/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:42"
+msgid "A decimal value that the default line spacing should be scaled by during UI resizing, for example: 0.80. NOTE: Only works for UGUI"
+msgstr "Một giá trị thập phân mà khoảng cách dòng mặc định nên được nhân lên khi thay đổi kích thước UI, ví dụ: 0.80. LƯU Ý: Chỉ hoạt động cho UGUI"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"43","tags":null}
+#. idx/50/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:43"
+msgid "Indicates whether the UI resize behavior should be applied to all UI components regardless of them being translated."
+msgstr "Cho biết hành vi thay đổi kích thước UI có nên áp dụng cho tất cả thành phần UI bất kể chúng có được dịch hay không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"44","tags":null}
+#. idx/51/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:44"
+msgid "Ignore Text Starting With"
+msgstr "Bỏ qua văn bản bắt đầu bằng"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"45","tags":null}
+#. idx/52/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:45"
+msgid "Indicates that the plugin should ignore any strings starting with certain characters. This is a list seperated by ';'."
+msgstr "Chỉ định rằng plugin nên bỏ qua bất kỳ chuỗi nào bắt đầu bằng các ký tự nhất định. Đây là một danh sách phân tách bằng ';'."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"46","tags":null}
+#. idx/53/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:46"
+msgid "Indicates whether or not to enable \"Text Getter Compatibility Mode\". Should only be enabled if required by the game."
+msgstr "Chỉ định có bật \"Chế độ tương thích Trình lấy văn bản\" hay không. Chỉ nên bật nếu trò chơi yêu cầu."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"47","tags":null}
+#. idx/54/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:47"
+msgid "GameLog Text Paths"
+msgstr "Đường dẫn Văn bản Nhật ký Trò chơi"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"48","tags":null}
+#. idx/55/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:48"
+msgid "Indicates specific paths for game objects that the game uses as \"log components\", where it continuously appends or prepends text to. Requires expert knowledge to setup. This is a list seperated by ';'."
+msgstr "Chỉ định các đường dẫn cụ thể cho đối tượng trò chơi mà trò chơi sử dụng làm \"thành phần nhật ký\", nơi nó liên tục thêm hoặc chèn văn bản vào. Yêu cầu kiến thức chuyên môn để thiết lập. Đây là một danh sách phân tách bằng ';'."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"49","tags":null}
+#. idx/56/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:49"
+msgid "Romaji Post Processing"
+msgstr "Xử lý sau Romaji"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"50","tags":null}
+#. idx/57/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:50"
+msgid "Indicates what type of post processing to do on 'translated' romaji texts. This can be important in certain games because the font used does not support various diacritics properly. This is a list seperated by ';'. Possible values: [\"RemoveAllDiacritics\", \"ReplaceMacronWithCircumflex\", \"RemoveApostrophes\"]"
+msgstr "Chỉ định loại xử lý sau nào để thực hiện trên văn bản romaji 'đã dịch'. Điều này có thể quan trọng trong một số trò chơi vì phông chữ được sử dụng không hỗ trợ đúng cách các dấu phụ khác nhau. Đây là một danh sách phân tách bằng ';'. Các giá trị có thể: [\"Xóa tất cả dấu phụ\", \"Thay thế dấu gạch ngang bằng dấu mũ\", \"Xóa dấu nháy đơn\"]"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"51","tags":null}
+#. idx/58/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:51"
+msgid "Translation Post Processing"
+msgstr "Xử lý sau Dịch thuật"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"52","tags":null}
+#. idx/59/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:52"
+msgid "Indicates what type of post processing to do on translated texts (not romaji). Possible values: [\"RemoveAllDiacritics\", \"ReplaceMacronWithCircumflex\", \"RemoveApostrophes\", \"ReplaceWideCharacters\"]"
+msgstr "Chỉ định loại xử lý sau nào để thực hiện trên văn bản đã dịch (không phải romaji). Các giá trị có thể: [\"Xóa tất cả dấu phụ\", \"Thay thế dấu gạch ngang bằng dấu mũ\", \"Xóa dấu nháy đơn\", \"Thay thế ký tự rộng\"]"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"53","tags":null}
+#. idx/60/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:53"
+msgid "Indicates whether or not results of regex lookups should be output to the specified OutputFile."
+msgstr "Chỉ định liệu kết quả của tra cứu regex có nên được xuất ra Tệp xuất được chỉ định hay không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"54","tags":null}
+#. idx/61/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:54"
+msgid "Indicates whether or not whitespace differences should be output to the specified OutputFile."
+msgstr "Chỉ định liệu sự khác biệt về khoảng trắng có nên được xuất ra Tệp xuất được chỉ định hay không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"55","tags":null}
+#. idx/62/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:55"
+msgid "Indicates whether or not the complete result of regex-splitted translations should be output to the specified OutputFile."
+msgstr "Chỉ định liệu kết quả đầy đủ của bản dịch được tách bằng regex có nên được xuất ra Tệp xuất được chỉ định hay không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"56","tags":null}
+#. idx/63/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:56"
+msgid "Indicates that the plugin should generate translations without variables when using substitutions."
+msgstr "Chỉ định rằng plugin nên tạo bản dịch không có biến khi sử dụng thay thế."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"57","tags":null}
+#. idx/64/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:57"
+msgid "Indicates that the plugin should generate partial translations to support text translations as it is \"scrolling in\"."
+msgstr "Chỉ định rằng plugin nên tạo bản dịch một phần để hỗ trợ dịch văn bản khi nó \"cuộn vào\"."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"58","tags":null}
+#. idx/65/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:58"
+msgid "Indicates the plugin should parse 'TARC' directives and scope translations based on these."
+msgstr "Chỉ định plugin nên phân tích chỉ thị 'TARC' và phạm vi dịch thuật dựa trên chúng."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"59","tags":null}
+#. idx/66/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:59"
+msgid "Indicates the plugin should not print out success messages in relation to translations."
+msgstr "Chỉ định plugin không nên in ra thông báo thành công liên quan đến bản dịch."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"60","tags":null}
+#. idx/67/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:60"
+msgid "Blacklisted IMGUI Plugins"
+msgstr "Plugin IMGUI bị chặn"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"61","tags":null}
+#. idx/68/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:61"
+msgid "If an IMGUI window assembly/class/method name contains any of the strings in this list (case insensitive) that UI will not be translated. Requires MonoMod hooks. This is a list seperated by ';'"
+msgstr "Nếu tên assembly/lớp/phương thức cửa sổ IMGUI chứa bất kỳ chuỗi nào trong danh sách này (không phân biệt chữ hoa chữ thường), giao diện người dùng đó sẽ không được dịch. Yêu cầu hook MonoMod. Đây là một danh sách phân tách bằng ';'"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"62","tags":null}
+#. idx/70/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:62"
+msgid "Indicates if texts that are considered by the plugin to be untranslatable should be output to the specified OutputFile."
+msgstr "Chỉ định nếu các văn bản được plugin coi là không thể dịch nên được xuất ra Tệp xuất được chỉ định."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"63","tags":null}
+#. idx/71/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:63"
+msgid "Indicates that rules for virtual method calls should be ignored when trying to set the text of a text component. May in some cases help setting the text of stubborn components."
+msgstr "Chỉ định rằng các quy tắc cho lệnh gọi phương thức ảo nên được bỏ qua khi cố gắng đặt văn bản của một thành phần văn bản. Trong một số trường hợp có thể giúp đặt văn bản của các thành phần cứng đầu."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"64","tags":null}
+#. idx/72/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:64"
+msgid "Max Text Parser Recursion"
+msgstr "Đệ quy Phân tích Văn bản Tối đa"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"65","tags":null}
+#. idx/73/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:65"
+msgid "Indicates how many levels of recursion are allowed when text is parsed so it can be translated in different parts. This can be used with splitter-regexes in advanced scenarios. The default value of one essentially means that recursion is disabled."
+msgstr "Chỉ định số cấp độ đệ quy được phép khi phân tích văn bản để có thể dịch ở các phần khác nhau. Có thể sử dụng với biểu thức tách trong các kịch bản nâng cao. Giá trị mặc định là một về cơ bản có nghĩa là đệ quy bị vô hiệu hóa."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"66","tags":null}
+#. idx/74/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:66"
+msgid "Will preprocess and decode html entities before they are send for translation. Some translators will fail when html entities are sent."
+msgstr "Sẽ xử lý trước và giải mã các thực thể HTML trước khi chúng được gửi đi dịch. Một số dịch giả sẽ thất bại khi gửi thực thể HTML."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"67","tags":null}
+#. idx/75/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:67"
+msgid "Will enable automated handling of rich text (text with markup)."
+msgstr "Sẽ kích hoạt xử lý tự động văn bản phong phú (văn bản có đánh dấu)."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"68","tags":null}
+#. idx/76/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:68"
+msgid "Indicates if translator-related helpful log messages should be enabled. May be useful when tranlating based on redirected resources."
+msgstr "Chỉ định xem các thông báo nhật ký hữu ích liên quan đến dịch giả có nên được kích hoạt không. Có thể hữu ích khi dịch dựa trên tài nguyên chuyển hướng."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"69","tags":null}
+#. idx/77/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:69"
+msgid "Indicates that the plugin must use MonoMod hooks instead of harmony hooks."
+msgstr "Chỉ định rằng plugin phải sử dụng móc MonoMod thay vì móc harmony."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"70","tags":null}
+#. idx/78/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:70"
+msgid "Indicates the plugin should initial harmony detour bridge which allows harmony hooks to work in an environment where System.Reflection.Emit does not exist (usually such settings are handled by plugin managers, so don't use when using a plugin manager)."
+msgstr "Chỉ định plugin nên khởi tạo cầu nối chuyển hướng harmony cho phép móc harmony hoạt động trong môi trường không có System.Reflection.Emit (thường các cài đặt như vậy được xử lý bởi trình quản lý plugin, vì vậy không sử dụng khi dùng trình quản lý plugin)."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"71","tags":null}
+#. idx/79/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:71"
+msgid "Redirected Resource Detection Strategy"
+msgstr "Chiến lược Phát hiện Tài nguyên Chuyển hướng"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"72","tags":null}
+#. idx/80/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:72"
+msgid "Indicates if and how the plugin should attempt to recognize redirected resources in order to prevent double translations."
+msgstr "Chỉ định nếu và cách plugin nên cố gắng nhận diện tài nguyên chuyển hướng để ngăn dịch trùng lặp."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"73","tags":null}
+#. idx/81/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:73"
+msgid "Indicates if the plugin should output text that exceeds <b>'Max Characters Per Translation'</b> without translating it."
+msgstr "Chỉ định xem plugin có nên xuất văn bản vượt quá <b>'Số Ký tự Tối đa Mỗi Bản dịch'</b> mà không dịch nó không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"74","tags":null}
+#. idx/82/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:74"
+msgid "Texture"
+msgstr "Kết cấu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"75","tags":null}
+#. idx/83/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:75"
+msgid "Texture Directory"
+msgstr "Thư mục Kết cấu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"76","tags":null}
+#. idx/84/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:76"
+msgid "Directory to dump textures to, and root of directories to load images from. Can use placeholder: {GameExeName}, {Lang}"
+msgstr "Thư mục để đổ kết cấu vào và gốc của các thư mục để tải hình ảnh từ đó. Có thể sử dụng trình giữ chỗ: {GameExeName}, {Lang}"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"77","tags":null}
+#. idx/85/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:77"
+msgid "Indicates whether the plugin will attempt to replace in-game images with those from the TextureDirectory directory."
+msgstr "Chỉ định xem plugin có cố gắng thay thế hình ảnh trong trò chơi bằng những hình từ Thư mục Kết cấu không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"78","tags":null}
+#. idx/86/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:78"
+msgid "Indicates whether the plugin will dump texture it is capable of replacing to the TextureDirectory. Has significant performance impact."
+msgstr "Chỉ định xem plugin có đổ kết cấu mà nó có khả năng thay thế vào Thư mục Kết cấu không. Có tác động đáng kể đến hiệu suất."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"79","tags":null}
+#. idx/87/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:79"
+msgid "Indicates whether or not toggling the translation with the ALT+T hotkey will also affect textures. Not guaranteed to work for all textures. Has significant performance impact."
+msgstr "Chỉ định xem việc bật/tắt bản dịch bằng phím tắt ALT+T có ảnh hưởng đến kết cấu không. Không đảm bảo hoạt động cho mọi kết cấu. Có tác động đáng kể đến hiệu suất."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"80","tags":null}
+#. idx/88/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:80"
+msgid "Indicates whether or not the plugin should scan for textures on scene load. This enables the plugin to find and (possibly) replace more texture."
+msgstr "Chỉ định xem plugin có nên quét kết cấu khi tải cảnh không. Điều này cho phép plugin tìm và (có thể) thay thế nhiều kết cấu hơn."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"81","tags":null}
+#. idx/89/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:81"
+msgid "Indicates whether or not the plugin should attempt to hook SpriteRenderer. This is a seperate option because SpriteRenderer can't actually be hooked properly and the implemented workaround could have a theoretical impact on performance in certain situations."
+msgstr "Chỉ định xem plugin có nên cố gắng móc SpriteRenderer không. Đây là một tùy chọn riêng biệt vì SpriteRenderer không thể thực sự được móc đúng cách và giải pháp thay thế đã triển khai có thể có tác động lý thuyết đến hiệu suất trong một số tình huống."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"82","tags":null}
+#. idx/90/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:82"
+msgid "Indicates whether or not unmodified textures should be loaded. Modifications are determined based on the hash in the file name. Only enable this for debugging purposes as it is likely to cause oddities."
+msgstr "Chỉ định xem kết cấu chưa chỉnh sửa có nên được tải không. Các chỉnh sửa được xác định dựa trên mã băm trong tên tệp. Chỉ bật điều này cho mục đích gỡ lỗi vì nó có thể gây ra sự kỳ lạ."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"83","tags":null}
+#. idx/91/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:83"
+msgid "Texture Hash Generation Strategy"
+msgstr "Chiến lược Tạo Mã băm Kết cấu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"84","tags":null}
+#. idx/92/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:84"
+msgid "Indicates how the mod identifies pictures through hashes."
+msgstr "Chỉ định cách mod xác định hình ảnh thông qua mã băm."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"85","tags":null}
+#. idx/93/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:85"
+msgid "Duplicate Texture Names"
+msgstr "Tên Kết Cấu Trùng Lặp"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"86","tags":null}
+#. idx/94/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:86"
+msgid "Indicates specific texture names that are duplicated in the game. List is separated by ';'"
+msgstr "Chỉ ra các tên kết cấu cụ thể bị trùng lặp trong trò chơi. Danh sách được phân cách bằng ';'"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"87","tags":null}
+#. idx/95/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:87"
+msgid "Indicates if the plugin should detect duplicate texture names."
+msgstr "Chỉ ra liệu plugin có nên phát hiện tên kết cấu trùng lặp hay không."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"88","tags":null}
+#. idx/96/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:88"
+msgid "Indicates the plugin should use a different strategy to load images, that may be relevant if the game engine is old."
+msgstr "Chỉ ra plugin nên sử dụng một chiến lược khác để tải hình ảnh, có thể liên quan nếu động cơ trò chơi cũ."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"89","tags":null}
+#. idx/97/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:89"
+msgid "Indicates that all textures loaded should be kept in memory for optimal performance. Disable to decrease memory usage."
+msgstr "Chỉ ra rằng tất cả kết cấu được tải nên được giữ trong bộ nhớ để hiệu suất tối ưu. Tắt để giảm mức sử dụng bộ nhớ."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"90","tags":null}
+#. idx/99/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:90"
+msgid "Resource Redirector"
+msgstr "Trình Chuyển Hướng Tài Nguyên"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"91","tags":null}
+#. idx/100/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:91"
+msgid "Preferred Storage Path"
+msgstr "Đường Dẫn Lưu Trữ Ưu Tiên"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"92","tags":null}
+#. idx/101/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:92"
+msgid "Indicates the preferred storage for redirected resources in relation to the Auto Translator. Can use placeholder: {GameExeName}, {Lang}"
+msgstr "Chỉ ra nơi lưu trữ ưu tiên cho tài nguyên được chuyển hướng liên quan đến Auto Translator. Có thể sử dụng placeholder: {GameExeName}, {Lang}"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"93","tags":null}
+#. idx/102/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:93"
+msgid "Indicates if TextAssets should be redirected"
+msgstr "Chỉ ra liệu TextAssets có nên được chuyển hướng hay không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"94","tags":null}
+#. idx/103/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:94"
+msgid "Indicates if the plugin should log to the console all loaded assets. Useful to determine what can be hooked"
+msgstr "Chỉ ra liệu plugin có nên ghi log vào console tất cả tài nguyên được tải không. Hữu ích để xác định những gì có thể được móc nối"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"95","tags":null}
+#. idx/104/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:95"
+msgid "Indicates if translatable resources that are found should be dumped"
+msgstr "Chỉ ra liệu tài nguyên có thể dịch được tìm thấy có nên được đổ ra không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"96","tags":null}
+#. idx/105/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:96"
+msgid "When files are in ZIP files in the PreferredStoragePath, these files are indexed in memory to avoid performing file check IO when loading them. Enabling this option will do the same for physical files"
+msgstr "Khi các tệp nằm trong tệp ZIP trong PreferredStoragePath, các tệp này được lập chỉ mục trong bộ nhớ để tránh thực hiện kiểm tra tệp IO khi tải chúng. Bật tùy chọn này sẽ làm tương tự cho các tệp vật lý"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"97","tags":null}
+#. idx/106/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:97"
+msgid "HTTP"
+msgstr "HTTP"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"98","tags":null}
+#. idx/107/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:98"
+msgid "User Agent"
+msgstr "Tác Nhân Người Dùng"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"99","tags":null}
+#. idx/108/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:99"
+msgid "Override the user agent used by APIs requiring a user agent"
+msgstr "Ghi đè tác nhân người dùng được sử dụng bởi các API yêu cầu một tác nhân người dùng"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"100","tags":null}
+#. idx/109/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:100"
+msgid "Indiciates whether certificate validations for the .NET API should be disabled"
+msgstr "Chỉ ra liệu việc xác thực chứng chỉ cho API .NET có nên bị vô hiệu hóa không"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"101","tags":null}
+#. idx/110/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:101"
+msgid "Translation Aggregator"
+msgstr "Trình Tổng Hợp Dịch Thuật"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"102","tags":null}
+#. idx/111/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:102"
+msgid "Width"
+msgstr "Chiều Rộng"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"103","tags":null}
+#. idx/112/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:103"
+msgid "The total width of the translation aggregator window"
+msgstr "Tổng chiều rộng của cửa sổ trình tổng hợp dịch thuật"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"104","tags":null}
+#. idx/113/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:104"
+msgid "Height"
+msgstr "Chiều Cao"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"105","tags":null}
+#. idx/114/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:105"
+msgid "The width (per translator) of the translation aggregator window."
+msgstr "Chiều rộng (mỗi trình dịch) của cửa sổ tổng hợp dịch thuật."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"106","tags":null}
+#. idx/115/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:106"
+msgid "Enabled Translators"
+msgstr "Trình dịch đã bật"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"107","tags":null}
+#. idx/116/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:107"
+msgid "The id's of the translation endpoints that has been enabled in the translation aggregator window. List is separated by ';'"
+msgstr "ID của các điểm cuối dịch thuật đã được bật trong cửa sổ tổng hợp dịch thuật. Danh sách được phân tách bằng ';'"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"108","tags":null}
+#. idx/117/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:108"
+msgid "Google"
+msgstr "Google"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"109","tags":null}
+#. idx/118/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:109"
+msgid "ServiceUrl"
+msgstr "URL Dịch vụ"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"110","tags":null}
+#. idx/119/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:110"
+msgid "OPTIONAL, can be used to direct google API request to a different URL. Can be used to circumvent GFWoC"
+msgstr "TÙY CHỌN, có thể được sử dụng để chuyển hướng yêu cầu API Google đến một URL khác. Có thể dùng để vượt GFWoC"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"111","tags":null}
+#. idx/120/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:111"
+msgid "Google Legitimate"
+msgstr "Google Chính thức"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"112","tags":null}
+#. idx/121/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:112"
+msgid "Google API Key"
+msgstr "Khóa API Google"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"113","tags":null}
+#. idx/122/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:113"
+msgid "OPTIONAL, needed if GoogleTranslateLegitimate is configured"
+msgstr "TÙY CHỌN, cần thiết nếu GoogleTranslateLegitimate được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"114","tags":null}
+#. idx/123/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:114"
+msgid "Bing Legitimate"
+msgstr "Bing Chính thức"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"115","tags":null}
+#. idx/124/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:115"
+msgid "OcpApim Subscription Key"
+msgstr "Khóa đăng ký OcpApim"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"116","tags":null}
+#. idx/125/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:116"
+msgid "OPTIONAL, needed if BingTranslateLegitimate is configured"
+msgstr "TÙY CHỌN, cần thiết nếu BingTranslateLegitimate được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"117","tags":null}
+#. idx/126/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:117"
+msgid "Baidu"
+msgstr "Baidu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"118","tags":null}
+#. idx/127/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:118"
+msgid "Baidu App Id"
+msgstr "ID Ứng dụng Baidu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"119","tags":null}
+#. idx/128/innerText
+#. idx/130/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:119"
+msgid "OPTIONAL, needed if BaiduTranslate is configured"
+msgstr "TÙY CHỌN, cần thiết nếu BaiduTranslate được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"120","tags":null}
+#. idx/129/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:120"
+msgid "BaiduAppSecret"
+msgstr "Bí mật Ứng dụng Baidu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"121","tags":null}
+#. idx/131/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:121"
+msgid "Yandex"
+msgstr "Yandex"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"122","tags":null}
+#. idx/132/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:122"
+msgid "Yandex API Key"
+msgstr "Khóa API Yandex"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"123","tags":null}
+#. idx/133/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:123"
+msgid "OPTIONAL, needed if YandexTranslate is configured"
+msgstr "TÙY CHỌN, cần thiết nếu YandexTranslate được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"124","tags":null}
+#. idx/134/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:124"
+msgid "Watson"
+msgstr "Watson"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"125","tags":null}
+#. idx/135/innerText
+#. idx/149/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:125"
+msgid "Url"
+msgstr "URL"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"126","tags":null}
+#. idx/136/innerText
+#. idx/138/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:126"
+msgid "OPTIONAL, needed if WatsonTranslate is configured"
+msgstr "TÙY CHỌN, cần thiết nếu WatsonTranslate được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"127","tags":null}
+#. idx/137/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:127"
+msgid "Key"
+msgstr "Khóa"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"128","tags":null}
+#. idx/139/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:128"
+msgid "DeepL"
+msgstr "DeepL"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"129","tags":null}
+#. idx/140/innerText
+#. idx/145/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:129"
+msgid "MinDelay"
+msgstr "Độ trễ tối thiểu"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"130","tags":null}
+#. idx/141/innerText
+#. idx/143/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:130"
+msgid "OPTIONAL, used for throttling DeepL"
+msgstr "TÙY CHỌN, dùng để điều tiết DeepL"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"131","tags":null}
+#. idx/142/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:131"
+msgid "MaxDelay"
+msgstr "Độ trễ tối đa"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"132","tags":null}
+#. idx/144/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:132"
+msgid "DeepL Legitimate"
+msgstr "DeepL Hợp pháp"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"133","tags":null}
+#. idx/146/innerText
+#. idx/147/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:133"
+msgid "OPTIONAL, required if DeepLLegitimate is configured"
+msgstr "TÙY CHỌN, cần thiết nếu DeepLLegitimate được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"134","tags":null}
+#. idx/148/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:134"
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"135","tags":null}
+#. idx/150/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:135"
+msgid "Optional, needed if Custom Translated is configured"
+msgstr "Tùy chọn, cần thiết nếu Dịch Tùy chỉnh được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"136","tags":null}
+#. idx/151/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:136"
+msgid "Lec Power Translator 15"
+msgstr "Lec Power Translator 15"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"137","tags":null}
+#. idx/152/innerText
+#. idx/158/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:137"
+msgid "InstallationPath"
+msgstr "Đường dẫn cài đặt"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"138","tags":null}
+#. idx/153/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:138"
+msgid "Optional, needed if Lec Power Translator 15 is configured"
+msgstr "Tùy chọn, cần thiết nếu Lec Power Translator 15 được cấu hình"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"139","tags":null}
+#. idx/154/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:139"
+msgid "Debug"
+msgstr "Gỡ lỗi"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"140","tags":null}
+#. idx/155/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:140"
+msgid "Enables the console. Do not enable if other plugins (managers) handles this"
+msgstr "Bật bảng điều khiển. Không bật nếu các plugin (trình quản lý) khác xử lý điều này"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"141","tags":null}
+#. idx/156/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:141"
+msgid "Enables extra logging for debugging purposes"
+msgstr "Bật ghi nhật ký bổ sung cho mục đích gỡ lỗi"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"142","tags":null}
+#. idx/157/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:142"
+msgid "ezTrans"
+msgstr "ezTrans"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"143","tags":null}
+#. idx/159/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:143"
+msgid "Installation Path of ezTrans."
+msgstr "Đường dẫn cài đặt của ezTrans."
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"144","tags":null}
+#. idx/160/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:144"
+msgid "Migrations"
+msgstr "Di chuyển"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"145","tags":null}
+#. idx/161/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:145"
+msgid "Used to enable automatic migrations of this configuration file"
+msgstr "Dùng để kích hoạt di chuyển tự động của tập tin cấu hình này"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"146","tags":null}
+#. idx/162/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:146"
+msgid "Tag"
+msgstr "Thẻ"
+
+# {"path":"/addons/unityTrans/configEdit.html","row":"147","tags":null}
+#. idx/163/innerText
+msgctxt "tpp:/addons/unityTrans/configEdit.html:147"
+msgid "Tag representing the last version this plugin was executed under. Do not edit"
+msgstr "Thẻ đại diện cho phiên bản cuối cùng mà plugin này đã chạy. Không chỉnh sửa"

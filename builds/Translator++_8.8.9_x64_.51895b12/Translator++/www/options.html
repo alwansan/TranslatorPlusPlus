@@ -1,0 +1,742 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="img/options.png">
+<link type="text/css" href="modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<link rel="stylesheet" href="modules/bootstrap/css/bootstrap.css">
+<script src="js/boot.js"></script>
+
+<!-- <script type="text/javascript" src="modules/jquery/jquery-1.12.4.min.js"></script> -->
+<script>
+var $ = require('jquery');
+window.jQuery = $;
+
+const Logger = require('www/js/Logger.js');
+var logger = new Logger({file:"data/logs/options.log"});
+logger.loadState();
+
+var LT = require("light-trans");
+var lt = new LT({
+	recordMode:false,
+	listener:"t"
+});
+</script>
+<script src="modules/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="modules/json2.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="modules/tagify/tagify.min.js"></script>
+<script type="text/javascript" src="js/DVField.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+
+<script type="text/javascript" src="js/consts.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="modules/jquerytextcomplete/dist/jquery.textcomplete.js"></script>
+
+<script type="text/javascript" src="modules/jsonform/deps/underscore.js"></script>
+<script type="text/javascript" src="modules/jsonform/deps/opt/jsv.js"></script>
+<script type="text/javascript" src="js/jsonform.ext.js"></script>
+<script type="text/javascript" src="modules/jsonform/lib/jsonform.js" onload="JSONFormExt.init()"></script>
+<script type="text/javascript" src="js/options.js"></script>
+
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+-->
+<link type="text/css" href="css/bootstrapparts.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+<link type="text/css" href="css/hot-normal.css" rel="stylesheet" media="screen" data-theme="normal">
+
+<link type="text/css" href="css/jsonform.css" rel="stylesheet" media="screen">
+
+<link type="text/css" href="css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/translator.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/options.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/dvField.css" rel="stylesheet" media="screen">
+<link type="text/css" href="modules/tagify/tagify.css" rel="stylesheet" media="screen">
+
+
+<link type="text/css" href="css/editor.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="js/minieditor.js"></script>
+<script src="/www/modules/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+
+
+<title>Options - Translator++</title>
+
+<head>
+
+<body>
+
+<!--
+<div class="toolbar">
+	<div class="toolbar-content toolbar1">
+		<button class="menu-button column-1" title="Show 1 column" data-for="1"><img src='img/column-1.png' alt="column-1" /></button>
+		<button class="menu-button column-2" title="Show 2 column" data-for="2"><img src='img/column-2.png' alt="column-2" /></button>
+		<button class="menu-button column-3" title="Show 3 column" data-for="3"><img src='img/column-3.png' alt="column-3" /></button>
+		<button class="menu-button column-4" title="Show 4 column" data-for="4"><img src='img/column-4.png' alt="column-4" /></button>
+	</div>
+	<div class="toolbar-content toolbar2">
+		<button class="menu-button always-on-top" title="Toggle always on top"><img src='img/always-on-top.png' alt="always-on-top" /></button>
+		<button class="menu-button dock" title="Dock this window to main application"><img src='img/dock.png' alt="dock" /></button>
+	</div>
+	<div class="toolbar-content toolbar3">
+		<button class="menu-button clipboard_copy" title="Automatically process clipboard"><img src='img/clipboard.png' alt="clipboard" /></button>
+	</div>
+</div> 
+-->
+<div class="mainPane">
+	<div class="panel-left" id="leftMenu">
+		<div class="panel-left-top"></div>
+		<div class="panel-left-middle">
+			<ul class="tabMenu list">
+				<li id="userinfo" data-for="userinfocontent" class="selectable userinfo hidden">
+					<div>
+						<div class="avatar" title="click to login/logout">
+							<i class="icon-user-circle-o defaultUserPicture"></i>
+							<img class="userPicture" src="/www/img/transparent.png" />
+							<i class="icon-spin5 loadingSymbol"></i>
+						</div>
+						<div class="username" data-tran="">Click to login</div>
+						<div class="userStats">
+							<span class="statBlock statLevel" data-tranattr="title" title="Patreon level/Your current pledge this month in cent (1 USD = 100 lv)">
+								<img src="/www/img/patreon.png" class="infoIcon" alt="" />
+								<span class="userLevel"></span>
+							</span>
+							<span class="statBlock statPoints" data-tranattr="title" title="Points/Your lifetime pledge+bonuses in cent (1 USD = 100 pts)">
+								<img src="/www/img/points.png" class="infoIcon" alt="" />
+								<span class="userPoints"></span>
+							</span>
+						</div>
+					</div>
+				</li>
+				<li data-for="language" class="langSetting selectable hasSubMenu">
+					<a><i class="icon-speech-hiragana-romaji"></i><span data-tran="" class="menuTitle">Translator &#38; Language</span><i class="icon-right-dir expanderButton" data-expand=".translatorSetting"></i></a>
+				</li>
+				<li data-for="proofreader" class="proofreaderSetting selectable hasSubMenu">
+					<a><i class="icon-check"></i><span data-tran="" class="menuTitle">Proofreader</span><i class="icon-right-dir expanderButton" data-expand=".prEngineSetting"></i></a>
+				</li>
+				<li data-for="assistant" class="assistantSetting selectable hasSubMenu">
+					<a><i class="icon-mira-ai-assistant"></i><span data-tran="" class="menuTitle">Assistant</span><i class="icon-right-dir expanderButton" data-expand=".assistant"></i></a>
+				</li>
+				<li data-for="general" class="selectable">
+					<a><i class="icon-cog"></i><span data-tran="" class="menuTitle">General</span></a>
+				</li>
+				<li data-for="preferences" class="selectable">
+					<a><i class="icon-tasks"></i><span data-tran="" class="menuTitle">Preferences</span></a>
+				</li>
+				<li data-for="addons" class="selectable addonSetting hasSubMenu">
+					<a class="menuTitle"><i class="icon-puzzle"></i><span data-tran="" class="menuTitle">Add-ons</span><i class="icon-right-dir expanderButton" data-expand=".addonOptionMember"></i></a>
+				</li>
+				<li data-for="about" class="selectable">
+					<a><i class="icon-info-circled"></i><span data-tran="" class="menuTitle">About</span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="panel-left-bottom">
+			<div class="menuPanelTool">
+				<input type="search" class="search menuPanelSearch" placeholder="Find">
+			</div>
+		</div>
+	</div><!-- panel-left -->
+	<div class="panel-right">
+		<div class="panelContent userinfocontent" id="userinfocontent">
+			<h1><i class="icon-user-circle-o"></i><span data-tran="">User Information</span></h1>
+			<hr />
+			<!-- not logged in-->
+			<div class="notLoggedIn bs5">
+				<div class="loginBlock">
+					<div class="loginInfo" data-tran="">Login to your Patreon account to get access to the latest features and updates.</div>
+
+					<div class="loginButtonWrapper my-3 center">
+						<button class="btn btn-primary w-50 btn-lg loginButton" data-tran=""><i class="icon-login"></i> Login</button>
+					</div>
+					<div class="loginButtonWrapper my-3 center">
+						<button class="btn btn-primary w-50 btn-lg loginWithBrowserButton" data-tran=""><i class="icon-login"></i> Login with browser</button>
+					</div>
+				</div>
+				<!-- link to dreamsavior.net -->
+				 <div class="loginBlockFooter center">
+					<a href="https://dreamsavior.net/login" target="_blank" class="btn btn-link"><i class="icon-globe"></i> View your account on dreamsavior.net</a>
+				 </div>
+			</div>
+
+			<!-- logged in-->
+			<div class="loggedIn hidden bs5">
+				<h3 class="greeting mb-3"><span class="greeting-welcome" data-tran="">Welcome,</span> <span class="greeting-username" data-fld="display_name"></span></h3>
+				<div class="userBlock">
+					<div class="twoColumnInfo"><span class="infoHead" data-tran="">Name</span><span class="infoBody" data-fld="display_name"></span></div>
+					<div class="twoColumnInfo"><span class="infoHead" data-tran="">Email</span><span class="infoBody" data-fld="email"></span></div>
+					<div class="twoColumnInfo"><span class="infoHead" data-tran="">Level <div class="infoHeadNote">(Current subscription in USD cents)</div></span>
+						<span class="infoBody"><span data-fld="level"></span></span>
+					</div>
+					<div class="twoColumnInfo"><span class="infoHead" data-tran="">Points <div class="infoHeadNote">(Total lifetime subscription in USD cents)</div></span>
+						<span class="infoBody"><span data-fld="points"></span></span>
+					</div>
+					<div class="twoColumnInfo"><span class="infoHead" data-tran="">Payment status <div class="infoHeadNote">(Current payment status)</div></span>
+						<span class="infoBody">
+							<span class="success">
+								<span class="badge rounded-pill bg-success fs-4"><i class="icon-ok"></i> OK</span>
+							</span>
+							<span class="declined">
+								<div><span class="badge rounded-pill bg-warning text-dark fs-4"><i class="icon-attention"></i> Pending</span></div>
+								<div class="blockBox infoBlock withIcon" data-tran="">
+									<h4 data-tran=""><span class="blue">Don't panic!</span></h4>
+									<h5>And please read the following information.</h5>
+									<p data-tran="">This flag indicates that Patreon has not yet successfully received the funds for your pledge. It's normal for the payment system to experience delays. Depending on your payment method and country of origin, delays can occur for up to 24 hours.</p>
+									<p data-tran="">During this delay, you might see a debit from your credit card. Don’t worry—Patreon will retry at regular intervals to check if they have received your payment. This usually resolves itself within 24 hours.</p>
+									<p data-tran="">If the issue persists beyond this period, please post in the <a href="https://discord.com/channels/870491016891883570/1122329902637650010" external>account-problem</a> thread on the Translator++ server on Discord. I will assist you as much as possible.</p>
+									<p data-tran="">Please understand that to prevent fraud, <b><span class="userInfoPoints">points</span> and <span class="userInfoLevel">Level</span> will not be counted until your payment has been successfully received by Patreon</b>.</p>
+								</div>
+							</span>
+						</span>
+					</div>
+				</div>
+				<div class="loginButtonWrapper my-5 center">
+					<button type="button" class="btn btn-outline-danger btn-lg logoutButton" data-tran=""><i class="icon-logout"></i> Logout</button>
+				</div>
+			</div>
+
+		</div>
+		<div class="panelContent language" id="language">
+			<h1><i class="icon-speech-hiragana-romaji"></i><span data-tran="">Translator &amp; Language</span></h1>
+			<h2 data-tran="">Primary Translator</h2>
+			<div class="fieldLine defaultTranslator">
+				<label data-tran="">Default Translator Engine</label>
+				<div><select id="defaultTransEngine" ></select></div>
+				<div class="blockBox infoBlock withIcon" data-tran="">
+					This Translator Engine will be used when you press <span class="keyboardHint">Ctrl+g</span> at the selected cell(s) to <strong>g</strong>enerate translation at selected cell.
+				</div>
+			</div>
+		
+			<h2 data-tran="">Default Language</h2>
+			<div class="blockBox warningBlock withIcon" data-tran="">
+				The default language settings across projects!<br />
+				The settings in the project's properties will override this value.
+			</div>	
+			<div class="flex languagePair">		
+				<div class="fieldLine originalLanguage">
+					<label data-tran="">Default Source Language</label>
+					<div><select id="sl" ></select></div>
+				</div>
+				<div class="fieldLine targetLanguage">
+					<label data-tran="">Default Target Language</label>
+					<div><select id="tl" ></select></div>
+				</div>
+			</div>	
+		
+			<h2 data-tran="">Ruby Text</h2>
+			<div class="form-group">
+				<div class="blockBox infoBlock withIcon" data-tran="">
+					<p data-tran="">Ruby text (also called <em>furigana</em>) consists of small characters placed above or beside a word to indicate its pronunciation. This setting controls which engine is used to generate ruby characters for preview text.</p>
+					<ul>
+						<li><strong>Kuromoji:</strong> A Japanese morphological analyzer. Built-in support for Japanese language processing.</li>
+						<li><strong>MeCab:</strong> Another Japanese morphological analyzer. Known for its accuracy and speed. Need to <a href="#" onclick="window.opener.thirdParty.check({ popup:true, force:true, filter:'mecab', showInstalled:true }); window.opener.nw.Window.get().focus();">install MeCab through 3rd party application installer</a>.</li>
+						<li><strong>WanaKana:</strong> A library for converting between Hiragana, Katakana, and Romaji.</li>
+					</ul>
+				</div>
+				<div class="controls">
+					<select id="rubyTextHandler"  class="form-control fullWidth" data-autoset="sys.config.rubyTextHandler" >
+						<option value="kuromoji" data-tran="">Kuromoji</option>
+						<option value="mecab" data-tran="">MeCab</option>
+						<option value="wanakana" data-tran="">WanaKana</option>
+					</select>
+				</div>
+			</div>
+
+
+			<div class="sectionBlock" id="customEscaper">
+				<h2 data-tran="">Custom escape</h2>
+				<div class="form-group">
+					<label data-tran="">Patterns</label>
+					<div class="help-block" data-tran="">
+						All words that match the pattern below will not be translated by machine translators. 
+						This section is suitable for hiding tags and scripts from translation engines. <br />
+						Each entry is a valid javaScript's of regular expression, function, or literal string that separated by a <b>comma</b>.<br />
+						Custom escape only worked for supported <a href="https://dreamsavior.net/docs/translator/code-escaping-algorithm/custom-pattern/" class="externalLink" >escape algorithm</a>.
+						<b>Hint:</b>You can also ask ChatGPT to generate you regular expression. <br />
+						Please write the regex pattern along with its modifier.<br />
+						for example :
+						<code>/(\\[a-zA-Z0-9]+\[.*\])+/gi</code>
+					</div>
+					<div class="customEscaperWrapper">
+						<textarea class="customEscaperFld"></textarea>
+					</div>
+					<div>
+						<button class="clearEscaper">Clear</button>
+						<button class="resetEscaper">Reset</button>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label data-tran="">Tester</label>
+					<div class="help-block" data-tran="">
+						Paste your text here to check the pattern.
+						All matched pattern will be highlighted.
+					</div>
+					<div class="customEscaperTestWrapper">
+						<textarea placeholder="Enter text" class="dvEditor patternTester" spellcheck="false" id="patternTester" ></textarea>			
+					</div>
+					
+				</div>		
+			</div>
+		</div><!-- panelContent language -->
+		<div class="panelContent proofreader" id="proofreader">
+			<h1><i class="icon-check"></i><span data-tran="">Proofreader</span></h1>
+			<h2 data-tran="">Default Proofreader</h2>
+			<div class="fieldLine defaultProofreader">
+				<label data-tran="">Default Proofreader Engine</label>
+				<div><select id="defaultProofreaderEngine"></select></div>
+				<div class="blockBox infoBlock withIcon" data-tran="">
+					This Proofreader Engine will be used by the <strong>Proofread here</strong> and <strong>Proofread into the right column</strong> options in the grid's right-click menu.
+				</div>
+			</div>
+			<div class="blockBox infoBlock withIcon" data-tran="">
+				<p>Install a proofreader add-on (such as the <strong>OpenAI Proofreader</strong> add-on) to see it listed here and below.</p>
+			</div>
+		</div>
+		<div class="panelContent assistant" id="assistant">
+			<h1><i class="icon-mira-ai-assistant"></i><span data-tran="">AI Assistant</span></h1>
+			<div class="sectionBlock">
+				<div class="blockBox infoBlock flex" data-tran="">
+					<div style="display: inline-block; padding-top:2em; margin-left: -1.5em;">
+						<i class="icon-mira-ai-assistant" style="font-size: 6em;"></i>
+					</div>
+					<div>
+						<p><strong>Hi! I'm MIRAI, your AI assistant for Translator++.👋</strong></p>
+						<p>Just click my icon <button type="button" onclick="addonLoader.addons.basicUtils.openMiraiAssistant()"><i class="icon-mira-ai-assistant" style="font-size: 1.5em;"></i></button> on your Home menu to chat with me. I can assist you with:</p>
+						<ul>
+							<li>Translation improvements and suggestions</li>
+							<li>Proofreading and quality checks</li>
+							<li>Setting up your translation workflow</li>
+							<li>Creating automation scripts</li>
+							<li>And much more!</li>
+						</ul>
+						<p>Let's make your translation work easier and more efficient together!</p>
+						<br />
+						<p><i>PS. I'm still new, So, please be patient with me.🙇‍♀️ But I'm learning and improving every day!😉</i></p>
+					</div>
+				</div>
+				
+				<h2 data-tran="">AI Configuration</h2>
+				<div class="form-group">
+					<label data-tran="">Model Endpoint</label>
+					<div class="help-block" data-tran="">The API endpoint URL for your AI model. For example: https://api.openai.com/v1/chat/completions</div>
+					<input type="text" class="form-control fullWidth" value="https://api.openai.com/v1/chat/completions" data-autoset="sys.config.aiAssistant.endpoint" name="aiEndpoint" id="aiEndpoint" placeholder="https://api.openai.com/v1" />
+				</div>
+				
+				<div class="form-group">
+					<label data-tran="">API Key</label>
+					<div class="help-block" data-tran="">Your API key for authenticating with the AI service. This will be stored securely.</div>
+					<input type="text" value="" class="form-control fullWidth" data-autoset="sys.config.aiAssistant.apiKey" name="aiApiKey" id="aiApiKey" placeholder="sk-..." />
+				</div>
+				
+				<div class="form-group">
+					<label data-tran="">Model Name</label>
+					<div class="help-block" data-tran="">Select or enter the AI model to use. Models with tool support are recommended for best results.</div>
+					<input type="search" value="gpt-5-mini" list="aiModelList" class="form-control fullWidth" data-autoset="sys.config.aiAssistant.modelName" name="aiModelName" id="aiModelName" placeholder="gpt-4-turbo-preview" />
+					<datalist id="aiModelList">
+						<option value="gpt-4-turbo-preview">GPT-4 Turbo (OpenAI)</option>
+						<option value="gpt-4o">GPT-4o (OpenAI)</option>
+						<option value="gpt-4.1">GPT-4.1 (OpenAI)</option>
+						<option value="gpt-4.1-mini">GPT-4.1 Mini (OpenAI)</option>
+						<option value="gpt-5">GPT-5 (OpenAI)</option>
+						<option value="gpt-5-mini">GPT-5 Mini (OpenAI)</option>
+						<option value="gpt-5-nano">GPT-5 Nano (OpenAI)</option>
+						<option value="gpt-5.1">GPT-5.1 (OpenAI)</option>
+						<option value="gpt-5.1-pro">GPT-5.1-pro (OpenAI)</option>
+						<option value="gpt-5.1-chat-latest">GPT-5.1 Chat Latest (OpenAI)</option>
+
+					</datalist>
+				</div>
+
+			</div>
+		</div>	
+		<div class="panelContent general" id="general">
+			<h1><i class="icon-cog"></i><span data-tran="">General</span></h1>
+			<div class="sectionBlock">
+				<h2 data-tran="">File Association</h2>
+				<div class="extensionList">
+					<table class="extensionTable">
+						<thead>
+							<tr class="theader">
+								<th data-tran="">Extension</th>
+								<th data-tran="">Associate</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>trans</td>
+								<td><input type="checkbox" data-ext="trans" class="associate ext_trans" name="associate[trans]" /></td>
+							</tr>
+							<tr>
+								<td>tpp</td>
+								<td><input type="checkbox" data-ext="tpp" class="associate ext_tpp" name="associate[tpp]" /></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="buttonsBar">
+						<button class="associateBtn setAll" data-tran="">Set All</button>
+						<button class="associateBtn unsetAll" data-tran="">Unset All</button>
+						<button class="associateBtn submit" data-tran="">Apply</button>
+					</div>
+				</div>
+			</div>
+			<div class="dialogSectionBlock sectionBlock">
+				<h2 data-tran="">Update</h2>
+			
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Auto update</div>
+						<div class="info" data-tran="">Automatically update Translator++ if possible.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch autoUpdateFlag" data-autoset="sys.config.autoUpdate"  value="1" /> 
+					</div>
+				</label>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Allow reinstall the same version</div>
+						<div class="info" data-tran="">Allow Translator++ to reinstall the same version that has already been installed. Please keep this option disabled after you've installed the update, especially when your <b>Auto update</b> setting is on. Otherwise, your Translator++ will keep updating itself each time you open the program.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch allowReinstallUpdate" data-autoset="sys.config.autoUpdateReinstall"  value="1" /> 
+					</div>
+				</label>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Use default browser to login</div>
+						<div class="info" data-tran="">Use your trusted system's default browser to login into your Patreon account. Unless this option is checked, Translator++'s embedded browser will be used.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch loginWithBrowser" data-autoset="sys.config.loginWithBrowser"  value="1" /> 
+					</div>
+				</label>				<!--
+				<label class="flex fullWidth">
+					<div class="flexMain">
+						<div class="label">Warn before applying update</div>
+						<div class="info" data-tran="">Always warn me if autoupdater is about to make a change.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch warnOnUpdateChange" data-autoset="sys.config.warnOnUpdateChange"  value="1" /> 
+					</div>
+				</label>
+				-->
+			</div>
+			<div class="dialogSectionBlock sectionBlock">
+				<h2 data-tran="">Multi threading</h2>
+			
+				<label class="fullWidth spaceBottom">
+					<div>
+						<div class="label" data-tran="">Number of thread</div>
+						<div class="info" data-tran="">The number of child processes that are opened simultaneously.<br />
+							0 = disable multi threading. All process will be done by renderer process.<br />
+							The optimum amount usually is the number of your physical core - 1.
+						</div>
+					</div>
+					<div class="threadNum">
+						<input type="range" data-autoset="sys.config.threadNum"  value="0" min="0" max="64" oninput="this.nextElementSibling.value = this.value" /><output data-autoset="sys.config.threadNum" ></output>
+					</div>
+				</label>
+				
+			</div>
+			<div class="dialogSectionBlock sectionBlock">
+				<h2 data-tran="">Backup</h2>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Enable backup</div>
+						<div class="info" data-tran="">Automatically create backup every time you save your project.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch autoBackup" data-autoset="sys.config.autoBackup" value="1" /> 
+					</div>
+				</label>
+				<label class="fullWidth spaceBottom">
+					<div>
+						<div class="label" data-tran="">Backup level history</div>
+						<div class="info" data-tran="">How many history of backup do you want to keep?</div>
+					</div>
+					<div>
+						<input type="range" data-autoset="sys.config.backupLevel"  value="0" min="0" max="10" oninput="this.nextElementSibling.value = this.value" /><output data-autoset="sys.config.backupLevel" ></output>
+					</div>
+				</label>
+			</div>
+			<div class="dialogSectionBlock sectionBlock">
+				<h2 data-tran="">Log & Debugging</h2>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Log to file</div>
+						<div class="info" data-tran="">Log to file instead of the default console window.<br />This is useful if you want to debug Translator++ and you don't have access to the console window. Enabling this option will impact the performance slightly. So, you want this option to be off all the time, except when you're debugging or reporting problems.<br />Logs are saved in data/logs/ folder.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch logIntoFile" value="1" /> 
+					</div>
+				</label>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Truncate log file each session</div>
+						<div class="info" data-tran="">When checked your log file will be truncated each time you re open the application.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch logTruncate" value="1" /> 
+					</div>
+				</label>
+			</div>
+
+			<div class="dialogSectionBlock sectionBlock">
+				<h2 data-tran="">Application Settings</h2>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Enable remote debugging</div>
+						<div class="info" data-tran="">Enables the Chrome DevTools remote debugging protocol on port 9222. This allows you to inspect and debug Translator++ using an external browser by navigating to <code>chrome://inspect</code>. This flag adds <code>--remote-debugging-port=9222</code> to the application startup arguments. A restart is required to apply changes.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch enableRemoteDebugging" value="1" />
+					</div>
+				</label>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Disable GPU</div>
+						<div class="info" data-tran="">Disables hardware GPU acceleration. This is useful if you experience visual glitches, crashes, or rendering issues on certain graphics hardware or drivers. This flag adds <code>--disable-gpu</code> to the application startup arguments. A restart is required to apply changes.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch disableGpu" value="1" />
+					</div>
+				</label>
+			</div>
+			<div class="dialogSectionBlock sectionBlock">
+				<h2 data-tran="" style="color:rgb(147, 0, 0);">Dangerous Area</h2>
+
+				<div class="form-group">
+					<input type="button" class="btn btn-danger" value="Clear all settings" id="clearAllSettings" />
+				</div>
+			</div>
+			
+		</div>
+		<div class="panelContent preferences" id="preferences">
+			<h1><i class="icon-tasks"></i><span data-tran="">Preferences</span></h1>
+			<div class="sectionBlock">
+				<h2 data-tran="">Interface Language</h2>
+				<div>
+					<div class="form-group">
+						<label for="commonReferenceFile" data-tran="">UI Language</label>
+						<select class="uiLanguage" name="uiLanguage" id="uiLanguage"></select>
+						<span class="help-block" data-tran="">Set the language of the user interface. You can create your own localization if Translator++ is not available in your language. The language data are located inside www/lang folder.</span>
+					</div>
+					<div class="form-group">
+						<label for="commonReferenceFile" data-tran="">Spell checker Language</label>
+						<input type="search" list="languageList" name="spellCheckLanguage" id="spellCheckLanguage" value="" />
+						<span class="help-block" data-tran="">Set the default spell checker language.</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="sectionBlock">
+				<h2 data-tran="">Environment Variables</h2>
+				<div>
+					<div class="form-group">
+						<label for="commonReferenceFile" data-tran="">Staging Directory</label>
+						<input type="dvSelectPath" nwdirectory class="form-control" name="stagingPath" value="" id="stagingPath" />
+						<span class="help-block" data-tran="">Staging Directory is a hard cache of projects that are being worked on. A portion of the data from the raw materials are copied to this directory to be accessed the interpreter scripts.</span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="sectionBlock">
+				<h2 data-tran="">Project creation</h2>
+				<div>
+					<div class="form-group">
+						<label for="commonReferenceFile" data-tran="">Auto Load Common Reference</label>
+						<input type="dvSelectPath" class="form-control" data-autoset="sys.config.templatePath" name="commonReferenceFile" value="" id="commonReferenceFile" />
+						<span class="help-block" data-tran="">Auto load common reference from .trans file.</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="sectionBlock">
+				<h2 data-tran="">Project settings</h2>
+				<div>
+					<div class="form-group">
+						<label for="progressColumnIndices" data-tran="">Progress Column Indices</label>
+						<input type="text" class="form-control fullWidth" data-autoset="sys.config.progressColumnIndices" name="progressColumnIndices" value="" id="progressColumnIndices" data-onafterset="trans.evalTranslationProgress()" />
+						<span class="help-block" data-tran="">Here, you can specify which columns will be included in the project's progress calculation.
+							<br />The column index is a zero-based integer, where the leftmost column is 0.
+							<br />Use commas to specify multiple columns. For example: <code>2,3,4</code>.
+							<br /><b>Default: Blank</b>. If left blank, Translator++ will calculate progress from all available columns.
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="sectionBlock">
+				<h2 data-tran="">Performance</h2>
+				<label class="flex fullWidth spaceBottom">
+					<div class="flexMain">
+						<div class="label" data-tran="">Enable Resource Extensive Styling</div>
+						<div class="info" data-tran="">Enables visually rich effects such as backdrop blur on overlay windows. These effects may cause noticeable performance degradation on lower-end hardware. Disabled by default.</div>
+					</div>
+					<div>
+						<input type="checkbox" class="flipSwitch" data-autoset="sys.config.enableResourceExtensiveStyling" name="enableResourceExtensiveStyling" id="enableResourceExtensiveStyling" value="1" data-onafterset="window.opener.ui.applyResourceExtensiveStyling()" />
+					</div>
+				</label>
+			</div>
+
+
+		</div>
+		
+		<div class="panelContent addons tight" id="addons">
+			<div class="horizTabMenu stickyBar" data-for="tabContents">
+				<span data-for="installed" data-tran=""><i class="selected icon-ok-circled"></i>Enable/Disable</span>
+				<span data-for="online" data-tran=""><i class="icon-download-cloud-1"></i>Install</span>
+				<!-- <span data-for="preference" data-tran=""><i class="icon-menu-1"></i>Preference</span> -->
+
+			</div>
+			<div class="tabContents" data-id="tabContents">
+				<div data-id="installed" class="installedAddons">
+					<div class="addonListHeader">
+						<div>
+							<input type="search" class="searchField" id="addonManagerSearch" data-tranattr="placeholder" placeholder="Filter..." />
+						</div>
+					</div>
+					<div class="addonListWrapper"></div>
+				</div>
+				<div data-id="online" class="hidden">
+					<div class="addonListHeader">
+						<div>
+							<input type="search" class="searchField" id="addonInstallerSearch" data-tranattr="placeholder" placeholder="Filter..." />
+						</div>
+						<div class="align-right">
+							<button type="dvfile" title="Install from a file" data-target="#installAddonLocation" label="Select File(s)" class="installAddonFrom" multiple="multiple" accept=".tap,.7z" autocomplete="off"  ><i class="icon-plus-squared"></i> <span data-tran="">Install from a package</span></button>
+							<input type="hidden" id="installAddonLocation" value="" />
+						</div>
+					</div>
+					<div class="addonListWrapper"></div>				
+				</div>
+				<div data-id="preference" class="hidden">
+				</div>
+				
+			</div>
+		</div>		
+		
+		<div class="panelContent about" id="about">
+			<div class="aboutTittle">Translator++</div>
+			<div class="appLogoWrapper">
+				<img src="img/tpp-animated3.svg" class="appLogo" data-theme-exclusive="normal" alt="Translator++ Logo" />
+				<img src="img/tpp-animated3-dark.svg" class="appLogo" data-theme-exclusive="dark" alt="Translator++ Logo" />
+			</div>
+			<div class="versionWrapper alignMiddle">Ver. <span class="version"></span></div>
+
+			<div class="copyright center">© Dreamsavior</div>
+			<div class="alignMiddle spacerTop"><span data-tran="">Visit our website &amp; documentation : </span><br /><a href="http://dreamsavior.net" target="_system">dreamsavior.net</a></div>	
+			
+			<div class="applicationNote alignMiddle"><span data-tran="">Fork Translator++ at : </span><br /><a href="https://gitgud.io/dreamsavior/translator-plus-plus" target="_system">https://gitgud.io/dreamsavior/translator-plus-plus</a></div>
+			<div class="applicationNote alignMiddle"><span data-tran="">Support Translator++ at : </span><br /><a href="http://patreon.com/dreamsavior" target="_system">patreon.com/dreamsavior</a></div>	
+			<div class="applicationNote alignMiddle last">
+				<span data-tran="">Join our discord channel at : </span><br />
+				<a href="https://discord.gg/QX37wqbfe2" target="_system">https://discord.gg/QX37wqbfe2</a><br />
+				<span data-tran="" class="smallInfoDiscord">*) If you're a patron, you should <a href="https://support.patreon.com/hc/en-us/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-" target="_system" external>link your discord account on your Patreon profile</a>. You will get invited automatically, and there are benefits waiting for you!</span>
+			</div>	
+			<div class="sectionBlock">
+				<h2 data-tran="">Version Info</h2>
+				<div id="updaterBlock">
+					<div><span data-tran="">Last checked at : </span><span class="updateLastChecked" ></span> <button href="#" class="updateCheckNow"><i class="icon-arrows-cw" title="Check for update"></i> <span data-tran="">Check now!</span></button></div>
+					<div class="updateStatus">
+						<div class="pendingUpdate">
+							<div data-tran="">You have a pending update</div>
+							<div class="updateButtonWrapper">
+								<button class="updateNow"><i class="icon-arrows-cw" title="Check for update"></i> <span data-tran="">Update now</span></button>
+								<div class="hidden updateProcess"></div>
+							</div>
+						</div>
+						<div class="upToDate" data-tran="">Your Translator++ is up to date 😃.</div>
+					</div>
+				</div>
+				<div><span class="versionTitle">Core</span><span class="versionNumber version strong"></span></div>
+				<div><span class="versionTitle">NW</span><span class="versionNumber nwVersion"></span></div>
+				<div><span class="versionTitle" data-tran="">Architecture</span><span class="versionNumber archVersion"></span></div>
+				<div><span class="versionTitle">Node</span><span class="versionNumber nodeVersion"></span></div>
+				<div><span class="versionTitle">PHP</span><span class="versionNumber phpVersion"></span></div>
+				<div><span class="versionTitle">Ruby</span><span class="versionNumber rubyVersion"></span></div>
+
+			</div>
+			<div class="sectionBlock">
+				<h2 data-tran="">License</h2>
+				<div>GNU Public License version 3</div>
+				<div>© 2018, 2022 By. Dreamsavior (dreamsavior@gmail.com)</div>
+				<p><a href="#" target="_system" class="licenseLink" data-tran="">Click here to read the license.</a></p>
+			</div>
+			<div class="sectionBlock">
+				<h2 data-tran="">Credits</h2>
+				<div>
+					<div class="creditCaption">TES-Patcher</div>
+					<div class="creditUrl"><a href="https://github.com/Sinflower/TES-Patcher" target="_system" class="">https://github.com/Sinflower/TES-Patcher</a></div>
+				</div>
+				<div>
+					<div class="creditCaption">Enigma VirtualBox Unpacker</div>
+					<div class="creditUrl"><a href="https://lifeinhex.com" target="_system" class="">https://lifeinhex.com</a></div>
+				</div>
+				<h2 data-tran="">Localization</h2>
+				<div>
+					<div class="creditCaption"><b>Russian</b></div>
+					<div class="creditUrl">Admin Island</div>
+				</div>
+				<div>
+					<div class="creditCaption"><b>Simplified Chinese</b></div>
+					<div class="creditUrl">ChineseHerbalTea</div>
+				</div>
+			</div>
+			<div class="sectionBlock">
+				<h2 data-tran="">About Third Party Software</h2>
+				<div class="" data-tran="">
+				This software is using third party softwares that located at /3rdParty. These third party softwares hold their own licenses and 
+				are included solely for convenience of use and 
+				provided “as is” without warranty of any kind, either expressed or implied and such software is to be used at your own risk.
+				</div>			
+			</div>			
+			<div class="sectionBlock">
+				<h2 data-tran="">Special Thanks</h2>
+				<div class="specialThanksBlock">
+					<span>Eromur Abel</span>
+					<span>Lazarus</span>
+					<span>Man Usia</span>
+					<span>イカロス 小好</span>
+					<span title="March 22">Waefey</span>
+					<span title="Dec 23">灵梦 御所</span>
+				</div>	
+				<div><span data-tran="">Want to explicitly support Translator++ by putting your name on this section?</span>
+					<a href="https://patreon.com/dreamsavior" target="_system" data-tran="">Click here to learn more about how to do that!</a>
+				</div>
+			</div>			
+			<div class="sectionBlock">
+				<h2 data-tran="">Changelog</h2>
+				<div class="changelog"><button class="viewChangelog"><i class="icon-search-1"></i>View changelog</button>
+				</div>			
+			</div>
+
+			
+
+		</div>
+	</div>
+</div>
+
+<div id="template" class="hidden">
+	<div class="column">
+		<div class="portlet">
+			<div class="portlet-header">
+				<span class="portlet-title" data-tran="">Feeds</span>
+				<span class="portlet-shortcut">alt+1</span>
+			</div>
+			<div class="portlet-content" data-tran="">Click connect button, to connect translator with Translator++ table</div>
+		</div>
+	</div>
+</div>
+<div id="busyOverlay" class="pitchBlack" >
+	<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	<div class="loading-text" data-tran="">working</div>
+</div>
+
+	</body>
+</html>

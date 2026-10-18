@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YurisParser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"0","tags":null}
+#. tid/4757/type/StringLiteral
+#. tid/4811/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:0"
+msgid "YU-RIS engine translator"
+msgstr "Công cụ dịch động cơ YU-RIS"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"1","tags":null}
+#. tid/4770/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:1"
+msgid "Checking up requirements..."
+msgstr "Đang kiểm tra yêu cầu..."
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"2","tags":null}
+#. tid/4816/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:2"
+msgid "Create a new translation project from YU-RIS visual novel engine"
+msgstr "Tạo một dự án dịch mới từ động cơ visual novel YU-RIS"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"3","tags":null}
+#. tid/4995/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:3"
+msgid "Next"
+msgstr "Tiếp theo"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"4","tags":null}
+#. tid/5081/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:4"
+msgid "Select YU-RIS game"
+msgstr "Chọn trò chơi YU-RIS"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"5","tags":null}
+#. tid/5086/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:5"
+msgid "Select the game's executable file"
+msgstr "Chọn tệp thực thi của trò chơi"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"6","tags":null}
+#. tid/5099/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:6"
+msgid "Engine version"
+msgstr "Phiên bản động cơ"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"7","tags":null}
+#. tid/5104/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:7"
+msgid "Detected YU-RIS version of the selected game"
+msgstr "Đã phát hiện phiên bản YU-RIS của trò chơi đã chọn"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"8","tags":null}
+#. tid/5440/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:8"
+msgid "Create a new project"
+msgstr "Tạo một dự án mới"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"9","tags":null}
+#. tid/5501/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:9"
+msgid "Invalid target game :"
+msgstr "Trò chơi mục tiêu không hợp lệ:"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"10","tags":null}
+#. tid/6038/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:10"
+msgid "Source material do not match the current translation project!"
+msgstr "Tài liệu nguồn không khớp với dự án dịch hiện tại!"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"11","tags":null}
+#. tid/6550/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:11"
+msgid "Select the repack method."
+msgstr "Chọn phương pháp đóng gói lại."
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"12","tags":null}
+#. tid/6557/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:12"
+msgid "<ul><li><b>Repack into original YPF file(s)</b><br />Will repack the translation to the original pack. May take longer time to extract the original pack, patch it with translation and repack it again.</li>"
+msgstr "<ul><li><b>Đóng gói lại vào tệp YPF gốc</b><br />Sẽ đóng gói lại bản dịch vào bản gốc. Có thể mất nhiều thời gian hơn để trích xuất bản gốc, vá nó với bản dịch và đóng gói lại.</li>"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"13","tags":null}
+#. tid/6561/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:13"
+msgid "<li><b>Repack as a YPF patch file</b><br>Will repack the translation as a separate patch file (e.g. update9.ypf). This way, it is possible to translate the game even without modifying the original ypf files. Combine this with Copy material's <b>Do not copy material, inject translation only</b> option for the faster patching process.</li></ul>"
+msgstr "<li><b>Đóng gói lại dưới dạng tệp vá YPF</b><br>Sẽ đóng gói lại bản dịch thành một tệp vá riêng biệt (ví dụ: update9.ypf). Bằng cách này, có thể dịch trò chơi mà không cần sửa đổi các tệp ypf gốc. Kết hợp điều này với tùy chọn <b>Không sao chép tài liệu, chỉ tiêm bản dịch</b> trong Sao chép tài liệu để quá trình vá nhanh hơn.</li></ul>"
+
+# {"path":"/addons/yurisParser/YurisParser.js","row":"14","tags":null}
+#. tid/6613/type/StringLiteral
+msgctxt "tpp:/addons/yurisParser/YurisParser.js:14"
+msgid "The target repack version must match your game version. Enter the major and minor version separated by a dot. For example: <b>0.466</b>. By default, Translator++ will detect the engine version when you create the project."
+msgstr "Phiên bản đóng gói lại mục tiêu phải khớp với phiên bản trò chơi của bạn. Nhập phiên bản chính và phụ cách nhau bằng dấu chấm. Ví dụ: <b>0.466</b>. Mặc định, Translator++ sẽ phát hiện phiên bản động cơ khi bạn tạo dự án."

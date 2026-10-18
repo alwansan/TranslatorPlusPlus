@@ -1,0 +1,27 @@
+{
+    "name": "rmmz",
+	"title" : "RPG Maker MZ Specific Utility",
+    "description": "RPG Maker MZ Utility Package",
+    "main": "rmmz.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.8",
+    "minimumVersion": "8.5.18",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"load": [
+		"decrypt-data.module.js",
+		"rmmz.js"
+	],
+	"exclude": [
+		"utils/universal_decrypt_mz.js"
+    ],	
+    "compile": {
+        "simple": [
+			"decrypt-data.module.js"
+		]
+	},	
+	"autoload" : false
+}

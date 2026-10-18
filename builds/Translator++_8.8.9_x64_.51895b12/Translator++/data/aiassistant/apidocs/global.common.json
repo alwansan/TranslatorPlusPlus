@@ -1,0 +1,14 @@
+{
+  "common": {
+    "constructor": {
+      "common": {
+        "signature": "common",
+        "description": "common is Translator++ utility belt.\nYou can use it via window.common or directly common",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new common()"
+      }
+    }
+  }
+}

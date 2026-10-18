@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/loadingScreen.js"></script>
+<title>Patron only</title>
+<style>
+html, body {
+	background:#002051;
+	color:#f1f1f1;
+	font-family: "Tahoma";
+}
+
+
+@keyframes flashing {
+	0% { 
+		opacity: 0.3;
+	}
+	50% { 
+		opacity: 1; 
+	}
+	100% { 
+		opacity: 0.3; 
+	}
+}
+.flashing {
+	animation-name: flashing;
+	animation-duration: .6s; /* or: Xms */
+	animation-iteration-count: infinite;
+	/*animation-direction: alternate;  or: normal */
+	animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+	animation-fill-mode: forwards; /* or: backwards, both, none */
+	/*animation-delay: 2s;  or: Xms */	
+	color: rgb(250, 247, 219);
+}
+
+img.patreon_logo {
+    max-width: 300px;
+}	
+button {
+    text-align: center;
+}
+.patreon-responsive-button {
+    text-align: center;
+    margin: 32px 0px 32px 0px;
+}
+.patreon-patron-button-wrapper {
+    text-align: center;
+}
+
+a {
+	color: #e2e2e2;
+}
+
+.application-buttonbar .icon-cancel:before {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;	
+}
+.application-buttonbar .icon-cancel {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	transition:background .2s ease-out;
+	
+}
+
+.application-buttonbar .icon-cancel:hover {
+    color:#fff;
+	background:red;
+	transition:background .2s ease-out;
+}
+.application-buttonbar  {
+	width: 32px;
+    position: relative;	
+}
+
+.small {
+	font-size:.8em;
+}
+
+.smallMore {
+	font-size:.75em;
+}
+
+.userInfo {
+	margin-bottom:8px;
+}
+
+</style>
+<script>
+var $ = require('jquery');
+window.jQuery = $;
+window.common = window.opener.common;
+window.updater = window.opener.updater;
+
+var initPage = async function() {
+	window.win = nw.Window.get();
+	win.focus();
+	win.setAlwaysOnTop(true);
+	var homepage = (nw && nw.App && nw.App.manifest && nw.App.manifest.homepage) ? nw.App.manifest.homepage : "";
+	if (typeof homepage !== "string" || !homepage.trim()) homepage = "https://dreamsavior.net";
+	homepage = homepage.replace(/\/+$/, "");
+	var currentUser = await common.fetch(homepage + "/rest/myuser/");
+	console.log(currentUser);
+	currentUser = currentUser || {};
+	$(".userId").text(currentUser.display_name || "not connected");
+	$(".userLevel").text(currentUser.level || "0");
+	$(".flashing").removeClass("flashing");
+}
+
+var relogin = async function() {
+	var conf = confirm("Re connect your Patreon account to Translator++?");
+	if (!conf) return;
+	window.loadingScreen.show();
+	await updater.logout();
+	updater.login();
+	window.win.close(true);
+}
+
+$(document).ready(()=>{
+	window.loadingScreen = new LoadingScreen();
+	$("a.external").on("click", function(e) {
+		e.preventDefault();
+		nw.Shell.openExternal($(this).attr("href"));
+	});
+	$(".relogin").on("click", async function(e) {
+		e.preventDefault();
+		await relogin();
+	});	
+	initPage();
+});
+</script>
+</head>
+<body>
+
+<div class="patreon-campaign-banner">
+<div class="patreon-patron-button-wrapper">
+<div class="patreon-text-over-button">To view this content, you must be a member of<br /><b><a href="https://www.patreon.com/dreamsavior" target="_blank"  class="external">Dreamsavior's Patreon</a> at $<span class="patreonLevel">1</span></b> or more</div>
+	<div class="patreon-universal-button">
+		<div class="patreon-responsive-button-wrapper">
+			<div class="patreon-responsive-button">
+			<a href="https://www.patreon.com/dreamsavior" target="_blank" class="external">
+				<img class="patreon_logo" src="/www/img/Patreon_White-1.png" alt="Unlock with Patreon" /> 
+			</a>
+			</div>
+		</div>
+	</div>
+	<div class="userInfo">
+		<div>You are logged in as: <span class="userId flashing">loading...</span>. Your current pledge is <span class="userLevel flashing">loading...</span></div>
+		<div>Not your user? <a href="#" class="relogin">Reconnect here.</a></div>
+	</div>
+	<div class="patreon-text-under-button small">
+		Already a qualifying Patreon member but still encounter this page?
+		Please make sure Translator++ is connected with your Patreon Account<br/>
+		<span class="smallMore"><a href="https://dreamsavior.net/docs/translator/getting-started/how-to-connect-translator-with-patreon-account/" class="external" />Learn more here</a></span>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

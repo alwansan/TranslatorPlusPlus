@@ -1,0 +1,226 @@
+{
+  "BatchTranslate": {
+    "constructor": {
+      "BatchTranslate": {
+        "signature": "new BatchTranslate()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [
+          "```js\nvar BatchTranslate = require(\"www/js/BatchTranslate\");\nvar batchTranslate = new BatchTranslate(trans.google, {\n    ignoreTranslated: true,\n});\nawait batchTranslate.batchTranslate();\n```"
+        ],
+        "usage": "new BatchTranslate()"
+      }
+    },
+    "members": {
+      ".procedures": {
+        "signature": "(static) procedures",
+        "description": "Collection of the default procedures for batch translation.\nProcedures are functions that handle the translation process in the translation flow.\nA procedure is an async function that accept one parameter, the batch of translation data and returns batch translation info.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": ".procedures"
+      }
+    },
+    "methods": {
+      "getTranslationBatchData": {
+        "signature": "async getTranslationBatchData(translator, options, trans) → Promise.<Array.<Array.<TranslationInfo>>>",
+        "description": "Generates translation batch data for the given translator and options.",
+        "parameters": [
+          {
+            "name": "translator",
+            "type": "Object",
+            "description": "The translator engine to be used for translation.",
+            "required": true
+          },
+          {
+            "name": "optionsonFinishedkeyColumntranslateOtherignoreTranslatedoverwritesaveOnEachBatchalwaysSparateFilefilterTagModefilterTagtargetColumnmaxRequestLengthfilestranslatiorOptions",
+            "type": "ObjectfunctionnumberbooleanbooleanbooleanbooleanbooleanstringArray.<string>numbernumberArray.<string>object",
+            "description": "Additional options for the translator engine.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "onFinished",
+            "type": "function",
+            "description": "Callback function to be executed when the process finishes.",
+            "required": false
+          },
+          {
+            "name": "keyColumn",
+            "type": "number",
+            "description": "The column index containing the keys to be translated.",
+            "required": false
+          },
+          {
+            "name": "translateOther",
+            "type": "boolean",
+            "description": "Flag indicating whether to translate other columns.",
+            "required": false
+          },
+          {
+            "name": "ignoreTranslated",
+            "type": "boolean",
+            "description": "Flag indicating whether to ignore already translated rows.",
+            "required": false
+          },
+          {
+            "name": "overwrite",
+            "type": "boolean",
+            "description": "Flag indicating whether to overwrite existing translations.",
+            "required": false
+          },
+          {
+            "name": "saveOnEachBatch",
+            "type": "boolean",
+            "description": "Flag indicating whether to save after each batch.",
+            "required": false
+          },
+          {
+            "name": "alwaysSparateFile",
+            "type": "boolean",
+            "description": "Flag indicating whether to always translate each file separately.",
+            "required": false
+          },
+          {
+            "name": "filterTagMode",
+            "type": "string",
+            "description": "Mode for filtering tags ('blacklist' or 'whitelist').",
+            "required": false
+          },
+          {
+            "name": "filterTag",
+            "type": "Array.<string>",
+            "description": "Array of tags to filter rows.",
+            "required": false
+          },
+          {
+            "name": "targetColumn",
+            "type": "number",
+            "description": "The column index where translations will be placed.",
+            "required": false
+          },
+          {
+            "name": "maxRequestLength",
+            "type": "number",
+            "description": "Maximum length of the request to the translator engine.",
+            "required": false
+          },
+          {
+            "name": "files",
+            "type": "Array.<string>",
+            "description": "Array of files to be processed. If not provided, defaults to checked or all files.",
+            "required": false
+          },
+          {
+            "name": "translatiorOptions",
+            "type": "object",
+            "description": "Additional options for the translator engine.",
+            "required": false
+          },
+          {
+            "name": "trans",
+            "type": "Object",
+            "description": "The current translation instance.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Array.<Array.<TranslationInfo>>>",
+          "description": "A promise that resolves to a two-dimensional array containing the translation batch data."
+        },
+        "examples": [],
+        "usage": "getTranslationBatchData(translator, optionsonFinishedkeyColumntranslateOtherignoreTranslatedoverwritesaveOnEachBatchalwaysSparateFilefilterTagModefilterTagtargetColumnmaxRequestLengthfilestranslatiorOptions, , onFinished, keyColumn, translateOther, ignoreTranslated, overwrite, saveOnEachBatch, alwaysSparateFile, filterTagMode, filterTag, targetColumn, maxRequestLength, files, translatiorOptions, trans) : Promise.<Array.<Array.<TranslationInfo>>>"
+      },
+      "runProcedure": {
+        "signature": "runProcedure(procedureName, batch) → Promise.<Array.<TranslationInfo>>",
+        "description": "Run the procedure for the given batch.",
+        "parameters": [
+          {
+            "name": "procedureName",
+            "type": "string",
+            "description": "The name of the procedure.",
+            "required": true
+          },
+          {
+            "name": "batch",
+            "type": "Array.<TranslationInfo>",
+            "description": "The batch of translation data.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Array.<TranslationInfo>>",
+          "description": "A promise that resolves to the translated batch."
+        },
+        "examples": [],
+        "usage": "runProcedure(procedureName, batch) : Promise.<Array.<TranslationInfo>>"
+      },
+      "translate": {
+        "signature": "translate(batch)",
+        "description": "Translate the given batch of translation data.",
+        "parameters": [
+          {
+            "name": "batch",
+            "type": "Array.<TranslationInfo>",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "translate(batch)"
+      },
+      ".defineProcedure": {
+        "signature": "(static) defineProcedure(procedureName, procedure)",
+        "description": "Define a procedure for batch translation.",
+        "parameters": [
+          {
+            "name": "procedureName",
+            "type": "string",
+            "description": "The name of the procedure.",
+            "required": true
+          },
+          {
+            "name": "procedure",
+            "type": "function",
+            "description": "The procedure function.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".defineProcedure(procedureName, procedure)"
+      },
+      ".getActorGlossaryData": {
+        "signature": "(static) getActorGlossaryData(actorName, options) → Object",
+        "description": "Get the actor glossary data.",
+        "parameters": [
+          {
+            "name": "actorName",
+            "type": "string",
+            "description": "The actor name to get the glossary data.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "The options for getting the actor glossary data.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The actor glossary data."
+        },
+        "examples": [],
+        "usage": ".getActorGlossaryData(actorName, options) : Object"
+      }
+    }
+  }
+}

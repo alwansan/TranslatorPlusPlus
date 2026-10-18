@@ -1,0 +1,451 @@
+{
+  "TranslatorEngine": {
+    "constructor": {
+      "TranslatorEngine": {
+        "signature": "new TranslatorEngine(defaultVal?, defaultConfig?)",
+        "description": "Handles how a text or an array of texts is translated from one language to another.\nEach translation app has its own protocol, api and method. This class takes care of that and at the same time hopes to make that diversity more uniform.",
+        "parameters": [
+          {
+            "name": "defaultVal",
+            "type": "Object",
+            "description": "Default value. Please provide an object with the TranslatorEngine like structure.",
+            "required": false
+          },
+          {
+            "name": "defaultConfig",
+            "type": "Object",
+            "description": "Default user configuration. Please provide an object with the TranslatorEngine like structure.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new TranslatorEngine(defaultVal, defaultConfig)"
+      }
+    },
+    "members": {
+      "author": {
+        "signature": "author",
+        "description": "Author of this engine",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "author"
+      },
+      "batchDelay": {
+        "signature": "batchDelay",
+        "description": "Batch delay.\nThe waiting time between batch. Some server will ban user if you send intense attack like requests.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "batchDelay"
+      },
+      "delimiter": {
+        "signature": "delimiter",
+        "description": "delimiter for each line. Pick character that will be obeyed by translator engine.\nThe possition of the delimiter for the resulted translation should be intact and unchanged.\nif the number of lines of original text doesn't match with translation result...dissaster will be occured!\nGlue between rows\nExample:\nGoogle treat line break as line separator. You should use \\n (or \\r\\n) for google.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "delimiter"
+      },
+      "description": {
+        "signature": "description",
+        "description": "Description of the engine.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "description"
+      },
+      "escapeAlgorithm": {
+        "signature": "escapeAlgorithm",
+        "description": "Escape algorithm to escape subset of string.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "escapeAlgorithm"
+      },
+      "id": {
+        "signature": "id",
+        "description": "ID of the engine. Must be unique.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "id"
+      },
+      "languages": {
+        "signature": "languages",
+        "description": "Supported languages of the translator\ndefault is whatever google supports",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "languages"
+      },
+      "maxRequestLength": {
+        "signature": "maxRequestLength",
+        "description": "Maximum request length for each batch in characters.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "maxRequestLength"
+      },
+      "name": {
+        "signature": "name",
+        "description": "Display name of the engine",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "name"
+      },
+      "optionsForm": {
+        "signature": "optionsForm :Object",
+        "description": "A JSON Form object to generate a form for options.\nMore about JSON Form:\nhttps://github.com/jsonform/jsonform/wiki\nSample and playground",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "optionsForm"
+      },
+      "version": {
+        "signature": "version",
+        "description": "Engine version",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "version"
+      },
+      ".escapeAlgorithms": {
+        "signature": "(static) escapeAlgorithms",
+        "description": "List of the Code Escape Algorithms",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": ".escapeAlgorithms"
+      },
+      ".translators": {
+        "signature": "(static) translators",
+        "description": "List of the translator engines",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": ".translators"
+      }
+    },
+    "methods": {
+      "fetchTranslation": {
+        "signature": "fetchTranslation(filteredTexts, sl?, tl?, codeEscape?, options?) → Array.<String>",
+        "description": "Translate array of strings by using the current engine.\nThis function should be overrided with the real handler",
+        "parameters": [
+          {
+            "name": "filteredTexts",
+            "type": "String|Array.<String>",
+            "description": "A string or Array of string the text to be translated by using the current engine. Ideally the input is text filtered by CodeEscape",
+            "required": true
+          },
+          {
+            "name": "sl",
+            "type": "String",
+            "description": "Source language",
+            "required": false
+          },
+          {
+            "name": "tl",
+            "type": "String",
+            "description": "Target language",
+            "required": false
+          },
+          {
+            "name": "codeEscape",
+            "type": "CodeEscape",
+            "description": "Code escape object",
+            "required": false
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Options",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<String>",
+          "description": "Translated texts. Must match the index of array of input texts (filteredTexts)"
+        },
+        "examples": [],
+        "usage": "fetchTranslation(filteredTexts, sl, tl, codeEscape, options) : Array.<String>"
+      },
+      "getDefaultOptions": {
+        "signature": "getDefaultOptions(key) → any",
+        "description": "Get the default value of an option",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The key of the option",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "any",
+          "description": "the default value of the option"
+        },
+        "examples": [],
+        "usage": "getDefaultOptions(key) : any"
+      },
+      "getLanguageCode": {
+        "signature": "getLanguageCode(standardCode, langTable?) → String",
+        "description": "Convert language code from the unified language code to this engine's language code.",
+        "parameters": [
+          {
+            "name": "standardCode",
+            "type": "String",
+            "description": "Standard language code",
+            "required": true
+          },
+          {
+            "name": "langTable",
+            "type": "String",
+            "description": "Language table. sl||tl",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "This engine's language code"
+        },
+        "examples": [
+          "trans.getTranslatorEngine(\"lingvaNex\").getLanguageCode(\"ja\")\n// ja_JP"
+        ],
+        "usage": "getLanguageCode(standardCode, langTable) : String"
+      },
+      "getOptions": {
+        "signature": "getOptions(key) → *",
+        "description": "Get option from this translator engine.",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "*",
+            "description": "Key of the object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "Value of the retreived data"
+        },
+        "examples": [],
+        "usage": "getOptions(key) : *"
+      },
+      "getUnsetRequiredOptions": {
+        "signature": "getUnsetRequiredOptions() → Array.<String>",
+        "description": "Check if the required field is set",
+        "parameters": [],
+        "returns": {
+          "type": "Array.<String>",
+          "description": "Array of unset required options"
+        },
+        "examples": [],
+        "usage": "getUnsetRequiredOptions() : Array.<String>"
+      },
+      "init": {
+        "signature": "init(e) → Boolean",
+        "description": "Initializing the translator engine",
+        "parameters": [
+          {
+            "name": "e",
+            "type": "Event",
+            "description": "Event",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True on success"
+        },
+        "examples": [],
+        "usage": "init(e) : Boolean"
+      },
+      "preProcessText": {
+        "signature": "preProcessText(text, options?) → Object",
+        "description": "Pre process text(s) before sending to translator",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String|Array.<String>",
+            "description": "Text or array of text",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "Text ready to be sent to tranlator engine"
+        },
+        "examples": [],
+        "usage": "preProcessText(text, options) : Object"
+      },
+      "resetOptions": {
+        "signature": "resetOptions()",
+        "description": "Reset the option to their default values\nThis only affect options set through option form\nwill not re-render option field",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "resetOptions()"
+      },
+      "setOptions": {
+        "signature": "setOptions()",
+        "description": "Set all options at once",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "setOptions()"
+      },
+      "translate": {
+        "signature": "translate(text, options?, options?) → Promise.<TranslationResult>",
+        "description": "Method to translate text(s)\nThis function is to be replaced with a handler for each translator end point/apps.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String|Array.<String>",
+            "description": "Text(s) to translate",
+            "required": true
+          },
+          {
+            "name": "optionssltlonAfterLoadingonErroralways",
+            "type": "ObjectStringStringfunctionfunctionfunction",
+            "description": "Callback after process is completed.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "sl",
+            "type": "String",
+            "description": "Source language.",
+            "required": false
+          },
+          {
+            "name": "tl",
+            "type": "String",
+            "description": "Target language.",
+            "required": false
+          },
+          {
+            "name": "onAfterLoading",
+            "type": "function",
+            "description": "Callback after process is success.",
+            "required": false
+          },
+          {
+            "name": "onError",
+            "type": "function",
+            "description": "Callback when process is error.",
+            "required": false
+          },
+          {
+            "name": "always",
+            "type": "function",
+            "description": "Callback after process is completed.",
+            "required": false
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Options",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<TranslationResult>",
+          "description": ""
+        },
+        "examples": [
+          "var result = await trans.getTranslatorEngine(\"deepl\").translate([\"こんにちは\"])\nconsole.log(result.translation);\n// prints an array: [\"Hello. - Hello.\"]"
+        ],
+        "usage": "translate(text, optionssltlonAfterLoadingonErroralways, , sl, tl, onAfterLoading, onError, always, options) : Promise.<TranslationResult>"
+      },
+      "translatePairs": {
+        "signature": "translatePairs(obj) → TranslationPairs",
+        "description": "Translate a translation pairs.\nWill skip the element that already has translation",
+        "parameters": [
+          {
+            "name": "obj",
+            "type": "TranslationPairs",
+            "description": "Translation pairs object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "TranslationPairs",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "translatePairs(obj) : TranslationPairs"
+      },
+      "update": {
+        "signature": "update(key, value)",
+        "description": "Update a configuration and store it to the system.\nThe value will be saved and remembered when the system is saved.",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "Key of the key-value pair",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value of the key-value pair",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "update(key, value)"
+      },
+      ".addEscapeAlgorithm": {
+        "signature": "(static) addEscapeAlgorithm(name, algorithm)",
+        "description": "Register an escape algorithm into the system",
+        "parameters": [
+          {
+            "name": "name",
+            "type": "String",
+            "description": "The name of the escape algorithm",
+            "required": true
+          },
+          {
+            "name": "algorithm",
+            "type": "CodeEscape",
+            "description": "CodeEscape class",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".addEscapeAlgorithm(name, algorithm)"
+      },
+      ".getEngine": {
+        "signature": "(static) getEngine(engineID)",
+        "description": "Get the engine by their ID",
+        "parameters": [
+          {
+            "name": "engineID",
+            "type": "string",
+            "description": "Engine ID",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".getEngine(engineID)"
+      }
+    }
+  }
+}

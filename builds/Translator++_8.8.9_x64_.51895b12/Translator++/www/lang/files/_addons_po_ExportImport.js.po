@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ExportImport.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/po/ExportImport.js","row":"0","tags":null}
+#. tid/1174/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:0"
+msgid "Select mode"
+msgstr "Chọn chế độ"
+
+# {"path":"/addons/po/ExportImport.js","row":"1","tags":null}
+#. tid/1196/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:1"
+msgid "Select how do you want to start your project. By selecting files or folders."
+msgstr "Chọn cách bạn muốn bắt đầu dự án. Bằng cách chọn tệp hoặc thư mục."
+
+# {"path":"/addons/po/ExportImport.js","row":"2","tags":null}
+#. tid/1223/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:2"
+msgid "Select Folder"
+msgstr "Chọn Thư mục"
+
+# {"path":"/addons/po/ExportImport.js","row":"3","tags":null}
+#. tid/1233/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:3"
+msgid "Select the folder for processing. Translator++ will recursively retrieve the PO files from the specified folder."
+msgstr "Chọn thư mục để xử lý. Translator++ sẽ truy xuất đệ quy các tệp PO từ thư mục được chỉ định."
+
+# {"path":"/addons/po/ExportImport.js","row":"4","tags":null}
+#. tid/1267/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:4"
+msgid "Select File"
+msgstr "Chọn Tệp"
+
+# {"path":"/addons/po/ExportImport.js","row":"5","tags":null}
+#. tid/1277/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:5"
+msgid "Select the files you want to process."
+msgstr "Chọn các tệp bạn muốn xử lý."
+
+# {"path":"/addons/po/ExportImport.js","row":"6","tags":null}
+#. tid/1317/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:6"
+msgid "Filters"
+msgstr "Bộ lọc"
+
+# {"path":"/addons/po/ExportImport.js","row":"7","tags":null}
+#. tid/1327/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:7"
+msgid "Filter the file name with glob pattern. Default is <code>**/*.{po,mo}</code>"
+msgstr "Lọc tên tệp với mẫu glob. Mặc định là <code>**/*.{po,mo}</code>"
+
+# {"path":"/addons/po/ExportImport.js","row":"8","tags":null}
+#. tid/1335/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:8"
+msgid "All .po files in the selected folder and its subfolders."
+msgstr "Tất cả tệp .po trong thư mục đã chọn và các thư mục con của nó."
+
+# {"path":"/addons/po/ExportImport.js","row":"9","tags":null}
+#. tid/1340/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:9"
+msgid "All .mo files in the selected folder and its subfolders."
+msgstr "Tất cả tệp .mo trong thư mục đã chọn và các thư mục con của nó."
+
+# {"path":"/addons/po/ExportImport.js","row":"10","tags":null}
+#. tid/2342/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:10"
+msgid "PO Files"
+msgstr "Tệp PO"
+
+# {"path":"/addons/po/ExportImport.js","row":"11","tags":null}
+#. tid/2509/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:11"
+msgid "MO Files"
+msgstr "Tệp MO"
+
+# {"path":"/addons/po/ExportImport.js","row":"12","tags":null}
+#. tid/2534/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:12"
+msgid ""
+"You are about to export the translations as MO files.\n"
+""
+msgstr ""
+"Bạn sắp xuất bản dịch dưới dạng tệp MO.\n"
+""
+
+# {"path":"/addons/po/ExportImport.js","row":"13","tags":null}
+#. tid/2542/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:13"
+msgid ""
+"- MO files are binary files that cannot be edited manually.\n"
+""
+msgstr ""
+"- Tệp MO là tệp nhị phân không thể chỉnh sửa thủ công.\n"
+""
+
+# {"path":"/addons/po/ExportImport.js","row":"14","tags":null}
+#. tid/2550/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:14"
+msgid ""
+"- Only translated entries are stored in MO files.\n"
+""
+msgstr ""
+"- Chỉ các mục đã dịch được lưu trong tệp MO.\n"
+""
+
+# {"path":"/addons/po/ExportImport.js","row":"15","tags":null}
+#. tid/2558/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:15"
+msgid "Are you sure you want to proceed?"
+msgstr "Bạn có chắc chắn muốn tiếp tục?"
+
+# {"path":"/addons/po/ExportImport.js","row":"16","tags":null}
+#. tid/2747/type/StringLiteral
+msgctxt "tpp:/addons/po/ExportImport.js:16"
+msgid "PO / MO Files"
+msgstr "Tệp PO / MO"

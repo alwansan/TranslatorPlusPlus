@@ -1,0 +1,70 @@
+html, body {
+	font-family: "Tahoma";
+	box-sizing: border-box;
+    background: #f1f1f1;
+    font-size: 10pt;
+    overflow: auto;
+}
+
+body {
+    padding:1em;
+}
+
+
+h1 {
+    border-bottom: 1px solid #aaa;
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 11pt;
+    color:#333;
+}
+
+.rangeSliderWrapper [type=range] {
+    vertical-align: -4px;
+    width: calc(100% - 82px);
+}
+
+
+.gpuServerPatcher ul {
+    margin-top: 4px;
+}
+.gpuPatchOptions {
+    width:100%;
+    box-sizing: border-box;
+}
+.gpuPatchOptions button {
+    width: 100%;
+    margin-bottom: .5em;
+}
+.gpuPatchOptions .recommended:after {
+    content: " (recommended)";
+    color: #0040a0;
+    font-weight: bold;
+}
+
+.actionButton {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+button.button-big {
+    font-size: 1.5em;
+    line-height: 1.8em;
+    padding: 0em 2em;
+    margin: 1em 0em;
+}
+
+.search {
+    width: 100%;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.hidden {
+	display: none;
+}

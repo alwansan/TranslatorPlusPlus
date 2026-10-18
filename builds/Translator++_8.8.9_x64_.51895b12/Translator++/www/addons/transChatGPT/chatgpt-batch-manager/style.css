@@ -1,0 +1,312 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+:root {
+
+    /* For .panel-left status badges */
+    --status-badge-failed-bg: #f44336;
+    --status-badge-warning-bg: #ff9800;
+    --status-badge-pending-bg: #ff9800; /* same as warning */
+    --status-badge-running-bg: #2196f3;
+    --status-badge-canceled-bg: #f44336; /* same as failed */
+    --status-badge-timeout-bg: #f44336; /* same as failed */
+    --status-badge-error-state-bg: #f44336; /* same as failed, for [data-status="error"] */
+    --status-badge-inprogress-bg: var(--gr-lv13); /* #303030, for original #333333 */
+
+    /* For #conversationPreview .chat-event */
+    --chat-event-bg: var(--blue-100); /* #d0e1fd, for original #c7e5ff */
+    --chat-event-text-color: var(--blue-900); /* #183462, for text on chat-event-bg */
+}
+
+[data-bs-theme="dark"] {
+
+    /* For .panel-left status badges */
+    --status-badge-failed-bg: var(--red-500);       /* #ff3d32 */
+    --status-badge-warning-bg: var(--orange-500);   /* #f97316 */
+    --status-badge-pending-bg: var(--orange-500);
+    --status-badge-running-bg: var(--blue-500);     /* #3b82f6 */
+    --status-badge-canceled-bg: var(--red-500);
+    --status-badge-timeout-bg: var(--red-500);
+    --status-badge-error-state-bg: var(--red-500);
+    --status-badge-inprogress-bg: var(--gr-lv3);    /* #3a3a3a */
+
+    /* For #conversationPreview .chat-event */
+    --chat-event-bg: var(--blue-800); /* #204887 */
+    --chat-event-text-color: var(--blue-100); /* #d0e1fd, for text on chat-event-bg */
+
+}
+
+
+#tableWrapper {
+    width: 100vw;
+    height: calc(100vh - 24px);
+    overflow: auto;
+}
+
+.panel-wrapper {
+    width: 100%;
+    height: calc(100vh - 54px);
+    display: flex;
+}
+
+.panel-left li.data-selector.selected span.percent {
+    color: var(--primary-color-text); /* Was #eee, now uses theme's brightest text color */
+}
+.panel-left li.data-selector:hover span.percent {
+    color: var(--primary-color-text); /* Was #eee, now uses theme's brightest text color */
+}
+
+.panel-left li.data-selector span.percent[data-status="completed"] {
+    background-color: var(--percent-badge-completed-bg); /* Existing variable, was rgb(4, 110, 0) */
+}
+
+.panel-left li.data-selector span.percent[data-status="failed"] {
+    background-color: var(--status-badge-failed-bg); /* Was #f44336 */
+}
+
+.panel-left li.data-selector span.percent[data-status="warning"] {
+    background-color: var(--status-badge-warning-bg); /* Was #ff9800 */
+}
+
+.panel-left li.data-selector span.percent[data-status="pending"] {
+    background-color: var(--status-badge-pending-bg); /* Was #ff9800 */
+}
+
+.panel-left li.data-selector span.percent[data-status="running"] {
+    background-color: var(--status-badge-running-bg); /* Was #2196f3 */
+}
+
+.panel-left li.data-selector span.percent[data-status="canceled"] {
+    background-color: var(--status-badge-canceled-bg); /* Was #f44336 */
+}
+
+.panel-left li.data-selector span.percent[data-status="timeout"] {
+    background-color: var(--status-badge-timeout-bg); /* Was #f44336 */
+}
+
+.panel-left li.data-selector span.percent[data-status="error"] {
+    background-color: var(--status-badge-error-state-bg); /* Was #f44336 */
+}
+
+.panel-left li.data-selector span.percent[data-status="in_progress"] {
+    background-color: var(--status-badge-inprogress-bg); /* Was #333 */
+}
+
+.panel-left li .filename {
+    display: inline-block;
+    padding-left: .4em;
+}
+
+.panel-left li .fileCheckbox {
+    margin-left: .4em;
+}
+
+#mainTabContent {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 120px);
+    overflow: auto;
+}
+
+.tab-content .status-body h2 {
+    font-size: 1.3em;
+}
+
+#progressWrapper {
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    /* margin-bottom: 2em; */
+
+}
+
+.bs5 .offcanvas {
+    --bs-offcanvas-width: 65%;
+}
+
+
+#conversationPreview {
+    /* width: 400px; */
+    max-width: 100%;
+    background-color: var(--surface-card); /* Was #fff */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px var(--box-shadow-color-light); */ /* Example if shadow needed, use/define --box-shadow-color-light */
+    /* padding: 20px; */
+    /* overflow-y: auto; */
+    /* height: 500px; */
+}
+#conversationPreview .message {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#conversationPreview .message.system {
+    display: block;
+    margin-top: 2em;
+}
+
+#conversationPreview .message:last-child {
+    margin-bottom: 0;
+}
+#conversationPreview .message.user1 {
+    flex-direction: row-reverse;
+}
+
+#conversationPreview .message.highlighted .bubble {
+    box-shadow: 0px 0px 7px 2px var(--yellow-400); /* Was rgb(214 214 15) */
+}
+
+#conversationPreview .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--gr-lv4); /* Was #ccc */
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#conversationPreview .bubble {
+    max-width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+/* #conversationPreview .bubble::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+} */
+#conversationPreview .bubble.user1 {
+    background-color: var(--bg-highlighted); /* Was #007bff */
+    color: var(--primary-color-text); /* Was #fff */
+
+}
+/* #conversationPreview .bubble.user1::after {
+    right: -9px;
+    border-left-color: var(--bg-highlighted); // Match bubble background
+    border-right: 0;
+    top: 10px;
+} */
+#conversationPreview .bubble.user2 {
+    background-color: var(--surface-200); /* Was #e5e5ea - text color should adapt via inheritance */
+}
+/* #conversationPreview .bubble.user2::after {
+    left: -9px;
+    border-right-color: var(--surface-200); // Match bubble background
+    border-left: 0;
+    top: 10px;
+} */
+
+#conversationPreview .user1 .avatar {
+    font-size: 2em;
+}
+
+#conversationPreview .user2 .avatar {
+    font-size: 2em;
+}
+
+#conversationPreview .bubble-content {
+    white-space: pre;
+    overflow: auto;
+}
+
+#conversationPreview .bubble.system {
+    max-width: 100%;
+    width: 100%;
+    background: var(--surface-200); /* Was #e8e8e8 */
+}
+
+#conversationPreview .bubble.system .bubble-info {
+    margin-top: -1.5em;
+    border-radius: 4px;
+    background: var(--surface-50); /* Was #ffffff, now slightly offset from system bubble */
+    box-sizing: border-box;
+    padding: 0px 1em;
+    margin-left: .5em;
+    margin-right: .5em;
+    /* color: var(--text-color); */ /* Default text color */
+    border: 1px solid var(--surface-600); /* Was #777 */
+}
+
+#conversationPreview .avatar::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+}
+
+#conversationPreview .user1 .avatar::before {
+    border-left-color: var(--bg-highlighted); /* Was #007bff - Match user1 bubble color */
+    border-right: 0;
+    left: -10px;
+}
+
+#conversationPreview .user2 .avatar::before {
+    border-right-color: var(--surface-200); /* Was #e5e5ea - Match user2 bubble color */
+    border-left: 0;
+    right: -10px;
+}
+
+#conversationPreview .chat-event {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#conversationPreview .chat-event .chat-event-text {
+    border-radius: 6px;
+    background: var(--chat-event-bg); /* Was #c7e5ff */
+    color: var(--chat-event-text-color); /* Added for proper contrast */
+    display: inline-block;
+    padding: .5em 2em;
+    font-size: .9em;
+}
+
+#responsePreview {
+    max-width: 100%;
+    width: 100%;
+    overflow: auto;
+    height: 520px;
+    max-height: 520px;
+    background-color: var(--gr-lv4); /* Was #c0c0c0 */
+}
+
+#batchContent {
+}
+
+.bs5 :root, :root .bs5 * {
+    scroll-behavior: unset;
+}
+
+div[data-valuefor=input_file_id] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.codeEditor {
+    width: 100%;
+    height: 160px;
+    min-height: 160px;
+}

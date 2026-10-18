@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: automationEditor.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/automationEditor.js","row":"0","tags":null}
+#. tid/4238/type/StringLiteral
+msgctxt "tpp:/js/automationEditor.js:0"
+msgid "You should save the current project first before creating shortcut to Translator++"
+msgstr "Bạn nên lưu dự án hiện tại trước khi tạo lối tắt đến Translator++"
+
+# {"path":"/js/automationEditor.js","row":"1","tags":null}
+#. tid/7854/type/StringLiteral
+msgctxt "tpp:/js/automationEditor.js:1"
+msgid "This feature only available if you are using Developer version of Translator++. You can switch into Developer version by using Basic Utilities -> Change Core NWJS."
+msgstr "Tính năng này chỉ khả dụng nếu bạn đang sử dụng phiên bản Nhà phát triển của Translator++. Bạn có thể chuyển sang phiên bản Nhà phát triển bằng cách sử dụng Tiện ích cơ bản -> Thay đổi Core NWJS."

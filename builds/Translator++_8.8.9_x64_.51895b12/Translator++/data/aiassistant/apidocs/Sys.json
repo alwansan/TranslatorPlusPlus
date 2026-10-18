@@ -1,0 +1,188 @@
+{
+  "Sys": {
+    "constructor": {
+      "Sys": {
+        "signature": "new Sys()",
+        "description": "System class.\nHandles application & user configuration",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new Sys()"
+      }
+    },
+    "methods": {
+      "getConfig": {
+        "signature": "getConfig(key) → *",
+        "description": "Get config value",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "Key setting",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "The configuration from key"
+        },
+        "examples": [],
+        "usage": "getConfig(key) : *"
+      },
+      "hardReset": {
+        "signature": "hardReset()",
+        "description": "Reset Translator++ by removing NWJS cache",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "hardReset()"
+      },
+      "off": {
+        "signature": "off(evt, fn)",
+        "description": "Removes an event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "sys.off('saveConfig', (e, opt)=> {\n\t// do something\n})"
+        ],
+        "usage": "off(evt, fn)"
+      },
+      "on": {
+        "signature": "on(evt, fn)",
+        "description": "Create a new event with JQuery eventing convenience\nEqual to $(window).on()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "sys.off('saveConfig', (e, opt)=> {\n\t// do something\n})"
+        ],
+        "usage": "on(evt, fn)"
+      },
+      "one": {
+        "signature": "one(evt, fn)",
+        "description": "Run the event once\nTrigger an event and immediately removes it",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "one(evt, fn)"
+      },
+      "setConfig": {
+        "signature": "setConfig(key, value) → Boolean",
+        "description": "Set config value",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "Key setting",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value of the setting",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if success"
+        },
+        "examples": [],
+        "usage": "setConfig(key, value) : Boolean"
+      },
+      "trigger": {
+        "signature": "trigger(evt, fn)",
+        "description": "Trigger an event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "trigger(evt, fn)"
+      },
+      ".restartApplication": {
+        "signature": "(static) restartApplication()",
+        "description": "Restart the application",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": ".restartApplication()"
+      }
+    },
+    "events": {
+      "event:beforeSaveConfig": {
+        "signature": "beforeSaveConfig",
+        "description": "Triggered when configuration is about to be saved",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:beforeSaveConfig"
+      },
+      "event:loadConfig": {
+        "signature": "loadConfig",
+        "description": "Triggered when configuration is successfully loaded",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:loadConfig"
+      },
+      "event:saveConfig": {
+        "signature": "saveConfig",
+        "description": "Triggered when configuration is successfully saved",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:saveConfig"
+      }
+    }
+  }
+}

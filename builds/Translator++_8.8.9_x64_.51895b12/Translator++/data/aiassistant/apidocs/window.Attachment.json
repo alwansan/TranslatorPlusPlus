@@ -1,0 +1,21 @@
+{
+  "Attachment": {
+    "constructor": {
+      "Attachment": {
+        "signature": "new Attachment(obj)",
+        "description": "Attachment object.\nLocated at trans.project.attachments",
+        "parameters": [
+          {
+            "name": "obj",
+            "type": "Object",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new Attachment(obj)"
+      }
+    }
+  }
+}

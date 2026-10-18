@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pyTranslators.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"0","tags":null}
+#. tid/2096/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:0"
+msgid "Start server"
+msgstr "Khởi động máy chủ"
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"1","tags":null}
+#. tid/2192/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:1"
+msgid "Server started"
+msgstr "Máy chủ đã khởi động"
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"2","tags":null}
+#. tid/2241/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:2"
+msgid "Reinstall server"
+msgstr "Cài đặt lại máy chủ"
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"3","tags":null}
+#. tid/2442/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:3"
+msgid ""
+"Enter the new version of Translators library you wish to install.\n"
+"Latest version is: "
+msgstr ""
+"Nhập phiên bản mới của thư viện Translators bạn muốn cài đặt.\n"
+"Phiên bản mới nhất là: "
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"4","tags":null}
+#. tid/2480/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:4"
+msgid "Are you sure you want to install Translators version "
+msgstr "Bạn có chắc chắn muốn cài đặt phiên bản Translators "
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"5","tags":null}
+#. tid/2555/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:5"
+msgid "Failed to install Translators. Please check the console for more details."
+msgstr "Không thể cài đặt Translators. Vui lòng kiểm tra bảng điều khiển để biết thêm chi tiết."
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"6","tags":null}
+#. tid/2574/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:6"
+msgid "Translators has been successfully updated to version "
+msgstr "Translators đã được cập nhật thành công lên phiên bản "
+
+# {"path":"/addons/transPyTranslators/pyTranslators.js","row":"7","tags":null}
+#. tid/3019/type/StringLiteral
+msgctxt "tpp:/addons/transPyTranslators/pyTranslators.js:7"
+msgid "General Settings"
+msgstr "Cài đặt chung"

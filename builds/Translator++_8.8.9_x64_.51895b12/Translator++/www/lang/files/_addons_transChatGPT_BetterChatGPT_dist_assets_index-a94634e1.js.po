@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: index-a94634e1.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"0","tags":null}
+#. tid/100616/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:0"
+msgid "customModels.customLabel"
+msgstr "mô hình tùy chỉnh.nhãn tùy chỉnh"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"1","tags":null}
+#. tid/100621/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:1"
+msgid "model"
+msgstr "mô hình"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"2","tags":null}
+#. tid/461589/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:2"
+msgid "|"
+msgstr "|"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"3","tags":null}
+#. tid/553065/type/StringLiteral
+#. tid/621844/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:3"
+msgid "promptLibrary"
+msgstr "thư viện gợi ý"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"4","tags":null}
+#. tid/553097/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:4"
+msgid "search"
+msgstr "tìm kiếm"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"5","tags":null}
+#. tid/557240/type/StringLiteral
+#. tid/557260/type/StringLiteral
+#. tid/557282/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:5"
+msgid "downloadChat"
+msgstr "tải xuống cuộc trò chuyện"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"6","tags":null}
+#. tid/560133/type/StringLiteral
+#. tid/560171/type/StringLiteral
+#. tid/560214/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:6"
+msgid "newChat"
+msgstr "cuộc trò chuyện mới"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"7","tags":null}
+#. tid/606093/type/StringLiteral
+#. tid/606166/type/StringLiteral
+#. tid/606207/type/StringLiteral
+#. tid/606305/type/StringLiteral
+#. tid/606384/type/StringLiteral
+#. tid/606410/type/StringLiteral
+#. tid/606531/type/StringLiteral
+#. tid/606553/type/StringLiteral
+#. tid/606575/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:7"
+msgid "api"
+msgstr "api"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"8","tags":null}
+#. tid/606161/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:8"
+msgid "customEndpoint"
+msgstr "điểm cuối tùy chỉnh"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"9","tags":null}
+#. tid/606202/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:9"
+msgid "apiEndpoint.inputLabel"
+msgstr "điểm cuối api.nhãn đầu vào"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"10","tags":null}
+#. tid/606300/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:10"
+msgid "apiKey.inputLabel"
+msgstr "khóa api.nhãn đầu vào"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"11","tags":null}
+#. tid/606379/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:11"
+msgid "apiVersion.inputLabel"
+msgstr "phiên bản api.nhãn đầu vào"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"12","tags":null}
+#. tid/606405/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:12"
+msgid "apiVersion.description"
+msgstr "phiên bản api.mô tả"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"13","tags":null}
+#. tid/606526/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:13"
+msgid "securityMessage"
+msgstr "thông báo bảo mật"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"14","tags":null}
+#. tid/606548/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:14"
+msgid "apiEndpoint.description"
+msgstr "điểm cuối api.mô tả"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"15","tags":null}
+#. tid/606570/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:15"
+msgid "apiEndpoint.warn"
+msgstr "điểm cuối api.cảnh báo"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"16","tags":null}
+#. tid/608417/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:16"
+msgid "partialImportMessages"
+msgstr "tin nhắn nhập một phần"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"17","tags":null}
+#. tid/608422/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:17"
+msgid "import"
+msgstr "nhập"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"18","tags":null}
+#. tid/621955/type/StringLiteral
+#. tid/629854/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:18"
+msgid "name"
+msgstr "tên"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"19","tags":null}
+#. tid/621975/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:19"
+msgid "prompt"
+msgstr "gợi ý"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"20","tags":null}
+#. tid/622292/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:20"
+msgid "clearPrompts"
+msgstr "xóa gợi ý"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"21","tags":null}
+#. tid/622315/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:21"
+msgid "morePrompts"
+msgstr "thêm gợi ý"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"22","tags":null}
+#. tid/629235/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:22"
+msgid "toast.sync"
+msgstr "đồng bộ thông báo"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"23","tags":null}
+#. tid/629359/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:23"
+msgid "toast.stop"
+msgstr "dừng thông báo"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"24","tags":null}
+#. tid/629410/type/StringLiteral
+#. tid/629417/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:24"
+msgid "button.sync"
+msgstr "nút đồng bộ"
+
+# {"path":"/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js","row":"25","tags":null}
+#. tid/629443/type/StringLiteral
+#. tid/629450/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/BetterChatGPT/dist/assets/index-a94634e1.js:25"
+msgid "button.stop"
+msgstr "nút dừng"

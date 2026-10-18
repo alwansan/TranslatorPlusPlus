@@ -1,0 +1,22 @@
+{
+	"info" : {},
+	"products": {
+	   "xunity-rei":{
+		  "name":"XUnity AutoTranslator-ReiPatcher",
+		  "fileSize":"868 KB",
+		  "description":"This is a plugin that is capable of using various online translators to provide on-the-fly translations for various Unity-based games.",
+		  "info":"ReiPatcher and XUnity AutoTranslator in a bundle. Will be used by default when there is no existing injector on the game.",
+		  "url":"https://github.com/bbepis/XUnity.AutoTranslator",
+		  "location":"3rdParty/XUnity_AutoTranslator",
+		  "expectedFiles":[
+			 "/SetupReiPatcherAndAutoTranslator.exe"
+		  ],
+		  "extractDir":"XUnity_AutoTranslator",
+		  "repo":[
+			 "https://github.com/bbepis/XUnity.AutoTranslator/releases/download/v5.4.5/XUnity.AutoTranslator-ReiPatcher-5.4.5.zip"
+		  ]
+	   }
+		
+	}
+	
+}

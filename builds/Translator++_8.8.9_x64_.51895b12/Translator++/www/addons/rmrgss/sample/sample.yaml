@@ -1,0 +1,48 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: Stairs
+    x: 13
+    y: 16
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        item_id: 1
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Actor01, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [【Edward】]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But I dunno where the goal is.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [So there's no need for you to come with me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Actor02ex5, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [【Ridley】]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's not just that...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Actor01, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['[Edward]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Yup?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [2, 8, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [1, 9, false]}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM {name: AoFM_BGM11_Field_Town1, volume: 100, pitch: 100}
+tileset_id: 7
+encounter_step: 30
+width: 32
+data: !ruby/object:Table
+  dim: 3
+  x: 32
+  y: 30
+  z: 4
+note: ''
+battleback1_name: ''
+battleback2_name: ''

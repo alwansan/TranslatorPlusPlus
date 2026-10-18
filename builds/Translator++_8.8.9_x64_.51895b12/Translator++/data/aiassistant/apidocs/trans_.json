@@ -1,0 +1,14 @@
+{
+  "trans": {
+    "constructor": {
+      "trans": {
+        "signature": "trans",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new trans()"
+      }
+    }
+  }
+}

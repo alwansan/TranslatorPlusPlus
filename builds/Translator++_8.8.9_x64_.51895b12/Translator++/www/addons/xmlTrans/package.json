@@ -1,0 +1,19 @@
+{
+    "name": "xmlTrans",
+    "description": "XML Translator for Translator++",
+    "main": "xml.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.12",
+    "icon": "icon.png",
+    "author": {
+        "name": "Dreamsavior",
+        "email": "dreamsavior@gmail.com"
+    },
+    "autoload": false,
+    "load": [
+        "xml.js"
+    ],
+    "dependencies": {
+        "jsdom": "^24.1.3"
+    }
+}

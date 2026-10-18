@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+
+<script>
+    var $ = require('jquery');
+    window.jQuery = $;
+
+    const Logger = require('www/js/Logger.js');
+    var logger = new Logger({file:"data/logs/jsonform.log"});
+    logger.loadState();
+
+    var LT = require("light-trans");
+    var lt = new LT({
+        recordMode:false,
+        listener:"t"
+    });
+</script>
+
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="modules/json2.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="js/DVField.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+
+<script type="text/javascript" src="js/consts.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="modules/jquerytextcomplete/dist/jquery.textcomplete.js"></script>
+
+<script type="text/javascript" src="modules/jsonform/deps/underscore.js"></script>
+<script type="text/javascript" src="modules/jsonform/deps/opt/jsv.js"></script>
+<script type="text/javascript" src="modules/jsonform/lib/jsonform.js"></script>
+<script type="text/javascript" src="js/windowForm.js"></script>
+
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/dvField.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+
+
+<script src="/www/modules/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/www/modules/formio/formio.full.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/www/modules/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<link type="text/css" href="/www/modules/formio/formio.full.min.css" rel="stylesheet" media="screen">
+<!-- <link type="text/css" href="/www/modules/bootstrap/bootstrap.css" rel="stylesheet" media="screen"> -->
+<link type="text/css" href="/www/modules/bootstrap/css-legacy/bootstrap.min.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/form.css" rel="stylesheet" media="screen">
+
+<title>Form - Translator++</title>
+
+<head>
+
+<body data-window="form">
+
+    <div id="content">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-form-tab" data-bs-toggle="tab" data-bs-target="#nav-form" type="button" role="tab" aria-controls="nav-form" aria-selected="true">Form</button>
+                <button class="nav-link" id="nav-debug-tab" data-bs-toggle="tab" data-bs-target="#nav-debug" type="button" role="tab" aria-controls="nav-debug" aria-selected="false">Debug</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-form" role="tabpanel" aria-labelledby="nav-form-tab">
+                <div id="formWrapper"></div>
+            </div>
+            <div class="tab-pane fade" id="nav-debug" role="tabpanel" aria-labelledby="nav-debug-tab">
+                <pre id="preview"></pre>
+            </div>
+        </div>
+    </div>
+
+    <nav id="footer" class="footer navbar navbar-light justify-content-between">
+        <div class="navbar-brand"></div>
+        <div class="form-inline">
+          <button class="btn btn-primary my-2 my-sm-0 btn-lg" id="submit">Submit</button>
+        </div>
+    </nav>
+</body>
+</html>

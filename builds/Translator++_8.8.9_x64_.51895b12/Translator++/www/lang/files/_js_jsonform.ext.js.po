@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jsonform.ext.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/jsonform.ext.js","row":"0","tags":null}
+#. tid/498/type/StringLiteral
+msgctxt "tpp:/js/jsonform.ext.js:0"
+msgid "Hide password"
+msgstr "Ẩn mật khẩu"
+
+# {"path":"/js/jsonform.ext.js","row":"1","tags":null}
+#. tid/567/type/StringLiteral
+#. tid/8581/type/StringLiteral
+msgctxt "tpp:/js/jsonform.ext.js:1"
+msgid "Show password"
+msgstr "Hiện mật khẩu"

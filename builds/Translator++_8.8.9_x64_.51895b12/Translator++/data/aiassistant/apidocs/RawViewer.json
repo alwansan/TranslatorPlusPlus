@@ -1,0 +1,466 @@
+{
+  "RawViewer": {
+    "constructor": {
+      "RawViewer": {
+        "signature": "new RawViewer(options)",
+        "description": "Represents a RawViewer object.",
+        "parameters": [
+          {
+            "name": "optionscontainer",
+            "type": "objectjQuery",
+            "description": "The container element for the RawViewer.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "container",
+            "type": "jQuery",
+            "description": "The container element for the RawViewer.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new RawViewer(optionscontainer, , container)"
+      }
+    },
+    "members": {
+      "container": {
+        "signature": "container :jQuery",
+        "description": "The container element for the RawViewer.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "container"
+      },
+      "feather": {
+        "signature": "feather :number",
+        "description": "The feather value for the RawViewer.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "feather"
+      },
+      "options": {
+        "signature": "options :object",
+        "description": "Options for configuring the RawViewer.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "options"
+      }
+    },
+    "methods": {
+      "addContextMenu": {
+        "signature": "addContextMenu(elm, obj, options?)",
+        "description": "Adds a context menu to the specified element.",
+        "parameters": [
+          {
+            "name": "elm",
+            "type": "HTMLElement",
+            "description": "The element to which the context menu will be added.",
+            "required": true
+          },
+          {
+            "name": "obj",
+            "type": "object",
+            "description": "An object.",
+            "required": true
+          },
+          {
+            "name": "optionsexternalEditor",
+            "type": "objectboolean",
+            "description": "Whether to enable options for opening with external editors.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "externalEditor",
+            "type": "boolean",
+            "description": "Whether to enable options for opening with external editors.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "addContextMenu(elm, obj, optionsexternalEditor, , externalEditor)"
+      },
+      "addTextPreview": {
+        "signature": "addTextPreview(textObj, options?) → Promise.<jQuery>",
+        "description": "Adds text preview to the RawViewer.",
+        "parameters": [
+          {
+            "name": "textObj",
+            "type": "object|string",
+            "description": "The text object or string to be previewed.",
+            "required": true
+          },
+          {
+            "name": "optionslineStartlanguage",
+            "type": "objectnumberstring",
+            "description": "The language of the text for syntax highlighting.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "lineStart",
+            "type": "number",
+            "description": "The line number to start the preview.",
+            "required": false
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "The language of the text for syntax highlighting.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<jQuery>",
+          "description": "A promise resolving to the jQuery object of the added text preview."
+        },
+        "examples": [],
+        "usage": "addTextPreview(textObj, optionslineStartlanguage, , lineStart, language) : Promise.<jQuery>"
+      },
+      "addTextPreviewFromFileOffset": {
+        "signature": "addTextPreviewFromFileOffset(file, offsetStart, offsetEnd, options?) → Promise.<jQuery>",
+        "description": "Adds a text preview from a file offset to the RawViewer.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "string",
+            "description": "The path of the file.",
+            "required": true
+          },
+          {
+            "name": "offsetStart",
+            "type": "number",
+            "description": "The starting offset in the file.",
+            "required": true
+          },
+          {
+            "name": "offsetEnd",
+            "type": "number",
+            "description": "The ending offset in the file.",
+            "required": true
+          },
+          {
+            "name": "optionslanguage",
+            "type": "objectstring",
+            "description": "The language for syntax highlighting.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "The language for syntax highlighting.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<jQuery>",
+          "description": "A promise resolving to the jQuery object of the added text preview."
+        },
+        "examples": [],
+        "usage": "addTextPreviewFromFileOffset(file, offsetStart, offsetEnd, optionslanguage, , language) : Promise.<jQuery>"
+      },
+      "addTextPreviewFromTextOffset": {
+        "signature": "addTextPreviewFromTextOffset(text, offsetStart, offsetEnd, options?) → Promise.<jQuery>",
+        "description": "Adds a text preview from a text offset to the RawViewer.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The text content.",
+            "required": true
+          },
+          {
+            "name": "offsetStart",
+            "type": "number",
+            "description": "The starting offset in the text.",
+            "required": true
+          },
+          {
+            "name": "offsetEnd",
+            "type": "number",
+            "description": "The ending offset in the text.",
+            "required": true
+          },
+          {
+            "name": "optionslanguagedata",
+            "type": "objectstringobject",
+            "description": "Additional data.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "The language for syntax highlighting.",
+            "required": false
+          },
+          {
+            "name": "data",
+            "type": "object",
+            "description": "Additional data.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<jQuery>",
+          "description": "A promise resolving to the jQuery object of the added text preview."
+        },
+        "examples": [],
+        "usage": "addTextPreviewFromTextOffset(text, offsetStart, offsetEnd, optionslanguagedata, , language, data) : Promise.<jQuery>"
+      },
+      "append": {
+        "signature": "append(html) → jQuery",
+        "description": "Appends HTML content to the RawViewer container.",
+        "parameters": [
+          {
+            "name": "html",
+            "type": "string",
+            "description": "The HTML content to append.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "jQuery",
+          "description": "The container element after appending the HTML content."
+        },
+        "examples": [],
+        "usage": "append(html) : jQuery"
+      },
+      "clear": {
+        "signature": "clear()",
+        "description": "Clears the RawViewer.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "clear()"
+      },
+      "commonHandleFile": {
+        "signature": "commonHandleFile(selectedCell, language, offsetList, filePath?)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "selectedCell",
+            "type": "Object",
+            "description": "Selected cell object passed from event onLoadSnippet",
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "String",
+            "description": "language of the snippet, determines syntax highlight",
+            "required": true
+          },
+          {
+            "name": "offsetListstartend",
+            "type": "Array.<Object>integerinteger",
+            "description": "Offset end of the string",
+            "required": true
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "start",
+            "type": "integer",
+            "description": "Offset start of the string",
+            "required": true
+          },
+          {
+            "name": "end",
+            "type": "integer",
+            "description": "Offset end of the string",
+            "required": true
+          },
+          {
+            "name": "filePath",
+            "type": "string",
+            "description": "Path to the file. By default the file in the original project location / cache.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "commonHandleFile(selectedCell, language, offsetListstartend, , start, end, filePath)"
+      },
+      "getKeyString": {
+        "signature": "getKeyString() → string",
+        "description": "Gets the key string from the selection info.",
+        "parameters": [],
+        "returns": {
+          "type": "string",
+          "description": "The key string."
+        },
+        "examples": [],
+        "usage": "getKeyString() : string"
+      },
+      "getSnippetFromOffset": {
+        "signature": "getSnippetFromOffset(text, offsetStart, offsetEnd?) → object",
+        "description": "Gets a snippet of text from the given offsets in the text.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The text.",
+            "required": true
+          },
+          {
+            "name": "offsetStart",
+            "type": "number",
+            "description": "The starting offset.",
+            "required": true
+          },
+          {
+            "name": "offsetEnd",
+            "type": "number",
+            "description": "The ending offset.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "object",
+          "description": "The snippet of text."
+        },
+        "examples": [],
+        "usage": "getSnippetFromOffset(text, offsetStart, offsetEnd) : object"
+      },
+      "getStartingLineFromOffset": {
+        "signature": "getStartingLineFromOffset(text, offsetStart) → number",
+        "description": "Gets the starting line number from the offset in the text.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The text.",
+            "required": true
+          },
+          {
+            "name": "offsetStart",
+            "type": "number",
+            "description": "The starting offset.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "number",
+          "description": "The starting line number."
+        },
+        "examples": [],
+        "usage": "getStartingLineFromOffset(text, offsetStart) : number"
+      },
+      "handleAttachment": {
+        "signature": "handleAttachment(selectedCell, language, offsetList?)",
+        "description": "Handles attachment content by adding text previews with context menus.",
+        "parameters": [
+          {
+            "name": "selectedCell",
+            "type": "object",
+            "description": "The selected cell object.",
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "The language for syntax highlighting.",
+            "required": true
+          },
+          {
+            "name": "offsetList",
+            "type": "Array.<object>",
+            "description": "The list of offsets.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "handleAttachment(selectedCell, language, offsetList)"
+      },
+      "init": {
+        "signature": "init()",
+        "description": "Initializes the RawViewer by setting event listeners and loading Prism.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "init()"
+      },
+      "isClear": {
+        "signature": "isClear() → boolean",
+        "description": "Checks if the RawViewer is clear.",
+        "parameters": [],
+        "returns": {
+          "type": "boolean",
+          "description": "Indicates whether the RawViewer is clear."
+        },
+        "examples": [],
+        "usage": "isClear() : boolean"
+      },
+      "loadPrism": {
+        "signature": "loadPrism()",
+        "description": "Loads Prism CSS stylesheet if not already loaded, and initializes Prism library if not already initialized.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "loadPrism()"
+      },
+      "openFile": {
+        "signature": "openFile(path) → Promise.<string>",
+        "description": "Opens a file asynchronously and reads its content.",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string",
+            "description": "The path of the file to open.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise resolving to the content of the file."
+        },
+        "examples": [],
+        "usage": "openFile(path) : Promise.<string>"
+      },
+      "setListener": {
+        "signature": "setListener()",
+        "description": "Sets event listeners for the RawViewer.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "setListener()"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var win = nw.Window.get();
+        function iframeLoaded() {
+            console.log("iframe loaded");
+        }
+    </script>
+</head>
+<body>
+    <iframe src="https://translate.google.com/?sl=en&tl=ja&text=hello%20world&op=translate" onload="iframeLoaded()"></iframe>
+</body>
+</html>

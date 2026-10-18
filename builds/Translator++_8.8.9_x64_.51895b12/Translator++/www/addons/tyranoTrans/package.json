@@ -1,0 +1,16 @@
+{
+    "name": "tyranotrans",
+	"title": "TyranoTrans",
+    "description": "Parser for TyranoScript and TyranoBuilder visual novels",
+    "main": "tyranoTrans.js",
+    "homepage": "http://dreamsavior.net",
+	"version": "1.15",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"minimumVersion" : "8.5.26",
+	"autoload" : false,
+	"load":["tyranoTrans.js"]
+}

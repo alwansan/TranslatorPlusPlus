@@ -1,0 +1,27 @@
+{
+  "Engine": {
+    "constructor": {
+      "Engine": {
+        "signature": "new Engine(name, options)",
+        "description": "Game engine class",
+        "parameters": [
+          {
+            "name": "name",
+            "type": "String",
+            "description": "Name of the engine",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional option",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new Engine(name, options)"
+      }
+    }
+  }
+}

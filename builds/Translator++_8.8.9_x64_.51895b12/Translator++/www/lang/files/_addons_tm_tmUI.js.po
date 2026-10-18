@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tmUI.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/tm/tmUI.js","row":"0","tags":null}
+#. tid/47/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:0"
+msgid "Memory"
+msgstr "Bộ nhớ"
+
+# {"path":"/addons/tm/tmUI.js","row":"1","tags":null}
+#. tid/534/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:1"
+msgid "Fix the problem!"
+msgstr "Sửa lỗi!"
+
+# {"path":"/addons/tm/tmUI.js","row":"2","tags":null}
+#. tid/591/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:2"
+msgid "No exact matches found!"
+msgstr "Không tìm thấy kết quả khớp chính xác!"
+
+# {"path":"/addons/tm/tmUI.js","row":"3","tags":null}
+#. tid/1126/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:3"
+msgid "Original"
+msgstr "Nguyên bản"
+
+# {"path":"/addons/tm/tmUI.js","row":"4","tags":null}
+#. tid/1131/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:4"
+msgid "Translation"
+msgstr "Bản dịch"
+
+# {"path":"/addons/tm/tmUI.js","row":"5","tags":null}
+#. tid/1804/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/tm/tmUI.js:5"
+msgid "Do you want Translator++ to forget the selected cell(s)?"
+msgstr "Bạn có muốn Translator++ quên các ô đã chọn?"
+
+# {"path":"/addons/tm/tmUI.js","row":"6","tags":null}
+#. tid/2391/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:6"
+msgid "Auto recall"
+msgstr "Tự động gợi nhớ"
+
+# {"path":"/addons/tm/tmUI.js","row":"7","tags":null}
+#. tid/2543/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:7"
+msgid "Auto memorize organic translation"
+msgstr "Tự động ghi nhớ bản dịch hữu cơ"
+
+# {"path":"/addons/tm/tmUI.js","row":"8","tags":null}
+#. tid/2686/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:8"
+msgid "Auto memorize automation"
+msgstr "Tự động ghi nhớ tự động hóa"
+
+# {"path":"/addons/tm/tmUI.js","row":"9","tags":null}
+#. tid/2838/type/StringLiteral
+msgctxt "tpp:/addons/tm/tmUI.js:9"
+msgid "Use rememorize in organic translation"
+msgstr "Sử dụng ghi nhớ lại trong bản dịch hữu cơ"

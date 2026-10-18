@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TyranoParser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/kagParser/TyranoParser.js","row":"0","tags":null}
+#. tid/2372/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/TyranoParser.js:0"
+msgid "label"
+msgstr "nhãn"
+
+# {"path":"/addons/kagParser/TyranoParser.js","row":"1","tags":null}
+#. tid/2390/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/TyranoParser.js:1"
+msgid "is duplicated in the same scenario file"
+msgstr "bị trùng lặp trong cùng một tệp kịch bản"

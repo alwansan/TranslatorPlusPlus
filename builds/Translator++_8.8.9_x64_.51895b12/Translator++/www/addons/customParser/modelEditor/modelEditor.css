@@ -1,0 +1,369 @@
+:root {
+    /* For modelEditor.css */
+    --model-editor-body-bg: var(--gr-lv1); /* Original: #f3f3f3 */
+    --sortable-item-bg: var(--gr-lv2); /* Original: #dfdfdf */
+    --button-delete-color: #e60000;
+    --button-add-color: #0400e6;
+    --selectable-selected-bg: var(--surface-700); /* Original: #616161 */
+    --selectable-selected-text-color: var(--text-color-highlighted); /* Original: #fff */
+    --hooks-navigator-item-hover-text-color: var(--blue-900); /* Original: rgb(17, 34, 110), var(--blue-900) is #183462 */
+    --hooks-navigator-item-active-text-color: var(--text-color-highlighted); /* Original: #f1f1f1, var(--text-color-highlighted) is #fff */
+    --testing-toolbar-button-active-border-color: var(--blue-800); /* Original: #224a96, var(--blue-800) is #204887 */
+    --testing-preview-bg: var(--grid-bg); /* Original: #e2e2e2 */
+    --editor-monokai-bg: #272822; /* Specific editor theme color */
+    --editor-monokai-text-primary: #f3f3f3; /* Text on monokai bg */
+    --editor-monokai-text-secondary: #d2d2d2; /* Secondary text on monokai bg */
+    --inline-code-bg: rgb(219, 219, 219); /* Original, close to --gr-lv3 */ 
+}
+
+[data-bs-theme="dark"] {
+    /* For modelEditor.css */
+    --model-editor-body-bg: var(--gr-lv1);
+    --sortable-item-bg: var(--gr-lv3);
+    --button-delete-color: var(--red-400);
+    --button-add-color: var(--blue-400);
+    --selectable-selected-bg: var(--primary-600);
+    --selectable-selected-text-color: var(--primary-color-text); /* var(--gr-lv16) */
+    --hooks-navigator-item-hover-text-color: var(--blue-300);
+    --hooks-navigator-item-active-text-color: var(--text-color-highlighted); /* var(--gr-lv14) */
+    --testing-toolbar-button-active-border-color: var(--blue-600);
+    --testing-preview-bg: var(--gr-lv2); /* Darker than main grid bg for contrast */
+    --editor-monokai-bg: #272822; /* Keep consistent for editor themes */
+    --editor-monokai-text-primary: #f3f3f3; /* Keep consistent */
+    --editor-monokai-text-secondary: #d2d2d2; /* Keep consistent */
+    --inline-code-bg: var(--gr-lv2);
+}
+
+body {
+    background: var(--model-editor-body-bg);
+}
+
+#modelInfoDialog {
+    overflow: visible;
+}
+
+.modelInfoDialogContent {
+    min-width: 560px;
+}
+
+.modelInfoEditor {
+    min-height: 240px;
+    max-height: 50vh;
+    overflow: auto;
+    border: 1px solid var(--gr-lv6);
+    background: var(--gr-lv1);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.modelInfoEditor:focus {
+    outline: 1px solid var(--blue-700);
+}
+
+.modelInfoEditor img {
+    max-width: 100%;
+    height: auto;
+}
+
+#leftPane {
+    width: 160px;
+    overflow: auto;
+    background-color: var(--gr-lv4);
+    min-width: 160px;
+}
+#rightPane {
+    flex-grow: 1;
+    overflow: auto;
+    /* Inherits background from body */
+}
+
+fieldset.editorRegexWrapper {
+    margin: 0px;
+    border: 0px;
+}
+
+.patternEditor {
+    padding:0px;
+}
+
+.sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+.sortable li { 
+    margin: 0px; 
+    padding: 0.2em; 
+    font-size: 1.2em;
+    line-height: 24px;
+    height: 24px;
+    background-color: var(--sortable-item-bg);
+    cursor:default;
+    display: flex;
+    /* Text color will be inherited, e.g., var(--text-color) */
+}
+
+.sortable li .label {
+    flex-grow: 1;
+    display: inline-block;
+}
+
+/* Icon color will inherit from .sortable li's color property */
+.sortable li .label::before {
+    font-family: 'fontello';
+    content:'\e86c';
+    margin-right: 4px;
+}
+
+.sortable li[rule-type="regex"] .label::before {
+    font-family: 'fontello';
+    content:'\e899';
+    margin-right: 4px;
+}
+.sortable li[rule-type="function"] .label::before {
+    font-family: 'fontello';
+    content:'\f121';
+    margin-right: 4px;
+}
+.sortable li[rule-type="mask"] .label::before {
+    font-family: 'fontello';
+    content:'\f2a8';
+    margin-right: 4px;
+}
+.sortable li .buttons {
+    padding-top: 2px;
+    font-size: 16px;
+}
+
+.sortable li .buttons i {
+    opacity: .3;
+}
+.sortable li .buttons i:hover {
+    opacity: 1;
+}
+.sortable li .buttons .delete {
+    color: var(--button-delete-color);
+}
+
+.sortable li .buttons .add {
+    color: var(--button-add-color);
+}
+
+.selectable.selected {
+    background-color: var(--selectable-selected-bg);
+    color: var(--selectable-selected-text-color);
+}
+
+.breadCrumb {
+    padding: 8px;
+    background: var(--gr-lv2);
+    border-radius: 2px;
+    font-size: 12px;
+    /* Text color will be inherited, e.g., var(--text-color) */
+}
+
+.breadCrumb .path .breadCrumbNavigator {
+    cursor:pointer;
+    font-size:1.2em;
+    /* color can be set to var(--text-link) if explicit styling is desired */
+}
+
+.breadCrumb .path .breadCrumbNavigator:hover {
+    text-decoration: underline;
+}
+
+.breadCrumb .path .breadCrumbNavigator.active {
+    font-weight: bold;
+    font-size:1.3em;
+    /* color can be set to var(--text-color-dark) or a more prominent link color if desired */
+}
+
+.tabContent {
+    height: calc(100vh - 110px);
+    overflow: hidden;
+}
+
+.functionEditor {
+    height:200px;
+}
+
+textarea [data-field=pattern] {
+    font-family: monospace;
+}
+
+.editorBlock {
+    background-color: var(--editor-monokai-bg);
+    color: var(--editor-monokai-text-primary);
+}
+
+.scriptBlock {
+    padding: 4px;
+    font-family: monospace;
+    color: var(--editor-monokai-text-secondary);
+}
+
+.editorRegexWrapper .sectionBlock.regex .ace_editor {
+    min-height:100px;
+}
+
+.editorRegexWrapper .sectionBlock.function .ace_editor{
+    height:300px;
+}
+#hooks {
+    padding: 0px;
+    box-sizing: border-box;
+}
+#hooks .hooksContent {
+    flex-grow: 1;
+    overflow: auto;
+    max-height: calc(100vh - 108px);
+}
+
+#hooks .hooksContent > article{
+    width:100%;
+    padding:8px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#hooks .hooksContent > article .ace_editor {
+    min-height: 240px;
+}
+
+#hooks .hooksNavigator {
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    min-width: 160px;
+    background: var(--gr-lv4);
+}
+
+#hooks .hooksNavigator > li {
+    cursor      : pointer;
+    line-height : 24px;
+    list-style-type: none;
+    padding-right: 8px;
+    white-space: nowrap;
+    /* Text color will be inherited, e.g., var(--text-color) */
+}
+
+/* Icon color will inherit from li's color property */
+#hooks .hooksNavigator > li::before {
+    font-family: 'fontello';
+    content: '\f07b';
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#hooks .hooksNavigator > li:hover {
+    text-decoration: underline;
+    color: var(--hooks-navigator-item-hover-text-color);
+}
+
+#hooks .hooksNavigator > li.active {
+    color : var(--hooks-navigator-item-active-text-color);
+    background: var(--bg-highlighted);
+}
+
+
+#hooks .hooksNavigator > li:first-child {
+    margin-top: 12px;
+}
+
+#testing .sampleEditorToolbar {
+    position: relative;
+    width:24px;
+    background: var(--gr-lv4);
+}
+#testing .sampleEditorToolbar > button {
+    display: flex;
+    transform: rotate(270deg);
+    transform-origin: bottom right;
+    position: absolute;
+    /* color and border will use defaults or be set by button theme */
+}
+
+#testing .sampleEditorToolbar > button.menu-grid {
+    top: 0px;
+    right: 0px;
+}
+
+#testing .sampleEditorToolbar > button.menu-translated {
+    top: 70px;
+    right: 0px;
+}
+
+#testing .sampleEditorToolbar > button {
+    display: flex;
+    border-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0px; /* Or none */
+    /* border-bottom:none; redundant */
+}
+
+#testing .sampleEditorToolbar > button.active {
+    background: var(--grid-highlight-border); /* Adapts */
+    text-shadow: var(--selection-text-shadow-color); /* Adapts */
+    color: var(--text-color-highlighted); /* Adapts */
+    border: 1px solid var(--testing-toolbar-button-active-border-color);
+    border-bottom: none;
+}
+
+#testing .preview {
+    flex-grow: 1;
+    background-color: var(--testing-preview-bg);
+}
+
+
+#testing .preview.translationPreview {
+    background-color: var(--editor-monokai-bg);
+}
+
+
+.ui-widget-header {
+    background: var(--gr-lv4);
+    /* Text color, e.g., var(--text-color-highlighted) or var(--text-button) may be needed */
+}
+
+.gridPreview .wtHider .htDimmed {
+    background: var(--input-readonly-bg); /* Adapts */
+    color: var(--text-color); /* Adapts */
+}
+
+.inlineCode {
+    font-family: monospace;
+    background: var(--inline-code-bg);
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* Text color will be inherited, e.g., var(--text-color) */
+}
+
+#rules {
+    box-sizing: border-box;
+    display: flex;
+    padding:0px;
+}
+
+#testing {
+    box-sizing: border-box;
+    display: flex;
+    padding:0px;
+}
+#fileNavSelector {
+    min-width: 160px;
+    margin-right:8px;
+}
+.noFileGroup {
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+
+/* Ace highlighter */
+.sampleHighlight {
+    position: absolute;
+    background-color: var(--custom-escaper-highlight-bg); /* Adapts */
+}
+
+.ace_editor .ace_marker-layer {
+    z-index: 0;
+}

@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gemini.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transGemini/gemini.js","row":"0","tags":null}
+#. tid/500/type/StringLiteral
+msgctxt "tpp:/addons/transGemini/gemini.js:0"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TÊN : Tên của trò chơi</li>"
+
+# {"path":"/addons/transGemini/gemini.js","row":"1","tags":null}
+#. tid/508/type/StringLiteral
+msgctxt "tpp:/addons/transGemini/gemini.js:1"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/transGemini/gemini.js","row":"2","tags":null}
+#. tid/516/type/StringLiteral
+msgctxt "tpp:/addons/transGemini/gemini.js:2"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Common Reference]</code></li>"
+
+# {"path":"/addons/transGemini/gemini.js","row":"3","tags":null}
+#. tid/1399/type/StringLiteral
+msgctxt "tpp:/addons/transGemini/gemini.js:3"
+msgid "<h2>Native Gemini API</h2><p>This engine uses Google Gemini native API for translation. <br />You can also use OpenAI add-on for Google Gemini. There are more features in the OpenAI add-on, That's why <b style='color:green;'>I recommend using the OpenAI add-on instead</b>.</p>"
+msgstr "<h2>API Gemini gốc</h2><p>Engine này sử dụng API gốc Google Gemini để dịch. <br />Bạn cũng có thể sử dụng tiện ích bổ sung OpenAI cho Google Gemini. Có nhiều tính năng hơn trong tiện ích bổ sung OpenAI, đó là lý do <b style='color:green;'>tôi khuyên dùng tiện ích bổ sung OpenAI thay thế</b>.</p>"
+
+# {"path":"/addons/transGemini/gemini.js","row":"4","tags":null}
+#. tid/1423/type/StringLiteral
+msgctxt "tpp:/addons/transGemini/gemini.js:4"
+msgid "Gemini AI requires some module from OpenAI library. Please make sure <b>transChatGPT (ChatGPT for Translator++)</b> add-on is installed."
+msgstr "Gemini AI yêu cầu một số module từ thư viện OpenAI. Vui lòng đảm bảo tiện ích bổ sung <b>transChatGPT (ChatGPT for Translator++)</b> đã được cài đặt."
+
+# {"path":"/addons/transGemini/gemini.js","row":"5","tags":null}
+#. tid/1703/type/StringLiteral
+msgctxt "tpp:/addons/transGemini/gemini.js:5"
+msgid "Explore more models"
+msgstr "Khám phá thêm mô hình"

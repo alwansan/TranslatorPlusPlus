@@ -1,0 +1,40 @@
+body {
+    padding-top: 1rem; /* Space for fixed search bar */
+}
+
+.model-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.model-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow for dark theme */
+}
+
+.fixed-top-search {
+    position: sticky;
+    top: 0;
+    background-color: var(--bs-body-bg); /* Use Bootstrap's background color for theme consistency */
+    z-index: 1000;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+#modelList .card-text {
+    font-size: 0.9rem;
+    height: 60px; /* Fixed height for description */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+}
+
+#modelDetailModal .modal-body pre {
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: var(--bs-tertiary-bg);
+    padding: 10px;
+    border-radius: 4px;
+}

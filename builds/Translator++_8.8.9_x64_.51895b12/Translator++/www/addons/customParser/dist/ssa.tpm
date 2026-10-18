@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "pattern": "*.ssa",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/^Dialogue:\\s*[^,]*,[^,]*,[^,]*,[^,]*,([^,]*),[^,]*,[^,]*,[^,]*,[^,]*,(.*)$/gm",
+          "captureGroups": "2",
+          "captureRowInfo": "1",
+          "contextTemplate": "speaker/${GROUP[1]}"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "SSA Subtitle Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing SubStation Alpha subtitle files.</p><p>Extracts dialogue text from <code>Dialogue:</code> lines while keeping timing, styles, margins, and effects intact.</p>"
+  },
+  "options": {
+    "testData": "[Script Info]\nTitle: Sample\n\n[V4 Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding\nStyle: Default,Arial,28,16777215,65535,0,0,-1,0,1,2,2,2,10,10,10,0,1\n\n[Events]\nFormat: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\nDialogue: Marked=0,0:00:01.00,0:00:03.00,Default,Narrator,0000,0000,0000,,Welcome to the show.\nDialogue: Marked=0,0:00:04.00,0:00:06.00,Default,Guide,0000,0000,0000,,Please take your seat.\n"
+  }
+}

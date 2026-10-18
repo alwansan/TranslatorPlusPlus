@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<!-- <script type="text/javascript" src="modules/jquery/jquery-1.12.4.min.js"></script> -->
+<script>
+var $ = require('jquery');
+window.jQuery = $;
+</script>
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="modules/json2.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="js/consts.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/php.js"></script>
+<script type="text/javascript" src="js/note.js"></script>
+
+<link type="text/css" href="css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+<link type="text/css" href="css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/note.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" media="screen">
+
+
+<title>Note - Translator++</title>
+
+<head>
+
+<body>
+
+<div class="toolbar">
+	<div class="toolbar-content toolbar1">
+		<select id="noteColor" title="Note's color">
+			<option value="">-Default-</option>
+		</select>
+	</div>
+	<div class="toolbar-content toolbar2">
+		<button class="menu-button addNote" data-tranattr="title" title="Remove note">
+			<i class="icon-trash-empty" id="clearNote"></i>
+		</button> 
+	</div>
+</div>
+
+<textarea id="note" maxlength="4096"></textarea>
+</body>
+</html>

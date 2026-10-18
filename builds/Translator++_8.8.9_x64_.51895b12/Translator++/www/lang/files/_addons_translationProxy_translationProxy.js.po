@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: translationProxy.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"0","tags":null}
+#. tid/3919/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:0"
+msgid ""
+"Cannot start Translation Proxy!\n"
+"Translation Proxy is currently only available for $3 or more patrons."
+msgstr ""
+"Không thể khởi động Translation Proxy!\n"
+"Translation Proxy hiện chỉ khả dụng cho các nhà tài trợ từ $3 trở lên."
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"1","tags":null}
+#. tid/4030/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:1"
+msgid "Please enter the port number:"
+msgstr "Vui lòng nhập số cổng:"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"2","tags":null}
+#. tid/4063/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:2"
+msgid "Invalid port : "
+msgstr "Cổng không hợp lệ: "
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"3","tags":null}
+#. tid/4072/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:3"
+msgid "Port must be a numeric."
+msgstr "Cổng phải là số."
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"4","tags":null}
+#. tid/4104/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:4"
+msgid "Port has successfully changed to: "
+msgstr "Cổng đã được thay đổi thành công thành: "
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"5","tags":null}
+#. tid/4236/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:5"
+msgid "Connection Info"
+msgstr "Thông tin Kết nối"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"6","tags":null}
+#. tid/4252/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:6"
+msgid "Do you want to copy the base URL into the clipboard?"
+msgstr "Bạn có muốn sao chép URL cơ sở vào clipboard không?"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"7","tags":null}
+#. tid/4490/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:7"
+msgid "Use secure protocol(HTTPS)"
+msgstr "Sử dụng giao thức bảo mật (HTTPS)"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"8","tags":null}
+#. tid/4575/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:8"
+msgid "Port"
+msgstr "Cổng"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"9","tags":null}
+#. tid/4627/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:9"
+msgid "Connection info"
+msgstr "Thông tin kết nối"
+
+# {"path":"/addons/translationProxy/translationProxy.js","row":"10","tags":null}
+#. tid/4664/type/StringLiteral
+msgctxt "tpp:/addons/translationProxy/translationProxy.js:10"
+msgid "Help"
+msgstr "Trợ giúp"

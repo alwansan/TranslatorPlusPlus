@@ -1,0 +1,15 @@
+{
+    "name": "unityTrans",
+	"title": "Unity Translator",
+    "description": "Translator++ support for Unit Translator framework",
+    "main": "unityTrans.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.11",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : true,
+	"minimumVersion" : "6.10.1"
+}

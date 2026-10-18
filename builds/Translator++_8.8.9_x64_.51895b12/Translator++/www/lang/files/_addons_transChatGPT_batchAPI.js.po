@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: batchAPI.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"0","tags":null}
+#. tid/206/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:0"
+msgid "Translate with ChatGPT Batch API"
+msgstr "Dịch với ChatGPT Batch API"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"1","tags":null}
+#. tid/283/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:1"
+msgid "Model"
+msgstr "Mô hình"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"2","tags":null}
+#. tid/293/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:2"
+msgid "The pre-trained model."
+msgstr "Mô hình được đào tạo trước."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"3","tags":null}
+#. tid/302/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:3"
+msgid ""
+"It seems that the OpenAI Batch API uses a slightly different model naming convention than the generally used API. Models used in the Batch API have a “-batch” prefix. For example, if you use <code>gpt-4.1-mini</code>, the model automatically becomes <code>gpt-4.1-mini-batch</code>.<br />\n"
+"However, as of the time this add-on was created, batch models are not listed in OpenAI's model usage limits, which makes it impossible for users to use the Batch API if they've set the Model Usage filter to “Allow” (whitelist).<br />\n"
+"This is likely a bug in the OpenAI UI that may be fixed in the future.<br />\n"
+"So, make sure to set the usage limits in OpenAI to “Block” (blacklist) mode in order to use the Batch API.<br />\n"
+"Click here to change the model's usage limits: https://platform.openai.com/settings/proj_xxx/limits\n"
+""
+msgstr ""
+"Có vẻ như OpenAI Batch API sử dụng quy ước đặt tên mô hình hơi khác với API thông thường. Các mô hình được sử dụng trong Batch API có tiền tố “-batch”. Ví dụ, nếu bạn dùng <code>gpt-4.1-mini</code>, mô hình sẽ tự động trở thành <code>gpt-4.1-mini-batch</code>.<br />\n"
+"Tuy nhiên, tại thời điểm tiện ích này được tạo, các mô hình batch không được liệt kê trong giới hạn sử dụng mô hình của OpenAI, điều này khiến người dùng không thể sử dụng Batch API nếu họ đã đặt bộ lọc Sử dụng Mô hình thành “Cho phép” (danh sách trắng).<br />\n"
+"Đây có thể là lỗi trong giao diện OpenAI và có thể được sửa trong tương lai.<br />\n"
+"Vì vậy, hãy đảm bảo đặt giới hạn sử dụng trong OpenAI ở chế độ “Chặn” (danh sách đen) để sử dụng Batch API.<br />\n"
+"Nhấn vào đây để thay đổi giới hạn sử dụng mô hình: https://platform.openai.com/settings/proj_xxx/limits\n"
+""
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"4","tags":null}
+#. tid/339/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:4"
+msgid "Source Column"
+msgstr "Cột Nguồn"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"5","tags":null}
+#. tid/349/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:5"
+msgid "The column of the original texts you want to translate."
+msgstr "Cột chứa văn bản gốc bạn muốn dịch."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"6","tags":null}
+#. tid/376/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:6"
+msgid "Add actor name"
+msgstr "Thêm tên nhân vật"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"7","tags":null}
+#. tid/386/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:7"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên nhân vật từ thông tin hàng vào văn bản có thể dịch. Điều này sẽ giúp người dịch theo dõi hội thoại và đại từ. Translator++ sau đó sẽ loại bỏ tên nhân vật khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"8","tags":null}
+#. tid/421/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:8"
+msgid "Ignore if already translated"
+msgstr "Bỏ qua nếu đã dịch"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"9","tags":null}
+#. tid/431/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:9"
+msgid "If this option is checked then Translator++ will ignore any row that already has translations on its column."
+msgstr "Nếu tùy chọn này được chọn, Translator++ sẽ bỏ qua bất kỳ hàng nào đã có bản dịch trong cột của nó."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"10","tags":null}
+#. tid/494/type/StringLiteral
+#. tid/1400/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:10"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Nhân vật làm Bảng Thuật ngữ"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"11","tags":null}
+#. tid/504/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:11"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu nhân vật làm bảng thuật ngữ. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu nhân vật là tên của nhân vật trong hội thoại. Nó sẽ được tải như một bảng thuật ngữ cho người dịch. Điều này sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"12","tags":null}
+#. tid/511/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:12"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm bảng thuật ngữ cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu nhân vật trong tin nhắn nhắc."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"13","tags":null}
+#. tid/545/type/StringLiteral
+#. tid/1431/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:13"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Nhân vật"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"14","tags":null}
+#. tid/555/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:14"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch của tên nhân vật. Cột này sẽ được sử dụng làm bản dịch của tham chiếu nhân vật. Điều này sẽ cải thiện tính nhất quán của bản dịch tên nhân vật trong cuộc trò chuyện."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"15","tags":null}
+#. tid/582/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:15"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Nhân vật"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"16","tags":null}
+#. tid/592/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:16"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung về nhân vật. Bạn có thể thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện bản dịch của đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"17","tags":null}
+#. tid/698/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:17"
+msgid "System Message Template"
+msgstr "Mẫu Tin nhắn Hệ thống"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"18","tags":null}
+#. tid/708/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:18"
+msgid "System message is the header of the message that will tell what is the role of your chatGPT assistant. This message will be sent as the very first message of every batch you send to chatGPT."
+msgstr "Tin nhắn hệ thống là tiêu đề của tin nhắn sẽ cho biết vai trò của trợ lý chatGPT của bạn. Tin nhắn này sẽ được gửi như tin nhắn đầu tiên của mỗi lô bạn gửi đến chatGPT."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"19","tags":null}
+#. tid/716/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:19"
+msgid "You can include the following variables with JavaScript's Template Literal style <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+msgstr "Bạn có thể bao gồm các biến sau với phong cách Template Literal của JavaScript <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"20","tags":null}
+#. tid/724/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:20"
+msgid "Variables:<br>"
+msgstr "Biến:<br>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"21","tags":null}
+#. tid/737/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:21"
+msgid "<li>LANG_FROM : Source language</li>"
+msgstr "<li>LANG_FROM : Ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"22","tags":null}
+#. tid/745/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:22"
+msgid "<li>LANG_TO : Target language</li>"
+msgstr "<li>LANG_TO : Ngôn ngữ đích</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"23","tags":null}
+#. tid/753/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:23"
+msgid "<li>LANG_FROM_FULL : Full source language name</li>"
+msgstr "<li>LANG_FROM_FULL : Tên đầy đủ của ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"24","tags":null}
+#. tid/761/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:24"
+msgid "<li>LANG_TO_FULL : Full target language name</li>"
+msgstr "<li>LANG_TO_FULL : Tên đầy đủ của ngôn ngữ đích</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"25","tags":null}
+#. tid/769/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:25"
+msgid "<li>SOURCE_TEXT : Source text</li>"
+msgstr "<li>SOURCE_TEXT : Văn bản nguồn</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"26","tags":null}
+#. tid/777/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:26"
+msgid "<li>ESCAPE_ALGORITHM_PROMPT : Pre-defined message of escape algorithm.</li>"
+msgstr "<li>ESCAPE_ALGORITHM_PROMPT : Tin nhắn định sẵn của thuật toán thoát.</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"27","tags":null}
+#. tid/785/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:27"
+msgid "<li>NEWLINE_STRING : String represents new line (Line substitute).</li>"
+msgstr "<li>NEWLINE_STRING : Chuỗi đại diện cho dòng mới (Thay thế dòng).</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"28","tags":null}
+#. tid/793/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:28"
+msgid "<li>MESSAGE_COUNT : Number of messages in the batch.</li>"
+msgstr "<li>MESSAGE_COUNT : Số lượng tin nhắn trong lô.</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"29","tags":null}
+#. tid/801/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:29"
+msgid "<li>ACTOR_INFO : Add information of the actors.</li>"
+msgstr "<li>ACTOR_INFO : Thêm thông tin của các diễn viên.</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"30","tags":null}
+#. tid/809/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:30"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"31","tags":null}
+#. tid/817/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:31"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Công cụ của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"32","tags":null}
+#. tid/825/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:32"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu chung]</code></li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"33","tags":null}
+#. tid/833/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:33"
+msgid "<li>CONTEXT : Include some previous lines as a context</li>"
+msgstr "<li>CONTEXT : Bao gồm một số dòng trước đó làm ngữ cảnh</li>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"34","tags":null}
+#. tid/872/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:34"
+msgid "Body Message Template"
+msgstr "Mẫu tin nhắn thân"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"35","tags":null}
+#. tid/882/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:35"
+msgid "Template of the body of your chat."
+msgstr "Mẫu của phần thân trong cuộc trò chuyện của bạn."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"36","tags":null}
+#. tid/928/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:36"
+msgid "Sample conversation"
+msgstr "Mẫu hội thoại"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"37","tags":null}
+#. tid/1023/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:37"
+msgid "The ChatGPT Batch API allows you to translate your project asynchronously at 50% lower costs, meaning you will receive the results of your translation <b style=\"color:red\">within 24 hours</b> at <b style=\"color:red\">half the normal cost</b>. This is particularly useful for large projects that do not require immediate translation results."
+msgstr "API Batch ChatGPT cho phép bạn dịch dự án của mình một cách không đồng bộ với chi phí thấp hơn 50%, nghĩa là bạn sẽ nhận được kết quả dịch <b style=\"color:red\">trong vòng 24 giờ</b> với <b style=\"color:red\">một nửa chi phí thông thường</b>. Điều này đặc biệt hữu ích cho các dự án lớn không yêu cầu kết quả dịch ngay lập tức."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"38","tags":null}
+#. tid/1035/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:38"
+msgid " <br />Read more about the ChatGPT Batch API: https://platform.openai.com/docs/guides/batch ."
+msgstr " <br />Đọc thêm về API Batch ChatGPT: https://platform.openai.com/docs/guides/batch ."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"39","tags":null}
+#. tid/1059/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:39"
+msgid "General Settings"
+msgstr "Cài đặt chung"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"40","tags":null}
+#. tid/1085/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:40"
+msgid "This form is using your existing ChatGPT configuration.<br>"
+msgstr "Biểu mẫu này đang sử dụng cấu hình ChatGPT hiện có của bạn.<br>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"41","tags":null}
+#. tid/1093/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:41"
+msgid "You can change the configuration by going to the ChatGPT Translator settings in the options window.<br>"
+msgstr "Bạn có thể thay đổi cấu hình bằng cách vào cài đặt ChatGPT Translator trong cửa sổ tùy chọn.<br>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"42","tags":null}
+#. tid/1100/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:42"
+msgid "There you can set the API key, model, and other settings.<br />"
+msgstr "Ở đó, bạn có thể thiết lập khóa API, mô hình và các cài đặt khác.<br />"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"43","tags":null}
+#. tid/1107/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:43"
+msgid "<input type=\"button\" href=\"#\" onclick='ui.openOptionsWindow({focus: {menu: \"chatGPT\",find: \"Your OpenAI API Key\"}});' value=\"Open ChatGPT settings\" />"
+msgstr "<input type=\"button\" href=\"#\" onclick='ui.openOptionsWindow({focus: {menu: \"chatGPT\",find: \"Your OpenAI API Key\"}});' value=\"Mở cài đặt ChatGPT\" />"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"44","tags":null}
+#. tid/1268/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:44"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên diễn viên vào văn bản có thể dịch"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"45","tags":null}
+#. tid/1292/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:45"
+msgid "Ignore translated rows"
+msgstr "Bỏ qua các hàng đã dịch"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"46","tags":null}
+#. tid/1344/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:46"
+msgid "Glossary"
+msgstr "Bảng chú giải"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"47","tags":null}
+#. tid/1370/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:47"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Bảng chú giải</h2>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"48","tags":null}
+#. tid/1377/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:48"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm bảng chú giải vào lời nhắc. Bảng chú giải sẽ được tải cho mỗi lô mục để cải thiện chất lượng bản dịch. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm phình to lời nhắc của bạn.</p>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"49","tags":null}
+#. tid/1462/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:49"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông Tin Bổ Sung của Diễn viên"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"50","tags":null}
+#. tid/1530/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:50"
+msgid "Prompt Template"
+msgstr "Mẫu Lời nhắc"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"51","tags":null}
+#. tid/1556/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:51"
+msgid "<h2>1. System Message</h2>"
+msgstr "<h2>1. Tin nhắn Hệ thống</h2>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"52","tags":null}
+#. tid/1563/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:52"
+msgid "<p>Here you can explain to the assistant, what is their role.</p>"
+msgstr "<p>Tại đây, bạn có thể giải thích cho trợ lý vai trò của họ là gì.</p>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"53","tags":null}
+#. tid/1608/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:53"
+msgid "<h2>2. Sample dialogue</h2>"
+msgstr "<h2>2. Mẫu hội thoại</h2>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"54","tags":null}
+#. tid/1615/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:54"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Mẫu hội thoại hiện có. Bạn có thể viết mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục tiêu và ngữ cảnh của cuộc trò chuyện.</p>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"55","tags":null}
+#. tid/1741/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:55"
+msgid "<h2>3. Your actual prompt</h2>"
+msgstr "<h2>3. Lời nhắc thực tế của bạn</h2>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"56","tags":null}
+#. tid/1748/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:56"
+msgid "<p>This is the actual prompt to the assistant.</p>"
+msgstr "<p>Đây là lời nhắc thực tế gửi đến trợ lý.</p>"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"57","tags":null}
+#. tid/1802/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:57"
+msgid ""
+"<h3>Overhead cost</h3>\n"
+"                        Overhead cost is the cost of the prompt message that you send to the assistant without the actual translation texts. The cost is calculated based on the number of tokens in the prompt message. The more tokens you have, the higher the cost will be.<br>\n"
+"                        <b>Current overhead cost:</b> <span class=\"overheadCost\">0</span> tokens / request."
+msgstr ""
+"<h3>Chi phí cố định</h3>\n"
+"                        Chi phí cố định là chi phí của tin nhắn lời nhắc mà bạn gửi đến trợ lý mà không có văn bản dịch thực tế. Chi phí được tính dựa trên số lượng token trong tin nhắn lời nhắc. Càng nhiều token, chi phí càng cao.<br>\n"
+"                        <b>Chi phí cố định hiện tại:</b> <span class=\"overheadCost\">0</span> token / yêu cầu."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"58","tags":null}
+#. tid/2019/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:58"
+msgid "Are you sure you want to reset the form?"
+msgstr "Bạn có chắc muốn đặt lại biểu mẫu?"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"59","tags":null}
+#. tid/5713/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:59"
+msgid ""
+"Are you sure you want to process the batch?\n"
+"Cost will be incurred for this operation."
+msgstr ""
+"Bạn có chắc muốn xử lý lô này?\n"
+"Chi phí sẽ phát sinh cho thao tác này."
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"60","tags":null}
+#. tid/6174/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:60"
+msgid "The batch is successfully created. Do you want to open the batch manager?"
+msgstr "Lô đã được tạo thành công. Bạn có muốn mở trình quản lý lô?"
+
+# {"path":"/addons/transChatGPT/batchAPI.js","row":"61","tags":null}
+#. tid/6421/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/batchAPI.js:61"
+msgid "OpenAI Batch API Queue"
+msgstr "Hàng đợi API Lô OpenAI"

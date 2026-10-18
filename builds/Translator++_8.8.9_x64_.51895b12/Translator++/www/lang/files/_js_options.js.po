@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: options.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/options.js","row":"0","tags":null}
+#. tid/566/type/StringLiteral
+msgctxt "tpp:/js/options.js:0"
+msgid ""
+"Some configuration require you to restart the application to take effect.\n"
+"Please save your work, and restart Translator++."
+msgstr ""
+"Một số cấu hình yêu cầu bạn khởi động lại ứng dụng để có hiệu lực.\n"
+"Vui lòng lưu công việc của bạn và khởi động lại Translator++."
+
+# {"path":"/js/options.js","row":"1","tags":null}
+#. tid/6369/type/StringLiteral
+msgctxt "tpp:/js/options.js:1"
+msgid "Pleae select the name for your configuration."
+msgstr "Vui lòng chọn tên cho cấu hình của bạn."
+
+# {"path":"/js/options.js","row":"2","tags":null}
+#. tid/6944/type/StringLiteral
+msgctxt "tpp:/js/options.js:2"
+msgid "Translator Engine configuration"
+msgstr "Cấu hình công cụ dịch"
+
+# {"path":"/js/options.js","row":"3","tags":null}
+#. tid/6953/type/StringLiteral
+msgctxt "tpp:/js/options.js:3"
+msgid "Translator engine version."
+msgstr "Phiên bản công cụ dịch."
+
+# {"path":"/js/options.js","row":"4","tags":null}
+#. tid/6966/type/StringLiteral
+#. tid/12450/type/StringLiteral
+msgctxt "tpp:/js/options.js:4"
+msgid "By."
+msgstr "Bởi."
+
+# {"path":"/js/options.js","row":"5","tags":null}
+#. tid/7089/type/StringLiteral
+msgctxt "tpp:/js/options.js:5"
+msgid "No option for this engine"
+msgstr "Không có tùy chọn cho công cụ này"
+
+# {"path":"/js/options.js","row":"6","tags":null}
+#. tid/7943/type/StringLiteral
+msgctxt "tpp:/js/options.js:6"
+msgid "License"
+msgstr "Giấy phép"
+
+# {"path":"/js/options.js","row":"7","tags":null}
+#. tid/8089/type/StringLiteral
+msgctxt "tpp:/js/options.js:7"
+msgid "Can not disable this addon"
+msgstr "Không thể tắt tiện ích bổ sung này"
+
+# {"path":"/js/options.js","row":"8","tags":null}
+#. tid/8732/type/StringLiteral
+msgctxt "tpp:/js/options.js:8"
+msgid "Requirements"
+msgstr "Yêu cầu"
+
+# {"path":"/js/options.js","row":"9","tags":null}
+#. tid/8754/type/StringLiteral
+msgctxt "tpp:/js/options.js:9"
+msgid "What is this?"
+msgstr "Đây là gì?"
+
+# {"path":"/js/options.js","row":"10","tags":null}
+#. tid/9104/type/StringLiteral
+msgctxt "tpp:/js/options.js:10"
+msgid "Uninstall"
+msgstr "Gỡ cài đặt"
+
+# {"path":"/js/options.js","row":"11","tags":null}
+#. tid/9413/type/StringLiteral
+msgctxt "tpp:/js/options.js:11"
+msgid "Update"
+msgstr "Cập nhật"
+
+# {"path":"/js/options.js","row":"12","tags":null}
+#. tid/9608/type/StringLiteral
+msgctxt "tpp:/js/options.js:12"
+msgid ""
+"Addon successfully installed.\r\n"
+"Translator++ may need to be restarted for some addon to take effect."
+msgstr ""
+"Tiện ích bổ sung đã được cài đặt thành công.\r\n"
+"Translator++ có thể cần được khởi động lại để một số tiện ích bổ sung có hiệu lực."
+
+# {"path":"/js/options.js","row":"13","tags":null}
+#. tid/10010/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:13"
+msgid ""
+"WARNING!\n"
+""
+msgstr ""
+"CẢNH BÁO!\n"
+""
+
+# {"path":"/js/options.js","row":"14","tags":null}
+#. tid/10015/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:14"
+msgid ""
+"This add-on has marked as \"parser change\". Your old project related to this add-on may no longer worked as expected. It is advised to backup your project before installing this add-on.\n"
+"You can import your existing translation into the newly created project.\n"
+"\n"
+"Do you wish to install "
+msgstr ""
+"Tiện ích bổ sung này đã được đánh dấu là \"thay đổi trình phân tích\". Dự án cũ của bạn liên quan đến tiện ích bổ sung này có thể không hoạt động như mong đợi. Nên sao lưu dự án của bạn trước khi cài đặt tiện ích bổ sung này.\n"
+"Bạn có thể nhập bản dịch hiện có vào dự án mới được tạo.\n"
+"\n"
+"Bạn có muốn cài đặt "
+
+# {"path":"/js/options.js","row":"15","tags":null}
+#. tid/10053/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:15"
+msgid "Do you want to install "
+msgstr "Bạn có muốn cài đặt "
+
+# {"path":"/js/options.js","row":"16","tags":null}
+#. tid/10153/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:16"
+msgid "Add-on"
+msgstr "Tiện ích bổ sung"
+
+# {"path":"/js/options.js","row":"17","tags":null}
+#. tid/10162/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:17"
+msgid ""
+"is installed successfully.\r\n"
+"Translator++ may need to be restarted for some addon to take effect."
+msgstr ""
+"đã được cài đặt thành công.\r\n"
+"Translator++ có thể cần khởi động lại để một số tiện ích có hiệu lực."
+
+# {"path":"/js/options.js","row":"18","tags":null}
+#. tid/12435/type/StringLiteral
+msgctxt "tpp:/js/options.js:18"
+msgid "Add-on version."
+msgstr "Phiên bản tiện ích bổ sung."
+
+# {"path":"/js/options.js","row":"19","tags":null}
+#. tid/13100/type/StringLiteral
+msgctxt "tpp:/js/options.js:19"
+msgid "No option for this add-on"
+msgstr "Không có tùy chọn cho tiện ích bổ sung này"
+
+# {"path":"/js/options.js","row":"20","tags":null}
+#. tid/14016/type/StringLiteral
+msgctxt "tpp:/js/options.js:20"
+msgid ""
+"Translator++ will write Window's registry.\r\n"
+"Are you sure?"
+msgstr ""
+"Translator++ sẽ ghi vào registry của Windows.\r\n"
+"Bạn có chắc chắn?"
+
+# {"path":"/js/options.js","row":"21","tags":null}
+#. tid/14941/type/StringLiteral
+msgctxt "tpp:/js/options.js:21"
+msgid "Error parsing patterns:"
+msgstr "Lỗi phân tích mẫu:"
+
+# {"path":"/js/options.js","row":"22","tags":null}
+#. tid/16519/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:22"
+msgid "Do you really want to clear the custom escaper?"
+msgstr "Bạn thực sự muốn xóa trình thoát tùy chỉnh?"
+
+# {"path":"/js/options.js","row":"23","tags":null}
+#. tid/16597/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/options.js:23"
+msgid "Do you really want to reset the custom escaper?"
+msgstr "Bạn thực sự muốn đặt lại trình thoát tùy chỉnh?"
+
+# {"path":"/js/options.js","row":"24","tags":null}
+#. tid/18996/type/StringLiteral
+msgctxt "tpp:/js/options.js:24"
+msgid ""
+"You are currently on the latest version.\n"
+"Do you still want to update?"
+msgstr ""
+"Bạn đang ở phiên bản mới nhất.\n"
+"Bạn vẫn muốn cập nhật?"
+
+# {"path":"/js/options.js","row":"25","tags":null}
+#. tid/19597/type/StringLiteral
+msgctxt "tpp:/js/options.js:25"
+msgid ""
+"This option will open your default browser to login.\n"
+"Do you want to continue?"
+msgstr ""
+"Tùy chọn này sẽ mở trình duyệt mặc định để đăng nhập.\n"
+"Bạn có muốn tiếp tục?"
+
+# {"path":"/js/options.js","row":"26","tags":null}
+#. tid/19687/type/StringLiteral
+msgctxt "tpp:/js/options.js:26"
+msgid "Login with Browser"
+msgstr "Đăng nhập bằng trình duyệt"
+
+# {"path":"/js/options.js","row":"27","tags":null}
+#. tid/19694/type/StringLiteral
+msgctxt "tpp:/js/options.js:27"
+msgid "Your browser has been opened to <b>dreamsavior.net/gettoken/</b>.<br>The login will complete automatically once you log in.<br><br>If the automatic login does not work, copy your token from that page and paste it below:"
+msgstr "Trình duyệt của bạn đã được mở đến <b>dreamsavior.net/gettoken/</b>.<br>Đăng nhập sẽ hoàn tất tự động khi bạn đăng nhập.<br><br>Nếu đăng nhập tự động không hoạt động, hãy sao chép mã token từ trang đó và dán vào bên dưới:"
+
+# {"path":"/js/options.js","row":"28","tags":null}
+#. tid/22105/type/StringLiteral
+msgctxt "tpp:/js/options.js:28"
+msgid ""
+"There is no default translator selected.\n"
+"Change the default translator to Google!"
+msgstr ""
+"Không có trình dịch mặc định được chọn.\n"
+"Thay đổi trình dịch mặc định thành Google!"
+
+# {"path":"/js/options.js","row":"29","tags":null}
+#. tid/22172/type/StringLiteral
+msgctxt "tpp:/js/options.js:29"
+msgid "Change Stagging Path to :"
+msgstr "Thay đổi đường dẫn Stagging thành:"
+
+# {"path":"/js/options.js","row":"30","tags":null}
+#. tid/22270/type/StringLiteral
+msgctxt "tpp:/js/options.js:30"
+msgid "Move the content of current Stagging Path into the new one?"
+msgstr "Di chuyển nội dung của đường dẫn Stagging hiện tại vào đường dẫn mới?"
+
+# {"path":"/js/options.js","row":"31","tags":null}
+#. tid/22662/type/StringLiteral
+msgctxt "tpp:/js/options.js:31"
+msgid ""
+"Addon(s) has been installed.\n"
+"Translator++ is need to be restarted to take effect."
+msgstr ""
+"Tiện ích bổ sung đã được cài đặt.\n"
+"Translator++ cần khởi động lại để có hiệu lực."
+
+# {"path":"/js/options.js","row":"32","tags":null}
+#. tid/22834/type/StringLiteral
+msgctxt "tpp:/js/options.js:32"
+msgid ""
+"Do you really want to clear all settings and reset Translator++ to default?\n"
+"Plese note that this action is irreversible.\n"
+"Please backup your project before proceeding."
+msgstr ""
+"Bạn thực sự muốn xóa tất cả cài đặt và đặt lại Translator++ về mặc định?\n"
+"Lưu ý rằng hành động này không thể hoàn tác.\n"
+"Vui lòng sao lưu dự án của bạn trước khi tiếp tục."
+
+# {"path":"/js/options.js","row":"33","tags":null}
+#. tid/23223/type/StringLiteral
+msgctxt "tpp:/js/options.js:33"
+msgid ""
+"Translator++ may not work normally if you don't fix the error.\n"
+"Do you want to close the options Window?"
+msgstr ""
+"Translator++ có thể không hoạt động bình thường nếu bạn không sửa lỗi.\n"
+"Bạn có muốn đóng cửa sổ tùy chọn?"

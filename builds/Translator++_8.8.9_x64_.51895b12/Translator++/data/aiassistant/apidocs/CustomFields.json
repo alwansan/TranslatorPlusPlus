@@ -1,0 +1,194 @@
+{
+  "CustomFields": {
+    "constructor": {
+      "CustomFields": {
+        "signature": "new CustomFields($form, options?)",
+        "description": "Constructor for CustomFields class.",
+        "parameters": [
+          {
+            "name": "$form",
+            "type": "jQuery|Object",
+            "description": "jQuery object or object representing form.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Options for customization.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new CustomFields($form, options)"
+      }
+    },
+    "extends": {},
+    "members": {
+      "$elm": {
+        "signature": "$elm :jQuery",
+        "description": "jQuery form element.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "$elm"
+      }
+    },
+    "methods": {
+      "addHTML": {
+        "signature": "addHTML($elm)",
+        "description": "Adds HTML content to the form.",
+        "parameters": [
+          {
+            "name": "$elm",
+            "type": "jQuery",
+            "description": "jQuery object representing HTML content.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "addHTML($elm)"
+      },
+      "addJSONForm": {
+        "signature": "addJSONForm(settings?)",
+        "description": "Adds JSON form to the form element.",
+        "parameters": [
+          {
+            "name": "settings",
+            "type": "Object",
+            "description": "Settings for the JSON form.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "addJSONForm(settings)"
+      },
+      "getFormValues": {
+        "signature": "getFormValues() → Object",
+        "description": "Gets JSONForm's value.",
+        "parameters": [],
+        "returns": {
+          "type": "Object",
+          "description": "Form field values."
+        },
+        "examples": [],
+        "usage": "getFormValues() : Object"
+      },
+      "getJsonFormTree": {
+        "signature": "getJsonFormTree() → Object",
+        "description": "Gets the JSON form tree.",
+        "parameters": [],
+        "returns": {
+          "type": "Object",
+          "description": "JSON form tree data."
+        },
+        "examples": [],
+        "usage": "getJsonFormTree() : Object"
+      },
+      "getValues": {
+        "signature": "getValues() → Object",
+        "description": "Gets values from the form.",
+        "parameters": [],
+        "returns": {
+          "type": "Object",
+          "description": "Form field values."
+        },
+        "examples": [],
+        "usage": "getValues() : Object"
+      },
+      "init": {
+        "signature": "init()",
+        "description": "Initialize the CustomFields instance.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "init()"
+      },
+      "setValueByName": {
+        "signature": "setValueByName(name, val)",
+        "description": "Sets value for a field by its name.",
+        "parameters": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the field.",
+            "required": true
+          },
+          {
+            "name": "val",
+            "type": "any",
+            "description": "Value to set.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "setValueByName(name, val)"
+      },
+      "setValues": {
+        "signature": "setValues(values)",
+        "description": "set values from the form.",
+        "parameters": [
+          {
+            "name": "values",
+            "type": "Object",
+            "description": "Form field values.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "setValues(values)"
+      },
+      "validate": {
+        "signature": "validate() → boolean",
+        "description": "Validates the form.",
+        "parameters": [],
+        "returns": {
+          "type": "boolean",
+          "description": "Validation result."
+        },
+        "examples": [],
+        "usage": "validate() : boolean"
+      },
+      ".isJsonForm": {
+        "signature": "(static) isJsonForm(data?) → boolean",
+        "description": "Checks if the data represents a JSON form.",
+        "parameters": [
+          {
+            "name": "data",
+            "type": "Object|string|function",
+            "description": "Data to check.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "boolean",
+          "description": "Whether the data represents a JSON form."
+        },
+        "examples": [],
+        "usage": ".isJsonForm(data) : boolean"
+      },
+      ".sanitize": {
+        "signature": "(static) sanitize(option) → Object",
+        "description": "Sanitizes options for CustomFields class.",
+        "parameters": [
+          {
+            "name": "option",
+            "type": "Object",
+            "description": "Options object.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "Sanitized options."
+        },
+        "examples": [],
+        "usage": ".sanitize(option) : Object"
+      }
+    }
+  }
+}

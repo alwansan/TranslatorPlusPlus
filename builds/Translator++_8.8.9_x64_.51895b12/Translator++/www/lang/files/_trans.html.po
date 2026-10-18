@@ -1,0 +1,2032 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trans.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/trans.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/trans.html:0"
+msgid "Start"
+msgstr "Bắt đầu"
+
+# {"path":"/trans.html","row":"1","tags":null}
+#. idx/1/innerText
+msgctxt "tpp:/trans.html:1"
+msgid "Home"
+msgstr "Trang chủ"
+
+# {"path":"/trans.html","row":"2","tags":null}
+#. idx/2/innerText
+msgctxt "tpp:/trans.html:2"
+msgid "Translator"
+msgstr "Trình dịch"
+
+# {"path":"/trans.html","row":"3","tags":null}
+#. idx/3/innerText
+msgctxt "tpp:/trans.html:3"
+msgid "Objects"
+msgstr "Đối tượng"
+
+# {"path":"/trans.html","row":"4","tags":null}
+#. idx/4/innerText
+msgctxt "tpp:/trans.html:4"
+msgid "Live translation"
+msgstr "Dịch trực tiếp"
+
+# {"path":"/trans.html","row":"5","tags":null}
+#. idx/5/innerText
+msgctxt "tpp:/trans.html:5"
+msgid "Original"
+msgstr "Nguyên bản"
+
+# {"path":"/trans.html","row":"6","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/trans.html:6"
+msgid "Raw"
+msgstr "Thô"
+
+# {"path":"/trans.html","row":"7","tags":null}
+#. idx/7/innerText
+msgctxt "tpp:/trans.html:7"
+msgid "Row Properties"
+msgstr "Thuộc tính dòng"
+
+# {"path":"/trans.html","row":"8","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/trans.html:8"
+msgid "Default translation"
+msgstr "Bản dịch mặc định"
+
+# {"path":"/trans.html","row":"9","tags":null}
+#. idx/9/innerText
+msgctxt "tpp:/trans.html:9"
+msgid "Context translation"
+msgstr "Bản dịch ngữ cảnh"
+
+# {"path":"/trans.html","row":"10","tags":null}
+#. idx/10/innerText
+msgctxt "tpp:/trans.html:10"
+msgid ""
+"\n"
+"\t\tPath <a class=\"problemPath\"></a> is not accessible by PHP interpreter.<br>\n"
+"\t\tPlease rename the path and use only alphanumeric naming.\n"
+"\t"
+msgstr ""
+"\n"
+"\t\tĐường dẫn <a class=\"problemPath\"></a> không thể truy cập bởi trình thông dịch PHP.<br>\n"
+"\t\tVui lòng đổi tên đường dẫn và chỉ sử dụng tên chữ và số.\n"
+"\t"
+
+# {"path":"/trans.html","row":"11","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/trans.html:11"
+msgid "<i class=\"icon-pin\"></i><span>Location</span>"
+msgstr "<i class=\"icon-pin\"></i><span>Vị trí</span>"
+
+# {"path":"/trans.html","row":"12","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/trans.html:12"
+msgid "File :"
+msgstr "Tệp :"
+
+# {"path":"/trans.html","row":"13","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/trans.html:13"
+msgid "Row ID :"
+msgstr "ID dòng :"
+
+# {"path":"/trans.html","row":"14","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/trans.html:14"
+msgid "<i class=\"icon-th-2\"></i><span>Context</span>"
+msgstr "<i class=\"icon-th-2\"></i><span>Ngữ cảnh</span>"
+
+# {"path":"/trans.html","row":"15","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/trans.html:15"
+msgid "<i class=\"icon-users\"></i><span>Actors</span>"
+msgstr "<i class=\"icon-users\"></i><span>Nhân vật</span>"
+
+# {"path":"/trans.html","row":"16","tags":null}
+#. idx/16/innerText
+msgctxt "tpp:/trans.html:16"
+msgid "<i class=\"icon-key-inv\"></i><span>Key Text</span>"
+msgstr "<i class=\"icon-key-inv\"></i><span>Văn bản khóa</span>"
+
+# {"path":"/trans.html","row":"17","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/trans.html:17"
+msgid "<i class=\"icon-translate-1\"></i><span>Best Translation</span>"
+msgstr "<i class=\"icon-translate-1\"></i><span>Bản dịch tốt nhất</span>"
+
+# {"path":"/trans.html","row":"18","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/trans.html:18"
+msgid "File ID"
+msgstr "ID tệp"
+
+# {"path":"/trans.html","row":"19","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/trans.html:19"
+msgid "Path"
+msgstr "Đường dẫn"
+
+# {"path":"/trans.html","row":"20","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/trans.html:20"
+msgid "Original Format"
+msgstr "Định dạng gốc"
+
+# {"path":"/trans.html","row":"21","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/trans.html:21"
+msgid "Data Length"
+msgstr "Độ dài dữ liệu"
+
+# {"path":"/trans.html","row":"22","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/trans.html:22"
+msgid "Translated"
+msgstr "Đã dịch"
+
+# {"path":"/trans.html","row":"23","tags":null}
+#. idx/23/innerText
+msgctxt "tpp:/trans.html:23"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/trans.html","row":"24","tags":null}
+#. idx/24/innerText
+msgctxt "tpp:/trans.html:24"
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+# {"path":"/trans.html","row":"25","tags":null}
+#. idx/25/innerText
+msgctxt "tpp:/trans.html:25"
+msgid "Staging"
+msgstr "Sân khấu"
+
+# {"path":"/trans.html","row":"26","tags":null}
+#. idx/26/innerText
+msgctxt "tpp:/trans.html:26"
+msgid "Stats"
+msgstr "Thống kê"
+
+# {"path":"/trans.html","row":"27","tags":null}
+#. idx/27/innerText
+msgctxt "tpp:/trans.html:27"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+# {"path":"/trans.html","row":"28","tags":null}
+#. idx/28/innerText
+#. idx/56/innerText
+msgctxt "tpp:/trans.html:28"
+msgid "Info"
+msgstr "Thông tin"
+
+# {"path":"/trans.html","row":"29","tags":null}
+#. idx/29/innerText
+#. idx/152/innerText
+msgctxt "tpp:/trans.html:29"
+msgid "Title"
+msgstr "Tiêu đề"
+
+# {"path":"/trans.html","row":"30","tags":null}
+#. idx/30/innerText
+msgctxt "tpp:/trans.html:30"
+msgid "File Location"
+msgstr "Vị trí tệp"
+
+# {"path":"/trans.html","row":"31","tags":null}
+#. idx/31/innerText
+msgctxt "tpp:/trans.html:31"
+msgid "Project ID"
+msgstr "ID dự án"
+
+# {"path":"/trans.html","row":"32","tags":null}
+#. idx/32/innerText
+msgctxt "tpp:/trans.html:32"
+msgid "Built on"
+msgstr "Được xây dựng trên"
+
+# {"path":"/trans.html","row":"33","tags":null}
+#. idx/33/innerText
+msgctxt "tpp:/trans.html:33"
+msgid "Editor Name"
+msgstr "Tên trình chỉnh sửa"
+
+# {"path":"/trans.html","row":"34","tags":null}
+#. idx/34/innerText
+msgctxt "tpp:/trans.html:34"
+msgid "Editor Version"
+msgstr "Phiên bản trình chỉnh sửa"
+
+# {"path":"/trans.html","row":"35","tags":null}
+#. idx/35/innerText
+msgctxt "tpp:/trans.html:35"
+msgid "Engine"
+msgstr "Công cụ"
+
+# {"path":"/trans.html","row":"36","tags":null}
+#. idx/36/innerText
+msgctxt "tpp:/trans.html:36"
+msgid "Parser"
+msgstr "Bộ phân tích"
+
+# {"path":"/trans.html","row":"37","tags":null}
+#. idx/37/innerText
+msgctxt "tpp:/trans.html:37"
+msgid "Parser version"
+msgstr "Phiên bản bộ phân tích"
+
+# {"path":"/trans.html","row":"38","tags":null}
+#. idx/38/innerText
+msgctxt "tpp:/trans.html:38"
+msgid "Raw Material Location <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"The location of the original material. You should not modify anything inside this folder.\"></i>"
+msgstr "Vị trí nguyên liệu gốc <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Vị trí của nguyên liệu gốc. Bạn không nên sửa đổi bất cứ thứ gì trong thư mục này.\"></i>"
+
+# {"path":"/trans.html","row":"39","tags":null}
+#. idx/39/innerText
+#. idx/41/innerText
+msgctxt "tpp:/trans.html:39"
+msgid "<i class=\"icon-attention red\"></i> Invalid path.<br>Some features will be disabled until this is fixed."
+msgstr "<i class=\"icon-attention red\"></i> Đường dẫn không hợp lệ.<br>Một số tính năng sẽ bị vô hiệu hóa cho đến khi sửa lỗi này."
+
+# {"path":"/trans.html","row":"40","tags":null}
+#. idx/40/innerText
+msgctxt "tpp:/trans.html:40"
+msgid "Translated Material Location <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"The location of the game that has been translated. The default location of the translation injection.\"></i>"
+msgstr "Vị trí nguyên liệu đã dịch <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Vị trí của trò chơi đã được dịch. Vị trí mặc định để tiêm bản dịch.\"></i>"
+
+# {"path":"/trans.html","row":"41","tags":null}
+#. idx/42/innerText
+msgctxt "tpp:/trans.html:41"
+msgid "Translator <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Prefered translator for this project. If not defined, global setting will be used.\"></i>"
+msgstr "Dịch giả <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Dịch giả ưa thích cho dự án này. Nếu không xác định, sẽ sử dụng cài đặt toàn cục.\"></i>"
+
+# {"path":"/trans.html","row":"42","tags":null}
+#. idx/43/innerText
+msgctxt "tpp:/trans.html:42"
+msgid "Translate From"
+msgstr "Dịch từ"
+
+# {"path":"/trans.html","row":"43","tags":null}
+#. idx/44/innerText
+msgctxt "tpp:/trans.html:43"
+msgid "Translate Into"
+msgstr "Dịch sang"
+
+# {"path":"/trans.html","row":"44","tags":null}
+#. idx/45/innerText
+msgctxt "tpp:/trans.html:44"
+msgid "Staging Path <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Staging path is the location of some files required to export/build translations. Staging files generated when you created the project.\"></i>"
+msgstr "Đường dẫn Staging <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Đường dẫn staging là vị trí của một số tệp cần thiết để xuất/xây dựng bản dịch. Các tệp staging được tạo khi bạn tạo dự án.\"></i>"
+
+# {"path":"/trans.html","row":"45","tags":null}
+#. idx/46/innerText
+msgctxt "tpp:/trans.html:45"
+msgid "Objects <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Number of objects/files available on the left pane\"></i>"
+msgstr "Đối tượng <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Số lượng đối tượng/tệp có sẵn ở khung bên trái\"></i>"
+
+# {"path":"/trans.html","row":"46","tags":null}
+#. idx/47/innerText
+msgctxt "tpp:/trans.html:46"
+msgid "Folders"
+msgstr "Thư mục"
+
+# {"path":"/trans.html","row":"47","tags":null}
+#. idx/48/innerText
+msgctxt "tpp:/trans.html:47"
+msgid "Characters <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Number of characters in the Original Text column\"></i>"
+msgstr "Ký tự <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Số lượng ký tự trong cột Văn bản Gốc\"></i>"
+
+# {"path":"/trans.html","row":"48","tags":null}
+#. idx/49/innerText
+msgctxt "tpp:/trans.html:48"
+msgid "Words <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"May display wrong value in languages that doesn't use spaces (ie. Japanese, Chinese).\"></i>"
+msgstr "Từ <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Có thể hiển thị giá trị sai trong các ngôn ngữ không sử dụng khoảng trắng (ví dụ: tiếng Nhật, tiếng Trung).\"></i>"
+
+# {"path":"/trans.html","row":"49","tags":null}
+#. idx/50/innerText
+msgctxt "tpp:/trans.html:49"
+msgid "Total Rows"
+msgstr "Tổng số hàng"
+
+# {"path":"/trans.html","row":"50","tags":null}
+#. idx/51/innerText
+msgctxt "tpp:/trans.html:50"
+msgid "Translated row"
+msgstr "Hàng đã dịch"
+
+# {"path":"/trans.html","row":"51","tags":null}
+#. idx/52/innerText
+msgctxt "tpp:/trans.html:51"
+msgid "Organic translation <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Users filled directly into the grid. Which is a good sign. Can be human translation, can be edited MTL, etc.\"></i>"
+msgstr "Bản dịch hữu cơ <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Người dùng điền trực tiếp vào lưới. Đây là một dấu hiệu tốt. Có thể là bản dịch của con người, có thể là MTL đã chỉnh sửa, v.v.\"></i>"
+
+# {"path":"/trans.html","row":"52","tags":null}
+#. idx/53/innerText
+msgctxt "tpp:/trans.html:52"
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+# {"path":"/trans.html","row":"53","tags":null}
+#. idx/54/innerText
+msgctxt "tpp:/trans.html:53"
+msgid "Overall progress <span class=\"percentDisplay\" data-field=\"percent\"></span>%"
+msgstr "Tiến độ tổng thể <span class=\"percentDisplay\" data-field=\"percent\"></span>%"
+
+# {"path":"/trans.html","row":"54","tags":null}
+#. idx/55/innerText
+msgctxt "tpp:/trans.html:54"
+msgid "On after export<i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Run a javascript function after this project is successfully exported.\"></i>"
+msgstr "Chạy sau khi xuất<i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Chạy một hàm javascript sau khi dự án này được xuất thành công.\"></i>"
+
+# {"path":"/trans.html","row":"55","tags":null}
+#. idx/57/innerText
+msgctxt "tpp:/trans.html:55"
+msgid "Display this information when the project is opened."
+msgstr "Hiển thị thông tin này khi mở dự án."
+
+# {"path":"/trans.html","row":"56","tags":null}
+#. idx/58/innerText
+msgctxt "tpp:/trans.html:56"
+msgid "Select Export Mode"
+msgstr "Chọn Chế độ Xuất"
+
+# {"path":"/trans.html","row":"57","tags":null}
+#. idx/59/innerText
+msgctxt "tpp:/trans.html:57"
+msgid "Export to a folder"
+msgstr "Xuất ra một thư mục"
+
+# {"path":"/trans.html","row":"58","tags":null}
+#. idx/60/innerText
+msgctxt "tpp:/trans.html:58"
+msgid "Export pre-compiled game data to a folder<br>Folder structures are retained"
+msgstr "Xuất dữ liệu trò chơi đã biên dịch trước vào một thư mục<br>Cấu trúc thư mục được giữ nguyên"
+
+# {"path":"/trans.html","row":"59","tags":null}
+#. idx/61/innerText
+msgctxt "tpp:/trans.html:59"
+msgid "Export as a Zip file"
+msgstr "Xuất dưới dạng tệp Zip"
+
+# {"path":"/trans.html","row":"60","tags":null}
+#. idx/62/innerText
+msgctxt "tpp:/trans.html:60"
+msgid "Export pre-compiled game data to a single zipped archive"
+msgstr "Xuất dữ liệu trò chơi đã biên dịch trước vào một kho lưu trữ nén duy nhất"
+
+# {"path":"/trans.html","row":"61","tags":null}
+#. idx/63/innerText
+msgctxt "tpp:/trans.html:61"
+msgid "RPGMakerTrans Patch Files"
+msgstr "Tệp Bản vá RPGMakerTrans"
+
+# {"path":"/trans.html","row":"62","tags":null}
+#. idx/64/innerText
+msgctxt "tpp:/trans.html:62"
+msgid "Export to RPGMakerTrans formatted *.txt files in a folder"
+msgstr "Xuất ra các tệp *.txt định dạng RPGMakerTrans trong một thư mục"
+
+# {"path":"/trans.html","row":"63","tags":null}
+#. idx/65/innerText
+msgctxt "tpp:/trans.html:63"
+msgid "Comma Separated Values"
+msgstr "Giá trị Phân cách bằng Dấu phẩy"
+
+# {"path":"/trans.html","row":"64","tags":null}
+#. idx/66/innerText
+msgctxt "tpp:/trans.html:64"
+msgid "Export to Comma Separated Values (csv) files in a folder"
+msgstr "Xuất ra tệp Giá trị Phân tách bằng Dấu phẩy (csv) trong một thư mục"
+
+# {"path":"/trans.html","row":"65","tags":null}
+#. idx/67/innerText
+msgctxt "tpp:/trans.html:65"
+msgid "Office Open XML (.xlsx) Excel 2007 and above"
+msgstr "Office Open XML (.xlsx) Excel 2007 trở lên"
+
+# {"path":"/trans.html","row":"66","tags":null}
+#. idx/68/innerText
+msgctxt "tpp:/trans.html:66"
+msgid "Export to Microsoft Excel Spreadsheet (xlsx) files in a folder"
+msgstr "Xuất ra tệp Bảng tính Microsoft Excel (xlsx) trong một thư mục"
+
+# {"path":"/trans.html","row":"67","tags":null}
+#. idx/69/innerText
+msgctxt "tpp:/trans.html:67"
+msgid "BIFF 8 (.xls) Excel 97 and above"
+msgstr "BIFF 8 (.xls) Excel 97 trở lên"
+
+# {"path":"/trans.html","row":"68","tags":null}
+#. idx/70/innerText
+msgctxt "tpp:/trans.html:68"
+msgid "Export to Microsoft Excel Spreadsheet (xls) files in a folder"
+msgstr "Xuất ra tệp Bảng tính Microsoft Excel (xls) trong một thư mục"
+
+# {"path":"/trans.html","row":"69","tags":null}
+#. idx/71/innerText
+msgctxt "tpp:/trans.html:69"
+msgid "HTML Spreadsheet"
+msgstr "Bảng tính HTML"
+
+# {"path":"/trans.html","row":"70","tags":null}
+#. idx/72/innerText
+msgctxt "tpp:/trans.html:70"
+msgid "Export to HTML files in a folder"
+msgstr "Xuất ra tệp HTML trong một thư mục"
+
+# {"path":"/trans.html","row":"71","tags":null}
+#. idx/73/innerText
+msgctxt "tpp:/trans.html:71"
+msgid "Open Document Format/OASIS (.ods)"
+msgstr "Định dạng Tài liệu Mở/OASIS (.ods)"
+
+# {"path":"/trans.html","row":"72","tags":null}
+#. idx/74/innerText
+msgctxt "tpp:/trans.html:72"
+msgid "Export to ODS files in a folder"
+msgstr "Xuất ra tệp ODS trong một thư mục"
+
+# {"path":"/trans.html","row":"73","tags":null}
+#. idx/75/innerText
+msgctxt "tpp:/trans.html:73"
+msgid "Select Import Mode"
+msgstr "Chọn Chế độ Nhập"
+
+# {"path":"/trans.html","row":"74","tags":null}
+#. idx/76/innerText
+msgctxt "tpp:/trans.html:74"
+msgid "Import translation from another .trans file"
+msgstr "Nhập bản dịch từ tệp .trans khác"
+
+# {"path":"/trans.html","row":"75","tags":null}
+#. idx/77/innerText
+msgctxt "tpp:/trans.html:75"
+msgid "Open another Translator++ file<br>Apply translation into current project."
+msgstr "Mở tệp Translator++ khác<br>Áp dụng bản dịch vào dự án hiện tại."
+
+# {"path":"/trans.html","row":"76","tags":null}
+#. idx/78/innerText
+msgctxt "tpp:/trans.html:76"
+msgid "Import translation from spreadsheets"
+msgstr "Nhập bản dịch từ bảng tính"
+
+# {"path":"/trans.html","row":"77","tags":null}
+#. idx/79/innerText
+msgctxt "tpp:/trans.html:77"
+msgid "Import translation from various spreadsheets file<br>(.xls, .xlsx, .ods, .html, .xml, etc)"
+msgstr "Nhập bản dịch từ các tệp bảng tính đa dạng<br>(.xls, .xlsx, .ods, .html, .xml, v.v.)"
+
+# {"path":"/trans.html","row":"78","tags":null}
+#. idx/80/innerText
+msgctxt "tpp:/trans.html:78"
+msgid "Import translation from RPGMakerTrans Patch format"
+msgstr "Nhập bản dịch từ định dạng Bản vá RPGMakerTrans"
+
+# {"path":"/trans.html","row":"79","tags":null}
+#. idx/81/innerText
+msgctxt "tpp:/trans.html:79"
+msgid "Import translation from RPGMaker Trans' patch files<br>(.txt)"
+msgstr "Nhập bản dịch từ tệp bản vá của RPGMaker Trans<br>(.txt)"
+
+# {"path":"/trans.html","row":"80","tags":null}
+#. idx/82/innerText
+#. idx/106/innerText
+#. idx/113/innerText
+msgctxt "tpp:/trans.html:80"
+msgid "Source :"
+msgstr "Nguồn :"
+
+# {"path":"/trans.html","row":"81","tags":null}
+#. idx/83/innerText
+msgctxt "tpp:/trans.html:81"
+msgid "Select objects to import"
+msgstr "Chọn đối tượng để nhập"
+
+# {"path":"/trans.html","row":"82","tags":null}
+#. idx/84/innerText
+msgctxt "tpp:/trans.html:82"
+msgid "Import mode :"
+msgstr "Chế độ nhập :"
+
+# {"path":"/trans.html","row":"83","tags":null}
+#. idx/85/innerText
+msgctxt "tpp:/trans.html:83"
+msgid "Import translations"
+msgstr "Nhập bản dịch"
+
+# {"path":"/trans.html","row":"84","tags":null}
+#. idx/86/innerText
+msgctxt "tpp:/trans.html:84"
+msgid "Import data object"
+msgstr "Nhập đối tượng dữ liệu"
+
+# {"path":"/trans.html","row":"85","tags":null}
+#. idx/87/innerText
+#. idx/99/innerText
+#. idx/110/innerText
+#. idx/115/innerText
+msgctxt "tpp:/trans.html:85"
+msgid "Destination :"
+msgstr "Đích đến :"
+
+# {"path":"/trans.html","row":"86","tags":null}
+#. idx/88/innerText
+#. idx/100/innerText
+msgctxt "tpp:/trans.html:86"
+msgid "Currently selected : "
+msgstr "Đang chọn : "
+
+# {"path":"/trans.html","row":"87","tags":null}
+#. idx/89/innerText
+#. idx/101/innerText
+msgctxt "tpp:/trans.html:87"
+msgid "Options :"
+msgstr "Tùy chọn :"
+
+# {"path":"/trans.html","row":"88","tags":null}
+#. idx/90/innerText
+msgctxt "tpp:/trans.html:88"
+msgid "Import the context translations"
+msgstr "Nhập bản dịch theo ngữ cảnh"
+
+# {"path":"/trans.html","row":"89","tags":null}
+#. idx/91/innerText
+msgctxt "tpp:/trans.html:89"
+msgid "Case insensitive"
+msgstr "Không phân biệt chữ hoa chữ thường"
+
+# {"path":"/trans.html","row":"90","tags":null}
+#. idx/92/innerText
+msgctxt "tpp:/trans.html:90"
+msgid "Overwrite target"
+msgstr "Ghi đè mục tiêu"
+
+# {"path":"/trans.html","row":"91","tags":null}
+#. idx/93/innerText
+#. idx/111/innerText
+#. idx/116/innerText
+msgctxt "tpp:/trans.html:91"
+msgid "Destination column : "
+msgstr "Cột đích : "
+
+# {"path":"/trans.html","row":"92","tags":null}
+#. idx/94/innerText
+msgctxt "tpp:/trans.html:92"
+msgid "Translation mode :"
+msgstr "Chế độ dịch :"
+
+# {"path":"/trans.html","row":"93","tags":null}
+#. idx/95/innerText
+msgctxt "tpp:/trans.html:93"
+msgid "Row by row translation"
+msgstr "Dịch theo từng hàng"
+
+# {"path":"/trans.html","row":"94","tags":null}
+#. idx/96/innerText
+msgctxt "tpp:/trans.html:94"
+msgid "Line by line translation"
+msgstr "Dịch theo từng dòng"
+
+# {"path":"/trans.html","row":"95","tags":null}
+#. idx/97/innerText
+msgctxt "tpp:/trans.html:95"
+msgid "Select translation by context address"
+msgstr "Chọn bản dịch theo địa chỉ ngữ cảnh"
+
+# {"path":"/trans.html","row":"96","tags":null}
+#. idx/98/innerText
+msgctxt "tpp:/trans.html:96"
+msgid "Just copy translation into the same row (No checking)"
+msgstr "Chỉ sao chép bản dịch vào cùng hàng (Không kiểm tra)"
+
+# {"path":"/trans.html","row":"97","tags":null}
+#. idx/102/innerText
+msgctxt "tpp:/trans.html:97"
+msgid "Merge data"
+msgstr "Hợp nhất dữ liệu"
+
+# {"path":"/trans.html","row":"98","tags":null}
+#. idx/103/innerText
+msgctxt "tpp:/trans.html:98"
+msgid "Import translation from spreadsheet into project"
+msgstr "Nhập bản dịch từ bảng tính vào dự án"
+
+# {"path":"/trans.html","row":"99","tags":null}
+#. idx/104/innerText
+msgctxt "tpp:/trans.html:99"
+msgid "Import translation from any spreadsheet format (xls, xlsx, odx, html, csv, etc)."
+msgstr "Nhập bản dịch từ bất kỳ định dạng bảng tính nào (xls, xlsx, odx, html, csv, v.v.)."
+
+# {"path":"/trans.html","row":"100","tags":null}
+#. idx/105/innerText
+msgctxt "tpp:/trans.html:100"
+msgid "<b>The spreadsheet must have at least 2 columns.</b> The most important column is the first column (the leftmost column) containing the original texts. The following columns contain the translations. Translator++ will use the text in the rightmost cell that is not empty."
+msgstr "<b>Bảng tính phải có ít nhất 2 cột.</b> Cột quan trọng nhất là cột đầu tiên (cột ngoài cùng bên trái) chứa văn bản gốc. Các cột tiếp theo chứa bản dịch. Translator++ sẽ sử dụng văn bản trong ô ngoài cùng bên phải không trống."
+
+# {"path":"/trans.html","row":"101","tags":null}
+#. idx/107/innerText
+#. idx/114/innerText
+msgctxt "tpp:/trans.html:101"
+msgid "Please click the radio button to select files/folder to import"
+msgstr "Vui lòng nhấp nút radio để chọn tệp/thư mục để nhập"
+
+# {"path":"/trans.html","row":"102","tags":null}
+#. idx/108/innerText
+msgctxt "tpp:/trans.html:102"
+msgid "Import file(s)"
+msgstr "Nhập tệp"
+
+# {"path":"/trans.html","row":"103","tags":null}
+#. idx/109/innerText
+msgctxt "tpp:/trans.html:103"
+msgid "Import folder"
+msgstr "Nhập thư mục"
+
+# {"path":"/trans.html","row":"104","tags":null}
+#. idx/112/innerText
+msgctxt "tpp:/trans.html:104"
+msgid "Import translation from RPG Maker Trans into project"
+msgstr "Nhập bản dịch từ RPG Maker Trans vào dự án"
+
+# {"path":"/trans.html","row":"105","tags":null}
+#. idx/117/innerText
+msgctxt "tpp:/trans.html:105"
+msgid "<i class=\"icon-tpp\"></i><span data-tran=\"\">Select project type</span>"
+msgstr "<i class=\"icon-tpp\"></i><span data-tran=\"\">Chọn loại dự án</span>"
+
+# {"path":"/trans.html","row":"106","tags":null}
+#. idx/118/innerText
+msgctxt "tpp:/trans.html:106"
+msgid "Select project type"
+msgstr "Chọn loại dự án"
+
+# {"path":"/trans.html","row":"107","tags":null}
+#. idx/119/innerText
+#. idx/124/innerText
+msgctxt "tpp:/trans.html:107"
+msgid "Spreadsheet"
+msgstr "Bảng tính"
+
+# {"path":"/trans.html","row":"108","tags":null}
+#. idx/120/innerText
+msgctxt "tpp:/trans.html:108"
+msgid "Start a translation project from spreadsheet data (xls, xlsx, ods, xml, html, sylk, gnumeric, csv)"
+msgstr "Bắt đầu một dự án dịch từ dữ liệu bảng tính (xls, xlsx, ods, xml, html, sylk, gnumeric, csv)"
+
+# {"path":"/trans.html","row":"109","tags":null}
+#. idx/121/innerText
+msgctxt "tpp:/trans.html:109"
+msgid "Blank project"
+msgstr "Dự án trống"
+
+# {"path":"/trans.html","row":"110","tags":null}
+#. idx/122/innerText
+msgctxt "tpp:/trans.html:110"
+msgid "Create a new .trans file from scratch."
+msgstr "Tạo một tệp .trans mới từ đầu."
+
+# {"path":"/trans.html","row":"111","tags":null}
+#. idx/123/innerText
+msgctxt "tpp:/trans.html:111"
+msgid "<i class=\"icon-plus-circled\"></i><span data-tran=\"\">Spreadsheet</span>"
+msgstr "<i class=\"icon-plus-circled\"></i><span data-tran=\"\">Bảng tính</span>"
+
+# {"path":"/trans.html","row":"112","tags":null}
+#. idx/125/innerText
+msgctxt "tpp:/trans.html:112"
+msgid "Fetch type"
+msgstr "Loại lấy dữ liệu"
+
+# {"path":"/trans.html","row":"113","tags":null}
+#. idx/126/innerText
+msgctxt "tpp:/trans.html:113"
+msgid "The first columns are translatable text, the rest of the column are predefined translations (Create a grid data that matches the original table)"
+msgstr "Các cột đầu là văn bản có thể dịch, các cột còn lại là bản dịch được định sẵn (Tạo dữ liệu lưới khớp với bảng gốc)"
+
+# {"path":"/trans.html","row":"114","tags":null}
+#. idx/127/innerText
+msgctxt "tpp:/trans.html:114"
+msgid "All columns are translatable text"
+msgstr "Tất cả các cột là văn bản có thể dịch"
+
+# {"path":"/trans.html","row":"115","tags":null}
+#. idx/128/innerText
+msgctxt "tpp:/trans.html:115"
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+# {"path":"/trans.html","row":"116","tags":null}
+#. idx/129/innerText
+msgctxt "tpp:/trans.html:116"
+msgid "Custom Options"
+msgstr "Tùy chọn tùy chỉnh"
+
+# {"path":"/trans.html","row":"117","tags":null}
+#. idx/130/innerText
+msgctxt "tpp:/trans.html:117"
+msgid "Which column do you want to fetch?"
+msgstr "Bạn muốn lấy cột nào?"
+
+# {"path":"/trans.html","row":"118","tags":null}
+#. idx/131/innerText
+msgctxt "tpp:/trans.html:118"
+msgid "Please specify which column you want to fetch and which column you want to put the translation into. <b>It is 0 based index (the first column is 0)</b>."
+msgstr "Vui lòng chỉ định cột bạn muốn lấy và cột bạn muốn đặt bản dịch vào. <b>Chỉ số bắt đầu từ 0 (cột đầu tiên là 0)</b>."
+
+# {"path":"/trans.html","row":"119","tags":null}
+#. idx/132/innerText
+msgctxt "tpp:/trans.html:119"
+msgid "Column to be translated"
+msgstr "Cột cần dịch"
+
+# {"path":"/trans.html","row":"120","tags":null}
+#. idx/133/innerText
+msgctxt "tpp:/trans.html:120"
+msgid "Column to put translation into"
+msgstr "Cột để đặt bản dịch vào"
+
+# {"path":"/trans.html","row":"121","tags":null}
+#. idx/134/innerText
+#. idx/183/innerText
+msgctxt "tpp:/trans.html:121"
+msgid "Action"
+msgstr "Hành động"
+
+# {"path":"/trans.html","row":"122","tags":null}
+#. idx/135/innerText
+msgctxt "tpp:/trans.html:122"
+msgid "Enable Row Header Text Column"
+msgstr "Bật cột văn bản tiêu đề hàng"
+
+# {"path":"/trans.html","row":"123","tags":null}
+#. idx/136/innerText
+msgctxt "tpp:/trans.html:123"
+msgid "If enabled, the parser will process the following Row Header Text Column rule"
+msgstr "Nếu được bật, trình phân tích sẽ xử lý quy tắc cột văn bản tiêu đề hàng sau đây"
+
+# {"path":"/trans.html","row":"124","tags":null}
+#. idx/137/innerText
+msgctxt "tpp:/trans.html:124"
+msgid "Row Header Text Column"
+msgstr "Tiêu đề Hàng Cột Văn bản"
+
+# {"path":"/trans.html","row":"125","tags":null}
+#. idx/138/innerText
+msgctxt "tpp:/trans.html:125"
+msgid "If specified, the value in this column will be applied to the row header. This is useful for determining the current speaker or actor, etc. It is a zero-based index."
+msgstr "Nếu được chỉ định, giá trị trong cột này sẽ được áp dụng cho tiêu đề hàng. Điều này hữu ích để xác định người nói hoặc diễn viên hiện tại, v.v. Đây là chỉ số bắt đầu từ 0."
+
+# {"path":"/trans.html","row":"126","tags":null}
+#. idx/139/innerText
+#. idx/168/innerText
+#. idx/207/innerText
+#. idx/246/innerText
+#. idx/9/attr/title
+msgctxt "tpp:/trans.html:126"
+msgid "Options"
+msgstr "Tùy chọn"
+
+# {"path":"/trans.html","row":"127","tags":null}
+#. idx/140/innerText
+msgctxt "tpp:/trans.html:127"
+msgid "Calculate cell value"
+msgstr "Tính giá trị ô"
+
+# {"path":"/trans.html","row":"128","tags":null}
+#. idx/141/innerText
+msgctxt "tpp:/trans.html:128"
+msgid "Cell value in the form of formula will be transpiled"
+msgstr "Giá trị ô dưới dạng công thức sẽ được biên dịch"
+
+# {"path":"/trans.html","row":"129","tags":null}
+#. idx/142/innerText
+msgctxt "tpp:/trans.html:129"
+msgid "Get formatted value"
+msgstr "Lấy giá trị đã định dạng"
+
+# {"path":"/trans.html","row":"130","tags":null}
+#. idx/143/innerText
+msgctxt "tpp:/trans.html:130"
+msgid "Process cell values after formatting. (For example the integer 100000 in certain locale will become USD 100,000)"
+msgstr "Xử lý giá trị ô sau khi định dạng. (Ví dụ: số nguyên 100000 trong một ngôn ngữ nhất định sẽ trở thành USD 100,000)"
+
+# {"path":"/trans.html","row":"131","tags":null}
+#. idx/144/innerText
+msgctxt "tpp:/trans.html:131"
+msgid "Parse CSV in EXCEL format"
+msgstr "Phân tích CSV theo định dạng EXCEL"
+
+# {"path":"/trans.html","row":"132","tags":null}
+#. idx/145/innerText
+msgctxt "tpp:/trans.html:132"
+msgid "Force the parser to parse CSV in MS EXCEL way. (only for CSV files)"
+msgstr "Buộc trình phân tích phân tích CSV theo cách của MS EXCEL. (chỉ cho các tệp CSV)"
+
+# {"path":"/trans.html","row":"133","tags":null}
+#. idx/146/innerText
+msgctxt "tpp:/trans.html:133"
+msgid "Skip the first <i>n</i> row(s)"
+msgstr "Bỏ qua <i>n</i> hàng đầu tiên"
+
+# {"path":"/trans.html","row":"134","tags":null}
+#. idx/147/innerText
+msgctxt "tpp:/trans.html:134"
+msgid "Use this option if you want to skip the row header."
+msgstr "Sử dụng tùy chọn này nếu bạn muốn bỏ qua tiêu đề hàng."
+
+# {"path":"/trans.html","row":"135","tags":null}
+#. idx/148/innerText
+msgctxt "tpp:/trans.html:135"
+msgid "Select File(s)"
+msgstr "Chọn Tệp"
+
+# {"path":"/trans.html","row":"136","tags":null}
+#. idx/149/innerText
+msgctxt "tpp:/trans.html:136"
+msgid "Select a directory"
+msgstr "Chọn một thư mục"
+
+# {"path":"/trans.html","row":"137","tags":null}
+#. idx/150/innerText
+msgctxt "tpp:/trans.html:137"
+msgid "<i class=\"icon-plus-circled\"></i><span data-tran=\"\">Create a new Trans file</span>"
+msgstr "<i class=\"icon-plus-circled\"></i><span data-tran=\"\">Tạo tệp Trans mới</span>"
+
+# {"path":"/trans.html","row":"138","tags":null}
+#. idx/151/innerText
+msgctxt "tpp:/trans.html:138"
+msgid "Create a new Trans file"
+msgstr "Tạo một tệp Trans mới"
+
+# {"path":"/trans.html","row":"139","tags":null}
+#. idx/153/innerText
+msgctxt "tpp:/trans.html:139"
+msgid "The title of this project"
+msgstr "Tiêu đề của dự án này"
+
+# {"path":"/trans.html","row":"140","tags":null}
+#. idx/154/innerText
+msgctxt "tpp:/trans.html:140"
+msgid "Engine type"
+msgstr "Loại động cơ"
+
+# {"path":"/trans.html","row":"141","tags":null}
+#. idx/155/innerText
+msgctxt "tpp:/trans.html:141"
+msgid "Type of the engine"
+msgstr "Loại của động cơ"
+
+# {"path":"/trans.html","row":"142","tags":null}
+#. idx/156/innerText
+msgctxt "tpp:/trans.html:142"
+msgid "<i class=\"icon-plus-circled\"></i><span data-tran=\"\">Placeholder for something great at the near future!</span>"
+msgstr "<i class=\"icon-plus-circled\"></i><span data-tran=\"\">Giữ chỗ cho điều gì đó tuyệt vời trong tương lai gần!</span>"
+
+# {"path":"/trans.html","row":"143","tags":null}
+#. idx/157/innerText
+msgctxt "tpp:/trans.html:143"
+msgid "Placeholder for something great at the near future!"
+msgstr "Giữ chỗ cho điều gì đó tuyệt vời trong tương lai gần!"
+
+# {"path":"/trans.html","row":"144","tags":null}
+#. idx/158/innerText
+msgctxt "tpp:/trans.html:144"
+msgid "This module will be created when the patron count reach 500!"
+msgstr "Mô-đun này sẽ được tạo khi số lượng người ủng hộ đạt 500!"
+
+# {"path":"/trans.html","row":"145","tags":null}
+#. idx/159/innerText
+msgctxt "tpp:/trans.html:145"
+msgid ""
+"\n"
+"\t\tA project with the same title <br>\"<span class=\"dialogGameTitle\"></span>\"<br> is already exist on the post processed cache.<br>\n"
+"\t\tYou can re-use this cache to shorten loading time significantly.\n"
+"\t"
+msgstr ""
+"\n"
+"\t\tMột dự án có cùng tiêu đề <br>\"<span class=\"dialogGameTitle\"></span>\"<br> đã tồn tại trong bộ nhớ cache đã xử lý.<br>\n"
+"\t\tBạn có thể tái sử dụng bộ nhớ cache này để giảm đáng kể thời gian tải.\n"
+"\t"
+
+# {"path":"/trans.html","row":"146","tags":null}
+#. idx/160/innerText
+msgctxt "tpp:/trans.html:146"
+msgid "If you are confused, you can always safely click <strong><a href=\"#\">\"Create new project\"</a></strong> button. "
+msgstr "Nếu bạn bối rối, bạn luôn có thể an toàn nhấp vào nút <strong><a href=\"#\">\"Tạo dự án mới\"</a></strong>."
+
+# {"path":"/trans.html","row":"147","tags":null}
+#. idx/161/innerText
+msgctxt "tpp:/trans.html:147"
+msgid "Existed cache"
+msgstr "Bộ nhớ cache tồn tại"
+
+# {"path":"/trans.html","row":"148","tags":null}
+#. idx/162/innerText
+msgctxt "tpp:/trans.html:148"
+msgid "Select Translator"
+msgstr "Chọn Trình dịch"
+
+# {"path":"/trans.html","row":"149","tags":null}
+#. idx/163/innerText
+msgctxt "tpp:/trans.html:149"
+msgid "Source column"
+msgstr "Cột nguồn"
+
+# {"path":"/trans.html","row":"150","tags":null}
+#. idx/164/innerText
+msgctxt "tpp:/trans.html:150"
+msgid "Which column is the source text to translate for?<br>(default is key column / leftmost column)."
+msgstr "Cột nào chứa văn bản nguồn để dịch?<br>(mặc định là cột khóa / cột ngoài cùng bên trái)."
+
+# {"path":"/trans.html","row":"151","tags":null}
+#. idx/165/innerText
+msgctxt "tpp:/trans.html:151"
+msgid "Target column"
+msgstr "Cột đích"
+
+# {"path":"/trans.html","row":"152","tags":null}
+#. idx/166/innerText
+msgctxt "tpp:/trans.html:152"
+msgid "Which column is the translated text put into.<br>(Can not same with source column)"
+msgstr "Cột nào để đặt văn bản đã dịch vào.<br>(Không thể trùng với cột nguồn)"
+
+# {"path":"/trans.html","row":"153","tags":null}
+#. idx/167/innerText
+msgctxt "tpp:/trans.html:153"
+msgid "Translator's Options"
+msgstr "Tùy chọn của Trình dịch"
+
+# {"path":"/trans.html","row":"154","tags":null}
+#. idx/169/innerText
+msgctxt "tpp:/trans.html:154"
+msgid "Also try to translate other object"
+msgstr "Cũng thử dịch các đối tượng khác"
+
+# {"path":"/trans.html","row":"155","tags":null}
+#. idx/170/innerText
+msgctxt "tpp:/trans.html:155"
+msgid "If this option is checked then Translator++ will also try to translate other objects that you did not select that doesn't require machine translation. This is the default behavior in Translator++ version 2.3.23 or lower."
+msgstr "Nếu tùy chọn này được chọn, Translator++ cũng sẽ thử dịch các đối tượng khác mà bạn không chọn mà không yêu cầu dịch máy. Đây là hành vi mặc định trong Translator++ phiên bản 2.3.23 hoặc thấp hơn."
+
+# {"path":"/trans.html","row":"156","tags":null}
+#. idx/171/innerText
+msgctxt "tpp:/trans.html:156"
+msgid "Ignore if already translated"
+msgstr "Bỏ qua nếu đã dịch"
+
+# {"path":"/trans.html","row":"157","tags":null}
+#. idx/172/innerText
+msgctxt "tpp:/trans.html:157"
+msgid "If this option is checked then Translator++ will ignore any row that already has translations on its column."
+msgstr "Nếu tùy chọn này được chọn, Translator++ sẽ bỏ qua bất kỳ hàng nào đã có bản dịch trong cột của nó."
+
+# {"path":"/trans.html","row":"158","tags":null}
+#. idx/173/innerText
+msgctxt "tpp:/trans.html:158"
+msgid "Overwrite cells"
+msgstr "Ghi đè ô"
+
+# {"path":"/trans.html","row":"159","tags":null}
+#. idx/174/innerText
+msgctxt "tpp:/trans.html:159"
+msgid "Overwrite target cells. If not checked, the cells will not be touched when not empty."
+msgstr "Ghi đè các ô đích. Nếu không được chọn, các ô sẽ không bị động chạm khi không trống."
+
+# {"path":"/trans.html","row":"160","tags":null}
+#. idx/175/innerText
+msgctxt "tpp:/trans.html:160"
+msgid "Save project on each batch."
+msgstr "Lưu dự án sau mỗi lô."
+
+# {"path":"/trans.html","row":"161","tags":null}
+#. idx/176/innerText
+msgctxt "tpp:/trans.html:161"
+msgid "Save your project on each batch completion.<br>This option is to avoid data loss when the application crashes due to running heavy tasks from the local translator application. You probably don't need this if you're running cloud based translator."
+msgstr "Lưu dự án của bạn khi mỗi lô hoàn thành.<br>Tùy chọn này để tránh mất dữ liệu khi ứng dụng bị sập do chạy các tác vụ nặng từ ứng dụng trình dịch cục bộ. Bạn có thể không cần điều này nếu đang chạy trình dịch dựa trên đám mây."
+
+# {"path":"/trans.html","row":"162","tags":null}
+#. idx/177/innerText
+msgctxt "tpp:/trans.html:162"
+msgid "Play sound when completed."
+msgstr "Phát âm thanh khi hoàn thành."
+
+# {"path":"/trans.html","row":"163","tags":null}
+#. idx/179/innerText
+#. idx/210/innerText
+msgctxt "tpp:/trans.html:163"
+msgid "Tags"
+msgstr "Thẻ"
+
+# {"path":"/trans.html","row":"164","tags":null}
+#. idx/180/innerText
+msgctxt "tpp:/trans.html:164"
+msgid "Select Context(s)"
+msgstr "Chọn Ngữ cảnh"
+
+# {"path":"/trans.html","row":"165","tags":null}
+#. idx/181/innerText
+#. idx/187/innerText
+msgctxt "tpp:/trans.html:165"
+msgid "Manual Query"
+msgstr "Truy vấn Thủ công"
+
+# {"path":"/trans.html","row":"166","tags":null}
+#. idx/182/innerText
+msgctxt "tpp:/trans.html:166"
+msgid "Match all words"
+msgstr "Khớp tất cả từ"
+
+# {"path":"/trans.html","row":"167","tags":null}
+#. idx/184/innerText
+#. idx/17/attr/title
+msgctxt "tpp:/trans.html:167"
+msgid "Remove selected"
+msgstr "Xóa đã chọn"
+
+# {"path":"/trans.html","row":"168","tags":null}
+#. idx/185/innerText
+msgctxt "tpp:/trans.html:168"
+msgid "Remove all but selected"
+msgstr "Xóa tất cả trừ đã chọn"
+
+# {"path":"/trans.html","row":"169","tags":null}
+#. idx/186/innerText
+msgctxt "tpp:/trans.html:169"
+msgid "Select Context"
+msgstr "Chọn Ngữ cảnh"
+
+# {"path":"/trans.html","row":"170","tags":null}
+#. idx/188/innerText
+msgctxt "tpp:/trans.html:170"
+msgid "Source Column"
+msgstr "Cột Nguồn"
+
+# {"path":"/trans.html","row":"171","tags":null}
+#. idx/189/innerText
+msgctxt "tpp:/trans.html:171"
+msgid "Target Column"
+msgstr "Cột Đích"
+
+# {"path":"/trans.html","row":"172","tags":null}
+#. idx/190/innerText
+msgctxt "tpp:/trans.html:172"
+msgid "Maximum length"
+msgstr "Độ dài tối đa"
+
+# {"path":"/trans.html","row":"173","tags":null}
+#. idx/191/innerText
+msgctxt "tpp:/trans.html:173"
+msgid "Export into"
+msgstr "Xuất vào"
+
+# {"path":"/trans.html","row":"174","tags":null}
+#. idx/192/innerText
+msgctxt "tpp:/trans.html:174"
+msgid "What to do with tagged rows?"
+msgstr "Làm gì với các hàng được gắn thẻ?"
+
+# {"path":"/trans.html","row":"175","tags":null}
+#. idx/193/innerText
+#. idx/195/innerText
+msgctxt "tpp:/trans.html:175"
+msgid "Select Color Tag"
+msgstr "Chọn Thẻ Màu"
+
+# {"path":"/trans.html","row":"176","tags":null}
+#. idx/194/innerText
+msgctxt "tpp:/trans.html:176"
+msgid "On the fly word wrap"
+msgstr "Tự động xuống dòng"
+
+# {"path":"/trans.html","row":"177","tags":null}
+#. idx/196/innerText
+msgctxt "tpp:/trans.html:177"
+msgid "Inject all files (ignoring selection)"
+msgstr "Tiêm tất cả tệp (bỏ qua lựa chọn)"
+
+# {"path":"/trans.html","row":"178","tags":null}
+#. idx/197/innerText
+msgctxt "tpp:/trans.html:178"
+msgid "You're about to inject translation via <b>Inject all</b> button. This will inject translation regardless your selected object on the left pane. Use left pane's context menu if you want to inject selected object."
+msgstr "Bạn sắp tiêm bản dịch qua nút <b>Tiêm tất cả</b>. Điều này sẽ tiêm bản dịch bất kể đối tượng bạn chọn ở khung bên trái. Sử dụng menu ngữ cảnh của khung trái nếu bạn muốn tiêm đối tượng đã chọn."
+
+# {"path":"/trans.html","row":"179","tags":null}
+#. idx/198/innerText
+msgctxt "tpp:/trans.html:179"
+msgid "Select the source material to be translated"
+msgstr "Chọn tài liệu nguồn để dịch"
+
+# {"path":"/trans.html","row":"180","tags":null}
+#. idx/199/innerText
+msgctxt "tpp:/trans.html:180"
+msgid ""
+"\n"
+"\t\t\t\tSelect the specific material or content you wish to translate, such as a file, directory, or other relevant input. Make sure the chosen material is accessible and appropriately formatted for the corresponding parser.<br>\n"
+"\t\t\t\tBy default, some parsers use the staging directory as the source material.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tChọn tài liệu hoặc nội dung cụ thể bạn muốn dịch, chẳng hạn như tệp, thư mục hoặc đầu vào liên quan khác. Đảm bảo tài liệu đã chọn có thể truy cập và được định dạng phù hợp cho trình phân tích tương ứng.<br>\n"
+"\t\t\t\tMặc định, một số trình phân tích sử dụng thư mục staging làm tài liệu nguồn.\n"
+"\t\t\t"
+
+# {"path":"/trans.html","row":"181","tags":null}
+#. idx/200/innerText
+msgctxt "tpp:/trans.html:181"
+msgid "Path is inaccessible."
+msgstr "Đường dẫn không thể truy cập."
+
+# {"path":"/trans.html","row":"182","tags":null}
+#. idx/201/innerText
+msgctxt "tpp:/trans.html:182"
+msgid "Target Directory"
+msgstr "Thư mục Đích"
+
+# {"path":"/trans.html","row":"183","tags":null}
+#. idx/202/innerText
+msgctxt "tpp:/trans.html:183"
+msgid ""
+"\n"
+"\t\t\t\tA copy of your translated application will be generated in this folder.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tMột bản sao của ứng dụng đã dịch của bạn sẽ được tạo trong thư mục này.\n"
+"\t\t\t"
+
+# {"path":"/trans.html","row":"184","tags":null}
+#. idx/203/innerText
+#. idx/206/innerText
+msgctxt "tpp:/trans.html:184"
+msgid "Field can not be empty!"
+msgstr "Trường không được để trống!"
+
+# {"path":"/trans.html","row":"185","tags":null}
+#. idx/204/innerText
+msgctxt "tpp:/trans.html:185"
+msgid "Target to apply translation"
+msgstr "Mục tiêu để áp dụng bản dịch"
+
+# {"path":"/trans.html","row":"186","tags":null}
+#. idx/205/innerText
+msgctxt "tpp:/trans.html:186"
+msgid ""
+"\n"
+"\t\t\t\tPlease select executable file.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tVui lòng chọn tệp thực thi.\n"
+"\t\t\t"
+
+# {"path":"/trans.html","row":"187","tags":null}
+#. idx/208/innerText
+msgctxt "tpp:/trans.html:187"
+msgid "Copy materials"
+msgstr "Sao chép tài liệu"
+
+# {"path":"/trans.html","row":"188","tags":null}
+#. idx/209/innerText
+msgctxt "tpp:/trans.html:188"
+msgid "The copying options from Source Material to Target Directory. (experimental, not all engines are supported)"
+msgstr "Các tùy chọn sao chép từ Tài liệu Nguồn sang Thư mục Đích. (thử nghiệm, không phải tất cả công cụ đều được hỗ trợ)"
+
+# {"path":"/trans.html","row":"189","tags":null}
+#. idx/211/innerText
+msgctxt "tpp:/trans.html:189"
+msgid "Word Wrap by Tags"
+msgstr "Ngắt dòng bằng Thẻ"
+
+# {"path":"/trans.html","row":"190","tags":null}
+#. idx/212/innerText
+msgctxt "tpp:/trans.html:190"
+msgid "Directory name"
+msgstr "Tên thư mục"
+
+# {"path":"/trans.html","row":"191","tags":null}
+#. idx/213/innerText
+msgctxt "tpp:/trans.html:191"
+msgid ""
+"\n"
+"\t\t\t\tThe object will be grouped under this directory.<br>\n"
+"\t\t\t\tEnter star \"<code>*</code>\" to add a new <b>reference object</b>.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tĐối tượng sẽ được nhóm dưới thư mục này.<br>\n"
+"\t\t\t\tNhập dấu sao \"<code>*</code>\" để thêm một <b>đối tượng tham chiếu</b> mới.\n"
+"\t\t\t"
+
+# {"path":"/trans.html","row":"192","tags":null}
+#. idx/214/innerText
+msgctxt "tpp:/trans.html:192"
+msgid "Invalid directory  name"
+msgstr "Tên thư mục không hợp lệ"
+
+# {"path":"/trans.html","row":"193","tags":null}
+#. idx/215/innerText
+msgctxt "tpp:/trans.html:193"
+msgid "Object name"
+msgstr "Tên đối tượng"
+
+# {"path":"/trans.html","row":"194","tags":null}
+#. idx/216/innerText
+msgctxt "tpp:/trans.html:194"
+msgid ""
+"\n"
+"\t\t\t\tThe name of the object.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tTên của đối tượng.\n"
+"\t\t\t"
+
+# {"path":"/trans.html","row":"195","tags":null}
+#. idx/217/innerText
+msgctxt "tpp:/trans.html:195"
+msgid "Invalid object name"
+msgstr "Tên đối tượng không hợp lệ"
+
+# {"path":"/trans.html","row":"196","tags":null}
+#. idx/218/innerText
+#. idx/0/attr/title
+msgctxt "tpp:/trans.html:196"
+msgid "New Project"
+msgstr "Dự án Mới"
+
+# {"path":"/trans.html","row":"197","tags":null}
+#. idx/219/innerText
+msgctxt "tpp:/trans.html:197"
+msgid "Save"
+msgstr "Lưu"
+
+# {"path":"/trans.html","row":"198","tags":null}
+#. idx/220/innerText
+msgctxt "tpp:/trans.html:198"
+msgid "Save as..."
+msgstr "Lưu thành..."
+
+# {"path":"/trans.html","row":"199","tags":null}
+#. idx/221/innerText
+msgctxt "tpp:/trans.html:199"
+msgid "Open..."
+msgstr "Mở..."
+
+# {"path":"/trans.html","row":"200","tags":null}
+#. idx/222/innerText
+msgctxt "tpp:/trans.html:200"
+msgid "Recent"
+msgstr "Gần đây"
+
+# {"path":"/trans.html","row":"201","tags":null}
+#. idx/223/innerText
+msgctxt "tpp:/trans.html:201"
+msgid "None..."
+msgstr "Không có..."
+
+# {"path":"/trans.html","row":"202","tags":null}
+#. idx/224/innerText
+#. idx/5/attr/title
+#. idx/75/attr/title
+msgctxt "tpp:/trans.html:202"
+msgid "Export Project"
+msgstr "Xuất Dự án"
+
+# {"path":"/trans.html","row":"203","tags":null}
+#. idx/225/innerText
+msgctxt "tpp:/trans.html:203"
+msgid "To a folder"
+msgstr "Đến một thư mục"
+
+# {"path":"/trans.html","row":"204","tags":null}
+#. idx/226/innerText
+msgctxt "tpp:/trans.html:204"
+msgid "As a zip file"
+msgstr "Dưới dạng tệp zip"
+
+# {"path":"/trans.html","row":"205","tags":null}
+#. idx/227/innerText
+msgctxt "tpp:/trans.html:205"
+msgid "To portable .tpp file"
+msgstr "Thành tệp .tpp di động"
+
+# {"path":"/trans.html","row":"206","tags":null}
+#. idx/228/innerText
+msgctxt "tpp:/trans.html:206"
+msgid "To RPGMakerTrans file (*.txt)"
+msgstr "Thành tệp RPGMakerTrans (*.txt)"
+
+# {"path":"/trans.html","row":"207","tags":null}
+#. idx/229/innerText
+msgctxt "tpp:/trans.html:207"
+msgid "To CSV file"
+msgstr "Thành tệp CSV"
+
+# {"path":"/trans.html","row":"208","tags":null}
+#. idx/230/innerText
+msgctxt "tpp:/trans.html:208"
+msgid "To XLSX file"
+msgstr "Thành tệp XLSX"
+
+# {"path":"/trans.html","row":"209","tags":null}
+#. idx/231/innerText
+msgctxt "tpp:/trans.html:209"
+msgid "To XLS file"
+msgstr "Thành tệp XLS"
+
+# {"path":"/trans.html","row":"210","tags":null}
+#. idx/232/innerText
+msgctxt "tpp:/trans.html:210"
+msgid "To ODS file"
+msgstr "Thành tệp ODS"
+
+# {"path":"/trans.html","row":"211","tags":null}
+#. idx/233/innerText
+msgctxt "tpp:/trans.html:211"
+msgid "To HTML file"
+msgstr "Thành tệp HTML"
+
+# {"path":"/trans.html","row":"212","tags":null}
+#. idx/234/innerText
+msgctxt "tpp:/trans.html:212"
+msgid "Import"
+msgstr "Nhập"
+
+# {"path":"/trans.html","row":"213","tags":null}
+#. idx/235/innerText
+msgctxt "tpp:/trans.html:213"
+msgid "Project from .tpp file"
+msgstr "Dự án từ tệp .tpp"
+
+# {"path":"/trans.html","row":"214","tags":null}
+#. idx/236/innerText
+msgctxt "tpp:/trans.html:214"
+msgid "Translation from .trans file"
+msgstr "Bản dịch từ tệp .trans"
+
+# {"path":"/trans.html","row":"215","tags":null}
+#. idx/237/innerText
+msgctxt "tpp:/trans.html:215"
+msgid "Translation Spreadsheet"
+msgstr "Bảng tính bản dịch"
+
+# {"path":"/trans.html","row":"216","tags":null}
+#. idx/238/innerText
+msgctxt "tpp:/trans.html:216"
+msgid "Translation RPGMKTRANSPATCH Format"
+msgstr "Định dạng bản dịch RPGMKTRANSPATCH"
+
+# {"path":"/trans.html","row":"217","tags":null}
+#. idx/239/innerText
+msgctxt "tpp:/trans.html:217"
+msgid "Automation"
+msgstr "Tự động hóa"
+
+# {"path":"/trans.html","row":"218","tags":null}
+#. idx/240/innerText
+#. idx/85/attr/title
+msgctxt "tpp:/trans.html:218"
+msgid "Batch translation"
+msgstr "Dịch hàng loạt"
+
+# {"path":"/trans.html","row":"219","tags":null}
+#. idx/241/innerText
+msgctxt "tpp:/trans.html:219"
+msgid "Context tool"
+msgstr "Công cụ ngữ cảnh"
+
+# {"path":"/trans.html","row":"220","tags":null}
+#. idx/242/innerText
+msgctxt "tpp:/trans.html:220"
+msgid "Batch word wrapping"
+msgstr "Xuống dòng hàng loạt"
+
+# {"path":"/trans.html","row":"221","tags":null}
+#. idx/243/innerText
+msgctxt "tpp:/trans.html:221"
+msgid "Trim"
+msgstr "Cắt bớt"
+
+# {"path":"/trans.html","row":"222","tags":null}
+#. idx/244/innerText
+msgctxt "tpp:/trans.html:222"
+msgid "Auto padding"
+msgstr "Tự động đệm"
+
+# {"path":"/trans.html","row":"223","tags":null}
+#. idx/245/innerText
+msgctxt "tpp:/trans.html:223"
+msgid "Tools"
+msgstr "Công cụ"
+
+# {"path":"/trans.html","row":"224","tags":null}
+#. idx/247/innerText
+msgctxt "tpp:/trans.html:224"
+msgid "Third Party Application Installer"
+msgstr "Trình cài đặt ứng dụng bên thứ ba"
+
+# {"path":"/trans.html","row":"225","tags":null}
+#. idx/248/innerText
+msgctxt "tpp:/trans.html:225"
+msgid "Close project"
+msgstr "Đóng dự án"
+
+# {"path":"/trans.html","row":"226","tags":null}
+#. idx/249/innerText
+msgctxt "tpp:/trans.html:226"
+msgid "Exit"
+msgstr "Thoát"
+
+# {"path":"/trans.html","row":"227","tags":null}
+#. idx/250/innerText
+msgctxt "tpp:/trans.html:227"
+msgid "Start here"
+msgstr "Bắt đầu tại đây"
+
+# {"path":"/trans.html","row":"228","tags":null}
+#. idx/251/innerText
+msgctxt "tpp:/trans.html:228"
+msgid "Start a New Project"
+msgstr "Bắt đầu một dự án mới"
+
+# {"path":"/trans.html","row":"229","tags":null}
+#. idx/252/innerText
+msgctxt "tpp:/trans.html:229"
+msgid "Continue your work"
+msgstr "Tiếp tục công việc của bạn"
+
+# {"path":"/trans.html","row":"230","tags":null}
+#. idx/253/innerText
+msgctxt "tpp:/trans.html:230"
+msgid "Open Project"
+msgstr "Mở dự án"
+
+# {"path":"/trans.html","row":"231","tags":null}
+#. idx/254/innerText
+msgctxt "tpp:/trans.html:231"
+msgid "Your recent translation"
+msgstr "Bản dịch gần đây của bạn"
+
+# {"path":"/trans.html","row":"232","tags":null}
+#. idx/255/innerText
+msgctxt "tpp:/trans.html:232"
+msgid "Tips for you"
+msgstr "Mẹo dành cho bạn"
+
+# {"path":"/trans.html","row":"233","tags":null}
+#. idx/256/innerText
+msgctxt "tpp:/trans.html:233"
+msgid "Next tip! <span class=\"icon-angle-double-right\"></span>"
+msgstr "Mẹo tiếp theo! <span class=\"icon-angle-double-right\"></span>"
+
+# {"path":"/trans.html","row":"234","tags":null}
+#. idx/257/innerText
+msgctxt "tpp:/trans.html:234"
+msgid "The rightmost cell in a row will get the priority."
+msgstr "Ô ngoài cùng bên phải trong một hàng sẽ được ưu tiên."
+
+# {"path":"/trans.html","row":"235","tags":null}
+#. idx/258/innerText
+msgctxt "tpp:/trans.html:235"
+msgid "You can't share your project with others with just a trans file. You need to generate a TPP file."
+msgstr "Bạn không thể chia sẻ dự án của mình với người khác chỉ bằng một tệp trans. Bạn cần tạo một tệp TPP."
+
+# {"path":"/trans.html","row":"236","tags":null}
+#. idx/259/innerText
+msgctxt "tpp:/trans.html:236"
+msgid "Always make backups of your trans files."
+msgstr "Luôn sao lưu các tệp trans của bạn."
+
+# {"path":"/trans.html","row":"237","tags":null}
+#. idx/260/innerText
+msgctxt "tpp:/trans.html:237"
+msgid "You can rename and reorder the column with the coulumn header's context menu."
+msgstr "Bạn có thể đổi tên và sắp xếp lại cột bằng menu ngữ cảnh của tiêu đề cột."
+
+# {"path":"/trans.html","row":"238","tags":null}
+#. idx/261/innerText
+msgctxt "tpp:/trans.html:238"
+msgid "Always backup your game before working with Translator++!"
+msgstr "Luôn sao lưu trò chơi của bạn trước khi làm việc với Translator++!"
+
+# {"path":"/trans.html","row":"239","tags":null}
+#. idx/262/innerText
+msgctxt "tpp:/trans.html:239"
+msgid "If you encountered a feature that is not running normally, try restarting Translator++, it will fix the problem in the most cases."
+msgstr "Nếu bạn gặp một tính năng không hoạt động bình thường, hãy thử khởi động lại Translator++, nó sẽ khắc phục vấn đề trong hầu hết các trường hợp."
+
+# {"path":"/trans.html","row":"240","tags":null}
+#. idx/263/innerText
+msgctxt "tpp:/trans.html:240"
+msgid "Always create a backup of your game before patching with a translation."
+msgstr "Luôn tạo bản sao lưu trò chơi của bạn trước khi vá với bản dịch."
+
+# {"path":"/trans.html","row":"241","tags":null}
+#. idx/264/innerText
+msgctxt "tpp:/trans.html:241"
+msgid "Thank you for supporting Translator++."
+msgstr "Cảm ơn bạn đã hỗ trợ Translator++."
+
+# {"path":"/trans.html","row":"242","tags":null}
+#. idx/265/innerText
+msgctxt "tpp:/trans.html:242"
+msgid "Please check Translator++'s online documentation at"
+msgstr "Vui lòng kiểm tra tài liệu trực tuyến của Translator++ tại"
+
+# {"path":"/trans.html","row":"243","tags":null}
+#. idx/266/innerText
+msgctxt "tpp:/trans.html:243"
+msgid "working"
+msgstr "đang hoạt động"
+
+# {"path":"/trans.html","row":"244","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/trans.html:244"
+msgid "Open"
+msgstr "Mở"
+
+# {"path":"/trans.html","row":"245","tags":null}
+#. idx/2/attr/title
+msgctxt "tpp:/trans.html:245"
+msgid "Save file"
+msgstr "Lưu tệp"
+
+# {"path":"/trans.html","row":"246","tags":null}
+#. idx/3/attr/title
+msgctxt "tpp:/trans.html:246"
+msgid "Save As"
+msgstr "Lưu thành"
+
+# {"path":"/trans.html","row":"247","tags":null}
+#. idx/4/attr/title
+#. idx/76/attr/title
+msgctxt "tpp:/trans.html:247"
+msgid "Import Project"
+msgstr "Nhập dự án"
+
+# {"path":"/trans.html","row":"248","tags":null}
+#. idx/6/attr/title
+msgctxt "tpp:/trans.html:248"
+msgid "Inject / apply all translation"
+msgstr "Tiêm / áp dụng tất cả bản dịch"
+
+# {"path":"/trans.html","row":"249","tags":null}
+#. idx/7/attr/title
+msgctxt "tpp:/trans.html:249"
+msgid "Execute Global Level Custom Script"
+msgstr "Thực thi tập lệnh tùy chỉnh cấp toàn cục"
+
+# {"path":"/trans.html","row":"250","tags":null}
+#. idx/8/attr/title
+msgctxt "tpp:/trans.html:250"
+msgid "Toggle Active Cell Info"
+msgstr "Bật/Tắt thông tin ô hoạt động"
+
+# {"path":"/trans.html","row":"251","tags":null}
+#. idx/10/attr/title
+msgctxt "tpp:/trans.html:251"
+msgid "Project Properties"
+msgstr "Thuộc tính dự án"
+
+# {"path":"/trans.html","row":"252","tags":null}
+#. idx/11/attr/title
+msgctxt "tpp:/trans.html:252"
+msgid "Get Help (F1)"
+msgstr "Nhận trợ giúp (F1)"
+
+# {"path":"/trans.html","row":"253","tags":null}
+#. idx/12/attr/title
+msgctxt "tpp:/trans.html:253"
+msgid "Batch translation (crl+b)"
+msgstr "Dịch hàng loạt (ctrl+b)"
+
+# {"path":"/trans.html","row":"254","tags":null}
+#. idx/13/attr/title
+msgctxt "tpp:/trans.html:254"
+msgid "File list"
+msgstr "Danh sách tệp"
+
+# {"path":"/trans.html","row":"255","tags":null}
+#. idx/14/attr/title
+msgctxt "tpp:/trans.html:255"
+msgid "Live Translation Pane"
+msgstr "Ngăn dịch trực tiếp"
+
+# {"path":"/trans.html","row":"256","tags":null}
+#. idx/15/attr/title
+msgctxt "tpp:/trans.html:256"
+msgid "Toggle selection"
+msgstr "Bật/Tắt lựa chọn"
+
+# {"path":"/trans.html","row":"257","tags":null}
+#. idx/16/attr/title
+msgctxt "tpp:/trans.html:257"
+msgid "Invert selection"
+msgstr "Đảo ngược lựa chọn"
+
+# {"path":"/trans.html","row":"258","tags":null}
+#. idx/18/attr/title
+msgctxt "tpp:/trans.html:258"
+msgid "Add A New Object"
+msgstr "Thêm đối tượng mới"
+
+# {"path":"/trans.html","row":"259","tags":null}
+#. idx/19/attr/title
+msgctxt "tpp:/trans.html:259"
+msgid "Connect to auto translator"
+msgstr "Kết nối với trình dịch tự động"
+
+# {"path":"/trans.html","row":"260","tags":null}
+#. idx/20/attr/title
+msgctxt "tpp:/trans.html:260"
+msgid "Undock pane"
+msgstr "Tách ngăn"
+
+# {"path":"/trans.html","row":"261","tags":null}
+#. idx/21/attr/title
+msgctxt "tpp:/trans.html:261"
+msgid "Collapse / restore left panel"
+msgstr "Thu gọn / khôi phục ngăn trái"
+
+# {"path":"/trans.html","row":"262","tags":null}
+#. idx/22/attr/title
+msgctxt "tpp:/trans.html:262"
+msgid "Add new key (alt+n)"
+msgstr "Thêm khóa mới (alt+n)"
+
+# {"path":"/trans.html","row":"263","tags":null}
+#. idx/23/attr/title
+msgctxt "tpp:/trans.html:263"
+msgid "Import Here"
+msgstr "Nhập tại đây"
+
+# {"path":"/trans.html","row":"264","tags":null}
+#. idx/24/attr/title
+msgctxt "tpp:/trans.html:264"
+msgid "Add a note to this file"
+msgstr "Thêm ghi chú vào tệp này"
+
+# {"path":"/trans.html","row":"265","tags":null}
+#. idx/25/attr/title
+msgctxt "tpp:/trans.html:265"
+msgid "Open search menu"
+msgstr "Mở menu tìm kiếm"
+
+# {"path":"/trans.html","row":"266","tags":null}
+#. idx/26/attr/title
+msgctxt "tpp:/trans.html:266"
+msgid "Toggle grid information"
+msgstr "Bật/tắt thông tin lưới"
+
+# {"path":"/trans.html","row":"267","tags":null}
+#. idx/27/attr/title
+msgctxt "tpp:/trans.html:267"
+msgid "Object Properties"
+msgstr "Thuộc tính đối tượng"
+
+# {"path":"/trans.html","row":"268","tags":null}
+#. idx/28/attr/title
+msgctxt "tpp:/trans.html:268"
+msgid "Automatically set selected original text to clipboard"
+msgstr "Tự động đặt văn bản gốc đã chọn vào clipboard"
+
+# {"path":"/trans.html","row":"269","tags":null}
+#. idx/29/attr/title
+#. idx/42/attr/title
+#. idx/54/attr/title
+msgctxt "tpp:/trans.html:269"
+msgid "Resize Font"
+msgstr "Thay đổi kích thước phông chữ"
+
+# {"path":"/trans.html","row":"270","tags":null}
+#. idx/30/attr/title
+msgctxt "tpp:/trans.html:270"
+msgid "Toggle word wrapping & Explicit white spaces"
+msgstr "Bật/tắt ngắt dòng & Khoảng trắng rõ ràng"
+
+# {"path":"/trans.html","row":"271","tags":null}
+#. idx/31/attr/title
+msgctxt "tpp:/trans.html:271"
+msgid "Use Monospace font"
+msgstr "Sử dụng phông chữ đơn cách"
+
+# {"path":"/trans.html","row":"272","tags":null}
+#. idx/32/attr/title
+msgctxt "tpp:/trans.html:272"
+msgid "Remove all translation from this file"
+msgstr "Xóa tất cả bản dịch khỏi tệp này"
+
+# {"path":"/trans.html","row":"273","tags":null}
+#. idx/33/attr/title
+msgctxt "tpp:/trans.html:273"
+msgid "Remove this file from project"
+msgstr "Xóa tệp này khỏi dự án"
+
+# {"path":"/trans.html","row":"274","tags":null}
+#. idx/34/attr/title
+msgctxt "tpp:/trans.html:274"
+msgid "file path"
+msgstr "đường dẫn tệp"
+
+# {"path":"/trans.html","row":"275","tags":null}
+#. idx/35/attr/placeholder
+msgctxt "tpp:/trans.html:275"
+msgid "Quick find"
+msgstr "Tìm nhanh"
+
+# {"path":"/trans.html","row":"276","tags":null}
+#. idx/36/attr/title
+msgctxt "tpp:/trans.html:276"
+msgid "Active cell's info"
+msgstr "Thông tin ô đang hoạt động"
+
+# {"path":"/trans.html","row":"277","tags":null}
+#. idx/37/attr/title
+msgctxt "tpp:/trans.html:277"
+msgid "View original untranslated text"
+msgstr "Xem văn bản gốc chưa dịch"
+
+# {"path":"/trans.html","row":"278","tags":null}
+#. idx/38/attr/title
+msgctxt "tpp:/trans.html:278"
+msgid "View raw data"
+msgstr "Xem dữ liệu thô"
+
+# {"path":"/trans.html","row":"279","tags":null}
+#. idx/39/attr/title
+msgctxt "tpp:/trans.html:279"
+msgid "View row properties"
+msgstr "Xem thuộc tính hàng"
+
+# {"path":"/trans.html","row":"280","tags":null}
+#. idx/40/attr/title
+msgctxt "tpp:/trans.html:280"
+msgid "Go to current cell"
+msgstr "Đi đến ô hiện tại"
+
+# {"path":"/trans.html","row":"281","tags":null}
+#. idx/41/attr/title
+msgctxt "tpp:/trans.html:281"
+msgid "Current coordinate"
+msgstr "Tọa độ hiện tại"
+
+# {"path":"/trans.html","row":"282","tags":null}
+#. idx/43/attr/title
+msgctxt "tpp:/trans.html:282"
+msgid "Word wraping (for non Japanese text)"
+msgstr "Ngắt dòng (cho văn bản không phải tiếng Nhật)"
+
+# {"path":"/trans.html","row":"283","tags":null}
+#. idx/44/attr/title
+#. idx/46/attr/title
+msgctxt "tpp:/trans.html:283"
+msgid "Speak original text (alt+,)"
+msgstr "Đọc văn bản gốc (alt+,)"
+
+# {"path":"/trans.html","row":"284","tags":null}
+#. idx/45/attr/title
+#. idx/47/attr/title
+msgctxt "tpp:/trans.html:284"
+msgid "Copy original text into current cell (ctrl+0)"
+msgstr "Sao chép văn bản gốc vào ô hiện tại (ctrl+0)"
+
+# {"path":"/trans.html","row":"285","tags":null}
+#. idx/48/attr/title
+msgctxt "tpp:/trans.html:285"
+msgid "Default translation for all occurrence"
+msgstr "Bản dịch mặc định cho tất cả các lần xuất hiện"
+
+# {"path":"/trans.html","row":"286","tags":null}
+#. idx/49/attr/title
+msgctxt "tpp:/trans.html:286"
+msgid "Translations by context"
+msgstr "Bản dịch theo ngữ cảnh"
+
+# {"path":"/trans.html","row":"287","tags":null}
+#. idx/50/attr/title
+msgctxt "tpp:/trans.html:287"
+msgid "This cell has a comment"
+msgstr "Ô này có một bình luận"
+
+# {"path":"/trans.html","row":"288","tags":null}
+#. idx/51/attr/title
+msgctxt "tpp:/trans.html:288"
+msgid "This cell has an organic content"
+msgstr "Ô này có nội dung hữu cơ"
+
+# {"path":"/trans.html","row":"289","tags":null}
+#. idx/52/attr/title
+msgctxt "tpp:/trans.html:289"
+msgid "This cell has been visited"
+msgstr "Ô này đã được truy cập"
+
+# {"path":"/trans.html","row":"290","tags":null}
+#. idx/53/attr/title
+msgctxt "tpp:/trans.html:290"
+msgid "This is the first time this cell has been visited"
+msgstr "Đây là lần đầu tiên ô này được truy cập"
+
+# {"path":"/trans.html","row":"291","tags":null}
+#. idx/55/attr/title
+msgctxt "tpp:/trans.html:291"
+msgid "Word wraping"
+msgstr "Xuống dòng"
+
+# {"path":"/trans.html","row":"292","tags":null}
+#. idx/56/attr/title
+msgctxt "tpp:/trans.html:292"
+msgid "Speak current translation text (alt+.)"
+msgstr "Đọc văn bản dịch hiện tại (alt+.)"
+
+# {"path":"/trans.html","row":"293","tags":null}
+#. idx/57/attr/title
+#. idx/58/attr/title
+msgctxt "tpp:/trans.html:293"
+msgid "Current Cell Editor options"
+msgstr "Tùy chọn trình chỉnh sửa ô hiện tại"
+
+# {"path":"/trans.html","row":"294","tags":null}
+#. idx/59/attr/title
+msgctxt "tpp:/trans.html:294"
+msgid "Clear context translation for current row"
+msgstr "Xóa bản dịch ngữ cảnh cho hàng hiện tại"
+
+# {"path":"/trans.html","row":"295","tags":null}
+#. idx/60/attr/title
+msgctxt "tpp:/trans.html:295"
+msgid "Get help about translation by context"
+msgstr "Nhận trợ giúp về dịch theo ngữ cảnh"
+
+# {"path":"/trans.html","row":"296","tags":null}
+#. idx/61/attr/title
+msgctxt "tpp:/trans.html:296"
+msgid "Open menu"
+msgstr "Mở menu"
+
+# {"path":"/trans.html","row":"297","tags":null}
+#. idx/62/attr/title
+msgctxt "tpp:/trans.html:297"
+msgid "Path not accessible"
+msgstr "Đường dẫn không thể truy cập"
+
+# {"path":"/trans.html","row":"298","tags":null}
+#. idx/63/attr/title
+msgctxt "tpp:/trans.html:298"
+msgid "The location of the original material. You should not modify anything inside this folder."
+msgstr "Vị trí của tài liệu gốc. Bạn không nên sửa đổi bất cứ thứ gì bên trong thư mục này."
+
+# {"path":"/trans.html","row":"299","tags":null}
+#. idx/64/attr/title
+msgctxt "tpp:/trans.html:299"
+msgid "The location of the game that has been translated. The default location of the translation injection."
+msgstr "Vị trí của trò chơi đã được dịch. Vị trí mặc định để tiêm bản dịch."
+
+# {"path":"/trans.html","row":"300","tags":null}
+#. idx/65/attr/title
+msgctxt "tpp:/trans.html:300"
+msgid "Prefered translator for this project. If not defined, global setting will be used."
+msgstr "Trình dịch ưu tiên cho dự án này. Nếu không xác định, sẽ sử dụng cài đặt toàn cục."
+
+# {"path":"/trans.html","row":"301","tags":null}
+#. idx/66/attr/placeholder
+#. idx/67/attr/placeholder
+#. idx/68/attr/placeholder
+msgctxt "tpp:/trans.html:301"
+msgid "-use default-"
+msgstr "-sử dụng mặc định-"
+
+# {"path":"/trans.html","row":"302","tags":null}
+#. idx/69/attr/title
+msgctxt "tpp:/trans.html:302"
+msgid "Staging path is the location of some files required to export/build translations. Staging files generated when you created the project."
+msgstr "Đường dẫn staging là vị trí của một số tệp cần thiết để xuất/tạo bản dịch. Các tệp staging được tạo khi bạn tạo dự án."
+
+# {"path":"/trans.html","row":"303","tags":null}
+#. idx/70/attr/title
+msgctxt "tpp:/trans.html:303"
+msgid "Number of objects/files available on the left pane"
+msgstr "Số lượng đối tượng/tệp có sẵn ở ngăn bên trái"
+
+# {"path":"/trans.html","row":"304","tags":null}
+#. idx/71/attr/title
+msgctxt "tpp:/trans.html:304"
+msgid "Number of characters in the Original Text column"
+msgstr "Số ký tự trong cột Văn bản gốc"
+
+# {"path":"/trans.html","row":"305","tags":null}
+#. idx/72/attr/title
+msgctxt "tpp:/trans.html:305"
+msgid "May display wrong value in languages that doesn't use spaces (ie. Japanese, Chinese)."
+msgstr "Có thể hiển thị sai giá trị trong các ngôn ngữ không sử dụng khoảng trắng (ví dụ: tiếng Nhật, tiếng Trung)."
+
+# {"path":"/trans.html","row":"306","tags":null}
+#. idx/73/attr/title
+msgctxt "tpp:/trans.html:306"
+msgid "Users filled directly into the grid. Which is a good sign. Can be human translation, can be edited MTL, etc."
+msgstr "Người dùng đã điền trực tiếp vào lưới. Đó là một dấu hiệu tốt. Có thể là bản dịch của con người, có thể là MTL đã chỉnh sửa, v.v."
+
+# {"path":"/trans.html","row":"307","tags":null}
+#. idx/74/attr/title
+msgctxt "tpp:/trans.html:307"
+msgid "Run a javascript function after this project is successfully exported."
+msgstr "Chạy một hàm javascript sau khi dự án này được xuất thành công."
+
+# {"path":"/trans.html","row":"308","tags":null}
+#. idx/77/attr/title
+msgctxt "tpp:/trans.html:308"
+msgid "Import .TRANS into project"
+msgstr "Nhập .TRANS vào dự án"
+
+# {"path":"/trans.html","row":"309","tags":null}
+#. idx/78/attr/title
+msgctxt "tpp:/trans.html:309"
+msgid "Import Spreadsheet Options"
+msgstr "Tùy chọn Nhập Bảng tính"
+
+# {"path":"/trans.html","row":"310","tags":null}
+#. idx/79/attr/title
+msgctxt "tpp:/trans.html:310"
+msgid "Import RPGMTransPatch Options"
+msgstr "Tùy chọn Nhập RPGMTransPatch"
+
+# {"path":"/trans.html","row":"311","tags":null}
+#. idx/80/attr/title
+msgctxt "tpp:/trans.html:311"
+msgid "Start a new project"
+msgstr "Bắt đầu một dự án mới"
+
+# {"path":"/trans.html","row":"312","tags":null}
+#. idx/81/attr/placeholder
+msgctxt "tpp:/trans.html:312"
+msgid "Search project type..."
+msgstr "Tìm kiếm loại dự án..."
+
+# {"path":"/trans.html","row":"313","tags":null}
+#. idx/82/attr/title
+msgctxt "tpp:/trans.html:313"
+msgid "Remove row"
+msgstr "Xóa hàng"
+
+# {"path":"/trans.html","row":"314","tags":null}
+#. idx/83/attr/title
+msgctxt "tpp:/trans.html:314"
+msgid "Add row"
+msgstr "Thêm hàng"
+
+# {"path":"/trans.html","row":"315","tags":null}
+#. idx/84/attr/title
+msgctxt "tpp:/trans.html:315"
+msgid "Project is exist"
+msgstr "Dự án đã tồn tại"
+
+# {"path":"/trans.html","row":"316","tags":null}
+#. idx/86/attr/title
+msgctxt "tpp:/trans.html:316"
+msgid "Context Tool"
+msgstr "Công cụ Ngữ cảnh"
+
+# {"path":"/trans.html","row":"317","tags":null}
+#. idx/87/attr/placeholder
+msgctxt "tpp:/trans.html:317"
+msgid "Your list of context separated by new line"
+msgstr "Danh sách ngữ cảnh của bạn được phân cách bằng dòng mới"
+
+# {"path":"/trans.html","row":"318","tags":null}
+#. idx/88/attr/title
+msgctxt "tpp:/trans.html:318"
+msgid "Wrap text"
+msgstr "Gói văn bản"
+
+# {"path":"/trans.html","row":"319","tags":null}
+#. idx/89/attr/title
+msgctxt "tpp:/trans.html:319"
+msgid "Export Options"
+msgstr "Tùy chọn Xuất"
+
+# {"path":"/trans.html","row":"320","tags":null}
+#. idx/90/attr/title
+msgctxt "tpp:/trans.html:320"
+msgid "Tagging"
+msgstr "Gắn thẻ"
+
+# {"path":"/trans.html","row":"321","tags":null}
+#. idx/91/attr/title
+msgctxt "tpp:/trans.html:321"
+msgid "Apply Translation"
+msgstr "Áp dụng Bản dịch"
+
+# {"path":"/trans.html","row":"322","tags":null}
+#. idx/92/attr/title
+msgctxt "tpp:/trans.html:322"
+msgid "Add new Object"
+msgstr "Thêm Đối tượng mới"

@@ -1,0 +1,251 @@
+{
+  "AddonUtils": {
+    "constructor": {
+      "AddonUtils": {
+        "signature": "new AddonUtils(objectToApply, override?)",
+        "description": "Represents a utility class for addons.",
+        "parameters": [
+          {
+            "name": "objectToApply",
+            "type": "Object",
+            "description": "The object to apply the utility methods and properties to.",
+            "required": true
+          },
+          {
+            "name": "override",
+            "type": "boolean",
+            "description": "Indicates whether to override existing properties in the object.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new AddonUtils(objectToApply, override)"
+      }
+    },
+    "methods": {
+      ".createProject": {
+        "signature": "(async, static) createProject(files, basePath, options?) → Promise.<Object>",
+        "description": "Creates a project based on provided files and options.",
+        "parameters": [
+          {
+            "name": "files",
+            "type": "Array.<string>",
+            "description": "An array of file names.",
+            "required": true
+          },
+          {
+            "name": "basePath",
+            "type": "string",
+            "description": "The base path for the files.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional options.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Object>",
+          "description": "A promise resolving to the created project data."
+        },
+        "examples": [],
+        "usage": ".createProject(files, basePath, options) : Promise.<Object>"
+      },
+      ".createTransData": {
+        "signature": "(async, static) createTransData(files, basePath, options?) → Promise.<TransData>",
+        "description": "Creates translation data for multiple files.",
+        "parameters": [
+          {
+            "name": "files",
+            "type": "Array.<string>",
+            "description": "An array of file names.",
+            "required": true
+          },
+          {
+            "name": "basePath",
+            "type": "string",
+            "description": "The base path for the files.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional options.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<TransData>",
+          "description": "A promise resolving to the translation data object."
+        },
+        "examples": [],
+        "usage": ".createTransData(files, basePath, options) : Promise.<TransData>"
+      },
+      ".exportAsZip": {
+        "signature": "(async, static) exportAsZip(targetPath, transData?, options?) → Promise.<string>",
+        "description": "Exports translation data as a zip file.",
+        "parameters": [
+          {
+            "name": "targetPath",
+            "type": "string",
+            "description": "The target path for the zip file.",
+            "required": true
+          },
+          {
+            "name": "transData",
+            "type": "Object",
+            "description": "The translation data object. If not provided, fetched from the current context.",
+            "required": false
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional options.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise resolving to the path of the created zip file."
+        },
+        "examples": [],
+        "usage": ".exportAsZip(targetPath, transData, options) : Promise.<string>"
+      },
+      ".exportToFolder": {
+        "signature": "(async, static) exportToFolder(destinationDir, transData?, options?) → Promise.<Array.<string>>",
+        "description": "Exports translation data to a folder.",
+        "parameters": [
+          {
+            "name": "destinationDir",
+            "type": "string",
+            "description": "The directory to export to.",
+            "required": true
+          },
+          {
+            "name": "transData",
+            "type": "Object",
+            "description": "The translation data object. If not provided, fetched from the current context.",
+            "required": false
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional options.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Array.<string>>",
+          "description": "A promise resolving to an array of exported file paths."
+        },
+        "examples": [],
+        "usage": ".exportToFolder(destinationDir, transData, options) : Promise.<Array.<string>>"
+      },
+      ".getTransData": {
+        "signature": "(async, static) getTransData(file, basePath, options?) → Promise.<(TransData|Boolean)>",
+        "description": "Retrieves translation data for a given file.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "string",
+            "description": "The name of the file.",
+            "required": true
+          },
+          {
+            "name": "basePath",
+            "type": "string",
+            "description": "The base path for the file.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional options.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<(TransData|Boolean)>",
+          "description": "A promise resolving to the file data object containing data, context, tags, parameters, and indexIds."
+        },
+        "examples": [],
+        "usage": ".getTransData(file, basePath, options) : Promise.<(TransData|Boolean)>"
+      },
+      ".handleExport": {
+        "signature": "(async, static) handleExport(targetPath, options) → Promise.<void>",
+        "description": "Handles exporting translation data based on the specified mode.",
+        "parameters": [
+          {
+            "name": "targetPath",
+            "type": "string",
+            "description": "The target path for the exported data.",
+            "required": true
+          },
+          {
+            "name": "optionsmode",
+            "type": "Objectstring",
+            "description": "The export mode ('zip' or 'directory').",
+            "required": true
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": "The export mode ('zip' or 'directory').",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<void>",
+          "description": "A promise resolving when export is completed."
+        },
+        "examples": [],
+        "usage": ".handleExport(targetPath, optionsmode, , mode) : Promise.<void>"
+      },
+      ".writeFile": {
+        "signature": "(async, static) writeFile(file, basePath, targetDir, options?) → Promise.<string>",
+        "description": "Writes a file with given translation.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "string",
+            "description": "The name of the file.",
+            "required": true
+          },
+          {
+            "name": "basePath",
+            "type": "string",
+            "description": "The base path for the file.",
+            "required": true
+          },
+          {
+            "name": "targetDir",
+            "type": "string",
+            "description": "The target directory.",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Additional options.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise resolving to the path of the written file."
+        },
+        "examples": [],
+        "usage": ".writeFile(file, basePath, targetDir, options) : Promise.<string>"
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+	var $ = require('jquery');
+	window.jQuery = $;
+
+	const Logger = require('www/js/Logger.js');
+	var logger = new Logger({file:"data/logs/table.log"});
+	logger.loadState();
+	
+	var LT = require("light-trans");
+	var lt = new LT({
+		recordMode:false,
+		listener:"t"
+	});
+
+</script>
+<script type="text/javascript" src="/www/js/scriptRunner.js"></script>
+<script type="text/javascript" src="/www/modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="/www/modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="/www/modules/json2.js"></script>
+<script type="text/javascript" src="/www/modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="/www/js/consts.js"></script>
+<script type="text/javascript" src="/www/js/common.js"></script>
+<script type="text/javascript" src="modules/handsontable/handsontable.js"></script>
+<script type="text/javascript" src="/www/js/TableEditor.js"></script>
+<script type="text/javascript" src="/www/js/loadingScreen.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+<link type="text/css" href="/www/modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<link type="text/css" href="/www/css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+<link type="text/css" href="/www/css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/www/css/tableEditor.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/www/css/fontello-embedded.css" rel="stylesheet" media="screen">
+<link type="text/css" href="modules/handsontable/handsontable.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="/www/css/hot-normal.css" data-theme="normal" />
+
+<!-- <link type="text/css" href="css/hotfix.css" rel="stylesheet" media="screen"> -->
+
+<title>Table Editor - Translator++</title>
+
+<head>
+
+<body data-window="table">
+	<div class="body">
+		<div class="toolbar">
+			<div class="toolbar-content toolbar1">
+				<!-- <button class="menu-button button-new" data-tranattr="title" title="New Project (ctrl+n)"><img src='img/doc_new_icon.png' alt="New" /></button>
+				<button class="menu-button button-open" data-tranattr="title" title="Open (ctrl+o)"><img src='img/open.png' alt="Open" /></button>
+				<button class="menu-button button-save" data-tranattr="title" title="Save file (ctrl+s)"><i class="icon-save"></i></button>
+				<button class="menu-button button-save-as" data-tranattr="title" title="Save As (ctrl+shift+s)"><img src='img/save_as.png' alt="save as" /></button> -->
+				<button class="menu-button button-reset" title="Reset"><i class="icon-ccw"></i><span data-tran="">Reset</span></button>
+				<button class="menu-button button-clear" title="Clear"><i class="icon-trash"></i><span data-tran="">Clear</span></button>
+
+			</div>
+			<div class="toolbar-content toolbar4">
+				<button class="menu-button button-search" data-tranattr="title" title="Search"><i class="icon-search-1"></i></button>
+			</div>
+			<div class="toolbar-content toolbar6 fill">
+				<button class="menu-button button-help publish" data-tranattr="title" title="Help"><i class="icon-help-circled-1"></i></button>
+			</div>
+		</div>
+		<div class="content">
+			<div id="tableEditor" class="tableEditor hotContainer"></div>
+		</div>
+		
+	</div>
+	<div id="footer" class="footer">
+		<div class="footer-content footer1">Workspace:<span class="ftWorkspace"></span></div>
+		<div class="footer-content footer2"><span></span></div>
+		<div class="footer-content footer3"><span></span></div>
+		<div class="footer-content footer4"><span></span></div>
+		<div class="footer-content footer5"><span></span></div>
+	</div>
+	<div id="template" class="hidden">
+		
+	</div>
+</body>
+</html>

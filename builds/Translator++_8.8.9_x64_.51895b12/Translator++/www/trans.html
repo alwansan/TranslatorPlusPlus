@@ -1,0 +1,1635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/boot.js"></script>
+<link type="text/css" href="modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<!-- <link type="text/css" href="modules/jquery-ui/dark/jquery-ui.css" rel="stylesheet" /> -->
+<link rel="stylesheet" href="modules/bootstrap/css/bootstrap.css">
+<script type="text/javascript" src="modules/bootstrap/js/bootstrap.bundle.js"></script>
+<link rel="icon" href="img/icon.png">
+
+<!-- <script type="text/javascript" src="modules/jquery/jquery-1.12.4.min.js"></script> -->
+<script>
+	// const _require = require;
+	// require = function(module){
+	// 	if (module.includes("node:")) {
+	// 		return _require(module.substring(5));
+	// 	}
+	// 	return _require(module);
+	// }
+
+	var $ = require('jquery');
+	window.jQuery = $;
+	var {JavaScript} 		= require("www\\js\\JavaScript.js");
+	window.javaScript 		= new JavaScript();
+
+	var LT = require("light-trans");
+	var lt = new LT({
+		recordMode:false,
+		listener:"t"
+	});
+	
+	const Logger = require('www/js/Logger.js');
+	var logger = new Logger({file:"data/logs/trans.log"});
+	logger.loadState();
+
+	
+
+console.log('%cWelcome to Translator++', 'color:blue; font-size:1.2em;');
+console.log('%cYou can dump this console log by right click -> save-as', 'background:black; color:#f1f1d0; font-size:1.2em;');
+console.log('Visit https://dreamsavior.net for documentation and news ');
+console.log('You can contact me at Patreon : https://patreon.com/dreamsavior');
+console.log('current version : ', nw.App.manifest.version);
+console.log('NW version : ', nw.process.versions.nw);
+	
+</script>
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/base/jquery-ui.js"></script>
+<script>
+	if ($.ui && $.ui.tooltip && $.widget) {
+		$.widget.bridge("uitooltip", $.ui.tooltip);
+	}
+</script>
+<script type="text/javascript" src="modules/json2.js"></script>
+<!--<script type="text/javascript" src="modules/jquery-ui/jquery.ui-contextmenu.js"></script>-->
+<script type="text/javascript" src="modules/handsontable/handsontable.js"></script>
+<script type="text/javascript" src="js/DVField.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+<script type="text/javascript" src="js/trans.js"></script>
+<script type="text/javascript" src="js/consts.js"></script>
+<script type="text/javascript" src="js/TranslatorEngine.js"></script>
+<script type="text/javascript" src="js/ProofreaderEngine.js"></script>
+
+<script type="text/javascript" src="js/romaji.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/php.js"></script>
+<script type="text/javascript" src="js/ui.js"></script>
+<script type="text/javascript" src="js/ThirdParty.js"></script>
+<script type="text/javascript" src="js/Engines.js"></script>
+<script type="text/javascript" src="js/TransHub.js"></script>
+
+<script type="text/javascript" src="modules/jquerytextcomplete/dist/jquery.textcomplete.js"></script>
+<script type="text/javascript" src="js/synth.js" defer></script>
+<script type="text/javascript" src="js/sys.js" defer></script>
+<script type="text/javascript" src="js/addon.js" defer></script>
+<!-- <script type="text/javascript" src="js/Updater.js" defer></script> -->
+
+<script type="text/javascript" src="modules/jsonform/deps/underscore.js"></script>
+<script type="text/javascript" src="modules/jsonform/deps/opt/jsv.js"></script>
+<script type="text/javascript" src="js/jsonform.ext.js"></script>
+<script type="text/javascript" src="modules/jsonform/lib/jsonform.js" onload="JSONFormExt.init()"></script>
+<script type="text/javascript" src="modules/tagify/tagify.min.js"></script>
+
+
+<!-- jquery context menu -->
+<link rel="stylesheet" href="modules/jQuery-contextMenu/jquery.contextMenu-theme.css">
+<script src="modules/jQuery-contextMenu/jquery.contextMenu.min.js"></script>
+<script src="modules/jQuery-contextMenu/jquery.ui.position.js"></script>
+<script src="modules/jquery-visible-min.js"></script>
+
+<!-- plugins -->
+<script type="text/javascript" src="js/Thread.bc.js"></script>
+<script type="text/javascript" src="js/Autoload.js" defer></script>
+
+<link type="text/css" href="css/bootstrapparts.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+<link type="text/css" href="modules/handsontable/handsontable.min.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/hotfix.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/hot-normal.css" rel="stylesheet" media="screen" data-theme="normal">
+<link type="text/css" href="css/appbar.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/animate.compat.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/fontello-extra.css" rel="stylesheet" media="screen">
+<link type="text/css" href="modules/jquery-ui/tpp.ver7.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/jsonform.css" rel="stylesheet" media="screen">
+<link type="text/css" href="modules/tagify/tagify.css" rel="stylesheet" media="screen">
+
+
+<title>Translator++</title>
+<style>
+.applicationBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    margin: 0px;
+    height: 24px;
+    z-index: 100000;
+    background: #f3f3f3;
+	display:flex;
+	user-select: none;
+}
+.applicationBar .appBarIcon {
+    font-size: .7em;
+    display: block;
+    background: #0000;
+    color: #222;
+    /* height: 32px; */
+    width: 4.6em;
+    text-align: center;
+    padding-top: 8px;
+	transition: all .2s ease-out;	
+}
+
+.applicationBar .appBarIcon:hover {
+	background:#e5e5e5;
+	color:#000;
+	transition: all .2s ease-out;
+}
+
+.applicationBar .appBarIcon.appbarIcon-close:hover {
+	background:#e81123;
+	color:#fff;
+}
+
+.appActionsLeft .ribbonMenu {
+    line-height: 24px;
+    padding: 0px 12px;
+    background: #f3f3f3;
+    font-size: .8em;
+	cursor : default;
+}
+
+.appActionsLeft .ribbonMenu:hover {
+	background: #fff;
+}
+
+.appActionsLeft .ribbonMenu.active {
+	background: #fff;
+}
+
+.applicationBar .appActionsLeft {
+	display:flex;
+}
+.applicationBar .appActionsLeft {
+	display:flex;
+}
+
+.applicationBar .appTitle {
+	text-align: center;
+    flex-grow: 1;
+    font-size: .8em;
+    line-height: 24px;	
+	-webkit-app-region: drag;
+}
+.applicationBar .appActionsRight {
+	text-align:right;
+	display:flex;
+	align-items:stretch;
+}
+
+
+.applicationBar[data-theme=dark] {
+	background:#2b2b2b;
+}
+
+.applicationBar[data-theme=dark]  .appTitle{
+	color:#fff;
+}
+
+.applicationBar[data-theme=dark] .appBarIcon {
+	color:#fff;
+}
+
+.applicationBar[data-theme=dark] .appBarIcon:hover {
+	color:#111;
+}
+
+
+.applicationBar[data-theme=dark] .ribbonMenu {
+	background:#2b2b2b;
+    color: #f1f1f1;
+}
+.applicationBar[data-theme=dark] .ribbonMenu:hover {
+    background: #000;
+}
+.applicationBar[data-theme=dark] .ribbonMenu.active {
+    background: #111;
+}
+
+
+
+#applicationWrapper {
+	/*position:relative;
+	margin-top:24px;
+	*/
+	position:absolute;
+	top: 24px;
+	width:100vw;
+	height: calc(100vh - 24px);
+}
+
+</style>
+<head>
+
+<body data-window="trans">
+
+<div class="applicationBar" id="applicationBar" data-theme="dark">
+	<div class="appActionsLeft">
+		<div class="ribbonMenu active" data-id="start" data-tran="">Start</div>
+		<div class="ribbonMenu" data-id="home" data-tran="">Home</div>
+		<div class="ribbonMenu" data-id="translator" data-tran="">Translator</div>
+	</div>
+	<div class="appTitle">Translator++</div>
+	<div class="appActionsRight">
+	<!--
+		<i class="appBarIcon appbarIcon-menu" onclick="appMenu()"></i>
+	-->
+		<i class="appBarIcon appbarIcon-minimize" onclick="appMinimize()"></i>
+		<i class="appBarIcon appbarIcon-maximize hidden" id="appMaximize" onclick="appMaximize()"></i>
+		<i class="appBarIcon appbarIcon-restore hidden" id="appRestore" onclick="appRestore()"></i>
+		<i class="appBarIcon appbarIcon-close" onclick="appClose()"></i>
+	</div>
+</div>
+
+
+<div id="applicationWrapper">
+<div class="toolbarGroup">
+	<div class="toolbar mainToolbar" data-id="home">
+		<div class="toolbar-content toolbar1" data-id="toolbar1">
+			<button class="menu-button button-new" data-tranattr="title" title="New Project"><img src='img/doc_new_icon.png' alt="New" /></button>
+			<button class="menu-button button-open" data-tranattr="title" title="Open" style="padding-top: 2px;"><i class="icon-folder-open"></i></button>
+			<button class="menu-button button-save" data-tranattr="title" title="Save file"><i class="icon-save"></i></button>
+			<span class="menu-button buttonGroup group-saveas"><button class="button-save-as hasMenuSide" data-tranattr="title" title="Save As"><i class="icon-save-as"></i></button><button class="button-save-as-side menuSide">&#xe814;</button></span>
+			<button class="menu-button button-update-project" data-tranattr="title" title="Update Project from Source"><i class="icon-arrows-cw"></i></button>
+		</div>
+		<div class="toolbar-content toolbar2" data-id="toolbar2">
+			<button class="menu-button button-import" data-tranattr="title" title="Import Project"><img src='img/import_icon.png' alt="Import" /></button>
+			<button class="menu-button button-export" data-tranattr="title" title="Export Project"><img src='img/export_icon.png' alt="Export" /></button>
+			<button class="menu-button button-inject" data-tranattr="title" title="Inject / apply all translation"><i class="icon-syringe-fill"></i></button>
+		</div>
+		<div class="toolbar-content toolbar3" data-id="toolbar3">
+			<!--<button class="menu-button contextTool" data-tranattr="title" title="Context Tool"><img src='img/image_text.png' alt="context tool" /></button>-->
+			<span class="menu-button buttonGroup group-executescript"><button class="executeScript hasMenuSide" data-tranattr="title" title="Execute Global Level Custom Script"><i class="icon-code"></i></button><button class="button-execute-script-side menuSide">&#xe814;</button></span>
+		</div>
+		<div class="toolbar-content toolbar4" data-id="toolbar4">
+			<button class="menu-button toggle-activeCellInfo checked" data-tranattr="title" title="Toggle Active Cell Info"><img src='img/active-cell.png' alt="activeCellInfo" /></button>
+		</div>
+		<div class="toolbar-content toolbar5" data-id="toolbar5">
+			<button class="menu-button button-options" data-tranattr="title" title="Options"><img src='img/options.png' alt="Options" /></button>
+			<button class="menu-button button-properties" data-tranattr="title" title="Project Properties"><i class="icon-cog-alt"></i></button>
+			<button class="menu-button button-help" data-tranattr="title" title="Get Help (F1)"><i class="icon-help-circled-1"></i></button>
+		</div>
+	</div>
+	<div class="toolbar" data-id="translator">
+		<div class="toolbar-content toolbar1" data-id="toolbar1">
+		</div>
+		<div class="toolbar-content toolbar2" data-id="toolbar2">
+			<button class="menu-button batch-translate" data-tranattr="title" title="Batch translation (crl+b)"><img src='img/translate_all.png' alt="translate" /></button>
+		</div>
+	</div>
+</div>
+
+<div id="mainArea">
+<div class="panel-wrapper">
+	<div class="panel-left" id="menuPanel">
+		<div class="panel-left-tools menuPanelTool toolbar tabsBarTop">
+			<div class="toolbar-content">
+				<button class="menu-button fileListButton checked panel-switcher" data-tranattr="title" title="File list" data-for="fileListWrapperOuter"><i class="icon-layers"></i><span data-tran="">Objects</span></button> 
+				<button class="menu-button translationPane panel-switcher" data-tranattr="title" title="Live Translation Pane" data-for="transPaneWrapper"><i class="icon-translate3"></i><span data-tran="">Live translation</span></button> 
+			</div>
+			<!--
+			<div class="toolbar-content switchableToolbar toolbar-transPaneWrapper">
+				<button class="menu-button undockPane" title="Undock pane" ><img src='img/undock.png' alt='undock' /></button> 
+				<button class="menu-button connectTranslator" title="Connect to auto translator" ><img src='img/connect_icon.png' alt='connect' /></button> 
+			</div>
+			-->
+		</div>	
+		<div class="fileListWrapperOuter switchablePane">		
+			<div class="menuPanelTool">
+				<input type="search" class="search menuPanelSearch" placeholder="Filter" />			
+			</div>
+			<div class="fileListWrapper tree"  id="fileList">
+				<ul class="fileList list fileListUl">
+
+				</ul>
+			</div>
+			<div class="bottomToolbar">
+				<div class="bottomToolbarIcon  bottomToolbarAdjust controlCheck" data-tranattr="title" title="Toggle selection">
+					<span class="icon-check-empty ovLine"></span>
+				</div>
+				<div class="bottomToolbarIcon bottomToolbarAdjust invertSelection" data-tranattr="title" title="Invert selection">
+					<span class="icon-adjust"></span>
+				</div>				
+				<div class="bottomToolbarIcon bottomToolbarAdjust removeSelected" data-tranattr="title" title="Remove selected">
+					<span class="icon-trash-empty"></span>
+				</div>				
+				<div class="bottomToolbarIcon bottomToolbarAdjust addObject" data-tranattr="title" title="Add A New Object">
+					<span class="icon-doc-add"></span>
+				</div>				
+			</div>
+		</div>
+		<div class="transPaneWrapper switchablePane hidden">
+			<div class="subToolbar toolbar-content switchableToolbar toolbar-transPaneWrapper">
+				<button class="menu-button connectTranslator" data-tranattr="title" title="Connect to auto translator" ><img src='img/connect_icon.png' alt='connect' /><span class="buttonLabel">Connect</span></button> 
+				<button class="menu-button undockPane" data-tranattr="title" title="Undock pane" ><img src='img/undock.png' alt='undock' /><span class="buttonLabel">Undock</span></button> 
+			</div>		
+		<!--
+			<iframe id="translationPane" name="translationPane" src="translator.html" ></iframe>
+		-->
+			<iframe id="translationPane" name="translationPane" src="" ></iframe>
+		
+		</div>
+	</div>
+	<div class="panel-right">
+		<div class="panel-right-tools menuPanelTool toolbar">
+			<div class="panelLeftTabHandler " data-tranattr="title" title="Collapse / restore left panel">
+				<i class="icon-play flip"></i>
+			</div>
+			<div class="toolbar-content">
+				<button class="menu-button addNewKey" data-tranattr="title" title="Add new key (alt+n)" accesskey="n"><img src='img/new-row2.png' alt='new row' /></button> 
+				<button class="menu-button importHere" data-tranattr="title" title="Import Here"><i class="icon-login-1"></i></button> 
+			</div>
+			<div class="toolbar-content">
+				<button class="menu-button addNote" data-tranattr="title" title="Add a note to this file">
+					<!--<img src='img/spechbubble_sq_icon.png' alt='note' />-->
+					<i class="icon-comment-empty" id="commentButtonIcon"></i>
+				</button> 
+				<span class="menu-button buttonGroup group-find"><button class="button-find find hasMenuSide" data-tranattr="title" title="Open search menu"><i class="icon-search"></i><button class="button-find menuSide">&#xe814;</button></span>
+				<span class="menu-button buttonGroup group-gridInfo"><button class="button-gridInfo gridInfo hasMenuSide" data-tranattr="title" title="Toggle grid information"><i class="icon-info-circled"></i><button class="button-gridInfo menuSide">&#xe814;</button></span>
+				<button class="menu-button filePropertiesMenu" data-tranattr="title" title="Object Properties"><i class="icon-cog"></i></button> 
+			</div>
+			<div class="toolbar-content">
+				<button class="menu-button button-clipboard" data-tranattr="title" title="Automatically set selected original text to clipboard"><i class="icon-paste"></i></button>
+				<button class="menu-button resizeFont" data-tranattr="title" title="Resize Font" data-for="#table"><img src='img/font_size_icon.png' alt='Resize Font' /></button> 
+				<button class="menu-button wordWrapTable" data-tranattr="title" title="Toggle word wrapping & Explicit white spaces" data-for="#table"><img src='img/wrap.png' alt='Toggle Word Wrapping' /></button> 
+				<button class="menu-button monospace" data-tranattr="title" title="Use Monospace font" data-for="#table"><img src='img/monospace2.png' alt='Monospace' /></button> 
+			</div>
+			<div class="toolbar-content">
+				<button class="menu-button removeTranslation" data-tranattr="title" title="Remove all translation from this file"><i class="icon-clean-brush"></i></button> 
+				<button class="menu-button removeFile" data-tranattr="title" title="Remove this file from project"><i class="icon-trash"></i></button> 
+			</div>
+			<div class="toolbar-content fill">
+				<div class="pathinfoWrapper"><i class="icon-doc-text" data-tranattr="title" title="file path"></i> <input type="text" value="" class="fileId" readonly="readonly" /></div>
+			</div>
+			<div class="toolbar-content">
+				<input type="search" value="" data-tranattr="placeholder" placeholder="Quick find" class="quickFind" id="quickFind" /></button> 
+			</div>
+			
+		</div>	
+		<div class="mainContent">
+			<div id="table" class="hotContainer"></div>
+			<div id="appInfo"></div>
+		</div>
+	</div>	
+</div>
+<div id="cellSelectionInfo" data-tranattr="title" title="Active cell's info">
+	<div class="cellInfoParts cellInfoPartsA">
+		<div class="cellInfoTabHeader">
+			<div class="tabButtons">
+				<span class="tabButton active" data-tran="" data-tranattr="title" title="View original untranslated text" data-fortab="currentRomaji">Original</span>
+				<span class="tabButton" data-tran="" data-tranattr="title" title="View raw data" data-fortab="previewRawData">Raw</span>
+				<span class="tabButton" data-tran="" data-tranattr="title" title="View row properties" data-fortab="viewRowProperties">Row Properties</span>
+			</div>
+			<div class="tabSide">
+				<i class="icon-th-list gotoCurrentCell" data-tranattr="title" title="Go to current cell"></i>
+				<input type="text" id="currentCoordinate" value="" data-tranattr="title" title="Current coordinate" />
+			</div>
+		</div>
+
+		<div class="cellInfoTabContent">
+			<div class="cellInfoBody">
+				<div class="cellInfoContent romaji" id="currentRomaji" data-tabname="currentRomaji" >
+					<div class="headerWrapper"><span class="header"></span></div>
+					<span class="text"></span>
+				</div>
+				<div class="cellInfoContent rawData hidden" id="previewRawData"  data-tabname="previewRawData"></div>
+				<div class="cellInfoContent viewRowProperties hidden" id="viewRowProperties"  data-tabname="viewRowProperties"></div>
+			</div>
+			<div class="cellInfoMenu">
+				<div class="cellInfoCtrl" data-tabname="currentRomaji">
+					<button class="resizeFont" data-tranattr="title" title="Resize Font" data-for="#currentRomaji"><img src='img/font_size_icon.png' alt='font-size' /></button>
+					<button class="wordWrap checked" data-tranattr="title" title="Word wraping (for non Japanese text)" data-for="#currentCellText"><img src='img/wrap.png' alt='wrap' /></button>
+					<button class="speakOriginalText synthesizer" data-tranattr="title" title="Speak original text (alt+,)" accesskey=","><i class="icon-volume-up"></i></button>
+					<button class="copyOriginal" data-tranattr="title" title="Copy original text into current cell (ctrl+0)"><i class="icon-right-bold"></i></button>
+				</div>
+				<div class="cellInfoCtrl hidden" data-tabname="previewRawData">
+					<button class="speakOriginalText synthesizer" data-tranattr="title" title="Speak original text (alt+,)" accesskey=","><i class="icon-volume-up"></i></button>
+					<button class="copyOriginal" data-tranattr="title" title="Copy original text into current cell (ctrl+0)"><i class="icon-right-bold"></i></button>
+				</div>
+				<div class="cellInfoCtrl hidden" data-tabname="viewRowProperties">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="cellInfoParts cellInfoPartsB">
+		<div class="cellInfoTabHeader">
+			<div class="tabButtons">
+				<span class="tabButton active" data-tran="" data-tranattr="title" title="Default translation for all occurrence" data-fortab="defaultTranslation">Default translation</span>
+				<span class="tabButton" data-tran="" data-tranattr="title" title="Translations by context" data-fortab="contextTranslation">Context translation</span>
+			</div>
+			<div class="cellEmblems">
+				<i class="emblemComment icon-commenting hidden" data-tranattr="title" title="This cell has a comment"></i>
+				<i class="emblemOrganic icon-user hidden" data-tranattr="title" title="This cell has an organic content"></i>
+				<i class="emblemFootprint icon-shoeprint3 hidden" data-tranattr="title" title="This cell has been visited"></i>
+				<i class="emblemFirstVisit icon-1st hidden" data-tranattr="title" title="This is the first time this cell has been visited"></i>
+			</div>
+		</div>
+
+		<div class="cellInfoTabContent">
+			<textarea class="cellText pre" id="currentCellText" data-coord="" data-tabname="defaultTranslation"></textarea>
+			<div class="contextTranslation hidden" id="contextTranslation" data-tabname="contextTranslation">
+			</div>
+
+			<div class="currentCellTextCtrl" data-tabname="defaultTranslation">
+				<button class="resizeFont" data-tranattr="title" title="Resize Font" data-for="#currentCellText"><img src='img/font_size_icon.png' alt='font-size' /></button>
+				<button class="wordWrap checked" data-tranattr="title" title="Word wraping" data-for="#currentCellText"><img src='img/wrap.png' alt='wrap' /></button>
+				<button class="speakCurrent synthesizer" data-tranattr="title" title="Speak current translation text (alt+.)" data-for="#currentCellText" accesskey="."><i class="icon-volume-up"></i></button>
+				<button class="ceOptions" data-tranattr="title" title="Current Cell Editor options"><img src='img/cog.png' alt='options' /></button>
+			</div>
+			<div class="currentCellTextCtrl hidden" data-tabname="contextTranslation">
+				<button class="ceOptions" data-tranattr="title" title="Current Cell Editor options"><img src='img/cog.png' alt='options' /></button>
+				<button class="clearContextTranslation" data-tranattr="title" title="Clear context translation for current row"><i class="icon-trash-empty"></i></button>
+				<button class="contextTranslateHelp" data-tranattr="title" title="Get help about translation by context" ><i class="icon-help-circled-1"></i></button>
+			</div>			
+		</div>
+	</div>
+</div>
+
+</div>
+
+<div class="footer">
+	<div class="footer-content footer1"><span></span></div>
+	<div class="footer-content footer2"><span></span></div>
+	<div class="footer-content footer3"><span></span></div>
+	<div class="footer-content footer4"><span></span></div>
+	<div class="footer-content footer5"><span></span></div>
+</div>
+
+<button class="button-translatorplus" id="button-translatorplus" data-tranattr="title" title="Open menu"><!-- <img src='img/icon.png' alt="Translator++" /> --></button>
+
+
+<div id="template">
+
+
+<!--<button data-type="selectFile" class="openFile" accept="RMTrans file (*.trans)|*.trans">Open file</button> -->
+<input type="file" id="startProject" class="selectGame hidden" accept=".exe,application/game" autocomplete="off" />
+<input type="file" id="openFile" class="openFile hidden" accept=".trans, .tpp, application/trans" autocomplete="off" />
+<!--<input type="file" id="saveAs" class="saveAs hidden" nwsaveas="translation.trans" accept=".trans,application/trans" autocomplete="off"  /> -->
+
+
+<!-- inporting .trans file translation into current project -->
+<input type="file" id="openFileToInport" class="openFile hidden" accept=".trans,application/trans" autocomplete="off" />
+
+<div id="pathNotAccessible" data-tranattr="title" title="Path not accessible">
+	<div class="blockBox errorBlock withIcon" data-tran="">
+		Path <a class="problemPath"></a> is not accessible by PHP interpreter.<br />
+		Please rename the path and use only alphanumeric naming.
+	</div>
+</div>
+
+<div id="rowProperties" title="Row Properties">
+	<div class="dialogSectionBlock">
+		<h2 data-tran=""><i class="icon-pin"></i><span>Location</span></h2>
+		<div><span data-tran="">File :</span> <span class="rowProp_fileName"></span></div>
+		<div><span data-tran="">Row ID :</span> <span class="rowProp_location"></span></div>
+	</div>
+	<div class="dialogSectionBlock">
+		<h2 data-tran=""><i class="icon-th-2"></i><span>Context</span></h2>
+		<ul class="rowProp_contextList"></ul>
+	</div>
+	<div class="dialogSectionBlock">
+		<h2 data-tran=""><i class="icon-users"></i><span>Actors</span></h2>
+		<p class="rowProp_rowInfoText"></p>
+	</div>
+	<div class="dialogSectionBlock">
+		<h2 data-tran=""><i class="icon-key-inv"></i><span>Key Text</span></h2>
+		<p class="rowProp_keyText pre"></p>
+	</div>	
+	<div class="dialogSectionBlock">
+		<h2 data-tran=""><i class="icon-translate-1"></i><span>Best Translation</span></h2>
+		<p class="rowProp_bestTranslatiion pre"></p>
+	</div>
+</div>
+
+<div id="fileProperties" title="File Properties">
+	<div class="dialogSectionBlock">
+		<h2 data-tran="">File ID</h2>
+		<div class="fileProp_id"></div>
+	</div>
+	<div class="dialogSectionBlock">
+		<h2 data-tran="">Path</h2>
+		<div class="fileProp_path"></div>
+	</div>
+	<div class="dialogSectionBlock">
+		<h2 data-tran="">Original Format</h2>
+		<div class="fileProp_originalFormat"></div>
+	</div>
+	<div class="dialogSectionBlock col-2">
+		<div>
+			<h2 data-tran="">Data Length</h2>
+			<div class="fileProp_dataLength"></div>
+		</div>
+		<div>
+			<h2 data-tran="">Translated</h2>
+			<div class="fileProp_translatedLength"></div>		
+		</div>
+	</div>
+	<div class="translatedPercent">
+	</div>
+
+
+</div>
+
+<div id="projectProperties" title="Project Properties">
+	<div id="projPropWrapper" class="innerTab">
+	  <ul>
+		<li><a href="#projProp-general" data-tran="">General</a></li>
+		<li><a href="#projProp-language" data-tran="">Language</a></li>
+		<li><a href="#projProp-staging" data-tran="">Staging</a></li>
+		<li><a href="#projProp-stats" data-tran="">Stats</a></li>
+		<li><a href="#projProp-advanced" data-tran="">Advanced</a></li>
+		<li><a href="#projProp-info" data-tran="">Info</a></li>
+	  </ul>
+	  <div id="projProp-general">
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Title</h2>
+			<div class=""><input type="text" class="fullWidth projProp_title" value="" /></div>
+		</div>		  
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">File Location</h2>
+			<div class="projProp_fileLoc"></div>
+		</div>
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Project ID</h2>
+				<div class="projProp_id"></div>
+			</div>
+			<div>
+				<h2 data-tran="">Built on</h2>
+				<div class="projProp_date"></div>
+			</div>
+		</div>
+		
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Editor Name</h2>
+				<div class="projProp_editorName"></div>
+			</div>
+			<div>
+				<h2 data-tran="">Editor Version</h2>
+				<div class="projProp_editorVersion"></div>
+			</div>
+		</div>
+
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Engine</h2>
+			<div class="projProp_engine"></div>
+		</div>
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Parser</h2>
+				<div class="projProp_parser"></div>
+			</div>
+			<div>
+				<h2 data-tran="">Parser version</h2>
+				<div class="projProp_parserVersion"></div>
+			</div>
+		</div>
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Raw Material Location <i class="icon-info-circled-1" data-tranattr="title" title="The location of the original material. You should not modify anything inside this folder."></i></h2>
+			<div class=""><input type="dvSelectPath" nwdirectory class="fullWidth projProp_loc" value="" /></div>
+			<div class="dialogInfo alert alert-warning hidden" data-tran=""><i class="icon-attention red"></i> Invalid path.<br />Some features will be disabled until this is fixed.</div>
+		</div>
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Translated Material Location <i class="icon-info-circled-1" data-tranattr="title" title="The location of the game that has been translated. The default location of the translation injection."></i></h2>
+			<div class=""><input type="dvSelectPath" nwdirectory class="fullWidth projProp_devPath" value="" /></div>
+			<div class="dialogInfo alert alert-warning hidden" data-tran=""><i class="icon-attention red"></i> Invalid path.<br />Some features will be disabled until this is fixed.</div>
+		</div>
+
+
+	  </div>
+	  
+	  <div id="projProp-language">
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Translator <i class="icon-info-circled-1" data-tranattr="title" title="Prefered translator for this project. If not defined, global setting will be used."></i></h2>
+			<div class="">
+				<input list="translatorEngines" placeholder="-use default-" data-tranattr="placeholder" class="fullWidth projProp_translator"  list="browsers" />
+			</div>
+		</div> 
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Translate From</h2>
+			<div class=""><input list="languages" placeholder="-use default-" data-tranattr="placeholder" class="fullWidth projProp_langFrom" /></div>
+		</div> 
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Translate Into</h2>
+			<div class=""><input list="languages" placeholder="-use default-" data-tranattr="placeholder" class="fullWidth projProp_langTo" /></div>
+		</div> 
+	  </div>
+	  
+	  <div id="projProp-staging">
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Staging Path <i class="icon-info-circled-1" data-tranattr="title" title="Staging path is the location of some files required to export/build translations. Staging files generated when you created the project."></i></h2>
+			<div class=""><input type="dvSelectPath" nwdirectory class="fullWidth projProp_stagingPath" value="" /></div>
+			<div class="openDir"><input type="button" class="openDirInExplorer openStagingDir" for=".projProp_stagingPath" value="Open directory in explorer" /></div>
+		</div>
+	  </div>
+
+	  <div id="projProp-stats">
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Objects <i class="icon-info-circled-1" data-tranattr="title" title="Number of objects/files available on the left pane"></i></h2>
+				<div data-field="files"></div>
+			</div>
+			<div>
+				<h2 data-tran="">Folders</h2>
+				<div data-field="folders"></div>
+			</div>
+		</div>
+
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Characters <i class="icon-info-circled-1" data-tranattr="title" title="Number of characters in the Original Text column"></i></h2>
+				<div data-field="characters"></div>
+			</div>
+			<div>
+				<h2 data-tran="">Words <i class="icon-info-circled-1" data-tranattr="title" title="May display wrong value in languages that doesn't use spaces (ie. Japanese, Chinese)."></i></h2>
+				<div data-field="words"></div>
+			</div>
+		</div>
+
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Total Rows</h2>
+				<div data-field="rows"></div>
+			</div>
+			<div>
+				<h2 data-tran="">Translated row</h2>
+				<div data-field="rowTranslated"></div>
+			</div>
+		</div>
+		<div class="dialogSectionBlock col-2">
+			<div>
+				<h2 data-tran="">Organic translation <i class="icon-info-circled-1" data-tranattr="title" title="Users filled directly into the grid. Which is a good sign. Can be human translation, can be edited MTL, etc."></i></h2>
+				<div data-field="organic"></div>
+			</div>
+			<div>
+				<h2 data-tran="">&nbsp;</h2>
+				<div>Which is <span data-field="organicPercent"></span>% of total translation.</div>
+			</div>
+		</div>
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">Overall progress <span class="percentDisplay" data-field="percent"></span>%</h2>
+			<meter class="fullWidth" min="0" max="100" value="0"  data-field="percent"></meter>
+
+		</div>
+	  </div>
+
+	  <div id="projProp-advanced">
+		<h1>Hooks</h1>
+		<div class="dialogSectionBlock">
+			<h2 data-tran="">On after export<i class="icon-info-circled-1" data-tranattr="title" title="Run a javascript function after this project is successfully exported."></i></h2>
+			<div class="actionBar"><input type="button" class="editFunction" for="afterExport" value="Edit function" /></div>
+		</div>
+	  </div>
+
+	  <div id="projProp-info">
+		<div class="dialogSectionBlock" >
+			<h2 data-tran="">Info</h2>
+			<div class="fullWidth editableHtmlFld projectInfo" contenteditable="true"></div>
+		</div>
+		<div class="dialogSectionBlock" >
+			<label><input type="checkbox" class="displayInfo" /> <span data-tran="">Display this information when the project is opened.</span></label>
+		</div>
+	  </div>  
+	</div>
+</div>
+
+
+<div id="dialogExport" data-tranattr="title" title="Export Project" class="dialog dialogExport dialogGrid dialogMenu">
+	<h1><a href="#" data-tran="">Select Export Mode</a></h1>
+	<label data-for="#exportDir" class="menuSelector"  for="exportDir">
+		<img src="img/folder.png" alt="folder" />
+		<h1 for="exportDir" data-tran="">Export to a folder</h1>
+		<div data-tran="">Export pre-compiled game data to a folder<br />Folder structures are retained</div>
+		<input type="file" id="exportDir" class="exportDir" autocomplete="off" nwdirectory />
+	</label>
+	<label data-for="#export" class="menuSelector" for="export">
+		<img src="img/zip.png" alt="zip" />
+		<h1 for="export" data-tran="">Export as a Zip file</h1>
+		<div data-tran="">Export pre-compiled game data to a single zipped archive</div>
+		<input type="file" id="export" class="export" nwsaveas="translation.zip" autocomplete="off" />
+	</label>
+	<label data-for="#exportTrans" class="menuSelector" for="exportTrans">
+		<img src="img/folder-txt.png" alt="RPGMakerTrans" />
+		<h1 for="exportTrans" data-tran="">RPGMakerTrans Patch Files</h1>
+		<div data-tran="">Export to RPGMakerTrans formatted *.txt files in a folder</div>
+		<input type="file" id="exportTrans" class="exportTrans" autocomplete="off" nwdirectory />
+	</label>
+	<label data-for="#exportCSV" class="menuSelector" for="exportCSV">
+		<img src="img/folder-csv.png" alt="csv" />
+		<h1 for="exportCSV" data-tran="">Comma Separated Values</h1>
+		<div data-tran="">Export to Comma Separated Values (csv) files in a folder</div>
+		<input type="file" id="exportCSV" class="exportCSV" autocomplete="off" nwdirectory />
+	</label>
+	<label data-for="#exportXLSX" class="menuSelector" for="exportXLSX">
+		<img src="img/folder-xlsx.png" alt="csv" />
+		<h1 for="exportXLSX" data-tran="">Office Open XML (.xlsx) Excel 2007 and above</h1>
+		<div data-tran="">Export to Microsoft Excel Spreadsheet (xlsx) files in a folder</div>
+		<input type="file" id="exportXLSX" class="exportXLSX" autocomplete="off" nwdirectory />
+	</label>
+	<label data-for="#exportXLS" class="menuSelector" for="exportXLS">
+		<img src="img/folder-xls.png" alt="csv" />
+		<h1 for="exportXLS" data-tran="">BIFF 8 (.xls) Excel 97 and above</h1>
+		<div data-tran="">Export to Microsoft Excel Spreadsheet (xls) files in a folder</div>
+		<input type="file" id="exportXLS" class="exportXLS" autocomplete="off" nwdirectory />
+	</label>
+	<label data-for="#exportHTML" class="menuSelector" for="exportHTML">
+		<img src="img/folder-html.png" alt="csv" />
+		<h1 for="exportHTML" data-tran="">HTML Spreadsheet</h1>
+		<div data-tran="">Export to HTML files in a folder</div>
+		<input type="file" id="exportHTML" class="exportHTML" autocomplete="off" nwdirectory />
+	</label>
+	<label data-for="#exportODS" class="menuSelector" for="exportODS">
+		<img src="img/folder-ods.png" alt="csv" />
+		<h1 for="exportODS" data-tran="">Open Document Format/OASIS (.ods)</h1>
+		<div data-tran="">Export to ODS files in a folder</div>
+		<input type="file" id="exportODS" class="exportODS" autocomplete="off" nwdirectory />
+	</label>
+
+</div>
+
+<div id="dialogImport" data-tranattr="title" title="Import Project" class="dialog dialogImport dialogMenu">
+	<h1><a href="#" data-tran="">Select Import Mode</a></h1>
+
+	<label data-for="#importTrans" class="menuSelector"  for="importTrans">
+		<img src="img/tpp_files.png" alt="TPP files" />
+		<h1 for="#importTrans" data-tran="">Import translation from another .trans file</h1>
+		<div data-tran="">Open another Translator++ file<br />Apply translation into current project.</div>
+		<input type="file" id="importTrans" class="import" accept=".trans,application/trans"  autocomplete="off" />
+	</label>
+	<label class="menuSelector importSpreadsheet">
+		<img src="img/files_spreadsheet.png" alt="Spreadsheets" />
+		<h1 data-tran="">Import translation from spreadsheets</h1>
+		<div data-tran="">Import translation from various spreadsheets file<br />(.xls, .xlsx, .ods, .html, .xml, etc)</div>
+	</label>
+	<label class="menuSelector importRPGMTrans">
+		<img src="img/file_txt.png" alt="RPGMTransPatch" />
+		<h1 data-tran="">Import translation from RPGMakerTrans Patch format</h1>
+		<div data-tran="">Import translation from RPGMaker Trans' patch files<br />(.txt)</div>
+	</label>
+</div>
+<div id="dialogImportTrans" data-tranattr="title" title="Import .TRANS into project" class="dialog dialogImportTrans">
+	<h2 data-tran="">Source :</h2>
+	<div><a href="#" data-tran="">Select objects to import</a></div>
+	<div class="fileSelectorWrapper"></div>
+	<div class="tabWrapper">
+		<div class="selectorHead">
+			<h2 data-tran="">Import mode :</h2>
+			<form class="col-2">
+				<label class="flex"><input class="ImportTransImportMode importMode_translation" type="radio" name="importMode" value="0"/> <span data-tran="">Import translations</span></label>
+				<label class="flex"><input class="ImportTransImportMode importMode_object"type="radio" name="importMode" value="1"/> <span data-tran="">Import data object</span></label>
+				<label class="flex"><input class="ImportTransImportMode importMode_completeRow" type="radio" name="importMode" value="3"/> <span data-tran="">Import complete row data</span></label>
+			</form>
+		</div>
+		<div class="selectorBody tabWrapper" data-if="0">
+			<h2 data-tran="">Destination :</h2>
+			<div class="col-2">
+				<div>
+					<select class="destinationMode">
+						<option value="selected">Import to selected object</option>
+						<option value="all">Import to all object</option>
+					</select>
+				</div>
+				<div class="currentSelectionInfo">
+					<div data-for="selected">
+						<div data-tran="">Currently selected : </div>
+						<div class="destinationList"></div>
+					</div>
+					<div class="hidden" data-for="all">
+						⚠all files in this project will be translated regardless the selection.
+					</div>
+				</div>
+			</div>
+
+			<h2 data-tran="">Options :</h2>
+			<div class="col-3">
+				<div class="destinationFile">
+					<div><label><input type='checkbox' class='contextTranslation' /> <span data-tran="" title="Will import Translated by Context fields">Import the context translations</span></label></div>
+					<div><label><input type='checkbox' class='caseInsensitive' /> <span data-tran="" title="Case insensitive and ignores carriage returns">Case insensitive</span></label></div>
+				</div>
+				<div class="overwritTargetCol">
+					<label><input type='checkbox' class='overwriteTarget' /><span data-tran="">Overwrite target</span></label>
+				</div>
+				<div>
+					<label><span data-tran="">Destination column : </span><span class='selectRow'></span></label>
+				</div>
+			</div>
+
+			<h2 data-tran="">Translation mode :</h2>
+			<div class="col-3">
+				<div>
+					<label>
+						<select class="compareMode">
+							<option value="rowByRow" data-tran="">Row by row translation</option>
+							<option value="lineByLine" data-tran="">Line by line translation</option>
+							<option value="contextTrans" data-tran="">Select translation by context address</option>
+							<option value="copyByRow" data-tran="">Just copy translation into the same row (No checking)</option>
+						</select>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="selectorBody" data-if="1">
+			<h2 data-tran="">Destination :</h2>
+			<div>
+				<div data-tran="">Currently selected : </div>
+				<div class="destinationList"></div>
+			</div>
+			<h2 data-tran="">Options :</h2>
+			<div class="col-3">
+				<div>
+					<label>
+						<input type="checkbox" name="mergeData" class="mergeData" value="1" /><span data-tran="">Merge data</span>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="selectorBody" data-if="3">
+			<h2 data-tran="">Destination :</h2>
+			<div>
+				<div data-tran="">Currently selected : </div>
+				<div class="destinationList"></div>
+			</div>
+			<h2 data-tran="">What to import :</h2>
+			<div class="col-3">
+				<div>
+					<label><input type="checkbox" class="importCompleteRow_cells" checked /><span data-tran="">Cells (translation columns)</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="importCompleteRow_tags" checked /><span data-tran="">Tags</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="importCompleteRow_notes" checked /><span data-tran="">Notes (comments)</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="importCompleteRow_contextTrans" checked /><span data-tran="">Context translations</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="importCompleteRow_cellInfo" checked /><span data-tran="">Cell info</span></label>
+				</div>
+			</div>
+			<h2 data-tran="">Options :</h2>
+			<div>
+				<label><input type="checkbox" class="importCompleteRow_overwrite" /><span data-tran="">Overwrite existing content</span></label>
+			</div>
+			<div>
+				<label><input type="checkbox" class="importCompleteRow_crossMatch" /><span data-tran="">Cross match objects (match rows across different file objects)</span></label>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div id="dialogImportSpreadsheet" data-tranattr="title" title="Import Spreadsheet Options" class="dialog commonDialogImport dialogImportSpreadsheet">
+	<h2 class="info" data-tran="">Import translation from spreadsheet into project</h2>
+<p data-tran="">Import translation from any spreadsheet format (xls, xlsx, odx, html, csv, etc).</p>
+<div class="blockBox infoBlock withIcon" data-tran=""><b>The spreadsheet must have at least 2 columns.</b> The most important column is the first column (the leftmost column) containing the original texts. The following columns contain the translations. Translator++ will use the text in the rightmost cell that is not empty.</div>
+
+	<h2 data-tran="">Source :</h2>
+	<div data-tran="">Please click the radio button to select files/folder to import</div>
+	<div class="importSpreadsheetPathTypeWrapper commonDialogImportWrapper">
+		<label class="importSpreadsheetSelectorLabel commonDialogImportWrapperLabel" title="Click to select file(s)">
+			<div><input type="radio" name="importSpreadsheetPathType" value="0" class="importSpreadsheetPathType importSpreadsheetPathType_folder" id="importSpreadsheetPathType_folder">
+				<span data-tran="">Import file(s)</span>
+			</div>
+			<input type="file" id="importSpreadsheetFile" class="importSpreadsheet importSpreadsheetFile hidden" multiple="multiple" accept=".xls,.xlsx,.xml,.sylk,.csv,.ods,.html,.htm,application/msexcel" autocomplete="off"  />
+			<div class="selectedFileRemark"></div>
+		</label>
+		<label class="importSpreadsheetSelectorLabel commonDialogImportWrapperLabel" title="Click to select a folder">
+			<div><input type="radio" name="importSpreadsheetPathType" value="1" class="importSpreadsheetPathType importSpreadsheetPathType_file" id="importSpreadsheetPathType_file">
+				<span data-tran="">Import folder</span>
+			</div>
+			<input type="file" id="importSpreadsheetFolder" class="importSpreadsheet importSpreadsheetFolder hidden" nwdirectory autocomplete="off"  />
+			<div class="selectedFileRemark"></div>
+		</label>
+	</div>
+	<div class="fileSelectorWrapper"></div>
+	<h2 data-tran="">Destination :</h2>
+	<div class="col-2">
+		<div><label><span  class="nowrap" data-tran="">Destination column : </span><span class='targetCol'></span></label></div>
+		<div class="overwritTargetCol"><label><input type='checkbox' class='overwriteTarget' /><span>Overwrite target</span></label></div>
+	</div>
+	<!--
+	<h2>Options :</h2>
+	<div class="col-3">
+		<div>
+		
+			<label><span>Translation mode : </span>
+				<select class="compareMode">
+					<option value="0">Context by context translation</option>
+					<option value="1">Line by line translation</option>
+				</select>
+			</label>
+		
+		</div>
+	
+	</div>
+	-->
+</div>
+<div id="dialogImportRPGMTrans" data-tranattr="title" title="Import RPGMTransPatch Options" class="dialog commonDialogImport dialogImportRPGMTrans">
+	<p class="info" data-tran="">Import translation from RPG Maker Trans into project</p>
+	<h2 data-tran="">Source :</h2>
+	<div data-tran="">Please click the radio button to select files/folder to import</div>
+	<div class="importRPGMTransPathTypeWrapper commonDialogImportWrapper">
+		<label class="importRPGMTransSelectorLabel commonDialogImportWrapperLabel" title="Click to select file(s)">
+			<div><input type="radio" name="importRPGMTransPathType" value="0" class="importRPGMTransPathType importRPGMTransPathType_folder" id="importRPGMTransPathType_folder"> Import file(s)</div>
+			<input type="file" id="importRPGMTransFile" class="importRPGMTrans importRPGMTransFile hidden" multiple="multiple" accept="RPGMKTRANSPATCH,.txt,text/plain" autocomplete="off"  />
+			<div class="selectedFileRemark"></div>
+		</label>
+		<label class="importSpreadsheetSelectorLabel commonDialogImportWrapperLabel" title="Click to select a folder">
+			<div><input type="radio" name="importRPGMTransPathType" value="1" class="importRPGMTransPathType importRPGMTransPathType_file" id="importSpreadsheetPathType_file"> Import folder</div>
+			<input type="file" id="importRPGMTransFolder" class="importRPGMTrans importRPGMTransFolder hidden" nwdirectory autocomplete="off"  />
+			<div class="selectedFileRemark"></div>
+		
+		</label>
+	</div>
+	<div class="fileSelectorWrapper"></div>
+	<h2 data-tran="">Destination :</h2>
+	<div class="col-2">
+		<div><label><span data-tran="">Destination column : </span><span class='targetCol'></span></label></div>
+		<div class="overwritTargetCol"><label><input type='checkbox' class='overwriteTarget' /><span>Overwrite target</span></label></div>
+	</div>
+	<!--
+	<h2>Options :</h2>
+	<div class="col-3">
+		<div>
+		
+			<label><span>Translation mode : </span>
+				<select class="compareMode">
+					<option value="0">Context by context translation</option>
+					<option value="1">Line by line translation</option>
+				</select>
+			</label>
+		
+		</div>
+	
+	</div>
+	-->
+</div>
+
+<div id="dialogNewProject" data-tranattr="title" title="Start a new project" class="dialog dialogNewProject">
+	<div class="dialogSection" data-slideid="1">
+		<div>
+			<h1><a href="#" data-tran=""><i class="icon-tpp"></i><span data-tran="">Select project type</span></a></h1>
+			<div class="p-1">
+				<input type="search" class="p-05 display-2 search searchProjectType fullWidth" placeholder="Search project type..." data-tranattr="placeholder" />
+			</div>
+		</div>
+		<ul class="projectTypeList list p-1">
+			<li class="dialogSelection" data-gotoSlide="spreadsheet">
+				<div class="iconBar">
+					<img src="img/spreadsheets.png" alt="spreadsheets" />
+				</div>
+				<div class="descriptionBar">
+					<h2 data-tran="">Spreadsheet</h2>
+					<p data-tran="">Start a translation project from spreadsheet data (xls, xlsx, ods, xml, html, sylk, gnumeric, csv)<p>
+				</div>
+				<div class="actionBar">
+				</div>
+			</li>		
+			<li href="#" class="dialogSelection" data-gotoSlide="99">
+				<div class="iconBar">
+					<img src="img/blank.png" alt="blank" />
+				</div>
+				<div class="descriptionBar">
+					<h2 data-tran="">Blank project</h2>
+					<p data-tran="">Create a new .trans file from scratch.<p>
+				</div>
+				<div class="actionBar">
+				</div>
+			</li>
+		</ul>
+			
+	</div>
+	
+	<div class="dialogSection" data-slideid="99">
+		<h1 data-tran=""><i class="icon-plus-circled"></i><span data-tran="">Create a new Trans file</span></h1>
+		<form data-nosubmit="true" class="blankProject">
+			<div class="fieldgroup">
+				<h2 data-tran="">Title</h2>
+				<div data-tran="">The title of this project</div>
+				<label class="flex">
+					<input type="text" class="form-control fullWidth gameTitle" name="gameTitle" value="" />
+				</label>
+			</div>
+			<div class="fieldgroup">
+				<h2 data-tran="">Engine type</h2>
+				<div data-tran="">Type of the engine</div>
+				<label class="flex">
+					<input type="text" list="gameEngines" class="form-control fullWidth gameEngine" name="gameEngine" value="" />
+				</label>
+			</div>
+			<div class="actionButtons">
+				<button class="actionCreateNewTrans"><i class="icon-doc-inv"></i>Create a New Trans File</button>
+			</div>
+			
+		</form>
+	</div>
+
+	<div class="dialogSection" data-slideid="1000">
+		<h1 data-tran=""><i class="icon-plus-circled"></i><span data-tran="">Placeholder for something great at the near future!</span></h1>
+		<div class="fieldgroup">
+<span style="color:blue; font-weight:bold" data-tran="">This module will be created when the patron count reach 500!</span><br />
+Keep up with the development of Translator++ at <a href="http://dreamsavior.net" external>dreamsavior.net</a> or <a href="https://patreon.com/dreamsavior" external>patreon</a>. (maybe this feature is already available in the most recent update)<br />
+Also please consider to support this project by becoming a <a href="https://patreon.com/dreamsavior" external>patron</a>.
+		</div>
+	</div>
+
+</div>
+
+<div id="dialogProjectIsExist" data-tranattr="title" title="Project is exist" class="dialog dialogProjectIsExist">
+	<p data-tran="">
+		A project with the same title <br />"<span class="dialogGameTitle"></span>"<br /> is already exist on the post processed cache.<br />
+		You can re-use this cache to shorten loading time significantly.
+	</p>
+	<p data-tran="">If you are confused, you can always safely click <strong><a href="#">"Create new project"</a></strong> button. </p>
+	<h2 data-tran="">Existed cache</h2>
+	<ul class="existedCache"></ul>
+</div>
+
+
+<div id="dialogTranslateAll" data-tranattr="title" title="Batch translation" class="dialog dialogTranslateAll">
+	<h2 data-tran="">Select Translator</h2>
+	<div class="translatorSelection"><select class="translatorSelector"></select></div>
+	<div class="flex col-2">
+		<div class="fieldmember sourceCol">
+			<h2 data-tran="">Source column</h2>
+			<label class="columnSelector"></label>
+			<div class="smallInfo" data-tran="">Which column is the source text to translate for?<br />(default is key column / leftmost column).</div>
+		</div>
+		<div class="fieldmember">
+			<h2 data-tran="">Target column</h2>
+			<label class="targetCol"></label>
+			<div class="smallInfo" data-tran="">Which column is the translated text put into.<br />(Can not same with source column)</div>
+		</div>
+
+	</div>
+
+	<div class="options fieldgroup dialogSectionBlock batchTranslationOptions hidden">
+		<h2 data-tran="">Translator's Options</h2>
+		<div class="customField">
+
+		</div>
+	</div>
+
+	<div class="options fieldgroup dialogSectionBlock">
+		<h2 data-tran="">Options</h2>
+		<label class="flex fullWidth bottomSpace">
+			<div class="flexMain">
+				<div class="label" data-tran="">Also try to translate other object</div>
+				<div class="info" data-tran="">If this option is checked then Translator++ will also try to translate other objects that you did not select that doesn't require machine translation. This is the default behavior in Translator++ version 2.3.23 or lower.</div>
+			</div>
+			<div>
+				<input type="checkbox" name="translateOther" class="flipSwitch translateOther" value="1" /> 
+			</div>
+		</label>
+		<label class="flex fullWidth bottomSpace">
+			<div class="flexMain">
+				<div class="label" data-tran="">Ignore if already translated</div>
+				<div class="info" data-tran="">If this option is checked then Translator++ will ignore any row that already has translations on its column.</div>
+			</div>
+			<div>
+				<input type="checkbox" name="untranslatedOnly" class="flipSwitch untranslatedOnly" value="1" checked /> 
+			</div>
+		</label>
+		<label class="flex fullWidth bottomSpace">
+			<div class="flexMain">
+				<div class="label" data-tran="">Overwrite cells</div>
+				<div class="info" data-tran="">Overwrite target cells. If not checked, the cells will not be touched when not empty.</div>
+			</div>
+			<div>
+				<input type="checkbox" name="overwrite" class="flipSwitch overwrite" value="1" checked /> 
+			</div>
+		</label>
+		<label class="flex fullWidth bottomSpace">
+			<div class="flexMain">
+				<div class="label" data-tran="">Save project on each batch.</div>
+				<div class="info" data-tran="">Save your project on each batch completion.<br />This option is to avoid data loss when the application crashes due to running heavy tasks from the local translator application. You probably don't need this if you're running cloud based translator.</div>
+			</div>
+			<div>
+				<input type="checkbox" name="saveOnEachBatch" class="flipSwitch saveOnEachBatch" value="1" /> 
+			</div>
+		</label>
+		<label class="flex fullWidth bottomSpace">
+			<div class="flexMain">
+				<div class="label" data-tran="">Play sound when completed.</div>
+				<div class="info" data-tran=""></div>
+			</div>
+			<div>
+				<input type="checkbox" name="playSoundOnComplete" class="flipSwitch playSoundOnComplete" value="1" checked /> 
+			</div>
+		</label>
+
+	</div>
+
+	<div class="options fieldgroup">
+		<div class="fieldmember">
+			<h2 data-tran="">Tags</h2>
+			<div class="colorTagSelector"></div>
+		</div>
+	</div>
+</div>
+
+<div id="dialogProofreadAll" data-tranattr="title" title="Batch proofreading" class="dialog dialogTranslateAll">
+	<h2 data-tran="">Select Proofreader</h2>
+	<div class="translatorSelection"><select class="proofreaderSelector"></select></div>
+	<div class="flex col-2">
+		<div class="fieldmember sourceCol"><h2 data-tran="">Source column</h2><label class="columnSelector"></label></div>
+		<div class="fieldmember targetCol"><h2 data-tran="">Translation column</h2><label></label></div>
+	</div>
+	<div class="fieldmember destinationColField">
+		<h2 data-tran="">Proofread result column</h2>
+		<label class="destinationCol"></label>
+		<div class="smallInfo" data-tran="">Which column receives the corrected proofreading result?</div>
+	</div>
+	<div class="options fieldgroup dialogSectionBlock batchProofreadingOptions hidden"><h2 data-tran="">Proofreader's Options</h2><div class="customField"></div></div>
+	<div class="options fieldgroup dialogSectionBlock batchProofreadingAdditionalOptions hidden"><h2 data-tran="">Additional Options</h2><div class="customField"></div></div>
+	<div class="options fieldgroup dialogSectionBlock"><h2 data-tran="">Options</h2>
+		<label class="flex fullWidth bottomSpace"><div class="flexMain"><div class="label" data-tran="">Overwrite non-empty result cells</div><div class="info" data-tran="">If enabled, existing values in the selected result column will be replaced.</div></div><div><input type="checkbox" name="overwrite" class="flipSwitch overwrite" value="1" checked /></div></label>
+		<label class="flex fullWidth bottomSpace"><div class="flexMain"><div class="label" data-tran="">Ignore empty rows</div><div class="info" data-tran="">If enabled, rows without a translation in the selected translation column are skipped.</div></div><div><input type="checkbox" name="ignoreEmpty" class="flipSwitch ignoreEmpty" value="1" checked /></div></label>
+		<label class="flex fullWidth bottomSpace"><div class="flexMain"><div class="label" data-tran="">Save project on each batch</div><div class="info" data-tran="">Save the project after each completed proofreading batch.</div></div><div><input type="checkbox" name="saveOnEachBatch" class="flipSwitch saveOnEachBatch" value="1" /></div></label>
+		<label class="flex fullWidth bottomSpace"><div class="flexMain"><div class="label" data-tran="">Play sound when completed</div><div class="info" data-tran=""></div></div><div><input type="checkbox" name="playSoundOnComplete" class="flipSwitch playSoundOnComplete" value="1" checked /></div></label>
+	</div>
+	<div class="options fieldgroup"><h2 data-tran="">Tags</h2><div class="colorTagSelector"></div></div>
+</div>
+
+<div id="dialogContextTool" data-tranattr="title" title="Context Tool" class="dialog dialogContextTool">
+	<h2 data-tran="">Select Context(s)</h2>
+	<div class="contextSelectorWrapper"><select class="contextSelector" multiple></select></div>
+	<h2 data-tran="">Manual Query</h2>
+	<div>
+		<textarea class="contextSelectorText" data-tranattr="placeholder" placeholder="Your list of context separated by new line"></textarea>
+		<label><input type="checkbox" class="matchAll" /> <span data-tran="">Match all words</span></label><!-- <a href="docs/matchAllWord.html" class="icon dvIcon-help icon-help-circled" target="help"></a> -->
+	</div>
+	<h2 data-tran="">Action</h2>
+	<div class="contextAction col-2">
+		<label class="flex"><input type="radio" name="contectActionFld" class="actionRemoveSelected" value="actionRemoveSelected" /> <span data-tran="">Remove selected</span></label>
+		<label class="flex"><input type="radio" name="contectActionFld" class="actionRemoveButSelected" value="actionRemoveButSelected" /> <span data-tran="">Remove all but selected</span></label>
+	</div>
+</div>
+
+<div id="batchWraping" data-tranattr="title" title="Wrap text" class="dialog batchWraping">
+	<h2 data-tran="">Select Context</h2>
+	<div><select class="contextSelector" multiple></select></div>
+	<h2 data-tran="">Manual Query</h2>
+	<div><textarea class="contextSelectorText" placeholder="Your list of context separated by new line"></textarea></div>
+	<h2 data-tran="">Source Column</h2>
+	<div class="sourceCol"></div>
+	<h2 data-tran="">Target Column</h2>
+	<div class="targetCol"></div>
+	<h2 data-tran="">Maximum length</h2>
+	<div><input type="number" class="maxLength" min="5" value="41" /></div>
+	<div class="info"></div>
+</div>
+
+<div id="dialogExportPreparation" data-tranattr="title" title="Export Options" class="dialog dialogExportPreparation">
+	<div class="dialogSection targetPath">
+		<h2 data-tran="">Export into</h2>
+		<div class="">
+			<input type="text" readonly class="fullWidth exportPath" value="" />
+		</div>
+	</div>
+
+	<div class="dialogSection tagSelection">
+		<h1 data-tran="">What to do with tagged rows?</h1>
+
+		<h2 data-tran="">Select Color Tag</h2>
+		<div class="colorTagSelector">
+
+		</div>
+	</div>
+
+	<div class="dialogSection wordWrapByTag">
+		<h2 data-tran="">On the fly word wrap</h2>
+		<div class="wrapper">
+
+		</div>
+	</div>
+
+	<form class="customFields"></form>
+</div>
+
+
+<div id="dialogSetTags" data-tranattr="title" title="Tagging" class="dialog dialogSetTags">
+	<form>
+	<h2 data-tran="">Select Color Tag</h2>
+	<div class="colorTagSelector">
+
+	</div>
+	</form>
+</div>
+
+
+<div id="dialogInject" data-tranattr="title" title="Apply Translation" class="dialog dialogInject">
+	<form data-nosubmit="true">
+		<div class="blockBox warningBlock withIcon applyAllWarn hidden">
+			<h2 data-tran="">Inject all files (ignoring selection)</h2>
+			<div data-tran="">You're about to inject translation via <b>Inject all</b> button. This will inject translation regardless your selected object on the left pane. Use left pane's context menu if you want to inject selected object.</div>
+		</div>
+
+		<div class="sourceDir">
+			<h2 data-tran="">Select the source material to be translated</h2>
+			<div data-tran="">
+				Select the specific material or content you wish to translate, such as a file, directory, or other relevant input. Make sure the chosen material is accessible and appropriately formatted for the corresponding parser.<br />
+				By default, some parsers use the staging directory as the source material.
+			</div>
+			<label class="flex">
+				<input type="text" class="form-control fullWidth" name="injectSourceMaterial" value="" id="injectSourceMaterial" />
+				<button type="dvfile" title="Select File" data-target="#injectSourceMaterial" label="Select File(s)" class="injectFromFile" multiple="multiple" accept="*.*" autocomplete="off"  ><i class="icon-doc-inv"></i></button>
+				<button type="dvfile" title="Select a folder" data-target="#injectSourceMaterial" label="Select a directory" class="injectFromDir" nwdirectory autocomplete="off"  /><i class="icon-folder-open"></i></button>
+			</label>
+			<div class="tooltip sourceMaterialTooltip error icon-cancel-circled hidden" data-tran="">Path is inaccessible.</div>
+		</div>
+		
+		<div class="targetDir">
+			<h2 data-tran="">Target Directory</h2>
+			<div data-tran="">
+				A copy of your translated application will be generated in this folder.
+			</div>
+			<label>
+				<input type="dvSelectPath" nwdirectory class="form-control" name="injectDestFolder" value="" id="injectDestFolder" />
+			</label>
+			<div class="tooltip injectDestFolderTooltip error icon-cancel-circled hidden" data-tran="">Field can not be empty!</div>
+		</div>
+		
+
+		<div class="targetExe hidden">
+			<h2 data-tran="">Target to apply translation</h2>
+			<div data-tran="">
+				Please select executable file.
+			</div>
+			<label>
+				<input type="dvSelectPath" class="form-control" name="injectDestExe" value="" id="injectDestExe" accept=".exe" />
+			</label>
+			<div class="tooltip injectDestFolderTooltip error icon-cancel-circled hidden" data-tran="">Field can not be empty!</div>
+		</div>
+		
+		<div class="customContent">
+
+		</div>
+
+
+		
+		<div class="options">
+			<h1 data-tran="">Options</h1>
+			<div class="dialogSectionBlock copyOptionsBlock hidden originalField">
+				<h2 data-tran="">Copy materials</h2>
+				<div class="info" data-tran="">The copying options from Source Material to Target Directory. (experimental, not all engines are supported)</div>
+				<label class="">
+					<select class="fullWidth copyOptions" data-fld="copyOptions">
+						<option value="">Default</option>
+						<option value="copyEverything">Copy everything overwrites target directory</option>
+						<option value="copyNothing">Do not copy materials, inject translation only</option>
+						<option value="copyIfNotExist">Copy materials only if target files are not exist</option>
+					</select>
+				</label>
+			</div>
+			<div class="dialogSectionBlock originalField">
+				<h2 data-tran="">Tags</h2>
+				<div class="colorTagSelector"></div>
+			</div>
+			<div class="dialogSectionBlock wordWrapByTag originalField">
+				<h2 data-tran="">Word Wrap by Tags</h2>
+				<div class="wrapper"></div>
+			</div>
+		
+		</div>
+	</form>
+
+	<form action="" class="customFields"></form>
+
+</div>
+
+<div id="dialogAddObject" data-tranattr="title" title="Add new Object" class="dialog dialogAddObject">
+	<form data-nosubmit="true">
+		<div>
+			<h2 data-tran="">Directory name</h2>
+			<div data-tran="">
+				The object will be grouped under this directory.<br />
+				Enter star "<code>*</code>" to add a new <b>reference object</b>.
+			</div>
+			<label class="flex">
+				<input type="text" list="directoryList" class="form-control fullWidth" name="addObjDirName" value="" id="addObjDirName" />
+			</label>
+			<div class="tooltip addObjDirName_tooltip error icon-cancel-circled hidden" data-tran="">Invalid directory  name</div>
+		</div>
+		<div>
+			<h2 data-tran="">Object name</h2>
+			<div data-tran="">
+				The name of the object.
+			</div>
+			<label class="flex">
+				<input type="text" list="specialObjectNames" class="form-control fullWidth" name="addObjName" value="" id="addObjName" />
+			</label>
+			<div class="tooltip addObjDirName_tooltip error icon-cancel-circled hidden" data-tran="">Invalid object name</div>
+		</div>
+		<datalist id="specialObjectNames">
+			<option value="Common Reference"></option>
+			<option value="Actor Reference"></option>
+		</datalist>
+		<!--
+		<div class="options">
+			<h1 data-tran="">Options</h1>
+			<h2 data-tran="">Tags</h2>
+			<div class="colorTagSelector"></div>
+		
+		</div>
+		-->
+	</form>
+</div>
+
+
+<datalist id="directoryList">
+</datalist>
+<datalist id="gameEngines">
+</datalist>
+<datalist id="translatorEngines">
+</datalist>
+<datalist id="languages">
+</datalist>
+
+</div><!-- template -->
+
+
+
+
+
+
+
+<ul id="mainMenu" class="hidden">
+  <li data-delegate=".button-new">
+    <div data-tran="">New Project</div>
+  </li>
+  <li data-delegate=".button-save">
+    <div data-tran="">Save</div>
+  </li>
+  <li data-delegate=".button-save-as">
+    <div data-tran="">Save as...</div>
+  </li>
+  <li data-delegate=".button-open">
+    <div data-tran="">Open...</div>
+  </li>
+  <li class="recentFiles" data-menuid="recent">
+	<div data-tran="">Recent</div>
+	<ul>
+		<li class="recentFile ui-state-disabled" data-initiate='openHistory'><div data-tran="">None...</div></li>
+	</ul>
+  </li>
+  <li>-</li>
+  <li data-menuid="export">
+    <div data-tran="">Export Project</div>
+    <ul>
+      <li data-delegate="#exportDir">
+        <div data-tran="">To a folder</div>
+      </li>
+      <li data-delegate="#export">
+        <div data-tran="">As a zip file</div>
+      </li>
+      <li data-delegate="#exportTpp">
+        <div data-tran="">To portable .tpp file</div>
+      </li>
+      <li data-delegate="#exportTrans">
+        <div data-tran="">To RPGMakerTrans file (*.txt)</div>
+      </li>
+      <li data-delegate="#exportCSV">
+        <div data-tran="">To CSV file</div>
+      </li>
+      <li data-delegate="#exportXLSX">
+        <div data-tran="">To XLSX file</div>
+      </li>
+      <li data-delegate="#exportXLS">
+        <div data-tran="">To XLS file</div>
+      </li>
+      <li data-delegate="#exportODS">
+        <div data-tran="">To ODS file</div>
+      </li>
+      <li data-delegate="#exportHTML">
+        <div data-tran="">To HTML file</div>
+      </li>
+    </ul>
+  </li>
+  
+  <li data-menuid="import">
+    <div data-tran="">Import</div>
+    <ul>
+      <li data-delegate="#importTpp">
+        <div data-tran="">Project from .tpp file</div>
+      </li>
+      <li data-delegate="#importTrans">
+        <div data-tran="">Translation from .trans file</div>
+      </li>
+      <li data-initiate="importSpreadsheet">
+        <div data-tran="">Translation Spreadsheet</div>
+      </li>
+      <li data-initiate="importRPGMTrans">
+        <div data-tran="">Translation RPGMKTRANSPATCH Format</div>
+      </li>
+	</ul>
+  </li>
+
+  <li>
+    <div>-</div>
+  </li>
+
+  <li data-menuid="automation">
+    <div data-tran="">Automation</div>
+    <ul>
+      <li data-delegate=".menu-button.batch-translate">
+        <div data-tran="">Batch translation</div>
+      </li>
+      <li data-initiate="contextTool">
+        <div data-tran="">Context tool</div>
+      </li>
+      <li data-initiate="wordwrap">
+        <div data-tran="">Batch word wrapping</div>
+      </li>
+      <li data-initiate="trim">
+        <div data-tran="">Trim</div>
+      </li>
+      <li data-initiate="padding">
+        <div data-tran="">Auto padding</div>
+      </li>
+    </ul>
+  </li>
+
+  <li data-menuid="tools">
+	  <div data-tran="">Tools</div>
+  	<ul>
+	</ul>
+  </li>
+
+  <li>
+    <div>-</div>
+  </li>
+  <li data-delegate=".button-options" data-menuid="options">
+    <div data-tran="">Options</div>
+  </li>
+  <li class="checkThirdParty" data-menuid="thirdParty">
+    <div data-tran="">Third Party Application Installer</div>
+  </li>
+  <li>
+    <div>-</div>
+  </li>
+  <li data-initiate="closeProject">
+    <div data-tran="">Close project</div>
+  </li> 
+  <li data-initiate="exit">
+    <div data-tran="">Exit</div>
+  </li>  
+</ul>
+
+
+<!-- intro window -->
+<div class="introWindow" id="introWindow">
+	<a href="#" class="closeIntroWindow"><i class="icon-cancel-circled"></i></a>
+	<div class="introWindowRow child-2">
+		<div class="introWindowColumn">
+			<div>
+				<h1 class="icon-tpp" data-tran="">Start here</h1>
+				<div class="newProject buttonBox">
+					<i class='icon-angle-right'></i>
+					<span class="buttonBoxLabel" data-tran="">Start a New Project</span>
+				</div>
+			</div>
+			<div>
+				<h1 class="icon-folder-open" data-tran="">Continue your work</h1>		
+				<div class="openProject buttonBox">
+					<i class='icon-angle-right'></i>
+					<span class="buttonBoxLabel" data-tran="">Open Project</span>
+				</div>
+			</div>
+		</div>
+		<div class="introWindowColumn">
+			<div>
+				<h1 class="icon-star" data-tran="">Your recent translation</h1>		
+				<ul class="recentProject">
+					<li><img class="tpp-loading" src="img/tpp-loading-inf.svg" alt="loading..." /></li>
+				</ul>
+			</div>		
+		</div>
+	</div>
+	<div class="introWindowRow">
+		<div class="introWindowColumn">
+			<h1 class="icon-info-circled-1" data-tran="">Tips for you</h1>		
+			<div class="tipsContent"></div>
+			<div class="tipsNavigator"><a class="nextTips" href="#" data-tran="">Next tip! <span class="icon-angle-double-right"></span></a></div>
+		</div>		
+	</div>	
+
+</div>
+
+<div class="tipsPlaceHolder hidden">
+	<div data-tran="">The rightmost cell in a row will get the priority.</div>
+	<div data-tran="">You can't share your project with others with just a trans file. You need to generate a TPP file.</div>
+	<div data-tran="">Always make backups of your trans files.</div>
+	<div data-tran="">You can rename and reorder the column with the coulumn header's context menu.</div>
+	<div data-tran="">Always backup your game before working with Translator++!</div>
+	<div data-tran="">If you encountered a feature that is not running normally, try restarting Translator++, it will fix the problem in the most cases.</div>
+	<div data-tran="">Always create a backup of your game before patching with a translation.</div>
+	<div data-tran="">Thank you for supporting Translator++.</div>	
+	<div>
+		<span data-tran="">Please check Translator++'s online documentation at</span> <a class="externalLink" href="http://dreamsavior.net">dreamsavior.net</a>
+	</div>	
+</div>
+
+
+<!-- overlays -->
+
+
+<div id="loadingOverlay" class="hidden">
+    <div class="loadingInfo consoleWrapper"><div class="console"></div></div>
+    <div class="loadingStatus"></div>
+    <div class="loadingBar">
+        <div class="loadingBarProgress"></div>
+        <div class="loadingBarOverlay">0</div> 
+    </div>
+	<div class="loadingBarButtons"></div>
+</div>
+<div id="busyOverlay" class="pitchBlack" >
+	<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	<div class="loading-text" data-tran="">working</div>
+</div>
+<div id="textSlider" class="hidden">
+	<datalist id="tickmarks">
+	  <option value="100" label="100%">
+	</datalist>
+	<input type="text" value="100%" class="textResizeValue" /><button>-</button><input type="range" value="100" step="10" max="200" min="50" class="textResizer" list="tickmarks" /><button>+</button>
+</div>
+<div id="gridDisabler" class="hidden"></div>
+
+</div> <!-- application wrapper -->
+
+<script>
+	var win = win||nw.Window.get();
+	var appMinimize = function() {
+		win.minimize();
+	}
+	var appMaximize = function() {
+		win.maximize();
+	}
+	var appRestore = function() {
+		win.restore();
+	}
+	var appClose = function() {
+		win.close();
+	}
+
+
+	var isMaximized;
+	try {
+		if (win.cWindow.state == "maximized") {
+			isMaximized = true;
+			if (!chrome.app.window.current()) {
+				// work around for maximized display bug on startup on NW2
+				(async () =>{
+					win.minimize();
+					await new Promise(resolve => setTimeout(resolve, 100));
+					win.maximize();
+				})();
+
+			}
+
+		} else {
+			isMaximized = false;
+		}
+		//isMaximized = chrome.app.window.current().isMaximized();
+		console.log("isMaximized", isMaximized);
+	} catch (e) {
+		isMaximized = false;
+		if(localStorage.getItem("windowState") == "maximized") isMaximized = true;
+	}
+
+	if (isMaximized) {
+		$(".applicationBar .appbarIcon-maximize").addClass("hidden");
+		$(".applicationBar .appbarIcon-restore").removeClass("hidden");
+	} else {
+		$(".applicationBar .appbarIcon-maximize").removeClass("hidden");
+		$(".applicationBar .appbarIcon-restore").addClass("hidden");
+	}
+
+
+	win.on("restore", function() {
+		$(".applicationBar .appbarIcon-maximize").removeClass("hidden");
+		$(".applicationBar .appbarIcon-restore").addClass("hidden");
+		localStorage.setItem("windowState", "restored");
+	})
+	win.on("maximize", function() {
+		$(".applicationBar .appbarIcon-maximize").addClass("hidden");
+		$(".applicationBar .appbarIcon-restore").removeClass("hidden");
+		localStorage.setItem("windowState", "maximized");
+
+	})
+	win.on("minimize", function() {
+		localStorage.setItem("windowState", "minimized");
+	})
+
+</script>
+
+	</body>
+</html>

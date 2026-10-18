@@ -1,0 +1,14 @@
+{
+  "ScriptParser": {
+    "constructor": {
+      "ScriptParser": {
+        "signature": "new ScriptParser()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new ScriptParser()"
+      }
+    }
+  }
+}

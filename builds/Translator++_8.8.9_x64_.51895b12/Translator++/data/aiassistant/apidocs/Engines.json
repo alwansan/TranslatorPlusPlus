@@ -1,0 +1,27 @@
+{
+  "Engines": {
+    "constructor": {
+      "Engines": {
+        "signature": "new Engines(name, options)",
+        "description": "Collection of engine",
+        "parameters": [
+          {
+            "name": "name",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new Engines(name, options)"
+      }
+    }
+  }
+}

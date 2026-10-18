@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: uiTags.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"0","tags":null}
+#. tid/55/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:0"
+msgid "Do not process row with selected tag (blacklist)"
+msgstr "Không xử lý hàng có thẻ đã chọn (danh sách đen)"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"1","tags":null}
+#. tid/60/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:1"
+msgid "Only process row with selected tag (whitelist)"
+msgstr "Chỉ xử lý hàng có thẻ đã chọn (danh sách trắng)"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"2","tags":null}
+#. tid/65/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:2"
+msgid "Ignore tag"
+msgstr "Bỏ qua thẻ"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"3","tags":null}
+#. tid/410/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:3"
+msgid "Load last selection"
+msgstr "Tải lựa chọn cuối cùng"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"4","tags":null}
+#. tid/415/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:4"
+msgid "Reset"
+msgstr "Đặt lại"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"5","tags":null}
+#. tid/2085/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:5"
+msgid "Cancel"
+msgstr "Hủy"
+
+# {"path":"/addons/basicUtils/utils/uiTags.js","row":"6","tags":null}
+#. tid/2137/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/uiTags.js:6"
+msgid "Confirm"
+msgstr "Xác nhận"

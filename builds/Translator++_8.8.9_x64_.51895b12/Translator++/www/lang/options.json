@@ -1,0 +1,53 @@
+{
+	"default": {
+		"name": "English"
+	},
+	"zh": {
+		"name": "Chinese Simplified (简体中文)",
+		"location": "lang/zh.trans"
+	},
+	"id": {
+		"name": "Indonesia (Bahasa Indonesia)",
+		"location": "lang/id.trans"
+	},
+	"ja": {
+		"name": "Japanese (日本語)",
+		"location": "lang/ja.trans"
+	},
+	"ko": {
+		"name": "Korean (한국어)",
+		"location": "lang/ko.trans"
+	},
+	"ru": {
+		"name": "Russian (Русский)",
+		"location": "lang/ru.trans"
+	},
+	"pt": {
+		"name": "Portuguese (Português)",
+		"location": "lang/pt.trans"
+	},
+	"es-mx": {
+		"name": "Mexican Spanish (Español Mexicano)",
+		"location": "lang/es-mx.trans"
+	},
+	"es-ve": {
+		"name": "Spanish-Venezuela",
+		"location": "lang/es-ve.trans"
+	},
+	"ar": {
+		"name": "Arabic (عربي)",
+		"location": "lang/ar.trans"
+	},
+	"zh-hant": {
+		"name": "Chinese Traditional (正體字)",
+		"location": "lang/zh-hant.trans"
+	},
+	"vi": {
+		"name": "Vietnamese (Tiếng Việt)",
+		"location": "lang/vi.trans"
+	},
+	"tr": {
+		"name": "Turkish (Türkçe)",
+		"location": "lang/tr.trans"
+	}
+}

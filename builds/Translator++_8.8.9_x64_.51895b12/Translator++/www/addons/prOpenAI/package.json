@@ -1,0 +1,18 @@
+{
+    "name": "prOpenAI",
+    "title": "OpenAI Proofreader",
+    "description": "AI-based proofreading (fix grammar, formatting, line breaks, and inline game tags) using any OpenAI-compatible chat completion API.",
+    "main": "proofreader.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.3",
+    "author": {
+        "name": "Dreamsavior",
+        "email": "dreamsavior@gmail.com"
+    },
+    "autoload": false,
+    "load": [
+        "options.js",
+        "proofreader.js"
+    ],
+    "minimumVersion": "8.7.20"
+}

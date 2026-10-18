@@ -1,0 +1,16 @@
+{
+    "name": "vntextpatch",
+	"title" : "VN Translation Tools",
+    "description": "ArcGameEngine, Ethornell, CatSystem2, Cyberworks C,system, Musica, Kirikiri, Propeller, RealLive, Ren'Py, ShSystem, Qlie, SystemNNN, WillPlus AdvHD, YU-RIS Visual novel support via VNTextPatch",
+    "main": "vntextpatch.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.14",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"icon":"icon.png",
+	"autoload" : false,
+	"load":["vntextpatch.js", "VNJson.js"],
+	"minimumVersion" : "8.6.3"
+}

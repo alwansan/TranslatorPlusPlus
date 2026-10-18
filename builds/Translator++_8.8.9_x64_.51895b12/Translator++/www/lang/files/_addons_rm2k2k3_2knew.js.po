@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 2knew.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/rm2k2k3/2knew.js","row":"0","tags":null}
+#. tid/3902/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2knew.js:0"
+msgid "Start translation from RM2k / RM2k3 engine"
+msgstr "Bắt đầu dịch từ engine RM2k / RM2k3"
+
+# {"path":"/addons/rm2k2k3/2knew.js","row":"1","tags":null}
+#. tid/3971/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2knew.js:1"
+msgid "Create project"
+msgstr "Tạo dự án"
+
+# {"path":"/addons/rm2k2k3/2knew.js","row":"2","tags":null}
+#. tid/4041/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2knew.js:2"
+msgid "Please select RPG Maker 2000/2003 game!"
+msgstr "Vui lòng chọn game RPG Maker 2000/2003!"
+
+# {"path":"/addons/rm2k2k3/2knew.js","row":"3","tags":null}
+#. tid/4450/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2knew.js:3"
+msgid ""
+"Unable to detect RPG Maker type!\n"
+"Are you sure the game is RPG Maker 2000 / 2003?"
+msgstr ""
+"Không thể phát hiện loại RPG Maker!\n"
+"Bạn có chắc game này là RPG Maker 2000 / 2003 không?"

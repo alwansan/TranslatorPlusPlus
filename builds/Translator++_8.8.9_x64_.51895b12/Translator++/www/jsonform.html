@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet" />
+
+<script>
+    var $ = require('jquery');
+    window.jQuery = $;
+
+    const Logger = require('www/js/Logger.js');
+    var logger = new Logger({file:"data/logs/jsonform.log"});
+    logger.loadState();
+
+    var LT = require("light-trans");
+    var lt = new LT({
+        recordMode:false,
+        listener:"t"
+    });
+</script>
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+<script type="text/javascript" src="modules/json2.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="js/DVField.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+
+<script type="text/javascript" src="js/consts.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="modules/jquerytextcomplete/dist/jquery.textcomplete.js"></script>
+
+<script type="text/javascript" src="modules/jsonform/deps/underscore.js"></script>
+<script type="text/javascript" src="modules/jsonform/deps/opt/jsv.js"></script>
+<script type="text/javascript" src="modules/jsonform/lib/jsonform.js"></script>
+<script type="text/javascript" src="js/options.js"></script>
+<script type="text/javascript" src="js/jsonformWindow.js"></script>
+
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+-->
+<link type="text/css" href="css/bootstrapparts.css" rel="stylesheet" media="screen">
+
+<link type="text/css" href="css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/translator.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/options.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/dvField.css" rel="stylesheet" media="screen">
+
+
+<link type="text/css" href="css/editor.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="js/minieditor.js"></script>
+<script src="/www/modules/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+
+
+<title>Options - Translator++</title>
+
+<head>
+
+<body data-window="jsonform">
+<h1>Form</h1>
+<form id="mainForm"></form>
+</body>
+</html>

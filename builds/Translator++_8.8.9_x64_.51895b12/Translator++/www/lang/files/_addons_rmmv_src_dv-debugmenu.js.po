@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dv-debugmenu.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/rmmv/src/dv-debugmenu.js","row":"0","tags":null}
+#. tid/22924/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/src/dv-debugmenu.js:0"
+msgid "This feature only available if you are using developer version of NW.js."
+msgstr "Tính năng này chỉ khả dụng nếu bạn đang sử dụng phiên bản nhà phát triển của NW.js."

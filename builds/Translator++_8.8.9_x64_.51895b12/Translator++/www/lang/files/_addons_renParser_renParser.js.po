@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: renParser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/renParser/renParser.js","row":"0","tags":null}
+#. tid/6255/type/StringLiteral
+#. tid/11918/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:0"
+msgid ""
+"Dev path is not defined.\n"
+"You should inject your game once to generate dev path."
+msgstr ""
+"Đường dẫn dev chưa được xác định.\n"
+"Bạn nên tiêm trò chơi một lần để tạo đường dẫn dev."
+
+# {"path":"/addons/renParser/renParser.js","row":"1","tags":null}
+#. tid/10916/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:1"
+msgid "Decompile all rpyc files"
+msgstr "Giải biên dịch tất cả tệp rpyc"
+
+# {"path":"/addons/renParser/renParser.js","row":"2","tags":null}
+#. tid/10921/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:2"
+msgid "Attempt to decompile all rpyc files into .rpy.<br />Translator++ has its own decompiler. But it is reported that sometimes it fails to decompile some of the games created with Renpy 7. You can leave this field unchecked and decompile the game yourself with your own tools before starting a project."
+msgstr "Thử giải biên dịch tất cả tệp rpyc thành .rpy.<br />Translator++ có trình giải biên dịch riêng. Nhưng có báo cáo rằng đôi khi nó không thể giải biên dịch một số trò chơi được tạo với Renpy 7. Bạn có thể để trường này không chọn và tự giải biên dịch trò chơi bằng công cụ của mình trước khi bắt đầu dự án."
+
+# {"path":"/addons/renParser/renParser.js","row":"3","tags":null}
+#. tid/10926/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:3"
+msgid "Overwrite rpy"
+msgstr "Ghi đè rpy"
+
+# {"path":"/addons/renParser/renParser.js","row":"4","tags":null}
+#. tid/10931/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:4"
+msgid "If checked then the decompiler <b>will overwrite the existing uncompiled rpy files</b>."
+msgstr "Nếu được chọn thì trình giải biên dịch <b>sẽ ghi đè các tệp rpy chưa biên dịch hiện có</b>."
+
+# {"path":"/addons/renParser/renParser.js","row":"5","tags":null}
+#. tid/10936/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:5"
+msgid "Exclude command"
+msgstr "Loại trừ lệnh"
+
+# {"path":"/addons/renParser/renParser.js","row":"6","tags":null}
+#. tid/10941/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:6"
+msgid "This option will allow us to skip some command for being processed and translated"
+msgstr "Tùy chọn này sẽ cho phép chúng ta bỏ qua một số lệnh để xử lý và dịch"
+
+# {"path":"/addons/renParser/renParser.js","row":"7","tags":null}
+#. tid/10946/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:7"
+msgid "Separate entries with a space"
+msgstr "Phân tách các mục bằng dấu cách"
+
+# {"path":"/addons/renParser/renParser.js","row":"8","tags":null}
+#. tid/10951/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:8"
+msgid "For example, if you put <b>old</b> then all lines in rpy that started with <b>old</b> will be ignored"
+msgstr "Ví dụ, nếu bạn đặt <b>old</b> thì tất cả dòng trong rpy bắt đầu bằng <b>old</b> sẽ bị bỏ qua"
+
+# {"path":"/addons/renParser/renParser.js","row":"9","tags":null}
+#. tid/11291/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:9"
+msgid "Are you sure want to start a project without decompiling the rpyc files?"
+msgstr "Bạn có chắc muốn bắt đầu dự án mà không giải nén các tệp rpyc?"
+
+# {"path":"/addons/renParser/renParser.js","row":"10","tags":null}
+#. tid/11456/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:10"
+msgid ""
+"The file you're selected is not a Ren'Py game executable file.\n"
+"Do you want to continue anyway?"
+msgstr ""
+"Tệp bạn đã chọn không phải là tệp thực thi trò chơi Ren'Py.\n"
+"Bạn có muốn tiếp tục không?"
+
+# {"path":"/addons/renParser/renParser.js","row":"11","tags":null}
+#. tid/11869/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:11"
+msgid "Play last build"
+msgstr "Chơi bản dựng cuối cùng"
+
+# {"path":"/addons/renParser/renParser.js","row":"12","tags":null}
+#. tid/11970/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:12"
+msgid "Open Ren'Py documentation"
+msgstr "Mở tài liệu Ren'Py"
+
+# {"path":"/addons/renParser/renParser.js","row":"13","tags":null}
+#. tid/12146/type/StringLiteral
+msgctxt "tpp:/addons/renParser/renParser.js:13"
+msgid ""
+"The option has been set to use the legacy parser.\n"
+"You can switch back to the new parser anytime via option menu."
+msgstr ""
+"Tùy chọn đã được đặt để sử dụng trình phân tích cũ.\n"
+"Bạn có thể chuyển lại sang trình phân tích mới bất cứ lúc nào qua menu tùy chọn."

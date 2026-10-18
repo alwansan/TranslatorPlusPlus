@@ -1,0 +1,21 @@
+{
+    "name": "sugoitrans",
+	"title" : "Sugoi Translator",
+    "description": "Sugoi Translator support for Translator++. Sugoi Japanese Translator is an offline Japanese-English translator that uses CNN deep learning trained with many visual novels and modern Japanese literary works. \nVisit the creator's project on github here: https://github.com/leminhyen2/Sugoi-Japanese-Translator \nInstalation guide here: https://www.youtube.com/watch?v=r8xFzVbmo7k",
+    "main": "sugoiTrans.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.9",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"load": [
+		"utils.js",
+		"sugoiTrans.js"
+		
+	],
+	"minimumVersion" : "7.7.7",
+	"icon": "icon.png"
+
+}

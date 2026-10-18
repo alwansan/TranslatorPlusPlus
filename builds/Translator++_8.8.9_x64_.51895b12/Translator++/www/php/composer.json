@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.0",
+        "league/csv": "9.16.0"
+    }
+}

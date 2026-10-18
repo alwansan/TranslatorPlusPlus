@@ -1,0 +1,14 @@
+{
+  "ThreadHost": {
+    "constructor": {
+      "ThreadHost": {
+        "signature": "new ThreadHost()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new ThreadHost()"
+      }
+    }
+  }
+}

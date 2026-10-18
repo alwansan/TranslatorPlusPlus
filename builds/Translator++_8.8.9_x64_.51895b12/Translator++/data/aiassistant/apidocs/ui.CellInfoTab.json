@@ -1,0 +1,14 @@
+{
+  "CellInfoTab": {
+    "constructor": {
+      "CellInfoTab": {
+        "signature": "new CellInfoTab()",
+        "description": "Class for handling Cell Info Tab\n(Bottom left window section)",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new CellInfoTab()"
+      }
+    }
+  }
+}

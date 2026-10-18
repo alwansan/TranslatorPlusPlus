@@ -1,0 +1,20 @@
+{
+    "name": "kagParser",
+	"title": "KiriKiri Adventure Game Parser",
+    "description": "Javascript parser for KiriKiri - KAG engines",
+    "main": "kagParser.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "1.17",
+	"license": "CC BY-NC-SA",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+    "exclude": [
+        "test/**/*.*"
+    ],	
+	"autoload" : false,
+	"minimumVersion": "8.5.25",
+	"load":["kagParser.js"]
+}

@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTMLPacker.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"0","tags":null}
+#. tid/86/type/StringLiteral
+#. tid/4136/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:0"
+msgid "Path is not a file:"
+msgstr "Đường dẫn không phải là tệp:"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"1","tags":null}
+#. tid/116/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:1"
+msgid "Icon path is not a file:"
+msgstr "Đường dẫn biểu tượng không phải là tệp:"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"2","tags":null}
+#. tid/151/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:2"
+msgid "Path is not an exe file:"
+msgstr "Đường dẫn không phải là tệp exe:"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"3","tags":null}
+#. tid/186/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:3"
+msgid "Icon path is not an ico file:"
+msgstr "Đường dẫn biểu tượng không phải là tệp ico:"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"4","tags":null}
+#. tid/2424/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:4"
+msgid "Html entry point"
+msgstr "Điểm nhập Html"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"5","tags":null}
+#. tid/2434/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:5"
+msgid "Select the html entry point file (usually index.html)"
+msgstr "Chọn tệp điểm nhập html (thường là index.html)"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"6","tags":null}
+#. tid/2474/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:6"
+msgid "Destination folder"
+msgstr "Thư mục đích"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"7","tags":null}
+#. tid/2484/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:7"
+msgid "Select destination folder. The process will replace the existing files."
+msgstr "Chọn thư mục đích. Quá trình sẽ thay thế các tệp hiện có."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"8","tags":null}
+#. tid/2524/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:8"
+msgid "NWJS version"
+msgstr "Phiên bản NWJS"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"9","tags":null}
+#. tid/2534/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:9"
+msgid "Optional. Select NWJS version and architecture.<br />Latest version not always better, just use what works for you."
+msgstr "Tùy chọn. Chọn phiên bản NWJS và kiến trúc.<br />Phiên bản mới nhất không phải lúc nào cũng tốt hơn, chỉ cần dùng cái phù hợp với bạn."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"10","tags":null}
+#. tid/2587/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:10"
+msgid "Application ID"
+msgstr "ID ứng dụng"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"11","tags":null}
+#. tid/2597/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:11"
+msgid "Set the application ID for the game. The ID must be in lowercase and can only contain letters, numbers, and underscores."
+msgstr "Đặt ID ứng dụng cho trò chơi. ID phải viết thường và chỉ được chứa chữ cái, số và dấu gạch dưới."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"12","tags":null}
+#. tid/2631/type/StringLiteral
+#. tid/3795/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:12"
+msgid "Application description"
+msgstr "Mô tả ứng dụng"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"13","tags":null}
+#. tid/2641/type/StringLiteral
+#. tid/3805/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:13"
+msgid "Set the application description for the game."
+msgstr "Đặt mô tả ứng dụng cho trò chơi."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"14","tags":null}
+#. tid/2675/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:14"
+msgid "Window title"
+msgstr "Tiêu đề cửa sổ"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"15","tags":null}
+#. tid/2685/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:15"
+msgid "Set the default window title for the game.<br />This value may be overridden by the game engine."
+msgstr "Đặt tiêu đề cửa sổ mặc định cho trò chơi.<br />Giá trị này có thể bị ghi đè bởi engine trò chơi."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"16","tags":null}
+#. tid/2722/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:16"
+msgid "Window width"
+msgstr "Chiều rộng cửa sổ"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"17","tags":null}
+#. tid/2732/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:17"
+msgid "Set the default window width for the game."
+msgstr "Đặt chiều rộng cửa sổ mặc định cho trò chơi."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"18","tags":null}
+#. tid/2766/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:18"
+msgid "Window height"
+msgstr "Chiều cao cửa sổ"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"19","tags":null}
+#. tid/2776/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:19"
+msgid "Set the default window height for the game."
+msgstr "Đặt chiều cao cửa sổ mặc định cho trò chơi."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"20","tags":null}
+#. tid/2810/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:20"
+msgid "Full screen"
+msgstr "Toàn màn hình"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"21","tags":null}
+#. tid/2820/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:21"
+msgid "Set the game to start in full screen mode."
+msgstr "Đặt trò chơi khởi động ở chế độ toàn màn hình."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"22","tags":null}
+#. tid/2854/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:22"
+msgid "Resizable"
+msgstr "Có thể thay đổi kích thước"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"23","tags":null}
+#. tid/2864/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:23"
+msgid "Set the game window to be resizable."
+msgstr "Đặt cửa sổ trò chơi có thể thay đổi kích thước."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"24","tags":null}
+#. tid/2899/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:24"
+msgid "Game icon"
+msgstr "Biểu tượng trò chơi"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"25","tags":null}
+#. tid/2909/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:25"
+msgid "Select the icon file for the game executable. The icon file must be in .ico format. The icon will be embedded in the game executable."
+msgstr "Chọn tệp biểu tượng cho tệp thực thi trò chơi. Tệp biểu tượng phải ở định dạng .ico. Biểu tượng sẽ được nhúng vào tệp thực thi trò chơi."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"26","tags":null}
+#. tid/2950/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:26"
+msgid "Through this form, you can create a playable package of your game. <br />The process will replace the existing files in the destination folder."
+msgstr "Thông qua biểu mẫu này, bạn có thể tạo một gói trò chơi có thể chơi được. <br />Quá trình sẽ thay thế các tệp hiện có trong thư mục đích."
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"27","tags":null}
+#. tid/3900/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:27"
+msgid "Start the application in full screen mode"
+msgstr "Khởi động ứng dụng ở chế độ toàn màn hình"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"28","tags":null}
+#. tid/3924/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:28"
+msgid "Allow the application to be resizable"
+msgstr "Cho phép ứng dụng có thể thay đổi kích thước"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"29","tags":null}
+#. tid/4020/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:29"
+msgid "HTML Compiler"
+msgstr "Trình Biên Dịch HTML"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"30","tags":null}
+#. tid/4037/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:30"
+msgid "Compile"
+msgstr "Biên Dịch"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"31","tags":null}
+#. tid/4083/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:31"
+msgid "Source path can not empty"
+msgstr "Đường dẫn nguồn không được để trống"
+
+# {"path":"/addons/basicUtils/utils/HTMLPacker.js","row":"32","tags":null}
+#. tid/4104/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/HTMLPacker.js:32"
+msgid "Destination path can not empty"
+msgstr "Đường dẫn đích không được để trống"

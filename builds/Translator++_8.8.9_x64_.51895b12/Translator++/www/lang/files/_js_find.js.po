@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: find.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/find.js","row":"0","tags":null}
+#. tid/3162/type/StringLiteral
+msgctxt "tpp:/js/find.js:0"
+msgid "Action"
+msgstr "Hành động"
+
+# {"path":"/js/find.js","row":"1","tags":null}
+#. tid/3167/type/StringLiteral
+msgctxt "tpp:/js/find.js:1"
+msgid "Append tags"
+msgstr "Thêm thẻ"
+
+# {"path":"/js/find.js","row":"2","tags":null}
+#. tid/3172/type/StringLiteral
+msgctxt "tpp:/js/find.js:2"
+msgid "Remove tags"
+msgstr "Xóa thẻ"
+
+# {"path":"/js/find.js","row":"3","tags":null}
+#. tid/3177/type/StringLiteral
+#. tid/3237/type/StringLiteral
+msgctxt "tpp:/js/find.js:3"
+msgid "Set tags"
+msgstr "Đặt thẻ"
+
+# {"path":"/js/find.js","row":"4","tags":null}
+#. tid/3182/type/StringLiteral
+msgctxt "tpp:/js/find.js:4"
+msgid "Do nothing"
+msgstr "Không làm gì"
+
+# {"path":"/js/find.js","row":"5","tags":null}
+#. tid/3338/type/StringLiteral
+#. tid/14333/type/StringLiteral
+msgctxt "tpp:/js/find.js:5"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/js/find.js","row":"6","tags":null}
+#. tid/3389/type/StringLiteral
+msgctxt "tpp:/js/find.js:6"
+msgid "Proceed"
+msgstr "Tiến hành"
+
+# {"path":"/js/find.js","row":"7","tags":null}
+#. tid/4973/type/StringLiteral
+msgctxt "tpp:/js/find.js:7"
+msgid ""
+"Keyword too short!\n"
+"Are you trying to search all rows? Try using asterisk '*' as the keyword."
+msgstr ""
+"Từ khóa quá ngắn!\n"
+"Bạn đang cố tìm kiếm tất cả các hàng? Hãy thử dùng dấu sao '*' làm từ khóa."
+
+# {"path":"/js/find.js","row":"8","tags":null}
+#. tid/5018/type/StringLiteral
+msgctxt "tpp:/js/find.js:8"
+msgid "Found nothing!<br />Don't forget to set the Target search field."
+msgstr "Không tìm thấy gì!<br />Đừng quên đặt trường tìm kiếm Mục tiêu."
+
+# {"path":"/js/find.js","row":"9","tags":null}
+#. tid/6793/type/StringLiteral
+msgctxt "tpp:/js/find.js:9"
+msgid "Found nothing to replace!<br />Replace function doesn't replace anything on the key column."
+msgstr "Không tìm thấy gì để thay thế!<br />Chức năng thay thế không thay thế bất cứ thứ gì trên cột khóa."
+
+# {"path":"/js/find.js","row":"10","tags":null}
+#. tid/6812/type/StringLiteral
+msgctxt "tpp:/js/find.js:10"
+msgid "Replace '"
+msgstr "Thay thế '"
+
+# {"path":"/js/find.js","row":"11","tags":null}
+#. tid/6819/type/StringLiteral
+msgctxt "tpp:/js/find.js:11"
+msgid "' with '"
+msgstr "' bằng '"
+
+# {"path":"/js/find.js","row":"12","tags":null}
+#. tid/6826/type/StringLiteral
+msgctxt "tpp:/js/find.js:12"
+msgid ""
+"'?\r\n"
+"We still haven't create undo function for this thing!\n"
+"Are you sure want to proceed?"
+msgstr ""
+"'?\r\n"
+"Chúng tôi vẫn chưa tạo chức năng hoàn tác cho việc này!\n"
+"Bạn có chắc muốn tiếp tục?"
+
+# {"path":"/js/find.js","row":"13","tags":null}
+#. tid/7666/type/StringLiteral
+msgctxt "tpp:/js/find.js:13"
+msgid "click to go"
+msgstr "nhấn để đi"
+
+# {"path":"/js/find.js","row":"14","tags":null}
+#. tid/8319/type/StringLiteral
+msgctxt "tpp:/js/find.js:14"
+msgid ""
+"This will replace any translation found in target colum,\n"
+"Are you sure?"
+msgstr ""
+"Điều này sẽ thay thế bất kỳ bản dịch nào tìm thấy trong cột mục tiêu,\n"
+"Bạn có chắc không?"
+
+# {"path":"/js/find.js","row":"15","tags":null}
+#. tid/8373/type/StringLiteral
+msgctxt "tpp:/js/find.js:15"
+msgid "Keyword too short!"
+msgstr "Từ khóa quá ngắn!"
+
+# {"path":"/js/find.js","row":"16","tags":null}
+#. tid/8660/type/StringLiteral
+#. tid/8687/type/StringLiteral
+msgctxt "tpp:/js/find.js:16"
+msgid "Not found!"
+msgstr "Không tìm thấy!"
+
+# {"path":"/js/find.js","row":"17","tags":null}
+#. tid/11038/type/StringLiteral
+msgctxt "tpp:/js/find.js:17"
+msgid "Are you sure want to execute the following script?"
+msgstr "Bạn có chắc muốn thực thi tập lệnh sau không?"
+
+# {"path":"/js/find.js","row":"18","tags":null}
+#. tid/11051/type/StringLiteral
+msgctxt "tpp:/js/find.js:18"
+msgid "For "
+msgstr "Cho "
+
+# {"path":"/js/find.js","row":"19","tags":null}
+#. tid/11060/type/StringLiteral
+msgctxt "tpp:/js/find.js:19"
+msgid " selected item(s)?"
+msgstr " mục đã chọn?"
+
+# {"path":"/js/find.js","row":"20","tags":null}
+#. tid/11205/type/StringLiteral
+msgctxt "tpp:/js/find.js:20"
+msgid " Select all"
+msgstr " Chọn tất cả"
+
+# {"path":"/js/find.js","row":"21","tags":null}
+#. tid/11264/type/StringLiteral
+msgctxt "tpp:/js/find.js:21"
+msgid " Invert selection"
+msgstr " Đảo ngược lựa chọn"
+
+# {"path":"/js/find.js","row":"22","tags":null}
+#. tid/11323/type/StringLiteral
+msgctxt "tpp:/js/find.js:22"
+msgid " Clear selection"
+msgstr " Xóa lựa chọn"
+
+# {"path":"/js/find.js","row":"23","tags":null}
+#. tid/11425/type/StringLiteral
+msgctxt "tpp:/js/find.js:23"
+msgid " Set Red tag"
+msgstr " Đặt thẻ Đỏ"
+
+# {"path":"/js/find.js","row":"24","tags":null}
+#. tid/11490/type/StringLiteral
+msgctxt "tpp:/js/find.js:24"
+msgid " Set Yellow tag"
+msgstr " Đặt thẻ Vàng"
+
+# {"path":"/js/find.js","row":"25","tags":null}
+#. tid/11555/type/StringLiteral
+msgctxt "tpp:/js/find.js:25"
+msgid " Set Green tag"
+msgstr " Đặt thẻ Xanh lá"
+
+# {"path":"/js/find.js","row":"26","tags":null}
+#. tid/11620/type/StringLiteral
+msgctxt "tpp:/js/find.js:26"
+msgid " Set Blue tag"
+msgstr " Đặt thẻ Xanh dương"
+
+# {"path":"/js/find.js","row":"27","tags":null}
+#. tid/11685/type/StringLiteral
+msgctxt "tpp:/js/find.js:27"
+msgid " Set Gold tag"
+msgstr " Đặt thẻ Vàng kim"
+
+# {"path":"/js/find.js","row":"28","tags":null}
+#. tid/11750/type/StringLiteral
+msgctxt "tpp:/js/find.js:28"
+msgid " More tags..."
+msgstr " Thêm thẻ..."
+
+# {"path":"/js/find.js","row":"29","tags":null}
+#. tid/11832/type/StringLiteral
+msgctxt "tpp:/js/find.js:29"
+msgid " Clear tags"
+msgstr " Xóa thẻ"
+
+# {"path":"/js/find.js","row":"30","tags":null}
+#. tid/11914/type/StringLiteral
+msgctxt "tpp:/js/find.js:30"
+msgid " Create Automation"
+msgstr " Tạo Tự động hóa"
+
+# {"path":"/js/find.js","row":"31","tags":null}
+#. tid/11971/type/StringLiteral
+msgctxt "tpp:/js/find.js:31"
+msgid " Run Automation"
+msgstr " Chạy Tự động hóa"
+
+# {"path":"/js/find.js","row":"32","tags":null}
+#. tid/12017/type/StringLiteral
+msgctxt "tpp:/js/find.js:32"
+msgid " Clear Automation"
+msgstr " Xóa Tự động hóa"
+
+# {"path":"/js/find.js","row":"33","tags":null}
+#. tid/12049/type/StringLiteral
+msgctxt "tpp:/js/find.js:33"
+msgid "Are you sure want to clear all quick launch scripts?"
+msgstr "Bạn có chắc muốn xóa tất cả tập lệnh khởi chạy nhanh?"
+
+# {"path":"/js/find.js","row":"34","tags":null}
+#. tid/12143/type/StringLiteral
+msgctxt "tpp:/js/find.js:34"
+msgid " Clear translation"
+msgstr " Xóa bản dịch"
+
+# {"path":"/js/find.js","row":"35","tags":null}
+#. tid/12182/type/StringLiteral
+msgctxt "tpp:/js/find.js:35"
+msgid "Do you want to clear translations of the selected items?"
+msgstr "Bạn có muốn xóa bản dịch của các mục đã chọn?"
+
+# {"path":"/js/find.js","row":"36","tags":null}
+#. tid/12234/type/StringLiteral
+msgctxt "tpp:/js/find.js:36"
+msgid " Delete rows"
+msgstr " Xóa hàng"
+
+# {"path":"/js/find.js","row":"37","tags":null}
+#. tid/12273/type/StringLiteral
+msgctxt "tpp:/js/find.js:37"
+msgid ""
+"Do you want to remove selected rows?\n"
+"You can not undo this action!"
+msgstr ""
+"Bạn có muốn xóa các hàng đã chọn?\n"
+"Hành động này không thể hoàn tác!"
+
+# {"path":"/js/find.js","row":"38","tags":null}
+#. tid/12331/type/StringLiteral
+msgctxt "tpp:/js/find.js:38"
+msgid " With selection ..."
+msgstr " Với lựa chọn ..."
+
+# {"path":"/js/find.js","row":"39","tags":null}
+#. tid/13555/type/StringLiteral
+msgctxt "tpp:/js/find.js:39"
+msgid "Always on top"
+msgstr "Luôn ở trên cùng"
+
+# {"path":"/js/find.js","row":"40","tags":null}
+#. tid/13993/type/StringLiteral
+msgctxt "tpp:/js/find.js:40"
+msgid "Default"
+msgstr "Mặc định"
+
+# {"path":"/js/find.js","row":"41","tags":null}
+#. tid/14119/type/StringLiteral
+msgctxt "tpp:/js/find.js:41"
+msgid "Blur opacity"
+msgstr "Độ mờ làm mờ"
+
+# {"path":"/js/find.js","row":"42","tags":null}
+#. tid/15347/type/StringLiteral
+msgctxt "tpp:/js/find.js:42"
+msgid "Type regex with the modifier"
+msgstr "Nhập biểu thức chính quy với bộ sửa đổi"
+
+# {"path":"/js/find.js","row":"43","tags":null}
+#. tid/15364/type/StringLiteral
+msgctxt "tpp:/js/find.js:43"
+msgid "Use $n to replace a group. e.g. $1"
+msgstr "Sử dụng $n để thay thế một nhóm. Ví dụ: $1"
+
+# {"path":"/js/find.js","row":"44","tags":null}
+#. tid/15388/type/StringLiteral
+msgctxt "tpp:/js/find.js:44"
+msgid "Find"
+msgstr "Tìm"
+
+# {"path":"/js/find.js","row":"45","tags":null}
+#. tid/15405/type/StringLiteral
+msgctxt "tpp:/js/find.js:45"
+msgid "Replace"
+msgstr "Thay thế"

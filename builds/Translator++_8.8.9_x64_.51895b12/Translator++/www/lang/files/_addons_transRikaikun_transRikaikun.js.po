@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: transRikaikun.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transRikaikun/transRikaikun.js","row":"0","tags":null}
+#. tid/890/type/StringLiteral
+msgctxt "tpp:/addons/transRikaikun/transRikaikun.js:0"
+msgid "Never unload dictionaries from RAM"
+msgstr "Không bao giờ dỡ từ điển khỏi RAM"

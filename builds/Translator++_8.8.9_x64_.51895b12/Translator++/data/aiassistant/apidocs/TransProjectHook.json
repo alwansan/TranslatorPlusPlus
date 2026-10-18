@@ -1,0 +1,14 @@
+{
+  "TransProjectHook": {
+    "constructor": {
+      "TransProjectHook": {
+        "signature": "new TransProjectHook()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new TransProjectHook()"
+      }
+    }
+  }
+}

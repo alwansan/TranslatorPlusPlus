@@ -1,0 +1,79 @@
+{
+  "ThreadServer": {
+    "constructor": {
+      "ThreadServer": {
+        "signature": "new ThreadServer()",
+        "description": "Handle socket as a server",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new ThreadServer()"
+      }
+    },
+    "methods": {
+      "addTask": {
+        "signature": "addTask()",
+        "description": "Add task to the iddle process.\nIf none is iddle, will wait until there is iddle process",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "addTask()"
+      },
+      "getIddleThread": {
+        "signature": "getIddleThread()",
+        "description": "Get random iddle task",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "getIddleThread()"
+      },
+      "getReadyState": {
+        "signature": "getReadyState()",
+        "description": "Return true if the server is ready",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "getReadyState()"
+      },
+      "startThread": {
+        "signature": "startThread(num, options)",
+        "description": "Open n number of thread\nIf some thread are already opened, will make sure that the opened thread not less then the number",
+        "parameters": [
+          {
+            "name": "num",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "optionsforceaddons",
+            "type": "ObjectBooleanArray.<String>",
+            "description": "",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "force",
+            "type": "Boolean",
+            "description": "",
+            "required": false
+          },
+          {
+            "name": "addons",
+            "type": "Array.<String>",
+            "description": "",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "startThread(num, optionsforceaddons, , force, addons)"
+      }
+    }
+  }
+}

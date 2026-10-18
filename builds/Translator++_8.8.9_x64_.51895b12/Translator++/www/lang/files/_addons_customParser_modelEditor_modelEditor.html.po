@@ -1,0 +1,748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modelEditor.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:0"
+msgid "<i class=\"icon-edit\"></i>"
+msgstr "<i class=\"icon-edit\"></i>"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"1","tags":null}
+#. idx/1/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:1"
+msgid "<i class=\"icon-plus-circled\"></i><label data-tran=\"\">Add a new file group</label>"
+msgstr "<i class=\"icon-plus-circled\"></i><label data-tran=\"\">Thêm một nhóm tệp mới</label>"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"2","tags":null}
+#. idx/2/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:2"
+msgid "Add a new file group"
+msgstr "Thêm một nhóm tệp mới"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"3","tags":null}
+#. idx/3/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:3"
+msgid "<i class=\"icon-cancel-circled red\"></i><label data-tran=\"\">Remove current file group</label>"
+msgstr "<i class=\"icon-cancel-circled red\"></i><label data-tran=\"\">Xóa nhóm tệp hiện tại</label>"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"4","tags":null}
+#. idx/4/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:4"
+msgid "Remove current file group"
+msgstr "Xóa nhóm tệp hiện tại"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"5","tags":null}
+#. idx/5/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:5"
+msgid "Rules"
+msgstr "Quy tắc"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"6","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:6"
+msgid "Hooks"
+msgstr "Móc"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"7","tags":null}
+#. idx/7/innerText
+#. idx/29/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:7"
+msgid "Options"
+msgstr "Tùy chọn"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"8","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:8"
+msgid "Testing"
+msgstr "Kiểm tra"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"9","tags":null}
+#. idx/9/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:9"
+msgid "Interpolate the strings before being displayed on the cells. <b>To Grid</b> is antithesis of <b>From Grid</b>"
+msgstr "Nội suy chuỗi trước khi hiển thị trên ô. <b>To Grid</b> là đối lập của <b>From Grid</b>"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"10","tags":null}
+#. idx/10/innerText
+#. idx/16/innerText
+#. idx/28/innerText
+#. idx/69/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:10"
+msgid "Example"
+msgstr "Ví dụ"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"11","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:11"
+msgid "For example, the text obtained from the parser is as follows:"
+msgstr "Ví dụ, văn bản thu được từ trình phân tích như sau:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"12","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:12"
+msgid "In this grid it will look like this:"
+msgstr "Trong lưới này, nó sẽ trông như thế này:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"13","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:13"
+msgid ""
+"That's not the easiest text to work with.<br>\n"
+"  We can fix that by declaring <span class=\"inlineCode\">To Grid hooks</span> as follows:\n"
+""
+msgstr ""
+"Đó không phải là văn bản dễ làm việc nhất.<br>\n"
+"  Chúng ta có thể sửa điều đó bằng cách khai báo <span class=\"inlineCode\">To Grid hooks</span> như sau:\n"
+""
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"14","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:14"
+msgid "With the hook above the text in the grid will be :"
+msgstr "Với hook trên, văn bản trong lưới sẽ là:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"15","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:15"
+msgid "Interpolate the strings from the cells into the translation result. <b>From Grid</b> is antithesis of <b>To Grid</b>."
+msgstr "Nội suy chuỗi từ các ô vào kết quả dịch. <b>From Grid</b> là đối lập của <b>To Grid</b>."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"16","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:16"
+msgid ""
+"\n"
+"  For example, the expected translated strings should be in JSON format.<br>\n"
+"  But writing translation in JSON format is not realy the easiest thing to do. <br>\n"
+"  So, instead of asking our translator to translate in JSON format, we can just ask them to type normally, and add a <span class=\"inlineCode\">From Grid hook</span> as follows:\n"
+""
+msgstr ""
+"\n"
+"  Ví dụ, chuỗi dịch mong đợi nên ở định dạng JSON.<br>\n"
+"  Nhưng viết bản dịch ở định dạng JSON không thực sự dễ dàng nhất. <br>\n"
+"  Vì vậy, thay vì yêu cầu người dịch dịch ở định dạng JSON, chúng ta có thể chỉ yêu cầu họ gõ bình thường, và thêm một <span class=\"inlineCode\">From Grid hook</span> như sau:\n"
+""
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"17","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:17"
+msgid ""
+"\n"
+"  With the <span class=\"inlineCode\">From Grid hook</span> above, the following translation ...\n"
+""
+msgstr ""
+"\n"
+"  Với <span class=\"inlineCode\">From Grid hook</span> ở trên, bản dịch sau ...\n"
+""
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"18","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:18"
+msgid "...will be converted into desired format: "
+msgstr "...sẽ được chuyển đổi thành định dạng mong muốn: "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"19","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:19"
+msgid "Edit the translated text just before writing it into a file."
+msgstr "Chỉnh sửa văn bản đã dịch ngay trước khi ghi vào tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"20","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:20"
+msgid "Parameters"
+msgstr "Tham số"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"21","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:21"
+msgid ""
+"\n"
+"              <h3 data-tran=\"\">text</h3>\n"
+"              <p data-tran=\"\">The text that is about to be written into a file.</p>\n"
+"            "
+msgstr ""
+"\n"
+"              <h3 data-tran=\"\">văn bản</h3>\n"
+"              <p data-tran=\"\">Văn bản sắp được ghi vào tệp.</p>\n"
+"            "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"22","tags":null}
+#. idx/23/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:22"
+msgid "text"
+msgstr "văn bản"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"23","tags":null}
+#. idx/24/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:23"
+msgid "The text that is about to be written into a file."
+msgstr "Văn bản sắp được ghi vào tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"24","tags":null}
+#. idx/25/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:24"
+msgid "Return value"
+msgstr "Giá trị trả về"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"25","tags":null}
+#. idx/26/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:25"
+msgid ""
+"\n"
+"              <h3><i>String</i></h3>\n"
+"              <p data-tran=\"\">The text that will be written into a file.</p>\n"
+"            "
+msgstr ""
+"\n"
+"              <h3><i>Chuỗi</i></h3>\n"
+"              <p data-tran=\"\">Văn bản sẽ được ghi vào tệp.</p>\n"
+"            "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"26","tags":null}
+#. idx/27/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:26"
+msgid "The text that will be written into a file."
+msgstr "Văn bản sẽ được ghi vào tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"27","tags":null}
+#. idx/30/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:27"
+msgid "General"
+msgstr "Tổng quan"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"28","tags":null}
+#. idx/31/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:28"
+msgid "Read character encoding"
+msgstr "Đọc mã hóa ký tự"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"29","tags":null}
+#. idx/32/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:29"
+msgid "Force parser to use the following character encoding when reading the file(s)."
+msgstr "Buộc trình phân tích sử dụng mã hóa ký tự sau khi đọc tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"30","tags":null}
+#. idx/33/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:30"
+msgid "Write character encoding"
+msgstr "Ghi mã hóa ký tự"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"31","tags":null}
+#. idx/34/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:31"
+msgid "Force parser to use the following character encoding when writing the file(s)."
+msgstr "Buộc trình phân tích sử dụng mã hóa ký tự sau khi ghi tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"32","tags":null}
+#. idx/35/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:32"
+msgid "You are editing:"
+msgstr "Bạn đang chỉnh sửa:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"33","tags":null}
+#. idx/36/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:33"
+msgid "Please select the mode of your pattern"
+msgstr "Vui lòng chọn chế độ mẫu của bạn"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"34","tags":null}
+#. idx/37/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:34"
+msgid "Regular expression Pattern"
+msgstr "Mẫu biểu thức chính quy"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"35","tags":null}
+#. idx/38/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:35"
+msgid "A valid ECMA Script's regular expression along with the modifier.<br>You can use <a href=\"https://regex101.com/\" class=\"externalLink\" external=\"\">regex101.com</a> to create and test your pattern."
+msgstr "Một biểu thức chính quy ECMA Script hợp lệ cùng với bổ ngữ.<br>Bạn có thể sử dụng <a href=\"https://regex101.com/\" class=\"externalLink\" external=\"\">regex101.com</a> để tạo và kiểm tra mẫu của bạn."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"36","tags":null}
+#. idx/39/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:36"
+msgid "Pay attention to the use of carriage return (\\r) in the text to be translated. regex101.com will strip out the carriage returns so your pattern may have a different effect than what you see on regex101. "
+msgstr "Chú ý đến việc sử dụng ký tự xuống dòng (\\r) trong văn bản cần dịch. regex101.com sẽ loại bỏ các ký tự xuống dòng nên mẫu của bạn có thể có hiệu ứng khác với những gì bạn thấy trên regex101."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"37","tags":null}
+#. idx/40/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:37"
+msgid ""
+"<strong>About quantifier that captures a zero length string.</strong><br>\n"
+"            <i>Null</i> strings will cause problems for the parser. Therefore, instead of using the <strong>*</strong> quantifier which will also capture <i>nulls</i>, it is highly recommended to use the <strong>+</strong> quantifier which will only capture strings if exist."
+msgstr ""
+"<strong>Về lượng tử bắt một chuỗi có độ dài bằng không.</strong><br>\n"
+"            Chuỗi <i>rỗng</i> sẽ gây ra vấn đề cho trình phân tích. Do đó, thay vì sử dụng lượng tử <strong>*</strong> cũng sẽ bắt <i>chuỗi rỗng</i>, rất khuyến nghị sử dụng lượng tử <strong>+</strong> chỉ bắt chuỗi nếu tồn tại."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"38","tags":null}
+#. idx/41/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:38"
+msgid "Translatable Capture groups"
+msgstr "Nhóm bắt có thể dịch"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"39","tags":null}
+#. idx/42/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:39"
+msgid "Index of the regular expression's groups (Integer) for the translatable texts. Can be more than one. Separate with comma."
+msgstr "Chỉ số của nhóm biểu thức chính quy (Số nguyên) cho văn bản có thể dịch. Có thể nhiều hơn một. Phân cách bằng dấu phẩy."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"40","tags":null}
+#. idx/43/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:40"
+msgid "Row Info Capture group"
+msgstr "Nhóm bắt thông tin hàng"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"41","tags":null}
+#. idx/44/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:41"
+msgid ""
+"\n"
+"            Index of the regular expression's group (Integer) for the row info (e.g. character name). <b>Only one group</b> is allowed. <br>\n"
+"            The value of the Row info can be carried over to the child rules and will be overwritten by the child rule's Row info value if exist.\n"
+"          "
+msgstr ""
+"\n"
+"            Chỉ số của nhóm biểu thức chính quy (Số nguyên) cho thông tin hàng (ví dụ: tên nhân vật). <b>Chỉ một nhóm</b> được phép.<br>\n"
+"            Giá trị của Thông tin hàng có thể được chuyển sang các quy tắc con và sẽ bị ghi đè bởi giá trị Thông tin hàng của quy tắc con nếu tồn tại.\n"
+"          "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"42","tags":null}
+#. idx/45/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:42"
+msgid "Context template"
+msgstr "Mẫu ngữ cảnh"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"43","tags":null}
+#. idx/46/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:43"
+msgid ""
+"\n"
+"            Context is unique identifier for translatable texts. <br>\n"
+"            You can use Javascript's template literals to add information to the context.<br>\n"
+"            <b>Available variable:</b>\n"
+"            <ul>\n"
+"              <li><span class=\"inlineCode\">GROUP[<i>n</i>]</span> - Group capture.</li>\n"
+"              <!-- <li><span class=\"inlineCode\">RULE_ID</span> - The ID of the rule.</li> -->\n"
+"            </ul>\n"
+"            <br>\n"
+"            <b>Example:</b>\n"
+"            <pre>item/${GROUP[2]}</pre>\n"
+"          "
+msgstr ""
+"\n"
+"            Ngữ cảnh là định danh duy nhất cho văn bản có thể dịch.<br>\n"
+"            Bạn có thể sử dụng ký tự mẫu Javascript để thêm thông tin vào ngữ cảnh.<br>\n"
+"            <b>Biến có sẵn:</b>\n"
+"            <ul>\n"
+"              <li><span class=\"inlineCode\">GROUP[<i>n</i>]</span> - Nhóm bắt.</li>\n"
+"              <!-- <li><span class=\"inlineCode\">RULE_ID</span> - ID của quy tắc.</li> -->\n"
+"            </ul>\n"
+"            <br>\n"
+"            <b>Ví dụ:</b>\n"
+"            <pre>item/${GROUP[2]}</pre>\n"
+"          "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"44","tags":null}
+#. idx/47/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:44"
+msgid "Action"
+msgstr "Hành động"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"45","tags":null}
+#. idx/48/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:45"
+msgid "Capture value"
+msgstr "Bắt giá trị"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"46","tags":null}
+#. idx/49/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:46"
+msgid "Capture then mask value"
+msgstr "Bắt rồi che giá trị"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"47","tags":null}
+#. idx/50/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:47"
+msgid "Mask value"
+msgstr "Che giá trị"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"48","tags":null}
+#. idx/51/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:48"
+msgid "Send to inner rule"
+msgstr "Gửi đến quy tắc nội bộ"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"49","tags":null}
+#. idx/52/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:49"
+msgid "Edit inner rule <i class=\"icon-angle-double-right\"></i>"
+msgstr "Chỉnh sửa quy tắc nội bộ <i class=\"icon-angle-double-right\"></i>"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"50","tags":null}
+#. idx/53/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:50"
+msgid "What action the pattern is going to do."
+msgstr "Hành động mà mẫu sẽ thực hiện."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"51","tags":null}
+#. idx/54/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:51"
+msgid "Javascript function"
+msgstr "Hàm Javascript"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"52","tags":null}
+#. idx/55/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:52"
+msgid "Guide"
+msgstr "Hướng dẫn"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"53","tags":null}
+#. idx/56/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:53"
+msgid ""
+"\n"
+"          <h2 data-tran=\"\">Arguments</h2>\n"
+"          <p data-tran=\"\">The code you write will be inside a function with 2 arguments that can be accessed anywhere in your code:</p>\n"
+"          <ul>\n"
+"            <li>\n"
+"              <h3>text</h3>\n"
+"              <p><b>String</b></p>\n"
+"              <p data-tran=\"\">A string of the entire content of the file.</p>\n"
+"            </li>\n"
+"            <li>\n"
+"              <h3>thisModel</h3>\n"
+"              <p><b>Object</b></p>\n"
+"              <p data-tran=\"\">The rule object that is currently used by the file.</p>\n"
+"            </li>\n"
+"          </ul>\n"
+"          <h2 data-tran=\"\"><i>this</i> Keyword</h2>\n"
+"          <p data-tran=\"\"><b>this</b> will reffer to the instance of CustomParser class.</p>\n"
+"\n"
+"        "
+msgstr ""
+"\n"
+"          <h2 data-tran=\"\">Đối số</h2>\n"
+"          <p data-tran=\"\">Mã bạn viết sẽ nằm trong một hàm với 2 đối số có thể truy cập ở bất kỳ đâu trong mã của bạn:</p>\n"
+"          <ul>\n"
+"            <li>\n"
+"              <h3>text</h3>\n"
+"              <p><b>Chuỗi</b></p>\n"
+"              <p data-tran=\"\">Một chuỗi chứa toàn bộ nội dung của tệp.</p>\n"
+"            </li>\n"
+"            <li>\n"
+"              <h3>thisModel</h3>\n"
+"              <p><b>Đối tượng</b></p>\n"
+"              <p data-tran=\"\">Đối tượng quy tắc hiện đang được sử dụng bởi tệp.</p>\n"
+"            </li>\n"
+"          </ul>\n"
+"          <h2 data-tran=\"\">Từ khóa <i>this</i></h2>\n"
+"          <p data-tran=\"\"><b>this</b> sẽ tham chiếu đến thể hiện của lớp CustomParser.</p>\n"
+"\n"
+"        "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"54","tags":null}
+#. idx/57/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:54"
+msgid "Arguments"
+msgstr "Đối số"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"55","tags":null}
+#. idx/58/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:55"
+msgid "The code you write will be inside a function with 2 arguments that can be accessed anywhere in your code:"
+msgstr "Mã bạn viết sẽ nằm trong một hàm với 2 đối số có thể truy cập ở bất kỳ đâu trong mã của bạn:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"56","tags":null}
+#. idx/59/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:56"
+msgid "A string of the entire content of the file."
+msgstr "Một chuỗi chứa toàn bộ nội dung của tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"57","tags":null}
+#. idx/60/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:57"
+msgid "The rule object that is currently used by the file."
+msgstr "Đối tượng quy tắc hiện đang được sử dụng bởi tệp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"58","tags":null}
+#. idx/61/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:58"
+msgid "<i>this</i> Keyword"
+msgstr "Từ khóa <i>this</i>"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"59","tags":null}
+#. idx/62/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:59"
+msgid "<b>this</b> will reffer to the instance of CustomParser class."
+msgstr "<b>this</b> sẽ tham chiếu đến thể hiện của lớp CustomParser."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"60","tags":null}
+#. idx/63/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:60"
+msgid ""
+"\n"
+"          <h2 data-tran=\"\">Expected Return Value</h2>\n"
+"          <p data-tran=\"\">Your code must <b>return</b> one of the following value:</p>\n"
+"          <ul>\n"
+"            <li><pre>undefined</pre></li>\n"
+"            <li data-tran=\"\">Offset of the captured text, for example:\n"
+"<pre>  {\n"
+"    start:100,\n"
+"    end:120,\n"
+"    rowInfoText:\"Character Name\", // Character name. optional\n"
+"    context: [\"some\", \"context\", \"here\"] // Context. optional\n"
+"  }\n"
+"</pre>\n"
+"            </li>\n"
+"            <li data-tran=\"\">Array of the offset of the captured text, for example:\n"
+"<pre>  [\n"
+"    {start:0, end:5, rowInfoText:\"Character Name\", context: [\"some\", \"context\", \"here\"]},\n"
+"    {start:12, end:30, rowInfoText:\"Another Character\", context: [\"another\", \"context\"]},\n"
+"    {start:4581, end:4593, rowInfoText:\"Third Character\", context: [\"third\", \"context\"]}\n"
+"  ]\n"
+"</pre>              \n"
+"            </li>\n"
+"          </ul>\n"
+"        "
+msgstr ""
+"\n"
+"          <h2 data-tran=\"\">Giá trị trả về mong đợi</h2>\n"
+"          <p data-tran=\"\">Mã của bạn phải <b>trả về</b> một trong các giá trị sau:</p>\n"
+"          <ul>\n"
+"            <li><pre>undefined</pre></li>\n"
+"            <li data-tran=\"\">Độ lệch của văn bản đã chụp, ví dụ:\n"
+"<pre>  {\n"
+"    start:100,\n"
+"    end:120,\n"
+"    rowInfoText:\"Tên nhân vật\", // Tên nhân vật. tùy chọn\n"
+"    context: [\"một số\", \"ngữ cảnh\", \"ở đây\"] // Ngữ cảnh. tùy chọn\n"
+"  }\n"
+"</pre>\n"
+"            </li>\n"
+"            <li data-tran=\"\">Mảng độ lệch của văn bản đã chụp, ví dụ:\n"
+"<pre>  [\n"
+"    {start:0, end:5, rowInfoText:\"Tên nhân vật\", context: [\"một số\", \"ngữ cảnh\", \"ở đây\"]},\n"
+"    {start:12, end:30, rowInfoText:\"Nhân vật khác\", context: [\"ngữ cảnh\", \"khác\"]},\n"
+"    {start:4581, end:4593, rowInfoText:\"Nhân vật thứ ba\", context: [\"ngữ cảnh\", \"thứ ba\"]}\n"
+"  ]\n"
+"</pre>              \n"
+"            </li>\n"
+"          </ul>\n"
+"        "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"61","tags":null}
+#. idx/64/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:61"
+msgid "Expected Return Value"
+msgstr "Giá trị trả về mong đợi"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"62","tags":null}
+#. idx/65/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:62"
+msgid "Your code must <b>return</b> one of the following value:"
+msgstr "Mã của bạn phải <b>trả về</b> một trong các giá trị sau:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"63","tags":null}
+#. idx/66/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:63"
+msgid ""
+"Offset of the captured text, for example:\n"
+"<pre>  {\n"
+"    start:100,\n"
+"    end:120,\n"
+"    rowInfoText:\"Character Name\", // Character name. optional\n"
+"    context: [\"some\", \"context\", \"here\"] // Context. optional\n"
+"  }\n"
+"</pre>\n"
+"            "
+msgstr ""
+"Độ lệch của văn bản đã chụp, ví dụ:\n"
+"<pre>  {\n"
+"    start:100,\n"
+"    end:120,\n"
+"    rowInfoText:\"Tên nhân vật\", // Tên nhân vật. tùy chọn\n"
+"    context: [\"một số\", \"ngữ cảnh\", \"ở đây\"] // Ngữ cảnh. tùy chọn\n"
+"  }\n"
+"</pre>\n"
+"            "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"64","tags":null}
+#. idx/67/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:64"
+msgid ""
+"Array of the offset of the captured text, for example:\n"
+"<pre>  [\n"
+"    {start:0, end:5, rowInfoText:\"Character Name\", context: [\"some\", \"context\", \"here\"]},\n"
+"    {start:12, end:30, rowInfoText:\"Another Character\", context: [\"another\", \"context\"]},\n"
+"    {start:4581, end:4593, rowInfoText:\"Third Character\", context: [\"third\", \"context\"]}\n"
+"  ]\n"
+"</pre>              \n"
+"            "
+msgstr ""
+"Mảng độ lệch của văn bản đã chụp, ví dụ:\n"
+"<pre>  [\n"
+"    {start:0, end:5, rowInfoText:\"Tên nhân vật\", context: [\"một số\", \"ngữ cảnh\", \"ở đây\"]},\n"
+"    {start:12, end:30, rowInfoText:\"Nhân vật khác\", context: [\"ngữ cảnh\", \"khác\"]},\n"
+"    {start:4581, end:4593, rowInfoText:\"Nhân vật thứ ba\", context: [\"ngữ cảnh\", \"thứ ba\"]}\n"
+"  ]\n"
+"</pre>              \n"
+"            "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"65","tags":null}
+#. idx/68/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:65"
+msgid ""
+"\n"
+"          <h2 data-tran=\"\">Example</h2>\n"
+"          <p data-tran=\"\">The following code is an example to parse srt subtitle.</p>\n"
+"<pre><code class=\"language-javascript\">\n"
+"/*\n"
+"  Translator++ is using regexp-match-indices\n"
+"  by that all RegExp.exec() method will return their group offset\n"
+"  read more about Regular Expression Indices here: https://v8.dev/features/regexp-match-indices\n"
+"*/\n"
+"\n"
+"var result \t\t\t= [];\n"
+"var captureGroup \t= 1;\n"
+"var regex \t\t\t= /\\d+[\\r\\n]+\\d+:\\d+:\\d+,\\d+ --&gt; \\d+:\\d+:\\d+,\\d+[\\r\\n]+((.+\\r?\\n)+(?=(\\r?\\n)?))/g;\n"
+"while(null != (matches=regex.exec(text))) {\n"
+"  console.log(matches);\n"
+"  if (!matches?.indices?.[captureGroup]) continue;\n"
+"  result.push({\n"
+"    start\t: matches.indices[captureGroup][0],\n"
+"    end\t\t: matches.indices[captureGroup][1]\n"
+"  })\n"
+"}\n"
+"return result;             \n"
+"</code>\n"
+"</pre>\n"
+"        "
+msgstr ""
+"\n"
+"          <h2 data-tran=\"\">Ví dụ</h2>\n"
+"          <p data-tran=\"\">Mã sau đây là một ví dụ để phân tích phụ đề srt.</p>\n"
+"<pre><code class=\"language-javascript\">\n"
+"/*\n"
+"  Translator++ đang sử dụng regexp-match-indices\n"
+"  do đó tất cả phương thức RegExp.exec() sẽ trả về độ lệch nhóm của chúng\n"
+"  đọc thêm về Chỉ số Biểu thức Chính quy tại đây: https://v8.dev/features/regexp-match-indices\n"
+"*/\n"
+"\n"
+"var result \t\t\t= [];\n"
+"var captureGroup \t= 1;\n"
+"var regex \t\t\t= /\\d+[\\r\\n]+\\d+:\\d+:\\d+,\\d+ --&gt; \\d+:\\d+:\\d+,\\d+[\\r\\n]+((.+\\r?\\n)+(?=(\\r?\\n)?))/g;\n"
+"while(null != (matches=regex.exec(text))) {\n"
+"  console.log(matches);\n"
+"  if (!matches?.indices?.[captureGroup]) continue;\n"
+"  result.push({\n"
+"    start\t: matches.indices[captureGroup][0],\n"
+"    end\t\t: matches.indices[captureGroup][1]\n"
+"  })\n"
+"}\n"
+"return result;             \n"
+"</code>\n"
+"</pre>\n"
+"        "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"66","tags":null}
+#. idx/70/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:66"
+msgid "The following code is an example to parse srt subtitle."
+msgstr "Mã sau đây là một ví dụ để phân tích phụ đề srt."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"67","tags":null}
+#. idx/71/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:67"
+msgid "Welcome to the Custom Parser Model Creator"
+msgstr "Chào mừng đến với Trình tạo Mô hình Phân tích Tùy chỉnh"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"68","tags":null}
+#. idx/72/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:68"
+msgid "Please start by creating a new File Group."
+msgstr "Vui lòng bắt đầu bằng cách tạo một Nhóm Tệp mới."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"69","tags":null}
+#. idx/73/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:69"
+msgid ""
+"Please define what kind of file you want to parse by clicking\n"
+"      <button class=\"addFileGroup\" onclick=\"addFileGroup(this)\"><i class=\"icon-plus-circled\"></i>Add a new file group</button> button.\n"
+"    "
+msgstr ""
+"Vui lòng xác định loại tệp bạn muốn phân tích bằng cách nhấp vào\n"
+"      <button class=\"addFileGroup\" onclick=\"addFileGroup(this)\"><i class=\"icon-plus-circled\"></i>Thêm một nhóm tệp mới</button> nút.\n"
+"    "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"70","tags":null}
+#. idx/74/innerText
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:70"
+msgid "Press F1 to open the help dialog."
+msgstr "Nhấn F1 để mở hộp thoại trợ giúp."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"71","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:71"
+msgid "New File"
+msgstr "Tệp Mới"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"72","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:72"
+msgid "Open file"
+msgstr "Mở tệp"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"73","tags":null}
+#. idx/2/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:73"
+msgid "Save file"
+msgstr "Lưu tệp"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"74","tags":null}
+#. idx/3/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:74"
+msgid "Save As"
+msgstr "Lưu Dưới Dạng"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"75","tags":null}
+#. idx/4/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:75"
+msgid "Open debugger (F12)"
+msgstr "Mở trình gỡ lỗi (F12)"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"76","tags":null}
+#. idx/5/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:76"
+msgid "Help"
+msgstr "Trợ giúp"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"77","tags":null}
+#. idx/6/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:77"
+msgid "Edit current file pattern"
+msgstr "Chỉnh sửa mẫu tệp hiện tại"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"78","tags":null}
+#. idx/7/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:78"
+msgid "Add a new file pattern"
+msgstr "Thêm một mẫu tệp mới"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"79","tags":null}
+#. idx/8/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:79"
+msgid "Remove current file pattern"
+msgstr "Xóa mẫu tệp hiện tại"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.html","row":"80","tags":null}
+#. idx/9/attr/title
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.html:80"
+msgid "Rule's order does matter, especially when you use masking! Drag to reorder."
+msgstr "Thứ tự của quy tắc rất quan trọng, đặc biệt khi bạn sử dụng mặt nạ! Kéo để sắp xếp lại."

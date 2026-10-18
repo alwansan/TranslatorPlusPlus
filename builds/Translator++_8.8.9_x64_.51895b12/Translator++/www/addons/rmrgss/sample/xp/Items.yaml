@@ -1,0 +1,34 @@
+---
+- 
+- !ruby/object:RPG::Item
+  animation1_id: 3
+  animation2_id: 15
+  common_event_id: 0
+  consumable: true
+  description: !binary |-
+    5bSp44KM44Gf566H5omA44KS5L+u5b6p44GZ44KL44Gf44KB44Gu44Gp44KN
+    44GQ44GZ44KK44CC
+  element_set: []
+  hit: 100
+  icon_name: 032-Item01
+  id: 1
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: 105-Heal01
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    44Gp44KN44GQ44GZ44KK
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 100
+  recover_hp: 0
+  recover_hp_rate: 100
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 7
+  variance: 0

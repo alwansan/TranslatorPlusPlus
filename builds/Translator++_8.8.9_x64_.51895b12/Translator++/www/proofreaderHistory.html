@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proofreader History</title>
+    <link rel="stylesheet" href="css/theme-vars.css">
+    <link rel="stylesheet" href="css/fontello-embedded.css">
+    <link rel="stylesheet" href="css/proofreaderHistory.css">
+    <script defer src="js/proofreaderHistory.js"></script>
+</head>
+<body>
+    <header class="history-toolbar">
+        <h1 id="viewerTitle">Proofreader History</h1>
+        <input id="historySearch" type="search" autocomplete="off">
+        <button id="refreshHistory" type="button">
+            <i class="icon-arrows-cw"></i>
+            <span id="refreshLabel"></span>
+        </button>
+        <button id="clearHistory" type="button">
+            <i class="icon-trash-empty"></i>
+            <span id="clearLabel"></span>
+        </button>
+        <button id="closeHistory" type="button">
+            <i class="icon-cancel"></i>
+            <span id="closeLabel"></span>
+        </button>
+    </header>
+    <div id="viewerMessage" class="viewer-message" hidden></div>
+    <main class="history-layout">
+        <aside class="history-runs">
+            <div id="runList"></div>
+        </aside>
+        <section id="historyDetail" class="history-detail">
+            <div id="runSummary" class="run-summary"></div>
+            <div class="history-table-wrapper">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th id="objectHeading"></th>
+                            <th id="rowHeading"></th>
+                            <th id="sourceHeading"></th>
+                            <th id="beforeHeading"></th>
+                            <th id="afterHeading"></th>
+                            <th id="locationHeading"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="changeList"></tbody>
+                </table>
+                <div id="emptyDetail" class="empty-state"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

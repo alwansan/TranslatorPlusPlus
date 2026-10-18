@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="img/zoom_icon.png">
+
+<script>
+var $ = require('jquery');
+window.jQuery = $;
+
+const Logger = require('www/js/Logger.js');
+var logger = new Logger({file:"data/logs/find.log"});
+logger.loadState();
+
+var LT = require("light-trans");
+var lt = new LT({
+	recordMode:false,
+	listener:"t"
+});
+</script>
+<script type="text/javascript" src="js/consts.js"></script>
+<link type="text/css" href="modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+<link type="text/css" href="css/bootstrapparts.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+<link type="text/css" href="css/trans.css" rel="stylesheet" />
+<link type="text/css" href="css/find.css" rel="stylesheet" />
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" />
+<script type="text/javascript" src="modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/find.js"></script>
+<script type="text/javascript" src="js/autoload/utils/uiTags.js"></script>
+
+<style>
+#appBorder {
+    border: 1px solid #888;
+    position: fixed;
+    width: calc(100vw - 1px);
+    height: calc(100vh - 1px);
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    z-index: 9;
+    display: block;
+    pointer-events: none;
+	overflow: hidden;
+}	
+</style>
+
+<title data-tran="">Find and replace - Translator++</title>
+
+ 
+<body data-window="find" style="display: none;">
+<div class="application-bar" style="
+    position: absolute;
+    height: 28px;
+    top: 0px;
+    left: 184px;
+    z-index: 1;
+    display: flex;
+    width: calc(100vw - 184px);
+    text-align: right;
+    ">
+    <div class="application-handler" style="
+    -webkit-app-region: drag;
+    width: calc(100% - 64px);
+"></div>
+    <div class="application-buttonbar">
+		<span class="application-menu-button icon-sliders"></span>
+		<span class="application-close-button icon-cancel"></span>
+	</div>
+</div>
+<div id="appBorder"></div>
+<div id="tabs">
+  <ul>
+    <li><a href="#find" class="findAnchor" data-tran="">Find</a></li>
+    <li><a href="#replace" class="replaceAnchor" data-tran="">Replace</a></li>
+    <li><a href="#findPut" class="findPutAnchor" data-tran="">Put</a></li>
+  </ul>
+  <div id="find" class="tabContent menu targetExpanded">
+	<div class="findWrapper block">
+		<div class="flex">
+			<input type="search" class="find" list="keywords" id="fieldFind" data-tranattr="placeholder" placeholder="Type the keyword then hit enter. You can use glob pattern (e.g.: *.png)" title="Type the keyword then hit enter. You can use glob pattern too (e.g: *.png)" />
+			<button type="button" class="findOptionButton">
+				<span data-tran="">Target</span>
+				<i class="icon-down-dir"></i>
+				<i class="icon-right-dir"></i>
+			</button>
+			<!--
+			<select class="searchMode" multiple="multiple" data-tranattr="title" title="Search target. Hold ctrl to select multipe item.">
+				<optgroup data-tranattr="label" label="Target:">
+					<option data-tran="" value="grid">Grid</option>
+					<option data-tran="" value="context">Context</option>
+					<option data-tran="" value="tag">Tag</option>
+					<option data-tran="" value="comment">Comment</option>
+					<option data-tran="" value="untranslated">Untranslated Rows</option>
+				</optgroup>
+			</select>
+			-->
+		</div>
+		<div class="findMenu">
+			<!-- <div>
+				<strong data-tran="">Target :</strong>
+			</div> -->
+			<div class="column4">
+				<div>
+					<label><input type="checkbox" class="searchTargetOption" value="grid" id="find-target-grid" checked /> <span class="label" data-tran="">Grid</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="searchTargetOption" value="context" id="find-target-context" /> <span class="label" data-tran="">Context</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="searchTargetOption" value="tag" id="find-target-tag" /> <span class="label" data-tran="">Tag</span></label>
+				</div>
+				<div>
+					<label><input type="checkbox" class="searchTargetOption" value="comment" id="find-target-comment" /> <span class="label" data-tran="">Comment</span></label>
+				</div>
+			</div>
+			<div class="column4">
+				<div>
+					<label><input type="checkbox" class="searchTargetOption exclusive" value="untranslated" id="find-target-untranslated" onchange="search.toggleExclusiveSearchLocation(this)" /> <span class="label" data-tran="">Untranslated rows</span></label>
+				</div>
+				<div>
+					
+				</div>
+				<div>
+				</div>
+				<div>
+					<label><input type="checkbox" class="searchTargetOption exclusive" value="refine" id="find-target-refine" onchange="search.toggleExclusiveSearchLocation(this)" /> <span class="label" data-tran="">Refine</span></label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="findOptions column4">
+		<div>
+			<label><input type="checkbox" id="caseSensitive" class="caseSensitive" /> <span class="label" data-tran="">Case sensitive</span></label>
+		</div>
+		<div>
+			<label title="Replaces \r,\n,\t with carriage return, new line, or tab"><input type="checkbox" class="transpileCode" /> <span class="label" data-tran="">Transpile \r\n\t</span></label>
+		</div>
+		<div>
+			<label><input type="checkbox" id="findIsRegexp" class="isRegexp" />
+			<span class="label" data-tran="">RegExp</span>
+			<a href="https://dreamsavior.net/docs/translator/find-replace/using-regex-in-search-window/" class="icon dvIcon-help icon-help-circled" target="_system"></a></label>
+		</div>		
+		<div class="flex">
+			<label><input type="checkbox" id="selectAllFile" class="selectAllFile" checked /> <span class="label" data-tran="">All files</span></label>
+			<span class="toggleFileSelector" title="open/close file selector"></span>
+			<button class="selectTargetColumn" onclick="search.toggleTargetColumnSelector('find')"><i class="icon-columns"></i><i class="icon-down-dir"></i><i class="icon-right-dir"></i></button>
+		</div>
+
+	</div>
+	<div class="fileSelector hidden" data-tranattr="title" title="Drag to select, Shift+Drag to unselect"></div>
+	<div class="columnSelectorWrapper" data-tranattr="title" title="Select target column">
+		<div class="columnSelector">
+			<div class="selectAllColumns">
+				<label><input type="checkbox" class="selectAllColumnsCheckbox" checked /> <span class="label" data-tran="">Select All Columns</span></label>
+			</div>
+			<hr />
+			<div class="columnList">
+				<!-- dynamically filled -->
+			</div>
+		</div>
+	</div>
+	<div class="actionResult searchResult"></div>
+  </div>
+  <div id="replace" class="tabContent">
+	<div class="findWrapper"><input type="search" list="keywords" class="find" id="fieldReplaceFind" placeholder="Find" /></div>
+	<div class="replaceLabel" data-tran="">Find all string above and replace with :</div>
+	<div class="findWrapper"><input type="search" class="find" id="fieldReplaceReplace" placeholder="Replace" /></div>
+	<div class="findOptions column4">
+		<div>
+			<label><input type="checkbox" id="caseSensitiveReplace" class="caseSensitive" /> <span class="label" data-tran="">Case sensitive</span></label>
+		</div>
+		<div>
+			<label title="Replaces \r,\n,\t with carriage return, new line, or tab"><input type="checkbox" class="transpileCode" /> <span class="label" data-tran="">Transpile \r\n\t</span></label>
+		</div>
+		<div>
+			<label><input type="checkbox" id="replaceIsRegexp" class="isRegexp" />
+			<span class="label" data-tran="">RegExp</span>
+			<a href="https://dreamsavior.net/docs/translator/find-replace/using-regex-in-search-window/" class="icon dvIcon-help icon-help-circled" target="_system"></a></label>
+		</div>		
+		<div class="flex">
+			<label><input type="checkbox" id="selectAllFileReplace" class="selectAllFile" checked /> <span class="label" data-tran="">All files</span></label>
+			<span class="toggleFileSelector" title="open/close file selector"></span>
+			<button class="selectTargetColumn" onclick="search.toggleTargetColumnSelector('replace')"><i class="icon-columns"></i><i class="icon-down-dir"></i><i class="icon-right-dir"></i></button>
+		</div>
+
+		
+	</div>
+	<div class="fileSelector hidden" data-tranattr="title" title="Drag to select, Shift+Drag to unselect"></div>
+	<div class="columnSelectorWrapper" data-tranattr="title" title="Select target column">
+		<div class="columnSelector">
+			<div class="selectAllColumns">
+				<label><input type="checkbox" class="selectAllColumnsCheckbox" checked /> <span class="label" data-tran="">Select All Columns</span></label>
+			</div>
+			<hr />
+			<div class="columnList">
+				<!-- dynamically filled -->
+			</div>
+		</div>
+	</div>
+	<div class="actionResult replaceResult"></div>
+  </div>
+  <div id="findPut" class="tabContent">
+	  <div class="flex column2">
+		<div class="findWrapper">
+			<div class="replaceLabel" data-tran="">Original text:</div>
+			<textarea class="find fldFind" id="fieldPutFind" data-tranattr="placeholder" placeholder="A line in the original text to find. Press alt+enter to add a new line."></textarea>
+			<!-- <input type="search" class="find fldFind" id="fieldPutFind" placeholder="Full line string to find" /> -->
+		</div>
+		
+		<div class="findWrapper">
+			<div class="replaceLabel" data-tran="">Text to put :</div>
+			<textarea type="search" class="find fldPut" id="fieldPutReplace" data-tranattr="placeholder" placeholder="Translation"></textarea>
+			<!-- <input type="search" class="find fldPut" id="fieldPutReplace" data-tranattr="placeholder" placeholder="Translation" /> -->
+		</div>
+	  </div>
+
+	<div class="findOptions column4">
+		<div>
+			<label><span data-tran="">into: </span><span class="targetSelector"></span></label>
+		</div>
+		<div>
+			<label><input type="checkbox" id="caseSensitivePut" class="caseSensitive" /> <span class="label" data-tran="">Case sensitive</span></label>
+		</div>
+		<div class="flex">
+			<label><input type="checkbox" id="selectAllFilePut" class="selectAllFile" checked /> <span class="label" data-tran="">Search all files</span></label>
+			<span class="toggleFileSelector" title="open/close file selector"></span>
+		</div>
+	</div>
+	<div class="fileSelector hidden" data-tranattr="title" title="Drag to select, Shift+Drag to unselect"></div>
+	<div class="actionResult searchResult putResult"></div>	
+  </div>  
+</div>
+<div id="template" class="hidden">
+	<datalist id="keywords"></datalist>
+</div>
+<script>
+	$(document).ready(function() {
+		$("body").show();
+
+		// focus on the active tab's first input
+		$("#tabs [aria-hidden=false]").find("input,textarea,select").first().focus();
+	});
+</script>
+</body>
+</html>

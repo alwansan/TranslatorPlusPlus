@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vntextpatch.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"0","tags":null}
+#. tid/8164/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:0"
+msgid "I have extracted the game data"
+msgstr "Tôi đã trích xuất dữ liệu trò chơi"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"1","tags":null}
+#. tid/8228/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:1"
+msgid "Load game's data folder"
+msgstr "Tải thư mục dữ liệu trò chơi"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"2","tags":null}
+#. tid/8233/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:2"
+msgid "Select the game's data folder"
+msgstr "Chọn thư mục dữ liệu trò chơi"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"3","tags":null}
+#. tid/8246/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:3"
+msgid "Engine Info"
+msgstr "Thông tin Công cụ"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"4","tags":null}
+#. tid/8251/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:4"
+msgid "Currently detected engine"
+msgstr "Công cụ hiện đang được phát hiện"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"5","tags":null}
+#. tid/8256/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:5"
+msgid "Manually Specify Format"
+msgstr "Chỉ định Định dạng Thủ công"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"6","tags":null}
+#. tid/8261/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:6"
+msgid "Manually specify the game format.<br />VNTranslationTools will automatically detect the format based on the file extension. However, if you encounter ambiguous file extensions, please provide the format explicitly."
+msgstr "Chỉ định định dạng trò chơi thủ công.<br />VNTranslationTools sẽ tự động phát hiện định dạng dựa trên phần mở rộng tệp. Tuy nhiên, nếu bạn gặp phần mở rộng tệp mơ hồ, vui lòng cung cấp định dạng rõ ràng."
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"7","tags":null}
+#. tid/8266/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:7"
+msgid "Interface"
+msgstr "Giao diện"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"8","tags":null}
+#. tid/8271/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:8"
+msgid "VNTextPatch can parse the game into two formats: JSON or an XLSX spreadsheet. Please select the interface you want to use."
+msgstr "VNTextPatch có thể phân tích trò chơi thành hai định dạng: JSON hoặc bảng tính XLSX. Vui lòng chọn giao diện bạn muốn sử dụng."
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"9","tags":null}
+#. tid/8276/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:9"
+msgid "Warning: There is a row limit if you're choosing XLSX spreadsheet."
+msgstr "Cảnh báo: Có giới hạn hàng nếu bạn chọn bảng tính XLSX."
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"10","tags":null}
+#. tid/8455/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:10"
+msgid "Create a new project"
+msgstr "Tạo một dự án mới"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"11","tags":null}
+#. tid/8516/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:11"
+msgid "Invalid destination directory:"
+msgstr "Thư mục đích không hợp lệ:"
+
+# {"path":"/addons/VNTextPatch/vntextpatch.js","row":"12","tags":null}
+#. tid/11110/type/StringLiteral
+msgctxt "tpp:/addons/VNTextPatch/vntextpatch.js:12"
+msgid "Close"
+msgstr "Đóng"

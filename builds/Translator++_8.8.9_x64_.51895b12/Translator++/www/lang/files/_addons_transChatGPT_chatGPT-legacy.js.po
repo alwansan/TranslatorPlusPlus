@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: chatGPT-legacy.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transChatGPT/chatGPT-legacy.js","row":"0","tags":null}
+#. tid/540/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/chatGPT-legacy.js:0"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TÊN : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/chatGPT-legacy.js","row":"1","tags":null}
+#. tid/548/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/chatGPT-legacy.js:1"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/chatGPT-legacy.js","row":"2","tags":null}
+#. tid/556/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/chatGPT-legacy.js:2"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>THAM CHIẾU[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>THAM CHIẾU[Tham chiếu Chung]</code></li>"

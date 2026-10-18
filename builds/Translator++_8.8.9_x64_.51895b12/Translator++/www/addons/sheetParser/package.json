@@ -1,0 +1,15 @@
+{
+    "name": "sheetParser",
+	"title" : "Spreadsheet Parser",
+    "description": "All in one spreadsheet utility. Handler for all kind of spreadsheet",
+    "main": "sheetParser.js",
+    "homepage": "http://dreamsavior.net",
+	"version": "0.5",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"load":["sheetParser.js"]
+}

@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Common Reference\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"Common Reference","row":"0","tags":null}
+msgctxt "tpp:Common Reference:0"
+msgid "レベル"
+msgstr "Level"
+
+# {"path":"Common Reference","row":"1","tags":null}
+msgctxt "tpp:Common Reference:1"
+msgid "最大ＨＰ"
+msgstr "MaxHP"
+
+# {"path":"Common Reference","row":"2","tags":null}
+msgctxt "tpp:Common Reference:2"
+msgid "最大ＭＰ"
+msgstr "MaxMP"
+
+# {"path":"Common Reference","row":"3","tags":null}
+msgctxt "tpp:Common Reference:3"
+msgid "攻撃力"
+msgstr "ATK"
+
+# {"path":"Common Reference","row":"4","tags":null}
+msgctxt "tpp:Common Reference:4"
+msgid "防御力"
+msgstr "DEF"
+
+# {"path":"Common Reference","row":"5","tags":null}
+msgctxt "tpp:Common Reference:5"
+msgid "魔法力"
+msgstr "MAT"
+
+# {"path":"Common Reference","row":"6","tags":null}
+msgctxt "tpp:Common Reference:6"
+msgid "魔法防御"
+msgstr "MDF"
+
+# {"path":"Common Reference","row":"7","tags":null}
+msgctxt "tpp:Common Reference:7"
+msgid "敏捷性"
+msgstr "AGI"
+
+# {"path":"Common Reference","row":"8","tags":null}
+msgctxt "tpp:Common Reference:8"
+msgid "使用しない"
+msgstr "do not use"
+
+# {"path":"Common Reference","row":"9","tags":null}
+msgctxt "tpp:Common Reference:9"
+msgid "宝珠"
+msgstr "Gem"
+
+# {"path":"Common Reference","row":"10","tags":null}
+msgctxt "tpp:Common Reference:10"
+msgid "装飾品"
+msgstr "Accessory"
+
+# {"path":"Common Reference","row":"11","tags":null}
+msgctxt "tpp:Common Reference:11"
+msgid "アイテム"
+msgstr "Item"
+
+# {"path":"Common Reference","row":"12","tags":null}
+msgctxt "tpp:Common Reference:12"
+msgid "ポーション"
+msgstr "Potion"
+
+# {"path":"Common Reference","row":"13","tags":null}
+msgctxt "tpp:Common Reference:13"
+msgid "ヒール"
+msgstr "Heal"

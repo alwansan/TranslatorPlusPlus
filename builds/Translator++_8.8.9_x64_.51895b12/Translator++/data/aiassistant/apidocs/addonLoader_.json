@@ -1,0 +1,14 @@
+{
+  "addonLoader": {
+    "constructor": {
+      "addonLoader": {
+        "signature": "addonLoader",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new addonLoader()"
+      }
+    }
+  }
+}

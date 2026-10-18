@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: utils.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"0","tags":null}
+#. tid/934/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:0"
+msgid "Target folder"
+msgstr "Thư mục đích"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"1","tags":null}
+#. tid/939/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:1"
+msgid "Select destination folder."
+msgstr "Chọn thư mục đích."
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"2","tags":null}
+#. tid/1013/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:2"
+msgid "Install Easy RPG Player"
+msgstr "Cài đặt Trình chơi Easy RPG"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"3","tags":null}
+#. tid/1130/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:3"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"4","tags":null}
+#. tid/1181/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:4"
+msgid "Install"
+msgstr "Cài đặt"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"5","tags":null}
+#. tid/1402/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rm2k2k3/utils.js:5"
+msgid ""
+"How to add a custom font.\n"
+"\n"
+"The fonts must be placed in the Font folder of the game directory and must be named Font.ttf or Font2.ttf. Which font file is used depends on the system graphic font setting. Besides ttf, fon and many other fonts are supported (anything supported by FreeType, the best open source library available for font rendering).\n"
+"\n"
+"Source: https://blog.easyrpg.org/2023/04/easyrpg-player-0-8-paralyze/"
+msgstr ""
+"Cách thêm font tùy chỉnh.\n"
+"\n"
+"Font phải được đặt trong thư mục Font của thư mục game và phải được đặt tên là Font.ttf hoặc Font2.ttf. File font nào được sử dụng phụ thuộc vào cài đặt font đồ họa hệ thống. Ngoài ttf, fon và nhiều font khác được hỗ trợ (bất cứ thứ gì được FreeType hỗ trợ, thư viện mã nguồn mở tốt nhất có sẵn để hiển thị font).\n"
+"\n"
+"Nguồn: https://blog.easyrpg.org/2023/04/easyrpg-player-0-8-paralyze/"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"6","tags":null}
+#. tid/1450/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:6"
+msgid "Process completed!"
+msgstr "Quá trình hoàn tất!"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"7","tags":null}
+#. tid/1685/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:7"
+msgid "Play last build"
+msgstr "Chơi bản dựng cuối cùng"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"8","tags":null}
+#. tid/1743/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:8"
+msgid "Apply translation then play"
+msgstr "Áp dụng bản dịch rồi chơi"
+
+# {"path":"/addons/rm2k2k3/utils.js","row":"9","tags":null}
+#. tid/1796/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/utils.js:9"
+msgid "Setup Easy RPG in the current directory"
+msgstr "Thiết lập Easy RPG trong thư mục hiện tại"

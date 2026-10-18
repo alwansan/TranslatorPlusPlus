@@ -1,0 +1,27 @@
+{
+  "SubTab": {
+    "constructor": {
+      "SubTab": {
+        "signature": "new SubTab(rootElm, options)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "rootElm",
+            "type": "Object",
+            "description": "JQuery instance of node as the root element or wrapper of the tabs",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Object of options",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new SubTab(rootElm, options)"
+      }
+    }
+  }
+}

@@ -1,0 +1,2563 @@
+{
+  "common": {
+    "constructor": {
+      "common": {
+        "signature": "common",
+        "description": "common is Translator++ utility belt.\nYou can use it via window.common or directly common",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new common()"
+      }
+    },
+    "methods": {
+      ".aSpawn": {
+        "signature": "(async, static) aSpawn(command, args, options?) → Promise.<String>",
+        "description": "Run process or external application asynchronously",
+        "parameters": [
+          {
+            "name": "command",
+            "type": "String",
+            "description": "The shell command or path to the application",
+            "required": true
+          },
+          {
+            "name": "args",
+            "type": "String",
+            "description": "Arguments of the shell command",
+            "required": true
+          },
+          {
+            "name": "optionsonDataonDoneonError",
+            "type": "Optionsfunctionfunctionfunction",
+            "description": "Function to run when receives stderr output",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "onData",
+            "type": "function",
+            "description": "Function to run when receives console output from the apps",
+            "required": false
+          },
+          {
+            "name": "onDone",
+            "type": "function",
+            "description": "Function to run when the process is completed",
+            "required": false
+          },
+          {
+            "name": "onError",
+            "type": "function",
+            "description": "Function to run when receives stderr output",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "the shell output of the execution (if any)"
+        },
+        "examples": [],
+        "usage": ".aSpawn(command, args, optionsonDataonDoneonError, , onData, onDone, onError) : Promise.<String>"
+      },
+      ".addEventHandler": {
+        "signature": "(static) addEventHandler(obj, $elm?) → obj",
+        "description": "Add event handler on an object\nWill add on, off, one, and trigger into an object",
+        "parameters": [
+          {
+            "name": "obj",
+            "type": "Object",
+            "description": "Object to be extended",
+            "required": true
+          },
+          {
+            "name": "$elm",
+            "type": "JQuery",
+            "description": "Element to hook the event",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "obj",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".addEventHandler(obj, $elm) : obj"
+      },
+      ".addslashes": {
+        "signature": "(static) addslashes(str) → String",
+        "description": "Add slashes to the single quote character",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".addslashes(str) : String"
+      },
+      ".argumentsToArray": {
+        "signature": "(static) argumentsToArray(args) → Array",
+        "description": "Convert a Javascript's argument object into a plain array",
+        "parameters": [
+          {
+            "name": "args",
+            "type": "arguments",
+            "description": "Argument to convert",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".argumentsToArray(args) : Array"
+      },
+      ".arrayIntersect": {
+        "signature": "(static) arrayIntersect(array1, array2) → Boolean",
+        "description": "Checks which members of two arrays are intersects each other.",
+        "parameters": [
+          {
+            "name": "array1",
+            "type": "Array",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "array2",
+            "type": "Array",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".arrayIntersect(array1, array2) : Boolean"
+      },
+      ".arrayUnique": {
+        "signature": "(static) arrayUnique(any?) → Array.<any>",
+        "description": "Filter array to unique content only",
+        "parameters": [
+          {
+            "name": "any",
+            "type": "*",
+            "description": "myArray",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<any>",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".arrayUnique(any) : Array.<any>"
+      },
+      ".benchmark": {
+        "signature": "(async, static) benchmark(process) → Number",
+        "description": "Calculates the running time of a function",
+        "parameters": [
+          {
+            "name": "process",
+            "type": "function",
+            "description": "The function to be monitored. The function will be called.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Number",
+          "description": "Execution time in ms"
+        },
+        "examples": [],
+        "usage": ".benchmark(process) : Number"
+      },
+      ".capitalizeFirstLetter": {
+        "signature": "(static) capitalizeFirstLetter(text) → String",
+        "description": "Capitalize the first letter",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".capitalizeFirstLetter(text) : String"
+      },
+      ".changeExtension": {
+        "signature": "(static) changeExtension(path, ext) → String",
+        "description": "Change extension of a path",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "*",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "ext",
+            "type": "*",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Path with new extension"
+        },
+        "examples": [],
+        "usage": ".changeExtension(path, ext) : String"
+      },
+      ".clone": {
+        "signature": "(static) clone(source) → Object",
+        "description": "Generates a duplicate of Javascript Object.\nOnly works for the plain javascript object",
+        "parameters": [
+          {
+            "name": "source",
+            "type": "Object",
+            "description": "Original object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "Detached and a clone of the object"
+        },
+        "examples": [],
+        "usage": ".clone(source) : Object"
+      },
+      ".cloneFormatting": {
+        "signature": "(static) cloneFormatting(formattedText, textToFormat) → Array.<String>",
+        "description": "Copy formatting such as indent, number of line etc from formattedText into textToFormat",
+        "parameters": [
+          {
+            "name": "formattedText",
+            "type": "Array.<String>",
+            "description": "Array of string to copy",
+            "required": true
+          },
+          {
+            "name": "textToFormat",
+            "type": "String",
+            "description": "Text to be formatted",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array.<String>",
+          "description": "Array of string"
+        },
+        "examples": [],
+        "usage": ".cloneFormatting(formattedText, textToFormat) : Array.<String>"
+      },
+      ".compareVersion": {
+        "signature": "(static) compareVersion(v1, v2)",
+        "description": "Compare two version",
+        "parameters": [
+          {
+            "name": "v1",
+            "type": "String",
+            "description": "Version string 1",
+            "required": true
+          },
+          {
+            "name": "v2",
+            "type": "String",
+            "description": "Version string 2",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "void",
+          "description": "Returns 1 if v1 > v2\nReturns 0 if v1 = v2\nReturns -1 if v1 < v2"
+        },
+        "examples": [],
+        "usage": ".compareVersion(v1, v2) : void"
+      },
+      ".containJapanese": {
+        "signature": "(static) containJapanese(string)",
+        "description": "Checks whether a string contains any japanese letter.",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "*",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "void",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".containJapanese(string) : void"
+      },
+      ".copy": {
+        "signature": "(static) copy(from, to, callback)",
+        "description": "Copy file(s)/directory(s) from one to another location",
+        "parameters": [
+          {
+            "name": "from",
+            "type": "String|Array.<String>",
+            "description": "The source path",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "String|Array.<String>",
+            "description": "Target path",
+            "required": true
+          },
+          {
+            "name": "callback",
+            "type": "function",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "void",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".copy(from, to, callback) : void"
+      },
+      ".copyFile": {
+        "signature": "(async, static) copyFile(src, dest) → Promise.<String>",
+        "description": "Copy a file into a new file or directory",
+        "parameters": [
+          {
+            "name": "src",
+            "type": "String",
+            "description": "Source file",
+            "required": true
+          },
+          {
+            "name": "dest",
+            "type": "String",
+            "description": "Path to the file/folder of the destination.\nIf the destination is a directory, then",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "File destination"
+        },
+        "examples": [],
+        "usage": ".copyFile(src, dest) : Promise.<String>"
+      },
+      ".crc32": {
+        "signature": "(async, static) crc32(file) → Promise.<String>",
+        "description": "Generate CRC 32 of a file",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "File to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "CRC 32 value"
+        },
+        "examples": [],
+        "usage": ".crc32(file) : Promise.<String>"
+      },
+      ".crc32String": {
+        "signature": "(static) crc32String(str) → String",
+        "description": "Calculate a CRC32 hash from a string",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "String to be checked",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "A crc32 string"
+        },
+        "examples": [],
+        "usage": ".crc32String(str) : String"
+      },
+      ".cropLongText": {
+        "signature": "(static) cropLongText(string, max) → String",
+        "description": "Crops a long text into something like : Lorem ips...sit amet",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "A very long string",
+            "required": true
+          },
+          {
+            "name": "max",
+            "type": "Number",
+            "description": "Maximum length",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "A shorter string"
+        },
+        "examples": [],
+        "usage": ".cropLongText(string, max) : String"
+      },
+      ".cursorPosInfo": {
+        "signature": "(static) cursorPosInfo(text, cursorPos) → Object",
+        "description": "Get row and column of the cursorPos character",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "cursorPos",
+            "type": "Number",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "{row, col}"
+        },
+        "examples": [
+          "common.cursorPosInfo('Lorem\\nIpsum\\ndolor sit amet', 9);\n// result: {row: 2, col: 3}\n\ncommon.cursorPosInfo('Lorem\\nIpsum\\ndolor sit amet', 6);\n// cursor possition on newline character, result: {row: 1, col: 6}"
+        ],
+        "usage": ".cursorPosInfo(text, cursorPos) : Object"
+      },
+      ".date": {
+        "signature": "(static) date(format, date?) → String",
+        "description": "Format a local time/date\n\n\n\nCode\nInfo\n\n\n\n\nj\nDay of the month without leading zeros  (1 to 31)\n\n\nd\nDay of the month, 2 digits with leading zeros (01 to 31)\n\n\nl\n(lowercase 'L') A full textual representation of the day of the week\n\n\nw\nNumeric representation of the day of the week (0=Sunday,1=Monday,...6=Saturday)\n\n\nD\nA textual representation of a day, three letters\n\n\nm\nNumeric representation of a month, with leading zeros (01 to 12)\n\n\nn\nNumeric representation of a month, without leading zeros (1 to 12)\n\n\nF\nA full textual representation of a month, such as January or March\n\n\nM\nA short textual representation of a month, three letters (Jan - Dec)\n\n\nY\nA full numeric representation of a year, 4 digits (1999 OR 2003)\n\n\ny\nA two digit representation of a year (99 OR 03)\n\n\nH\n24-hour format of an hour with leading zeros (00 to 23)\n\n\ng\n12-hour format of an hour without leading zeros (1 to 12)\n\n\nh\n12-hour format of an hour with leading zeros (01 to 12)\n\n\na\nLowercase Ante meridiem and Post meridiem (am or pm)\n\n\ni\nMinutes with leading zeros (00 to 59)\n\n\ns\nSeconds, with leading zeros (00 to 59)\n\n\nc\nISO 8601 date (eg: 2012-11-20T18:05:54.944Z)",
+        "parameters": [
+          {
+            "name": "format",
+            "type": "String",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "date",
+            "type": "String|Date",
+            "description": "",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Formatted date"
+        },
+        "examples": [],
+        "usage": ".date(format, date) : String"
+      },
+      ".debugLevel": {
+        "signature": "(static) debugLevel() → Number",
+        "description": "Get the debug level for current app",
+        "parameters": [],
+        "returns": {
+          "type": "Number",
+          "description": "The current debug level"
+        },
+        "examples": [],
+        "usage": ".debugLevel() : Number"
+      },
+      ".detectEncoding": {
+        "signature": "(static) detectEncoding(input) → String",
+        "description": "Detects the character encoding of the input",
+        "parameters": [
+          {
+            "name": "input",
+            "type": "Buffer|Array|String",
+            "description": "The string or buffer of the input",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "The detected character encoding"
+        },
+        "examples": [],
+        "usage": ".detectEncoding(input) : String"
+      },
+      ".detectFileEncoding": {
+        "signature": "(static) detectFileEncoding(filePath) → Promise.<String>",
+        "description": "Detects character encoding of a file",
+        "parameters": [
+          {
+            "name": "filePath",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "Character encoding"
+        },
+        "examples": [],
+        "usage": ".detectFileEncoding(filePath) : Promise.<String>"
+      },
+      ".detectLineBreak": {
+        "signature": "(static) detectLineBreak(string)",
+        "description": "Detects the type of linebreaks on the string. Whether it is LF or CR LF",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".detectLineBreak(string)"
+      },
+      ".dirContentSync": {
+        "signature": "(static) dirContentSync(dir, filelist?) → Array.<String>",
+        "description": "Read all files within a directory recusively and return full path of each file",
+        "parameters": [
+          {
+            "name": "dir",
+            "type": "String",
+            "description": "Path to a directory",
+            "required": true
+          },
+          {
+            "name": "filelist",
+            "type": "Array.<String>",
+            "description": "Default file list",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<String>",
+          "description": "List of all files within the given directory and its child directories"
+        },
+        "examples": [],
+        "usage": ".dirContentSync(dir, filelist) : Array.<String>"
+      },
+      ".download": {
+        "signature": "(async, static) download(url, saveto, options?) → Promise.<String>",
+        "description": "Download a file",
+        "parameters": [
+          {
+            "name": "url",
+            "type": "String",
+            "description": "URL to download",
+            "required": true
+          },
+          {
+            "name": "saveto",
+            "type": "String",
+            "description": "Path to the file/folder. If given path is a folder, then the filename in the URL will be used.",
+            "required": true
+          },
+          {
+            "name": "optionsonStartonEndonProgressonSuccess",
+            "type": "Objectfunctionfunctionfunctionfunction",
+            "description": "Triggered when the download is success",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "onStart",
+            "type": "function",
+            "description": "Triggered when the download has started",
+            "required": false
+          },
+          {
+            "name": "onEnd",
+            "type": "function",
+            "description": "Triggered when the download has completed",
+            "required": false
+          },
+          {
+            "name": "onProgress",
+            "type": "function",
+            "description": "Triggered each time receives data",
+            "required": false
+          },
+          {
+            "name": "onSuccess",
+            "type": "function",
+            "description": "Triggered when the download is success",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "The path to the downloaded file"
+        },
+        "examples": [],
+        "usage": ".download(url, saveto, optionsonStartonEndonProgressonSuccess, , onStart, onEnd, onProgress, onSuccess) : Promise.<String>"
+      },
+      ".downloadFile": {
+        "signature": "(async, static) downloadFile(url, saveto, options?) → Promise.<String>",
+        "description": "Download file with node-download-helper library.\nResume file if destination file is exist",
+        "parameters": [
+          {
+            "name": "url",
+            "type": "String",
+            "description": "http/https url",
+            "required": true
+          },
+          {
+            "name": "saveto",
+            "type": "String",
+            "description": "Path to folder or filename",
+            "required": true
+          },
+          {
+            "name": "optionsonStartonEndonProgressonSuccessretry",
+            "type": "ObjectfunctionfunctionfunctionfunctionObject",
+            "description": "How to control the retries",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "onStart",
+            "type": "function",
+            "description": "Triggered when the download has started",
+            "required": false
+          },
+          {
+            "name": "onEnd",
+            "type": "function",
+            "description": "Triggered when the download has completed",
+            "required": false
+          },
+          {
+            "name": "onProgress",
+            "type": "function",
+            "description": "Triggered each time receives data",
+            "required": false
+          },
+          {
+            "name": "onSuccess",
+            "type": "function",
+            "description": "Triggered when the download is success",
+            "required": false
+          },
+          {
+            "name": "retry",
+            "type": "Object",
+            "description": "How to control the retries",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "The path to the downloaded file"
+        },
+        "examples": [],
+        "usage": ".downloadFile(url, saveto, optionsonStartonEndonProgressonSuccessretry, , onStart, onEnd, onProgress, onSuccess, retry) : Promise.<String>"
+      },
+      ".escapeCmdPath": {
+        "signature": "(static) escapeCmdPath(str) → String",
+        "description": "Escapes path like shell command parameter",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "shell command parameter",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Escaped sttring"
+        },
+        "examples": [],
+        "usage": ".escapeCmdPath(str) : String"
+      },
+      ".evalRegExpStr": {
+        "signature": "(static) evalRegExpStr(str) → RegExp",
+        "description": "Convert a regular expression like string into a regular expression object",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "A string",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "RegExp",
+          "description": "A regular expression"
+        },
+        "examples": [],
+        "usage": ".evalRegExpStr(str) : RegExp"
+      },
+      ".extract": {
+        "signature": "(async, static) extract(from, to, options?) → Promise.<Boolean>",
+        "description": "Extract an archive file",
+        "parameters": [
+          {
+            "name": "from",
+            "type": "String",
+            "description": "Archive file location",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "String",
+            "description": "A path to a directory, where you want to place the extracted files",
+            "required": true
+          },
+          {
+            "name": "optionssourceFilter",
+            "type": "Objectstring",
+            "description": "Glob pattern to filter what files you want to extract",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "sourceFilter",
+            "type": "string",
+            "description": "Glob pattern to filter what files you want to extract",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Boolean>",
+          "description": "True if success"
+        },
+        "examples": [],
+        "usage": ".extract(from, to, optionssourceFilter, , sourceFilter) : Promise.<Boolean>"
+      },
+      ".extractString": {
+        "signature": "(static) extractString(str, prefix, suffix) → String",
+        "description": "function to get a string between first occurance of a prefix and suffix",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "A text",
+            "required": true
+          },
+          {
+            "name": "prefix",
+            "type": "String",
+            "description": "left side of the marker",
+            "required": true
+          },
+          {
+            "name": "suffix",
+            "type": "String",
+            "description": "right side of the marker",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "String found between prefix and suffix"
+        },
+        "examples": [],
+        "usage": ".extractString(str, prefix, suffix) : String"
+      },
+      ".fetch": {
+        "signature": "(async, static) fetch(url, options) → Promise.<String>",
+        "description": "Fetch remote url and returns result with JQuery.ajax",
+        "parameters": [
+          {
+            "name": "url",
+            "type": "String",
+            "description": "The url to fetch",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "JQuery.ajax options",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "The content of the URL"
+        },
+        "examples": [],
+        "usage": ".fetch(url, options) : Promise.<String>"
+      },
+      ".fetchUrl": {
+        "signature": "(async, static) fetchUrl(url, options?) → Promise.<(String|Object)>",
+        "description": "Fetch URL with NodeJS' postman-request",
+        "parameters": [
+          {
+            "name": "url",
+            "type": "String",
+            "description": "Url to be fetched",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Options",
+            "description": "postman-request's options",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<(String|Object)>",
+          "description": "If the fetched data is a JSON, then returns Javascript object. Otherwise, returns a plain string"
+        },
+        "examples": [],
+        "usage": ".fetchUrl(url, options) : Promise.<(String|Object)>"
+      },
+      ".fileGetContents": {
+        "signature": "(async, static) fileGetContents(file, encoding?) → Promise.<String>",
+        "description": "Reads entire file into a string",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          },
+          {
+            "name": "encoding",
+            "type": "*",
+            "description": "Character encoding of the file",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "The entire content of the file"
+        },
+        "examples": [],
+        "usage": ".fileGetContents(file, encoding) : Promise.<String>"
+      },
+      ".fileIsWritable": {
+        "signature": "(static) fileIsWritable(file) → Boolean",
+        "description": "Check whether a path is writable or not",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "Path to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if the path is writable"
+        },
+        "examples": [],
+        "usage": ".fileIsWritable(file) : Boolean"
+      },
+      ".filePutContents": {
+        "signature": "(async, static) filePutContents(file, data, encoding?, bom?) → Promise.<String>",
+        "description": "Write data into a file\nCreate a file if it does not exist. Will truncate the file if it exists.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          },
+          {
+            "name": "data",
+            "type": "String",
+            "description": "Data to write to",
+            "required": true
+          },
+          {
+            "name": "encoding",
+            "type": "String",
+            "description": "Character encoding",
+            "required": false
+          },
+          {
+            "name": "bom",
+            "type": "Boolean",
+            "description": "Whether to write with a BOM or not",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "Path to the file"
+        },
+        "examples": [],
+        "usage": ".filePutContents(file, data, encoding, bom) : Promise.<String>"
+      },
+      ".filterFilename": {
+        "signature": "(static) filterFilename(filename) → String",
+        "description": "Filter filename into a correct window's filename\nWill replace \\ / : \" * ? > < | with _",
+        "parameters": [
+          {
+            "name": "filename",
+            "type": "*",
+            "description": "A filename. Warning: Filename is not a path string",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Sanitized filename"
+        },
+        "examples": [],
+        "usage": ".filterFilename(filename) : String"
+      },
+      ".formatDate": {
+        "signature": "(static) formatDate(date?) → String",
+        "description": "Format a date into YYYY-MM-DD HH:II:SS format",
+        "parameters": [
+          {
+            "name": "date",
+            "type": "Date",
+            "description": "",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Formatted date"
+        },
+        "examples": [],
+        "usage": ".formatDate(date) : String"
+      },
+      ".fstat": {
+        "signature": "(async, static) fstat(path) → Promise.<Object>",
+        "description": "Get the file stats of a file/directory",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Object>",
+          "description": "The resulting output will resemble:\n{\n  dev: 16777220,\n  mode: 16877,\n  nlink: 3,\n  uid: 501,\n  gid: 20,\n  rdev: 0,\n  blksize: 4096,\n  ino: 14214262,\n  size: 96,\n  blocks: 0,\n  atimeMs: 1561174653071.963,\n  mtimeMs: 1561174614583.3518,\n  ctimeMs: 1561174626623.5366,\n  birthtimeMs: 1561174126937.2893,\n  atime: 2019-06-22T03:37:33.072Z,\n  mtime: 2019-06-22T03:36:54.583Z,\n  ctime: 2019-06-22T03:37:06.624Z,\n  birthtime: 2019-06-22T03:28:46.937Z\n}"
+        },
+        "examples": [],
+        "usage": ".fstat(path) : Promise.<Object>"
+      },
+      ".generateId": {
+        "signature": "(static) generateId() → String",
+        "description": "Generate unique ID",
+        "parameters": [],
+        "returns": {
+          "type": "String",
+          "description": "An unique ID"
+        },
+        "examples": [],
+        "usage": ".generateId() : String"
+      },
+      ".getAll": {
+        "signature": "(static) getAll(directory, filter) → Array.<String>",
+        "description": "List the content of a directory (not including the sub directory)",
+        "parameters": [
+          {
+            "name": "directory",
+            "type": "String",
+            "description": "Directory to check",
+            "required": true
+          },
+          {
+            "name": "filter",
+            "type": "String",
+            "description": "The filter",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array.<String>",
+          "description": "The list of the file(s) and directory(s) inside the given path"
+        },
+        "examples": [],
+        "usage": ".getAll(directory, filter) : Array.<String>"
+      },
+      ".getAllExt": {
+        "signature": "(async, static) getAllExt(directory, extensions) → Promise.<Array.<String>>",
+        "description": "List the content of a directory (non including the sub directory)\nAnd whitelist the result with the given extension",
+        "parameters": [
+          {
+            "name": "directory",
+            "type": "String",
+            "description": "Directory to check",
+            "required": true
+          },
+          {
+            "name": "extensions",
+            "type": "String",
+            "description": "Extension",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Array.<String>>",
+          "description": "The list of the file(s) and directory(s) inside the given path that match the given extension"
+        },
+        "examples": [],
+        "usage": ".getAllExt(directory, extensions) : Promise.<Array.<String>>"
+      },
+      ".getAllFiles": {
+        "signature": "(static) getAllFiles(dir) → Array.<String>",
+        "description": "Read the content of the directory",
+        "parameters": [
+          {
+            "name": "dir",
+            "type": "String",
+            "description": "Path to a directory",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array.<String>",
+          "description": "List of the content of the directory"
+        },
+        "examples": [],
+        "usage": ".getAllFiles(dir) : Array.<String>"
+      },
+      ".getBasePath": {
+        "signature": "(static) getBasePath(files)",
+        "description": "Get base directory path from collection of path",
+        "parameters": [
+          {
+            "name": "files",
+            "type": "String|Array.<String>",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "var paths = [\n\t\"/some/path/to/a/directory/\",\n\t\"/some/path/to/a/directory/and/a/file/\",\n\t\"/some/path/to/a/directory/and/a/file/1.txt\",\n\t\"/some/path/to/a/directory/and/a/file/2.txt\",\n\t\"/some/path/to/a/directory/and/a/file/3.txt\",\n]\ncommon.getBasePath(paths); // return: /some/path/to/a"
+        ],
+        "usage": ".getBasePath(files)"
+      },
+      ".getContextValue": {
+        "signature": "(static) getContextValue(path, key)",
+        "description": "Find a value of context",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "key",
+            "type": "string",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "path = \"map/1/event/3/page/14\"\nkey = \"event\"\nreturned = 3"
+        ],
+        "usage": ".getContextValue(path, key)"
+      },
+      ".getDirectory": {
+        "signature": "(static) getDirectory(path) → String",
+        "description": "Get the parent directory of a path",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Path to the parent directory"
+        },
+        "examples": [],
+        "usage": ".getDirectory(path) : String"
+      },
+      ".getExeManufacturer": {
+        "signature": "(static) getExeManufacturer(filePath) → Promise.<String>",
+        "description": "Get manufacturer of an EXE file",
+        "parameters": [
+          {
+            "name": "filePath",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "manufacturer string"
+        },
+        "examples": [],
+        "usage": ".getExeManufacturer(filePath) : Promise.<String>"
+      },
+      ".getExeVersion": {
+        "signature": "(static) getExeVersion(filePath) → Promise.<String>",
+        "description": "Get version of an EXE file",
+        "parameters": [
+          {
+            "name": "filePath",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "version string"
+        },
+        "examples": [],
+        "usage": ".getExeVersion(filePath) : Promise.<String>"
+      },
+      ".getFileFromURL": {
+        "signature": "(static) getFileFromURL(input) → String",
+        "description": "Get filename from the url",
+        "parameters": [
+          {
+            "name": "input",
+            "type": "String",
+            "description": "The url",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "The filename"
+        },
+        "examples": [],
+        "usage": ".getFileFromURL(input) : String"
+      },
+      ".getFileSize": {
+        "signature": "(async, static) getFileSize(path) → Promise.<Number>",
+        "description": "Get the size of a file",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "The path to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Number>",
+          "description": "The size of the file in byte"
+        },
+        "examples": [],
+        "usage": ".getFileSize(path) : Promise.<Number>"
+      },
+      ".getFilename": {
+        "signature": "(static) getFilename(path) → String",
+        "description": "Get a filename from the given path (without extension)",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "filename"
+        },
+        "examples": [
+          "var filename = common.getFilename('C:/path/to/my/document.txt');\n// filename will be : document"
+        ],
+        "usage": ".getFilename(path) : String"
+      },
+      ".getLanguageCode": {
+        "signature": "(static) getLanguageCode() → Object",
+        "description": "Get the list of BCP 47 Language code",
+        "parameters": [],
+        "returns": {
+          "type": "Object",
+          "description": "Language code"
+        },
+        "examples": [],
+        "usage": ".getLanguageCode() : Object"
+      },
+      ".getOpenedFileEncoding": {
+        "signature": "(static) getOpenedFileEncoding(file) → String",
+        "description": "Get encoding of file opened with common.fileGetContents",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "Path to a file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "The file encoding"
+        },
+        "examples": [],
+        "usage": ".getOpenedFileEncoding(file) : String"
+      },
+      ".getOrigin": {
+        "signature": "(static) getOrigin() → String",
+        "description": "Get the information about which js file and the line number is calling a function.",
+        "parameters": [],
+        "returns": {
+          "type": "String",
+          "description": "Information about the caller's js file the line number and column"
+        },
+        "examples": [],
+        "usage": ".getOrigin() : String"
+      },
+      ".getRelativePath": {
+        "signature": "(static) getRelativePath(longPath, shortPath) → String",
+        "description": "Get relative path between two path",
+        "parameters": [
+          {
+            "name": "longPath",
+            "type": "String",
+            "description": "A long path",
+            "required": true
+          },
+          {
+            "name": "shortPath",
+            "type": "String",
+            "description": "A shorter path",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "get relative path between two path"
+        },
+        "examples": [
+          "common.getRelativePath('/path/to/a/directory/', '/path/to/')' // returns a/directory/"
+        ],
+        "usage": ".getRelativePath(longPath, shortPath) : String"
+      },
+      ".getRelativePathFromNode": {
+        "signature": "(static) getRelativePathFromNode(path, node, includeNode)",
+        "description": "Get the relative path from the last occurance of a directory/node",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "The full path",
+            "required": true
+          },
+          {
+            "name": "node",
+            "type": "String",
+            "description": "Directory name/node",
+            "required": true
+          },
+          {
+            "name": "includeNode",
+            "type": "Boolean",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".getRelativePathFromNode(path, node, includeNode)"
+      },
+      ".getSelectionText": {
+        "signature": "(static) getSelectionText() → String",
+        "description": "Get text from selected carret",
+        "parameters": [],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".getSelectionText() : String"
+      },
+      ".getStagePath": {
+        "signature": "(static) getStagePath() → String",
+        "description": "Get the current stage path",
+        "parameters": [],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".getStagePath() : String"
+      },
+      ".getUrlStatus": {
+        "signature": "(async, static) getUrlStatus(url) → Promise.<IncomingMessage>",
+        "description": "Get HTTP status of the URL",
+        "parameters": [
+          {
+            "name": "url",
+            "type": "String",
+            "description": "The URL",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<IncomingMessage>",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".getUrlStatus(url) : Promise.<IncomingMessage>"
+      },
+      ".gridRangeToArray": {
+        "signature": "(static) gridRangeToArray(currentSelection?) → Array.<Number>",
+        "description": "Return Array of row indexes by HOT getSelected()\nThis function will only calculate rows.\nAlias of common.gridRangeToArray()",
+        "parameters": [
+          {
+            "name": "currentSelection",
+            "type": "CellRange",
+            "description": "Cell range",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<Number>",
+          "description": "Returns a single dimensional array of rows"
+        },
+        "examples": [],
+        "usage": ".gridRangeToArray(currentSelection) : Array.<Number>"
+      },
+      ".gridSelectedCells": {
+        "signature": "(static) gridSelectedCells(currentSelection?) → Array.<CellCoords>",
+        "description": "Return Array of selected cells\nThis function will only calculate rows.",
+        "parameters": [
+          {
+            "name": "currentSelection",
+            "type": "CellRange",
+            "description": "Cell range",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<CellCoords>",
+          "description": "Returns an array of CellCoords"
+        },
+        "examples": [],
+        "usage": ".gridSelectedCells(currentSelection) : Array.<CellCoords>"
+      },
+      ".gridSelectedCols": {
+        "signature": "(static) gridSelectedCols(currentSelection?) → Array.<Number>",
+        "description": "Return Array of column indexes by HOT getSelected()\nThis function will only calculate rows.",
+        "parameters": [
+          {
+            "name": "currentSelection",
+            "type": "CellRange",
+            "description": "Cell range",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<Number>",
+          "description": "Returns a single dimensional array of rows"
+        },
+        "examples": [],
+        "usage": ".gridSelectedCols(currentSelection) : Array.<Number>"
+      },
+      ".gridSelectedRows": {
+        "signature": "(static) gridSelectedRows(currentSelection?) → Array.<Number>",
+        "description": "Return Array of row indexes by HOT getSelected()\nThis function will only calculate rows.",
+        "parameters": [
+          {
+            "name": "currentSelection",
+            "type": "CellRange",
+            "description": "Cell range",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Array.<Number>",
+          "description": "Returns a single dimensional array of rows"
+        },
+        "examples": [],
+        "usage": ".gridSelectedRows(currentSelection) : Array.<Number>"
+      },
+      ".gunzip": {
+        "signature": "(async, static) gunzip(data, options?) → Promise.<(String|Object)>",
+        "description": "Unpack zlib compressed data",
+        "parameters": [
+          {
+            "name": "data",
+            "type": "String|Buffer|Object",
+            "description": "Data to be uncompressed",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "Options",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<(String|Object)>",
+          "description": "The uncompressed data"
+        },
+        "examples": [],
+        "usage": ".gunzip(data, options) : Promise.<(String|Object)>"
+      },
+      ".gzip": {
+        "signature": "(async, static) gzip(data, options?) → Promise.<Buffer>",
+        "description": "Pack data with zlib library",
+        "parameters": [
+          {
+            "name": "data",
+            "type": "String|Buffer|Object",
+            "description": "Data to be compressed",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Buffer",
+            "description": "Options",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Buffer>",
+          "description": "Compressed output"
+        },
+        "examples": [],
+        "usage": ".gzip(data, options) : Promise.<Buffer>"
+      },
+      ".halt": {
+        "signature": "(static) halt() → Halt",
+        "description": "Returns Halt object",
+        "parameters": [],
+        "returns": {
+          "type": "Halt",
+          "description": "Halt object. An object to let the hook know when to halt the process."
+        },
+        "examples": [],
+        "usage": ".halt() : Halt"
+      },
+      ".hasNumber": {
+        "signature": "(static) hasNumber(str) → Boolean",
+        "description": "Test whether the string has number or not\nWorks with shift-jis japanese characters too",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "String to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".hasNumber(str) : Boolean"
+      },
+      ".htmlEntities": {
+        "signature": "(static) htmlEntities(encodedStr) → String",
+        "description": "Convert all applicable characters to HTML entities",
+        "parameters": [
+          {
+            "name": "encodedStr",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [
+          "common.htmlEntities(`<span>Howdy</span>`)\n// will returns : &lt;span&gt;Howdy&lt;/span&gt;"
+        ],
+        "usage": ".htmlEntities(encodedStr) : String"
+      },
+      ".htmlEntitiesDecode": {
+        "signature": "(static) htmlEntitiesDecode(encodedStr) → String",
+        "description": "Convert HTML entities to their corresponding characters",
+        "parameters": [
+          {
+            "name": "encodedStr",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [
+          "common.htmlEntitiesDecode(`&lt;span&gt;Howdy&lt;/span&gt;`)\n// will returns : <span>Howdy</span>;"
+        ],
+        "usage": ".htmlEntitiesDecode(encodedStr) : String"
+      },
+      ".indexOfAll": {
+        "signature": "(static) indexOfAll(sourceArray, find) → Array",
+        "description": "Search a needle in a haystack, and returns all occurance.\nlike indexOf, but return all occurance as an array;",
+        "parameters": [
+          {
+            "name": "sourceArray",
+            "type": "Array",
+            "description": "Haystack",
+            "required": true
+          },
+          {
+            "name": "find",
+            "type": "*",
+            "description": "Needle",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array",
+          "description": "Array of occurance"
+        },
+        "examples": [],
+        "usage": ".indexOfAll(sourceArray, find) : Array"
+      },
+      ".isArguments": {
+        "signature": "(static) isArguments(item) → Boolean",
+        "description": "Check whether a variable is a Javascript's argument object",
+        "parameters": [
+          {
+            "name": "item",
+            "type": "*",
+            "description": "Variable to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if given variable is a Javascript's argument object"
+        },
+        "examples": [],
+        "usage": ".isArguments(item) : Boolean"
+      },
+      ".isBomBuffer": {
+        "signature": "(static) isBomBuffer(buff) → Boolean",
+        "description": "Check whether a buffer has a Byte Order Mark (BOM)",
+        "parameters": [
+          {
+            "name": "buff",
+            "type": "Buffer|Array|String",
+            "description": "Supported buffer type",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".isBomBuffer(buff) : Boolean"
+      },
+      ".isDir": {
+        "signature": "(static) isDir(dirPath) → Boolean",
+        "description": "Check whether a path is directory or not",
+        "parameters": [
+          {
+            "name": "dirPath",
+            "type": "String",
+            "description": "Path to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if path is exist and is directory"
+        },
+        "examples": [],
+        "usage": ".isDir(dirPath) : Boolean"
+      },
+      ".isDirectory": {
+        "signature": "(async, static) isDirectory(path) → Promise.<Boolean>",
+        "description": "Checks whether a path is directory",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to check for",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Boolean>",
+          "description": "True if the given path is a directory"
+        },
+        "examples": [],
+        "usage": ".isDirectory(path) : Promise.<Boolean>"
+      },
+      ".isExist": {
+        "signature": "(static) isExist(path) → Boolean",
+        "description": "Check whether a path is exist",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if path is exist"
+        },
+        "examples": [],
+        "usage": ".isExist(path) : Boolean"
+      },
+      ".isExistAsync": {
+        "signature": "(async, static) isExistAsync(path) → Boolean",
+        "description": "Check whether a path is exist",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if path is exist"
+        },
+        "examples": [],
+        "usage": ".isExistAsync(path) : Boolean"
+      },
+      ".isFile": {
+        "signature": "(static) isFile(path) → Boolean",
+        "description": "Check whether a path is a file or not",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if path is exist and is a file"
+        },
+        "examples": [],
+        "usage": ".isFile(path) : Boolean"
+      },
+      ".isFileAsync": {
+        "signature": "(async, static) isFileAsync(path) → Promise.<Boolean>",
+        "description": "Check whether a path is a file or not",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to be checked",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Boolean>",
+          "description": "True if a file"
+        },
+        "examples": [],
+        "usage": ".isFileAsync(path) : Promise.<Boolean>"
+      },
+      ".isHalt": {
+        "signature": "(static) isHalt(obj) → Boolean",
+        "description": "Checks if obj is Halt",
+        "parameters": [
+          {
+            "name": "obj",
+            "type": "*",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".isHalt(obj) : Boolean"
+      },
+      ".isJSON": {
+        "signature": "(static) isJSON(string) → Boolean",
+        "description": "Check whether a string is a valid JSON\nThis function will return true if any texts can be compiled through JSON.parse\nA string like 'null' will return true",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "A string to be checked",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if the string is a valid JSON"
+        },
+        "examples": [
+          "common.isJSON('[\"Some\", \"Array\"]'); //true\ncommon.isJSON('{\"Some\":\"object\"}'); //true\ncommon.isJSON('\"A string\"'); //true\ncommon.isJSON('null'); //true"
+        ],
+        "usage": ".isJSON(string) : Boolean"
+      },
+      ".isJSONString": {
+        "signature": "(static) isJSONString(string) → Boolean",
+        "description": "Check whether a string is a valid JSON object\nThis function will return true only if the text is a JSON object",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "A string to be checked",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if the string is a valid JSON"
+        },
+        "examples": [
+          "common.isJSON('[\"Some\", \"Array\"]'); //true\ncommon.isJSON('{\"Some\":\"object\"}'); //true\ncommon.isJSON('\"A string\"'); //false\ncommon.isJSON('null'); //false"
+        ],
+        "usage": ".isJSONString(string) : Boolean"
+      },
+      ".isNumeric": {
+        "signature": "(static) isNumeric(str) → Boolean",
+        "description": "Check if the str is a numeric",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String|Number",
+            "description": "Text or number to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if str is numeric"
+        },
+        "examples": [],
+        "usage": ".isNumeric(str) : Boolean"
+      },
+      ".isRegExp": {
+        "signature": "(static) isRegExp(string) → Boolean",
+        "description": "Checks whether a string is a valid regular expression or not",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "A string to be checked",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if a string is a regular expression"
+        },
+        "examples": [],
+        "usage": ".isRegExp(string) : Boolean"
+      },
+      ".isRelated": {
+        "signature": "(static) isRelated(path1, path2) → Boolean",
+        "description": "Check whether two path is related",
+        "parameters": [
+          {
+            "name": "path1",
+            "type": "String",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "path2",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if two path is related as a parent child directory."
+        },
+        "examples": [],
+        "usage": ".isRelated(path1, path2) : Boolean"
+      },
+      ".isStringFunction": {
+        "signature": "(static) isStringFunction(str) → Boolean",
+        "description": "Check whether a string is Javascript function",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "A string of javascript function",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if the string is Javascript function"
+        },
+        "examples": [],
+        "usage": ".isStringFunction(str) : Boolean"
+      },
+      ".isThru": {
+        "signature": "(static) isThru(obj) → Boolean",
+        "description": "Checks if the obj is Thru",
+        "parameters": [
+          {
+            "name": "obj",
+            "type": "*",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".isThru(obj) : Boolean"
+      },
+      ".isTranslatableText": {
+        "signature": "(static) isTranslatableText(text) → Boolean",
+        "description": "Check whether a string is translatable text on UTF8 character map",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "Text to check",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if character is translatable"
+        },
+        "examples": [],
+        "usage": ".isTranslatableText(text) : Boolean"
+      },
+      ".isUrlWorking": {
+        "signature": "(async, static) isUrlWorking(url) → Promise.<Boolean>",
+        "description": "Check whether an url is working",
+        "parameters": [
+          {
+            "name": "url",
+            "type": "String",
+            "description": "URL to be checked",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Boolean>",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".isUrlWorking(url) : Promise.<Boolean>"
+      },
+      ".isValidLanguageCode": {
+        "signature": "(static) isValidLanguageCode(code)",
+        "description": "To test whether a string is a valid BCP 47 language code.",
+        "parameters": [
+          {
+            "name": "code",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".isValidLanguageCode(code)"
+      },
+      ".listArchiveContent": {
+        "signature": "(async, static) listArchiveContent(archivePath) → Promise.<Object>",
+        "description": "List the content of an archive file",
+        "parameters": [
+          {
+            "name": "archivePath",
+            "type": "String",
+            "description": "Path to the archive file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Object>",
+          "description": "Object representing the content of the archive in the following format:\n{\n\tdirs:[],\n\tfiles:[]\n}"
+        },
+        "examples": [],
+        "usage": ".listArchiveContent(archivePath) : Promise.<Object>"
+      },
+      ".makeid": {
+        "signature": "(static) makeid(length) → String",
+        "description": "Generates ID by randomize alpha numeric character",
+        "parameters": [
+          {
+            "name": "length",
+            "type": "Number",
+            "description": "Length of the ID",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Randomized string"
+        },
+        "examples": [],
+        "usage": ".makeid(length) : String"
+      },
+      ".maxLength": {
+        "signature": "(static) maxLength(text) → Number",
+        "description": "get maximum line's length of text",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Number",
+          "description": "The maximum horizontal's characters count of the text"
+        },
+        "examples": [],
+        "usage": ".maxLength(text) : Number"
+      },
+      ".mergeDeep": {
+        "signature": "(static) mergeDeep(target, …sources) → Object",
+        "description": "Merge object recursively",
+        "parameters": [
+          {
+            "name": "target",
+            "type": "Object",
+            "description": "Target object",
+            "required": true
+          },
+          {
+            "name": "sources",
+            "type": "Object",
+            "description": "Source objects",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "merged object"
+        },
+        "examples": [],
+        "usage": ".mergeDeep(target, sources) : Object"
+      },
+      ".mkDir": {
+        "signature": "(async, static) mkDir(path) → Promise.<(String|undefined)>",
+        "description": "Create a directory. Will create preceding directories if they do not exist.",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to the directory",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<(String|undefined)>",
+          "description": "Return the newly created path on success"
+        },
+        "examples": [],
+        "usage": ".mkDir(path) : Promise.<(String|undefined)>"
+      },
+      ".openExplorer": {
+        "signature": "(static) openExplorer(path, folder)",
+        "description": "Open windows explorer to a path and folder",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "folder",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".openExplorer(path, folder)"
+      },
+      ".pack": {
+        "signature": "(async, static) pack(from, to, options) → Promise.<String>",
+        "description": "Pack a file or folder to an archive file",
+        "parameters": [
+          {
+            "name": "from",
+            "type": "String",
+            "description": "A path to the file/folder to be packed",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "String",
+            "description": "Path to the resulted archive file",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "Object",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "Path to the newly created archive"
+        },
+        "examples": [],
+        "usage": ".pack(from, to, options) : Promise.<String>"
+      },
+      ".parseChangeLog": {
+        "signature": "(static) parseChangeLog(text) → Object",
+        "description": "Parse Translator++ changelog formatted text",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "Javascript's iterable object"
+        },
+        "examples": [],
+        "usage": ".parseChangeLog(text) : Object"
+      },
+      ".rand": {
+        "signature": "(static) rand(min, max) → Number",
+        "description": "Returns a random integer between min (inclusive) and max (inclusive)\nUsing Math.round() will give you a non-uniform distribution!",
+        "parameters": [
+          {
+            "name": "min",
+            "type": "Number",
+            "description": "Minimum number to be randomized",
+            "required": true
+          },
+          {
+            "name": "max",
+            "type": "Number",
+            "description": "Max number to be randomized",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Number",
+          "description": "A random number between min & max (inclusive)"
+        },
+        "examples": [],
+        "usage": ".rand(min, max) : Number"
+      },
+      ".readChunk": {
+        "signature": "(async, static) readChunk(file, offset, length) → Promise.<Buffer>",
+        "description": "Reads a chunk of data from a file",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "Path to a file",
+            "required": true
+          },
+          {
+            "name": "offset",
+            "type": "Number",
+            "description": "The starting point of the chunk",
+            "required": true
+          },
+          {
+            "name": "length",
+            "type": "Number",
+            "description": "The length of the chunk",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Buffer>",
+          "description": "Chunk of the file in Buffer format"
+        },
+        "examples": [],
+        "usage": ".readChunk(file, offset, length) : Promise.<Buffer>"
+      },
+      ".readDir": {
+        "signature": "(async, static) readDir(dir) → Promise.<Array.<String>>",
+        "description": "Read all files within a directory recusively and return relative path of each file",
+        "parameters": [
+          {
+            "name": "dir",
+            "type": "String",
+            "description": "Path to a directory",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Array.<String>>",
+          "description": "List of all files within the given directory and its child directories"
+        },
+        "examples": [],
+        "usage": ".readDir(dir) : Promise.<Array.<String>>"
+      },
+      ".rename": {
+        "signature": "(async, static) rename(from, to) → Promise.<String>",
+        "description": "Rename / Move a file from one location to another.",
+        "parameters": [
+          {
+            "name": "from",
+            "type": "String",
+            "description": "Source file",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "String",
+            "description": "Target file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "Path to the new location"
+        },
+        "examples": [],
+        "usage": ".rename(from, to) : Promise.<String>"
+      },
+      ".replaceNewLine": {
+        "signature": "(static) replaceNewLine(string, newNewLine) → String",
+        "description": "Replace newline (CR or CRLF ) characters with a string",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "newNewLine",
+            "type": "String",
+            "description": "A new newline string to replace the existing newlines",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".replaceNewLine(string, newNewLine) : String"
+      },
+      ".rmdir": {
+        "signature": "(async, static) rmdir(path) → Promise.<Boolean>",
+        "description": "Remove a directory recursively",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to the directory to be removed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Boolean>",
+          "description": "True if success"
+        },
+        "examples": [],
+        "usage": ".rmdir(path) : Promise.<Boolean>"
+      },
+      ".searchReplaceArray": {
+        "signature": "(static) searchReplaceArray(sourceArray, targetArray, find, put, options)",
+        "description": "search in the sourceArray and put it on the targetArray",
+        "parameters": [
+          {
+            "name": "sourceArray",
+            "type": "Array.<String>",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "targetArray",
+            "type": "Array.<String>",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "find",
+            "type": "String",
+            "description": "The string to be found",
+            "required": true
+          },
+          {
+            "name": "put",
+            "type": "String",
+            "description": "The string to put into",
+            "required": true
+          },
+          {
+            "name": "optionsoverwrite",
+            "type": "ObjectObject",
+            "description": "Whether to overwrite the target value if exists or not",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "overwrite",
+            "type": "Object",
+            "description": "Whether to overwrite the target value if exists or not",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "void",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".searchReplaceArray(sourceArray, targetArray, find, put, optionsoverwrite, , overwrite) : void"
+      },
+      ".stripCarriageReturn": {
+        "signature": "(static) stripCarriageReturn(input) → String",
+        "description": "Strip all cariage returns",
+        "parameters": [
+          {
+            "name": "input",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "A string free of the reeks of MS Windows :)"
+        },
+        "examples": [],
+        "usage": ".stripCarriageReturn(input) : String"
+      },
+      ".stripNonWordCharacters": {
+        "signature": "(static) stripNonWordCharacters(text) → String",
+        "description": "Strip out non word characters from a text.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "Text to be filtered",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Filtered text"
+        },
+        "examples": [],
+        "usage": ".stripNonWordCharacters(text) : String"
+      },
+      ".stripslashes": {
+        "signature": "(static) stripslashes(str) → String",
+        "description": "Strip backslashes from string",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "String",
+            "description": "A text to be processed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".stripslashes(str) : String"
+      },
+      ".thru": {
+        "signature": "(static) thru() → Halt",
+        "description": "Returns Thru object",
+        "parameters": [],
+        "returns": {
+          "type": "Halt",
+          "description": "Thru object. Tell a process that they should go thru."
+        },
+        "examples": [],
+        "usage": ".thru() : Halt"
+      },
+      ".trimParagraph": {
+        "signature": "(static) trimParagraph(text) → String",
+        "description": "Trim a paragraph",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "Text to be trimmed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Trimmed text"
+        },
+        "examples": [],
+        "usage": ".trimParagraph(text) : String"
+      },
+      ".trimRightParagraph": {
+        "signature": "(static) trimRightParagraph(text) → String",
+        "description": "Trim right side of a paragraph",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "Text to be trimmed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Trimmed text"
+        },
+        "examples": [],
+        "usage": ".trimRightParagraph(text) : String"
+      },
+      ".unlink": {
+        "signature": "(async, static) unlink(path) → Promise.<String>",
+        "description": "Removes a file",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Path to the file",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "Path to the removed file if success"
+        },
+        "examples": [],
+        "usage": ".unlink(path) : Promise.<String>"
+      },
+      ".varAsStringGet": {
+        "signature": "(static) varAsStringGet(stringVar) → *",
+        "description": "Get value from object string",
+        "parameters": [
+          {
+            "name": "stringVar",
+            "type": "*",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "False if failed"
+        },
+        "examples": [],
+        "usage": ".varAsStringGet(stringVar) : *"
+      },
+      ".varAsStringSet": {
+        "signature": "(static) varAsStringSet(stringVar, value, force?) → Boolean",
+        "description": "Set value from string path.to.object",
+        "parameters": [
+          {
+            "name": "stringVar",
+            "type": "String",
+            "description": "Dot separated path to an object",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value of the variable",
+            "required": true
+          },
+          {
+            "name": "force",
+            "type": "*",
+            "description": "Force to create object path if such path does not exist",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [
+          "var sampleObj = {};\n\n// We can initialize a variable like this:\nsampleObj.value = \"Howdy!\"; \n// success because the parent object of the value is exist.\n\n// We expect that we can initialize a nested object like this\nsampleObj.path.to.inexistent.obj = \"Howdy!\"; \n// But unfortunately thiw will generates error with message: Uncaught TypeError: Cannot read property 'to' of undefined\n\n// Now we can quickly fix this with the following command\ncommon.varAsStringSet('sampleObj.path.to.inexistent.obj', \"Howdy!\", true);\nconsole.log(sampleObj.path.to.inexistent.obj);\n// will print out: Howdy!"
+        ],
+        "usage": ".varAsStringSet(stringVar, value, force) : Boolean"
+      },
+      ".versionToDate": {
+        "signature": "(static) versionToDate(ver, format) → String",
+        "description": "Converts version string to a date format",
+        "parameters": [
+          {
+            "name": "ver",
+            "type": "String",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "format",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".versionToDate(ver, format) : String"
+      },
+      ".versionToFloat": {
+        "signature": "(static) versionToFloat(ver) → Number",
+        "description": "Convert version string to a float\nThis is useful for version comparasion/sorting procedure",
+        "parameters": [
+          {
+            "name": "ver",
+            "type": "String",
+            "description": "Version number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Number",
+          "description": "Float number of the version string"
+        },
+        "examples": [],
+        "usage": ".versionToFloat(ver) : Number"
+      },
+      ".wait": {
+        "signature": "(async, static) wait(ms)",
+        "description": "Wait asynchronous execution for (n) ms",
+        "parameters": [
+          {
+            "name": "ms",
+            "type": "Number",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".wait(ms)"
+      },
+      ".waitForFileState": {
+        "signature": "(static) waitForFileState(file) → Boolean",
+        "description": "Wait until the file state is changed",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "File to watch",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": ".waitForFileState(file) : Boolean"
+      },
+      ".wordwrapAfter": {
+        "signature": "(static) wordwrapAfter(long_string, max_char, lineBreak) → String",
+        "description": "Behavior : will keep the words intact even if the first words in long_string is longer than max_char",
+        "parameters": [
+          {
+            "name": "long_string",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "max_char",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "lineBreak",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Word wrapped string"
+        },
+        "examples": [],
+        "usage": ".wordwrapAfter(long_string, max_char, lineBreak) : String"
+      },
+      ".writeFile": {
+        "signature": "(async, static) writeFile(file, data, options) → Promise.<String>",
+        "description": "Write a data into a file\nWhen file is a filename, asynchronously writes data to the file, replacing the file if it already exists. data can be a string or a buffer.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String|Buffer",
+            "description": "Path to the file",
+            "required": true
+          },
+          {
+            "name": "data",
+            "type": "String|Buffer|TypedArray",
+            "description": "The data to be written",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "*",
+            "description": "NodeJS fs.writeFile options",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<String>",
+          "description": "The file written"
+        },
+        "examples": [],
+        "usage": ".writeFile(file, data, options) : Promise.<String>"
+      }
+    }
+  }
+}

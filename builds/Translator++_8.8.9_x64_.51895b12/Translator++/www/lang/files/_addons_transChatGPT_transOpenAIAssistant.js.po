@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: transOpenAIAssistant.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"0","tags":null}
+#. tid/778/type/StringLiteral
+#. tid/4939/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:0"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"1","tags":null}
+#. tid/786/type/StringLiteral
+#. tid/4947/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:1"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Công cụ của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"2","tags":null}
+#. tid/794/type/StringLiteral
+#. tid/4955/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:2"
+msgid "<li>ACTOR_INFO : Glossary of actor information.(Only if actor information option is enabled in batch mode)</li>"
+msgstr "<li>ACTOR_INFO : Bảng thuật ngữ thông tin nhân vật. (Chỉ khi tùy chọn thông tin nhân vật được bật trong chế độ hàng loạt)</li>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"3","tags":null}
+#. tid/802/type/StringLiteral
+#. tid/4963/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:3"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu Chung]</code></li>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"4","tags":null}
+#. tid/810/type/StringLiteral
+#. tid/4971/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:4"
+msgid "<li>CONTEXT : Context of the previous translation (if context is enabled)</li>"
+msgstr "<li>CONTEXT : Ngữ cảnh của bản dịch trước đó (nếu ngữ cảnh được bật)</li>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"5","tags":null}
+#. tid/879/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:5"
+msgid "Sample conversation"
+msgstr "Cuộc hội thoại mẫu"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"6","tags":null}
+#. tid/2626/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:6"
+msgid "<h2>Sample dialogue</h2>"
+msgstr "<h2>Đoạn hội thoại mẫu</h2>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"7","tags":null}
+#. tid/2633/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:7"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Đoạn hội thoại hiện có mẫu. Bạn có thể viết một mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục đích và ngữ cảnh của cuộc hội thoại.</p>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"8","tags":null}
+#. tid/4647/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:8"
+msgid "Always separate file"
+msgstr "Luôn tách file"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"9","tags":null}
+#. tid/4657/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:9"
+msgid "Always separate the file for each batch. This may keep the contexts of each files unpoluted with another files."
+msgstr "Luôn tách file cho mỗi lô. Điều này có thể giữ ngữ cảnh của từng file không bị lẫn với file khác."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"10","tags":null}
+#. tid/4691/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:10"
+msgid "Add actor name"
+msgstr "Thêm tên nhân vật"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"11","tags":null}
+#. tid/4701/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:11"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên nhân vật từ thông tin hàng vào văn bản cần dịch. Điều này sẽ giúp người dịch theo dõi đoạn hội thoại và đại từ. Translator++ sau đó sẽ loại bỏ tên nhân vật khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"12","tags":null}
+#. tid/4738/type/StringLiteral
+#. tid/5148/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:12"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Nhân vật làm Bảng thuật ngữ"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"13","tags":null}
+#. tid/4748/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:13"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu nhân vật làm bảng thuật ngữ. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc hội thoại. Tham chiếu nhân vật là tên của nhân vật trong đoạn hội thoại. Nó sẽ được tải như một bảng thuật ngữ cho người dịch. Điều này sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"14","tags":null}
+#. tid/4755/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:14"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc hội thoại sẽ được tải làm bảng thuật ngữ cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu nhân vật trong tin nhắn nhắc."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"15","tags":null}
+#. tid/4762/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:15"
+msgid "<br />⚠️If you enable this option, you also need to include the <code>ACTOR_INFO</code> variable in the prompt template to place the character information data."
+msgstr "<br />⚠️Nếu bạn bật tùy chọn này, bạn cũng cần bao gồm biến <code>ACTOR_INFO</code> trong mẫu nhắc để đặt dữ liệu thông tin nhân vật."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"16","tags":null}
+#. tid/4796/type/StringLiteral
+#. tid/5179/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:16"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Nhân vật"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"17","tags":null}
+#. tid/4806/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:17"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch của tên nhân vật. Cột này sẽ được sử dụng làm bản dịch của tham chiếu nhân vật. Điều này sẽ cải thiện tính nhất quán của bản dịch tên nhân vật trong cuộc hội thoại."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"18","tags":null}
+#. tid/4833/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:18"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Nhân vật"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"19","tags":null}
+#. tid/4843/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:19"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung của nhân vật. Bạn có thể đặt thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện bản dịch của đại từ trong cuộc hội thoại."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"20","tags":null}
+#. tid/4873/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:20"
+msgid "Extra Prompt"
+msgstr "Nhắc nhở Bổ sung"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"21","tags":null}
+#. tid/4883/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:21"
+msgid "Extra prompt that will be added to the prompt message. This will be added after the system message and before the actual prompt message."
+msgstr "Lời nhắc bổ sung sẽ được thêm vào tin nhắn lời nhắc. Nó sẽ được thêm sau tin nhắn hệ thống và trước tin nhắn lời nhắc thực tế."
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"22","tags":null}
+#. tid/5010/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:22"
+msgid "General Settings"
+msgstr "Cài đặt Chung"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"23","tags":null}
+#. tid/5036/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:23"
+msgid "Always separate file for each batch"
+msgstr "Luôn tách tệp cho mỗi lô"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"24","tags":null}
+#. tid/5060/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:24"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên diễn viên vào văn bản có thể dịch"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"25","tags":null}
+#. tid/5092/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:25"
+msgid "Glossary"
+msgstr "Bảng thuật ngữ"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"26","tags":null}
+#. tid/5118/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:26"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Bảng thuật ngữ</h2>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"27","tags":null}
+#. tid/5125/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:27"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm bảng thuật ngữ vào lời nhắc. Bảng thuật ngữ sẽ được tải cho mỗi lô mục để cải thiện chất lượng bản dịch. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm tràn lời nhắc của bạn.</p>"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"28","tags":null}
+#. tid/5210/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:28"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông tin Bổ sung của Diễn viên"
+
+# {"path":"/addons/transChatGPT/transOpenAIAssistant.js","row":"29","tags":null}
+#. tid/5241/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/transOpenAIAssistant.js:29"
+msgid "Prompt"
+msgstr "Lời nhắc"

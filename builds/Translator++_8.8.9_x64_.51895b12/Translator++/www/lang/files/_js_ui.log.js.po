@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ui.log.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/ui.log.js","row":"0","tags":null}
+#. tid/946/type/StringLiteral
+msgctxt "tpp:/js/ui.log.js:0"
+msgid "You can view the more detailed information on console log (F12)"
+msgstr "Bạn có thể xem thông tin chi tiết hơn trong nhật ký bảng điều khiển (F12)"
+
+# {"path":"/js/ui.log.js","row":"1","tags":null}
+#. tid/1227/type/StringLiteral
+msgctxt "tpp:/js/ui.log.js:1"
+msgid "Close"
+msgstr "Đóng"

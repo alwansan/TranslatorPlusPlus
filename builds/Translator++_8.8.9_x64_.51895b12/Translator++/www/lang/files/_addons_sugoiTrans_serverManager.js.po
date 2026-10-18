@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: serverManager.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"0","tags":null}
+#. tid/528/type/NoSubstitutionTemplate
+#. tid/635/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:0"
+msgid "Select installation folder"
+msgstr "Chọn thư mục cài đặt"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"1","tags":null}
+#. tid/533/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:1"
+msgid "Where do you want to install the CT2 Sugoi Translator into?"
+msgstr "Bạn muốn cài đặt CT2 Sugoi Translator vào đâu?"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"2","tags":null}
+#. tid/766/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:2"
+msgid "Cancel"
+msgstr "Hủy"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"3","tags":null}
+#. tid/817/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:3"
+msgid "Install now!"
+msgstr "Cài đặt ngay!"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"4","tags":null}
+#. tid/900/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:4"
+msgid "Path to the directory can not be empty!"
+msgstr "Đường dẫn đến thư mục không được để trống!"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"5","tags":null}
+#. tid/929/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:5"
+msgid "Invalid directory:"
+msgstr "Thư mục không hợp lệ:"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"6","tags":null}
+#. tid/1552/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:6"
+msgid "Failed to download file. Repository do not exist. Please see the console log for more information."
+msgstr "Không tải được tệp. Kho lưu trữ không tồn tại. Vui lòng xem nhật ký console để biết thêm thông tin."
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"7","tags":null}
+#. tid/6226/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:7"
+msgid ""
+"Are you sure want to update your server?\n"
+"This update script will work for NVIDIA 3XXX series"
+msgstr ""
+"Bạn có chắc muốn cập nhật máy chủ của mình?\n"
+"Tập lệnh cập nhật này sẽ hoạt động cho dòng NVIDIA 3XXX series"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"8","tags":null}
+#. tid/6296/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:8"
+msgid ""
+"Are you sure want to update your server?\n"
+"This update script will work for NVIDIA 2XXX series and earlier"
+msgstr ""
+"Bạn có chắc muốn cập nhật máy chủ của mình?\n"
+"Tập lệnh cập nhật này sẽ hoạt động cho dòng NVIDIA 2XXX series và trước đó"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"9","tags":null}
+#. tid/8731/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:9"
+msgid "Install CT2 Sugoi Translator"
+msgstr "Cài đặt CT2 Sugoi Translator"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"10","tags":null}
+#. tid/8957/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:10"
+msgid ""
+"Installation completed\n"
+"Do you want to set the Server Manager with this installed server?"
+msgstr ""
+"Cài đặt hoàn tất\n"
+"Bạn có muốn thiết lập Trình quản lý Máy chủ với máy chủ đã cài đặt này không?"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"11","tags":null}
+#. tid/9003/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:11"
+msgid "Sugoi Translator Installed"
+msgstr "Sugoi Translator Đã Cài Đặt"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"12","tags":null}
+#. tid/9606/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:12"
+msgid ""
+"Server started\n"
+"Please wait until the server(s) are ready before you translate things."
+msgstr ""
+"Máy chủ đã khởi động\n"
+"Vui lòng đợi cho đến khi máy chủ sẵn sàng trước khi dịch."
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"13","tags":null}
+#. tid/9643/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:13"
+msgid ""
+"This action will overwrite the current value of Sugoi Trans Addon's settings.\n"
+"Are you sure?"
+msgstr ""
+"Hành động này sẽ ghi đè giá trị hiện tại của cài đặt Tiện ích Sugoi Trans.\n"
+"Bạn có chắc chắn không?"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"14","tags":null}
+#. tid/9713/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:14"
+msgid "Do you want to reset the current configuration?"
+msgstr "Bạn có muốn đặt lại cấu hình hiện tại không?"
+
+# {"path":"/addons/sugoiTrans/serverManager.js","row":"15","tags":null}
+#. tid/9778/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/serverManager.js:15"
+msgid "Configuration refreshed!"
+msgstr "Cấu hình đã được làm mới!"

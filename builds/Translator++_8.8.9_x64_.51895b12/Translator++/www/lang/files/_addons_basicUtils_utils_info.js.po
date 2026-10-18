@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: info.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"0","tags":null}
+#. tid/649/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:0"
+msgid "You have "
+msgstr "Bạn có "
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"1","tags":null}
+#. tid/660/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:1"
+msgid " missed update(s)!"
+msgstr " bản cập nhật đã bỏ lỡ!"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"2","tags":null}
+#. tid/665/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:2"
+msgid "Translator++ will update itself if auto-update is enabled."
+msgstr "Translator++ sẽ tự cập nhật nếu tính năng tự động cập nhật được bật."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"3","tags":null}
+#. tid/670/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:3"
+msgid "You can download the latest core version of Translator++ at"
+msgstr "Bạn có thể tải phiên bản lõi mới nhất của Translator++ tại"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"4","tags":null}
+#. tid/1033/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:4"
+msgid "This update is available for all patrons."
+msgstr "Bản cập nhật này có sẵn cho tất cả nhà tài trợ."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"5","tags":null}
+#. tid/1077/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:5"
+msgid "This update is available for tier $"
+msgstr "Bản cập nhật này có sẵn cho nhà tài trợ cấp $"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"6","tags":null}
+#. tid/1088/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:6"
+msgid " patrons or greater."
+msgstr " trở lên."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"7","tags":null}
+#. tid/1665/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:7"
+msgid "You're up-to-date!"
+msgstr "Bạn đã cập nhật!"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"8","tags":null}
+#. tid/1670/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:8"
+msgid "Thanks for staying up to date with Translator++! You're on the newest version, and we appreciate your support. Enjoy translating!"
+msgstr "Cảm ơn bạn đã luôn cập nhật với Translator++! Bạn đang ở phiên bản mới nhất, và chúng tôi trân trọng sự hỗ trợ của bạn. Hãy tận hưởng việc dịch thuật!"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"9","tags":null}
+#. tid/1675/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:9"
+msgid "Some update information may be shown from cache. You can click <b>'Check for update'</b> to load the latest version details."
+msgstr "Một số thông tin cập nhật có thể được hiển thị từ bộ nhớ cache. Bạn có thể nhấp vào <b>'Kiểm tra cập nhật'</b> để tải chi tiết phiên bản mới nhất."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"10","tags":null}
+#. tid/1755/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:10"
+msgid "When the same version is available"
+msgstr "Khi có cùng phiên bản"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"11","tags":null}
+#. tid/1765/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:11"
+msgid "Allow Translator++ to reinstall the same version of Translator++."
+msgstr "Cho phép Translator++ cài đặt lại cùng phiên bản của Translator++."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"12","tags":null}
+#. tid/1811/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:12"
+msgid "Allow reinstall the same version"
+msgstr "Cho phép cài đặt lại cùng phiên bản"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"13","tags":null}
+#. tid/1873/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:13"
+msgid "Update Settings"
+msgstr "Cài đặt Cập nhật"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"14","tags":null}
+#. tid/2021/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:14"
+msgid "Update Now"
+msgstr "Cập nhật Ngay"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"15","tags":null}
+#. tid/2066/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:15"
+msgid "Updater is not available, please update Translator++ manually."
+msgstr "Trình cập nhật không khả dụng, vui lòng cập nhật Translator++ thủ công."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"16","tags":null}
+#. tid/2116/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:16"
+msgid "Updating Translator++"
+msgstr "Đang cập nhật Translator++"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"17","tags":null}
+#. tid/2130/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:17"
+msgid "Please don't close Translator++ until the update process is finished."
+msgstr "Vui lòng không đóng Translator++ cho đến khi quá trình cập nhật hoàn tất."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"18","tags":null}
+#. tid/2176/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:18"
+msgid ""
+"Can not update, reason :\n"
+""
+msgstr ""
+"Không thể cập nhật, lý do :\n"
+""
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"19","tags":null}
+#. tid/2192/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:19"
+msgid "You may need to reconnect Translator++ with your Patreon account (logout and login again)."
+msgstr "Bạn có thể cần kết nối lại Translator++ với tài khoản Patreon của mình (đăng xuất và đăng nhập lại)."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"20","tags":null}
+#. tid/2206/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:20"
+msgid "Also, it has been reported that some countries such as mainland China are blocking dropbox repository."
+msgstr "Ngoài ra, đã có báo cáo rằng một số quốc gia như Trung Quốc đại lục đang chặn kho lưu trữ dropbox."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"21","tags":null}
+#. tid/2220/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:21"
+msgid "If for some reason you cannot access our repository, please manually download the update package (tpch file) using a proxy or VPN here:"
+msgstr "Nếu vì lý do nào đó bạn không thể truy cập kho lưu trữ của chúng tôi, vui lòng tải xuống gói cập nhật (tệp tpch) thủ công bằng proxy hoặc VPN tại đây:"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"22","tags":null}
+#. tid/2245/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/utils/info.js:22"
+msgid "After that, please use the \"Update from package\" feature to update your Translator++."
+msgstr "Sau đó, vui lòng sử dụng tính năng \"Cập nhật từ gói\" để cập nhật Translator++ của bạn."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"23","tags":null}
+#. tid/2259/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:23"
+msgid "If you still have problems, please contact us at our Discord server : "
+msgstr "Nếu bạn vẫn gặp vấn đề, vui lòng liên hệ với chúng tôi tại máy chủ Discord của chúng tôi : "
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"24","tags":null}
+#. tid/2357/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:24"
+msgid "Restart"
+msgstr "Khởi động lại"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"25","tags":null}
+#. tid/2377/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:25"
+msgid ""
+"Do you want to restart Translator++ now?\n"
+"If you have unsaved work, cancel this dialog and save your work first."
+msgstr ""
+"Bạn có muốn khởi động lại Translator++ ngay bây giờ?\n"
+"Nếu bạn có công việc chưa lưu, hãy hủy hộp thoại này và lưu công việc của bạn trước."
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"26","tags":null}
+#. tid/2449/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:26"
+msgid "Check for Update"
+msgstr "Kiểm tra Cập nhật"
+
+# {"path":"/addons/basicUtils/utils/info.js","row":"27","tags":null}
+#. tid/2512/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/utils/info.js:27"
+msgid "Close"
+msgstr "Đóng"

@@ -1,0 +1,14 @@
+{
+    "name": "esparser",
+    "description": "ECMAScript Parser for Translator++",
+    "main": "ESParser.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.4",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"load" : ["ESParser.js"]
+}

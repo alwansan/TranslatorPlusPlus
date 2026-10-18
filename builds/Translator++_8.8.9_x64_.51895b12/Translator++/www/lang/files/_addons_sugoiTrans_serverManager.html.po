@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: serverManager.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:0"
+msgid "Sugoi translator location <i class=\"icon-info-circled-1\" data-tranatrr=\"title\" title=\"Point to the .bat file or .exe file on the root directory of the application.\"></i>"
+msgstr "Vị trí Sugoi translator <i class=\"icon-info-circled-1\" data-tranatrr=\"title\" title=\"Trỏ đến tệp .bat hoặc .exe trong thư mục gốc của ứng dụng.\"></i>"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"1","tags":null}
+#. idx/1/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:1"
+msgid "<i class=\"icon-attention red\"></i> Invalid path.<br>Some features will be disabled until this is fixed."
+msgstr "<i class=\"icon-attention red\"></i> Đường dẫn không hợp lệ.<br>Một số tính năng sẽ bị vô hiệu hóa cho đến khi sửa lỗi này."
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"2","tags":null}
+#. idx/2/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:2"
+msgid "Server Type :"
+msgstr "Loại máy chủ :"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"3","tags":null}
+#. idx/3/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:3"
+msgid "Installed Model :"
+msgstr "Mô hình đã cài đặt :"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"4","tags":null}
+#. idx/4/innerText
+#. idx/6/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:4"
+msgid "Install Sugoi Translator"
+msgstr "Cài đặt Sugoi Translator"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"5","tags":null}
+#. idx/5/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:5"
+msgid ""
+"Don't have Sugoi Translator?\n"
+"            Install customized &amp; optimized Sugoi Translator server now!\n"
+"        "
+msgstr ""
+"Chưa có Sugoi Translator?\n"
+"            Cài đặt máy chủ Sugoi Translator tùy chỉnh &amp; tối ưu hóa ngay bây giờ!\n"
+"        "
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"6","tags":null}
+#. idx/7/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:6"
+msgid "Number of server to start (CPU) <i class=\"icon-info-circled-1\" data-tranatrr=\"title\" title=\"Number of server started simultaneously\"></i>"
+msgstr "Số lượng máy chủ để khởi động (CPU) <i class=\"icon-info-circled-1\" data-tranatrr=\"title\" title=\"Số lượng máy chủ được khởi động đồng thời\"></i>"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"7","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:7"
+msgid "Number of server to be started simultaneously.<br>More process desn't always means more speed, be mindful of your RAM &amp; CPU capacity.<br>You may won't get the benefit if by running just one server the CPU usage has reached 100%"
+msgstr "Số lượng máy chủ được khởi động đồng thời.<br>Nhiều tiến trình không phải lúc nào cũng có nghĩa là nhanh hơn, hãy lưu ý đến dung lượng RAM &amp; CPU của bạn.<br>Bạn có thể không nhận được lợi ích nếu chỉ chạy một máy chủ mà mức sử dụng CPU đã đạt 100%"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"8","tags":null}
+#. idx/9/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:8"
+msgid ""
+"\n"
+"                    Your Sugoi Translator doesn't support GPU processing.<br>\n"
+"                    You need to patch your server to support GPU processing.<br>\n"
+"                    <h3 data-tran=\"\">Select the following option to install the suitable patch for your system</h3>\n"
+"                    <div>\n"
+"                        <span data-tran=\"\">Your GPU is:</span>\n"
+"                        <ul class=\"gpuList\"></ul>\n"
+"                    </div>\n"
+"                    <div class=\"gpuPatchOptions\">\n"
+"                        <button class=\"patchGPU\" data-tran=\"\">Install patch For NVIDIA series 30xx or greater</button>\n"
+"                        <button class=\"patchGPULegacy\" data-tran=\"\">Install patch For NVIDIA series 20xx or lower</button>\n"
+"    \n"
+"                    </div>\n"
+"                "
+msgstr ""
+"\n"
+"                    Sugoi Translator của bạn không hỗ trợ xử lý GPU.<br>\n"
+"                    Bạn cần vá máy chủ để hỗ trợ xử lý GPU.<br>\n"
+"                    <h3 data-tran=\"\">Chọn tùy chọn sau để cài đặt bản vá phù hợp cho hệ thống của bạn</h3>\n"
+"                    <div>\n"
+"                        <span data-tran=\"\">GPU của bạn là:</span>\n"
+"                        <ul class=\"gpuList\"></ul>\n"
+"                    </div>\n"
+"                    <div class=\"gpuPatchOptions\">\n"
+"                        <button class=\"patchGPU\" data-tran=\"\">Cài đặt bản vá cho NVIDIA series 30xx trở lên</button>\n"
+"                        <button class=\"patchGPULegacy\" data-tran=\"\">Cài đặt bản vá cho NVIDIA series 20xx trở xuống</button>\n"
+"    \n"
+"                    </div>\n"
+"                "
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"9","tags":null}
+#. idx/10/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:9"
+msgid "Select the following option to install the suitable patch for your system"
+msgstr "Chọn tùy chọn sau để cài đặt bản vá phù hợp cho hệ thống của bạn"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"10","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:10"
+msgid "Your GPU is:"
+msgstr "GPU của bạn là:"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"11","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:11"
+msgid "Install patch For NVIDIA series 30xx or greater"
+msgstr "Cài đặt bản vá cho NVIDIA series 30xx trở lên"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"12","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:12"
+msgid "Install patch For NVIDIA series 20xx or lower"
+msgstr "Cài đặt bản vá cho dòng NVIDIA series 20xx hoặc thấp hơn"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"13","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:13"
+msgid "Number of server to start (GPU) <i class=\"icon-info-circled-1\" data-tranatrr=\"title\" title=\"Number of server started simultaneously using GPU. Your server must be patched to enable GPU processing.\"></i>"
+msgstr "Số lượng máy chủ để khởi động (GPU) <i class=\"icon-info-circled-1\" data-tranatrr=\"title\" title=\"Số lượng máy chủ được khởi động đồng thời sử dụng GPU. Máy chủ của bạn phải được vá để kích hoạt xử lý GPU.\"></i>"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"14","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:14"
+msgid "How many server do you want to start on your <b>GPU</b>. It is possible to run both CPU and GPU based service simultaneously. But please keep in mind that if your CPU usage is high it may hinder the GPU performance.<br>Your server must be patched to enable this mode."
+msgstr "Bạn muốn khởi động bao nhiêu máy chủ trên <b>GPU</b> của mình. Có thể chạy đồng thời dịch vụ dựa trên CPU và GPU. Nhưng hãy lưu ý rằng nếu mức sử dụng CPU cao có thể cản trở hiệu suất GPU.<br>Máy chủ của bạn phải được vá để kích hoạt chế độ này."
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"15","tags":null}
+#. idx/16/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:15"
+msgid "Starting port number"
+msgstr "Số cổng bắt đầu"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"16","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:16"
+msgid "The port numbers will be generated incrementaly starting from the value below"
+msgstr "Các số cổng sẽ được tạo tăng dần bắt đầu từ giá trị dưới đây"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"17","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:17"
+msgid "Keep console window open"
+msgstr "Giữ cửa sổ console mở"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"18","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:18"
+msgid "prevent console window from closing when the server closes. This option is useful for checking for errors that caused the server to crash."
+msgstr "ngăn cửa sổ console đóng khi máy chủ đóng. Tùy chọn này hữu ích để kiểm tra lỗi gây ra sự cố máy chủ."
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"19","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:19"
+msgid "Action"
+msgstr "Hành động"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"20","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:20"
+msgid "Set Sugoi Trans config based on this setting"
+msgstr "Đặt cấu hình Sugoi Trans dựa trên cài đặt này"
+
+# {"path":"/addons/sugoiTrans/serverManager.html","row":"21","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/addons/sugoiTrans/serverManager.html:21"
+msgid "Start All Server"
+msgstr "Khởi động tất cả máy chủ"

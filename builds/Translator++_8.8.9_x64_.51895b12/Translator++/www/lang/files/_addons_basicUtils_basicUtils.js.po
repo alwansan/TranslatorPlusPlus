@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: basicUtils.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"0","tags":null}
+#. tid/1342/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:0"
+msgid "NWJS Version"
+msgstr "Phiên bản NWJS"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"1","tags":null}
+#. tid/1352/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:1"
+msgid "Change into this NWJS version"
+msgstr "Chuyển sang phiên bản NWJS này"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"2","tags":null}
+#. tid/1428/type/StringLiteral
+#. tid/1617/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:2"
+msgid "Use Developer version"
+msgstr "Sử dụng phiên bản Nhà phát triển"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"3","tags":null}
+#. tid/1438/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:3"
+msgid "Use the NWJS Developer version. The Developer version has developer tools available. Suitable for debugging and development."
+msgstr "Sử dụng phiên bản NWJS Nhà phát triển. Phiên bản Nhà phát triển có các công cụ dành cho nhà phát triển sẵn có. Phù hợp cho việc gỡ lỗi và phát triển."
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"4","tags":null}
+#. tid/1449/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:4"
+msgid "In Developer version you can use <b>Developer Console</b>. Developer Console can be accessed by pressing F12 or right-clicking the app and selecting 'Inspect'."
+msgstr "Trong phiên bản Nhà phát triển, bạn có thể sử dụng <b>Bảng điều khiển Nhà phát triển</b>. Bảng điều khiển Nhà phát triển có thể được truy cập bằng cách nhấn F12 hoặc nhấp chuột phải vào ứng dụng và chọn 'Kiểm tra'."
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"5","tags":null}
+#. tid/1482/type/StringLiteral
+#. tid/1641/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:5"
+msgid "Use 32-bit version"
+msgstr "Sử dụng phiên bản 32-bit"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"6","tags":null}
+#. tid/1492/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:6"
+msgid "Use the 32-bit version of NWJS. The 32-bit version is useful for compatibility with older systems. It is recommended to uncheck this option if possible (just upgrade your machine, dude)."
+msgstr "Sử dụng phiên bản 32-bit của NWJS. Phiên bản 32-bit hữu ích cho khả năng tương thích với các hệ thống cũ. Khuyến nghị bỏ chọn tùy chọn này nếu có thể (chỉ cần nâng cấp máy của bạn, anh bạn)."
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"7","tags":null}
+#. tid/1532/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:7"
+msgid "Some Translator++ feature may not work across NWJS version"
+msgstr "Một số tính năng của Translator++ có thể không hoạt động trên các phiên bản NWJS"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"8","tags":null}
+#. tid/1537/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:8"
+msgid "Please be aware that some Translator++ feature may not work across NWJS version. Make sure to test your project after changing the NWJS version."
+msgstr "Xin lưu ý rằng một số tính năng của Translator++ có thể không hoạt động trên các phiên bản NWJS. Hãy đảm bảo kiểm tra dự án của bạn sau khi thay đổi phiên bản NWJS."
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"9","tags":null}
+#. tid/1542/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:9"
+msgid "You're currently running on NWJS ver."
+msgstr "Bạn đang chạy trên phiên bản NWJS"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"10","tags":null}
+#. tid/1669/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:10"
+msgid "Change Translator++ Core NWJS version"
+msgstr "Thay đổi phiên bản NWJS lõi của Translator++"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"11","tags":null}
+#. tid/1745/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:11"
+msgid "You're already using the selected NWJS version."
+msgstr "Bạn đã sử dụng phiên bản NWJS đã chọn."
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"12","tags":null}
+#. tid/1769/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:12"
+msgid "This operation will close Translator++ and change the current NW.js version into"
+msgstr "Thao tác này sẽ đóng Translator++ và thay đổi phiên bản NW.js hiện tại thành"
+
+# {"path":"/addons/basicUtils/basicUtils.js","row":"13","tags":null}
+#. tid/1782/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/basicUtils/basicUtils.js:13"
+msgid ""
+"If you have any unsaved changes, please select 'Cancel' and save your project first.\n"
+"Do you want to continue?"
+msgstr ""
+"Nếu bạn có bất kỳ thay đổi chưa lưu nào, vui lòng chọn 'Hủy' và lưu dự án của bạn trước.\n"
+"Bạn có muốn tiếp tục không?"

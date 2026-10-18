@@ -1,0 +1,582 @@
+{
+  "CustomParser": {
+    "constructor": {
+      "CustomParser": {
+        "signature": "new CustomParser(script, options, callback)",
+        "description": "Creates an instance of CustomParser.",
+        "parameters": [
+          {
+            "name": "script",
+            "type": "string",
+            "description": "The script to parse.",
+            "required": true
+          },
+          {
+            "name": "optionsmodelStrmodel",
+            "type": "objectobjectobject",
+            "description": "Model object.",
+            "required": true
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "modelStr",
+            "type": "object",
+            "description": "Model string.",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "object",
+            "description": "Model object.",
+            "required": true
+          },
+          {
+            "name": "callback",
+            "type": "function",
+            "description": "Callback function.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new CustomParser(script, optionsmodelStrmodel, , modelStr, model, callback)"
+      }
+    },
+    "extends": {},
+    "members": {
+      "model": {
+        "signature": "model :object",
+        "description": "The model data.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "model"
+      },
+      "transData": {
+        "signature": "transData :object",
+        "description": "The transData object.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "transData"
+      }
+    },
+    "methods": {
+      "assignTranslationPair": {
+        "signature": "assignTranslationPair(path, translationDatas) → ParserBase",
+        "description": "Set translation pair from translationDatas\nIf translationDatas is not set, this.options.translationDatas is used",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "",
+            "description": "local path",
+            "required": true
+          },
+          {
+            "name": "translationDatas",
+            "type": "",
+            "description": "Collection of translation data",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "ParserBase",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "assignTranslationPair(path, translationDatas) : ParserBase"
+      },
+      "contextEnd": {
+        "signature": "contextEnd()",
+        "description": "End the current context.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "contextEnd()"
+      },
+      "contextEnter": {
+        "signature": "contextEnter(…arguments)",
+        "description": "Enter one or more contexts.",
+        "parameters": [
+          {
+            "name": "arguments",
+            "type": "string",
+            "description": "Contexts to enter.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "contextEnter(arguments)"
+      },
+      "editLastWritableData": {
+        "signature": "editLastWritableData(string) → string",
+        "description": "Edit the last string in the writable data array.",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "string",
+            "description": "The new string to replace the last one.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The edited string."
+        },
+        "examples": [],
+        "usage": "editLastWritableData(string) : string"
+      },
+      "filterText": {
+        "signature": "filterText(text, context, parameters)",
+        "description": "Filter text for Translator++ front end\nPlease overwrite this function based on the engine",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "context",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "parameters",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "filterText(text, context, parameters)"
+      },
+      "generateFileInfo": {
+        "signature": "generateFileInfo(relativePath) → Object",
+        "description": "Generate file information for the current instance from the given relative path.",
+        "parameters": [
+          {
+            "name": "relativePath",
+            "type": "string",
+            "description": "The relative path of the file.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "An object containing file information."
+        },
+        "examples": [],
+        "usage": "generateFileInfo(relativePath) : Object"
+      },
+      "getModel": {
+        "signature": "getModel() → object",
+        "description": "Gets the model.",
+        "parameters": [],
+        "returns": {
+          "type": "object",
+          "description": "The model."
+        },
+        "examples": [],
+        "usage": "getModel() : object"
+      },
+      "getText": {
+        "signature": "getText() → string",
+        "description": "Get the parsed text.",
+        "parameters": [],
+        "returns": {
+          "type": "string",
+          "description": "The parsed text."
+        },
+        "examples": [],
+        "usage": "getText() : string"
+      },
+      "importTransData": {
+        "signature": "importTransData(exportedObj)",
+        "description": "Import transData from another parsed instance of ParserBase.",
+        "parameters": [
+          {
+            "name": "exportedObj",
+            "type": "Object",
+            "description": "The exported object containing transData.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "importTransData(exportedObj)"
+      },
+      "off": {
+        "signature": "off(evt, fn)",
+        "description": "Event unsubscription method.",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "string",
+            "description": "Event name.",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Event handler function.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "off(evt, fn)"
+      },
+      "on": {
+        "signature": "on(evt, fn)",
+        "description": "Event subscription method.",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "string",
+            "description": "Event name.",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Event handler function.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "on(evt, fn)"
+      },
+      "one": {
+        "signature": "one(evt, fn)",
+        "description": "Event subscription method for a single occurrence.",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "string",
+            "description": "Event name.",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Event handler function.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "one(evt, fn)"
+      },
+      "parse": {
+        "signature": "parse()",
+        "description": "Parses the script.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "parse()"
+      },
+      "parseCaptureGroup": {
+        "signature": "parseCaptureGroup(str) → Array",
+        "description": "Parses a capture group.",
+        "parameters": [
+          {
+            "name": "str",
+            "type": "string|Array",
+            "description": "The string or array to parse.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array",
+          "description": "The parsed capture group."
+        },
+        "examples": [],
+        "usage": "parseCaptureGroup(str) : Array"
+      },
+      "processThispath": {
+        "signature": "processThispath(relPath) → Boolean",
+        "description": "Determine whether the file path should be processed or not\nTrue : process\nFalse : should not process",
+        "parameters": [
+          {
+            "name": "relPath",
+            "type": "String",
+            "description": "Path's key",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "processThispath(relPath) : Boolean"
+      },
+      "register": {
+        "signature": "register(string) → string",
+        "description": "Register a string to the writable data array.",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "string",
+            "description": "The string to register.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The registered string."
+        },
+        "examples": [],
+        "usage": "register(string) : string"
+      },
+      "registerString": {
+        "signature": "registerString(string, localContext?, parameters?, options?) → String",
+        "description": "Register a translatable string",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "Translatable string to register",
+            "required": true
+          },
+          {
+            "name": "localContext",
+            "type": "Array.<String>|undefined",
+            "description": "Local context. The overall context will be appended into ParserBase.baseContext",
+            "required": false
+          },
+          {
+            "name": "parametersrowInfoText",
+            "type": "Object|undefinedString|undefined",
+            "description": "Row information text, For example, character name or other information to be added to the translatable text",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "rowInfoText",
+            "type": "String|undefined",
+            "description": "Row information text, For example, character name or other information to be added to the translatable text",
+            "required": false
+          },
+          {
+            "name": "optionsdefaultObjectcurrentAddressdefaultTranslation",
+            "type": "Object|undefinedObject|undefinedObject|undefinedString|undefined",
+            "description": "Register default translation",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "defaultObject",
+            "type": "Object|undefined",
+            "description": "default object to be stored to the translatableTexts",
+            "required": false
+          },
+          {
+            "name": "currentAddress",
+            "type": "Object|undefined",
+            "description": "Current address",
+            "required": false
+          },
+          {
+            "name": "defaultTranslation",
+            "type": "String|undefined",
+            "description": "Register default translation",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Translated string if match translation, Original string if no translation is found."
+        },
+        "examples": [],
+        "usage": "registerString(string, localContext, parametersrowInfoText, , rowInfoText, optionsdefaultObjectcurrentAddressdefaultTranslation, , defaultObject, currentAddress, defaultTranslation) : String"
+      },
+      "replaceLineBreak": {
+        "signature": "replaceLineBreak(text) → string",
+        "description": "Replace line breaks in the given text.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The text to process.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The text with line breaks replaced."
+        },
+        "examples": [],
+        "usage": "replaceLineBreak(text) : string"
+      },
+      "setModel": {
+        "signature": "setModel(model) → object",
+        "description": "Sets the model.",
+        "parameters": [
+          {
+            "name": "model",
+            "type": "object",
+            "description": "Model object.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "object",
+          "description": "The set model."
+        },
+        "examples": [],
+        "usage": "setModel(model) : object"
+      },
+      "setTranslationPair": {
+        "signature": "setTranslationPair(translationPair) → ParserBase",
+        "description": "Apply translation pair",
+        "parameters": [
+          {
+            "name": "translationPair",
+            "type": "Object",
+            "description": "Translation Pair",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "ParserBase",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "setTranslationPair(translationPair) : ParserBase"
+      },
+      "toString": {
+        "signature": "toString() → string",
+        "description": "Converts CustomParser instance to string.",
+        "parameters": [],
+        "returns": {
+          "type": "string",
+          "description": "The string representation of the instance."
+        },
+        "examples": [],
+        "usage": "toString() : string"
+      },
+      "toTrans": {
+        "signature": "toTrans() → Promise.<Object>",
+        "description": "Asynchronously get the transData after parsing if not already parsed.",
+        "parameters": [],
+        "returns": {
+          "type": "Promise.<Object>",
+          "description": "A promise resolving to the transData."
+        },
+        "examples": [],
+        "usage": "toTrans() : Promise.<Object>"
+      },
+      "translate": {
+        "signature": "translate(text, context) → String",
+        "description": "Translate text based on this.translationPair",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "String",
+            "description": "Text to be translated",
+            "required": true
+          },
+          {
+            "name": "context",
+            "type": "Array",
+            "description": "Array of the current context",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Translation"
+        },
+        "examples": [],
+        "usage": "translate(text, context) : String"
+      },
+      "trigger": {
+        "signature": "trigger(evt, param)",
+        "description": "Triggers an event.",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "string",
+            "description": "Event name.",
+            "required": true
+          },
+          {
+            "name": "param",
+            "type": "*",
+            "description": "Event parameter.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "trigger(evt, param)"
+      },
+      "unfilterText": {
+        "signature": "unfilterText(text, context, parameters)",
+        "description": "Unfilter text to prepare the data to be exported\nPlease overwrite this function based on the engine",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "context",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "parameters",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "unfilterText(text, context, parameters)"
+      },
+      ".isValidModel": {
+        "signature": "(static) isValidModel(model) → boolean",
+        "description": "Checks if the provided model is valid.",
+        "parameters": [
+          {
+            "name": "model",
+            "type": "object|string",
+            "description": "The model object or JSON string.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "boolean",
+          "description": "True if the model is valid, otherwise false."
+        },
+        "examples": [],
+        "usage": ".isValidModel(model) : boolean"
+      }
+    }
+  }
+}

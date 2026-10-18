@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: unityTrans.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"0","tags":null}
+#. tid/432/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:0"
+msgid ""
+"XUnity Translator is needed to perform this action\n"
+"Please install it through Third Party Application Installer!"
+msgstr ""
+"Cần XUnity Translator để thực hiện hành động này\n"
+"Vui lòng cài đặt nó qua Trình cài đặt Ứng dụng Bên thứ ba!"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"1","tags":null}
+#. tid/7208/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:1"
+msgid "XUnity.AutoTranslator is found!"
+msgstr "Đã tìm thấy XUnity.AutoTranslator!"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"2","tags":null}
+#. tid/7224/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:2"
+msgid "Translator++ detects that XUnity.AutoTranslator is already installed. Translator++ will use existing translation data to start a new translation project."
+msgstr "Translator++ phát hiện XUnity.AutoTranslator đã được cài đặt. Translator++ sẽ sử dụng dữ liệu dịch hiện có để bắt đầu một dự án dịch mới."
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"3","tags":null}
+#. tid/7270/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:3"
+msgid "XUnity.AutoTranslator is not found!"
+msgstr "Không tìm thấy XUnity.AutoTranslator!"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"4","tags":null}
+#. tid/7287/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:4"
+msgid "The wizard will guide you to install XUnity.AutoTranslator into the game."
+msgstr "Trình hướng dẫn sẽ chỉ dẫn bạn cài đặt XUnity.AutoTranslator vào trò chơi."
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"5","tags":null}
+#. tid/7352/type/StringLiteral
+#. tid/7929/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:5"
+msgid "Next"
+msgstr "Tiếp theo"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"6","tags":null}
+#. tid/7437/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:6"
+msgid "Given path: "
+msgstr "Đường dẫn đã cho: "
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"7","tags":null}
+#. tid/7441/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:7"
+msgid ""
+"\n"
+"is not an Unity game. Do you still want to proceed?"
+msgstr ""
+"\n"
+"không phải là một trò chơi Unity. Bạn vẫn muốn tiếp tục?"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"8","tags":null}
+#. tid/7606/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:8"
+msgid ""
+"Patch successfully installed!\r\n"
+""
+msgstr ""
+"Đã cài đặt bản vá thành công!\r\n"
+""
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"9","tags":null}
+#. tid/7613/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:9"
+msgid ""
+"The configuration will be generated when you play the game for the first time.\r\n"
+""
+msgstr ""
+"Cấu hình sẽ được tạo khi bạn chơi trò chơi lần đầu tiên.\r\n"
+""
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"10","tags":null}
+#. tid/7620/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:10"
+msgid "Open the game now?"
+msgstr "Mở trò chơi ngay bây giờ?"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"11","tags":null}
+#. tid/7730/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:11"
+msgid "Finish"
+msgstr "Hoàn tất"
+
+# {"path":"/addons/unityTrans/unityTrans.js","row":"12","tags":null}
+#. tid/8938/type/StringLiteral
+msgctxt "tpp:/addons/unityTrans/unityTrans.js:12"
+msgid "Update current project?"
+msgstr "Cập nhật dự án hiện tại?"

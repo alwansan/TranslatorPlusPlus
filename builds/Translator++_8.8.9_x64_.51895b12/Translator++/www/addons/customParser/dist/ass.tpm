@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "pattern": "*.ass",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/^Dialogue:\\s*[^,]*,[^,]*,[^,]*,[^,]*,([^,]*),[^,]*,[^,]*,[^,]*,[^,]*,(.*)$/gm",
+          "captureGroups": "2",
+          "captureRowInfo": "1",
+          "contextTemplate": "speaker/${GROUP[1]}"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "ASS Subtitle Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing Advanced SubStation Alpha subtitle files.</p><p>Extracts dialogue text from <code>Dialogue:</code> lines while preserving timing, styles, effects, and speaker fields during write-back.</p>"
+  },
+  "options": {
+    "testData": "[Script Info]\nTitle: Sample\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: Default,Arial,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\nDialogue: 0,0:00:01.00,0:00:03.00,Default,Narrator,0,0,0,,Hello world!\nDialogue: 0,0:00:04.00,0:00:06.00,Default,Hero,0,0,0,,This is line one\\NThis is line two\n"
+  }
+}

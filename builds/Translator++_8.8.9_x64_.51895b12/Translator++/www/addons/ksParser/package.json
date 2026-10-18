@@ -1,0 +1,13 @@
+{
+    "name": "ksParser",
+    "description": "Parser for Kiri-Kiri (KAG) scenario file",
+    "main": "ksParser.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.1",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : true
+}

@@ -1,0 +1,32 @@
+{
+  "name": "tm",
+  "title": "Translation Memory",
+  "version": "0.13",
+  "description": "Translation Memory module for Translator++. To memorize your translation and reuse it into another projects.",
+  "main": "tm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dreamsavior",
+    "email": "dreamsavior@gmail.com"
+  },
+  "icon": "icon.png",
+  "license": "CC BY-NC-SA",
+  "load": [
+    "tm.js",
+    "tmUI.js",
+    "transTM.js",
+    "tm.utils.js",
+    "tm.ext.js"
+  ],
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "compile": {
+      "simple": [
+          "tm.ext.js"
+      ]
+    },  
+  "minimumVersion": "8.4.29"
+}

@@ -1,0 +1,111 @@
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0px;
+}
+
+.ui-dialog.ui-widget {
+    padding: 0px;
+    border: 0px solid #fff;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.5);
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	padding:0px;
+	display:flex;
+}
+
+.ui-dialog .ui-dialog-title {
+    padding: 0px;
+    display: block;
+    position: relative;
+    line-height: 30px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    width: calc(100% - 32px);
+    border: 0px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    display: block;
+    position: relative;
+    top: unset;
+    height: unset;
+    margin: unset;
+    width: 32px;
+    right: unset;
+    padding: 0px;
+    border: 0px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span.ui-icon-closethick {
+	position: relative;
+    top: unset;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-indent: unset;
+    font-family: "appbar";
+    left: unset;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    /* width: 1em; */
+    /* margin-right: .2em; */
+    /* text-align: center; */
+    font-variant: normal;
+    text-transform: none;
+    /* line-height: 1em; */
+    /* margin-left: .2em; */
+    /* -webkit-font-smoothing: antialiased; */
+    /* background-image: unset; */
+    content: '\e802';
+    /* content: 'Hello'; */
+    /*color: #111;*/
+    background-image: unset;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span.ui-icon-closethick:before {
+    content: '\e802';
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 32px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    width:20px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span.ui-button-text {
+    display: none;
+}
+
+.ui-widget-header {
+	background: #010101;
+	color:#fcfcfc;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    background: #010101;
+	color:#fcfcfc;
+	
+}
+
+.ui-dialog .ui-dialog-titlebar-close.ui-state-hover {
+	background: #e81123;
+	color:#fff;
+}
+
+
+

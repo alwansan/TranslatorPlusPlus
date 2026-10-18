@@ -1,0 +1,586 @@
+---
+- 
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 1
+  name: 丸パン
+  icon_index: 238
+  description: パン麦粉から作られる一般的なパン。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 432
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 100
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 2
+  name: 茸おむすび
+  icon_index: 238
+  description: デリマッシュを使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 434
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 138
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 3
+  name: 肉おむすび
+  icon_index: 238
+  description: 肉を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 435
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 399
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 4
+  name: 肉おむすび
+  icon_index: 238
+  description: 肉を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 435
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 401
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 5
+  name: 魚介おむすび
+  icon_index: 238
+  description: 魚介を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 436
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 400
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 6
+  name: 魚介おむすび
+  icon_index: 238
+  description: 魚介を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 436
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 233
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 7
+  name: 魚介おむすび
+  icon_index: 238
+  description: 魚介を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 436
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 235
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 8
+  name: 魚介おむすび
+  icon_index: 238
+  description: 魚介を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 436
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 236
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 9
+  name: 魚介おむすび
+  icon_index: 238
+  description: 魚介を使ったおむすび。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 436
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 150
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 10
+  name: ウシ丼
+  icon_index: 238
+  description: 焼いたウシ肉を分だんに使った丼。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 438
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 399
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 100
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 11
+  name: 野菜ガパオ
+  icon_index: 238
+  description: 野菜と肉を使ったボリュームある料理。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 439
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 399
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 141
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 137
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 12
+  name: ウシ肉カレー
+  icon_index: 238
+  description: 定番の料理。キャンプのお供。ウシ肉使用
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 440
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 399
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 136
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 137
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 141
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 144
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 13
+  name: コカ肉カレー
+  icon_index: 238
+  description: 定番の料理。キャンプのお供。コカ肉使用
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 441
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 401
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 136
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 137
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 141
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 144
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 14
+  name: シーフードカレー
+  icon_index: 238
+  description: 定番の料理。キャンプのお供。魚介使用
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 442
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 236
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 221
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 402
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 136
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 137
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 141
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 144
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 15
+  name: ポムチーズ
+  icon_index: 238
+  description: ラポム芋とチーズが絡み合う。簡単料理
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 444
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 136
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 133
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 16
+  name: 唐揚げ
+  icon_index: 238
+  description: みんな大好き唐揚げ。カラッと揚げるには二度揚げしよう。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 445
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 201
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 107
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 17
+  name: チーズナッツパン
+  icon_index: 238
+  description: きのみとチーズをパンに練り込んだもの。香りがいい。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 446
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 69
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 133
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 18
+  name: ビックツボ焼き
+  icon_index: 238
+  description: 大ツボ焼き。一口では食べれない。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 447
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 150
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 19
+  name: プリン
+  icon_index: 238
+  description: 甘くてぷるぷる。おやつにピッタリ。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 410
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 132
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 142
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 20
+  name: オランドーナツ
+  icon_index: 238
+  description: オラン風味のドーナツ。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 411
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 129
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 142
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 21
+  name: エッグタルト
+  icon_index: 238
+  description: カリカリサクサク香ばしいタマゴパイ。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 412
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 142
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 132
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 22
+  name: ホットケーキ
+  icon_index: 238
+  description: パンケーキにハチミツをかけたもの。単純だけど飽きない。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 413
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 154
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 132
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 142
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1
+- !ruby/object:RPG::ItemMake::Recipe
+  id: 23
+  name: ポミエケーキ
+  icon_index: 238
+  description: 食べ過ぎ注意のにくいやつ。
+  price: 0
+  plus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 414
+    quantity: 1
+  minus_items:
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 128
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 132
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 126
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 142
+    quantity: 1
+  - !ruby/object:RPG::ItemMake::Item
+    class_id: 0
+    item_id: 61
+    quantity: 1

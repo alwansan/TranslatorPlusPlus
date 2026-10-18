@@ -1,0 +1,69 @@
+Translation Memory bug.
+- When translation memory on using indexedDB, when changing language and batch translate using Translator Engine v2. It will loading forever because the resolve state of switching database never resolved.
+
+
+- Create translation with OpenAI Assistant API
+
+Add auto save feature
+Yuris parser will have 'Game title no found' error on the console if the game folder name contain unique characters like '[ ]'
+Add support for pinyin
+Bug when translating with sugoi translator and if the original text's first line is blank, the translator tried to distribute the text evenly each line
+Revamp search feature
+Add context / history for 
+
+
+Add support for DK Plugins (RPG Maker MV) https://dk-plugins.ru/documentation/mv/DKTools/DKTools.IO.WebStorage.html
+Why reopening the app after exit on full screen, the window is restored?
+Ignore if already translated should not send the data to the server if not translated
+
+After closing project, when open the project via home menu different file opened
+
+Character count of the row
+Create info of highlighted text length
+Multiple translation for same context
+
+
+Create standarized language code. Because translate using will not work if the language code is different
+Search, more tag remove tag doesn't remove the tag from view
+Add capability to apply maxLineMessage to certain tags only
+
+NW Update.
+NW above 0.65.1 will cause a bug where the option windows and search window cannot be re-opened. Because ui.windows[windowname] is not cleared. 
+Maximum stable NW version is 0.68.1. Above that, the app will close when opening large table
+Cannot open Translator++ using nwjs ver 0.94
+
+NW ver 0.55 can login to patreon - no __dirname bug
+NW ver 0.75 can login to Patreon - but will crash when opening large file
+NW ver 0.68.1 can login to patreon
+Thread worker is not working properly since NW ver. 64. Probably from the introduction of Node ver. 18
+The maximum NW version is 64.0 (64.1 - update to Node 18) will cause thread not working - Massive performance issue though
+NW Ver 0.63.1 is working but with massive performance issue.
+NW ver 0.62.2 is working - no performance issue - Login Cloudflare loop issue
+
+NW Ver 0.62.2 is the latest stable version that is usable
+
+
+- Glitch on horizontal scroll of the Handsontable column header. This problem introduced in 6.3.26 update
+
+
+# To fix table header (fixed):
+
+Edit the static width at:
+#table .ht_clone_top.handsontable
+
+Also at:
+#table .ht_clone_top.handsontable .wtHolder
+
+
+## BUG
+When ACE loaded. The require is being replaced. Hence require.resolve is no longer exist
+
+
+Update to NWJS 103 problem:
+- ACE error when opening Options window:
+Could not load worker TypeError: Failed to execute 'createObjectURL' on 'URL': Overload resolution failed.
+Tried the last version and using CDN to no avail
+
+
+
+For NWJS 103. The --mixed-context chromium arg will cause the fetch not capturable. 

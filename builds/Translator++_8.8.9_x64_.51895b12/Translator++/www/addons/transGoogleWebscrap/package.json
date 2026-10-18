@@ -1,0 +1,28 @@
+{
+    "name": "googleWebscrap",
+    "title": "Google Translate Webscrap",
+    "description": "Translate with Google Translate with webscrap method",
+    "main": "main.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.3",
+    "icon": "icon.png",
+    "author": {
+        "name": "Dreamsavior",
+        "email": "dreamsavior@gmail.com"
+    },
+    "autoload": false,
+    "load": [
+        "bin/trans.googleWebscrap.bin"
+    ],
+    "build": {
+        "src": ["src/*.js"],
+        "dist": "bin"
+    },
+    "exclude": [
+        "src/*.js"
+    ],
+    "minimumVersion": "7.3.14",
+    "dependencies": {
+        "node-fetch-commonjs": "^3.3.2"
+    }
+}

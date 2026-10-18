@@ -1,0 +1,106 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+/* override default behavior of freeze pane of HOT */
+
+#table .ht_master .htCore tbody tr > td:first-of-type {
+    position: sticky !important;
+    /*left: 50px;*/
+    left: var(--row-header-width);
+    z-index: 11;
+}
+
+#table .ht_master .htCore tbody tr > th:first-of-type {
+	visibility: visible;
+	position: sticky !important;
+    left: 0px;
+    z-index: 11;
+}
+
+#table .handsontable.ht_clone_top .htCore thead > tr:first-of-type th:nth-child(2){
+	position:sticky !important;
+	/*left:50px;*/
+    left: var(--row-header-width);
+	z-index: 1;
+}
+
+#table .htBorders .wtBorder.current.corner {
+	z-index: 10;
+}
+
+#table .handsontable.ht_clone_left {
+    display: none;
+}
+
+.handsontable tbody th.ht__highlight, .handsontable thead th.ht__highlight {
+    background-color: #b3b3b3;
+}
+/* End of override default behavior of freeze pane of HOT */
+
+/* stripped table */
+.handsontable .ht_master table.htCore tbody td.htDimmed {
+    background: var(--grid-disabled-cell-bg);
+    color: var(--text-color-disabled);
+}
+
+
+.handsontable .ht_master table.htCore tbody tr:nth-child(even) td{
+    background: var(--bg-row-even);
+}
+
+.handsontable .ht_master table.htCore tbody tr:nth-child(even) td.htDimmed{
+    background: var(--bg-row-even-disabled);
+    color: var(--text-color-disabled);
+}
+
+.htContextMenu .ht_master table.htCore tbody tr:nth-child(even) td{
+    background: var(--gr-lv0);
+}
+.htContextMenu .ht_master table.htCore tbody tr:nth-child(even) td.current{
+    background: var(--bg-highlighted);
+}
+
+.htContextMenu table tbody tr td.current, 
+.htContextMenu table tbody tr td.zeroclipboard-is-hover {
+    background: var(--bg-highlighted);
+    color: var(--text-color-highlighted);
+}
+
+.handsontable .htSubmenu.current :after {
+    color: var(--text-color-highlighted);
+}
+
+
+/** jqui **/
+#mainMenu .ui-state-active, 
+#mainMenu .ui-widget-content .ui-state-active {
+    border: 1px solid var(--gr-lv4);
+    background: var(--gr-lv2);
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+#mainMenu .ui-state-focus, 
+#mainMenu .ui-widget-content .ui-state-focus {
+    border: 1px solid var(--grid-highlight-border);
+    background: var(--bg-highlighted);
+    font-weight: normal;
+    color: var(--text-color-highlighted);
+}

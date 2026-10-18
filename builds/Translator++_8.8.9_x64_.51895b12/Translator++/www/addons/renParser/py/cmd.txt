@@ -1,0 +1,1 @@
+PathToTheGame\lib\windows-i686\python.exe -O .\unrpyc.py PathToTHeGame\game\screens.rpyc

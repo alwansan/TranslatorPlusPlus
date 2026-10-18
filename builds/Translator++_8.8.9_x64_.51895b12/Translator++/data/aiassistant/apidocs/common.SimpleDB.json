@@ -1,0 +1,102 @@
+{
+  "SimpleDB": {
+    "constructor": {
+      "SimpleDB": {
+        "signature": "new SimpleDB(dbName?, tableName?)",
+        "description": "A simple indexedDB handler to store LocalStorage like key value pair... except, it is better.\nThe benefits are:\n\nCan store large amount of data.\nAsynchronous and non-blocking.\nLoaded on demand unlike LocalStorage.\nCan store JavaScript object data.",
+        "parameters": [
+          {
+            "name": "dbName",
+            "type": "String",
+            "description": "The DB name",
+            "required": false
+          },
+          {
+            "name": "tableName",
+            "type": "String",
+            "description": "Table name",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "var myStorage = new DB();\n\n//store a value to \"someKey\"\nawait myStorage.set(\"someKey\", {\"someObject\" : \"with the value\"}):\n\n//get the value of \"someKey\"\nawait myStorage.get(\"someKey\");\n// will returns:\n{\n   \"someObject\": \"with the value\"\n}"
+        ],
+        "usage": "new SimpleDB(dbName, tableName)"
+      }
+    },
+    "methods": {
+      "clear": {
+        "signature": "clear() → Promise.<Event>",
+        "description": "Clear a database.",
+        "parameters": [],
+        "returns": {
+          "type": "Promise.<Event>",
+          "description": "Transaction event"
+        },
+        "examples": [],
+        "usage": "clear() : Promise.<Event>"
+      },
+      "delete": {
+        "signature": "async delete(key) → Promise.<Event>",
+        "description": "Delete a record from local DB.",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "key of the key-value pair",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Event>",
+          "description": "Transaction event"
+        },
+        "examples": [],
+        "usage": "delete(key) : Promise.<Event>"
+      },
+      "get": {
+        "signature": "async get(key) → Promise.<*>",
+        "description": "Get a value from local DB.",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "key of the key-value pair",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<*>",
+          "description": "The value"
+        },
+        "examples": [],
+        "usage": "get(key) : Promise.<*>"
+      },
+      "set": {
+        "signature": "async set(key, value) → Promise.<Event>",
+        "description": "Set a value to the local DB",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "key of the key-value pair",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value of the key-value pair. Value can be anything. Unlike LocalStorage, if you can also store object in the DB.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Event>",
+          "description": "Transaction event"
+        },
+        "examples": [],
+        "usage": "set(key, value) : Promise.<Event>"
+      }
+    }
+  }
+}

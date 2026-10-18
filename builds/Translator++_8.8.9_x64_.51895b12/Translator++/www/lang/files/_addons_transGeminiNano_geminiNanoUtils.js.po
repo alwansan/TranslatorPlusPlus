@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: geminiNanoUtils.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transGeminiNano/geminiNanoUtils.js","row":"0","tags":null}
+#. tid/1312/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transGeminiNano/geminiNanoUtils.js:0"
+msgid "This action will launch a browser window. Make sure your default browser is set to Chrome browser. Do you want to continue?"
+msgstr "Hành động này sẽ mở một cửa sổ trình duyệt. Hãy đảm bảo trình duyệt mặc định của bạn được đặt là Chrome. Bạn có muốn tiếp tục không?"
+
+# {"path":"/addons/transGeminiNano/geminiNanoUtils.js","row":"1","tags":null}
+#. tid/1352/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transGeminiNano/geminiNanoUtils.js:1"
+msgid "Gemini Nano server is already running. Do you want to restart it?"
+msgstr "Máy chủ Gemini Nano đang chạy. Bạn có muốn khởi động lại nó không?"
+
+# {"path":"/addons/transGeminiNano/geminiNanoUtils.js","row":"2","tags":null}
+#. tid/1525/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transGeminiNano/geminiNanoUtils.js:2"
+msgid "This action will launch a browser window. Make sure your default browser is set to Chrome browser. And Gemini Nano Server is starte. Do you want to continue?"
+msgstr "Hành động này sẽ mở một cửa sổ trình duyệt. Hãy đảm bảo trình duyệt mặc định của bạn được đặt là Chrome. Và Máy chủ Gemini Nano đã khởi động. Bạn có muốn tiếp tục không?"

@@ -1,0 +1,77 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+@font-face {
+  font-family: 'appbar';
+  src: url('../fonts/appbar.ttf?85078702') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?85078702#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="appbarIcon-"]:before, [class*=" appbarIcon-"]:before {
+  font-family: "appbar";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.appbarIcon-restore:before { content: '\e800'; } /* '' */
+.appbarIcon-maximize:before { content: '\e801'; } /* '' */
+.appbarIcon-close:before { content: '\e802'; } /* '' */
+.appbarIcon-minimize:before { content: '\e803'; } /* '' */
+.appbarIcon-menu:before { content: '\e804'; } /* '' */

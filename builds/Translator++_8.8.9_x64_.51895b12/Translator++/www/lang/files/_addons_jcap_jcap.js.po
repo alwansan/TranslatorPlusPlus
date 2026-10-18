@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jcap.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/jcap/jcap.js","row":"0","tags":null}
+#. tid/736/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:0"
+msgid "JCap executable not found at the specified location. Do you want to install JCap?"
+msgstr "Không tìm thấy tệp thực thi JCap tại vị trí đã chỉ định. Bạn có muốn cài đặt JCap không?"
+
+# {"path":"/addons/jcap/jcap.js","row":"1","tags":null}
+#. tid/854/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:1"
+msgid "JCap agent started successfully. Press "
+msgstr "Tác nhân JCap đã khởi động thành công. Nhấn "
+
+# {"path":"/addons/jcap/jcap.js","row":"2","tags":null}
+#. tid/862/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:2"
+msgid "jcapKey"
+msgstr "jcapKey"
+
+# {"path":"/addons/jcap/jcap.js","row":"3","tags":null}
+#. tid/1005/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:3"
+msgid "Please set the JCap executable path in the addon settings."
+msgstr "Vui lòng đặt đường dẫn tệp thực thi JCap trong cài đặt tiện ích."
+
+# {"path":"/addons/jcap/jcap.js","row":"4","tags":null}
+#. tid/1038/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:4"
+msgid "JCap executable already exists at the specified location."
+msgstr "Tệp thực thi JCap đã tồn tại tại vị trí đã chỉ định."
+
+# {"path":"/addons/jcap/jcap.js","row":"5","tags":null}
+#. tid/1392/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:5"
+msgid "JCap executable downloaded successfully."
+msgstr "Tệp thực thi JCap đã được tải xuống thành công."
+
+# {"path":"/addons/jcap/jcap.js","row":"6","tags":null}
+#. tid/1442/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:6"
+msgid "Failed to download JCap package. Please check the console for details."
+msgstr "Không thể tải xuống gói JCap. Vui lòng kiểm tra bảng điều khiển để biết chi tiết."
+
+# {"path":"/addons/jcap/jcap.js","row":"7","tags":null}
+#. tid/1554/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:7"
+msgid "JCap executable unpacked successfully."
+msgstr "Tệp thực thi JCap đã được giải nén thành công."
+
+# {"path":"/addons/jcap/jcap.js","row":"8","tags":null}
+#. tid/1566/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:8"
+msgid "You can now start the JCap agent from the Main Menu - Tools - OCR Tools JCap - Start JCap Agent."
+msgstr "Bây giờ bạn có thể khởi động tác nhân JCap từ Menu Chính - Công cụ - Công cụ OCR JCap - Khởi động Tác nhân JCap."
+
+# {"path":"/addons/jcap/jcap.js","row":"9","tags":null}
+#. tid/1591/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:9"
+msgid "Start JCap OCR Agent"
+msgstr "Khởi động Tác nhân OCR JCap"
+
+# {"path":"/addons/jcap/jcap.js","row":"10","tags":null}
+#. tid/1647/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:10"
+msgid "Failed to unpack JCap package. Please check the console for details."
+msgstr "Không thể giải nén gói JCap. Vui lòng kiểm tra bảng điều khiển để biết chi tiết."
+
+# {"path":"/addons/jcap/jcap.js","row":"11","tags":null}
+#. tid/1732/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:11"
+msgid "JCap executable not found at the specified location."
+msgstr "Không tìm thấy tệp thực thi JCap tại vị trí đã chỉ định."
+
+# {"path":"/addons/jcap/jcap.js","row":"12","tags":null}
+#. tid/1755/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:12"
+msgid "Are you sure you want to uninstall JCap? This will delete the JCap executable and its configuration."
+msgstr "Bạn có chắc chắn muốn gỡ cài đặt JCap không? Hành động này sẽ xóa tệp thực thi JCap và cấu hình của nó."
+
+# {"path":"/addons/jcap/jcap.js","row":"13","tags":null}
+#. tid/1828/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:13"
+msgid "JCap uninstalled successfully."
+msgstr "JCap đã được gỡ cài đặt thành công."
+
+# {"path":"/addons/jcap/jcap.js","row":"14","tags":null}
+#. tid/1861/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:14"
+msgid "Failed to uninstall JCap. Please check the console for details."
+msgstr "Không thể gỡ cài đặt JCap. Vui lòng kiểm tra bảng điều khiển để biết chi tiết."
+
+# {"path":"/addons/jcap/jcap.js","row":"15","tags":null}
+#. tid/2350/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:15"
+msgid "Help"
+msgstr "Trợ giúp"
+
+# {"path":"/addons/jcap/jcap.js","row":"16","tags":null}
+#. tid/2371/type/StringLiteral
+msgctxt "tpp:/addons/jcap/jcap.js:16"
+msgid ""
+"JCap OCR is an OCR tool that allows you to capture text from the screen and translate it using JCap. To use it start the JCap by clicking the OCR button on main menu.\n"
+"Then press the configured key (default: F9) to capture text."
+msgstr ""
+"JCap OCR là một công cụ OCR cho phép bạn chụp văn bản từ màn hình và dịch nó bằng JCap. Để sử dụng, hãy khởi động JCap bằng cách nhấp vào nút OCR trên menu chính.\n"
+"Sau đó nhấn phím đã cấu hình (mặc định: F9) để chụp văn bản."

@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bakin-proxy.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"0","tags":null}
+#. tid/2860/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:0"
+msgid "Extract a Bakin game dictionary from data.rbpack, translate dic.txt, and patch the player automatically."
+msgstr "Trích xuất từ điển trò chơi Bakin từ data.rbpack, dịch dic.txt và tự động vá trình phát."
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"1","tags":null}
+#. tid/2929/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:1"
+msgid "Create project"
+msgstr "Tạo dự án"
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"2","tags":null}
+#. tid/2966/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:2"
+msgid "Error: customField is not defined. This should not happen!"
+msgstr "Lỗi: customField không được định nghĩa. Điều này không nên xảy ra!"
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"3","tags":null}
+#. tid/3002/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:3"
+msgid "Please select the Bakin game executable."
+msgstr "Vui lòng chọn tệp thực thi trò chơi Bakin."
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"4","tags":null}
+#. tid/3253/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:4"
+msgid "<h2>Proxy workflow</h2>"
+msgstr "<h2>Quy trình proxy</h2>"
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"5","tags":null}
+#. tid/3266/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:5"
+msgid "Translator++ unpacks data.rbpack into a temporary folder."
+msgstr "Translator++ giải nén data.rbpack vào một thư mục tạm thời."
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"6","tags":null}
+#. tid/3277/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:6"
+msgid "Split Dictionary uses dump-split and creates one .txt file per source area by default."
+msgstr "Tách Từ điển sử dụng dump-split và tạo một tệp .txt cho mỗi vùng nguồn theo mặc định."
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"7","tags":null}
+#. tid/3288/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:7"
+msgid "Merge Dictionary uses a single dic.txt."
+msgstr "Gộp Từ điển sử dụng một dic.txt duy nhất."
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"8","tags":null}
+#. tid/3299/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:8"
+msgid "Injection merges split dictionaries back into data/dic.txt and patches the player executable."
+msgstr "Tiêm hợp nhất các từ điển đã tách trở lại data/dic.txt và vá tệp thực thi trình phát."
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"9","tags":null}
+#. tid/3383/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:9"
+msgid "Split Dictionary (default)"
+msgstr "Tách Từ điển (mặc định)"
+
+# {"path":"/addons/bakinParser/bakin-proxy.js","row":"10","tags":null}
+#. tid/3393/type/StringLiteral
+msgctxt "tpp:/addons/bakinParser/bakin-proxy.js:10"
+msgid "Merge Dictionary"
+msgstr "Gộp Từ điển"

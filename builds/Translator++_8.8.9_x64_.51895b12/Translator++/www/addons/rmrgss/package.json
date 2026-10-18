@@ -1,0 +1,24 @@
+{
+	"name": "rmrgss",
+	"title": "RMRGSS",
+	"description": "Utility for RGSS Based RPG Maker engines (RM XP, RM VX, VX Ace)",
+	"main": "rmrgss.js",
+	"homepage": "http://dreamsavior.net",
+	"version": "3.3",
+	"icon": "icon-ace.png",
+	"author": {
+		"name": "Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload": false,
+	"load": [
+		"RMUtil.js",
+		"legacyHandler.js",
+		"JsonInterface/JsonDB.main.js"
+	],
+	"dependencies": {
+		"js-yaml": "^4.1.0",
+		"yaml": "^1.10.2"
+	},
+	"minimumVersion": "8.5.18"
+}

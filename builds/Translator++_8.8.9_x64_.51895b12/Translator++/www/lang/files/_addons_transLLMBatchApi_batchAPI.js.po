@@ -1,0 +1,771 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: batchAPI.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"0","tags":null}
+#. tid/414/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:0"
+msgid "Service Name"
+msgstr "Tên Dịch vụ"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"1","tags":null}
+#. tid/424/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:1"
+msgid "Service provider for your Batch API."
+msgstr "Nhà cung cấp dịch vụ cho Batch API của bạn."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"2","tags":null}
+#. tid/483/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:2"
+msgid "Your API Key"
+msgstr "Khóa API của Bạn"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"3","tags":null}
+#. tid/493/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:3"
+msgid "Please enter your API key for the Batch API service."
+msgstr "Vui lòng nhập khóa API của bạn cho dịch vụ Batch API."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"4","tags":null}
+#. tid/531/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:4"
+msgid "Model"
+msgstr "Mô hình"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"5","tags":null}
+#. tid/541/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:5"
+msgid "The model for your translation."
+msgstr "Mô hình cho bản dịch của bạn."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"6","tags":null}
+#. tid/580/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:6"
+msgid "Source Column"
+msgstr "Cột Nguồn"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"7","tags":null}
+#. tid/590/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:7"
+msgid "The column of the original texts you want to translate."
+msgstr "Cột chứa văn bản gốc mà bạn muốn dịch."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"8","tags":null}
+#. tid/629/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:8"
+msgid "Add actor name"
+msgstr "Thêm tên diễn viên"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"9","tags":null}
+#. tid/639/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:9"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên diễn viên từ thông tin hàng vào văn bản có thể dịch. Điều này sẽ giúp người dịch theo dõi hội thoại và đại từ. Translator++ sau đó sẽ loại bỏ tên diễn viên khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"10","tags":null}
+#. tid/679/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:10"
+msgid "Ignore if already translated"
+msgstr "Bỏ qua nếu đã dịch"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"11","tags":null}
+#. tid/689/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:11"
+msgid "If this option is checked then Translator++ will ignore any row that already has translations on its column."
+msgstr "Nếu tùy chọn này được chọn, Translator++ sẽ bỏ qua bất kỳ hàng nào đã có bản dịch trong cột của nó."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"12","tags":null}
+#. tid/729/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:12"
+msgid "Filter Tag"
+msgstr "Thẻ Lọc"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"13","tags":null}
+#. tid/739/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:13"
+msgid "If set, only rows with this tag will be translated."
+msgstr "Nếu được đặt, chỉ các hàng có thẻ này mới được dịch."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"14","tags":null}
+#. tid/782/type/StringLiteral
+#. tid/3377/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:14"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Diễn viên làm Bảng Thuật ngữ"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"15","tags":null}
+#. tid/792/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:15"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu diễn viên làm bảng thuật ngữ. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu diễn viên là tên của diễn viên trong hội thoại. Nó sẽ được tải như một bảng thuật ngữ cho người dịch. Điều này sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"16","tags":null}
+#. tid/799/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:16"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm bảng thuật ngữ cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu diễn viên trong thông báo nhắc."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"17","tags":null}
+#. tid/838/type/StringLiteral
+#. tid/3408/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:17"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Diễn viên"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"18","tags":null}
+#. tid/848/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:18"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch của tên diễn viên. Cột này sẽ được sử dụng làm bản dịch của tham chiếu diễn viên. Điều này sẽ cải thiện tính nhất quán trong việc dịch tên diễn viên trong cuộc trò chuyện."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"19","tags":null}
+#. tid/887/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:19"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Diễn viên"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"20","tags":null}
+#. tid/897/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:20"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung về diễn viên. Bạn có thể đặt thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện việc dịch đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"21","tags":null}
+#. tid/936/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:21"
+msgid "Enable Context"
+msgstr "Bật Ngữ cảnh"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"22","tags":null}
+#. tid/946/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:22"
+msgid "Enable context for the translation. The previously translated material above the current batch will be included as a context. <b>You also need to explicitly includes the CONTEXT into the template</b>"
+msgstr "Bật ngữ cảnh cho bản dịch. Tài liệu đã dịch trước đó phía trên lô hiện tại sẽ được bao gồm như một ngữ cảnh. <b>Bạn cũng cần bao gồm rõ ràng NGỮ CẢNH vào mẫu</b>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"23","tags":null}
+#. tid/985/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:23"
+msgid "Context Character Limit"
+msgstr "Giới hạn Ký tự Ngữ cảnh"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"24","tags":null}
+#. tid/995/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:24"
+msgid "Character limit for the context."
+msgstr "Giới hạn ký tự cho ngữ cảnh."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"25","tags":null}
+#. tid/1040/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:25"
+msgid "System Message Template"
+msgstr "Mẫu Tin nhắn Hệ thống"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"26","tags":null}
+#. tid/1050/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:26"
+msgid "System message is the header of the message that will tell what is the role of your chatGPT assistant. This message will be sent as the very first message of every batch you send to chatGPT."
+msgstr "Tin nhắn hệ thống là tiêu đề của tin nhắn sẽ cho biết vai trò của trợ lý chatGPT của bạn. Tin nhắn này sẽ được gửi như tin nhắn đầu tiên trong mỗi lô bạn gửi đến chatGPT."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"27","tags":null}
+#. tid/1058/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:27"
+msgid "You can include the following variables with JavaScript's Template Literal style <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+msgstr "Bạn có thể bao gồm các biến sau với phong cách Template Literal của JavaScript <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"28","tags":null}
+#. tid/1066/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:28"
+msgid "Variables:<br>"
+msgstr "Biến:<br>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"29","tags":null}
+#. tid/1079/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:29"
+msgid "<li>LANG_FROM : Source language</li>"
+msgstr "<li>LANG_FROM : Ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"30","tags":null}
+#. tid/1087/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:30"
+msgid "<li>LANG_TO : Target language</li>"
+msgstr "<li>LANG_TO : Ngôn ngữ đích</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"31","tags":null}
+#. tid/1095/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:31"
+msgid "<li>LANG_FROM_FULL : Full source language name</li>"
+msgstr "<li>LANG_FROM_FULL : Tên đầy đủ của ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"32","tags":null}
+#. tid/1103/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:32"
+msgid "<li>LANG_TO_FULL : Full target language name</li>"
+msgstr "<li>LANG_TO_FULL : Tên đầy đủ của ngôn ngữ đích</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"33","tags":null}
+#. tid/1111/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:33"
+msgid "<li>SOURCE_TEXT : Source text</li>"
+msgstr "<li>SOURCE_TEXT : Văn bản nguồn</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"34","tags":null}
+#. tid/1119/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:34"
+msgid "<li>ESCAPE_ALGORITHM_PROMPT : Pre-defined message of escape algorithm.</li>"
+msgstr "<li>ESCAPE_ALGORITHM_PROMPT : Tin nhắn được định nghĩa trước của thuật toán thoát.</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"35","tags":null}
+#. tid/1127/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:35"
+msgid "<li>NEWLINE_STRING : String represents new line (Line substitute).</li>"
+msgstr "<li>NEWLINE_STRING : Chuỗi đại diện cho dòng mới (Thay thế dòng).</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"36","tags":null}
+#. tid/1135/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:36"
+msgid "<li>MESSAGE_COUNT : Number of messages in the batch.</li>"
+msgstr "<li>MESSAGE_COUNT : Số lượng tin nhắn trong lô.</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"37","tags":null}
+#. tid/1143/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:37"
+msgid "<li>ACTOR_INFO : Add information of the actors.</li>"
+msgstr "<li>ACTOR_INFO : Thêm thông tin của các diễn viên.</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"38","tags":null}
+#. tid/1151/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:38"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"39","tags":null}
+#. tid/1159/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:39"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"40","tags":null}
+#. tid/1167/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:40"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu Chung]</code></li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"41","tags":null}
+#. tid/1175/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:41"
+msgid "<li>CONTEXT : Include some previous lines as a context</li>"
+msgstr "<li>CONTEXT : Bao gồm một số dòng trước đó như ngữ cảnh</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"42","tags":null}
+#. tid/1227/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:42"
+msgid "Body Message Template"
+msgstr "Mẫu Tin nhắn Thân"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"43","tags":null}
+#. tid/1237/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:43"
+msgid "Template of the body of your chat."
+msgstr "Mẫu của phần thân cuộc trò chuyện của bạn."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"44","tags":null}
+#. tid/1296/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:44"
+msgid "Sample conversation"
+msgstr "Mẫu hội thoại"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"45","tags":null}
+#. tid/1325/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:45"
+msgid "User message"
+msgstr "Tin nhắn người dùng"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"46","tags":null}
+#. tid/1351/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:46"
+msgid "Assistant's response"
+msgstr "Phản hồi của trợ lý"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"47","tags":null}
+#. tid/1395/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:47"
+msgid "Enable JailBreak"
+msgstr "Bật JailBreak"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"48","tags":null}
+#. tid/1405/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:48"
+msgid "Enable Jailbreak for the translation. This will make the translation more accurate and less biased. Some models may want to relate fictional events to real life events, hence they will try to alter the translation to fit their own narrative. This option will prevent that."
+msgstr "Bật Jailbreak cho bản dịch. Điều này sẽ làm cho bản dịch chính xác hơn và ít thiên vị hơn. Một số mô hình có thể muốn liên hệ sự kiện hư cấu với sự kiện thực tế, do đó chúng sẽ cố gắng thay đổi bản dịch để phù hợp với câu chuyện riêng của chúng. Tùy chọn này sẽ ngăn chặn điều đó."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"49","tags":null}
+#. tid/1444/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:49"
+msgid "Jailbreak Template"
+msgstr "Mẫu Jailbreak"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"50","tags":null}
+#. tid/1454/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:50"
+msgid "Template of the Jailbreak message."
+msgstr "Mẫu của tin nhắn Jailbreak."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"51","tags":null}
+#. tid/1494/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:51"
+msgid "Maximum Tokens"
+msgstr "Số Token Tối Đa"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"52","tags":null}
+#. tid/1504/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:52"
+msgid "The maximum number of tokens to generate in the completion.<br>The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096)."
+msgstr "Số lượng token tối đa để tạo ra trong phần hoàn thành.<br>Số token của lời nhắc của bạn cộng với max_tokens không được vượt quá độ dài ngữ cảnh của mô hình. Hầu hết các mô hình có độ dài ngữ cảnh là 2048 token (ngoại trừ các mô hình mới nhất, hỗ trợ 4096)."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"53","tags":null}
+#. tid/1563/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:53"
+msgid "Temperature"
+msgstr "Nhiệt độ"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"54","tags":null}
+#. tid/1573/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:54"
+msgid "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. <br>OpenAI generally recommend altering this or top_p but not both."
+msgstr "Nhiệt độ lấy mẫu sử dụng, từ 0 đến 2. Giá trị cao hơn như 0.8 sẽ làm cho đầu ra ngẫu nhiên hơn, trong khi giá trị thấp hơn như 0.2 sẽ làm cho nó tập trung và xác định hơn. <br>OpenAI thường khuyến nghị thay đổi cái này hoặc top_p nhưng không phải cả hai."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"55","tags":null}
+#. tid/1632/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:55"
+msgid "Nucleus sampling (top_p)"
+msgstr "Lấy mẫu hạt nhân (top_p)"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"56","tags":null}
+#. tid/1642/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:56"
+msgid "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. <br>OpenAI generally recommend altering this or temperature but not both."
+msgstr "Một phương pháp thay thế cho lấy mẫu với nhiệt độ, gọi là lấy mẫu hạt nhân, nơi mô hình xem xét kết quả của các token với khối lượng xác suất top_p. Vì vậy 0.1 có nghĩa là chỉ các token chiếm 10% khối lượng xác suất hàng đầu được xem xét. <br>OpenAI thường khuyến nghị thay đổi cái này hoặc nhiệt độ nhưng không phải cả hai."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"57","tags":null}
+#. tid/1701/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:57"
+msgid "Frequency Penalty"
+msgstr "Hình phạt Tần suất"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"58","tags":null}
+#. tid/1711/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:58"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên tần suất hiện có của chúng trong văn bản cho đến nay, giảm khả năng mô hình lặp lại cùng một dòng nguyên văn. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"59","tags":null}
+#. tid/1771/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:59"
+msgid "Presence Penalty"
+msgstr "Hình phạt Hiện diện"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"60","tags":null}
+#. tid/1781/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:60"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên việc chúng có xuất hiện trong văn bản cho đến nay hay không, tăng khả năng mô hình nói về các chủ đề mới. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"61","tags":null}
+#. tid/1857/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:61"
+msgid "Custom Parameter"
+msgstr "Tham số Tùy chỉnh"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"62","tags":null}
+#. tid/1886/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:62"
+msgid "Key"
+msgstr "Khóa"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"63","tags":null}
+#. tid/1913/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:63"
+msgid "Value"
+msgstr "Giá trị"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"64","tags":null}
+#. tid/1940/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:64"
+msgid "Type"
+msgstr "Loại"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"65","tags":null}
+#. tid/1968/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:65"
+msgid "Type of the value."
+msgstr "Loại giá trị."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"66","tags":null}
+#. tid/1975/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:66"
+msgid "For <b>javascript</b> type, the value will be evaluated as JavaScript code."
+msgstr "Đối với loại <b>javascript</b>, giá trị sẽ được đánh giá như mã JavaScript."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"67","tags":null}
+#. tid/1982/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:67"
+msgid "The scope of the javascript code is <code>window</code>. So you can pretty much grab any value."
+msgstr "Phạm vi của mã javascript là <code>window</code>. Vì vậy bạn có thể truy cập hầu hết mọi giá trị."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"68","tags":null}
+#. tid/1991/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:68"
+msgid "Example: <code>trans.project.title</code>"
+msgstr "Ví dụ: <code>trans.project.title</code>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"69","tags":null}
+#. tid/2030/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:69"
+msgid "Drop parameters that will not be sent to the API.<br />"
+msgstr "Bỏ các tham số sẽ không được gửi đến API.<br />"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"70","tags":null}
+#. tid/2037/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:70"
+msgid "OpenAI API is keep changing, some new models may not support the old parameters and will return HTTP error for unrecognized request parameter."
+msgstr "API OpenAI liên tục thay đổi, một số mô hình mới có thể không hỗ trợ các tham số cũ và sẽ trả về lỗi HTTP cho tham số yêu cầu không được nhận dạng."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"71","tags":null}
+#. tid/2044/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:71"
+msgid "You can drop the parameters that are not supported by the model here."
+msgstr "Bạn có thể bỏ các tham số không được mô hình hỗ trợ ở đây."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"72","tags":null}
+#. tid/2086/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:72"
+msgid "Batch API settings"
+msgstr "Cài đặt API Batch"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"73","tags":null}
+#. tid/2128/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:73"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"74","tags":null}
+#. tid/2161/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:74"
+msgid "The OpenAI Batch API allows you to translate your project asynchronously at 50% lower costs, meaning you will receive the results of your translation <b style=\"color:red\">within 24 hours</b> at <b style=\"color:blue\">half the normal cost</b>. This is particularly useful for large projects that do not require immediate translation results."
+msgstr "API Batch của OpenAI cho phép bạn dịch dự án của mình không đồng bộ với chi phí thấp hơn 50%, nghĩa là bạn sẽ nhận được kết quả dịch <b style=\"color:red\">trong vòng 24 giờ</b> với <b style=\"color:blue\">một nửa chi phí thông thường</b>. Điều này đặc biệt hữu ích cho các dự án lớn không yêu cầu kết quả dịch ngay lập tức."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"75","tags":null}
+#. tid/2173/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:75"
+msgid " <br />Read more about the Batch API <a href=\"https://platform.openai.com/docs/guides/batch\" external>here</a>.<br />"
+msgstr " <br />Đọc thêm về API Batch <a href=\"https://platform.openai.com/docs/guides/batch\" external>tại đây</a>.<br />"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"76","tags":null}
+#. tid/2181/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:76"
+msgid " <br />Supported services: <b>OpenAI</b> and <b>Gemini</b>"
+msgstr " <br />Dịch vụ được hỗ trợ: <b>OpenAI</b> và <b>Gemini</b>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"77","tags":null}
+#. tid/2205/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:77"
+msgid "<h2>More configurations are found in Addon Settings</h2>"
+msgstr "<h2>Các cấu hình khác được tìm thấy trong Cài đặt Tiện ích</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"78","tags":null}
+#. tid/2227/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:78"
+msgid "Open Add-on Settings"
+msgstr "Mở Cài đặt Tiện ích"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"79","tags":null}
+#. tid/2239/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:79"
+msgid "Import Configuration from OpenAI Setting"
+msgstr "Nhập Cấu hình từ Cài đặt OpenAI"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"80","tags":null}
+#. tid/2272/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:80"
+msgid "General Settings"
+msgstr "Cài đặt Chung"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"81","tags":null}
+#. tid/2341/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:81"
+msgid "<h2>Don't waste your money on Reasoning Models</h2>"
+msgstr "<h2>Đừng lãng phí tiền vào Mô hình Lý luận</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"82","tags":null}
+#. tid/2349/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:82"
+msgid "<p>It has been proven by various studies that reasoning models are far worse than the normal models on performing creative writings and translation tasks.</p>"
+msgstr "<p>Các nghiên cứu khác nhau đã chứng minh rằng mô hình lý luận kém xa so với các mô hình thông thường trong việc thực hiện các tác vụ viết sáng tạo và dịch thuật.</p>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"83","tags":null}
+#. tid/2357/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:83"
+msgid "<p>You gain nothing but more expensive cost and slower response times when using reasoning models.</p>"
+msgstr "<p>Bạn không nhận được gì ngoài chi phí đắt hơn và thời gian phản hồi chậm hơn khi sử dụng mô hình lý luận.</p>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"84","tags":null}
+#. tid/2380/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:84"
+msgid "<h2>If you're using OpenAI</h2>"
+msgstr "<h2>Nếu bạn đang sử dụng OpenAI</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"85","tags":null}
+#. tid/2387/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:85"
+msgid "OpenAI Batch API uses a slightly different model naming convention compared to the standard API. Models in Batch Mode include a -batch suffix. For instance, if you specify <code>gpt-4.1-mini</code>, it will automatically be interpreted as <code>gpt-4.1-mini-batch</code>.<br />"
+msgstr "OpenAI Batch API sử dụng một quy ước đặt tên mô hình hơi khác so với API tiêu chuẩn. Các mô hình trong Chế độ Batch bao gồm hậu tố -batch. Ví dụ, nếu bạn chỉ định <code>gpt-4.1-mini</code>, nó sẽ tự động được hiểu là <code>gpt-4.1-mini-batch</code>.<br />"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"86","tags":null}
+#. tid/2391/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:86"
+msgid "However, at the time this add-on was developed, batch models were not listed under OpenAI’s model usage limits. This means users who have set their Model Usage filter to “Allow” (whitelist) won't be able to access the Batch API.<br />"
+msgstr "Tuy nhiên, tại thời điểm tiện ích này được phát triển, các mô hình batch chưa được liệt kê dưới giới hạn sử dụng mô hình của OpenAI. Điều này có nghĩa là người dùng đã đặt bộ lọc Sử dụng Mô hình thành \"Cho phép\" (danh sách trắng) sẽ không thể truy cập Batch API.<br />"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"87","tags":null}
+#. tid/2395/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:87"
+msgid "Click <a href=\"https://platform.openai.com/settings/proj_xxx/limits\" external>here</a> to change the model's usage limits."
+msgstr "Nhấp <a href=\"https://platform.openai.com/settings/proj_xxx/limits\" external>vào đây</a> để thay đổi giới hạn sử dụng mô hình."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"88","tags":null}
+#. tid/2569/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:88"
+msgid "Explore more models"
+msgstr "Khám phá thêm các mô hình"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"89","tags":null}
+#. tid/2769/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:89"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên diễn viên vào văn bản có thể dịch"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"90","tags":null}
+#. tid/2793/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:90"
+msgid "Ignore translated rows"
+msgstr "Bỏ qua các hàng đã dịch"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"91","tags":null}
+#. tid/2848/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:91"
+msgid "Templates"
+msgstr "Mẫu"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"92","tags":null}
+#. tid/2881/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:92"
+msgid "<h2>1. System Message</h2>"
+msgstr "<h2>1. Thông báo Hệ thống</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"93","tags":null}
+#. tid/2888/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:93"
+msgid "<p>Here you can explain to the assistant, what is their role.</p>"
+msgstr "<p>Tại đây, bạn có thể giải thích cho trợ lý về vai trò của họ.</p>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"94","tags":null}
+#. tid/2933/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:94"
+msgid "<h2>2. Sample dialogue</h2>"
+msgstr "<h2>2. Đối thoại mẫu</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"95","tags":null}
+#. tid/2940/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:95"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Đối thoại mẫu hiện có. Bạn có thể viết một mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục tiêu và ngữ cảnh của cuộc trò chuyện.</p>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"96","tags":null}
+#. tid/3153/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:96"
+msgid "<h2>3. Your actual prompt</h2>"
+msgstr "<h2>3. Lời nhắc thực tế của bạn</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"97","tags":null}
+#. tid/3160/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:97"
+msgid "<p>This is the actual prompt to the assistant.</p>"
+msgstr "<p>Đây là lời nhắc thực tế gửi đến trợ lý.</p>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"98","tags":null}
+#. tid/3208/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:98"
+msgid "Enable Jailbreak"
+msgstr "Bẻ khóa"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"99","tags":null}
+#. tid/3314/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:99"
+msgid "Glossary"
+msgstr "Bảng thuật ngữ"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"100","tags":null}
+#. tid/3347/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:100"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Bảng thuật ngữ</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"101","tags":null}
+#. tid/3354/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:101"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm bảng thuật ngữ vào lời nhắc. Bảng thuật ngữ sẽ được tải cho mỗi lô mục để cải thiện chất lượng bản dịch. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm phình to lời nhắc của bạn.</p>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"102","tags":null}
+#. tid/3439/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:102"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông tin Bổ sung của Diễn viên"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"103","tags":null}
+#. tid/3463/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:103"
+msgid "Enable context"
+msgstr "Bật ngữ cảnh"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"104","tags":null}
+#. tid/3502/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:104"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"105","tags":null}
+#. tid/3774/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:105"
+msgid "Custom Parameters"
+msgstr "Tham số Tùy chỉnh"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"106","tags":null}
+#. tid/3807/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:106"
+msgid "You can add custom parameters to the OpenAI Chat API request body. This is useful if you want to add additional parameters that are not available in the form."
+msgstr "Bạn có thể thêm tham số tùy chỉnh vào phần thân yêu cầu API Chat của OpenAI. Điều này hữu ích nếu bạn muốn thêm các tham số bổ sung không có sẵn trong biểu mẫu."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"107","tags":null}
+#. tid/3830/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:107"
+msgid "<h2>Warning</h2>"
+msgstr "<h2>Cảnh báo</h2>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"108","tags":null}
+#. tid/3841/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:108"
+msgid "<li>Incorrectly setting custom parameters may cause the API request to fail. Make sure you know what you are doing before adding custom parameters. Some services like OpenAI are strict about what parameters you're sending, and they will return HTTP error for unrecognized request parameter.</li>"
+msgstr "<li>Thiết lập tham số tùy chỉnh không chính xác có thể khiến yêu cầu API thất bại. Hãy chắc chắn bạn biết mình đang làm gì trước khi thêm tham số tùy chỉnh. Một số dịch vụ như OpenAI rất nghiêm ngặt về các tham số bạn gửi, và chúng sẽ trả về lỗi HTTP cho tham số yêu cầu không được nhận dạng.</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"109","tags":null}
+#. tid/3848/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:109"
+msgid "<li>If the same key is used multiple times, only the last value will be used.</li>"
+msgstr "<li>Nếu cùng một khóa được sử dụng nhiều lần, chỉ giá trị cuối cùng sẽ được dùng.</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"110","tags":null}
+#. tid/3855/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:110"
+msgid "<li>If the same key in the existing configuration is used, then existing configuration parameter will be overwritten by the custom parameter.</li>"
+msgstr "<li>Nếu sử dụng cùng một khóa trong cấu hình hiện có, thì tham số cấu hình hiện tại sẽ bị ghi đè bởi tham số tùy chỉnh.</li>"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"111","tags":null}
+#. tid/3965/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:111"
+msgid "String"
+msgstr "Chuỗi"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"112","tags":null}
+#. tid/3975/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:112"
+msgid "Number"
+msgstr "Số"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"113","tags":null}
+#. tid/3985/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:113"
+msgid "Boolean"
+msgstr "Boolean"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"114","tags":null}
+#. tid/3995/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:114"
+msgid "JavaScript"
+msgstr "JavaScript"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"115","tags":null}
+#. tid/4051/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:115"
+msgid "Drop Parameters"
+msgstr "Bỏ Tham số"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"116","tags":null}
+#. tid/4185/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:116"
+msgid ""
+"<h3>Overhead cost</h3>\n"
+"                        Overhead cost is the cost of the prompt message that you send to the assistant without the actual translation texts. The cost is calculated based on the number of tokens in the prompt message. The more tokens you have, the higher the cost will be.<br>\n"
+"                        <b>Estimated overhead cost:</b> <span class=\"overheadCost\">0</span> tokens / request."
+msgstr ""
+"<h3>Chi phí phụ trội</h3>\n"
+"                        Chi phí phụ trội là chi phí của tin nhắn nhắc mà bạn gửi đến trợ lý mà không có văn bản dịch thực tế. Chi phí được tính dựa trên số lượng token trong tin nhắn nhắc. Càng nhiều token bạn có, chi phí sẽ càng cao.<br>\n"
+"                        <b>Chi phí phụ trội ước tính:</b> <span class=\"overheadCost\">0</span> token / yêu cầu."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"117","tags":null}
+#. tid/4435/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:117"
+msgid "Are you sure you want to reset the form?"
+msgstr "Bạn có chắc muốn đặt lại biểu mẫu không?"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"118","tags":null}
+#. tid/4581/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:118"
+msgid "Translate with Batch API"
+msgstr "Dịch với API Hàng loạt"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"119","tags":null}
+#. tid/8938/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:119"
+msgid ""
+"Are you sure you want to process the batch?\n"
+"Cost will be incurred for this operation."
+msgstr ""
+"Bạn có chắc muốn xử lý hàng loạt không?\n"
+"Chi phí sẽ phát sinh cho thao tác này."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"120","tags":null}
+#. tid/9430/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:120"
+msgid "The batch is successfully created. Do you want to open the batch manager?"
+msgstr "Hàng loạt đã được tạo thành công. Bạn có muốn mở trình quản lý hàng loạt không?"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"121","tags":null}
+#. tid/9838/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:121"
+msgid "Are you sure you want to import configuration from OpenAI settings? This will overwrite the current configuration."
+msgstr "Bạn có chắc muốn nhập cấu hình từ cài đặt OpenAI? Điều này sẽ ghi đè cấu hình hiện tại."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"122","tags":null}
+#. tid/9883/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:122"
+msgid "chatGPT engine is not found"
+msgstr "Không tìm thấy engine chatGPT"
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"123","tags":null}
+#. tid/10067/type/StringLiteral
+#. tid/10130/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:123"
+msgid "Configuration imported successfully."
+msgstr "Nhập cấu hình thành công."
+
+# {"path":"/addons/transLLMBatchApi/batchAPI.js","row":"124","tags":null}
+#. tid/10328/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/batchAPI.js:124"
+msgid "Batch API Queue"
+msgstr "Hàng đợi API Hàng loạt"

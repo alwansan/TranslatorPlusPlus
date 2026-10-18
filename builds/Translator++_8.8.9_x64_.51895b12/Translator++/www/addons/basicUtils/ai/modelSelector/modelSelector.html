@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select AI Model</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Search Bar -->
+        <div class="row fixed-top-search px-3">
+            <div class="col">
+                <div class="input-group my-3">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="search" id="searchInput" class="form-control" placeholder="Search models by name, ID, or description...">
+                    <button class="btn btn-outline-secondary" type="button" id="clearSearchBtn"><i class="bi bi-x-lg"></i></button>
+                </div>
+                <div id="prefixFilterStatus" class="alert alert-info py-2 d-none" role="alert">
+                    <i class="bi bi-funnel"></i> <strong>Prefix Filter:</strong> <span id="prefixFilterValue"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Model List -->
+        <div class="row mt-3" id="modelListContainer">
+             <!-- Placeholder for list -->
+             <div id="modelList" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Model cards will be injected here -->
+            </div>
+        </div>
+
+
+        <!-- Load More Button -->
+        <div class="text-center my-4">
+            <button id="loadMoreBtn" class="btn btn-outline-primary d-none">Load More</button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator" class="text-center my-4 d-none">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Model Detail Modal -->
+    <div class="modal fade" id="modelDetailModal" tabindex="-1" aria-labelledby="modelDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modelDetailModalLabel">Model Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 id="modalModelName"></h3>
+                    <p><small class="text-muted" id="modalModelId"></small></p>
+                    <p><strong>Description:</strong> <span id="modalModelDescription"></span></p>
+                    <p><strong>Context Length:</strong> <span id="modalModelContextLength"></span></p>
+                    <p><strong>Pricing:</strong> <pre id="modalModelPricing"></pre></p>
+                    <p><strong>Architecture:</strong> <pre id="modalModelArchitecture"></pre></p>
+                    <p><strong>Created:</strong> <span id="modalModelCreated"></span></p>
+                    <div class="mb-3">
+                        <strong>Supported Parameters:</strong>
+                        <div id="modalSupportedParameters" class="mt-2"></div>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Default Parameters:</strong>
+                        <div id="modalDefaultParameters" class="mt-2"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="selectModelFromModalBtn">Select This Model</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Work around to load JQuery in nwjs
+        var $ = require('jquery');
+        window.jQuery = $;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/model-selector.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: automationEditor.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/automationEditor.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/automationEditor.html:0"
+msgid "Form Builder"
+msgstr "Trình tạo biểu mẫu"
+
+# {"path":"/automationEditor.html","row":"1","tags":null}
+#. idx/1/innerText
+msgctxt "tpp:/automationEditor.html:1"
+msgid "Run"
+msgstr "Chạy"
+
+# {"path":"/automationEditor.html","row":"2","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/automationEditor.html:2"
+msgid "New Project (ctrl+n)"
+msgstr "Dự án mới (ctrl+n)"
+
+# {"path":"/automationEditor.html","row":"3","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/automationEditor.html:3"
+msgid "Open (ctrl+o)"
+msgstr "Mở (ctrl+o)"
+
+# {"path":"/automationEditor.html","row":"4","tags":null}
+#. idx/2/attr/title
+msgctxt "tpp:/automationEditor.html:4"
+msgid "Save file (ctrl+s)"
+msgstr "Lưu tệp (ctrl+s)"
+
+# {"path":"/automationEditor.html","row":"5","tags":null}
+#. idx/3/attr/title
+msgctxt "tpp:/automationEditor.html:5"
+msgid "Save As (ctrl+shift+s)"
+msgstr "Lưu thành (ctrl+shift+s)"
+
+# {"path":"/automationEditor.html","row":"6","tags":null}
+#. idx/4/attr/title
+msgctxt "tpp:/automationEditor.html:6"
+msgid "Open debugger (F12)"
+msgstr "Mở công cụ gỡ lỗi (F12)"
+
+# {"path":"/automationEditor.html","row":"7","tags":null}
+#. idx/5/attr/title
+msgctxt "tpp:/automationEditor.html:7"
+msgid "Help"
+msgstr "Trợ giúp"
+
+# {"path":"/automationEditor.html","row":"8","tags":null}
+#. idx/6/attr/title
+msgctxt "tpp:/automationEditor.html:8"
+msgid "Select file in the current workspace"
+msgstr "Chọn tệp trong không gian làm việc hiện tại"
+
+# {"path":"/automationEditor.html","row":"9","tags":null}
+#. idx/7/attr/title
+msgctxt "tpp:/automationEditor.html:9"
+msgid "file path"
+msgstr "đường dẫn tệp"
+
+# {"path":"/automationEditor.html","row":"10","tags":null}
+#. idx/8/attr/title
+msgctxt "tpp:/automationEditor.html:10"
+msgid "Create shortcut of the current script"
+msgstr "Tạo lối tắt cho tập lệnh hiện tại"

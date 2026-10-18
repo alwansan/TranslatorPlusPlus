@@ -1,0 +1,14 @@
+{
+  "Logger": {
+    "constructor": {
+      "Logger": {
+        "signature": "new Logger()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new Logger()"
+      }
+    }
+  }
+}

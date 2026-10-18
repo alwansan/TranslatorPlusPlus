@@ -1,0 +1,77 @@
+{
+	"info" : {
+		"date":"2021-08-13T14:17:35.386Z"
+	},
+	"products" : {
+	   "rpgmakertrans":{
+		  "name":"RPGMaker Trans",
+		  "description":"RPGMaker Trans",
+		  "info":"Translator++ will help you to extract and apply translation into <b>RPG Maker XP, RPG Maker VX and VX Ace</b> through this application.",
+		  "url":"https://rpgmakertrans.bitbucket.io/",
+		  "location":"3rdParty/rpgmt_cli_v4.5",
+		  "expectedFiles":[
+			 "/rpgmt.exe"
+		  ],
+		  "licenseFile":"/LICENSE.txt",
+		  "repo":[
+			 "https://bitbucket.org/rpgmakertrans/rpgmakertrans/downloads/rpgmt_cli_v4.5.7z"
+		  ],
+		  "sourceCode":"https://bitbucket.org/rpgmakertrans/rpgmakertrans/src/default/"
+	   },
+	   "enigmavbunpacker":{
+		  "name":"Enigma VB Unpacker",
+		  "description":"Enigma VB Unpacker",
+		  "info":"This software will be used to extract <b>Enigma package</b> used by some RPG Maker MV games.",
+		  "url":"https://lifeinhex.com/",
+		  "ver": "0.61",
+		  "location":"3rdParty",
+		  "expectedFiles":[
+			 "/EnigmaVBUnpacker.exe"
+		  ],
+		  "repo":[
+			 "http://dreamsavior.net/mirror/3rdParty/EnigmaVBUnpacker.exe"
+		  ]
+	   },
+	   "mecab":{
+		  "name":"MeCab",
+		  "description":"MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou as part of his work on the Google Japanese Input project.",
+		  "info":"This software will be used to generate romanji text from any Japanese letters",
+		  "url":"https://github.com/taku910/mecab",
+		  "location":"3rdParty/MeCab",
+		  "expectedFiles":[
+			 "/bin/mecab.exe"
+		  ],
+		  "repo":[
+			 "http://dreamsavior.net/mirror/3rdParty/MeCab.7z"
+		  ]
+	   },
+	   "wrpge":{
+		  "name":"Wolf RPG Editor",
+		  "description":"A free WYSIWYG RPG Maker Software.",
+		  "info":"If you install this software, Translator++ can generate editable projects from WRPGE games.",
+		  "url":"https://widderune.wixsite.com/widderune/wolf-rpg-editor-english",
+		  "location":"3rdParty/WRPGE_2.24Z_EN",
+		  "expectedFiles":[
+			 "/Editor 2.24Z.exe"
+		  ],
+		  "repo":[
+			 "http://dreamsavior.net/mirror/3rdParty/WRPGE_2.24Z_EN.7z"
+		  ]
+	   },
+	   "xunity-rei":{
+		  "name":"XUnity AutoTranslator-ReiPatcher",
+		  "fileSize":"1.14 MB",
+		  "description":"This is a plugin that is capable of using various online translators to provide on-the-fly translations for various Unity-based games.",
+		  "info":"ReiPatcher and XUnity AutoTranslator in a bundle. Will be used by default when there is no existing injector on the game.",
+		  "url":"https://github.com/bbepis/XUnity.AutoTranslator",
+		  "location":"3rdParty/XUnity_AutoTranslator",
+		  "expectedFiles":[
+			 "/SetupReiPatcherAndAutoTranslator.exe"
+		  ],
+		  "extractDir":"XUnity_AutoTranslator",
+		  "repo":[
+			 "https://github.com/bbepis/XUnity.AutoTranslator/releases/download/v4.18.0/XUnity.AutoTranslator-ReiPatcher-4.18.0.zip"
+		  ]
+	   }
+	 }
+}

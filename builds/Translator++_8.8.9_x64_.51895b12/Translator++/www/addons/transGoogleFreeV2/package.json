@@ -1,0 +1,19 @@
+{
+    "name": "transGoogleFreeV2",
+	"title" : "Google Free V2",
+    "description": "Free and unlimited Google web translator with the latest API format. This translator is slower than the old Google Translate API. However, the Google Translate website no longer uses the old API, so we don't know when they disabled it. If possible, you can continue using the old Google Translate until it becomes unavailable.",
+    "main": "googleFreeV2.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "0.3",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"icon" : "icon.png",
+	"load": [
+		"googleFreeV2.js"
+	],
+	"minimumVersion" : "6.1.4"
+
+}

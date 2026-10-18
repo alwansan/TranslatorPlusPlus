@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "pattern": "*.vtt",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/(?:[^\\r\\n]*\\r?\\n)?\\d{2}:\\d{2}:\\d{2}\\.\\d{3} --> \\d{2}:\\d{2}:\\d{2}\\.\\d{3}(?:[^\\r\\n]*)?\\r?\\n(?:<v ([^>\\r\\n]+)>)?((?:(?!\\r?\\n\\r?\\n)[\\s\\S])*?)(?:<\\/v>)?(?=\\r?\\n\\r?\\n|$)/g",
+          "captureGroups": "2",
+          "captureRowInfo": "1",
+          "contextTemplate": "speaker/${GROUP[1]}"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "VTT Transcript Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing WebVTT transcript files.</p><p>Extracts spoken text content while preserving cue timing and optional speaker context during write-back.</p>"
+  },
+  "options": {
+    "testData": "WEBVTT\n\ncue-1\n00:00:09.978 --> 00:00:11.338\n<v Donovanti Putra Perdana>Hello, good morning.</v>\n\ncue-2\n00:00:48.018 --> 00:00:50.778\n<v Richard Bagnall>Friday was a little bit suspect,\nbut then after that I was good.</v>\n"
+  }
+}

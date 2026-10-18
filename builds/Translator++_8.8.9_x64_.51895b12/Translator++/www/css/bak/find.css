@@ -1,0 +1,586 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+body {
+	margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;	
+}
+
+
+
+.findWrapper {
+    box-sizing: border-box;
+}
+
+.findWrapper textarea {
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#fieldPutReplace {
+    height:54px;
+}
+
+#fieldPutFind {
+    height:54px;
+    width:calc(100% - 8px);
+}
+
+.fileSelector, .fileSelector  *, .fileSelector *::after, .fileSelector *::before,
+.findOptions, .findOptions *
+{
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+
+.findOptions a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.findOptions label {
+    line-height: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.findOptions .icon {
+    display: inline-block;
+    padding-top: 3px;
+}
+
+.fileSelector label:hover {
+    background:rgb(211, 211, 211);
+}
+
+#tabs {
+    border: 0px solid;
+    padding: 0px;
+}
+
+#tabs .ui-tabs-nav {
+	border:none
+	user-select: none;
+}
+
+#tabs .ui-tabs-nav > li a {
+    padding: .2em 1em;
+    font-size: .8em;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding: .5em;
+	font-size: .8em;
+}
+
+.findOptions {
+	display:flex;
+}
+
+/* fileSelector */
+
+#find .fileSelector {
+	border: 1px solid #c0c0c0;
+    height: calc(100vh - 90px);
+    overflow: auto;
+    background: #f2f2f2;	
+}
+
+#replace .fileSelector {
+
+	border: 1px solid #c0c0c0;
+    height: calc(100vh - 138px);
+    overflow: auto;
+    background: #f2f2f2;	
+	
+}
+
+#findPut .fileSelector {
+
+	border: 1px solid #c0c0c0;
+    height: calc(100vh - 138px);
+    overflow: auto;
+    background: #f2f2f2;	
+	
+}
+
+.fileSelector > label {
+    display: inline-block;
+    width: 25%;
+}
+
+.fileSelector > label > span {
+    display: inline-block;
+    width: calc(100% - 24px);
+    overflow: hidden;
+}
+
+.toggleFileSelector {
+	cursor:pointer;
+    display: inline-block;
+    line-height: 1.5em;
+    width: 2em;
+    text-align: center;
+    padding-top:2px;
+}
+.toggleFileSelector:hover {
+    color:#007fff;
+}
+
+.toggleFileSelector:before {
+	font-family: 'fontello';
+    content: '\e827';
+	margin-right: 4px;	
+}
+.toggleFileSelector.opened:before {
+	font-family: 'fontello';	
+    content: '\e828';
+	margin-right: 4px;	
+}
+
+/* searchResult */
+
+.searchResult {
+	border: 1px solid #c0c0c0;
+    height: calc(100vh - 90px);
+    overflow: auto;
+    background: #f2f2f2;
+}
+
+.searchResult .searchNote {
+	white-space:pre;
+	font-family:"Courier New", Courier, monospace
+}
+.searchResult .resultContext {
+    margin-bottom: .5em;
+}
+.searchResult .resultContext h2 {
+    font-size: 1.2em;
+    background: #333;
+    color: #e3e3e3;
+    font-weight: normal;
+    /* line-height: 1.5em; */
+    padding: .2em;
+    margin: .2em 0em 0em 0em;
+    position: sticky;
+    top: 34px;
+    z-index: 100;
+}
+
+.searchResultHeader {
+    line-height: 32px;
+    color: #fff;
+    background: #111;
+    position: sticky;
+    top: 0px;
+    z-index: 101;
+    border-bottom: 2px solid #fff;
+    padding: 0px 4px;
+    display: flex;
+}
+
+.searchResultHeader .searchResultData {
+	text-align:right;
+}
+
+.searchResultHeader .headerCheckbox{
+	margin-top: 10px;	
+    margin-left:0px;
+}
+
+.searchResult .resultContext ul {
+	margin: 0px;
+    padding: 0px;
+}
+
+.searchResult .resultContext .resultItem {
+    list-style: none;
+    margin: 0px;
+    padding: .2em .6em;
+    padding-left: 1.8em;	
+}	
+
+.searchResult .resultContext .resultItem h1 {
+    font-weight: normal;
+    font-size: 1em;
+    margin: .4em 0em;
+
+}
+
+.resultItem .findItemSelector {
+    position: absolute;
+    top: 3px;
+    left: 1px;
+}
+
+li.resultItem {
+    position: relative;
+}
+
+.searchResult .resultContext h2 .contextCount {
+	float: right;
+    font-size: .7em;
+    padding: 2px 4px;
+    border: 1px solid;
+    border-radius: 3px;
+    background: #fff;
+    color: #111;
+}
+
+.searchResult .resultContext h2 .contextCount:after {
+	content: "result";
+	margin-left: 4px;
+}
+.searchResult .resultContext .resultItem>div {
+    margin-bottom: .4em;
+}
+
+.searchResult .resultContext .resultItem {
+	cursor:pointer;
+}
+
+.searchResult .resultContext .resultItem:nth-child(odd) {
+	background:#ffffff;
+	
+}
+
+.searchResult .resultContext .resultItem:nth-child(even) {
+	background:#efefef;
+	
+}
+
+.searchResult .resultContext .resultItem:hover {
+	background:#545454;
+	color:#fff;
+}
+
+.searchResult .resultContext .resultItem .highlight {
+	/*background:#ffffab;*/
+    background: #007fff;
+    color: #fff;
+}
+
+.searchResult .resultContext .resultItem:hover .highlight {
+	background: #007fff;
+    color: #fff;
+}
+
+.searchResult .resultContext .resultItem.selected {
+    background:#dad8fb;
+}
+
+.searchResult .resultContext .resultItem .rowLabel:before {
+	font-family: 'fontello';
+    content: '\e830'; 
+	margin-right: 4px;
+
+}
+
+.searchResult .resultContext .resultItem .colLabel:before {
+	font-family: 'fontello';
+    content: '\e830';
+    transform: rotate(90deg);
+    display: inline-block;
+	margin-right: 4px;
+
+}
+
+.searchResult .resultContext .resultItem .rowLabel {
+	margin-right:24px
+}
+
+.searchResult .resultContext .resultItem .colLabel {
+	
+}
+
+
+.searchResult .resultItem .texts {
+    display: flex;
+}
+
+.searchResult .resultItem .texts h1 {
+    width: calc(50% - 1px);
+	white-space: pre;
+	overflow: hidden;
+    text-overflow: ellipsis;	
+}
+
+.searchResult .resultItem .texts h1.refference {
+    border-left: 1px solid;
+    padding-left: 4px;	
+}
+
+
+.replaceResult, .putResult {
+	border: 1px solid #c0c0c0;
+    height: calc(100vh - 138px);
+    overflow: auto;
+    background: #f2f2f2;
+}
+
+.replaceResult .searchNote {
+	white-space:pre;
+	font-family:"Courier New", Courier, monospace
+}
+.replaceResult .resultContext {
+    margin-bottom: .5em;
+}
+.replaceResult .resultContext h2 {
+    font-size: 1.2em;
+    background: #111;
+    color: #e3e3e3;
+    font-weight: normal;
+    /* line-height: 1.5em; */
+    padding: .2em;
+	margin: .2em 0em;
+	position: sticky;
+	top: 0;	
+	z-index: 100;
+}
+.replaceResult .resultContext ul {
+	margin: 0px;
+    padding: 0px;
+}
+
+.replaceResult .resultContext .resultItem {
+    list-style: none;
+    margin: 0px;
+    padding: .2em .6em;
+    padding-left: 1.8em;
+}
+	
+.replaceResult .resultContext .texts {
+	display: flex;
+    align-items: center;
+}
+
+.replaceResult .resultContext .resultItem h1 {
+    font-weight: normal;
+    font-size: 1em;
+    margin: .4em 0em;
+	white-space:pre;
+	width:calc(50% - 16px);
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.replaceResult .resultContext h2 .contextCount {
+	float: right;
+    font-size: .7em;
+    padding: 2px 4px;
+    border: 1px solid;
+    border-radius: 3px;
+    background: #fff;
+    color: #111;
+}
+
+.replaceResult .resultContext h2 .contextCount:after {
+	content: "result";
+	margin-left: 4px;
+}
+.replaceResult .resultContext .resultItem>div {
+    margin-bottom: .4em;
+}
+
+.replaceResult .resultContext .resultItem {
+	cursor:pointer;
+}
+
+.replaceResult .resultContext .resultItem:nth-child(odd) {
+	background:#ffffff;
+	
+}
+
+.replaceResult .resultContext .resultItem:nth-child(even) {
+	background:#efefef;
+	
+}
+
+.replaceResult .resultContext .resultItem:hover {
+	background:#545454;
+	color:#fff;
+}
+
+.replaceResult .resultContext .resultItem .highlight {
+	background:#ffffab;
+}
+
+.replaceResult .resultContext .resultItem:hover .highlight {
+	background:#b8a800;
+	color:#fff;
+}
+
+.replaceResult .resultContext .resultItem .highlight2 {
+	background:#ffc4ab;
+}
+
+.replaceResult .resultContext .resultItem:hover .highlight2 {
+	background:#b80000;
+	color:#fff;
+}
+
+.replaceResult .resultContext .resultItem .rowLabel:before {
+	font-family: 'fontello';
+    content: '\e830'; 
+	margin-right: 4px;
+
+}
+
+.replaceResult .resultContext .resultItem .colLabel:before {
+	font-family: 'fontello';
+    content: '\e830';
+    transform: rotate(90deg);
+    display: inline-block;
+	margin-right: 4px;
+
+}
+
+.replaceResult .resultContext .resultItem .rowLabel {
+	margin-right:24px
+}
+
+.replaceResult .resultContext .resultItem .colLabel {
+	
+}
+
+
+.replaceLabel {
+    margin-bottom: .4em;
+}
+
+.find {
+    width: 100%;
+    padding: .2em .5em;
+	margin-bottom:.4em;
+}
+
+#find .find {
+    width: calc(100% - 104px);   
+}
+.searchMode {
+    padding: 0em;
+    margin-bottom: .4em;
+    height: 22px;
+    width:100px;
+    max-width: 100px;
+    position: absolute;
+    right: 8px;
+    padding: .2em .5em;
+}
+
+.searchMode:hover {
+    height:initial;
+    z-index: 9999;
+    height: 88px;
+}
+
+.headerGroupCheckbox {
+    margin-left: 2px;
+}
+
+
+.application-buttonbar .icon-cancel:before {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;	
+}
+
+.application-buttonbar .icon-cancel {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	transition:background .2s ease-out;
+	
+}
+.application-buttonbar .icon-cancel:hover {
+    color:#fff;
+	background:red;
+	transition:background .2s ease-out;
+}
+
+
+.application-buttonbar .application-menu-button:before {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;	
+}
+
+.application-buttonbar .application-menu-button {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 32px;
+	transition:background .2s ease-out;
+	
+}
+
+.application-buttonbar .application-menu-button:hover {
+    color:#fff;
+	background:rgb(201, 201, 201);
+	transition:background .2s ease-out;
+}
+
+.application-buttonbar  {
+	width: 64px;
+    position: relative;	
+}
+
+.center {
+	text-align:center;
+}
+
+.hidden {
+	display:none;
+}
+
+.column2  {
+	display:flex;
+}
+.column2 > * {
+	width:50%;
+}
+.column3  {
+	display:flex;
+}
+.column3 > * {
+	width:33.3%;
+}
+
+.column4  {
+	display:flex;
+}
+.column4 > * {
+	width:25%;
+}
+
+/*
+label > span {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;	
+}
+*/

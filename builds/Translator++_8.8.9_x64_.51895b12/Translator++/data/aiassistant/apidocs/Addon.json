@@ -1,0 +1,125 @@
+{
+  "Addon": {
+    "constructor": {
+      "Addon": {
+        "signature": "new Addon(path, options)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "options",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new Addon(path, options)"
+      }
+    },
+    "methods": {
+      "getPathRelativeToRoot": {
+        "signature": "getPathRelativeToRoot() → string",
+        "description": "Get relative path of the addon",
+        "parameters": [],
+        "returns": {
+          "type": "string",
+          "description": "back slashes based add-on's path relative to Translator++ installation. No trailing slash."
+        },
+        "examples": [],
+        "usage": "getPathRelativeToRoot() : string"
+      },
+      "getRelativePath": {
+        "signature": "getRelativePath() → string",
+        "description": "Get relative path of the addon",
+        "parameters": [],
+        "returns": {
+          "type": "string",
+          "description": "forward slashes based add-on's path relative to Translator++ installation. No trailing slash."
+        },
+        "examples": [],
+        "usage": "getRelativePath() : string"
+      },
+      "globalizeNodeModules": {
+        "signature": "globalizeNodeModules()",
+        "description": "Register addon's node modules to the global scope global",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "globalizeNodeModules()"
+      },
+      "require": {
+        "signature": "require(moduleName)",
+        "description": "Load node modules that installed locally",
+        "parameters": [
+          {
+            "name": "moduleName",
+            "type": "string",
+            "description": "Name of the installed module",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "require(moduleName)"
+      },
+      "resolvePath": {
+        "signature": "resolvePath(path) → String",
+        "description": "Resolve the relative path from the root of a local path relative to addon\nTranslates the trailing slash to the root path of the addon",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Path to the addon"
+        },
+        "examples": [],
+        "usage": "resolvePath(path) : String"
+      },
+      ".isExternalScript": {
+        "signature": "(static) isExternalScript(pathName)",
+        "description": "Detect whether pathName contains \"ao://\"",
+        "parameters": [
+          {
+            "name": "pathName",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": ".isExternalScript(pathName)"
+      }
+    },
+    "events": {
+      "event:loaded": {
+        "signature": "loaded",
+        "description": "Addon is loaded and ready",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:loaded"
+      },
+      "event:onLoaded": {
+        "signature": "onLoaded",
+        "description": "Addon is loaded and ready",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:onLoaded"
+      }
+    }
+  }
+}

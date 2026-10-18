@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OmniSearch - Search utility</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link type="text/css" href="/www/modules/handsontable/handsontable.min.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="/www/css/fontello-embedded.css" rel="stylesheet" media="screen">
+
+    <style>
+        body, html { height: 100%; overflow: hidden; font-size: 14px; margin: 0; padding: 0; }
+        body.resizing { user-select: none; }
+        
+        /* --- LAYOUT --- */
+        #app-wrapper { display: flex; flex-direction: column; height: 100vh; }
+        #main-container { display: flex; flex: 1; min-height: 0; }
+        
+        /* Sidebar */
+        #sidebar { 
+            width: 280px; 
+            background: #f8f9fa; 
+            border-right: 1px solid #dee2e6; 
+            padding: 15px; 
+            display: flex; 
+            flex-direction: column; 
+            flex-shrink: 0; 
+            transition: transform 0.3s ease; 
+            position: relative; 
+        }
+        #sidebar.collapsed { 
+            transform: translateX(-100%);
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        
+        /* Sidebar Header with Toggle */
+        #sidebar-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 20px;
+        }
+        #sidebar-toggle { 
+            background: none; 
+            border: none; 
+            cursor: pointer; 
+            padding: 4px; 
+            color: #666;
+            font-size: 14px;
+            line-height: 1;
+        }
+        #sidebar-toggle:hover { 
+            color: #e67e22; 
+            background: #e0e0e0;
+            border-radius: 3px;
+        }
+        
+        /* Collapsed Activity Bar */
+        #activity-bar {
+            width: 48px;
+            background: #2c2c2c;
+            border-right: 1px solid #1e1e1e;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+            flex-shrink: 0;
+        }
+        #activity-bar.visible {
+            display: flex;
+        }
+        #activity-bar-toggle {
+            background: none;
+            border: none;
+            color: #ccc;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            padding-left: 6px;
+        }
+        #activity-bar-toggle:hover {
+            color: white;
+            background: #383838;
+        }
+        
+        #content-area { flex-grow: 1; display: flex; flex-direction: column; position: relative; min-width: 0; }
+
+        /* --- SEARCH PANE --- */
+        .search-group { margin-bottom: 15px; }
+        .search-group label { font-weight: bold; color: #e67e22; font-size: 12px; text-transform: uppercase; }
+        .btn-search { background-color: #e67e22; color: white; width: 100%; }
+        .btn-search:hover { background-color: #d35400; color: white; }
+
+        /* --- PANELS & RESIZERS --- */
+        #top-panel { flex-grow: 1; overflow: hidden; position: relative; min-height: 100px; }
+        
+        #resizer-horizontal { height: 6px; background: #ced4da; cursor: ns-resize; flex-shrink: 0; border-top: 1px solid #adb5bd; border-bottom: 1px solid #adb5bd; }
+        
+        #bottom-panel { height: 300px; display: flex; flex-direction: row; overflow: hidden; }
+        
+        /* Split Bottom Panel */
+        #bottom-left { width: 250px; border-right: 1px solid #ccc; display: flex; flex-direction: column; flex-shrink: 0; }
+        #resizer-vertical { width: 6px; background: #ced4da; cursor: ew-resize; flex-shrink: 0; border-left: 1px solid #adb5bd; border-right: 1px solid #adb5bd; }
+        #bottom-right { flex-grow: 1; display: flex; flex-direction: column; min-width: 0; }
+
+        /* --- GRIDS & EDITOR --- */
+        #file-grid, #line-grid { width: 100%; height: 100%; overflow: hidden; }
+        #editor { width: 100%; height: 100%; }
+        
+        /* Preview cell styling */
+        .preview-cell { 
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+        }
+               
+        /* --- HIGHLIGHTING --- */
+        /* The keyword highlight style in Ace */
+        .ace_marker-layer .keyword-highlight {
+            background-color: #e67e22;
+            color: white !important;
+            position: absolute;
+            z-index: 20;
+        }
+        .handsontable .htNoWrap {
+            white-space: nowrap;
+        }
+        .handsontable tr.selected-row td {
+            background: #e67e22;
+            color: #f1f1f1;
+        }
+
+        /* Status Bar */
+        #status-bar { 
+            padding: 4px 10px; 
+            background: #e9ecef; 
+            border-top: 1px solid #ccc; 
+            font-size: 11px; 
+            color: #333; 
+            flex-shrink: 0; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+        #status-text { 
+            flex: 1; 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        #progress-container { 
+            display: none;
+            width: 200px; 
+            flex-shrink: 0;
+        }
+        #progress-container.active { 
+            display: block;
+        }
+        #progress-bar-wrapper {
+            background: #d0d0d0;
+            border-radius: 3px;
+            height: 14px;
+            overflow: hidden;
+            position: relative;
+        }
+        #progress-bar {
+            background: linear-gradient(90deg, #e67e22, #d35400);
+            height: 100%;
+            width: 0%;
+            transition: width 0.2s ease;
+            border-radius: 3px;
+        }
+        #progress-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            line-height: 14px;
+            font-size: 10px;
+            color: #333;
+            font-weight: bold;
+            text-shadow: 0 0 2px rgba(255,255,255,0.8);
+        }
+        .panel-header { background: #eee; padding: 2px 5px; font-size: 11px; font-weight: bold; border-bottom: 1px solid #ddd; }
+    </style>
+    <script>
+        var $ = require('jquery');
+        window.jQuery = $;
+    </script>    
+</head>
+<body class="bs5">
+
+<div id="app-wrapper">
+<div id="main-container">
+    <!-- Collapsed Activity Bar -->
+    <div id="activity-bar">
+        <button id="activity-bar-toggle" onclick="toggleSidebar()" title="Open Search Panel">
+            <i class="icon-search-file"></i>
+        </button>
+    </div>
+    
+    <!-- SIDEBAR -->
+    <aside id="sidebar">
+        <div id="sidebar-header">
+            <h5 style="color: #e67e22; margin: 0;">OmniSearch</h5>
+            <button id="sidebar-toggle" onclick="toggleSidebar()" title="Close">
+                <i class="icon-close"></i>
+            </button>
+        </div>
+        
+        <form id="searchForm" onsubmit="return handleSearchSubmit(event);">
+        <div class="search-group">
+            <label>Search Path</label>
+            <div class="input-group input-group-sm">
+                <input type="text" id="searchPath" class="form-control" readonly placeholder="Folder...">
+                <input type="file" id="dirPicker" nwdirectory style="display:none;">
+                <button class="btn btn-outline-secondary" type="button" onclick="document.getElementById('dirPicker').click()">...</button>
+            </div>
+        </div>
+
+        <div class="search-group">
+            <label>File Types</label>
+            <input type="text" id="fileTypes" class="form-control form-control-sm" value="*.js, *.txt, *.html, *.css, *.json, *.tjs, *.ks, *.xml, *.csv, *.ini">
+        </div>
+
+        <div class="search-group">
+            <label>Search Text</label>
+            <input type="text" id="searchText" class="form-control form-control-sm">
+        </div>
+
+        <div class="search-group">
+            <button class="btn btn-search btn-sm" type="submit" id="btnSearch">Search</button>
+            <button class="btn btn-secondary btn-sm mt-1" type="button" onclick="cancelSearch()" id="btnCancel" disabled>Stop</button>
+        </div>
+        </form>
+
+        <hr>
+        <div class="search-group">
+            <label>Search Options</label>
+        </div>
+        <div class="form-check form-check-sm">
+            <input class="form-check-input" type="checkbox" id="optSubfolders" checked>
+            <label class="form-check-label" for="optSubfolders">Search Subfolders</label>
+        </div>
+        <div class="form-check form-check-sm">
+            <input class="form-check-input" type="checkbox" id="optCaseSensitive">
+            <label class="form-check-label" for="optCaseSensitive">Case Sensitive</label>
+        </div>
+        <div class="form-check form-check-sm">
+            <input class="form-check-input" type="checkbox" id="optWholeWord">
+            <label class="form-check-label" for="optWholeWord">Whole Word</label>
+        </div>
+        <div class="form-check form-check-sm">
+            <input class="form-check-input" type="checkbox" id="optRegex">
+            <label class="form-check-label" for="optRegex">Regular Expressions</label>
+        </div>
+
+    </aside>
+
+    <!-- RIGHT CONTENT -->
+    <main id="content-area">
+        
+        <!-- TOP: FILE GRID -->
+        <div id="top-panel">
+            <div id="file-grid"></div>
+        </div>
+
+        <!-- RESIZER -->
+        <div id="resizer-horizontal"></div>
+
+        <!-- BOTTOM: SPLIT VIEW -->
+        <div id="bottom-panel">
+            <!-- Left: Line Numbers -->
+            <div id="bottom-left">
+                <div class="panel-header">Matches</div>
+                <div id="line-grid"></div>
+            </div>
+            
+            <!-- Vertical Resizer -->
+            <div id="resizer-vertical"></div>
+            
+            <!-- Right: Editor -->
+            <div id="bottom-right">
+                <div class="panel-header">Preview: <span id="preview-filename" style="font-weight: normal">-</span></div>
+                <div id="editor"></div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div id="status-bar">
+    <div id="status-text">Ready</div>
+    <div id="progress-container">
+        <div id="progress-bar-wrapper">
+            <div id="progress-bar"></div>
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Replace All Modal -->
+<div class="modal fade" id="replaceAllModal" tabindex="-1" aria-labelledby="replaceModalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="replaceModalTitle">Replace all</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="replaceWithText" class="form-label">Replace with:</label>
+          <input type="text" class="form-control" id="replaceWithText" placeholder="Enter replacement text">
+        </div>
+        <div class="alert alert-warning" role="alert">
+          <small>This will replace all occurrences of the found text in all checked files. This action cannot be undone.</small>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" onclick="performReplaceAll()">Replace All</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LIBS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/www/modules/handsontable/handsontable.js"></script>
+<script type="text/javascript" src="/www/modules/ace/src-min-noconflict/ace.js" charset="utf-8"></script>
+<script src="js/omniSearch.js"></script>
+</body>
+</html>

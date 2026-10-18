@@ -1,0 +1,86 @@
+{
+  "CodeEscape": {
+    "constructor": {
+      "CodeEscape": {
+        "signature": "new CodeEscape()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new CodeEscape()"
+      }
+    },
+    "members": {
+      "originalTexts": {
+        "signature": "originalTexts :Array.<String>",
+        "description": "Original texts",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "originalTexts"
+      },
+      "sourceText": {
+        "signature": "sourceText :String",
+        "description": "The initial state of the text",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "sourceText"
+      },
+      "text": {
+        "signature": "text :String",
+        "description": "The current state of the text accross escaping steps",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "text"
+      },
+      "toTranslate": {
+        "signature": "toTranslate :String|Array.<String>|undefined",
+        "description": "A string or array of string ready to translate\nUndefined by default",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "toTranslate"
+      }
+    },
+    "methods": {
+      "afterTranslation": {
+        "signature": "afterTranslation(translations) → TranslationResult",
+        "description": "Restore back the string and send as result",
+        "parameters": [
+          {
+            "name": "translations",
+            "type": "String|Array.<String>",
+            "description": "The masked translation result",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "TranslationResult",
+          "description": "Translation result"
+        },
+        "examples": [],
+        "usage": "afterTranslation(translations) : TranslationResult"
+      },
+      "processMatchRule": {
+        "signature": "processMatchRule(string) → String",
+        "description": "Function to handle each of matched string",
+        "parameters": [
+          {
+            "name": "string",
+            "type": "String",
+            "description": "Matched string",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "String",
+          "description": "Replacement"
+        },
+        "examples": [],
+        "usage": "processMatchRule(string) : String"
+      }
+    }
+  }
+}

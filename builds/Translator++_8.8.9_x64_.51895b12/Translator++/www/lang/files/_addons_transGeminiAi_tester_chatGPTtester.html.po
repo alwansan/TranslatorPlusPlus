@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: chatGPTtester.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transGeminiAi/tester/chatGPTtester.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/addons/transGeminiAi/tester/chatGPTtester.html:0"
+msgid "<u>S</u>end"
+msgstr "<u>G</u>ửi"
+
+# {"path":"/addons/transGeminiAi/tester/chatGPTtester.html","row":"1","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/addons/transGeminiAi/tester/chatGPTtester.html:1"
+msgid "Toggle word wrap"
+msgstr "Bật/tắt xuống dòng"
+
+# {"path":"/addons/transGeminiAi/tester/chatGPTtester.html","row":"2","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/addons/transGeminiAi/tester/chatGPTtester.html:2"
+msgid "Open debugger (F12)"
+msgstr "Mở trình gỡ lỗi (F12)"
+
+# {"path":"/addons/transGeminiAi/tester/chatGPTtester.html","row":"3","tags":null}
+#. idx/2/attr/title
+msgctxt "tpp:/addons/transGeminiAi/tester/chatGPTtester.html:3"
+msgid "Help"
+msgstr "Trợ giúp"

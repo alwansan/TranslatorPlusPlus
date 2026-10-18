@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: modelEditor.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"0","tags":null}
+#. tid/156/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:0"
+msgid "Do you want to close Model editor?\rAll unsaved changes will be discarded."
+msgstr "Bạn có muốn đóng Trình chỉnh sửa Mô hình không?\rMọi thay đổi chưa lưu sẽ bị hủy."
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"1","tags":null}
+#. tid/5647/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:1"
+msgid "Translate here using "
+msgstr "Dịch ở đây bằng "
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"2","tags":null}
+#. tid/9760/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:2"
+msgid ""
+"Do you want to discard your changes and open\n"
+""
+msgstr ""
+"Bạn có muốn hủy thay đổi và mở\n"
+""
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"3","tags":null}
+#. tid/10037/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:3"
+msgid "Error when trying to open file :"
+msgstr "Lỗi khi cố gắng mở tệp:"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"4","tags":null}
+#. tid/10099/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:4"
+msgid "Parser Model Creator"
+msgstr "Trình Tạo Mô hình Phân tích"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"5","tags":null}
+#. tid/10622/type/StringLiteral
+#. tid/10941/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:5"
+msgid ""
+"Please specify what kind of file you want to parse.\n"
+"You can use semicolon separated glob pattens. For example: *.txt;*.js;*.json"
+msgstr ""
+"Vui lòng chỉ định loại tệp bạn muốn phân tích.\n"
+"Bạn có thể sử dụng các mẫu glob phân cách bằng dấu chấm phẩy. Ví dụ: *.txt;*.js;*.json"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"6","tags":null}
+#. tid/10665/type/StringLiteral
+#. tid/10987/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:6"
+msgid "Failed to create new file group. Please check your pattern!"
+msgstr "Không thể tạo nhóm tệp mới. Vui lòng kiểm tra mẫu của bạn!"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"7","tags":null}
+#. tid/11026/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:7"
+msgid ""
+"Do you wish to remove current file group?\n"
+"You can not undo this action!"
+msgstr ""
+"Bạn có muốn xóa nhóm tệp hiện tại không?\n"
+"Hành động này không thể hoàn tác!"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"8","tags":null}
+#. tid/11104/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:8"
+msgid "Do you want to discard your changes and create a new blank model?"
+msgstr "Bạn có muốn hủy các thay đổi và tạo một mô hình trống mới không?"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"9","tags":null}
+#. tid/11174/type/StringLiteral
+#. tid/12080/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:9"
+msgid "Do you want to discard your changes and open a file?"
+msgstr "Bạn có muốn hủy các thay đổi và mở một tệp không?"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"10","tags":null}
+#. tid/11459/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:10"
+msgid "Clear history"
+msgstr "Xóa lịch sử"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"11","tags":null}
+#. tid/11525/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:11"
+msgid "Open latest file"
+msgstr "Mở tệp mới nhất"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"12","tags":null}
+#. tid/11607/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:12"
+msgid "Open from history"
+msgstr "Mở từ lịch sử"
+
+# {"path":"/addons/customParser/modelEditor/modelEditor.js","row":"13","tags":null}
+#. tid/11750/type/StringLiteral
+msgctxt "tpp:/addons/customParser/modelEditor/modelEditor.js:13"
+msgid "This feature only available if you are using Developer version of Translator++. You can switch into Developer version by using Basic Utilities -> Change Core NWJS."
+msgstr "Tính năng này chỉ khả dụng nếu bạn đang sử dụng phiên bản Nhà phát triển của Translator++. Bạn có thể chuyển sang phiên bản Nhà phát triển bằng cách sử dụng Tiện ích Cơ bản -> Thay đổi Core NWJS."

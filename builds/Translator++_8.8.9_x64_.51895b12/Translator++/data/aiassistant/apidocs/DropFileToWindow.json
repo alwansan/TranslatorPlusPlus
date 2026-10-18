@@ -1,0 +1,39 @@
+{
+  "DropFileToWindow": {
+    "constructor": {
+      "DropFileToWindow": {
+        "signature": "new DropFileToWindow(elm)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "elm",
+            "type": "*",
+            "description": "HTML element",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new DropFileToWindow(elm)"
+      }
+    },
+    "methods": {
+      "addCss": {
+        "signature": "addCss()",
+        "description": "Generates styling for drop hover and leave",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "addCss()"
+      },
+      "preventDefault": {
+        "signature": "preventDefault()",
+        "description": "Prevents devault action to be triggered when dropping the file anywhere on the window\nThe default action when the files are dropped on a window is to open that file through browser",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "preventDefault()"
+      }
+    }
+  }
+}

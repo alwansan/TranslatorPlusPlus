@@ -1,0 +1,889 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: options.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/options.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/options.html:0"
+msgid "Click to login"
+msgstr "Nhấn để đăng nhập"
+
+# {"path":"/options.html","row":"1","tags":null}
+#. idx/1/innerText
+#. idx/25/innerText
+msgctxt "tpp:/options.html:1"
+msgid "Translator &amp; Language"
+msgstr "Trình dịch &amp; Ngôn ngữ"
+
+# {"path":"/options.html","row":"2","tags":null}
+#. idx/2/innerText
+#. idx/38/innerText
+msgctxt "tpp:/options.html:2"
+msgid "Proofreader"
+msgstr "Người hiệu đính"
+
+# {"path":"/options.html","row":"3","tags":null}
+#. idx/3/innerText
+msgctxt "tpp:/options.html:3"
+msgid "Assistant"
+msgstr "Trợ lý"
+
+# {"path":"/options.html","row":"4","tags":null}
+#. idx/4/innerText
+#. idx/49/innerText
+msgctxt "tpp:/options.html:4"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/options.html","row":"5","tags":null}
+#. idx/5/innerText
+#. idx/82/innerText
+msgctxt "tpp:/options.html:5"
+msgid "Preferences"
+msgstr "Tùy chọn"
+
+# {"path":"/options.html","row":"6","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/options.html:6"
+msgid "Add-ons"
+msgstr "Tiện ích bổ sung"
+
+# {"path":"/options.html","row":"7","tags":null}
+#. idx/7/innerText
+msgctxt "tpp:/options.html:7"
+msgid "About"
+msgstr "Về"
+
+# {"path":"/options.html","row":"8","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/options.html:8"
+msgid "User Information"
+msgstr "Thông tin người dùng"
+
+# {"path":"/options.html","row":"9","tags":null}
+#. idx/9/innerText
+msgctxt "tpp:/options.html:9"
+msgid "Login to your Patreon account to get access to the latest features and updates."
+msgstr "Đăng nhập vào tài khoản Patreon của bạn để truy cập các tính năng và cập nhật mới nhất."
+
+# {"path":"/options.html","row":"10","tags":null}
+#. idx/10/innerText
+msgctxt "tpp:/options.html:10"
+msgid "<i class=\"icon-login\"></i> Login"
+msgstr "<i class=\"icon-login\"></i> Đăng nhập"
+
+# {"path":"/options.html","row":"11","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/options.html:11"
+msgid "<i class=\"icon-login\"></i> Login with browser"
+msgstr "<i class=\"icon-login\"></i> Đăng nhập bằng trình duyệt"
+
+# {"path":"/options.html","row":"12","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/options.html:12"
+msgid "Welcome,"
+msgstr "Chào mừng,"
+
+# {"path":"/options.html","row":"13","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/options.html:13"
+msgid "Name"
+msgstr "Tên"
+
+# {"path":"/options.html","row":"14","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/options.html:14"
+msgid "Email"
+msgstr "Email"
+
+# {"path":"/options.html","row":"15","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/options.html:15"
+msgid "Level <div class=\"infoHeadNote\">(Current subscription in USD cents)</div>"
+msgstr "Cấp độ <div class=\"infoHeadNote\">(Đăng ký hiện tại tính bằng xu USD)</div>"
+
+# {"path":"/options.html","row":"16","tags":null}
+#. idx/16/innerText
+msgctxt "tpp:/options.html:16"
+msgid "Points <div class=\"infoHeadNote\">(Total lifetime subscription in USD cents)</div>"
+msgstr "Điểm <div class=\"infoHeadNote\">(Tổng đăng ký trọn đời tính bằng xu USD)</div>"
+
+# {"path":"/options.html","row":"17","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/options.html:17"
+msgid "Payment status <div class=\"infoHeadNote\">(Current payment status)</div>"
+msgstr "Trạng thái thanh toán <div class=\"infoHeadNote\">(Trạng thái thanh toán hiện tại)</div>"
+
+# {"path":"/options.html","row":"18","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/options.html:18"
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\t\t<h4 data-tran=\"\"><span class=\"blue\">Don't panic!</span></h4>\n"
+"\t\t\t\t\t\t\t\t\t<h5>And please read the following information.</h5>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">This flag indicates that Patreon has not yet successfully received the funds for your pledge. It's normal for the payment system to experience delays. Depending on your payment method and country of origin, delays can occur for up to 24 hours.</p>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">During this delay, you might see a debit from your credit card. Don’t worry—Patreon will retry at regular intervals to check if they have received your payment. This usually resolves itself within 24 hours.</p>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">If the issue persists beyond this period, please post in the <a href=\"https://discord.com/channels/870491016891883570/1122329902637650010\" external=\"\">account-problem</a> thread on the Translator++ server on Discord. I will assist you as much as possible.</p>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">Please understand that to prevent fraud, <b><span class=\"userInfoPoints\">points</span> and <span class=\"userInfoLevel\">Level</span> will not be counted until your payment has been successfully received by Patreon</b>.</p>\n"
+"\t\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\t\t\t<h4 data-tran=\"\"><span class=\"blue\">Đừng hoảng sợ!</span></h4>\n"
+"\t\t\t\t\t\t\t\t\t<h5>Và vui lòng đọc thông tin sau.</h5>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">Cờ này cho biết Patreon chưa nhận được tiền từ cam kết của bạn. Hệ thống thanh toán gặp trễ là điều bình thường. Tùy theo phương thức thanh toán và quốc gia, trễ có thể lên đến 24 giờ.</p>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">Trong thời gian trễ này, bạn có thể thấy ghi nợ từ thẻ tín dụng. Đừng lo—Patreon sẽ thử lại định kỳ để kiểm tra xem họ đã nhận thanh toán chưa. Điều này thường tự giải quyết trong vòng 24 giờ.</p>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">Nếu vấn đề kéo dài hơn, vui lòng đăng trong chủ đề <a href=\"https://discord.com/channels/870491016891883570/1122329902637650010\" external=\"\">account-problem</a> trên máy chủ Translator++ trên Discord. Tôi sẽ hỗ trợ bạn nhiều nhất có thể.</p>\n"
+"\t\t\t\t\t\t\t\t\t<p data-tran=\"\">Xin hiểu rằng để ngăn gian lận, <b><span class=\"userInfoPoints\">điểm</span> và <span class=\"userInfoLevel\">Cấp độ</span> sẽ không được tính cho đến khi Patreon nhận thanh toán thành công</b>.</p>\n"
+"\t\t\t\t\t\t\t\t"
+
+# {"path":"/options.html","row":"19","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/options.html:19"
+msgid "<span class=\"blue\">Don't panic!</span>"
+msgstr "<span class=\"blue\">Đừng hoảng sợ!</span>"
+
+# {"path":"/options.html","row":"20","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/options.html:20"
+msgid "This flag indicates that Patreon has not yet successfully received the funds for your pledge. It's normal for the payment system to experience delays. Depending on your payment method and country of origin, delays can occur for up to 24 hours."
+msgstr "Cờ này cho biết Patreon chưa nhận được tiền từ cam kết của bạn. Hệ thống thanh toán gặp trễ là điều bình thường. Tùy theo phương thức thanh toán và quốc gia, trễ có thể lên đến 24 giờ."
+
+# {"path":"/options.html","row":"21","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/options.html:21"
+msgid "During this delay, you might see a debit from your credit card. Don’t worry—Patreon will retry at regular intervals to check if they have received your payment. This usually resolves itself within 24 hours."
+msgstr "Trong thời gian trễ này, bạn có thể thấy ghi nợ từ thẻ tín dụng. Đừng lo—Patreon sẽ thử lại định kỳ để kiểm tra xem họ đã nhận thanh toán chưa. Điều này thường tự giải quyết trong vòng 24 giờ."
+
+# {"path":"/options.html","row":"22","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/options.html:22"
+msgid "If the issue persists beyond this period, please post in the <a href=\"https://discord.com/channels/870491016891883570/1122329902637650010\" external=\"\">account-problem</a> thread on the Translator++ server on Discord. I will assist you as much as possible."
+msgstr "Nếu vấn đề vẫn tiếp diễn sau khoảng thời gian này, vui lòng đăng trong <a href=\"https://discord.com/channels/870491016891883570/1122329902637650010\" external=\"\">luồng account-problem</a> trên máy chủ Translator++ trên Discord. Tôi sẽ hỗ trợ bạn nhiều nhất có thể."
+
+# {"path":"/options.html","row":"23","tags":null}
+#. idx/23/innerText
+msgctxt "tpp:/options.html:23"
+msgid "Please understand that to prevent fraud, <b><span class=\"userInfoPoints\">points</span> and <span class=\"userInfoLevel\">Level</span> will not be counted until your payment has been successfully received by Patreon</b>."
+msgstr "Vui lòng hiểu rằng để ngăn chặn gian lận, <b><span class=\"userInfoPoints\">điểm</span> và <span class=\"userInfoLevel\">Cấp độ</span> sẽ không được tính cho đến khi thanh toán của bạn được Patreon nhận thành công</b>."
+
+# {"path":"/options.html","row":"24","tags":null}
+#. idx/24/innerText
+msgctxt "tpp:/options.html:24"
+msgid "<i class=\"icon-logout\"></i> Logout"
+msgstr "<i class=\"icon-logout\"></i> Đăng xuất"
+
+# {"path":"/options.html","row":"25","tags":null}
+#. idx/26/innerText
+msgctxt "tpp:/options.html:25"
+msgid "Primary Translator"
+msgstr "Dịch giả Chính"
+
+# {"path":"/options.html","row":"26","tags":null}
+#. idx/27/innerText
+msgctxt "tpp:/options.html:26"
+msgid "Default Translator Engine"
+msgstr "Công cụ Dịch Mặc định"
+
+# {"path":"/options.html","row":"27","tags":null}
+#. idx/28/innerText
+msgctxt "tpp:/options.html:27"
+msgid ""
+"\n"
+"\t\t\t\t\tThis Translator Engine will be used when you press <span class=\"keyboardHint\">Ctrl+g</span> at the selected cell(s) to <strong>g</strong>enerate translation at selected cell.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tCông cụ Dịch này sẽ được sử dụng khi bạn nhấn <span class=\"keyboardHint\">Ctrl+g</span> tại ô đã chọn để <strong>g</strong>enerate dịch tại ô đã chọn.\n"
+"\t\t\t\t"
+
+# {"path":"/options.html","row":"28","tags":null}
+#. idx/29/innerText
+msgctxt "tpp:/options.html:28"
+msgid "Default Language"
+msgstr "Ngôn ngữ Mặc định"
+
+# {"path":"/options.html","row":"29","tags":null}
+#. idx/30/innerText
+msgctxt "tpp:/options.html:29"
+msgid ""
+"\n"
+"\t\t\t\tThe default language settings across projects!<br>\n"
+"\t\t\t\tThe settings in the project's properties will override this value.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tCài đặt ngôn ngữ mặc định trên tất cả dự án!<br>\n"
+"\t\t\t\tCài đặt trong thuộc tính dự án sẽ ghi đè giá trị này.\n"
+"\t\t\t"
+
+# {"path":"/options.html","row":"30","tags":null}
+#. idx/31/innerText
+msgctxt "tpp:/options.html:30"
+msgid "Default Source Language"
+msgstr "Ngôn ngữ Nguồn Mặc định"
+
+# {"path":"/options.html","row":"31","tags":null}
+#. idx/32/innerText
+msgctxt "tpp:/options.html:31"
+msgid "Default Target Language"
+msgstr "Ngôn ngữ Đích Mặc định"
+
+# {"path":"/options.html","row":"32","tags":null}
+#. idx/33/innerText
+msgctxt "tpp:/options.html:32"
+msgid "Custom escape"
+msgstr "Thoát tùy chỉnh"
+
+# {"path":"/options.html","row":"33","tags":null}
+#. idx/34/innerText
+msgctxt "tpp:/options.html:33"
+msgid "Patterns"
+msgstr "Mẫu"
+
+# {"path":"/options.html","row":"34","tags":null}
+#. idx/35/innerText
+msgctxt "tpp:/options.html:34"
+msgid ""
+"\n"
+"\t\t\t\t\t\tAll words that match the pattern below will not be translated by machine translators. \n"
+"\t\t\t\t\t\tThis section is suitable for hiding tags and scripts from translation engines. <br>\n"
+"\t\t\t\t\t\tEach entry is a valid javaScript's of regular expression, function, or literal string that separated by a <b>comma</b>.<br>\n"
+"\t\t\t\t\t\tCustom escape only worked for supported <a href=\"https://dreamsavior.net/docs/translator/code-escaping-algorithm/custom-pattern/\" class=\"externalLink\">escape algorithm</a>.\n"
+"\t\t\t\t\t\t<b>Hint:</b>You can also ask ChatGPT to generate you regular expression. <br>\n"
+"\t\t\t\t\t\tPlease write the regex pattern along with its modifier.<br>\n"
+"\t\t\t\t\t\tfor example :\n"
+"\t\t\t\t\t\t<code>/(\\\\[a-zA-Z0-9]+\\[.*\\])+/gi</code>\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tTất cả từ khớp với mẫu dưới đây sẽ không được dịch bởi công cụ dịch máy. \n"
+"\t\t\t\t\t\tPhần này phù hợp để ẩn thẻ và tập lệnh khỏi công cụ dịch. <br>\n"
+"\t\t\t\t\t\tMỗi mục nhập là một biểu thức chính quy javaScript hợp lệ, hàm, hoặc literal string được phân tách bằng <b>dấu phẩy</b>.<br>\n"
+"\t\t\t\t\t\tThoát tùy chỉnh chỉ hoạt động cho <a href=\"https://dreamsavior.net/docs/translator/code-escaping-algorithm/custom-pattern/\" class=\"externalLink\">thuật toán thoát được hỗ trợ</a>.\n"
+"\t\t\t\t\t\t<b>Gợi ý:</b>Bạn cũng có thể yêu cầu ChatGPT tạo biểu thức chính quy cho bạn. <br>\n"
+"\t\t\t\t\t\tVui lòng viết mẫu regex cùng với bộ sửa đổi của nó.<br>\n"
+"\t\t\t\t\t\tví dụ:\n"
+"\t\t\t\t\t\t<code>/(\\\\[a-zA-Z0-9]+\\[.*\\])+/gi</code>\n"
+"\t\t\t\t\t"
+
+# {"path":"/options.html","row":"35","tags":null}
+#. idx/36/innerText
+msgctxt "tpp:/options.html:35"
+msgid "Tester"
+msgstr "Trình kiểm tra"
+
+# {"path":"/options.html","row":"36","tags":null}
+#. idx/37/innerText
+msgctxt "tpp:/options.html:36"
+msgid ""
+"\n"
+"\t\t\t\t\t\tPaste your text here to check the pattern.\n"
+"\t\t\t\t\t\tAll matched pattern will be highlighted.\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tDán văn bản của bạn vào đây để kiểm tra mẫu.\n"
+"\t\t\t\t\t\tTất cả mẫu khớp sẽ được đánh dấu.\n"
+"\t\t\t\t\t"
+
+# {"path":"/options.html","row":"37","tags":null}
+#. idx/39/innerText
+msgctxt "tpp:/options.html:37"
+msgid ""
+"\n"
+"\t\t\t\t<h2>Under Construction</h2>\n"
+"\t\t\t\t<p>This area will be the place where automatic proofreader settings and options will be configured.</p>\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t<h2>Đang Xây dựng</h2>\n"
+"\t\t\t\t<p>Khu vực này sẽ là nơi cấu hình cài đặt và tùy chọn trình kiểm tra tự động.</p>\n"
+"\t\t\t"
+
+# {"path":"/options.html","row":"38","tags":null}
+#. idx/40/innerText
+msgctxt "tpp:/options.html:38"
+msgid "AI Assistant"
+msgstr "Trợ lý AI"
+
+# {"path":"/options.html","row":"39","tags":null}
+#. idx/41/innerText
+msgctxt "tpp:/options.html:39"
+msgid ""
+"\n"
+"\t\t\t\t\t<div style=\"display: inline-block; padding-top:2em; margin-left: -1.5em;\">\n"
+"\t\t\t\t\t\t<i class=\"icon-mira-ai-assistant\" style=\"font-size: 6em;\"></i>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div>\n"
+"\t\t\t\t\t\t<p><strong>Hi! I'm MIRAI, your AI assistant for Translator++.👋</strong></p>\n"
+"\t\t\t\t\t\t<p>Just click my icon <button type=\"button\" onclick=\"addonLoader.addons.basicUtils.openMiraiAssistant()\"><i class=\"icon-mira-ai-assistant\" style=\"font-size: 1.5em;\"></i></button> on your Home menu to chat with me. I can assist you with:</p>\n"
+"\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t<li>Translation improvements and suggestions</li>\n"
+"\t\t\t\t\t\t\t<li>Proofreading and quality checks</li>\n"
+"\t\t\t\t\t\t\t<li>Setting up your translation workflow</li>\n"
+"\t\t\t\t\t\t\t<li>Creating automation scripts</li>\n"
+"\t\t\t\t\t\t\t<li>And much more!</li>\n"
+"\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t<p>Let's make your translation work easier and more efficient together!</p>\n"
+"\t\t\t\t\t\t<br>\n"
+"\t\t\t\t\t\t<p><i>PS. I'm still new, So, please be patient with me.🙇‍♀️ But I'm learning and improving every day!😉</i></p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t<div style=\"display: inline-block; padding-top:2em; margin-left: -1.5em;\">\n"
+"\t\t\t\t\t\t<i class=\"icon-mira-ai-assistant\" style=\"font-size: 6em;\"></i>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div>\n"
+"\t\t\t\t\t\t<p><strong>Xin chào! Tôi là MIRAI, trợ lý AI của bạn cho Translator++.👋</strong></p>\n"
+"\t\t\t\t\t\t<p>Chỉ cần nhấp vào biểu tượng của tôi <button type=\"button\" onclick=\"addonLoader.addons.basicUtils.openMiraiAssistant()\"><i class=\"icon-mira-ai-assistant\" style=\"font-size: 1.5em;\"></i></button> trên menu Trang chủ để trò chuyện với tôi. Tôi có thể hỗ trợ bạn với:</p>\n"
+"\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t<li>Cải thiện và đề xuất dịch thuật</li>\n"
+"\t\t\t\t\t\t\t<li>Kiểm tra và đảm bảo chất lượng</li>\n"
+"\t\t\t\t\t\t\t<li>Thiết lập quy trình dịch của bạn</li>\n"
+"\t\t\t\t\t\t\t<li>Tạo tập lệnh tự động hóa</li>\n"
+"\t\t\t\t\t\t\t<li>Và nhiều hơn nữa!</li>\n"
+"\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t<p>Hãy cùng nhau làm cho công việc dịch thuật của bạn dễ dàng và hiệu quả hơn!</p>\n"
+"\t\t\t\t\t\t<br>\n"
+"\t\t\t\t\t\t<p><i>PS. Tôi vẫn còn mới, vì vậy, hãy kiên nhẫn với tôi.🙇‍♀️ Nhưng tôi đang học và cải thiện mỗi ngày!😉</i></p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t"
+
+# {"path":"/options.html","row":"40","tags":null}
+#. idx/42/innerText
+msgctxt "tpp:/options.html:40"
+msgid "AI Configuration"
+msgstr "Cấu hình AI"
+
+# {"path":"/options.html","row":"41","tags":null}
+#. idx/43/innerText
+msgctxt "tpp:/options.html:41"
+msgid "Model Endpoint"
+msgstr "Điểm cuối Mô hình"
+
+# {"path":"/options.html","row":"42","tags":null}
+#. idx/44/innerText
+msgctxt "tpp:/options.html:42"
+msgid "The API endpoint URL for your AI model. For example: https://api.openai.com/v1/chat/completions"
+msgstr "URL điểm cuối API cho mô hình AI của bạn. Ví dụ: https://api.openai.com/v1/chat/completions"
+
+# {"path":"/options.html","row":"43","tags":null}
+#. idx/45/innerText
+msgctxt "tpp:/options.html:43"
+msgid "API Key"
+msgstr "Khóa API"
+
+# {"path":"/options.html","row":"44","tags":null}
+#. idx/46/innerText
+msgctxt "tpp:/options.html:44"
+msgid "Your API key for authenticating with the AI service. This will be stored securely."
+msgstr "Khóa API của bạn để xác thực với dịch vụ AI. Thông tin này sẽ được lưu trữ an toàn."
+
+# {"path":"/options.html","row":"45","tags":null}
+#. idx/47/innerText
+msgctxt "tpp:/options.html:45"
+msgid "Model Name"
+msgstr "Tên Mô hình"
+
+# {"path":"/options.html","row":"46","tags":null}
+#. idx/48/innerText
+msgctxt "tpp:/options.html:46"
+msgid "Select or enter the AI model to use. Models with tool support are recommended for best results."
+msgstr "Chọn hoặc nhập mô hình AI để sử dụng. Các mô hình hỗ trợ công cụ được khuyến nghị để đạt kết quả tốt nhất."
+
+# {"path":"/options.html","row":"47","tags":null}
+#. idx/50/innerText
+msgctxt "tpp:/options.html:47"
+msgid "File Association"
+msgstr "Liên kết Tệp"
+
+# {"path":"/options.html","row":"48","tags":null}
+#. idx/51/innerText
+msgctxt "tpp:/options.html:48"
+msgid "Extension"
+msgstr "Phần mở rộng"
+
+# {"path":"/options.html","row":"49","tags":null}
+#. idx/52/innerText
+msgctxt "tpp:/options.html:49"
+msgid "Associate"
+msgstr "Liên kết"
+
+# {"path":"/options.html","row":"50","tags":null}
+#. idx/53/innerText
+msgctxt "tpp:/options.html:50"
+msgid "Set All"
+msgstr "Đặt Tất cả"
+
+# {"path":"/options.html","row":"51","tags":null}
+#. idx/54/innerText
+msgctxt "tpp:/options.html:51"
+msgid "Unset All"
+msgstr "Bỏ Đặt Tất cả"
+
+# {"path":"/options.html","row":"52","tags":null}
+#. idx/55/innerText
+msgctxt "tpp:/options.html:52"
+msgid "Apply"
+msgstr "Áp dụng"
+
+# {"path":"/options.html","row":"53","tags":null}
+#. idx/56/innerText
+msgctxt "tpp:/options.html:53"
+msgid "Update"
+msgstr "Cập nhật"
+
+# {"path":"/options.html","row":"54","tags":null}
+#. idx/57/innerText
+msgctxt "tpp:/options.html:54"
+msgid "Auto update"
+msgstr "Tự động cập nhật"
+
+# {"path":"/options.html","row":"55","tags":null}
+#. idx/58/innerText
+msgctxt "tpp:/options.html:55"
+msgid "Automatically update Translator++ if possible."
+msgstr "Tự động cập nhật Translator++ nếu có thể."
+
+# {"path":"/options.html","row":"56","tags":null}
+#. idx/59/innerText
+msgctxt "tpp:/options.html:56"
+msgid "Allow reinstall the same version"
+msgstr "Cho phép cài đặt lại cùng phiên bản"
+
+# {"path":"/options.html","row":"57","tags":null}
+#. idx/60/innerText
+msgctxt "tpp:/options.html:57"
+msgid "Allow Translator++ to reinstall the same version that has already been installed. Please keep this option disabled after you've installed the update, especially when your <b>Auto update</b> setting is on. Otherwise, your Translator++ will keep updating itself each time you open the program."
+msgstr "Cho phép Translator++ cài đặt lại cùng phiên bản đã được cài đặt. Vui lòng giữ tùy chọn này tắt sau khi bạn đã cài đặt bản cập nhật, đặc biệt khi cài đặt <b>Tự động cập nhật</b> của bạn đang bật. Nếu không, Translator++ sẽ tiếp tục tự cập nhật mỗi khi bạn mở chương trình."
+
+# {"path":"/options.html","row":"58","tags":null}
+#. idx/61/innerText
+msgctxt "tpp:/options.html:58"
+msgid "Use default browser to login"
+msgstr "Sử dụng trình duyệt mặc định để đăng nhập"
+
+# {"path":"/options.html","row":"59","tags":null}
+#. idx/62/innerText
+msgctxt "tpp:/options.html:59"
+msgid "Use your trusted system's default browser to login into your Patreon account. Unless this option is checked, Translator++'s embedded browser will be used."
+msgstr "Sử dụng trình duyệt mặc định đáng tin cậy của hệ thống để đăng nhập vào tài khoản Patreon của bạn. Trừ khi tùy chọn này được chọn, trình duyệt nhúng của Translator++ sẽ được sử dụng."
+
+# {"path":"/options.html","row":"60","tags":null}
+#. idx/63/innerText
+msgctxt "tpp:/options.html:60"
+msgid "Multi threading"
+msgstr "Đa luồng"
+
+# {"path":"/options.html","row":"61","tags":null}
+#. idx/64/innerText
+msgctxt "tpp:/options.html:61"
+msgid "Number of thread"
+msgstr "Số luồng"
+
+# {"path":"/options.html","row":"62","tags":null}
+#. idx/65/innerText
+msgctxt "tpp:/options.html:62"
+msgid ""
+"The number of child processes that are opened simultaneously.<br>\n"
+"\t\t\t\t\t\t\t0 = disable multi threading. All process will be done by renderer process.<br>\n"
+"\t\t\t\t\t\t\tThe optimum amount usually is the number of your physical core - 1.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"Số lượng tiến trình con được mở đồng thời.<br>\n"
+"\t\t\t\t\t\t\t0 = tắt đa luồng. Tất cả tiến trình sẽ được thực hiện bởi tiến trình renderer.<br>\n"
+"\t\t\t\t\t\t\tSố lượng tối ưu thường là số lõi vật lý của bạn - 1.\n"
+"\t\t\t\t\t\t"
+
+# {"path":"/options.html","row":"63","tags":null}
+#. idx/66/innerText
+msgctxt "tpp:/options.html:63"
+msgid "Backup"
+msgstr "Sao lưu"
+
+# {"path":"/options.html","row":"64","tags":null}
+#. idx/67/innerText
+msgctxt "tpp:/options.html:64"
+msgid "Enable backup"
+msgstr "Bật sao lưu"
+
+# {"path":"/options.html","row":"65","tags":null}
+#. idx/68/innerText
+msgctxt "tpp:/options.html:65"
+msgid "Automatically create backup every time you save your project."
+msgstr "Tự động tạo sao lưu mỗi khi bạn lưu dự án."
+
+# {"path":"/options.html","row":"66","tags":null}
+#. idx/69/innerText
+msgctxt "tpp:/options.html:66"
+msgid "Backup level history"
+msgstr "Lịch sử cấp độ sao lưu"
+
+# {"path":"/options.html","row":"67","tags":null}
+#. idx/70/innerText
+msgctxt "tpp:/options.html:67"
+msgid "How many history of backup do you want to keep?"
+msgstr "Bạn muốn giữ bao nhiêu lịch sử sao lưu?"
+
+# {"path":"/options.html","row":"68","tags":null}
+#. idx/71/innerText
+msgctxt "tpp:/options.html:68"
+msgid "Log &amp; Debugging"
+msgstr "Nhật ký &amp; Gỡ lỗi"
+
+# {"path":"/options.html","row":"69","tags":null}
+#. idx/72/innerText
+msgctxt "tpp:/options.html:69"
+msgid "Log to file"
+msgstr "Ghi nhật ký vào tệp"
+
+# {"path":"/options.html","row":"70","tags":null}
+#. idx/73/innerText
+msgctxt "tpp:/options.html:70"
+msgid "Log to file instead of the default console window.<br>This is useful if you want to debug Translator++ and you don't have access to the console window. Enabling this option will impact the performance slightly. So, you want this option to be off all the time, except when you're debugging or reporting problems.<br>Logs are saved in data/logs/ folder."
+msgstr "Ghi nhật ký vào tệp thay vì cửa sổ console mặc định.<br>Điều này hữu ích nếu bạn muốn gỡ lỗi Translator++ và không có quyền truy cập vào cửa sổ console. Bật tùy chọn này sẽ ảnh hưởng nhẹ đến hiệu suất. Vì vậy, bạn nên tắt tùy chọn này mọi lúc, trừ khi bạn đang gỡ lỗi hoặc báo cáo sự cố.<br>Nhật ký được lưu trong thư mục data/logs/."
+
+# {"path":"/options.html","row":"71","tags":null}
+#. idx/74/innerText
+msgctxt "tpp:/options.html:71"
+msgid "Truncate log file each session"
+msgstr "Cắt ngắn tệp nhật ký mỗi phiên"
+
+# {"path":"/options.html","row":"72","tags":null}
+#. idx/75/innerText
+msgctxt "tpp:/options.html:72"
+msgid "When checked your log file will be truncated each time you re open the application."
+msgstr "Khi được chọn, tệp nhật ký của bạn sẽ bị cắt ngắn mỗi khi bạn mở lại ứng dụng."
+
+# {"path":"/options.html","row":"73","tags":null}
+#. idx/76/innerText
+msgctxt "tpp:/options.html:73"
+msgid "Application Settings"
+msgstr "Cài đặt ứng dụng"
+
+# {"path":"/options.html","row":"74","tags":null}
+#. idx/77/innerText
+msgctxt "tpp:/options.html:74"
+msgid "Enable remote debugging"
+msgstr "Bật gỡ lỗi từ xa"
+
+# {"path":"/options.html","row":"75","tags":null}
+#. idx/78/innerText
+msgctxt "tpp:/options.html:75"
+msgid "Enables the Chrome DevTools remote debugging protocol on port 9222. This allows you to inspect and debug Translator++ using an external browser by navigating to <code>chrome://inspect</code>. This flag adds <code>--remote-debugging-port=9222</code> to the application startup arguments. A restart is required to apply changes."
+msgstr "Kích hoạt giao thức gỡ lỗi từ xa Chrome DevTools trên cổng 9222. Điều này cho phép bạn kiểm tra và gỡ lỗi Translator++ bằng trình duyệt bên ngoài bằng cách điều hướng đến <code>chrome://inspect</code>. Cờ này thêm <code>--remote-debugging-port=9222</code> vào các đối số khởi động ứng dụng. Cần khởi động lại để áp dụng thay đổi."
+
+# {"path":"/options.html","row":"76","tags":null}
+#. idx/79/innerText
+msgctxt "tpp:/options.html:76"
+msgid "Disable GPU"
+msgstr "Tắt GPU"
+
+# {"path":"/options.html","row":"77","tags":null}
+#. idx/80/innerText
+msgctxt "tpp:/options.html:77"
+msgid "Disables hardware GPU acceleration. This is useful if you experience visual glitches, crashes, or rendering issues on certain graphics hardware or drivers. This flag adds <code>--disable-gpu</code> to the application startup arguments. A restart is required to apply changes."
+msgstr "Tắt tăng tốc GPU phần cứng. Điều này hữu ích nếu bạn gặp lỗi hình ảnh, sự cố hoặc vấn đề kết xuất trên một số phần cứng hoặc trình điều khiển đồ họa. Cờ này thêm <code>--disable-gpu</code> vào các đối số khởi động ứng dụng. Cần khởi động lại để áp dụng thay đổi."
+
+# {"path":"/options.html","row":"78","tags":null}
+#. idx/81/innerText
+msgctxt "tpp:/options.html:78"
+msgid "Dangerous Area"
+msgstr "Khu vực nguy hiểm"
+
+# {"path":"/options.html","row":"79","tags":null}
+#. idx/83/innerText
+msgctxt "tpp:/options.html:79"
+msgid "Interface Language"
+msgstr "Ngôn ngữ giao diện"
+
+# {"path":"/options.html","row":"80","tags":null}
+#. idx/84/innerText
+msgctxt "tpp:/options.html:80"
+msgid "UI Language"
+msgstr "Ngôn ngữ UI"
+
+# {"path":"/options.html","row":"81","tags":null}
+#. idx/85/innerText
+msgctxt "tpp:/options.html:81"
+msgid "Set the language of the user interface. You can create your own localization if Translator++ is not available in your language. The language data are located inside www/lang folder."
+msgstr "Đặt ngôn ngữ cho giao diện người dùng. Bạn có thể tạo bản địa hóa riêng nếu Translator++ không có sẵn bằng ngôn ngữ của bạn. Dữ liệu ngôn ngữ nằm trong thư mục www/lang."
+
+# {"path":"/options.html","row":"82","tags":null}
+#. idx/86/innerText
+msgctxt "tpp:/options.html:82"
+msgid "Spell checker Language"
+msgstr "Ngôn ngữ kiểm tra chính tả"
+
+# {"path":"/options.html","row":"83","tags":null}
+#. idx/87/innerText
+msgctxt "tpp:/options.html:83"
+msgid "Set the default spell checker language."
+msgstr "Thiết lập ngôn ngữ kiểm tra chính tả mặc định."
+
+# {"path":"/options.html","row":"84","tags":null}
+#. idx/88/innerText
+msgctxt "tpp:/options.html:84"
+msgid "Environment Variables"
+msgstr "Biến môi trường"
+
+# {"path":"/options.html","row":"85","tags":null}
+#. idx/89/innerText
+msgctxt "tpp:/options.html:85"
+msgid "Staging Directory"
+msgstr "Thư mục Staging"
+
+# {"path":"/options.html","row":"86","tags":null}
+#. idx/90/innerText
+msgctxt "tpp:/options.html:86"
+msgid "Staging Directory is a hard cache of projects that are being worked on. A portion of the data from the raw materials are copied to this directory to be accessed the interpreter scripts."
+msgstr "Thư mục Staging là bộ nhớ cache cứng của các dự án đang được xử lý. Một phần dữ liệu từ nguyên liệu thô được sao chép vào thư mục này để các tập lệnh thông dịch truy cập."
+
+# {"path":"/options.html","row":"87","tags":null}
+#. idx/91/innerText
+msgctxt "tpp:/options.html:87"
+msgid "Project creation"
+msgstr "Tạo dự án"
+
+# {"path":"/options.html","row":"88","tags":null}
+#. idx/92/innerText
+msgctxt "tpp:/options.html:88"
+msgid "Auto Load Common Reference"
+msgstr "Tự động tải tham chiếu chung"
+
+# {"path":"/options.html","row":"89","tags":null}
+#. idx/93/innerText
+msgctxt "tpp:/options.html:89"
+msgid "Auto load common reference from .trans file."
+msgstr "Tự động tải tham chiếu chung từ tệp .trans."
+
+# {"path":"/options.html","row":"90","tags":null}
+#. idx/94/innerText
+msgctxt "tpp:/options.html:90"
+msgid "Project settings"
+msgstr "Cài đặt dự án"
+
+# {"path":"/options.html","row":"91","tags":null}
+#. idx/95/innerText
+msgctxt "tpp:/options.html:91"
+msgid "Progress Column Indices"
+msgstr "Chỉ số cột tiến độ"
+
+# {"path":"/options.html","row":"92","tags":null}
+#. idx/96/innerText
+msgctxt "tpp:/options.html:92"
+msgid ""
+"Here, you can specify which columns will be included in the project's progress calculation.\n"
+"\t\t\t\t\t\t\t<br>The column index is a zero-based integer, where the leftmost column is 0.\n"
+"\t\t\t\t\t\t\t<br>Use commas to specify multiple columns. For example: <code>2,3,4</code>.\n"
+"\t\t\t\t\t\t\t<br><b>Default: Blank</b>. If left blank, Translator++ will calculate progress from all available columns.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"Ở đây, bạn có thể chỉ định cột nào sẽ được bao gồm trong tính toán tiến độ của dự án.\n"
+"\t\t\t\t\t\t\t<br>Chỉ số cột là số nguyên bắt đầu từ 0, trong đó cột ngoài cùng bên trái là 0.\n"
+"\t\t\t\t\t\t\t<br>Sử dụng dấu phẩy để chỉ định nhiều cột. Ví dụ: <code>2,3,4</code>.\n"
+"\t\t\t\t\t\t\t<br><b>Mặc định: Trống</b>. Nếu để trống, Translator++ sẽ tính tiến độ từ tất cả các cột có sẵn.\n"
+"\t\t\t\t\t\t"
+
+# {"path":"/options.html","row":"93","tags":null}
+#. idx/97/innerText
+msgctxt "tpp:/options.html:93"
+msgid "<i class=\"selected icon-ok-circled\"></i>Enable/Disable"
+msgstr "<i class=\"selected icon-ok-circled\"></i>Bật/Tắt"
+
+# {"path":"/options.html","row":"94","tags":null}
+#. idx/98/innerText
+msgctxt "tpp:/options.html:94"
+msgid "<i class=\"icon-download-cloud-1\"></i>Install"
+msgstr "<i class=\"icon-download-cloud-1\"></i>Cài đặt"
+
+# {"path":"/options.html","row":"95","tags":null}
+#. idx/99/innerText
+msgctxt "tpp:/options.html:95"
+msgid "Install from a package"
+msgstr "Cài đặt từ gói"
+
+# {"path":"/options.html","row":"96","tags":null}
+#. idx/100/innerText
+msgctxt "tpp:/options.html:96"
+msgid "Visit our website &amp; documentation : "
+msgstr "Truy cập trang web &amp; tài liệu của chúng tôi : "
+
+# {"path":"/options.html","row":"97","tags":null}
+#. idx/101/innerText
+msgctxt "tpp:/options.html:97"
+msgid "Fork Translator++ at : "
+msgstr "Fork Translator++ tại : "
+
+# {"path":"/options.html","row":"98","tags":null}
+#. idx/102/innerText
+msgctxt "tpp:/options.html:98"
+msgid "Support Translator++ at : "
+msgstr "Hỗ trợ Translator++ tại : "
+
+# {"path":"/options.html","row":"99","tags":null}
+#. idx/103/innerText
+msgctxt "tpp:/options.html:99"
+msgid "Join our discord channel at : "
+msgstr "Tham gia kênh discord của chúng tôi tại : "
+
+# {"path":"/options.html","row":"100","tags":null}
+#. idx/104/innerText
+msgctxt "tpp:/options.html:100"
+msgid "*) If you're a patron, you should <a href=\"https://support.patreon.com/hc/en-us/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-\" target=\"_system\" external=\"\">link your discord account on your Patreon profile</a>. You will get invited automatically, and there are benefits waiting for you!"
+msgstr "*) Nếu bạn là patron, bạn nên <a href=\"https://support.patreon.com/hc/en-us/articles/212052266-How-do-I-connect-Discord-to-Patreon-Patron-\" target=\"_system\" external=\"\">liên kết tài khoản discord trên hồ sơ Patreon của bạn</a>. Bạn sẽ được mời tự động và có những lợi ích đang chờ bạn!"
+
+# {"path":"/options.html","row":"101","tags":null}
+#. idx/105/innerText
+msgctxt "tpp:/options.html:101"
+msgid "Version Info"
+msgstr "Thông tin phiên bản"
+
+# {"path":"/options.html","row":"102","tags":null}
+#. idx/106/innerText
+msgctxt "tpp:/options.html:102"
+msgid "Last checked at : "
+msgstr "Lần kiểm tra cuối lúc : "
+
+# {"path":"/options.html","row":"103","tags":null}
+#. idx/107/innerText
+msgctxt "tpp:/options.html:103"
+msgid "Check now!"
+msgstr "Kiểm tra ngay!"
+
+# {"path":"/options.html","row":"104","tags":null}
+#. idx/108/innerText
+msgctxt "tpp:/options.html:104"
+msgid "You have a pending update"
+msgstr "Bạn có một bản cập nhật đang chờ"
+
+# {"path":"/options.html","row":"105","tags":null}
+#. idx/109/innerText
+msgctxt "tpp:/options.html:105"
+msgid "Update now"
+msgstr "Cập nhật ngay"
+
+# {"path":"/options.html","row":"106","tags":null}
+#. idx/110/innerText
+msgctxt "tpp:/options.html:106"
+msgid "Your Translator++ is up to date 😃."
+msgstr "Translator++ của bạn đã được cập nhật 😃."
+
+# {"path":"/options.html","row":"107","tags":null}
+#. idx/111/innerText
+msgctxt "tpp:/options.html:107"
+msgid "Architecture"
+msgstr "Kiến trúc"
+
+# {"path":"/options.html","row":"108","tags":null}
+#. idx/112/innerText
+msgctxt "tpp:/options.html:108"
+msgid "License"
+msgstr "Giấy phép"
+
+# {"path":"/options.html","row":"109","tags":null}
+#. idx/113/innerText
+msgctxt "tpp:/options.html:109"
+msgid "Click here to read the license."
+msgstr "Nhấn vào đây để đọc giấy phép."
+
+# {"path":"/options.html","row":"110","tags":null}
+#. idx/114/innerText
+msgctxt "tpp:/options.html:110"
+msgid "Credits"
+msgstr "Công lao"
+
+# {"path":"/options.html","row":"111","tags":null}
+#. idx/115/innerText
+msgctxt "tpp:/options.html:111"
+msgid "Localization"
+msgstr "Bản địa hóa"
+
+# {"path":"/options.html","row":"112","tags":null}
+#. idx/116/innerText
+msgctxt "tpp:/options.html:112"
+msgid "About Third Party Software"
+msgstr "Về Phần Mềm Bên Thứ Ba"
+
+# {"path":"/options.html","row":"113","tags":null}
+#. idx/117/innerText
+msgctxt "tpp:/options.html:113"
+msgid ""
+"\n"
+"\t\t\t\tThis software is using third party softwares that located at /3rdParty. These third party softwares hold their own licenses and \n"
+"\t\t\t\tare included solely for convenience of use and \n"
+"\t\t\t\tprovided “as is” without warranty of any kind, either expressed or implied and such software is to be used at your own risk.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tPhần mềm này sử dụng các phần mềm bên thứ ba nằm tại /3rdParty. Các phần mềm bên thứ ba này có giấy phép riêng và \n"
+"\t\t\t\tđược bao gồm chỉ vì sự tiện lợi khi sử dụng và \n"
+"\t\t\t\tđược cung cấp “nguyên trạng” mà không có bất kỳ bảo hành nào, dù được nêu rõ hay ngụ ý và phần mềm đó được sử dụng với rủi ro của bạn.\n"
+"\t\t\t\t"
+
+# {"path":"/options.html","row":"114","tags":null}
+#. idx/118/innerText
+msgctxt "tpp:/options.html:114"
+msgid "Special Thanks"
+msgstr "Lời cảm ơn đặc biệt"
+
+# {"path":"/options.html","row":"115","tags":null}
+#. idx/119/innerText
+msgctxt "tpp:/options.html:115"
+msgid "Want to explicitly support Translator++ by putting your name on this section?"
+msgstr "Muốn hỗ trợ rõ ràng Translator++ bằng cách đặt tên của bạn vào phần này?"
+
+# {"path":"/options.html","row":"116","tags":null}
+#. idx/120/innerText
+msgctxt "tpp:/options.html:116"
+msgid "Click here to learn more about how to do that!"
+msgstr "Nhấn vào đây để tìm hiểu thêm về cách làm điều đó!"
+
+# {"path":"/options.html","row":"117","tags":null}
+#. idx/121/innerText
+msgctxt "tpp:/options.html:117"
+msgid "Changelog"
+msgstr "Nhật ký thay đổi"
+
+# {"path":"/options.html","row":"118","tags":null}
+#. idx/122/innerText
+msgctxt "tpp:/options.html:118"
+msgid "Feeds"
+msgstr "Nguồn cấp dữ liệu"
+
+# {"path":"/options.html","row":"119","tags":null}
+#. idx/123/innerText
+msgctxt "tpp:/options.html:119"
+msgid "Click connect button, to connect translator with Translator++ table"
+msgstr "Nhấn nút kết nối, để kết nối trình dịch với bảng Translator++"
+
+# {"path":"/options.html","row":"120","tags":null}
+#. idx/124/innerText
+msgctxt "tpp:/options.html:120"
+msgid "working"
+msgstr "đang hoạt động"
+
+# {"path":"/options.html","row":"121","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/options.html:121"
+msgid "Patreon level/Your current pledge this month in cent (1 USD = 100 lv)"
+msgstr "Cấp độ Patreon/Khoản đóng góp hiện tại của bạn trong tháng này bằng cent (1 USD = 100 lv)"
+
+# {"path":"/options.html","row":"122","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/options.html:122"
+msgid "Points/Your lifetime pledge+bonuses in cent (1 USD = 100 pts)"
+msgstr "Điểm/Đóng góp trọn đời của bạn + tiền thưởng tính bằng cent (1 USD = 100 điểm)"
+
+# {"path":"/options.html","row":"123","tags":null}
+#. idx/2/attr/placeholder
+#. idx/3/attr/placeholder
+msgctxt "tpp:/options.html:123"
+msgid "Filter..."
+msgstr "Lọc..."

@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tyranoTrans.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"0","tags":null}
+#. tid/74/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:0"
+msgid "Will force the text encoding into the one selected when writing the scripts. (blank = auto)<br />. You can use this field to convert the script into <b>UTF-16</b> so that the game will playable without changing your locale into Japanese."
+msgstr "Sẽ ép buộc mã hóa văn bản thành mã hóa được chọn khi viết kịch bản. (trống = tự động)<br />. Bạn có thể sử dụng trường này để chuyển đổi kịch bản thành <b>UTF-16</b> để trò chơi có thể chơi được mà không cần thay đổi ngôn ngữ hệ thống sang tiếng Nhật."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"1","tags":null}
+#. tid/249/type/StringLiteral
+#. tid/259/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:1"
+msgid "Use legacy parser"
+msgstr "Sử dụng trình phân tích cũ"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"2","tags":null}
+#. tid/269/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:2"
+msgid "Use legacy (old parser) instead of the new parser.<br />Legacy parser is faster, but unreliable on some game.<br />New parser is more reliable, but slower."
+msgstr "Sử dụng trình phân tích cũ thay vì trình phân tích mới.<br />Trình phân tích cũ nhanh hơn, nhưng không đáng tin cậy trên một số trò chơi.<br />Trình phân tích mới đáng tin cậy hơn, nhưng chậm hơn."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"3","tags":null}
+#. tid/4537/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:3"
+msgid "Select TyranoBuilder packaged game"
+msgstr "Chọn trò chơi đóng gói TyranoBuilder"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"4","tags":null}
+#. tid/4542/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:4"
+msgid "Select the exe file of your packaged game."
+msgstr "Chọn tệp exe của trò chơi đóng gói của bạn."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"5","tags":null}
+#. tid/4739/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:5"
+msgid "Target folder"
+msgstr "Thư mục đích"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"6","tags":null}
+#. tid/4744/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:6"
+msgid "Select destination folder. The process will replace the existing files."
+msgstr "Chọn thư mục đích. Quá trình sẽ thay thế các tệp hiện có."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"7","tags":null}
+#. tid/4877/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:7"
+msgid "Extraction completed"
+msgstr "Trích xuất hoàn tất"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"8","tags":null}
+#. tid/4970/type/StringLiteral
+#. tid/5392/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:8"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"9","tags":null}
+#. tid/5021/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:9"
+msgid "Next"
+msgstr "Tiếp theo"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"10","tags":null}
+#. tid/5053/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:10"
+msgid "Please select game executable file"
+msgstr "Vui lòng chọn tệp thực thi trò chơi"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"11","tags":null}
+#. tid/5103/type/StringLiteral
+#. tid/5199/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:11"
+msgid "Back"
+msgstr "Quay lại"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"12","tags":null}
+#. tid/5146/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:12"
+msgid "The game is fully loaded, proceed!"
+msgstr "Trò chơi đã tải đầy đủ, tiến hành!"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"13","tags":null}
+#. tid/5242/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:13"
+msgid "Extract data"
+msgstr "Trích xuất dữ liệu"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"14","tags":null}
+#. tid/5334/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:14"
+msgid "Open extracted folder"
+msgstr "Mở thư mục đã trích xuất"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"15","tags":null}
+#. tid/5476/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:15"
+msgid "Extract resources"
+msgstr "Trích xuất tài nguyên"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"16","tags":null}
+#. tid/5750/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:16"
+msgid "Select the game executable"
+msgstr "Chọn tệp thực thi trò chơi"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"17","tags":null}
+#. tid/5760/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:17"
+msgid "Select the game executable or asar file to extract"
+msgstr "Chọn tệp thực thi trò chơi hoặc tệp asar để trích xuất"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"18","tags":null}
+#. tid/5793/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:18"
+msgid "Target directory"
+msgstr "Thư mục đích"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"19","tags":null}
+#. tid/5803/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:19"
+msgid "Select the target directory to store the unpacked files"
+msgstr "Chọn thư mục đích để lưu các tệp đã giải nén"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"20","tags":null}
+#. tid/5992/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:20"
+msgid "Electron archive file detected. Do you want to extract the asar file instead?"
+msgstr "Phát hiện tệp lưu trữ Electron. Bạn có muốn trích xuất tệp asar thay thế không?"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"21","tags":null}
+#. tid/6081/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:21"
+msgid "Tyranobuilder Game Extractor"
+msgstr "Trình trích xuất trò chơi Tyranobuilder"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"22","tags":null}
+#. tid/9405/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:22"
+msgid "Before you create a new project, please make sure that :"
+msgstr "Trước khi tạo dự án mới, vui lòng đảm bảo rằng:"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"23","tags":null}
+#. tid/9410/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:23"
+msgid "<b>Kirikiri Adventure Game parser</b> add-on is installed in your Translator++"
+msgstr "Tiện ích bổ sung <b>Kirikiri Adventure Game parser</b> đã được cài đặt trong Translator++ của bạn"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"24","tags":null}
+#. tid/9415/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:24"
+msgid "Your game is fully extracted."
+msgstr "Trò chơi của bạn đã được trích xuất đầy đủ."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"25","tags":null}
+#. tid/9420/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:25"
+msgid "Extract TyranoBuilder package"
+msgstr "Trích xuất gói TyranoBuilder"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"26","tags":null}
+#. tid/9425/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:26"
+msgid "All .ks & .tjs files are in plain text (uncompiled, unscrambled, and unencrypted)"
+msgstr "Tất cả các tệp .ks & .tjs đều ở dạng văn bản thuần (không biên dịch, không xáo trộn và không mã hóa)"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"27","tags":null}
+#. tid/9430/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:27"
+msgid "Some of the actions will modify your game. <b>So make sure to create a backup of your game!</b>"
+msgstr "Một số hành động sẽ sửa đổi trò chơi của bạn. <b>Vì vậy hãy đảm bảo tạo bản sao lưu cho trò chơi của bạn!</b>"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"28","tags":null}
+#. tid/9636/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:28"
+msgid "Select the game executable file. This file is the main game file that will be used to extract the game data."
+msgstr "Chọn tệp thực thi trò chơi. Tệp này là tệp trò chơi chính sẽ được sử dụng để trích xuất dữ liệu trò chơi."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"29","tags":null}
+#. tid/9645/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:29"
+msgid "In Tyrano games it is usually <b>index.html</b> or <b>exe</b> file."
+msgstr "Trong các trò chơi Tyrano, nó thường là tệp <b>index.html</b> hoặc <b>exe</b>."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"30","tags":null}
+#. tid/9685/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:30"
+msgid "List of the possible character encodings. <b>Order does matter!</b>. You can drag to sort the list."
+msgstr "Danh sách các bảng mã ký tự có thể. <b>Thứ tự rất quan trọng!</b>. Bạn có thể kéo để sắp xếp danh sách."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"31","tags":null}
+#. tid/9694/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:31"
+msgid "Game created with TyranoBuilder is in <b>UTF-8</b> encoding"
+msgstr "Game tạo bằng TyranoBuilder sử dụng bảng mã <b>UTF-8</b>"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"32","tags":null}
+#. tid/9738/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:32"
+msgid "Literal tags are the tags that will be escaped into Translator++ editor."
+msgstr "Thẻ ký tự là các thẻ sẽ được thoát vào trình soạn thảo Translator++."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"33","tags":null}
+#. tid/9747/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:33"
+msgid "<b>ruby l r</b> are mandatory."
+msgstr "<b>ruby l r</b> là bắt buộc."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"34","tags":null}
+#. tid/9756/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:34"
+msgid "<b>[r]</b> Tags will be interpolated by Translator++ into a new line. So you don't need to write <b>[r]</b> explicitly."
+msgstr "<b>[r]</b> Các thẻ sẽ được Translator++ chèn thành một dòng mới. Vì vậy, bạn không cần viết <b>[r]</b> một cách rõ ràng."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"35","tags":null}
+#. tid/10111/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:35"
+msgid "Kirikiri script (.ks) is heavily customizable and allows developers to create their own tags."
+msgstr "Kịch bản Kirikiri (.ks) có thể tùy chỉnh cao và cho phép nhà phát triển tạo thẻ riêng."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"36","tags":null}
+#. tid/10118/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:36"
+msgid "Translator++ can handle standard tags such as character names that start with a sharp (#)."
+msgstr "Translator++ có thể xử lý các thẻ tiêu chuẩn như tên nhân vật bắt đầu bằng dấu thăng (#)."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"37","tags":null}
+#. tid/10125/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:37"
+msgid "However, Translator++ may not be able to handle custom tags created by developers."
+msgstr "Tuy nhiên, Translator++ có thể không xử lý được các thẻ tùy chỉnh do nhà phát triển tạo."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"38","tags":null}
+#. tid/10132/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:38"
+msgid "Therefore, you may need to define the tags and attributes that need to be translated and those that need to be marked as actor names."
+msgstr "Do đó, bạn có thể cần xác định các thẻ và thuộc tính cần dịch và những thứ cần đánh dấu là tên diễn viên."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"39","tags":null}
+#. tid/10139/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:39"
+msgid "<p>Please visit the <a href=\"https://tyranobuilder.com/tag/\" external target=\"_blank\">TyranoBuilder tag reference</a> for more information about the tags.</p>"
+msgstr "<p>Vui lòng truy cập <a href=\"https://tyranobuilder.com/tag/\" external target=\"_blank\">tài liệu tham khảo thẻ TyranoBuilder</a> để biết thêm thông tin về các thẻ.</p>"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"40","tags":null}
+#. tid/10146/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:40"
+msgid "You might need to <input type=\"button\" value=\"extract your game\" onclick=\"addonLoader.addons.tyranoTrans.TyranoUtil.showExtractDialog()\" /> and analyze the <b>ks</b> script inside it before starting the project."
+msgstr "Bạn có thể cần <input type=\"button\" value=\"trích xuất game của bạn\" onclick=\"addonLoader.addons.tyranoTrans.TyranoUtil.showExtractDialog()\" /> và phân tích kịch bản <b>ks</b> bên trong trước khi bắt đầu dự án."
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"41","tags":null}
+#. tid/10449/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:41"
+msgid "Create Project"
+msgstr "Tạo Dự án"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"42","tags":null}
+#. tid/12059/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:42"
+msgid "Play last build"
+msgstr "Chơi bản dựng cuối"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"43","tags":null}
+#. tid/12121/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:43"
+msgid "Extract TyranoBuilder"
+msgstr "Trích xuất TyranoBuilder"
+
+# {"path":"/addons/tyranoTrans/tyranoTrans.js","row":"44","tags":null}
+#. tid/12176/type/StringLiteral
+msgctxt "tpp:/addons/tyranoTrans/tyranoTrans.js:44"
+msgid "Create playable package"
+msgstr "Tạo gói có thể chơi"

@@ -1,0 +1,1026 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ui.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/ui.js","row":"0","tags":null}
+#. tid/154/type/TemplateHead
+msgctxt "tpp:/js/ui.js:0"
+msgid "`You cannot close the application at this moment, reason: \\n${"
+msgstr "`Bạn không thể đóng ứng dụng vào lúc này, lý do: \\n${"
+
+# {"path":"/js/ui.js","row":"1","tags":null}
+#. tid/158/type/TemplateTail
+msgctxt "tpp:/js/ui.js:1"
+msgid "}`"
+msgstr "}`"
+
+# {"path":"/js/ui.js","row":"2","tags":null}
+#. tid/202/type/StringLiteral
+msgctxt "tpp:/js/ui.js:2"
+msgid ""
+"Do you really want to exit Translator++?\n"
+"All unsaved changes will be discarded!"
+msgstr ""
+"Bạn có thực sự muốn thoát Translator++?\n"
+"Tất cả thay đổi chưa lưu sẽ bị hủy!"
+
+# {"path":"/js/ui.js","row":"3","tags":null}
+#. tid/1201/type/StringLiteral
+msgctxt "tpp:/js/ui.js:3"
+msgid "Trans file"
+msgstr "Tệp dịch"
+
+# {"path":"/js/ui.js","row":"4","tags":null}
+#. tid/1261/type/StringLiteral
+msgctxt "tpp:/js/ui.js:4"
+msgid "Translator++ Project Package (TPP) file"
+msgstr "Tệp Gói Dự án Translator++ (TPP)"
+
+# {"path":"/js/ui.js","row":"5","tags":null}
+#. tid/4827/type/StringLiteral
+msgctxt "tpp:/js/ui.js:5"
+msgid "Select all"
+msgstr "Chọn tất cả"
+
+# {"path":"/js/ui.js","row":"6","tags":null}
+#. tid/4834/type/StringLiteral
+msgctxt "tpp:/js/ui.js:6"
+msgid "Select none"
+msgstr "Bỏ chọn tất cả"
+
+# {"path":"/js/ui.js","row":"7","tags":null}
+#. tid/4841/type/StringLiteral
+msgctxt "tpp:/js/ui.js:7"
+msgid "Invert"
+msgstr "Đảo ngược"
+
+# {"path":"/js/ui.js","row":"8","tags":null}
+#. tid/4848/type/StringLiteral
+msgctxt "tpp:/js/ui.js:8"
+msgid "Match destination selection"
+msgstr "Khớp với lựa chọn đích"
+
+# {"path":"/js/ui.js","row":"9","tags":null}
+#. tid/4855/type/StringLiteral
+msgctxt "tpp:/js/ui.js:9"
+msgid "use mouse drag to do bulk selection"
+msgstr "dùng chuột kéo để chọn hàng loạt"
+
+# {"path":"/js/ui.js","row":"10","tags":null}
+#. tid/8249/type/StringLiteral
+msgctxt "tpp:/js/ui.js:10"
+msgid "Invalid trans data"
+msgstr "Dữ liệu dịch không hợp lệ"
+
+# {"path":"/js/ui.js","row":"11","tags":null}
+#. tid/8829/type/StringLiteral
+msgctxt "tpp:/js/ui.js:11"
+msgid "Inject / Apply translation"
+msgstr "Chèn / Áp dụng bản dịch"
+
+# {"path":"/js/ui.js","row":"12","tags":null}
+#. tid/8861/type/StringLiteral
+msgctxt "tpp:/js/ui.js:12"
+msgid "Inject / Apply translation to all"
+msgstr "Chèn / Áp dụng bản dịch cho tất cả"
+
+# {"path":"/js/ui.js","row":"13","tags":null}
+#. tid/9513/type/StringLiteral
+#. tid/10983/type/StringLiteral
+#. tid/11779/type/StringLiteral
+#. tid/12739/type/StringLiteral
+#. tid/13697/type/StringLiteral
+#. tid/17723/type/StringLiteral
+#. tid/20089/type/StringLiteral
+#. tid/21021/type/StringLiteral
+#. tid/23071/type/StringLiteral
+#. tid/23751/type/StringLiteral
+#. tid/36680/type/StringLiteral
+#. tid/38040/type/StringLiteral
+#. tid/38571/type/StringLiteral
+#. tid/43926/type/StringLiteral
+#. tid/44634/type/StringLiteral
+#. tid/59585/type/StringLiteral
+#. tid/60083/type/StringLiteral
+#. tid/60416/type/StringLiteral
+msgctxt "tpp:/js/ui.js:13"
+msgid "Cancel"
+msgstr "Hủy"
+
+# {"path":"/js/ui.js","row":"14","tags":null}
+#. tid/9564/type/StringLiteral
+msgctxt "tpp:/js/ui.js:14"
+msgid "Apply Translation"
+msgstr "Áp dụng Bản dịch"
+
+# {"path":"/js/ui.js","row":"15","tags":null}
+#. tid/9784/type/StringLiteral
+msgctxt "tpp:/js/ui.js:15"
+msgid ""
+"Target path cannot be a parent or child of the source material's path.\n"
+"Please select another path."
+msgstr ""
+"Đường dẫn đích không thể là cha hoặc con của đường dẫn tài liệu nguồn.\n"
+"Vui lòng chọn đường dẫn khác."
+
+# {"path":"/js/ui.js","row":"16","tags":null}
+#. tid/10939/type/StringLiteral
+msgctxt "tpp:/js/ui.js:16"
+msgid "Help"
+msgstr "Trợ giúp"
+
+# {"path":"/js/ui.js","row":"17","tags":null}
+#. tid/11030/type/StringLiteral
+#. tid/11826/type/StringLiteral
+msgctxt "tpp:/js/ui.js:17"
+msgid "Import"
+msgstr "Nhập"
+
+# {"path":"/js/ui.js","row":"18","tags":null}
+#. tid/12499/type/NoSubstitutionTemplate
+#. tid/12580/type/StringLiteral
+msgctxt "tpp:/js/ui.js:18"
+msgid "Revert to origin data"
+msgstr "Khôi phục về dữ liệu gốc"
+
+# {"path":"/js/ui.js","row":"19","tags":null}
+#. tid/12504/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/ui.js:19"
+msgid "Select target directory."
+msgstr "Chọn thư mục đích."
+
+# {"path":"/js/ui.js","row":"20","tags":null}
+#. tid/12509/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/ui.js:20"
+msgid "The existing files will be overwritten!"
+msgstr "Các tệp hiện có sẽ bị ghi đè!"
+
+# {"path":"/js/ui.js","row":"21","tags":null}
+#. tid/12802/type/StringLiteral
+msgctxt "tpp:/js/ui.js:21"
+msgid "Process"
+msgstr "Xử lý"
+
+# {"path":"/js/ui.js","row":"22","tags":null}
+#. tid/12862/type/StringLiteral
+#. tid/36791/type/StringLiteral
+msgctxt "tpp:/js/ui.js:22"
+msgid "Path to the directory can not be empty!"
+msgstr "Đường dẫn đến thư mục không thể để trống!"
+
+# {"path":"/js/ui.js","row":"23","tags":null}
+#. tid/12891/type/StringLiteral
+#. tid/36820/type/StringLiteral
+msgctxt "tpp:/js/ui.js:23"
+msgid "Invalid directory:"
+msgstr "Thư mục không hợp lệ:"
+
+# {"path":"/js/ui.js","row":"24","tags":null}
+#. tid/13200/type/StringLiteral
+msgctxt "tpp:/js/ui.js:24"
+msgid "Rebuild translation table from this cache"
+msgstr "Xây dựng lại bảng dịch từ bộ nhớ cache này"
+
+# {"path":"/js/ui.js","row":"25","tags":null}
+#. tid/13613/type/StringLiteral
+msgctxt "tpp:/js/ui.js:25"
+msgid "Create new project"
+msgstr "Tạo dự án mới"
+
+# {"path":"/js/ui.js","row":"26","tags":null}
+#. tid/17536/type/StringLiteral
+msgctxt "tpp:/js/ui.js:26"
+msgid "-nothing-"
+msgstr "-không có gì-"
+
+# {"path":"/js/ui.js","row":"27","tags":null}
+#. tid/17773/type/StringLiteral
+#. tid/23801/type/StringLiteral
+#. tid/38091/type/StringLiteral
+#. tid/38622/type/StringLiteral
+#. tid/40249/type/StringLiteral
+#. tid/43977/type/StringLiteral
+msgctxt "tpp:/js/ui.js:27"
+msgid "Ok"
+msgstr "Đồng ý"
+
+# {"path":"/js/ui.js","row":"28","tags":null}
+#. tid/17841/type/StringLiteral
+msgctxt "tpp:/js/ui.js:28"
+msgid "No action selected, are you sure?"
+msgstr "Không có hành động nào được chọn, bạn có chắc chắn không?"
+
+# {"path":"/js/ui.js","row":"29","tags":null}
+#. tid/17951/type/StringLiteral
+msgctxt "tpp:/js/ui.js:29"
+msgid "No context's keyword specified!"
+msgstr "Không có từ khóa ngữ cảnh được chỉ định!"
+
+# {"path":"/js/ui.js","row":"30","tags":null}
+#. tid/17990/type/StringLiteral
+msgctxt "tpp:/js/ui.js:30"
+msgid ""
+"Remove context containing keyword :\n"
+""
+msgstr ""
+"Xóa ngữ cảnh chứa từ khóa:\n"
+""
+
+# {"path":"/js/ui.js","row":"31","tags":null}
+#. tid/18002/type/StringLiteral
+#. tid/18107/type/StringLiteral
+msgctxt "tpp:/js/ui.js:31"
+msgid ""
+"\n"
+"from selected files?"
+msgstr ""
+"\n"
+"khỏi các tệp đã chọn?"
+
+# {"path":"/js/ui.js","row":"32","tags":null}
+#. tid/18095/type/StringLiteral
+msgctxt "tpp:/js/ui.js:32"
+msgid ""
+"Remove every rows except rows that has a context containing keyword :\n"
+""
+msgstr ""
+"Xóa mọi hàng ngoại trừ các hàng có ngữ cảnh chứa từ khóa:\n"
+""
+
+# {"path":"/js/ui.js","row":"33","tags":null}
+#. tid/18369/type/StringLiteral
+msgctxt "tpp:/js/ui.js:33"
+msgid "items"
+msgstr "mục"
+
+# {"path":"/js/ui.js","row":"34","tags":null}
+#. tid/18412/type/StringLiteral
+msgctxt "tpp:/js/ui.js:34"
+msgid "Select Context"
+msgstr "Chọn Ngữ cảnh"
+
+# {"path":"/js/ui.js","row":"35","tags":null}
+#. tid/18461/type/StringLiteral
+msgctxt "tpp:/js/ui.js:35"
+msgid "Manual Query"
+msgstr "Truy vấn Thủ công"
+
+# {"path":"/js/ui.js","row":"36","tags":null}
+#. tid/18487/type/StringLiteral
+msgctxt "tpp:/js/ui.js:36"
+msgid "Tag filter"
+msgstr "Bộ lọc Thẻ"
+
+# {"path":"/js/ui.js","row":"37","tags":null}
+#. tid/18537/type/StringLiteral
+msgctxt "tpp:/js/ui.js:37"
+msgid "Merging option"
+msgstr "Tùy chọn Hợp nhất"
+
+# {"path":"/js/ui.js","row":"38","tags":null}
+#. tid/18585/type/StringLiteral
+msgctxt "tpp:/js/ui.js:38"
+msgid "Source Column"
+msgstr "Cột Nguồn"
+
+# {"path":"/js/ui.js","row":"39","tags":null}
+#. tid/18618/type/StringLiteral
+msgctxt "tpp:/js/ui.js:39"
+msgid "Target Column"
+msgstr "Cột Mục tiêu"
+
+# {"path":"/js/ui.js","row":"40","tags":null}
+#. tid/18651/type/StringLiteral
+#. tid/21534/type/StringLiteral
+msgctxt "tpp:/js/ui.js:40"
+msgid "Maximum length"
+msgstr "Độ dài tối đa"
+
+# {"path":"/js/ui.js","row":"41","tags":null}
+#. tid/18697/type/StringLiteral
+msgctxt "tpp:/js/ui.js:41"
+msgid "Query"
+msgstr "Truy vấn"
+
+# {"path":"/js/ui.js","row":"42","tags":null}
+#. tid/18723/type/StringLiteral
+msgctxt "tpp:/js/ui.js:42"
+msgid "Select how you want to filter the rows to be wrapped based on their context."
+msgstr "Chọn cách bạn muốn lọc các hàng để gói dựa trên ngữ cảnh của chúng."
+
+# {"path":"/js/ui.js","row":"43","tags":null}
+#. tid/18787/type/StringLiteral
+msgctxt "tpp:/js/ui.js:43"
+msgid "Your list of context separated by new line"
+msgstr "Danh sách ngữ cảnh của bạn được phân cách bằng dòng mới"
+
+# {"path":"/js/ui.js","row":"44","tags":null}
+#. tid/18810/type/StringLiteral
+msgctxt "tpp:/js/ui.js:44"
+msgid "Optionally filter rows by their color tags."
+msgstr "Tùy chọn lọc các hàng theo thẻ màu của chúng."
+
+# {"path":"/js/ui.js","row":"45","tags":null}
+#. tid/18859/type/StringLiteral
+#. tid/39219/type/StringLiteral
+msgctxt "tpp:/js/ui.js:45"
+msgid "Options"
+msgstr "Tùy chọn"
+
+# {"path":"/js/ui.js","row":"46","tags":null}
+#. tid/18898/type/StringLiteral
+msgctxt "tpp:/js/ui.js:46"
+msgid "No merging"
+msgstr "Không hợp nhất"
+
+# {"path":"/js/ui.js","row":"47","tags":null}
+#. tid/18908/type/StringLiteral
+msgctxt "tpp:/js/ui.js:47"
+msgid "Merge lines"
+msgstr "Hợp nhất dòng"
+
+# {"path":"/js/ui.js","row":"48","tags":null}
+#. tid/18918/type/StringLiteral
+msgctxt "tpp:/js/ui.js:48"
+msgid "Merge lines except first line"
+msgstr "Hợp nhất dòng trừ dòng đầu tiên"
+
+# {"path":"/js/ui.js","row":"49","tags":null}
+#. tid/18950/type/StringLiteral
+msgctxt "tpp:/js/ui.js:49"
+msgid "General setup"
+msgstr "Thiết lập chung"
+
+# {"path":"/js/ui.js","row":"50","tags":null}
+#. tid/19116/type/StringLiteral
+#. tid/19154/type/StringLiteral
+msgctxt "tpp:/js/ui.js:50"
+msgid "Wrap text"
+msgstr "Gói văn bản"
+
+# {"path":"/js/ui.js","row":"51","tags":null}
+#. tid/19198/type/StringLiteral
+msgctxt "tpp:/js/ui.js:51"
+msgid "Source & target column can not be same!"
+msgstr "Cột nguồn và cột đích không thể giống nhau!"
+
+# {"path":"/js/ui.js","row":"52","tags":null}
+#. tid/19253/type/StringLiteral
+msgctxt "tpp:/js/ui.js:52"
+msgid ""
+"No files are selected on file selector pane.\n"
+"Translator++ will assume that all files will be processed\n"
+"Are you sure with this?"
+msgstr ""
+"Không có tệp nào được chọn trong ngăn chọn tệp.\n"
+"Translator++ sẽ giả định rằng tất cả các tệp sẽ được xử lý\n"
+"Bạn có chắc chắn với điều này không?"
+
+# {"path":"/js/ui.js","row":"53","tags":null}
+#. tid/19760/type/StringLiteral
+msgctxt "tpp:/js/ui.js:53"
+msgid "One or more required options are not set for "
+msgstr "Một hoặc nhiều tùy chọn bắt buộc chưa được thiết lập cho "
+
+# {"path":"/js/ui.js","row":"54","tags":null}
+#. tid/19769/type/StringLiteral
+msgctxt "tpp:/js/ui.js:54"
+msgid "One or more settings required by the translator engine are not set. If you continue, the translation process may fail."
+msgstr "Một hoặc nhiều cài đặt cần thiết cho công cụ dịch chưa được thiết lập. Nếu bạn tiếp tục, quá trình dịch có thể thất bại."
+
+# {"path":"/js/ui.js","row":"55","tags":null}
+#. tid/19774/type/StringLiteral
+msgctxt "tpp:/js/ui.js:55"
+msgid "Required options :"
+msgstr "Tùy chọn bắt buộc :"
+
+# {"path":"/js/ui.js","row":"56","tags":null}
+#. tid/20029/type/StringLiteral
+msgctxt "tpp:/js/ui.js:56"
+msgid "Open the settings"
+msgstr "Mở cài đặt"
+
+# {"path":"/js/ui.js","row":"57","tags":null}
+#. tid/20148/type/StringLiteral
+msgctxt "tpp:/js/ui.js:57"
+msgid "Continue anyway"
+msgstr "Tiếp tục dù sao"
+
+# {"path":"/js/ui.js","row":"58","tags":null}
+#. tid/21073/type/StringLiteral
+msgctxt "tpp:/js/ui.js:58"
+msgid "Translate Now"
+msgstr "Dịch ngay"
+
+# {"path":"/js/ui.js","row":"59","tags":null}
+#. tid/21127/type/StringLiteral
+msgctxt "tpp:/js/ui.js:59"
+msgid "Please select translator engine"
+msgstr "Vui lòng chọn công cụ dịch"
+
+# {"path":"/js/ui.js","row":"60","tags":null}
+#. tid/21419/type/StringLiteral
+msgctxt "tpp:/js/ui.js:60"
+msgid "Can not process your request because the source column and target column are same!"
+msgstr "Không thể xử lý yêu cầu của bạn vì cột nguồn và cột đích giống nhau!"
+
+# {"path":"/js/ui.js","row":"61","tags":null}
+#. tid/21529/type/StringLiteral
+msgctxt "tpp:/js/ui.js:61"
+msgid "Tags"
+msgstr "Thẻ"
+
+# {"path":"/js/ui.js","row":"62","tags":null}
+#. tid/21539/type/StringLiteral
+msgctxt "tpp:/js/ui.js:62"
+msgid "Merge Option"
+msgstr "Tùy chọn Gộp"
+
+# {"path":"/js/ui.js","row":"63","tags":null}
+#. tid/21544/type/StringLiteral
+msgctxt "tpp:/js/ui.js:63"
+msgid "Add rows"
+msgstr "Thêm hàng"
+
+# {"path":"/js/ui.js","row":"64","tags":null}
+#. tid/21826/type/StringLiteral
+msgctxt "tpp:/js/ui.js:64"
+msgid "None"
+msgstr "Không"
+
+# {"path":"/js/ui.js","row":"65","tags":null}
+#. tid/21831/type/StringLiteral
+msgctxt "tpp:/js/ui.js:65"
+msgid "Merge"
+msgstr "Gộp"
+
+# {"path":"/js/ui.js","row":"66","tags":null}
+#. tid/21836/type/StringLiteral
+msgctxt "tpp:/js/ui.js:66"
+msgid "Merge except the first line"
+msgstr "Gộp trừ dòng đầu tiên"
+
+# {"path":"/js/ui.js","row":"67","tags":null}
+#. tid/22318/type/StringLiteral
+msgctxt "tpp:/js/ui.js:67"
+msgid "No export path specified"
+msgstr "Chưa chỉ định đường dẫn xuất"
+
+# {"path":"/js/ui.js","row":"68","tags":null}
+#. tid/22371/type/StringLiteral
+msgctxt "tpp:/js/ui.js:68"
+msgid ""
+"Export path can not be inside or the same with the project folder.\n"
+"Your export path: "
+msgstr ""
+"Đường dẫn xuất không được nằm trong hoặc trùng với thư mục dự án.\n"
+"Đường dẫn xuất của bạn: "
+
+# {"path":"/js/ui.js","row":"69","tags":null}
+#. tid/22384/type/StringLiteral
+msgctxt "tpp:/js/ui.js:69"
+msgid ""
+"\n"
+"Your project path: "
+msgstr ""
+"\n"
+"Đường dẫn dự án của bạn: "
+
+# {"path":"/js/ui.js","row":"70","tags":null}
+#. tid/22399/type/StringLiteral
+msgctxt "tpp:/js/ui.js:70"
+msgid ""
+"\n"
+"\n"
+"Please choose another folder!"
+msgstr ""
+"\n"
+"\n"
+"Vui lòng chọn thư mục khác!"
+
+# {"path":"/js/ui.js","row":"71","tags":null}
+#. tid/23123/type/StringLiteral
+msgctxt "tpp:/js/ui.js:71"
+msgid "Export Now"
+msgstr "Xuất Ngay"
+
+# {"path":"/js/ui.js","row":"72","tags":null}
+#. tid/23549/type/StringLiteral
+msgctxt "tpp:/js/ui.js:72"
+msgid "Action"
+msgstr "Hành động"
+
+# {"path":"/js/ui.js","row":"73","tags":null}
+#. tid/23554/type/StringLiteral
+msgctxt "tpp:/js/ui.js:73"
+msgid "Append tags"
+msgstr "Thêm thẻ"
+
+# {"path":"/js/ui.js","row":"74","tags":null}
+#. tid/23559/type/StringLiteral
+msgctxt "tpp:/js/ui.js:74"
+msgid "Remove tags"
+msgstr "Xóa thẻ"
+
+# {"path":"/js/ui.js","row":"75","tags":null}
+#. tid/23564/type/StringLiteral
+msgctxt "tpp:/js/ui.js:75"
+msgid "Set tags"
+msgstr "Đặt thẻ"
+
+# {"path":"/js/ui.js","row":"76","tags":null}
+#. tid/23569/type/StringLiteral
+msgctxt "tpp:/js/ui.js:76"
+msgid "Do nothing"
+msgstr "Không làm gì"
+
+# {"path":"/js/ui.js","row":"77","tags":null}
+#. tid/24760/type/StringLiteral
+msgctxt "tpp:/js/ui.js:77"
+msgid "-unknown title-"
+msgstr "-tiêu đề không xác định-"
+
+# {"path":"/js/ui.js","row":"78","tags":null}
+#. tid/25064/type/StringLiteral
+msgctxt "tpp:/js/ui.js:78"
+msgid "Can not open file. File not exist."
+msgstr "Không thể mở tệp. Tệp không tồn tại."
+
+# {"path":"/js/ui.js","row":"79","tags":null}
+#. tid/25126/type/StringLiteral
+msgctxt "tpp:/js/ui.js:79"
+msgid "Go to online documentation."
+msgstr "Đi đến tài liệu trực tuyến."
+
+# {"path":"/js/ui.js","row":"80","tags":null}
+#. tid/25133/type/StringLiteral
+msgctxt "tpp:/js/ui.js:80"
+msgid "No projects yet"
+msgstr "Chưa có dự án nào"
+
+# {"path":"/js/ui.js","row":"81","tags":null}
+#. tid/25140/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/ui.js:81"
+msgid ""
+"Are you new to Translator++?<br />\n"
+"\t\t\tPlease read our online documentation at <b>dreamsavior.net</b>.<br />\n"
+"\t\t\tPress <b>F1</b> to open online help.<br />\n"
+"\t\t\tContact me at <b>patreon.com/dreamsavior</b> for question and bug reports.\n"
+"\t\t\t"
+msgstr ""
+"Bạn mới sử dụng Translator++?<br />\n"
+"\t\t\tVui lòng đọc tài liệu trực tuyến của chúng tôi tại <b>dreamsavior.net</b>.<br />\n"
+"\t\t\tNhấn <b>F1</b> để mở trợ giúp trực tuyến.<br />\n"
+"\t\t\tLiên hệ với tôi tại <b>patreon.com/dreamsavior</b> để đặt câu hỏi và báo cáo lỗi.\n"
+"\t\t\t"
+
+# {"path":"/js/ui.js","row":"82","tags":null}
+#. tid/25418/type/StringLiteral
+msgctxt "tpp:/js/ui.js:82"
+msgid "Warning"
+msgstr "Cảnh báo"
+
+# {"path":"/js/ui.js","row":"83","tags":null}
+#. tid/25562/type/StringLiteral
+#. tid/26056/type/StringLiteral
+#. tid/34634/type/StringLiteral
+#. tid/37385/type/StringLiteral
+#. tid/47792/type/StringLiteral
+msgctxt "tpp:/js/ui.js:83"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/js/ui.js","row":"84","tags":null}
+#. tid/25801/type/StringLiteral
+msgctxt "tpp:/js/ui.js:84"
+msgid "You are about to run a user script!"
+msgstr "Bạn sắp chạy một tập lệnh người dùng!"
+
+# {"path":"/js/ui.js","row":"85","tags":null}
+#. tid/26110/type/StringLiteral
+msgctxt "tpp:/js/ui.js:85"
+msgid "Execute the script"
+msgstr "Thực thi tập lệnh"
+
+# {"path":"/js/ui.js","row":"86","tags":null}
+#. tid/30681/type/StringLiteral
+msgctxt "tpp:/js/ui.js:86"
+msgid "Bring to main screen"
+msgstr "Đưa lên màn hình chính"
+
+# {"path":"/js/ui.js","row":"87","tags":null}
+#. tid/31037/type/StringLiteral
+msgctxt "tpp:/js/ui.js:87"
+msgid "Show row header info"
+msgstr "Hiển thị thông tin tiêu đề hàng"
+
+# {"path":"/js/ui.js","row":"88","tags":null}
+#. tid/31174/type/StringLiteral
+msgctxt "tpp:/js/ui.js:88"
+msgid "Row header width"
+msgstr "Độ rộng tiêu đề hàng"
+
+# {"path":"/js/ui.js","row":"89","tags":null}
+#. tid/31408/type/StringLiteral
+msgctxt "tpp:/js/ui.js:89"
+msgid "Display marker on organic cells"
+msgstr "Hiển thị dấu trên ô hữu cơ"
+
+# {"path":"/js/ui.js","row":"90","tags":null}
+#. tid/31574/type/StringLiteral
+msgctxt "tpp:/js/ui.js:90"
+msgid "Leave trail on cell visit"
+msgstr "Để lại dấu vết khi truy cập ô"
+
+# {"path":"/js/ui.js","row":"91","tags":null}
+#. tid/31713/type/StringLiteral
+msgctxt "tpp:/js/ui.js:91"
+msgid "Display trails on visited cells"
+msgstr "Hiển thị dấu vết trên ô đã truy cập"
+
+# {"path":"/js/ui.js","row":"92","tags":null}
+#. tid/33496/type/StringLiteral
+msgctxt "tpp:/js/ui.js:92"
+msgid "Row Properties"
+msgstr "Thuộc tính Hàng"
+
+# {"path":"/js/ui.js","row":"93","tags":null}
+#. tid/34508/type/StringLiteral
+msgctxt "tpp:/js/ui.js:93"
+msgid "Project Properties"
+msgstr "Thuộc tính Dự án"
+
+# {"path":"/js/ui.js","row":"94","tags":null}
+#. tid/35458/type/StringLiteral
+msgctxt "tpp:/js/ui.js:94"
+msgid "Project Properties : "
+msgstr "Thuộc tính Dự án : "
+
+# {"path":"/js/ui.js","row":"95","tags":null}
+#. tid/35888/type/StringLiteral
+msgctxt "tpp:/js/ui.js:95"
+msgid "Stage path do not exist!"
+msgstr "Đường dẫn giai đoạn không tồn tại!"
+
+# {"path":"/js/ui.js","row":"96","tags":null}
+#. tid/36469/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/ui.js:96"
+msgid "Select dev folder"
+msgstr "Chọn thư mục phát triển"
+
+# {"path":"/js/ui.js","row":"97","tags":null}
+#. tid/36474/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/ui.js:97"
+msgid "Where is the translated game's directory located at?<br />This is the same folder with the destination directory when injecting your game."
+msgstr "Thư mục của trò chơi đã dịch nằm ở đâu?<br />Đây là cùng thư mục với thư mục đích khi tiêm trò chơi của bạn."
+
+# {"path":"/js/ui.js","row":"98","tags":null}
+#. tid/36545/type/StringLiteral
+msgctxt "tpp:/js/ui.js:98"
+msgid "Select folder"
+msgstr "Chọn thư mục"
+
+# {"path":"/js/ui.js","row":"99","tags":null}
+#. tid/36731/type/StringLiteral
+msgctxt "tpp:/js/ui.js:99"
+msgid "Submit"
+msgstr "Gửi"
+
+# {"path":"/js/ui.js","row":"100","tags":null}
+#. tid/37259/type/StringLiteral
+msgctxt "tpp:/js/ui.js:100"
+msgid "File Properties"
+msgstr "Thuộc tính Tệp"
+
+# {"path":"/js/ui.js","row":"101","tags":null}
+#. tid/37471/type/StringLiteral
+msgctxt "tpp:/js/ui.js:101"
+msgid "File Properties : "
+msgstr "Thuộc tính Tệp:"
+
+# {"path":"/js/ui.js","row":"102","tags":null}
+#. tid/37870/type/StringLiteral
+#. tid/38404/type/StringLiteral
+msgctxt "tpp:/js/ui.js:102"
+msgid "Target column"
+msgstr "Cột mục tiêu"
+
+# {"path":"/js/ui.js","row":"103","tags":null}
+#. tid/37914/type/StringLiteral
+msgctxt "tpp:/js/ui.js:103"
+msgid "Trim Whitespaces"
+msgstr "Cắt khoảng trắng"
+
+# {"path":"/js/ui.js","row":"104","tags":null}
+#. tid/38151/type/StringLiteral
+#. tid/38682/type/StringLiteral
+#. tid/44037/type/StringLiteral
+msgctxt "tpp:/js/ui.js:104"
+msgid "Please select a column"
+msgstr "Vui lòng chọn một cột"
+
+# {"path":"/js/ui.js","row":"105","tags":null}
+#. tid/38169/type/StringLiteral
+msgctxt "tpp:/js/ui.js:105"
+msgid ""
+"Are you sure want to trim the whitespaces on selected column?\n"
+"This action can not be undone!"
+msgstr ""
+"Bạn có chắc muốn cắt khoảng trắng trên cột đã chọn?\n"
+"Hành động này không thể hoàn tác!"
+
+# {"path":"/js/ui.js","row":"106","tags":null}
+#. tid/38700/type/StringLiteral
+#. tid/44055/type/StringLiteral
+msgctxt "tpp:/js/ui.js:106"
+msgid ""
+"Are you sure want commit autopadding on selected column?\n"
+"This action can not be undone!"
+msgstr ""
+"Bạn có chắc muốn áp dụng tự động đệm trên cột đã chọn?\n"
+"Hành động này không thể hoàn tác!"
+
+# {"path":"/js/ui.js","row":"107","tags":null}
+#. tid/39212/type/StringLiteral
+msgctxt "tpp:/js/ui.js:107"
+msgid "Markers"
+msgstr "Đánh dấu"
+
+# {"path":"/js/ui.js","row":"108","tags":null}
+#. tid/39226/type/StringLiteral
+msgctxt "tpp:/js/ui.js:108"
+msgid "Markers are visual guidelines for the number of characters in a line."
+msgstr "Đánh dấu là hướng dẫn trực quan cho số ký tự trong một dòng."
+
+# {"path":"/js/ui.js","row":"109","tags":null}
+#. tid/39233/type/StringLiteral
+msgctxt "tpp:/js/ui.js:109"
+msgid "The marker will only be visible if wordwrap in the text area is disabled."
+msgstr "Đánh dấu sẽ chỉ hiển thị nếu ngắt dòng trong vùng văn bản bị tắt."
+
+# {"path":"/js/ui.js","row":"110","tags":null}
+#. tid/39240/type/StringLiteral
+msgctxt "tpp:/js/ui.js:110"
+msgid "Add"
+msgstr "Thêm"
+
+# {"path":"/js/ui.js","row":"111","tags":null}
+#. tid/39247/type/StringLiteral
+msgctxt "tpp:/js/ui.js:111"
+msgid "Clear all"
+msgstr "Xóa tất cả"
+
+# {"path":"/js/ui.js","row":"112","tags":null}
+#. tid/39254/type/StringLiteral
+msgctxt "tpp:/js/ui.js:112"
+msgid "Enable suggestion"
+msgstr "Bật gợi ý"
+
+# {"path":"/js/ui.js","row":"113","tags":null}
+#. tid/39261/type/StringLiteral
+msgctxt "tpp:/js/ui.js:113"
+msgid "Speech Synthesizer"
+msgstr "Tổng hợp giọng nói"
+
+# {"path":"/js/ui.js","row":"114","tags":null}
+#. tid/39268/type/StringLiteral
+msgctxt "tpp:/js/ui.js:114"
+msgid "Reading speed:"
+msgstr "Tốc độ đọc:"
+
+# {"path":"/js/ui.js","row":"115","tags":null}
+#. tid/39275/type/StringLiteral
+msgctxt "tpp:/js/ui.js:115"
+msgid "Pitch:"
+msgstr "Độ cao:"
+
+# {"path":"/js/ui.js","row":"116","tags":null}
+#. tid/39282/type/StringLiteral
+msgctxt "tpp:/js/ui.js:116"
+msgid "Volume:"
+msgstr "Âm lượng:"
+
+# {"path":"/js/ui.js","row":"117","tags":null}
+#. tid/39560/type/StringLiteral
+msgctxt "tpp:/js/ui.js:117"
+msgid "Mark at"
+msgstr "Đánh dấu tại"
+
+# {"path":"/js/ui.js","row":"118","tags":null}
+#. tid/39567/type/StringLiteral
+msgctxt "tpp:/js/ui.js:118"
+msgid "Units"
+msgstr "Đơn vị"
+
+# {"path":"/js/ui.js","row":"119","tags":null}
+#. tid/39574/type/StringLiteral
+msgctxt "tpp:/js/ui.js:119"
+msgid "Half width character (ie. Alphabet, etc)"
+msgstr "Ký tự nửa chiều rộng (ví dụ: Bảng chữ cái, v.v.)"
+
+# {"path":"/js/ui.js","row":"120","tags":null}
+#. tid/39581/type/StringLiteral
+msgctxt "tpp:/js/ui.js:120"
+msgid "Full width character (ie. Hiragana, Kanji, 漢字, etc)"
+msgstr "Ký tự toàn chiều rộng (ví dụ: Hiragana, Kanji, 漢字, v.v.)"
+
+# {"path":"/js/ui.js","row":"121","tags":null}
+#. tid/39588/type/StringLiteral
+msgctxt "tpp:/js/ui.js:121"
+msgid "Color"
+msgstr "Màu sắc"
+
+# {"path":"/js/ui.js","row":"122","tags":null}
+#. tid/39595/type/StringLiteral
+msgctxt "tpp:/js/ui.js:122"
+msgid "Remove"
+msgstr "Xóa"
+
+# {"path":"/js/ui.js","row":"123","tags":null}
+#. tid/40027/type/StringLiteral
+msgctxt "tpp:/js/ui.js:123"
+msgid "Current Cell's Editor Options"
+msgstr "Tùy chọn Trình chỉnh sửa Ô hiện tại"
+
+# {"path":"/js/ui.js","row":"124","tags":null}
+#. tid/43804/type/StringLiteral
+msgctxt "tpp:/js/ui.js:124"
+msgid "Auto Padding"
+msgstr "Tự động Đệm"
+
+# {"path":"/js/ui.js","row":"125","tags":null}
+#. tid/44686/type/StringLiteral
+msgctxt "tpp:/js/ui.js:125"
+msgid "Create"
+msgstr "Tạo"
+
+# {"path":"/js/ui.js","row":"126","tags":null}
+#. tid/46202/type/StringLiteral
+#. tid/46240/type/StringLiteral
+msgctxt "tpp:/js/ui.js:126"
+msgid "Unable to open that file!"
+msgstr "Không thể mở tệp đó!"
+
+# {"path":"/js/ui.js","row":"127","tags":null}
+#. tid/46480/type/StringLiteral
+msgctxt "tpp:/js/ui.js:127"
+msgid ""
+"Are you sure want to close the project?\n"
+"You will lost any unsaved changes!"
+msgstr ""
+"Bạn có chắc muốn đóng dự án?\n"
+"Bạn sẽ mất mọi thay đổi chưa lưu!"
+
+# {"path":"/js/ui.js","row":"128","tags":null}
+#. tid/46557/type/StringLiteral
+msgctxt "tpp:/js/ui.js:128"
+msgid ""
+"Are you sure want to exit Translator++?\n"
+"You will lost any unsaved changes!"
+msgstr ""
+"Bạn có chắc muốn thoát Translator++?\n"
+"Bạn sẽ mất mọi thay đổi chưa lưu!"
+
+# {"path":"/js/ui.js","row":"129","tags":null}
+#. tid/48659/type/StringLiteral
+#. tid/50075/type/StringLiteral
+msgctxt "tpp:/js/ui.js:129"
+msgid "Do not show this message again!"
+msgstr "Không hiển thị thông báo này nữa!"
+
+# {"path":"/js/ui.js","row":"130","tags":null}
+#. tid/60027/type/StringLiteral
+msgctxt "tpp:/js/ui.js:130"
+msgid "Back"
+msgstr "Quay lại"
+
+# {"path":"/js/ui.js","row":"131","tags":null}
+#. tid/66504/type/StringLiteral
+msgctxt "tpp:/js/ui.js:131"
+msgid "Are you sure want to execute the following script?"
+msgstr "Bạn có chắc muốn thực thi tập lệnh sau?"
+
+# {"path":"/js/ui.js","row":"132","tags":null}
+#. tid/66576/type/StringLiteral
+msgctxt "tpp:/js/ui.js:132"
+msgid "No script found"
+msgstr "Không tìm thấy tập lệnh"
+
+# {"path":"/js/ui.js","row":"133","tags":null}
+#. tid/66620/type/StringLiteral
+msgctxt "tpp:/js/ui.js:133"
+msgid "Open Script Editor"
+msgstr "Mở Trình chỉnh sửa Tập lệnh"
+
+# {"path":"/js/ui.js","row":"134","tags":null}
+#. tid/66686/type/StringLiteral
+msgctxt "tpp:/js/ui.js:134"
+msgid "How to add Automation here"
+msgstr "Cách thêm Tự động hóa ở đây"
+
+# {"path":"/js/ui.js","row":"135","tags":null}
+#. tid/66746/type/StringLiteral
+msgctxt "tpp:/js/ui.js:135"
+msgid "Clear Quick Launch"
+msgstr "Xóa Khởi chạy Nhanh"
+
+# {"path":"/js/ui.js","row":"136","tags":null}
+#. tid/66772/type/StringLiteral
+msgctxt "tpp:/js/ui.js:136"
+msgid "Are you sure want to clear all quick launch scripts?"
+msgstr "Bạn có chắc muốn xóa tất cả tập lệnh khởi chạy nhanh?"
+
+# {"path":"/js/ui.js","row":"137","tags":null}
+#. tid/68035/type/StringLiteral
+msgctxt "tpp:/js/ui.js:137"
+msgid "Remove selected objects?"
+msgstr "Xóa các đối tượng đã chọn?"
+
+# {"path":"/js/ui.js","row":"138","tags":null}
+#. tid/68084/type/StringLiteral
+msgctxt "tpp:/js/ui.js:138"
+msgid ""
+"Do you wish to remove related staging files too?\n"
+"Warning: This is can not be undone!"
+msgstr ""
+"Bạn có muốn xóa các tệp sân khấu liên quan không?\n"
+"Cảnh báo: Điều này không thể hoàn tác!"
+
+# {"path":"/js/ui.js","row":"139","tags":null}
+#. tid/69208/type/StringLiteral
+msgctxt "tpp:/js/ui.js:139"
+msgid ""
+"Error!\r\n"
+"Translator++ is unable to detect the type of "
+msgstr ""
+"Lỗi!\r\n"
+"Translator++ không thể phát hiện loại của "
+
+# {"path":"/js/ui.js","row":"140","tags":null}
+#. tid/69382/type/TemplateHead
+#. tid/70089/type/TemplateHead
+msgctxt "tpp:/js/ui.js:140"
+msgid "`Required application to parse ${"
+msgstr "`Ứng dụng cần thiết để phân tích ${"
+
+# {"path":"/js/ui.js","row":"141","tags":null}
+#. tid/69384/type/TemplateTail
+#. tid/70091/type/TemplateTail
+msgctxt "tpp:/js/ui.js:141"
+msgid "} is not installed.\\nPlease install it through Third party application installer.\\nDo you want to open Third Party Application Installer window?`"
+msgstr "} chưa được cài đặt.\\nVui lòng cài đặt nó qua trình cài đặt ứng dụng bên thứ ba.\\nBạn có muốn mở cửa sổ Trình cài đặt ứng dụng bên thứ ba không?`"
+
+# {"path":"/js/ui.js","row":"142","tags":null}
+#. tid/69811/type/StringLiteral
+msgctxt "tpp:/js/ui.js:142"
+msgid ""
+"The game is packed with Enigma.\r\n"
+"Do you want to extract the package?\r\n"
+"This will take minutes, depend on the size of your game."
+msgstr ""
+"Trò chơi được đóng gói với Enigma.\r\n"
+"Bạn có muốn giải nén gói này?\r\n"
+"Việc này sẽ mất vài phút, tùy thuộc vào kích thước trò chơi của bạn."
+
+# {"path":"/js/ui.js","row":"143","tags":null}
+#. tid/70151/type/StringLiteral
+msgctxt "tpp:/js/ui.js:143"
+msgid "Copy & extract data into "
+msgstr "Sao chép & giải nén dữ liệu vào "
+
+# {"path":"/js/ui.js","row":"144","tags":null}
+#. tid/74815/type/StringLiteral
+msgctxt "tpp:/js/ui.js:144"
+msgid ""
+"Are you realy sure want to delete all translation on current page?\n"
+"Warning: this is irreversible action!"
+msgstr ""
+"Bạn có thực sự chắc chắn muốn xóa tất cả bản dịch trên trang hiện tại?\n"
+"Cảnh báo: đây là hành động không thể hoàn tác!"
+
+# {"path":"/js/ui.js","row":"145","tags":null}
+#. tid/74898/type/StringLiteral
+msgctxt "tpp:/js/ui.js:145"
+msgid ""
+"Are you realy sure want to delete current file?\n"
+"Warning: this is irreversible action!"
+msgstr ""
+"Bạn có thực sự chắc chắn muốn xóa tệp hiện tại?\n"
+"Cảnh báo: đây là hành động không thể hoàn tác!"
+
+# {"path":"/js/ui.js","row":"146","tags":null}
+#. tid/75985/type/StringLiteral
+msgctxt "tpp:/js/ui.js:146"
+msgid "Please enter the title"
+msgstr "Vui lòng nhập tiêu đề"
+
+# {"path":"/js/ui.js","row":"147","tags":null}
+#. tid/77908/type/StringLiteral
+msgctxt "tpp:/js/ui.js:147"
+msgid "Do you want to remove the currently selected row(s)?"
+msgstr "Bạn có muốn xóa hàng đã chọn hiện tại không?"

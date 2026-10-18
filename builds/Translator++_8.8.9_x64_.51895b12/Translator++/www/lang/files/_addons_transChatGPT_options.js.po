@@ -1,0 +1,1012 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: options.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transChatGPT/options.js","row":"0","tags":null}
+#. tid/292/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:0"
+msgid "OpenAI Chat"
+msgstr "Trò chuyện OpenAI"
+
+# {"path":"/addons/transChatGPT/options.js","row":"1","tags":null}
+#. tid/453/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:1"
+msgid "Target URL"
+msgstr "URL đích"
+
+# {"path":"/addons/transChatGPT/options.js","row":"2","tags":null}
+#. tid/464/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:2"
+msgid "Target end point. You can use any service that supports OpenAI API."
+msgstr "Điểm cuối đích. Bạn có thể sử dụng bất kỳ dịch vụ nào hỗ trợ API OpenAI."
+
+# {"path":"/addons/transChatGPT/options.js","row":"3","tags":null}
+#. tid/483/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:3"
+msgid "Sample endpoints"
+msgstr "Điểm cuối mẫu"
+
+# {"path":"/addons/transChatGPT/options.js","row":"4","tags":null}
+#. tid/503/type/StringLiteral
+#. tid/558/type/StringLiteral
+#. tid/613/type/StringLiteral
+#. tid/673/type/StringLiteral
+#. tid/728/type/StringLiteral
+#. tid/783/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:4"
+msgid "Use this endpoint"
+msgstr "Sử dụng điểm cuối này"
+
+# {"path":"/addons/transChatGPT/options.js","row":"5","tags":null}
+#. tid/523/type/StringLiteral
+#. tid/578/type/StringLiteral
+#. tid/633/type/StringLiteral
+#. tid/693/type/StringLiteral
+#. tid/748/type/StringLiteral
+#. tid/803/type/StringLiteral
+#. tid/898/type/StringLiteral
+#. tid/907/type/StringLiteral
+#. tid/916/type/StringLiteral
+#. tid/925/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:5"
+msgid "Copy to clipboard"
+msgstr "Sao chép vào bảng tạm"
+
+# {"path":"/addons/transChatGPT/options.js","row":"6","tags":null}
+#. tid/653/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:6"
+msgid "e.g."
+msgstr "ví dụ"
+
+# {"path":"/addons/transChatGPT/options.js","row":"7","tags":null}
+#. tid/876/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:7"
+msgid "API Key"
+msgstr "Khóa API"
+
+# {"path":"/addons/transChatGPT/options.js","row":"8","tags":null}
+#. tid/886/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:8"
+msgid "Enter your API Key here.<br>The method to get the API key is different for each service.<br>"
+msgstr "Nhập khóa API của bạn vào đây.<br>Phương pháp lấy khóa API khác nhau cho mỗi dịch vụ.<br>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"9","tags":null}
+#. tid/937/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/options.js:9"
+msgid "Leave it blank if the service doesn't require API key."
+msgstr "Để trống nếu dịch vụ không yêu cầu khóa API."
+
+# {"path":"/addons/transChatGPT/options.js","row":"10","tags":null}
+#. tid/977/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:10"
+msgid "Model"
+msgstr "Mô hình"
+
+# {"path":"/addons/transChatGPT/options.js","row":"11","tags":null}
+#. tid/987/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:11"
+msgid "The pre-trained model"
+msgstr "Mô hình đã được huấn luyện trước"
+
+# {"path":"/addons/transChatGPT/options.js","row":"12","tags":null}
+#. tid/994/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/options.js:12"
+msgid "For OpenAI, you may need to set the allowed model to be used (https://platform.openai.com/settings/proj_xxx/limits)."
+msgstr "Đối với OpenAI, bạn có thể cần đặt mô hình được phép sử dụng (https://platform.openai.com/settings/proj_xxx/limits)."
+
+# {"path":"/addons/transChatGPT/options.js","row":"13","tags":null}
+#. tid/1169/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:13"
+msgid "Enable Context"
+msgstr "Bật Ngữ cảnh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"14","tags":null}
+#. tid/1179/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:14"
+msgid "Enable context for the translation. The previously translated material above the current batch will be included as a context. <b>You also need to explicitly includes the CONTEXT into the template</b>"
+msgstr "Bật ngữ cảnh cho bản dịch. Tài liệu đã dịch trước đó phía trên lô hiện tại sẽ được bao gồm như một ngữ cảnh. <b>Bạn cũng cần bao gồm rõ ràng CONTEXT vào mẫu</b>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"15","tags":null}
+#. tid/1212/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:15"
+msgid "Context Character Limit"
+msgstr "Giới hạn Ký tự Ngữ cảnh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"16","tags":null}
+#. tid/1222/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:16"
+msgid "Character limit for the context."
+msgstr "Giới hạn ký tự cho ngữ cảnh."
+
+# {"path":"/addons/transChatGPT/options.js","row":"17","tags":null}
+#. tid/1256/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:17"
+msgid "System Message Template"
+msgstr "Mẫu Tin nhắn Hệ thống"
+
+# {"path":"/addons/transChatGPT/options.js","row":"18","tags":null}
+#. tid/1266/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:18"
+msgid "System message is the header of the message that will tell what is the role of your chatGPT assistant. This message will be sent as the very first message of every batch you send to chatGPT."
+msgstr "Tin nhắn hệ thống là tiêu đề của tin nhắn sẽ cho biết vai trò của trợ lý chatGPT của bạn. Tin nhắn này sẽ được gửi như tin nhắn đầu tiên của mỗi lô bạn gửi đến chatGPT."
+
+# {"path":"/addons/transChatGPT/options.js","row":"19","tags":null}
+#. tid/1274/type/StringLiteral
+#. tid/8055/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:19"
+msgid "You can include the following variables with JavaScript's Template Literal style <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+msgstr "Bạn có thể bao gồm các biến sau với phong cách Template Literal của JavaScript <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"20","tags":null}
+#. tid/1282/type/StringLiteral
+#. tid/8063/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:20"
+msgid "Variables:<br>"
+msgstr "Biến số:<br>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"21","tags":null}
+#. tid/1295/type/StringLiteral
+#. tid/8076/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:21"
+msgid "<li>LANG_FROM : Source language</li>"
+msgstr "<li>LANG_FROM : Ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"22","tags":null}
+#. tid/1303/type/StringLiteral
+#. tid/8084/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:22"
+msgid "<li>LANG_TO : Target language</li>"
+msgstr "<li>LANG_TO : Ngôn ngữ đích</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"23","tags":null}
+#. tid/1311/type/StringLiteral
+#. tid/8092/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:23"
+msgid "<li>SOURCE_TEXT : Source text</li>"
+msgstr "<li>SOURCE_TEXT : Văn bản nguồn</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"24","tags":null}
+#. tid/1319/type/StringLiteral
+#. tid/8100/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:24"
+msgid "<li>ESCAPE_ALGORITHM_PROMPT : Pre-defined message of escape algorithm.</li>"
+msgstr "<li>ESCAPE_ALGORITHM_PROMPT : Thông điệp định sẵn của thuật toán thoát.</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"25","tags":null}
+#. tid/1327/type/StringLiteral
+#. tid/8108/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:25"
+msgid "<li>NEWLINE_STRING : String represents new line (Line substitute).</li>"
+msgstr "<li>NEWLINE_STRING : Chuỗi đại diện cho dòng mới (Thay thế dòng).</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"26","tags":null}
+#. tid/1335/type/StringLiteral
+#. tid/8116/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:26"
+msgid "<li>MESSAGE_COUNT : Number of messages in the batch.</li>"
+msgstr "<li>MESSAGE_COUNT : Số lượng tin nhắn trong lô.</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"27","tags":null}
+#. tid/1343/type/StringLiteral
+#. tid/8124/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:27"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"28","tags":null}
+#. tid/1351/type/StringLiteral
+#. tid/8132/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:28"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"29","tags":null}
+#. tid/1359/type/StringLiteral
+#. tid/8140/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:29"
+msgid "<li>ACTOR_INFO : Glossary of actor information.(Only if actor information option is enabled in batch mode)</li>"
+msgstr "<li>ACTOR_INFO : Bảng thuật ngữ thông tin diễn viên. (Chỉ khi tùy chọn thông tin diễn viên được bật trong chế độ lô)</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"30","tags":null}
+#. tid/1367/type/StringLiteral
+#. tid/8148/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:30"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu chung]</code></li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"31","tags":null}
+#. tid/1375/type/StringLiteral
+#. tid/8156/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:31"
+msgid "<li>CONTEXT : Context of the previous translation (if context is enabled)</li>"
+msgstr "<li>CONTEXT : Ngữ cảnh của bản dịch trước (nếu ngữ cảnh được bật)</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"32","tags":null}
+#. tid/1444/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:32"
+msgid "Sample conversation"
+msgstr "Mẫu hội thoại"
+
+# {"path":"/addons/transChatGPT/options.js","row":"33","tags":null}
+#. tid/1473/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:33"
+msgid "User message"
+msgstr "Tin nhắn người dùng"
+
+# {"path":"/addons/transChatGPT/options.js","row":"34","tags":null}
+#. tid/1499/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:34"
+msgid "Assistant's response"
+msgstr "Phản hồi của trợ lý"
+
+# {"path":"/addons/transChatGPT/options.js","row":"35","tags":null}
+#. tid/1535/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:35"
+msgid "Body Message Template"
+msgstr "Mẫu Thân Tin Nhắn"
+
+# {"path":"/addons/transChatGPT/options.js","row":"36","tags":null}
+#. tid/1545/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:36"
+msgid "Template of the body of your chat."
+msgstr "Mẫu của thân tin nhắn trong cuộc trò chuyện của bạn."
+
+# {"path":"/addons/transChatGPT/options.js","row":"37","tags":null}
+#. tid/1587/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:37"
+msgid "Enable JailBreak"
+msgstr "Bật JailBreak"
+
+# {"path":"/addons/transChatGPT/options.js","row":"38","tags":null}
+#. tid/1597/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:38"
+msgid "Enable Jailbreak for the translation. This will make the translation more accurate and less biased. Some models may want to relate fictional events to real life events, hence they will try to alter the translation to fit their own narrative. This option will prevent that."
+msgstr "Bật Jailbreak cho bản dịch. Điều này sẽ làm cho bản dịch chính xác hơn và ít thiên vị hơn. Một số mô hình có thể muốn liên kết sự kiện hư cấu với sự kiện đời thực, do đó chúng sẽ cố gắng thay đổi bản dịch để phù hợp với câu chuyện riêng của chúng. Tùy chọn này sẽ ngăn chặn điều đó."
+
+# {"path":"/addons/transChatGPT/options.js","row":"39","tags":null}
+#. tid/1631/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:39"
+msgid "Jailbreak Template"
+msgstr "Mẫu Jailbreak"
+
+# {"path":"/addons/transChatGPT/options.js","row":"40","tags":null}
+#. tid/1641/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:40"
+msgid "Template of the Jailbreak message."
+msgstr "Mẫu của thông điệp Jailbreak."
+
+# {"path":"/addons/transChatGPT/options.js","row":"41","tags":null}
+#. tid/1678/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:41"
+msgid "Maximum Tokens"
+msgstr "Số Token Tối Đa"
+
+# {"path":"/addons/transChatGPT/options.js","row":"42","tags":null}
+#. tid/1688/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:42"
+msgid "The maximum number of tokens to generate in the completion.<br>The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096)."
+msgstr "Số lượng token tối đa để tạo ra trong phần hoàn thành.<br>Số lượng token của lời nhắc của bạn cộng với max_tokens không được vượt quá độ dài ngữ cảnh của mô hình. Hầu hết các mô hình có độ dài ngữ cảnh là 2048 token (ngoại trừ các mô hình mới nhất, hỗ trợ 4096)."
+
+# {"path":"/addons/transChatGPT/options.js","row":"43","tags":null}
+#. tid/1744/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:43"
+msgid "Temperature"
+msgstr "Nhiệt Độ"
+
+# {"path":"/addons/transChatGPT/options.js","row":"44","tags":null}
+#. tid/1754/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:44"
+msgid "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. <br>OpenAI generally recommend altering this or top_p but not both."
+msgstr "Nhiệt độ lấy mẫu để sử dụng, trong khoảng từ 0 đến 2. Giá trị cao hơn như 0.8 sẽ làm cho đầu ra ngẫu nhiên hơn, trong khi giá trị thấp hơn như 0.2 sẽ làm cho nó tập trung và xác định hơn. <br>OpenAI thường khuyến nghị thay đổi cái này hoặc top_p nhưng không phải cả hai."
+
+# {"path":"/addons/transChatGPT/options.js","row":"45","tags":null}
+#. tid/1810/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:45"
+msgid "Nucleus sampling (top_p)"
+msgstr "Lấy mẫu hạt nhân (top_p)"
+
+# {"path":"/addons/transChatGPT/options.js","row":"46","tags":null}
+#. tid/1820/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:46"
+msgid "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. <br>OpenAI generally recommend altering this or temperature but not both."
+msgstr "Một phương pháp thay thế cho lấy mẫu với nhiệt độ, gọi là lấy mẫu hạt nhân, nơi mô hình xem xét kết quả của các token với khối xác suất top_p. Vì vậy 0.1 có nghĩa là chỉ các token chiếm 10% khối xác suất hàng đầu được xem xét. <br>OpenAI thường khuyến nghị thay đổi cái này hoặc nhiệt độ nhưng không phải cả hai."
+
+# {"path":"/addons/transChatGPT/options.js","row":"47","tags":null}
+#. tid/1876/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:47"
+msgid "Frequency Penalty"
+msgstr "Hình Phạt Tần Suất"
+
+# {"path":"/addons/transChatGPT/options.js","row":"48","tags":null}
+#. tid/1886/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:48"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên tần suất hiện có của chúng trong văn bản cho đến nay, giảm khả năng mô hình lặp lại cùng một dòng nguyên văn. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transChatGPT/options.js","row":"49","tags":null}
+#. tid/1943/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:49"
+msgid "Presence Penalty"
+msgstr "Hình Phạt Hiện Diện"
+
+# {"path":"/addons/transChatGPT/options.js","row":"50","tags":null}
+#. tid/1953/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:50"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên việc chúng có xuất hiện trong văn bản cho đến nay hay không, tăng khả năng mô hình nói về các chủ đề mới. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transChatGPT/options.js","row":"51","tags":null}
+#. tid/2010/type/StringLiteral
+#. tid/5757/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:51"
+msgid "Use JSON Schema"
+msgstr "Sử Dụng Lược Đồ JSON"
+
+# {"path":"/addons/transChatGPT/options.js","row":"52","tags":null}
+#. tid/2020/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:52"
+msgid "Use <code>json_schema</code> for the <code>response_format.type</code> field instead of the old <code>json_object</code>. The <code>json_schema</code> is required by some of the latest models and some servers like <b>LM Studio</b>, but some old models are still using <code>json_object</code>."
+msgstr "Sử dụng <code>json_schema</code> cho trường <code>response_format.type</code> thay vì <code>json_object</code> cũ. <code>json_schema</code> được yêu cầu bởi một số mô hình mới nhất và một số máy chủ như <b>LM Studio</b>, nhưng một số mô hình cũ vẫn đang sử dụng <code>json_object</code>."
+
+# {"path":"/addons/transChatGPT/options.js","row":"53","tags":null}
+#. tid/2060/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:53"
+msgid "Max Characters per Batch"
+msgstr "Số Ký Tự Tối Đa Mỗi Lô"
+
+# {"path":"/addons/transChatGPT/options.js","row":"54","tags":null}
+#. tid/2070/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:54"
+msgid ""
+"Maximum character limit per translation batch.\n"
+"This options will count the original text's character length only, and not the prompt message's character length."
+msgstr ""
+"Giới hạn ký tự tối đa cho mỗi lô dịch.\n"
+"Tùy chọn này sẽ chỉ đếm độ dài ký tự của văn bản gốc, không phải độ dài ký tự của thông điệp nhắc."
+
+# {"path":"/addons/transChatGPT/options.js","row":"55","tags":null}
+#. tid/2128/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:55"
+msgid "Max concurrent requests"
+msgstr "Số yêu cầu đồng thời tối đa"
+
+# {"path":"/addons/transChatGPT/options.js","row":"56","tags":null}
+#. tid/2138/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:56"
+msgid "How many concurrent requests are allowed to be connected simultaneously? Each additional concurrent connection will multiply your translation speed, but will also quickly exhaust your token limit set by your provider.<br />Set it to <b>0</b> to disable this feature.<br />Combine this option with <b>Max row per concurrent request</b> to boost the translation speed further.<br />Setting this option to more than 1 will affect the <b>Context</b> because there will be a request processed before the previous one is finished. Thus, the context will be sent without the translation result of the prior request."
+msgstr "Có bao nhiêu yêu cầu đồng thời được phép kết nối cùng lúc? Mỗi kết nối đồng thời bổ sung sẽ nhân tốc độ dịch của bạn, nhưng cũng sẽ nhanh chóng làm cạn kiết giới hạn token do nhà cung cấp của bạn đặt.<br />Đặt thành <b>0</b> để tắt tính năng này.<br />Kết hợp tùy chọn này với <b>Số dòng tối đa mỗi yêu cầu đồng thời</b> để tăng tốc độ dịch hơn nữa.<br />Đặt tùy chọn này lớn hơn 1 sẽ ảnh hưởng đến <b>Ngữ cảnh</b> vì sẽ có một yêu cầu được xử lý trước khi yêu cầu trước đó kết thúc. Do đó, ngữ cảnh sẽ được gửi mà không có kết quả dịch của yêu cầu trước đó."
+
+# {"path":"/addons/transChatGPT/options.js","row":"57","tags":null}
+#. tid/2196/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:57"
+msgid "Max row per concurrent requests"
+msgstr "Số dòng tối đa mỗi yêu cầu đồng thời"
+
+# {"path":"/addons/transChatGPT/options.js","row":"58","tags":null}
+#. tid/2206/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:58"
+msgid "How many rows are allowed for each concurrent requests. Set it to <b>0</b> to disable this feature.<br />If this option is disabled then no matter how many <b>Max concurrent requests</b> you set, Translator++ will process the request as a single chunk.<br />"
+msgstr "Có bao nhiêu dòng được phép cho mỗi yêu cầu đồng thời. Đặt thành <b>0</b> để tắt tính năng này.<br />Nếu tùy chọn này bị tắt thì cho dù bạn đặt bao nhiêu <b>Số yêu cầu đồng thời tối đa</b>, Translator++ sẽ xử lý yêu cầu như một khối duy nhất.<br />"
+
+# {"path":"/addons/transChatGPT/options.js","row":"59","tags":null}
+#. tid/2213/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:59"
+msgid "The more rows you set, the more translation you can get in a single batch. Hence reduce the overhead cost and increases the chance of the AI returning error results.<br />The lower the number, the less likely the translation will error but will cost you extra for overhead prompts."
+msgstr "Bạn đặt càng nhiều dòng, bạn càng nhận được nhiều bản dịch trong một lô. Do đó giảm chi phí phụ trội và tăng khả năng AI trả về kết quả lỗi.<br />Số càng thấp, khả năng dịch bị lỗi càng ít nhưng sẽ tốn thêm chi phí cho các lời nhắc phụ trội."
+
+# {"path":"/addons/transChatGPT/options.js","row":"60","tags":null}
+#. tid/2272/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:60"
+msgid "Preserve translations from invalid returned number of rows"
+msgstr "Giữ lại bản dịch từ số dòng trả về không hợp lệ"
+
+# {"path":"/addons/transChatGPT/options.js","row":"61","tags":null}
+#. tid/2282/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:61"
+msgid "Preserve translations from responses that has invalid row counts.<br />If checked, Translator++ will attempt to correct the row count and insert translations into the grid.<br />If unchecked, cells will remain blank.<br />It is recommended to leave this option unchecked for retranslation purposes."
+msgstr "Giữ nguyên bản dịch từ các phản hồi có số hàng không hợp lệ.<br />Nếu được chọn, Translator++ sẽ cố gắng sửa số hàng và chèn bản dịch vào lưới.<br />Nếu không chọn, các ô sẽ để trống.<br />Nên để tùy chọn này không chọn cho mục đích dịch lại."
+
+# {"path":"/addons/transChatGPT/options.js","row":"62","tags":null}
+#. tid/2317/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:62"
+msgid "Batch delay"
+msgstr "Độ trễ hàng loạt"
+
+# {"path":"/addons/transChatGPT/options.js","row":"63","tags":null}
+#. tid/2327/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:63"
+msgid "Delay between batch (in miliseconds).<br />Use this setting to control your requests so you don't hit the RPM (requests per minute) limit."
+msgstr "Độ trễ giữa các lô (tính bằng mili giây).<br />Sử dụng cài đặt này để kiểm soát yêu cầu của bạn để không vượt quá giới hạn RPM (yêu cầu mỗi phút)."
+
+# {"path":"/addons/transChatGPT/options.js","row":"64","tags":null}
+#. tid/2367/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:64"
+msgid "Batch Timeout"
+msgstr "Thời gian chờ hàng loạt"
+
+# {"path":"/addons/transChatGPT/options.js","row":"65","tags":null}
+#. tid/2377/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:65"
+msgid "Timeout for each batch in milisecond"
+msgstr "Thời gian chờ cho mỗi lô tính bằng mili giây"
+
+# {"path":"/addons/transChatGPT/options.js","row":"66","tags":null}
+#. tid/2410/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:66"
+msgid "Code Escaping Algorithm"
+msgstr "Thuật toán thoát mã"
+
+# {"path":"/addons/transChatGPT/options.js","row":"67","tags":null}
+#. tid/2420/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:67"
+msgid "Escaping algorithm for inline code inside dialogues. You may need to change the <b>System Message Template</b> and <b>Body Message Template</b> according to the escape algorighm of your choice.<br />When you choose <b>JSONCloaking</b> or <b>JSONObjectCloaking</b>, <code>response_format: { type: 'json_object' }</code> will be sent automatically (unless you enable <b>Use JSON Schema</b>, which will send a JSON schema instead). <b>JSONCloaking</b> is very accurate, but doesn't work with all models, try <b>gpt-3.5-turbo-1106</b>."
+msgstr "Thuật toán thoát cho mã nội tuyến bên trong hội thoại. Bạn có thể cần thay đổi <b>Mẫu tin nhắn hệ thống</b> và <b>Mẫu tin nhắn nội dung</b> theo thuật toán thoát bạn chọn.<br />Khi chọn <b>JSONCloaking</b> hoặc <b>JSONObjectCloaking</b>, <code>response_format: { type: 'json_object' }</code> sẽ được gửi tự động (trừ khi bạn bật <b>Sử dụng JSON Schema</b>, sẽ gửi một JSON schema thay thế). <b>JSONCloaking</b> rất chính xác, nhưng không hoạt động với tất cả mô hình, hãy thử <b>gpt-3.5-turbo-1106</b>."
+
+# {"path":"/addons/transChatGPT/options.js","row":"68","tags":null}
+#. tid/2501/type/StringLiteral
+#. tid/6925/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:68"
+msgid "Number of retry"
+msgstr "Số lần thử lại"
+
+# {"path":"/addons/transChatGPT/options.js","row":"69","tags":null}
+#. tid/2511/type/StringLiteral
+#. tid/6935/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:69"
+msgid "How many times the engine should retry when translation output validation fails. If nullish (empty), then no retry."
+msgstr "Số lần động cơ nên thử lại khi xác thực đầu ra dịch thất bại. Nếu nullish (trống), thì không thử lại."
+
+# {"path":"/addons/transChatGPT/options.js","row":"70","tags":null}
+#. tid/2560/type/StringLiteral
+#. tid/7100/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:70"
+msgid "Retry when the number of translated rows doesn't match original"
+msgstr "Thử lại khi số hàng dịch không khớp với bản gốc"
+
+# {"path":"/addons/transChatGPT/options.js","row":"71","tags":null}
+#. tid/2570/type/StringLiteral
+#. tid/7110/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:71"
+msgid "If enabled, the engine will retry when the model returns a different number of translation rows compared to the original payload."
+msgstr "Nếu bật, động cơ sẽ thử lại khi mô hình trả về số hàng dịch khác so với tải trọng gốc."
+
+# {"path":"/addons/transChatGPT/options.js","row":"72","tags":null}
+#. tid/2612/type/StringLiteral
+#. tid/7181/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:72"
+msgid "Retry when the number of lines for each translated row doesn't match original"
+msgstr "Thử lại khi số dòng cho mỗi hàng dịch không khớp với bản gốc"
+
+# {"path":"/addons/transChatGPT/options.js","row":"73","tags":null}
+#. tid/2622/type/StringLiteral
+#. tid/7191/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:73"
+msgid "If enabled, the engine will retry when any translated row has different number of lines than its original row."
+msgstr "Nếu bật, động cơ sẽ thử lại khi bất kỳ hàng dịch nào có số dòng khác với hàng gốc của nó."
+
+# {"path":"/addons/transChatGPT/options.js","row":"74","tags":null}
+#. tid/2664/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:74"
+msgid "Prompt: Row count mismatch"
+msgstr "Lời nhắc: Số hàng không khớp"
+
+# {"path":"/addons/transChatGPT/options.js","row":"75","tags":null}
+#. tid/2674/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:75"
+msgid "Prompt used when retrying due to row/element count mismatch. Available template variables include: ${MESSAGE_COUNT}, ${RETURNED_MESSAGE_COUNT}, ${LANG_TO}, ${SOURCE_TEXT}."
+msgstr "Lời nhắc được sử dụng khi thử lại do số hàng/phần tử không khớp. Các biến mẫu có sẵn bao gồm: ${MESSAGE_COUNT}, ${RETURNED_MESSAGE_COUNT}, ${LANG_TO}, ${SOURCE_TEXT}."
+
+# {"path":"/addons/transChatGPT/options.js","row":"76","tags":null}
+#. tid/2716/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:76"
+msgid "Prompt: Line count mismatch"
+msgstr "Lời nhắc: Số dòng không khớp"
+
+# {"path":"/addons/transChatGPT/options.js","row":"77","tags":null}
+#. tid/2726/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:77"
+msgid "Prompt used when retrying due to per-row line count mismatch. Available template variables include: ${LINE_ERRORS}, ${LANG_TO}, ${SOURCE_TEXT}."
+msgstr "Lời nhắc được sử dụng khi thử lại do số dòng mỗi hàng không khớp. Các biến mẫu có sẵn bao gồm: ${LINE_ERRORS}, ${LANG_TO}, ${SOURCE_TEXT}."
+
+# {"path":"/addons/transChatGPT/options.js","row":"78","tags":null}
+#. tid/2768/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:78"
+msgid "Prompt: Error / Retry instruction"
+msgstr "Lời nhắc: Lỗi / Hướng dẫn thử lại"
+
+# {"path":"/addons/transChatGPT/options.js","row":"79","tags":null}
+#. tid/2778/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:79"
+msgid "Prompt appended after the mismatch prompt(s) to instruct the model to retry. Available template variables include: ${ERROR_MESSAGE}, ${LANG_TO}, ${SOURCE_TEXT}."
+msgstr "Lời nhắc được thêm sau lời nhắc không khớp để hướng dẫn mô hình thử lại. Các biến mẫu có sẵn bao gồm: ${ERROR_MESSAGE}, ${LANG_TO}, ${SOURCE_TEXT}."
+
+# {"path":"/addons/transChatGPT/options.js","row":"80","tags":null}
+#. tid/2836/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:80"
+msgid "Custom Parameter"
+msgstr "Tham số tùy chỉnh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"81","tags":null}
+#. tid/2865/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:81"
+msgid "Key"
+msgstr "Khóa"
+
+# {"path":"/addons/transChatGPT/options.js","row":"82","tags":null}
+#. tid/2892/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:82"
+msgid "Value"
+msgstr "Giá trị"
+
+# {"path":"/addons/transChatGPT/options.js","row":"83","tags":null}
+#. tid/2919/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:83"
+msgid "Type"
+msgstr "Loại"
+
+# {"path":"/addons/transChatGPT/options.js","row":"84","tags":null}
+#. tid/2947/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:84"
+msgid "Type of the value."
+msgstr "Loại của giá trị."
+
+# {"path":"/addons/transChatGPT/options.js","row":"85","tags":null}
+#. tid/2954/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:85"
+msgid "For <b>javascript</b> type, the value will be evaluated as JavaScript code."
+msgstr "Đối với loại <b>javascript</b>, giá trị sẽ được đánh giá như mã JavaScript."
+
+# {"path":"/addons/transChatGPT/options.js","row":"86","tags":null}
+#. tid/2961/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:86"
+msgid "The scope of the javascript code is <code>window</code>. So you can pretty much grab any value."
+msgstr "Phạm vi của mã javascript là <code>window</code>. Vì vậy, bạn có thể lấy hầu hết mọi giá trị."
+
+# {"path":"/addons/transChatGPT/options.js","row":"87","tags":null}
+#. tid/2968/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:87"
+msgid "<br />Example: <code>trans.project.title</code>"
+msgstr "<br />Ví dụ: <code>trans.project.title</code>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"88","tags":null}
+#. tid/3007/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:88"
+msgid "Drop parameters that will not be sent to the API.<br />"
+msgstr "Bỏ các tham số sẽ không được gửi đến API.<br />"
+
+# {"path":"/addons/transChatGPT/options.js","row":"89","tags":null}
+#. tid/3014/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:89"
+msgid "OpenAI API is keep changing, some new models may not support the old parameters and will return HTTP error for unrecognized request parameter."
+msgstr "OpenAI API liên tục thay đổi, một số mô hình mới có thể không hỗ trợ các tham số cũ và sẽ trả về lỗi HTTP cho tham số yêu cầu không được nhận diện."
+
+# {"path":"/addons/transChatGPT/options.js","row":"90","tags":null}
+#. tid/3021/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:90"
+msgid "You can drop the parameters that are not supported by the model here."
+msgstr "Bạn có thể bỏ các tham số không được mô hình hỗ trợ ở đây."
+
+# {"path":"/addons/transChatGPT/options.js","row":"91","tags":null}
+#. tid/3066/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:91"
+msgid "Manage configuration"
+msgstr "Quản lý cấu hình"
+
+# {"path":"/addons/transChatGPT/options.js","row":"92","tags":null}
+#. tid/3192/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:92"
+msgid "RPG Maker"
+msgstr "RPG Maker"
+
+# {"path":"/addons/transChatGPT/options.js","row":"93","tags":null}
+#. tid/3228/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:93"
+msgid "HTML Cloaking Wrapped"
+msgstr "HTML Cloaking Wrapped"
+
+# {"path":"/addons/transChatGPT/options.js","row":"94","tags":null}
+#. tid/3264/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:94"
+msgid "JSONObject Cloaking"
+msgstr "JSONObject Cloaking"
+
+# {"path":"/addons/transChatGPT/options.js","row":"95","tags":null}
+#. tid/3313/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:95"
+msgid "This addon enables translation through any service that supports the OpenAI Chat API, such as Deepseek, LlamaCPP, Google Gemini, etc, and, of course, OpenAI ChatGPT."
+msgstr "Tiện ích này cho phép dịch qua bất kỳ dịch vụ nào hỗ trợ OpenAI Chat API, như Deepseek, LlamaCPP, Google Gemini, v.v., và tất nhiên, cả OpenAI ChatGPT."
+
+# {"path":"/addons/transChatGPT/options.js","row":"96","tags":null}
+#. tid/3336/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:96"
+msgid "OpenAI API settings"
+msgstr "Cài đặt OpenAI API"
+
+# {"path":"/addons/transChatGPT/options.js","row":"97","tags":null}
+#. tid/3374/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:97"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/addons/transChatGPT/options.js","row":"98","tags":null}
+#. tid/3536/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/options.js:98"
+msgid "<h2>Don't waste your money on Reasoning Models</h2>"
+msgstr "<h2>Đừng lãng phí tiền vào Mô hình Lý luận</h2>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"99","tags":null}
+#. tid/3544/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/options.js:99"
+msgid "<p>It has been proven by various studies that reasoning models are far worse than the normal models on performing creative writings and translation tasks.</p>"
+msgstr "<p>Nhiều nghiên cứu đã chứng minh rằng mô hình lý luận kém hơn nhiều so với mô hình thông thường trong việc thực hiện các tác vụ viết sáng tạo và dịch thuật.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"100","tags":null}
+#. tid/3552/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transChatGPT/options.js:100"
+msgid "<p>You gain nothing but more expensive cost and slower response times when using reasoning models.</p>"
+msgstr "<p>Bạn chẳng được gì ngoài chi phí đắt hơn và thời gian phản hồi chậm hơn khi sử dụng mô hình lý luận.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"101","tags":null}
+#. tid/3641/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:101"
+msgid "Explore more models"
+msgstr "Khám phá thêm mô hình"
+
+# {"path":"/addons/transChatGPT/options.js","row":"102","tags":null}
+#. tid/3817/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:102"
+msgid "Templates"
+msgstr "Mẫu"
+
+# {"path":"/addons/transChatGPT/options.js","row":"103","tags":null}
+#. tid/3850/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:103"
+msgid "Enable context"
+msgstr "Bật ngữ cảnh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"104","tags":null}
+#. tid/4085/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:104"
+msgid "<h2>Sample dialogue</h2>"
+msgstr "<h2>Mẫu hội thoại</h2>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"105","tags":null}
+#. tid/4092/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:105"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Mẫu hội thoại hiện có. Bạn có thể viết mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục tiêu và ngữ cảnh của cuộc trò chuyện.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"106","tags":null}
+#. tid/4426/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:106"
+msgid "Add Example: Translate Japanese to English"
+msgstr "Thêm Ví dụ: Dịch tiếng Nhật sang tiếng Anh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"107","tags":null}
+#. tid/4740/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:107"
+msgid "Retry prompts"
+msgstr "Thử lại lời nhắc"
+
+# {"path":"/addons/transChatGPT/options.js","row":"108","tags":null}
+#. tid/4766/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:108"
+msgid "<p>These prompts are appended as extra <b>user</b> messages during retries, right after the previous model output.</p>"
+msgstr "<p>Các lời nhắc này được thêm dưới dạng tin nhắn <b>người dùng</b> bổ sung trong lần thử lại, ngay sau đầu ra mô hình trước đó.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"109","tags":null}
+#. tid/4773/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:109"
+msgid "<p>Available variables:</p>"
+msgstr "<p>Biến số có sẵn:</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"110","tags":null}
+#. tid/5138/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:110"
+msgid "Enable Jailbreak"
+msgstr "Bật Jailbreak"
+
+# {"path":"/addons/transChatGPT/options.js","row":"111","tags":null}
+#. tid/5311/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:111"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+# {"path":"/addons/transChatGPT/options.js","row":"112","tags":null}
+#. tid/5827/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:112"
+msgid "Custom Parameters"
+msgstr "Tham số Tùy chỉnh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"113","tags":null}
+#. tid/5860/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:113"
+msgid "You can add custom parameters to the OpenAI Chat API request body. This is useful if you want to add additional parameters that are not available in the form."
+msgstr "Bạn có thể thêm tham số tùy chỉnh vào phần thân yêu cầu API Chat của OpenAI. Điều này hữu ích nếu bạn muốn thêm các tham số bổ sung không có sẵn trong biểu mẫu."
+
+# {"path":"/addons/transChatGPT/options.js","row":"114","tags":null}
+#. tid/5883/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:114"
+msgid "<h2>Warning</h2>"
+msgstr "<h2>Cảnh báo</h2>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"115","tags":null}
+#. tid/5894/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:115"
+msgid "<li>Incorrectly setting custom parameters may cause the API request to fail. Make sure you know what you are doing before adding custom parameters. Some services like OpenAI are strict about what parameters you're sending, and they will return HTTP error for unrecognized request parameter.</li>"
+msgstr "<li>Việc đặt tham số tùy chỉnh không chính xác có thể khiến yêu cầu API thất bại. Hãy đảm bảo bạn biết mình đang làm gì trước khi thêm tham số tùy chỉnh. Một số dịch vụ như OpenAI nghiêm ngặt về các tham số bạn gửi và sẽ trả về lỗi HTTP cho tham số yêu cầu không được nhận diện.</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"116","tags":null}
+#. tid/5901/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:116"
+msgid "<li>If the same key is used multiple times, only the last value will be used.</li>"
+msgstr "<li>Nếu cùng một khóa được sử dụng nhiều lần, chỉ giá trị cuối cùng sẽ được dùng.</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"117","tags":null}
+#. tid/5908/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:117"
+msgid "<li>If the same key in the existing configuration is used, then existing configuration parameter will be overwritten by the custom parameter.</li>"
+msgstr "<li>Nếu sử dụng cùng một khóa trong cấu hình hiện có, thì tham số cấu hình hiện có sẽ bị ghi đè bởi tham số tùy chỉnh.</li>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"118","tags":null}
+#. tid/6158/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:118"
+msgid "Drop Parameters"
+msgstr "Xóa Tham số"
+
+# {"path":"/addons/transChatGPT/options.js","row":"119","tags":null}
+#. tid/6303/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:119"
+msgid "Open chatGPT tester"
+msgstr "Mở trình kiểm tra chatGPT"
+
+# {"path":"/addons/transChatGPT/options.js","row":"120","tags":null}
+#. tid/6364/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:120"
+msgid "Batch Translation Setting"
+msgstr "Cài đặt Dịch Hàng loạt"
+
+# {"path":"/addons/transChatGPT/options.js","row":"121","tags":null}
+#. tid/6486/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:121"
+msgid ""
+"Sorry, this addon is only available for active patrons only.\n"
+"You can unlock this feature by becoming a $1 patron."
+msgstr ""
+"Xin lỗi, tiện ích này chỉ dành cho các nhà tài trợ đang hoạt động.\n"
+"Bạn có thể mở khóa tính năng này bằng cách trở thành nhà tài trợ $1."
+
+# {"path":"/addons/transChatGPT/options.js","row":"122","tags":null}
+#. tid/6769/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:122"
+msgid "Preserve invalid returned rows"
+msgstr "Giữ lại các hàng trả về không hợp lệ"
+
+# {"path":"/addons/transChatGPT/options.js","row":"123","tags":null}
+#. tid/6848/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:123"
+msgid "Retries and Refinement"
+msgstr "Thử lại và Tinh chỉnh"
+
+# {"path":"/addons/transChatGPT/options.js","row":"124","tags":null}
+#. tid/6874/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:124"
+msgid "<h2>Retries and Refinement</h2>"
+msgstr "<h2>Thử lại và Tinh chỉnh</h2>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"125","tags":null}
+#. tid/6881/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:125"
+msgid "<p>When the translation output fails the validation, Translator++ can ask the model to retry the translation. You can set how many times the model should retry and also set the condition for the retry.</p>"
+msgstr "<p>Khi đầu ra dịch không vượt qua kiểm tra, Translator++ có thể yêu cầu mô hình thử lại bản dịch. Bạn có thể đặt số lần thử lại và điều kiện để thử lại.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"126","tags":null}
+#. tid/6888/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:126"
+msgid "<p>Setting a reasonable number of retries with proper retry conditions can significantly improve the translation quality while keeping the cost and time in check.</p>"
+msgstr "<p>Đặt số lần thử lại hợp lý với điều kiện thích hợp có thể cải thiện đáng kể chất lượng dịch trong khi kiểm soát chi phí và thời gian.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"127","tags":null}
+#. tid/6895/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:127"
+msgid "<p><b>Each retry costs you additional time and money</b>. If your batch ends up retrying frequently, you may want to adjust your prompt to make the instructions clearer for the model.</p>"
+msgstr "<p><b>Mỗi lần thử lại tốn thêm thời gian và tiền bạc</b>. Nếu lô dịch của bạn thường xuyên phải thử lại, bạn nên điều chỉnh lời nhắc để hướng dẫn rõ ràng hơn cho mô hình.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"128","tags":null}
+#. tid/6902/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:128"
+msgid "<p>Use developer tool or Batch Manager to debug your batch translation.</p>"
+msgstr "<p>Sử dụng công cụ nhà phát triển hoặc Trình quản lý lô để gỡ lỗi lô dịch của bạn.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"129","tags":null}
+#. tid/7269/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:129"
+msgid "<h2>Code Escaping Algorithm</h2>"
+msgstr "<h2>Thuật toán Mã hóa Mã</h2>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"130","tags":null}
+#. tid/7276/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:130"
+msgid "<p>Code escaping is a technique to prevent the MTL from altering the code snippets inside the dialogues. This is useful when your dialogues contains code snippets such as HTML tags, XML tags, JSON objects, or JavaScript templates.</p>"
+msgstr "<p>Mã hóa mã là kỹ thuật ngăn MTL thay đổi các đoạn mã trong hội thoại. Điều này hữu ích khi hội thoại của bạn chứa các đoạn mã như thẻ HTML, thẻ XML, đối tượng JSON hoặc mẫu JavaScript.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"131","tags":null}
+#. tid/7283/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:131"
+msgid "<p>Choose the escaping algorithm that matches the code snippets inside your dialogues. You may need to adjust the <b>system message</b>, <b>Sample prompt</b> and <b>body message</b> templates accordingly.</p>"
+msgstr "<p>Chọn thuật toán mã hóa phù hợp với các đoạn mã trong hội thoại của bạn. Bạn có thể cần điều chỉnh mẫu <b>thông điệp hệ thống</b>, <b>Lời nhắc mẫu</b> và <b>thông điệp nội dung</b> tương ứng.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"132","tags":null}
+#. tid/7290/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:132"
+msgid "<p>Click <a href='https://dreamsavior.net/docs/translator/code-escaping-algorithm/' external>here</a> to read more about code escaping algorithms and how to use them effectively.</p>"
+msgstr "<p>Nhấp <a href='https://dreamsavior.net/docs/translator/code-escaping-algorithm/' external>vào đây</a> để đọc thêm về thuật toán mã hóa mã và cách sử dụng hiệu quả.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"133","tags":null}
+#. tid/7319/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:133"
+msgid "Default"
+msgstr "Mặc định"
+
+# {"path":"/addons/transChatGPT/options.js","row":"134","tags":null}
+#. tid/7329/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:134"
+msgid "JavaScript template cloaking"
+msgstr "Che giấu mẫu JavaScript"
+
+# {"path":"/addons/transChatGPT/options.js","row":"135","tags":null}
+#. tid/7339/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:135"
+msgid "None (no escaping)"
+msgstr "Không (không mã hóa)"
+
+# {"path":"/addons/transChatGPT/options.js","row":"136","tags":null}
+#. tid/7586/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:136"
+msgid "Do you want to load the sample dialogue preset for the selected escape algorithm? This will overwrite your existing sample dialogue."
+msgstr "Bạn có muốn tải cài đặt trước hội thoại mẫu cho thuật toán mã hóa đã chọn? Điều này sẽ ghi đè hội thoại mẫu hiện có của bạn."
+
+# {"path":"/addons/transChatGPT/options.js","row":"137","tags":null}
+#. tid/7805/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:137"
+msgid "Always separate file"
+msgstr "Luôn tách tệp"
+
+# {"path":"/addons/transChatGPT/options.js","row":"138","tags":null}
+#. tid/7815/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:138"
+msgid "Always separate the file for each batch. This may keep the contexts of each files unpoluted with another files."
+msgstr "Luôn tách tệp cho mỗi lô. Điều này có thể giữ ngữ cảnh của mỗi tệp không bị nhiễu bởi các tệp khác."
+
+# {"path":"/addons/transChatGPT/options.js","row":"139","tags":null}
+#. tid/7849/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:139"
+msgid "Add actor name"
+msgstr "Thêm tên nhân vật"
+
+# {"path":"/addons/transChatGPT/options.js","row":"140","tags":null}
+#. tid/7859/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:140"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên nhân vật từ thông tin hàng vào văn bản có thể dịch. Điều này giúp người dịch theo dõi hội thoại và đại từ. Translator++ sau đó sẽ loại bỏ tên nhân vật khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transChatGPT/options.js","row":"141","tags":null}
+#. tid/7896/type/StringLiteral
+#. tid/8333/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:141"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Nhân vật làm Bảng thuật ngữ"
+
+# {"path":"/addons/transChatGPT/options.js","row":"142","tags":null}
+#. tid/7906/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:142"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu nhân vật làm bảng thuật ngữ. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu nhân vật là tên của nhân vật trong hội thoại. Nó sẽ được tải như một bảng thuật ngữ cho người dịch. Điều này sẽ làm tăng chi phí dịch thuật."
+
+# {"path":"/addons/transChatGPT/options.js","row":"143","tags":null}
+#. tid/7913/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:143"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm bảng thuật ngữ cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu nhân vật trong tin nhắn nhắc."
+
+# {"path":"/addons/transChatGPT/options.js","row":"144","tags":null}
+#. tid/7920/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:144"
+msgid "<br />⚠️If you enable this option, you also need to include the <code>ACTOR_INFO</code> variable in the prompt template to place the character information data."
+msgstr "<br />⚠️Nếu bạn bật tùy chọn này, bạn cũng cần bao gồm biến <code>ACTOR_INFO</code> trong mẫu nhắc để đặt dữ liệu thông tin nhân vật."
+
+# {"path":"/addons/transChatGPT/options.js","row":"145","tags":null}
+#. tid/7954/type/StringLiteral
+#. tid/8364/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:145"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Nhân vật"
+
+# {"path":"/addons/transChatGPT/options.js","row":"146","tags":null}
+#. tid/7964/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:146"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch tên nhân vật. Cột này sẽ được sử dụng làm bản dịch của tham chiếu nhân vật. Điều này sẽ cải thiện tính nhất quán của bản dịch tên nhân vật trong cuộc trò chuyện."
+
+# {"path":"/addons/transChatGPT/options.js","row":"147","tags":null}
+#. tid/7991/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:147"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Nhân vật"
+
+# {"path":"/addons/transChatGPT/options.js","row":"148","tags":null}
+#. tid/8001/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:148"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung của nhân vật. Bạn có thể thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện bản dịch đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/transChatGPT/options.js","row":"149","tags":null}
+#. tid/8031/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:149"
+msgid "Extra Prompt"
+msgstr "Nhắc bổ sung"
+
+# {"path":"/addons/transChatGPT/options.js","row":"150","tags":null}
+#. tid/8041/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:150"
+msgid "Extra prompt that will be added to the prompt message. This will be added after the system message and before the actual prompt message."
+msgstr "Nhắc bổ sung sẽ được thêm vào tin nhắn nhắc. Nó sẽ được thêm sau tin nhắn hệ thống và trước tin nhắn nhắc thực tế."
+
+# {"path":"/addons/transChatGPT/options.js","row":"151","tags":null}
+#. tid/8048/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:151"
+msgid "<br />"
+msgstr "<br />"
+
+# {"path":"/addons/transChatGPT/options.js","row":"152","tags":null}
+#. tid/8195/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:152"
+msgid "General Settings"
+msgstr "Cài đặt Chung"
+
+# {"path":"/addons/transChatGPT/options.js","row":"153","tags":null}
+#. tid/8221/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:153"
+msgid "Always separate file for each batch"
+msgstr "Luôn tách tệp cho mỗi lô"
+
+# {"path":"/addons/transChatGPT/options.js","row":"154","tags":null}
+#. tid/8245/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:154"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên nhân vật vào văn bản có thể dịch"
+
+# {"path":"/addons/transChatGPT/options.js","row":"155","tags":null}
+#. tid/8277/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:155"
+msgid "Glossary"
+msgstr "Bảng thuật ngữ"
+
+# {"path":"/addons/transChatGPT/options.js","row":"156","tags":null}
+#. tid/8303/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:156"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Bảng thuật ngữ</h2>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"157","tags":null}
+#. tid/8310/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:157"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm bảng thuật ngữ vào nhắc. Bảng thuật ngữ sẽ được tải cho mỗi lô mục để cải thiện chất lượng dịch thuật. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm phình to nhắc của bạn.</p>"
+
+# {"path":"/addons/transChatGPT/options.js","row":"158","tags":null}
+#. tid/8395/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:158"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông tin Bổ sung của Nhân vật"
+
+# {"path":"/addons/transChatGPT/options.js","row":"159","tags":null}
+#. tid/8426/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/options.js:159"
+msgid "Prompt"
+msgstr "Nhắc"

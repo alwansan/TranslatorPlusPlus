@@ -1,0 +1,1041 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trans.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/js/trans.js","row":"0","tags":null}
+#. tid/2227/type/StringLiteral
+#. tid/2619/type/StringLiteral
+msgctxt "tpp:/js/trans.js:0"
+msgid "Original Text"
+msgstr "Văn bản Gốc"
+
+# {"path":"/js/trans.js","row":"1","tags":null}
+#. tid/2233/type/StringLiteral
+#. tid/2625/type/StringLiteral
+msgctxt "tpp:/js/trans.js:1"
+msgid "Initial"
+msgstr "Ban đầu"
+
+# {"path":"/js/trans.js","row":"2","tags":null}
+#. tid/2239/type/StringLiteral
+#. tid/2631/type/StringLiteral
+msgctxt "tpp:/js/trans.js:2"
+msgid "Machine translation"
+msgstr "Dịch máy"
+
+# {"path":"/js/trans.js","row":"3","tags":null}
+#. tid/2245/type/StringLiteral
+#. tid/2637/type/StringLiteral
+msgctxt "tpp:/js/trans.js:3"
+msgid "Better translation"
+msgstr "Dịch tốt hơn"
+
+# {"path":"/js/trans.js","row":"4","tags":null}
+#. tid/2251/type/StringLiteral
+#. tid/2643/type/StringLiteral
+msgctxt "tpp:/js/trans.js:4"
+msgid "Best translation"
+msgstr "Dịch tốt nhất"
+
+# {"path":"/js/trans.js","row":"5","tags":null}
+#. tid/4770/type/StringLiteral
+#. tid/4811/type/StringLiteral
+#. tid/18019/type/StringLiteral
+#. tid/18070/type/StringLiteral
+#. tid/18441/type/StringLiteral
+#. tid/18484/type/StringLiteral
+#. tid/18596/type/StringLiteral
+#. tid/18692/type/StringLiteral
+#. tid/18732/type/StringLiteral
+#. tid/18832/type/StringLiteral
+#. tid/20321/type/StringLiteral
+#. tid/20364/type/StringLiteral
+msgctxt "tpp:/js/trans.js:5"
+msgid "Loading"
+msgstr "Đang tải"
+
+# {"path":"/js/trans.js","row":"6","tags":null}
+#. tid/5451/type/StringLiteral
+#. tid/5538/type/StringLiteral
+#. tid/5572/type/StringLiteral
+#. tid/5947/type/StringLiteral
+#. tid/5979/type/StringLiteral
+msgctxt "tpp:/js/trans.js:6"
+msgid "Error!"
+msgstr "Lỗi!"
+
+# {"path":"/js/trans.js","row":"7","tags":null}
+#. tid/5457/type/StringLiteral
+msgctxt "tpp:/js/trans.js:7"
+msgid "Error processing init file : "
+msgstr "Lỗi xử lý tệp khởi tạo : "
+
+# {"path":"/js/trans.js","row":"8","tags":null}
+#. tid/5544/type/StringLiteral
+msgctxt "tpp:/js/trans.js:8"
+msgid "Error! File list not found in init file at : "
+msgstr "Lỗi! Danh sách tệp không tìm thấy trong tệp khởi tạo tại : "
+
+# {"path":"/js/trans.js","row":"9","tags":null}
+#. tid/5578/type/StringLiteral
+msgctxt "tpp:/js/trans.js:9"
+msgid "This means that your game was not successfully parsed. Please visit https://dreamsavior.net/?p=1311 for possible solution for this issue."
+msgstr "Điều này có nghĩa là trò chơi của bạn chưa được phân tích thành công. Vui lòng truy cập https://dreamsavior.net/?p=1311 để tìm giải pháp khả thi cho vấn đề này."
+
+# {"path":"/js/trans.js","row":"10","tags":null}
+#. tid/5878/type/StringLiteral
+#. tid/22004/type/StringLiteral
+#. tid/22050/type/StringLiteral
+#. tid/22829/type/StringLiteral
+#. tid/22875/type/StringLiteral
+msgctxt "tpp:/js/trans.js:10"
+msgid "Done!"
+msgstr "Hoàn tất!"
+
+# {"path":"/js/trans.js","row":"11","tags":null}
+#. tid/5884/type/StringLiteral
+msgctxt "tpp:/js/trans.js:11"
+msgid "All done!"
+msgstr "Tất cả đã xong!"
+
+# {"path":"/js/trans.js","row":"12","tags":null}
+#. tid/5953/type/StringLiteral
+msgctxt "tpp:/js/trans.js:12"
+msgid "Error opening file : "
+msgstr "Lỗi mở tệp : "
+
+# {"path":"/js/trans.js","row":"13","tags":null}
+#. tid/8844/type/StringLiteral
+msgctxt "tpp:/js/trans.js:13"
+msgid "error opening file (open): "
+msgstr "lỗi mở tệp (open): "
+
+# {"path":"/js/trans.js","row":"14","tags":null}
+#. tid/9577/type/StringLiteral
+msgctxt "tpp:/js/trans.js:14"
+msgid "Project properties - Staging path error!"
+msgstr "Thuộc tính Dự án - Lỗi đường dẫn Staging!"
+
+# {"path":"/js/trans.js","row":"15","tags":null}
+#. tid/9623/type/StringLiteral
+msgctxt "tpp:/js/trans.js:15"
+msgid "Project properties"
+msgstr "Thuộc tính Dự án"
+
+# {"path":"/js/trans.js","row":"16","tags":null}
+#. tid/11086/type/StringLiteral
+msgctxt "tpp:/js/trans.js:16"
+msgid "untitled project"
+msgstr "dự án không tên"
+
+# {"path":"/js/trans.js","row":"17","tags":null}
+#. tid/17099/type/StringLiteral
+msgctxt "tpp:/js/trans.js:17"
+msgid "create file list"
+msgstr "tạo danh sách tệp"
+
+# {"path":"/js/trans.js","row":"18","tags":null}
+#. tid/18136/type/StringLiteral
+#. tid/18762/type/StringLiteral
+#. tid/18862/type/StringLiteral
+#. tid/20430/type/StringLiteral
+msgctxt "tpp:/js/trans.js:18"
+msgid "Finished"
+msgstr "Hoàn tất"
+
+# {"path":"/js/trans.js","row":"19","tags":null}
+#. tid/18142/type/StringLiteral
+#. tid/18768/type/StringLiteral
+#. tid/18868/type/StringLiteral
+#. tid/20436/type/StringLiteral
+msgctxt "tpp:/js/trans.js:19"
+msgid "All process finished!"
+msgstr "Tất cả quá trình đã hoàn thành!"
+
+# {"path":"/js/trans.js","row":"20","tags":null}
+#. tid/18178/type/StringLiteral
+msgctxt "tpp:/js/trans.js:20"
+msgid "Open Explorer"
+msgstr "Mở Explorer"
+
+# {"path":"/js/trans.js","row":"21","tags":null}
+#. tid/18602/type/StringLiteral
+msgctxt "tpp:/js/trans.js:21"
+msgid "Opening file!"
+msgstr "Đang mở tệp!"
+
+# {"path":"/js/trans.js","row":"22","tags":null}
+#. tid/18698/type/StringLiteral
+msgctxt "tpp:/js/trans.js:22"
+msgid "Assigning new staging path : "
+msgstr "Đang gán đường dẫn mới : "
+
+# {"path":"/js/trans.js","row":"23","tags":null}
+#. tid/18738/type/StringLiteral
+msgctxt "tpp:/js/trans.js:23"
+msgid "Success!"
+msgstr "Thành công!"
+
+# {"path":"/js/trans.js","row":"24","tags":null}
+#. tid/18838/type/StringLiteral
+msgctxt "tpp:/js/trans.js:24"
+msgid "Failed!"
+msgstr "Thất bại!"
+
+# {"path":"/js/trans.js","row":"25","tags":null}
+#. tid/21226/type/StringLiteral
+#. tid/22319/type/StringLiteral
+msgctxt "tpp:/js/trans.js:25"
+msgid "Collecting paths"
+msgstr "Đang thu thập đường dẫn"
+
+# {"path":"/js/trans.js","row":"26","tags":null}
+#. tid/21393/type/StringLiteral
+#. tid/22415/type/StringLiteral
+msgctxt "tpp:/js/trans.js:26"
+msgid "Path : '"
+msgstr "Đường dẫn : '"
+
+# {"path":"/js/trans.js","row":"27","tags":null}
+#. tid/21400/type/StringLiteral
+#. tid/22422/type/StringLiteral
+msgctxt "tpp:/js/trans.js:27"
+msgid "' doesn't exist"
+msgstr "' không tồn tại"
+
+# {"path":"/js/trans.js","row":"28","tags":null}
+#. tid/21514/type/StringLiteral
+#. tid/22536/type/StringLiteral
+msgctxt "tpp:/js/trans.js:28"
+msgid " file(s) collected!"
+msgstr " tệp đã được thu thập!"
+
+# {"path":"/js/trans.js","row":"29","tags":null}
+#. tid/21543/type/StringLiteral
+#. tid/22565/type/StringLiteral
+msgctxt "tpp:/js/trans.js:29"
+msgid "Start importing data!"
+msgstr "Bắt đầu nhập dữ liệu!"
+
+# {"path":"/js/trans.js","row":"30","tags":null}
+#. tid/21951/type/StringLiteral
+#. tid/22778/type/StringLiteral
+msgctxt "tpp:/js/trans.js:30"
+msgid "Importing : "
+msgstr "Đang nhập : "
+
+# {"path":"/js/trans.js","row":"31","tags":null}
+#. tid/22056/type/StringLiteral
+#. tid/22881/type/StringLiteral
+msgctxt "tpp:/js/trans.js:31"
+msgid "All Done!"
+msgstr "Tất cả đã xong!"
+
+# {"path":"/js/trans.js","row":"32","tags":null}
+#. tid/25301/type/StringLiteral
+msgctxt "tpp:/js/trans.js:32"
+msgid " is not a valid object name"
+msgstr " không phải là tên đối tượng hợp lệ"
+
+# {"path":"/js/trans.js","row":"33","tags":null}
+#. tid/25354/type/StringLiteral
+msgctxt "tpp:/js/trans.js:33"
+msgid " is not a valid directory name"
+msgstr " không phải là tên thư mục hợp lệ"
+
+# {"path":"/js/trans.js","row":"34","tags":null}
+#. tid/25428/type/StringLiteral
+msgctxt "tpp:/js/trans.js:34"
+msgid " is already exist"
+msgstr " đã tồn tại"
+
+# {"path":"/js/trans.js","row":"35","tags":null}
+#. tid/30652/type/StringLiteral
+msgctxt "tpp:/js/trans.js:35"
+msgid "Error opening file :"
+msgstr "Lỗi khi mở tệp :"
+
+# {"path":"/js/trans.js","row":"36","tags":null}
+#. tid/30736/type/StringLiteral
+msgctxt "tpp:/js/trans.js:36"
+msgid "Error executing :"
+msgstr "Lỗi khi thực thi :"
+
+# {"path":"/js/trans.js","row":"37","tags":null}
+#. tid/31058/type/StringLiteral
+#. tid/31567/type/StringLiteral
+#. tid/32103/type/StringLiteral
+msgctxt "tpp:/js/trans.js:37"
+msgid "Are you sure want to execute the following script?"
+msgstr "Bạn có chắc muốn thực thi tập lệnh sau không?"
+
+# {"path":"/js/trans.js","row":"38","tags":null}
+#. tid/31152/type/StringLiteral
+#. tid/31661/type/StringLiteral
+msgctxt "tpp:/js/trans.js:38"
+msgid "Clear quick launch"
+msgstr "Xóa khởi chạy nhanh"
+
+# {"path":"/js/trans.js","row":"39","tags":null}
+#. tid/31189/type/StringLiteral
+#. tid/31698/type/StringLiteral
+msgctxt "tpp:/js/trans.js:39"
+msgid "Are you sure want to clear quick launch?"
+msgstr "Bạn có chắc muốn xóa khởi chạy nhanh không?"
+
+# {"path":"/js/trans.js","row":"40","tags":null}
+#. tid/31267/type/StringLiteral
+#. tid/31776/type/StringLiteral
+msgctxt "tpp:/js/trans.js:40"
+msgid "How to add Automation here"
+msgstr "Cách thêm Tự động hóa ở đây"
+
+# {"path":"/js/trans.js","row":"41","tags":null}
+#. tid/32212/type/StringLiteral
+#. tid/35333/type/StringLiteral
+msgctxt "tpp:/js/trans.js:41"
+msgid "Select all"
+msgstr "Chọn tất cả"
+
+# {"path":"/js/trans.js","row":"42","tags":null}
+#. tid/32234/type/StringLiteral
+msgctxt "tpp:/js/trans.js:42"
+msgid "Clear selection"
+msgstr "Xóa lựa chọn"
+
+# {"path":"/js/trans.js","row":"43","tags":null}
+#. tid/32251/type/StringLiteral
+msgctxt "tpp:/js/trans.js:43"
+msgid "Select 100%"
+msgstr "Chọn 100%"
+
+# {"path":"/js/trans.js","row":"44","tags":null}
+#. tid/32268/type/StringLiteral
+msgctxt "tpp:/js/trans.js:44"
+msgid "Select <100%"
+msgstr "Chọn <100%"
+
+# {"path":"/js/trans.js","row":"45","tags":null}
+#. tid/32285/type/StringLiteral
+msgctxt "tpp:/js/trans.js:45"
+msgid "Select progress ≥ ..."
+msgstr "Chọn tiến độ ≥ ..."
+
+# {"path":"/js/trans.js","row":"46","tags":null}
+#. tid/32302/type/StringLiteral
+msgctxt "tpp:/js/trans.js:46"
+msgid "Select completed"
+msgstr "Chọn đã hoàn thành"
+
+# {"path":"/js/trans.js","row":"47","tags":null}
+#. tid/32319/type/StringLiteral
+#. tid/35350/type/StringLiteral
+msgctxt "tpp:/js/trans.js:47"
+msgid "Invert selection"
+msgstr "Đảo ngược lựa chọn"
+
+# {"path":"/js/trans.js","row":"48","tags":null}
+#. tid/32343/type/StringLiteral
+msgctxt "tpp:/js/trans.js:48"
+msgid "Toggle mark as complete"
+msgstr "Chuyển đổi đánh dấu là hoàn thành"
+
+# {"path":"/js/trans.js","row":"49","tags":null}
+#. tid/32461/type/StringLiteral
+msgctxt "tpp:/js/trans.js:49"
+msgid "With all"
+msgstr "Với tất cả"
+
+# {"path":"/js/trans.js","row":"50","tags":null}
+#. tid/32477/type/StringLiteral
+msgctxt "tpp:/js/trans.js:50"
+msgid "With "
+msgstr "Với "
+
+# {"path":"/js/trans.js","row":"51","tags":null}
+#. tid/32488/type/StringLiteral
+msgctxt "tpp:/js/trans.js:51"
+msgid " selected"
+msgstr " đã chọn"
+
+# {"path":"/js/trans.js","row":"52","tags":null}
+#. tid/32538/type/StringLiteral
+msgctxt "tpp:/js/trans.js:52"
+msgid "Mark as complete"
+msgstr "Đánh dấu là hoàn thành"
+
+# {"path":"/js/trans.js","row":"53","tags":null}
+#. tid/32565/type/StringLiteral
+msgctxt "tpp:/js/trans.js:53"
+msgid "Un-mark as complete"
+msgstr "Bỏ đánh dấu là hoàn thành"
+
+# {"path":"/js/trans.js","row":"54","tags":null}
+#. tid/32591/type/StringLiteral
+#. tid/35393/type/StringLiteral
+msgctxt "tpp:/js/trans.js:54"
+msgid "Batch translation"
+msgstr "Dịch hàng loạt"
+
+# {"path":"/js/trans.js","row":"55","tags":null}
+#. tid/32618/type/StringLiteral
+msgctxt "tpp:/js/trans.js:55"
+msgid "Send to..."
+msgstr "Gửi đến..."
+
+# {"path":"/js/trans.js","row":"56","tags":null}
+#. tid/32660/type/StringLiteral
+#. tid/35409/type/StringLiteral
+msgctxt "tpp:/js/trans.js:56"
+msgid "Wrap texts"
+msgstr "Gói văn bản"
+
+# {"path":"/js/trans.js","row":"57","tags":null}
+#. tid/32682/type/StringLiteral
+msgctxt "tpp:/js/trans.js:57"
+msgid "Trim"
+msgstr "Cắt tỉa"
+
+# {"path":"/js/trans.js","row":"58","tags":null}
+#. tid/32704/type/StringLiteral
+msgctxt "tpp:/js/trans.js:58"
+msgid "Auto padding"
+msgstr "Tự động đệm"
+
+# {"path":"/js/trans.js","row":"59","tags":null}
+#. tid/32726/type/StringLiteral
+msgctxt "tpp:/js/trans.js:59"
+msgid "Context Tool"
+msgstr "Công cụ Ngữ cảnh"
+
+# {"path":"/js/trans.js","row":"60","tags":null}
+#. tid/32750/type/StringLiteral
+#. tid/101514/type/StringLiteral
+msgctxt "tpp:/js/trans.js:60"
+msgid "Create Automation"
+msgstr "Tạo Tự động hóa"
+
+# {"path":"/js/trans.js","row":"61","tags":null}
+#. tid/32779/type/StringLiteral
+#. tid/32862/type/StringLiteral
+msgctxt "tpp:/js/trans.js:61"
+msgid "For each object"
+msgstr "Cho mỗi đối tượng"
+
+# {"path":"/js/trans.js","row":"62","tags":null}
+#. tid/32801/type/StringLiteral
+#. tid/32919/type/StringLiteral
+msgctxt "tpp:/js/trans.js:62"
+msgid "For each row"
+msgstr "Cho mỗi hàng"
+
+# {"path":"/js/trans.js","row":"63","tags":null}
+#. tid/32831/type/StringLiteral
+#. tid/101624/type/StringLiteral
+msgctxt "tpp:/js/trans.js:63"
+msgid "Run Automation"
+msgstr "Chạy Tự động hóa"
+
+# {"path":"/js/trans.js","row":"64","tags":null}
+#. tid/32972/type/StringLiteral
+msgctxt "tpp:/js/trans.js:64"
+msgid "Import from..."
+msgstr "Nhập từ..."
+
+# {"path":"/js/trans.js","row":"65","tags":null}
+#. tid/32999/type/StringLiteral
+msgctxt "tpp:/js/trans.js:65"
+msgid "Trans File"
+msgstr "Tệp Dịch"
+
+# {"path":"/js/trans.js","row":"66","tags":null}
+#. tid/33020/type/StringLiteral
+msgctxt "tpp:/js/trans.js:66"
+msgid "Spreadsheets"
+msgstr "Bảng tính"
+
+# {"path":"/js/trans.js","row":"67","tags":null}
+#. tid/33041/type/StringLiteral
+msgctxt "tpp:/js/trans.js:67"
+msgid "RPGMTransPatch Files"
+msgstr "Tệp RPGMTransPatch"
+
+# {"path":"/js/trans.js","row":"68","tags":null}
+#. tid/33068/type/StringLiteral
+msgctxt "tpp:/js/trans.js:68"
+msgid "Export into..."
+msgstr "Xuất ra..."
+
+# {"path":"/js/trans.js","row":"69","tags":null}
+#. tid/33095/type/StringLiteral
+msgctxt "tpp:/js/trans.js:69"
+msgid "A folder"
+msgstr "Một thư mục"
+
+# {"path":"/js/trans.js","row":"70","tags":null}
+#. tid/33121/type/StringLiteral
+msgctxt "tpp:/js/trans.js:70"
+msgid "Zipped Game Patch"
+msgstr "Bản vá Trò chơi Nén"
+
+# {"path":"/js/trans.js","row":"71","tags":null}
+#. tid/33146/type/StringLiteral
+msgctxt "tpp:/js/trans.js:71"
+msgid "Comma Separated Value (csv)"
+msgstr "Giá trị Phân tách bằng Dấu phẩy (csv)"
+
+# {"path":"/js/trans.js","row":"72","tags":null}
+#. tid/33171/type/StringLiteral
+msgctxt "tpp:/js/trans.js:72"
+msgid "Excel 2007 Spreadsheets (xlsx)"
+msgstr "Bảng tính Excel 2007 (xlsx)"
+
+# {"path":"/js/trans.js","row":"73","tags":null}
+#. tid/33196/type/StringLiteral
+msgctxt "tpp:/js/trans.js:73"
+msgid "Excel Spreadsheets (xls)"
+msgstr "Bảng tính Excel (xls)"
+
+# {"path":"/js/trans.js","row":"74","tags":null}
+#. tid/33221/type/StringLiteral
+msgctxt "tpp:/js/trans.js:74"
+msgid "ODS Spreadsheets"
+msgstr "Bảng tính ODS"
+
+# {"path":"/js/trans.js","row":"75","tags":null}
+#. tid/33246/type/StringLiteral
+msgctxt "tpp:/js/trans.js:75"
+msgid "Html Spreadsheets"
+msgstr "Bảng tính Html"
+
+# {"path":"/js/trans.js","row":"76","tags":null}
+#. tid/33271/type/StringLiteral
+msgctxt "tpp:/js/trans.js:76"
+msgid "RMTrans Patch"
+msgstr "Bản vá RMTrans"
+
+# {"path":"/js/trans.js","row":"77","tags":null}
+#. tid/33304/type/StringLiteral
+msgctxt "tpp:/js/trans.js:77"
+msgid "Inject Translation"
+msgstr "Chèn bản dịch"
+
+# {"path":"/js/trans.js","row":"78","tags":null}
+#. tid/33331/type/StringLiteral
+msgctxt "tpp:/js/trans.js:78"
+msgid "Revert to original"
+msgstr "Khôi phục về bản gốc"
+
+# {"path":"/js/trans.js","row":"79","tags":null}
+#. tid/33362/type/StringLiteral
+msgctxt "tpp:/js/trans.js:79"
+msgid "Clear translation"
+msgstr "Xóa bản dịch"
+
+# {"path":"/js/trans.js","row":"80","tags":null}
+#. tid/33383/type/StringLiteral
+msgctxt "tpp:/js/trans.js:80"
+msgid "Delete files"
+msgstr "Xóa tệp"
+
+# {"path":"/js/trans.js","row":"81","tags":null}
+#. tid/33420/type/StringLiteral
+msgctxt "tpp:/js/trans.js:81"
+msgid "Properties"
+msgstr "Thuộc tính"
+
+# {"path":"/js/trans.js","row":"82","tags":null}
+#. tid/33689/type/StringLiteral
+msgctxt "tpp:/js/trans.js:82"
+msgid "Select progress greater than"
+msgstr "Chọn tiến trình lớn hơn"
+
+# {"path":"/js/trans.js","row":"83","tags":null}
+#. tid/33717/type/StringLiteral
+msgctxt "tpp:/js/trans.js:83"
+msgid "Please input a number"
+msgstr "Vui lòng nhập một số"
+
+# {"path":"/js/trans.js","row":"84","tags":null}
+#. tid/34059/type/StringLiteral
+#. tid/34135/type/StringLiteral
+msgctxt "tpp:/js/trans.js:84"
+msgid "Do you want to clear translation?"
+msgstr "Bạn có muốn xóa bản dịch không?"
+
+# {"path":"/js/trans.js","row":"85","tags":null}
+#. tid/35263/type/StringLiteral
+#. tid/98890/type/StringLiteral
+msgctxt "tpp:/js/trans.js:85"
+msgid "Add comment"
+msgstr "Thêm bình luận"
+
+# {"path":"/js/trans.js","row":"86","tags":null}
+#. tid/35297/type/StringLiteral
+msgctxt "tpp:/js/trans.js:86"
+msgid "Remove comment"
+msgstr "Xóa bình luận"
+
+# {"path":"/js/trans.js","row":"87","tags":null}
+#. tid/39576/type/StringLiteral
+msgctxt "tpp:/js/trans.js:87"
+msgid "added to reference table!"
+msgstr "đã thêm vào bảng tham chiếu!"
+
+# {"path":"/js/trans.js","row":"88","tags":null}
+#. tid/39914/type/StringLiteral
+msgctxt "tpp:/js/trans.js:88"
+msgid "Can not modify Column 0"
+msgstr "Không thể sửa đổi Cột 0"
+
+# {"path":"/js/trans.js","row":"89","tags":null}
+#. tid/43321/type/StringLiteral
+msgctxt "tpp:/js/trans.js:89"
+msgid "Unable to delete table : "
+msgstr "Không thể xóa bảng : "
+
+# {"path":"/js/trans.js","row":"90","tags":null}
+#. tid/44600/type/StringLiteral
+msgctxt "tpp:/js/trans.js:90"
+msgid "Can not remove key column!"
+msgstr "Không thể xóa cột khóa!"
+
+# {"path":"/js/trans.js","row":"91","tags":null}
+#. tid/44666/type/StringLiteral
+msgctxt "tpp:/js/trans.js:91"
+msgid "Please open or create a project first"
+msgstr "Vui lòng mở hoặc tạo một dự án trước"
+
+# {"path":"/js/trans.js","row":"92","tags":null}
+#. tid/44932/type/StringLiteral
+msgctxt "tpp:/js/trans.js:92"
+msgid "Column name can not be empty!"
+msgstr "Tên cột không được để trống!"
+
+# {"path":"/js/trans.js","row":"93","tags":null}
+#. tid/44954/type/StringLiteral
+msgctxt "tpp:/js/trans.js:93"
+msgid "Invalid column index!"
+msgstr "Chỉ mục cột không hợp lệ!"
+
+# {"path":"/js/trans.js","row":"94","tags":null}
+#. tid/58427/type/StringLiteral
+msgctxt "tpp:/js/trans.js:94"
+msgid "Please open or create a new project first!"
+msgstr "Vui lòng mở hoặc tạo một dự án mới trước!"
+
+# {"path":"/js/trans.js","row":"95","tags":null}
+#. tid/66214/type/StringLiteral
+msgctxt "tpp:/js/trans.js:95"
+msgid "You should not edit key value"
+msgstr "Bạn không nên chỉnh sửa giá trị khóa"
+
+# {"path":"/js/trans.js","row":"96","tags":null}
+#. tid/66289/type/StringLiteral
+msgctxt "tpp:/js/trans.js:96"
+msgid "Ilegal value"
+msgstr "Giá trị không hợp lệ"
+
+# {"path":"/js/trans.js","row":"97","tags":null}
+#. tid/66306/type/StringLiteral
+msgctxt "tpp:/js/trans.js:97"
+msgid "That value already exist!"
+msgstr "Giá trị đó đã tồn tại!"
+
+# {"path":"/js/trans.js","row":"98","tags":null}
+#. tid/70523/type/StringLiteral
+msgctxt "tpp:/js/trans.js:98"
+msgid "The maximum number of columns for this project has been reached, so you cannot add any more."
+msgstr "Số cột tối đa cho dự án này đã đạt đến, vì vậy bạn không thể thêm nữa."
+
+# {"path":"/js/trans.js","row":"99","tags":null}
+#. tid/76017/type/StringLiteral
+#. tid/76617/type/StringLiteral
+#. tid/79488/type/StringLiteral
+msgctxt "tpp:/js/trans.js:99"
+msgid "Are you sure want to abort this process?"
+msgstr "Bạn có chắc muốn hủy bỏ quá trình này?"
+
+# {"path":"/js/trans.js","row":"100","tags":null}
+#. tid/76071/type/StringLiteral
+#. tid/76668/type/StringLiteral
+#. tid/79539/type/StringLiteral
+msgctxt "tpp:/js/trans.js:100"
+msgid ""
+"Process paused!\n"
+"Press OK to continue!"
+msgstr ""
+"Quá trình tạm dừng!\n"
+"Nhấn OK để tiếp tục!"
+
+# {"path":"/js/trans.js","row":"101","tags":null}
+#. tid/76219/type/StringLiteral
+#. tid/79057/type/StringLiteral
+msgctxt "tpp:/js/trans.js:101"
+msgid "Unable to process, project not found"
+msgstr "Không thể xử lý, không tìm thấy dự án"
+
+# {"path":"/js/trans.js","row":"102","tags":null}
+#. tid/76249/type/StringLiteral
+#. tid/79087/type/StringLiteral
+msgctxt "tpp:/js/trans.js:102"
+msgid "Unable to process, data not found"
+msgstr "Không thể xử lý, không tìm thấy dữ liệu"
+
+# {"path":"/js/trans.js","row":"103","tags":null}
+#. tid/76275/type/StringLiteral
+#. tid/79113/type/StringLiteral
+msgctxt "tpp:/js/trans.js:103"
+msgid "Translation engine not found"
+msgstr "Không tìm thấy công cụ dịch"
+
+# {"path":"/js/trans.js","row":"104","tags":null}
+#. tid/76297/type/StringLiteral
+#. tid/79135/type/StringLiteral
+msgctxt "tpp:/js/trans.js:104"
+msgid "Translation engine "
+msgstr "Công cụ dịch "
+
+# {"path":"/js/trans.js","row":"105","tags":null}
+#. tid/76304/type/StringLiteral
+#. tid/79142/type/StringLiteral
+msgctxt "tpp:/js/trans.js:105"
+msgid " is disabled!"
+msgstr " đã bị vô hiệu hóa!"
+
+# {"path":"/js/trans.js","row":"106","tags":null}
+#. tid/76875/type/StringLiteral
+#. tid/79736/type/StringLiteral
+msgctxt "tpp:/js/trans.js:106"
+msgid "Selected files :"
+msgstr "Các tệp đã chọn:"
+
+# {"path":"/js/trans.js","row":"107","tags":null}
+#. tid/76957/type/StringLiteral
+msgctxt "tpp:/js/trans.js:107"
+msgid "Collecting data from :"
+msgstr "Đang thu thập dữ liệu từ:"
+
+# {"path":"/js/trans.js","row":"108","tags":null}
+#. tid/78110/type/StringLiteral
+#. tid/80887/type/StringLiteral
+msgctxt "tpp:/js/trans.js:108"
+msgid "Translation finished"
+msgstr "Dịch hoàn tất"
+
+# {"path":"/js/trans.js","row":"109","tags":null}
+#. tid/78380/type/StringLiteral
+#. tid/81311/type/StringLiteral
+msgctxt "tpp:/js/trans.js:109"
+msgid "applying translation to table!"
+msgstr "Đang áp dụng bản dịch vào bảng!"
+
+# {"path":"/js/trans.js","row":"110","tags":null}
+#. tid/78832/type/StringLiteral
+#. tid/81644/type/StringLiteral
+msgctxt "tpp:/js/trans.js:110"
+msgid "Error when translating data!"
+msgstr "Lỗi khi dịch dữ liệu!"
+
+# {"path":"/js/trans.js","row":"111","tags":null}
+#. tid/78841/type/StringLiteral
+#. tid/81653/type/StringLiteral
+msgctxt "tpp:/js/trans.js:111"
+msgid "\tHTTP Status : "
+msgstr "\tTrạng thái HTTP: "
+
+# {"path":"/js/trans.js","row":"112","tags":null}
+#. tid/78854/type/StringLiteral
+#. tid/81666/type/StringLiteral
+msgctxt "tpp:/js/trans.js:112"
+msgid "\tError Type : "
+msgstr "\tLoại lỗi: "
+
+# {"path":"/js/trans.js","row":"113","tags":null}
+#. tid/78865/type/StringLiteral
+#. tid/81677/type/StringLiteral
+msgctxt "tpp:/js/trans.js:113"
+msgid ""
+"You are probably temporarily banned by your translation service!\r\n"
+"Please use online translation service in moderation\r\n"
+"This usualy fixed by itself within a day or two.\r\n"
+""
+msgstr ""
+"Bạn có thể đã bị cấm tạm thời bởi dịch vụ dịch thuật của bạn!\r\n"
+"Vui lòng sử dụng dịch vụ dịch trực tuyến một cách điều độ\r\n"
+"Điều này thường tự khắc phục trong vòng một hoặc hai ngày.\r\n"
+""
+
+# {"path":"/js/trans.js","row":"114","tags":null}
+#. tid/79012/type/StringLiteral
+msgctxt "tpp:/js/trans.js:114"
+msgid "Running trans.translateAll"
+msgstr "Đang chạy trans.translateAll"
+
+# {"path":"/js/trans.js","row":"115","tags":null}
+#. tid/79678/type/StringLiteral
+msgctxt "tpp:/js/trans.js:115"
+msgid "Start collecting data!"
+msgstr "Bắt đầu thu thập dữ liệu!"
+
+# {"path":"/js/trans.js","row":"116","tags":null}
+#. tid/80364/type/StringLiteral
+msgctxt "tpp:/js/trans.js:116"
+msgid "Data collection is done!"
+msgstr "Thu thập dữ liệu đã hoàn tất!"
+
+# {"path":"/js/trans.js","row":"117","tags":null}
+#. tid/82265/type/StringLiteral
+#. tid/83259/type/StringLiteral
+#. tid/83877/type/StringLiteral
+#. tid/84476/type/StringLiteral
+msgctxt "tpp:/js/trans.js:117"
+msgid "nothing is selected"
+msgstr "không có gì được chọn"
+
+# {"path":"/js/trans.js","row":"118","tags":null}
+#. tid/82313/type/StringLiteral
+#. tid/83307/type/StringLiteral
+#. tid/83925/type/StringLiteral
+msgctxt "tpp:/js/trans.js:118"
+msgid "no translator loaded"
+msgstr "không có trình dịch nào được tải"
+
+# {"path":"/js/trans.js","row":"119","tags":null}
+#. tid/84966/type/StringLiteral
+msgctxt "tpp:/js/trans.js:119"
+msgid "unable to load translator window"
+msgstr "không thể tải cửa sổ trình dịch"
+
+# {"path":"/js/trans.js","row":"120","tags":null}
+#. tid/85166/type/StringLiteral
+msgctxt "tpp:/js/trans.js:120"
+msgid "Reference path cannot empty!"
+msgstr "Đường dẫn tham chiếu không thể để trống!"
+
+# {"path":"/js/trans.js","row":"121","tags":null}
+#. tid/85457/type/StringLiteral
+msgctxt "tpp:/js/trans.js:121"
+msgid "Collecting translation refference"
+msgstr "Đang thu thập tham chiếu bản dịch"
+
+# {"path":"/js/trans.js","row":"122","tags":null}
+#. tid/85804/type/StringLiteral
+msgctxt "tpp:/js/trans.js:122"
+msgid "Applying translation!"
+msgstr "Đang áp dụng bản dịch!"
+
+# {"path":"/js/trans.js","row":"123","tags":null}
+#. tid/86478/type/StringLiteral
+msgctxt "tpp:/js/trans.js:123"
+msgid "Importing translation"
+msgstr "Đang nhập bản dịch"
+
+# {"path":"/js/trans.js","row":"124","tags":null}
+#. tid/86677/type/StringLiteral
+msgctxt "tpp:/js/trans.js:124"
+msgid "Parsing data"
+msgstr "Đang phân tích dữ liệu"
+
+# {"path":"/js/trans.js","row":"125","tags":null}
+#. tid/92048/type/StringLiteral
+#. tid/96007/type/StringLiteral
+msgctxt "tpp:/js/trans.js:125"
+msgid ""
+" is not a valid javascript's regexp!\r\n"
+"Find out more about Javascipt's Regular Expression at :\r\n"
+"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"
+msgstr ""
+" không phải là biểu thức chính quy JavaScript hợp lệ!\r\n"
+"Tìm hiểu thêm về Biểu thức Chính quy JavaScript tại:\r\n"
+"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"
+
+# {"path":"/js/trans.js","row":"126","tags":null}
+#. tid/95677/type/StringLiteral
+#. tid/96832/type/StringLiteral
+msgctxt "tpp:/js/trans.js:126"
+msgid "Keyword too short!"
+msgstr "Từ khóa quá ngắn!"
+
+# {"path":"/js/trans.js","row":"127","tags":null}
+#. tid/98964/type/StringLiteral
+msgctxt "tpp:/js/trans.js:127"
+msgid "Delete comment"
+msgstr "Xóa bình luận"
+
+# {"path":"/js/trans.js","row":"128","tags":null}
+#. tid/99062/type/StringLiteral
+msgctxt "tpp:/js/trans.js:128"
+msgid "Translate here"
+msgstr "Dịch ở đây"
+
+# {"path":"/js/trans.js","row":"129","tags":null}
+#. tid/99217/type/StringLiteral
+msgctxt "tpp:/js/trans.js:129"
+msgid "Translate here using "
+msgstr "Dịch ở đây bằng "
+
+# {"path":"/js/trans.js","row":"130","tags":null}
+#. tid/99365/type/StringLiteral
+msgctxt "tpp:/js/trans.js:130"
+msgid "Translate using..."
+msgstr "Dịch bằng..."
+
+# {"path":"/js/trans.js","row":"131","tags":null}
+#. tid/99582/type/StringLiteral
+msgctxt "tpp:/js/trans.js:131"
+msgid "Do you want to translate all the same texts found across this project with the translation on the selected cell(s)?"
+msgstr "Bạn có muốn dịch tất cả các văn bản giống nhau được tìm thấy trong dự án này với bản dịch trên ô đã chọn không?"
+
+# {"path":"/js/trans.js","row":"132","tags":null}
+#. tid/99624/type/NoSubstitutionTemplate
+msgctxt "tpp:/js/trans.js:132"
+msgid " cell(s) has been written!"
+msgstr " ô đã được ghi!"
+
+# {"path":"/js/trans.js","row":"133","tags":null}
+#. tid/99654/type/StringLiteral
+msgctxt "tpp:/js/trans.js:133"
+msgid "Column width"
+msgstr "Độ rộng cột"
+
+# {"path":"/js/trans.js","row":"134","tags":null}
+#. tid/99755/type/StringLiteral
+msgctxt "tpp:/js/trans.js:134"
+msgid "Width must greater than 0"
+msgstr "Độ rộng phải lớn hơn 0"
+
+# {"path":"/js/trans.js","row":"135","tags":null}
+#. tid/99946/type/StringLiteral
+msgctxt "tpp:/js/trans.js:135"
+msgid "Insert column right"
+msgstr "Chèn cột bên phải"
+
+# {"path":"/js/trans.js","row":"136","tags":null}
+#. tid/100049/type/StringLiteral
+msgctxt "tpp:/js/trans.js:136"
+msgid "Duplicate column"
+msgstr "Nhân bản cột"
+
+# {"path":"/js/trans.js","row":"137","tags":null}
+#. tid/100366/type/StringLiteral
+msgctxt "tpp:/js/trans.js:137"
+msgid "Remove this column"
+msgstr "Xóa cột này"
+
+# {"path":"/js/trans.js","row":"138","tags":null}
+#. tid/100407/type/StringLiteral
+msgctxt "tpp:/js/trans.js:138"
+msgid ""
+"Remove selected column?\n"
+"This can not be undone!"
+msgstr ""
+"Xóa cột đã chọn?\n"
+"Hành động này không thể hoàn tác!"
+
+# {"path":"/js/trans.js","row":"139","tags":null}
+#. tid/100524/type/StringLiteral
+msgctxt "tpp:/js/trans.js:139"
+msgid "Rename this column"
+msgstr "Đổi tên cột này"
+
+# {"path":"/js/trans.js","row":"140","tags":null}
+#. tid/100597/type/StringLiteral
+msgctxt "tpp:/js/trans.js:140"
+msgid "Please enter new name"
+msgstr "Vui lòng nhập tên mới"
+
+# {"path":"/js/trans.js","row":"141","tags":null}
+#. tid/100720/type/StringLiteral
+msgctxt "tpp:/js/trans.js:141"
+msgid "Tags"
+msgstr "Thẻ"
+
+# {"path":"/js/trans.js","row":"142","tags":null}
+#. tid/100754/type/StringLiteral
+msgctxt "tpp:/js/trans.js:142"
+msgid "Red"
+msgstr "Đỏ"
+
+# {"path":"/js/trans.js","row":"143","tags":null}
+#. tid/100812/type/StringLiteral
+msgctxt "tpp:/js/trans.js:143"
+msgid "Yellow"
+msgstr "Vàng"
+
+# {"path":"/js/trans.js","row":"144","tags":null}
+#. tid/100870/type/StringLiteral
+msgctxt "tpp:/js/trans.js:144"
+msgid "Green"
+msgstr "Xanh lá"
+
+# {"path":"/js/trans.js","row":"145","tags":null}
+#. tid/100928/type/StringLiteral
+msgctxt "tpp:/js/trans.js:145"
+msgid "Blue"
+msgstr "Xanh dương"
+
+# {"path":"/js/trans.js","row":"146","tags":null}
+#. tid/100986/type/StringLiteral
+msgctxt "tpp:/js/trans.js:146"
+msgid "Gold"
+msgstr "Vàng kim"
+
+# {"path":"/js/trans.js","row":"147","tags":null}
+#. tid/101044/type/StringLiteral
+msgctxt "tpp:/js/trans.js:147"
+msgid "More tags..."
+msgstr "Thêm thẻ..."
+
+# {"path":"/js/trans.js","row":"148","tags":null}
+#. tid/101109/type/StringLiteral
+msgctxt "tpp:/js/trans.js:148"
+msgid "Clear tags"
+msgstr "Xóa thẻ"
+
+# {"path":"/js/trans.js","row":"149","tags":null}
+#. tid/101200/type/StringLiteral
+msgctxt "tpp:/js/trans.js:149"
+msgid "Delete Row"
+msgstr "Xóa Hàng"
+
+# {"path":"/js/trans.js","row":"150","tags":null}
+#. tid/101237/type/StringLiteral
+msgctxt "tpp:/js/trans.js:150"
+msgid "Do you want to remove the currently selected row(s)?"
+msgstr "Bạn có muốn xóa hàng đã chọn hiện tại không?"
+
+# {"path":"/js/trans.js","row":"151","tags":null}
+#. tid/101366/type/StringLiteral
+msgctxt "tpp:/js/trans.js:151"
+msgid "Clear Context Translation"
+msgstr "Xóa Bản Dịch Ngữ Cảnh"
+
+# {"path":"/js/trans.js","row":"152","tags":null}
+#. tid/101648/type/StringLiteral
+msgctxt "tpp:/js/trans.js:152"
+msgid "Clear Automation"
+msgstr "Xóa Tự Động Hóa"
+
+# {"path":"/js/trans.js","row":"153","tags":null}
+#. tid/101673/type/StringLiteral
+msgctxt "tpp:/js/trans.js:153"
+msgid "Are you sure want to clear all quick launch scripts?"
+msgstr "Bạn có chắc muốn xóa tất cả tập lệnh khởi chạy nhanh không?"
+
+# {"path":"/js/trans.js","row":"154","tags":null}
+#. tid/101740/type/StringLiteral
+msgctxt "tpp:/js/trans.js:154"
+msgid "Append rows to reference"
+msgstr "Thêm hàng vào tham chiếu"
+
+# {"path":"/js/trans.js","row":"155","tags":null}
+#. tid/101828/type/StringLiteral
+msgctxt "tpp:/js/trans.js:155"
+msgid "Row properties"
+msgstr "Thuộc tính hàng"

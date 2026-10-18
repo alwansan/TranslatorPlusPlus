@@ -1,0 +1,526 @@
+<svg version="1.1" id="el_JMF8_WJjV" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<style>
+@-webkit-keyframes show {
+	0% {
+		opacity: 0;
+	}
+	99% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes hide {
+	0% {
+		opacity: 1;
+	}
+	99% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes kf_el_sYXqLwzdSm_an_E9gDSHKBr {
+	0% {
+		opacity: 0;
+	}
+	55.71% {
+		opacity: 0;
+	}
+	68.57% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes kf_el_sYXqLwzdSm_an_E9gDSHKBr {
+	0% {
+		opacity: 0;
+	}
+	55.71% {
+		opacity: 0;
+	}
+	68.57% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes kf_el_pxn-e3ucN__an_ZlN-zuH1s {
+	0% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(0.01, 0.01) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(0.01, 0.01) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	19.52% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	28.57% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	100% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+}
+
+@keyframes kf_el_pxn-e3ucN__an_ZlN-zuH1s {
+	0% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(0.01, 0.01) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(0.01, 0.01) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	19.52% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	28.57% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	100% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) scale(1, 1) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+}
+
+@-webkit-keyframes kf_el_swmpE1mnFO_an_IzJfkykt6 {
+	0% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(0.01, 0.01) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(0.01, 0.01) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	19.52% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	28.57% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	100% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+}
+
+@keyframes kf_el_swmpE1mnFO_an_IzJfkykt6 {
+	0% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(0.01, 0.01) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(0.01, 0.01) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	19.52% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	28.57% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	100% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) scale(1, 1) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+}
+
+@-webkit-keyframes kf_el_swmpE1mnFO_an_GnzmShBqH {
+	0% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+	}
+	28.57% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+	}
+	49.52% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+	}
+	100% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+	}
+}
+
+@keyframes kf_el_swmpE1mnFO_an_GnzmShBqH {
+	0% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+	}
+	28.57% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+	}
+	49.52% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+	}
+	100% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(0px, 0px);
+	}
+}
+
+@-webkit-keyframes kf_el_pxn-e3ucN__an_blg_8jMSR {
+	0% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+	}
+	28.57% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+	}
+	50% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+	}
+	100% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+	}
+}
+
+@keyframes kf_el_pxn-e3ucN__an_blg_8jMSR {
+	0% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+	}
+	28.57% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+	}
+	50% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+	}
+	100% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(0px, 0px);
+	}
+}
+
+@-webkit-keyframes kf_el_sYXqLwzdSm_an_vajYgKsCJ {
+	0% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+	}
+	55.71% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+	}
+	68.57% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+	}
+	100% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+	}
+}
+
+@keyframes kf_el_sYXqLwzdSm_an_vajYgKsCJ {
+	0% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+	}
+	55.71% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+	}
+	68.57% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+	}
+	100% {
+		-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+		transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(0px, 0px);
+	}
+}
+
+@-webkit-keyframes kf_el_swmpE1mnFO_an_b4E0lrfA4 {
+	0% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(3600deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(3600deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	19.52% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	28.57% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	100% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+}
+
+@keyframes kf_el_swmpE1mnFO_an_b4E0lrfA4 {
+	0% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(3600deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(3600deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	19.52% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	28.57% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+	100% {
+		-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+		transform: translate(573.4009857177734px, 480.04200744628906px) rotate(4320deg) translate(-573.4009857177734px, -480.04200744628906px);
+	}
+}
+
+@-webkit-keyframes kf_el_pxn-e3ucN__an_d8rK8PzsV {
+	0% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(3600deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(3600deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	19.52% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	28.57% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	100% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+}
+
+@keyframes kf_el_pxn-e3ucN__an_d8rK8PzsV {
+	0% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(3600deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(3600deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	19.52% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	28.57% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+	100% {
+		-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+		transform: translate(226.59800720214844px, 319.9564895629883px) rotate(4320deg) translate(-226.59800720214844px, -319.9564895629883px);
+	}
+}
+
+#el_JMF8_WJjV * {
+	-webkit-animation-duration: 7s;
+	animation-duration: 7s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+	animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
+#el_Le6NLMhVvq {
+	fill: #010101;
+}
+
+#el_Hhha8TV0yy {
+	fill: none;
+	stroke: #010101;
+	stroke-width: 0.72;
+}
+
+#el_pxn-e3ucN_ {
+	fill: #010101;
+	stroke: #000000;
+	stroke-width: 0.72;
+}
+
+#el_sYXqLwzdSm {
+	fill: #ED2224;
+	stroke: #ED2224;
+	stroke-width: 0.72;
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	opacity: 0;
+	-webkit-animation-name: kf_el_sYXqLwzdSm_an_E9gDSHKBr;
+	animation-name: kf_el_sYXqLwzdSm_an_E9gDSHKBr;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+	animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+#el_pxn-e3ucN__an_R5o0kDO1m {
+	-webkit-transform: translate(13.097000122070312px, 106.4540023803711px) rotate(0deg) translate(-13.097000122070312px, -106.4540023803711px);
+	transform: translate(13.097000122070312px, 106.4540023803711px) rotate(0deg) translate(-13.097000122070312px, -106.4540023803711px);
+}
+
+#el_pxn-e3ucN__an_nPD0WpUpz {
+	-webkit-transform: translate(13.097000122070312px, 106.4540023803711px) translate(-13.097000122070312px, -106.4540023803711px) translate(0px, 0px);
+	transform: translate(13.097000122070312px, 106.4540023803711px) translate(-13.097000122070312px, -106.4540023803711px) translate(0px, 0px);
+}
+
+#el_pxn-e3ucN__an_WywPy4GDm {
+	-webkit-transform: translate(13.097000122070312px, 106.4540023803711px) translate(-13.097000122070312px, -106.4540023803711px) translate(150px, 125px);
+	transform: translate(13.097000122070312px, 106.4540023803711px) translate(-13.097000122070312px, -106.4540023803711px) translate(150px, 125px);
+}
+
+#el_sYXqLwzdSm_an_vajYgKsCJ {
+	-webkit-transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+	transform: translate(173.1840057373047px, 586.8709716796875px) translate(-173.1840057373047px, -586.8709716796875px) translate(150px, 0px);
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-animation-name: kf_el_sYXqLwzdSm_an_vajYgKsCJ;
+	animation-name: kf_el_sYXqLwzdSm_an_vajYgKsCJ;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+	animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+#el_pxn-e3ucN__an_d8rK8PzsV {
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) rotate(3600deg) translate(-226.59800720214844px, -319.9564895629883px);
+	transform: translate(226.59800720214844px, 319.9564895629883px) rotate(3600deg) translate(-226.59800720214844px, -319.9564895629883px);
+	-webkit-animation-name: kf_el_pxn-e3ucN__an_d8rK8PzsV;
+	animation-name: kf_el_pxn-e3ucN__an_d8rK8PzsV;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+	animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+#el_I2FT6KtlYk_an_jbwoPUFp1 {
+	-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(0deg) translate(-573.4009857177734px, -480.04200744628906px);
+	transform: translate(573.4009857177734px, 480.04200744628906px) rotate(0deg) translate(-573.4009857177734px, -480.04200744628906px);
+}
+
+#el_swmpE1mnFO_an_b4E0lrfA4 {
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) rotate(3600deg) translate(-573.4009857177734px, -480.04200744628906px);
+	transform: translate(573.4009857177734px, 480.04200744628906px) rotate(3600deg) translate(-573.4009857177734px, -480.04200744628906px);
+	-webkit-animation-name: kf_el_swmpE1mnFO_an_b4E0lrfA4;
+	animation-name: kf_el_swmpE1mnFO_an_b4E0lrfA4;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+	animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+#el_pxn-e3ucN__an_blg_8jMSR {
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+	transform: translate(226.59800720214844px, 319.9564895629883px) translate(-226.59800720214844px, -319.9564895629883px) translate(175px, 80px);
+	-webkit-animation-name: kf_el_pxn-e3ucN__an_blg_8jMSR;
+	animation-name: kf_el_pxn-e3ucN__an_blg_8jMSR;
+	-webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+	animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#el_swmpE1mnFO_an_GnzmShBqH {
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+	transform: translate(573.4009857177734px, 480.04200744628906px) translate(-573.4009857177734px, -480.04200744628906px) translate(-170px, -80px);
+	-webkit-animation-name: kf_el_swmpE1mnFO_an_GnzmShBqH;
+	animation-name: kf_el_swmpE1mnFO_an_GnzmShBqH;
+	-webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+	animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#el_swmpE1mnFO_an_IzJfkykt6 {
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-transform: translate(573.4009857177734px, 480.04200744628906px) scale(0.01, 0.01) translate(-573.4009857177734px, -480.04200744628906px);
+	transform: translate(573.4009857177734px, 480.04200744628906px) scale(0.01, 0.01) translate(-573.4009857177734px, -480.04200744628906px);
+	-webkit-animation-name: kf_el_swmpE1mnFO_an_IzJfkykt6;
+	animation-name: kf_el_swmpE1mnFO_an_IzJfkykt6;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+	animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
+#el_pxn-e3ucN__an_ZlN-zuH1s {
+	-webkit-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	-webkit-transform: translate(226.59800720214844px, 319.9564895629883px) scale(0.01, 0.01) translate(-226.59800720214844px, -319.9564895629883px);
+	transform: translate(226.59800720214844px, 319.9564895629883px) scale(0.01, 0.01) translate(-226.59800720214844px, -319.9564895629883px);
+	-webkit-animation-name: kf_el_pxn-e3ucN__an_ZlN-zuH1s;
+	animation-name: kf_el_pxn-e3ucN__an_ZlN-zuH1s;
+	-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+	animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+#el_2Y9Y5rwt3p {
+	-webkit-animation-duration: 7s;
+	animation-duration: 7s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-name: hide;
+	animation-name: hide;
+
+}
+
+#mainDisplay {
+	-webkit-animation-duration: 7s;
+	animation-duration: 7s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-name: show;
+	animation-name: show;
+	
+}
+
+#redBar {
+	fill: #ED2224;
+    stroke: #ED2224;
+    stroke-width: 0.72;
+	
+	
+}
+</style>
+<g id="el_2Y9Y5rwt3p">
+	<defs>
+		<polyline id="SVGID_1_" points="790,697.105 790,102.894 10,102.894 10,697.105 790,697.105 &#9;&#9;"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_" overflow="visible"/>
+	</clipPath>
+	<g id="el_swmpE1mnFO_an_GnzmShBqH" data-animator-group="true" data-animator-type="0"><g id="el_swmpE1mnFO_an_b4E0lrfA4" data-animator-group="true" data-animator-type="1"><g id="el_swmpE1mnFO_an_IzJfkykt6" data-animator-group="true" data-animator-type="2"><g id="el_swmpE1mnFO" clip-path="url(#SVGID_2_)">
+		<g id="el_I2FT6KtlYk">
+			<polygon points="786.902,426.628 786.902,533.456 626.815,533.456 626.815,693.543 520.142,693.543 &#10;&#9;&#9;&#9;&#9;520.142,533.456 359.9,533.456 359.9,426.628 520.142,426.628 520.142,266.541 626.815,266.541 626.815,426.628 &#9;&#9;&#9;" id="el_Le6NLMhVvq"/>
+		</g>
+		<g id="el_HIM5renVvA">
+			
+				<polygon stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#10;&#9;&#9;&#9;&#9;520.142,266.541 626.815,266.541 626.815,426.628 786.902,426.628 786.902,533.456 626.815,533.456 626.815,693.543 &#10;&#9;&#9;&#9;&#9;520.142,693.543 520.142,533.456 359.9,533.456 359.9,426.628 520.142,426.628 &#9;&#9;&#9;" id="el_Hhha8TV0yy"/>
+		</g>
+	</g></g></g></g>
+	
+		<g id="el_pxn-e3ucN__an_blg_8jMSR" data-animator-group="true" data-animator-type="0"><g id="el_pxn-e3ucN__an_d8rK8PzsV" data-animator-group="true" data-animator-type="1"><g id="el_pxn-e3ucN__an_ZlN-zuH1s" data-animator-group="true" data-animator-type="2"><polyline clip-path="url(#SVGID_2_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#10;&#9;&#9;173.184,106.454 279.857,106.454 279.857,266.542 440.099,266.542 440.099,373.372 279.857,373.372 279.857,533.459 &#10;&#9;&#9;173.184,533.459 173.184,373.372 13.097,373.372 13.097,266.542 173.184,266.542 173.184,106.454 &#9;" id="el_pxn-e3ucN_"/></g></g></g>
+	
+		<g id="el_sYXqLwzdSm_an_vajYgKsCJ" data-animator-group="true" data-animator-type="0"><polyline clip-path="url(#SVGID_2_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#10;&#9;&#9;440.099,693.545 440.099,586.871 173.184,586.871 173.184,693.545 440.099,693.545 &#9;" id="el_sYXqLwzdSm"/></g>
+</g>
+<g id="mainDisplay">
+	<defs>
+		<polyline id="SVGID_1_" points="790,697.105 790,102.894 10,102.894 10,697.105 790,697.105 &#9;&#9;"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_" overflow="visible"/>
+	</clipPath>
+	<g id="" data-animator-group="true" data-animator-type="0"><g id="" data-animator-group="true" data-animator-type="1"><g id="" data-animator-group="true" data-animator-type="2"><g id="" clip-path="url(#SVGID_2_)">
+		<g id="">
+			<polygon points="786.902,426.628 786.902,533.456 626.815,533.456 626.815,693.543 520.142,693.543 &#10;&#9;&#9;&#9;&#9;520.142,533.456 359.9,533.456 359.9,426.628 520.142,426.628 520.142,266.541 626.815,266.541 626.815,426.628 &#9;&#9;&#9;" id=""/>
+		</g>
+		<g id="">
+			
+				<polygon stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#10;&#9;&#9;&#9;&#9;520.142,266.541 626.815,266.541 626.815,426.628 786.902,426.628 786.902,533.456 626.815,533.456 626.815,693.543 &#10;&#9;&#9;&#9;&#9;520.142,693.543 520.142,533.456 359.9,533.456 359.9,426.628 520.142,426.628 &#9;&#9;&#9;" id=""/>
+		</g>
+	</g></g></g></g>
+	
+		<g id="" data-animator-group="true" data-animator-type="0"><g id="" data-animator-group="true" data-animator-type="1"><g id="" data-animator-group="true" data-animator-type="2"><polyline clip-path="url(#SVGID_2_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#10;&#9;&#9;173.184,106.454 279.857,106.454 279.857,266.542 440.099,266.542 440.099,373.372 279.857,373.372 279.857,533.459 &#10;&#9;&#9;173.184,533.459 173.184,373.372 13.097,373.372 13.097,266.542 173.184,266.542 173.184,106.454 &#9;" id=""/></g></g></g>
+	
+		<g id="" data-animator-group="true" data-animator-type="0"><polyline clip-path="url(#SVGID_2_)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="&#10;&#9;&#9;440.099,693.545 440.099,586.871 173.184,586.871 173.184,693.545 440.099,693.545 &#9;" id="redBar"/></g>
+</g>
+</svg>

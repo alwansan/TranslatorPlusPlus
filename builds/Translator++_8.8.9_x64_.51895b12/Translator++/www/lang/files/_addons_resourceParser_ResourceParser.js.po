@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ResourceParser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"0","tags":null}
+#. tid/4109/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:0"
+msgid "Windows binary file translator"
+msgstr "Trình dịch tệp nhị phân Windows"
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"1","tags":null}
+#. tid/4114/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:1"
+msgid "Parsing Windows binary file with"
+msgstr "Đang phân tích tệp nhị phân Windows với"
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"2","tags":null}
+#. tid/4127/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:2"
+msgid "Sellect supported files"
+msgstr "Chọn tệp được hỗ trợ"
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"3","tags":null}
+#. tid/4132/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:3"
+msgid "Select supported file type to translate."
+msgstr "Chọn loại tệp được hỗ trợ để dịch."
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"4","tags":null}
+#. tid/4469/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:4"
+msgid "Create a new project"
+msgstr "Tạo một dự án mới"
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"5","tags":null}
+#. tid/4550/type/StringLiteral
+#. tid/4600/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:5"
+msgid "Please select a supported file to parse"
+msgstr "Vui lòng chọn một tệp được hỗ trợ để phân tích"
+
+# {"path":"/addons/resourceParser/ResourceParser.js","row":"6","tags":null}
+#. tid/4661/type/StringLiteral
+msgctxt "tpp:/addons/resourceParser/ResourceParser.js:6"
+msgid "Please enter your project title!"
+msgstr "Vui lòng nhập tiêu đề dự án của bạn!"

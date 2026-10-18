@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "pattern": "*.sbv",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/\\d+:\\d{2}:\\d{2}\\.\\d{3},\\d+:\\d{2}:\\d{2}\\.\\d{3}\\r?\\n((?:(?!\\r?\\n\\r?\\n)[\\s\\S])*?)(?=\\r?\\n\\r?\\n|$)/g",
+          "captureGroups": "1"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "SBV Subtitle Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing YouTube SBV subtitle files.</p><p>Extracts each subtitle block after the timestamp line and keeps the timing lines unchanged during write-back.</p>"
+  },
+  "options": {
+    "testData": "0:00:01.000,0:00:03.500\nHello everyone.\n\n0:00:05.000,0:00:08.000\nThis is a second subtitle line.\nIt can span multiple lines.\n"
+  }
+}

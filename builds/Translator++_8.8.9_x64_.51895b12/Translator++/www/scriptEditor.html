@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/boot.js"></script>
+
+<script>
+	var $ = require('jquery');
+	window.jQuery = $;
+
+	const Logger = require('www/js/Logger.js');
+	var logger = new Logger({file:"data/logs/codeEditor.log"});
+	logger.loadState();
+	
+	var LT = require("light-trans");
+	var lt = new LT({
+		recordMode:false,
+		listener:"t"
+	});
+
+</script>
+
+<script type="text/javascript" src="/www/modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="/www/modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+<script type="text/javascript" src="/www/modules/json2.js"></script>
+<script type="text/javascript" src="/www/modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="/www/js/consts.js"></script>
+<script type="text/javascript" src="/www/js/common.js"></script>
+<script type="text/javascript" src="/www/js/scriptEditor.js"></script>
+<script type="text/javascript" src="/www/js/loadingScreen.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+<script type="text/javascript" src="/www/modules/ace/src-min-noconflict/ace.js" charset="utf-8"></script>
+<script type="text/javascript" src="/www/modules/ace/src-min-noconflict/ext-language_tools.js"></script>
+<link type="text/css" href="/www/modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet" />
+<link type="text/css" href="/www/css/theme-vars.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/www/css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/www/css/code-editor.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/www/css/fontello-embedded.css" rel="stylesheet" media="screen">
+
+
+<title>JS Editor - Translator++</title>
+
+<head>
+
+<body class="editor">
+	<div class="body">
+		<div class="toolbar">
+			<div class="toolbar-content toolbar1">
+				<button class="menu-button button-new" data-tranattr="title" title="New Project (ctrl+n)"><img src='img/doc_new_icon.png' alt="New" /></button>
+				<button class="menu-button button-open" data-tranattr="title" title="Open (ctrl+o)"><img src='img/open.png' alt="Open" /></button>
+				<button class="menu-button button-save" data-tranattr="title" title="Save file (ctrl+s)"><img src='img/save.png' alt="save" /></button>
+				<button class="menu-button button-save-as" data-tranattr="title" title="Save As (ctrl+shift+s)"><img src='img/save_as.png' alt="save as" /></button>
+			</div>
+
+			<div class="toolbar-content toolbar3 hidden">
+				<button class="menu-button button-execute" title="Execute script (F10)"><i class="icon-play green"></i><span data-tran="">Run</span></button>
+			</div>
+			<div class="toolbar-content toolbar4">
+				<button class="menu-button button-debugger" data-tranattr="title" title="Open debugger (F12)"><i class="icon-bug"></i></button>
+				<button class="menu-button button-help hidden" data-tranattr="title" title="Help"><i class="icon-help-circled-1"></i></button>
+			</div>
+			<div class="toolbar-content toolbar5 fill hidden">
+				<div class="pathinfoWrapper" data-tranattr="title" title="Select file in the current workspace"><i class="icon-doc-text openFileList" list="currentWorkspaceFiles" data-tranattr="title" title="file path"></i> <input type="text" value="" list="files" class="fileId" id="currentFile" readonly /><i class="icon-down-dir openFileList thin"></i></div>
+			</div>
+			<div class="toolbar-content toolbar6 fill hidden">
+				<button class="menu-button button-publish publish" data-tranattr="title" title="Create shortcut of the current script"><i class="icon-star"></i></button>
+			</div>
+		</div>
+		<div class="snippet"><span class="statementAsync">void</span> <span class="statementAsync">async</span> <span class="statementFn">function</span><span class="fnName"></span>() {</div>
+		<textarea class="fullContent" id="aceEditor"></textarea>
+		<div class="snippet">}.<span class="statementFnCall">call(</span><a href="#" class="thisHelpContext" title="click to open 'this' help topic"><i class="icon-help-circled-1"></i><span class="statementThis">this</span></a><span class="statementFnCall">)</span></div>
+
+	</div>
+	<div id="footer" class="footer">
+		<div class="footer-content footer1">Workspace:<span class="ftWorkspace"></span></div>
+		<div class="footer-content footer2"><span></span></div>
+		<div class="footer-content footer3"><span></span></div>
+		<div class="footer-content footer4"><span></span></div>
+		<div class="footer-content footer5"><span></span></div>
+	</div>
+	<div id="template" class="hidden">
+		
+	</div>
+</body>
+</html>

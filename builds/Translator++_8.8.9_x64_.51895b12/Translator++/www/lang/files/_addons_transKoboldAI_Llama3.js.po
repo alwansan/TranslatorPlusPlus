@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Llama3.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"0","tags":null}
+#. tid/820/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:0"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"1","tags":null}
+#. tid/828/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:1"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"2","tags":null}
+#. tid/836/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:2"
+msgid "<li>ACTOR_INFO : Glossary of actor information.(Only if actor information option is enabled in batch mode)</li>"
+msgstr "<li>ACTOR_INFO : Bảng thuật ngữ thông tin diễn viên. (Chỉ nếu tùy chọn thông tin diễn viên được bật trong chế độ lô)</li>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"3","tags":null}
+#. tid/844/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:3"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ: <code>REFERENCE[Tham chiếu Chung]</code></li>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"4","tags":null}
+#. tid/852/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:4"
+msgid "<li>CONTEXT : Context of the previous translation (if context is enabled)</li>"
+msgstr "<li>CONTEXT : Ngữ cảnh của bản dịch trước (nếu ngữ cảnh được bật)</li>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"5","tags":null}
+#. tid/3346/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:5"
+msgid "Always separate file"
+msgstr "Luôn tách tệp"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"6","tags":null}
+#. tid/3356/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:6"
+msgid "Always separate the file for each batch. This may keep the contexts of each files unpoluted with another files."
+msgstr "Luôn tách tệp cho mỗi lô. Điều này có thể giữ cho ngữ cảnh của mỗi tệp không bị nhiễm với các tệp khác."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"7","tags":null}
+#. tid/3390/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:7"
+msgid "Add actor name"
+msgstr "Thêm tên diễn viên"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"8","tags":null}
+#. tid/3400/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:8"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên diễn viên từ thông tin hàng vào văn bản có thể dịch. Điều này sẽ giúp người dịch theo dõi hội thoại và đại từ. Translator++ sau đó sẽ xóa tên diễn viên khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"9","tags":null}
+#. tid/3437/type/StringLiteral
+#. tid/3715/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:9"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Diễn viên làm Thuật ngữ"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"10","tags":null}
+#. tid/3447/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:10"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu diễn viên làm thuật ngữ. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu diễn viên là tên của diễn viên trong đoạn hội thoại. Nó sẽ được tải làm thuật ngữ cho người dịch. Điều này sẽ tăng chi phí dịch thuật."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"11","tags":null}
+#. tid/3454/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:11"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm thuật ngữ cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu diễn viên trong tin nhắn gợi ý."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"12","tags":null}
+#. tid/3461/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:12"
+msgid "<br />⚠️If you enable this option, you also need to include the <code>ACTOR_INFO</code> variable in the prompt template to place the character information data."
+msgstr "<br />⚠️Nếu bạn bật tùy chọn này, bạn cũng cần bao gồm biến <code>ACTOR_INFO</code> trong mẫu gợi ý để đặt dữ liệu thông tin nhân vật."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"13","tags":null}
+#. tid/3495/type/StringLiteral
+#. tid/3746/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:13"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Diễn viên"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"14","tags":null}
+#. tid/3505/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:14"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch tên diễn viên. Cột này sẽ được sử dụng làm bản dịch cho tham chiếu diễn viên. Điều này sẽ cải thiện tính nhất quán trong việc dịch tên diễn viên trong cuộc trò chuyện."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"15","tags":null}
+#. tid/3532/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:15"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Diễn viên"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"16","tags":null}
+#. tid/3542/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:16"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung về diễn viên. Bạn có thể thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện việc dịch đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"17","tags":null}
+#. tid/3577/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:17"
+msgid "General Settings"
+msgstr "Cài đặt Chung"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"18","tags":null}
+#. tid/3603/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:18"
+msgid "Always separate file for each batch"
+msgstr "Luôn tách tệp riêng cho mỗi lô"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"19","tags":null}
+#. tid/3627/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:19"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên diễn viên vào văn bản có thể dịch"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"20","tags":null}
+#. tid/3659/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:20"
+msgid "Glossary"
+msgstr "Thuật ngữ"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"21","tags":null}
+#. tid/3685/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:21"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Thuật ngữ</h2>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"22","tags":null}
+#. tid/3692/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:22"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm thuật ngữ vào gợi ý. Thuật ngữ sẽ được tải cho mỗi lô mục để cải thiện chất lượng dịch thuật. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm phình to gợi ý của bạn.</p>"
+
+# {"path":"/addons/transKoboldAI/Llama3.js","row":"23","tags":null}
+#. tid/3777/type/StringLiteral
+msgctxt "tpp:/addons/transKoboldAI/Llama3.js:23"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông tin Bổ sung của Diễn viên"

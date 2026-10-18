@@ -1,0 +1,5 @@
+Perfect!
+Now, translate the following messages:
+```JSON
+${SOURCE_TEXT}
+```

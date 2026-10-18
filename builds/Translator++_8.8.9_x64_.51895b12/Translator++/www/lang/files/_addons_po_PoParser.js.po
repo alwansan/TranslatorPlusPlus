@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PoParser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/po/PoParser.js","row":"0","tags":null}
+#. tid/907/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:0"
+msgid ".po and .mo files are standard text-based and binary file formats used together for software localization, particularly in WordPress, to translate themes and plugins. The PO (Portable Object) file is human-readable text containing translations, while the MO (Machine Object) file is a compiled, machine-readable binary file used by software for faster loading."
+msgstr "Tệp .po và .mo là định dạng tệp văn bản và nhị phân tiêu chuẩn được sử dụng cùng nhau để bản địa hóa phần mềm, đặc biệt trong WordPress, để dịch chủ đề và plugin. Tệp PO (Đối tượng di động) là văn bản có thể đọc được chứa bản dịch, trong khi tệp MO (Đối tượng máy) là tệp nhị phân đã biên dịch, có thể đọc được bằng máy, được phần mềm sử dụng để tải nhanh hơn."
+
+# {"path":"/addons/po/PoParser.js","row":"1","tags":null}
+#. tid/951/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:1"
+msgid "Start translation from PO (Portable Object) and MO (Machine Object) translation scripts"
+msgstr "Bắt đầu dịch từ kịch bản dịch PO (Đối tượng di động) và MO (Đối tượng máy)"
+
+# {"path":"/addons/po/PoParser.js","row":"2","tags":null}
+#. tid/1028/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:2"
+msgid "Create Project"
+msgstr "Tạo Dự án"
+
+# {"path":"/addons/po/PoParser.js","row":"3","tags":null}
+#. tid/1488/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:3"
+msgid "Select mode"
+msgstr "Chọn chế độ"
+
+# {"path":"/addons/po/PoParser.js","row":"4","tags":null}
+#. tid/1510/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:4"
+msgid "Select how do you want to start your project. By selecting files or folders."
+msgstr "Chọn cách bạn muốn bắt đầu dự án của mình. Bằng cách chọn tệp hoặc thư mục."
+
+# {"path":"/addons/po/PoParser.js","row":"5","tags":null}
+#. tid/1537/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:5"
+msgid "Select Folder"
+msgstr "Chọn Thư mục"
+
+# {"path":"/addons/po/PoParser.js","row":"6","tags":null}
+#. tid/1547/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:6"
+msgid "Select the folder for processing. Translator++ will recursively retrieve the PO files from the specified folder."
+msgstr "Chọn thư mục để xử lý. Translator++ sẽ đệ quy lấy các tệp PO từ thư mục đã chỉ định."
+
+# {"path":"/addons/po/PoParser.js","row":"7","tags":null}
+#. tid/1580/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:7"
+msgid "Select File"
+msgstr "Chọn Tệp"
+
+# {"path":"/addons/po/PoParser.js","row":"8","tags":null}
+#. tid/1590/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:8"
+msgid "Select the files you want to process."
+msgstr "Chọn các tệp bạn muốn xử lý."
+
+# {"path":"/addons/po/PoParser.js","row":"9","tags":null}
+#. tid/1623/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:9"
+msgid "Filters"
+msgstr "Bộ lọc"
+
+# {"path":"/addons/po/PoParser.js","row":"10","tags":null}
+#. tid/1633/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:10"
+msgid "Filter the file name with glob pattern. Default is <code>**/*.{po,mo}</code>"
+msgstr "Lọc tên tệp với mẫu glob. Mặc định là <code>**/*.{po,mo}</code>"
+
+# {"path":"/addons/po/PoParser.js","row":"11","tags":null}
+#. tid/1641/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:11"
+msgid "All .po files in the selected folder and its subfolders."
+msgstr "Tất cả tệp .po trong thư mục đã chọn và các thư mục con của nó."
+
+# {"path":"/addons/po/PoParser.js","row":"12","tags":null}
+#. tid/1646/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:12"
+msgid "All .mo files in the selected folder and its subfolders."
+msgstr "Tất cả tệp .mo trong thư mục đã chọn và các thư mục con của nó."
+
+# {"path":"/addons/po/PoParser.js","row":"13","tags":null}
+#. tid/1681/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:13"
+msgid "ProjectTitle"
+msgstr "Tiêu đề dự án"
+
+# {"path":"/addons/po/PoParser.js","row":"14","tags":null}
+#. tid/1691/type/StringLiteral
+msgctxt "tpp:/addons/po/PoParser.js:14"
+msgid "Your project title"
+msgstr "Tiêu đề dự án của bạn"

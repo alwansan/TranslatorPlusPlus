@@ -1,0 +1,2 @@
+DxaDecode.exe "path to archive"
+DxaDecode.exe -K:7ujxac7H data.dxa

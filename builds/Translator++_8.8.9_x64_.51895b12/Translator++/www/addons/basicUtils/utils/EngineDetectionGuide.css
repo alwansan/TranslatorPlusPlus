@@ -1,0 +1,73 @@
+.engineDetectionSearchRow {
+    align-items: stretch !important;
+    display: flex;
+    gap: 0.5em;
+}
+
+.engineDetectionSearchRow .searchProjectType {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.engineDetectionLaunch {
+    align-self: stretch !important;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.engineDetectionLaunch .menu-button {
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 0.35em;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.engineDetectionCandidates {
+    display: grid;
+    gap: 0.5em;
+}
+
+.engineDetectionCandidate {
+    background: var(--theme-background-color, #fff);
+    border: 1px solid var(--theme-border-color, #c8c8c8);
+    cursor: pointer;
+    padding: 0.7em 0.85em;
+    text-align: left;
+    width: 100%;
+}
+
+.engineDetectionCandidate:hover:not(:disabled),
+.engineDetectionCandidate:focus-visible {
+    background: var(--theme-hover-background-color, #f0f6ff);
+    border-color: var(--theme-primary-color, #3972b8);
+}
+
+.engineDetectionCandidate:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.engineDetectionCandidateContent {
+    display: block;
+}
+
+.engineDetectionCandidate h2 {
+    margin: 0 0 0.2em;
+}
+
+.engineDetectionCandidate p {
+    margin: 0 0 0.35em;
+}
+
+@media (max-width: 600px) {
+    .engineDetectionSearchRow {
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .engineDetectionSearchRow .searchProjectType {
+        flex-basis: 100%;
+    }
+}

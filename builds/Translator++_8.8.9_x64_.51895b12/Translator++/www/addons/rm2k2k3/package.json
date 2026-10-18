@@ -1,0 +1,19 @@
+{
+    "name": "rm2k2k3",
+    "title": "RM2k & RM2k3",
+    "description": "RPG Maker 2000 & 2003 parser for Translator++",
+    "main": "2k.js",
+    "homepage": "http://dreamsavior.net",
+	"version": "0.10",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"load" : [
+		"2knew.js", 
+		"utils.js"
+	],
+	"minimumVersion" : "7.3.1"
+}

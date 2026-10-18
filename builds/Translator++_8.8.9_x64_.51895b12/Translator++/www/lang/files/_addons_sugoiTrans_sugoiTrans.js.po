@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sugoiTrans.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"0","tags":null}
+#. tid/161/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:0"
+msgid "Line delimiter"
+msgstr "Dấu phân cách dòng"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"1","tags":null}
+#. tid/171/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:1"
+msgid ""
+"Fill in with the characters or phrases that will be escaped by the translator (the original phrase and the translation will always be the same). This will guarantee that the number of lines of the translated text is the same as the number of lines of the original text. \n"
+"There are currently no phrases/characters that Sugoi will escape with a 100% success rate.\n"
+"You can try using &#x3C;br&#x3E; with decent amount of success rate.\n"
+"Leave blank if you want to concatenate the lines into a single line."
+msgstr ""
+"Điền vào các ký tự hoặc cụm từ sẽ được thoát khỏi bởi trình dịch (cụm từ gốc và bản dịch sẽ luôn giống nhau). Điều này đảm bảo số dòng của văn bản dịch bằng số dòng của văn bản gốc.\n"
+"Hiện không có cụm từ/ký tự nào mà Sugoi sẽ thoát với tỷ lệ thành công 100%.\n"
+"Bạn có thể thử dùng &#x3C;br&#x3E; với tỷ lệ thành công khá tốt.\n"
+"Để trống nếu muốn nối các dòng thành một dòng duy nhất."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"2","tags":null}
+#. tid/203/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:2"
+msgid "Target URL(s)"
+msgstr "URL Mục tiêu"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"3","tags":null}
+#. tid/213/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:3"
+msgid "Translator target URL. You can enter one ore more Sugoi Translator back-end URL. Translator++ will load balance the request across all instance of the services. Separate each entry with a new line."
+msgstr "URL mục tiêu của trình dịch. Bạn có thể nhập một hoặc nhiều URL back-end của Sugoi Translator. Translator++ sẽ cân bằng tải yêu cầu qua tất cả các phiên bản dịch vụ. Phân tách mỗi mục bằng dòng mới."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"4","tags":null}
+#. tid/257/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:4"
+msgid "Max Parallel job"
+msgstr "Công việc song song tối đa"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"5","tags":null}
+#. tid/267/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:5"
+msgid "Maximum parallel job that run simultaneously."
+msgstr "Số công việc song song tối đa chạy đồng thời."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"6","tags":null}
+#. tid/305/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:6"
+msgid "Send requests in batch"
+msgstr "Gửi yêu cầu theo lô"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"7","tags":null}
+#. tid/315/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:7"
+msgid ""
+"Send several texts (by Max Parallel job) in array.\n"
+"Faster and can cut the execution overhead significantly. You must run the server from server manager to enable this option."
+msgstr ""
+"Gửi nhiều văn bản (theo Công việc song song tối đa) trong mảng.\n"
+"Nhanh hơn và có thể giảm đáng kể chi phí thực thi. Bạn phải chạy máy chủ từ trình quản lý máy chủ để bật tùy chọn này."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"8","tags":null}
+#. tid/347/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:8"
+msgid "Check First Line in Common Reference"
+msgstr "Kiểm tra Dòng Đầu tiên trong Tham chiếu Chung"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"9","tags":null}
+#. tid/357/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:9"
+msgid ""
+"Do not include first line in the payload if the first line is found at Common Reference.\n"
+"This is very useful if the character name is at the first line."
+msgstr ""
+"Không bao gồm dòng đầu tiên trong tải trọng nếu dòng đầu tiên được tìm thấy trong Tham chiếu Chung.\n"
+"Rất hữu ích nếu tên nhân vật ở dòng đầu tiên."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"10","tags":null}
+#. tid/389/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:10"
+msgid "Check Last Line in Common Reference"
+msgstr "Kiểm tra Dòng Cuối cùng trong Tham chiếu Chung"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"11","tags":null}
+#. tid/399/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:11"
+msgid ""
+"Do not include last line in the payload if the last line is found at Common Reference.\n"
+"This is very useful if the character name is at the last line."
+msgstr ""
+"Không bao gồm dòng cuối cùng trong tải trọng nếu dòng cuối cùng được tìm thấy trong Tham chiếu Chung.\n"
+"Rất hữu ích nếu tên nhân vật ở dòng cuối cùng."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"12","tags":null}
+#. tid/431/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:12"
+msgid "Automatic splitting"
+msgstr "Tách tự động"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"13","tags":null}
+#. tid/441/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:13"
+msgid "Automatically split the translation into the number of lines matching the original. The length of each line will be of a similar size."
+msgstr "Tự động tách bản dịch thành số dòng khớp với bản gốc. Độ dài mỗi dòng sẽ có kích thước tương tự."
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"14","tags":null}
+#. tid/473/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:14"
+msgid "Code Escaping Algorithm"
+msgstr "Thuật toán Mã hóa"
+
+# {"path":"/addons/sugoiTrans/sugoiTrans.js","row":"15","tags":null}
+#. tid/483/type/StringLiteral
+msgctxt "tpp:/addons/sugoiTrans/sugoiTrans.js:15"
+msgid "Escaping algorithm for inline code inside dialogues (not yet implemented, please wait for the future updates)"
+msgstr "Thuật toán mã hóa cho mã nội tuyến bên trong hội thoại (chưa được triển khai, vui lòng chờ các bản cập nhật trong tương lai)"

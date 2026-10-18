@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: find.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/find.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/find.html:0"
+msgid "Find"
+msgstr "Tìm"
+
+# {"path":"/find.html","row":"1","tags":null}
+#. idx/1/innerText
+msgctxt "tpp:/find.html:1"
+msgid "Replace"
+msgstr "Thay thế"
+
+# {"path":"/find.html","row":"2","tags":null}
+#. idx/2/innerText
+msgctxt "tpp:/find.html:2"
+msgid "Put"
+msgstr "Đặt"
+
+# {"path":"/find.html","row":"3","tags":null}
+#. idx/3/innerText
+msgctxt "tpp:/find.html:3"
+msgid "Target"
+msgstr "Mục tiêu"
+
+# {"path":"/find.html","row":"4","tags":null}
+#. idx/4/innerText
+msgctxt "tpp:/find.html:4"
+msgid "Grid"
+msgstr "Lưới"
+
+# {"path":"/find.html","row":"5","tags":null}
+#. idx/5/innerText
+msgctxt "tpp:/find.html:5"
+msgid "Context"
+msgstr "Ngữ cảnh"
+
+# {"path":"/find.html","row":"6","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/find.html:6"
+msgid "Tag"
+msgstr "Thẻ"
+
+# {"path":"/find.html","row":"7","tags":null}
+#. idx/7/innerText
+msgctxt "tpp:/find.html:7"
+msgid "Comment"
+msgstr "Bình luận"
+
+# {"path":"/find.html","row":"8","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/find.html:8"
+msgid "Untranslated rows"
+msgstr "Hàng chưa dịch"
+
+# {"path":"/find.html","row":"9","tags":null}
+#. idx/9/innerText
+msgctxt "tpp:/find.html:9"
+msgid "Refine"
+msgstr "Tinh chỉnh"
+
+# {"path":"/find.html","row":"10","tags":null}
+#. idx/10/innerText
+#. idx/16/innerText
+#. idx/24/innerText
+msgctxt "tpp:/find.html:10"
+msgid "Case sensitive"
+msgstr "Phân biệt chữ hoa chữ thường"
+
+# {"path":"/find.html","row":"11","tags":null}
+#. idx/11/innerText
+#. idx/17/innerText
+msgctxt "tpp:/find.html:11"
+msgid "Transpile \\r\\n\\t"
+msgstr "Chuyển đổi \\r\\n\\t"
+
+# {"path":"/find.html","row":"12","tags":null}
+#. idx/12/innerText
+#. idx/18/innerText
+msgctxt "tpp:/find.html:12"
+msgid "RegExp"
+msgstr "Biểu thức chính quy"
+
+# {"path":"/find.html","row":"13","tags":null}
+#. idx/13/innerText
+#. idx/19/innerText
+msgctxt "tpp:/find.html:13"
+msgid "All files"
+msgstr "Tất cả các tệp"
+
+# {"path":"/find.html","row":"14","tags":null}
+#. idx/14/innerText
+#. idx/20/innerText
+msgctxt "tpp:/find.html:14"
+msgid "Select All Columns"
+msgstr "Chọn tất cả các cột"
+
+# {"path":"/find.html","row":"15","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/find.html:15"
+msgid "Find all string above and replace with :"
+msgstr "Tìm tất cả chuỗi ở trên và thay thế bằng:"
+
+# {"path":"/find.html","row":"16","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/find.html:16"
+msgid "Original text:"
+msgstr "Văn bản gốc:"
+
+# {"path":"/find.html","row":"17","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/find.html:17"
+msgid "Text to put :"
+msgstr "Văn bản cần đặt:"
+
+# {"path":"/find.html","row":"18","tags":null}
+#. idx/23/innerText
+msgctxt "tpp:/find.html:18"
+msgid "into: "
+msgstr "vào:"
+
+# {"path":"/find.html","row":"19","tags":null}
+#. idx/25/innerText
+msgctxt "tpp:/find.html:19"
+msgid "Search all files"
+msgstr "Tìm kiếm tất cả tệp"
+
+# {"path":"/find.html","row":"20","tags":null}
+#. idx/0/attr/placeholder
+msgctxt "tpp:/find.html:20"
+msgid "Type the keyword then hit enter. You can use glob pattern (e.g.: *.png)"
+msgstr "Nhập từ khóa rồi nhấn Enter. Bạn có thể dùng mẫu glob (ví dụ: *.png)"
+
+# {"path":"/find.html","row":"21","tags":null}
+#. idx/1/attr/title
+#. idx/3/attr/title
+#. idx/7/attr/title
+msgctxt "tpp:/find.html:21"
+msgid "Drag to select, Shift+Drag to unselect"
+msgstr "Kéo để chọn, Shift+Kéo để bỏ chọn"
+
+# {"path":"/find.html","row":"22","tags":null}
+#. idx/2/attr/title
+#. idx/4/attr/title
+msgctxt "tpp:/find.html:22"
+msgid "Select target column"
+msgstr "Chọn cột mục tiêu"
+
+# {"path":"/find.html","row":"23","tags":null}
+#. idx/5/attr/placeholder
+msgctxt "tpp:/find.html:23"
+msgid "A line in the original text to find. Press alt+enter to add a new line."
+msgstr "Một dòng trong văn bản gốc để tìm. Nhấn alt+enter để thêm dòng mới."
+
+# {"path":"/find.html","row":"24","tags":null}
+#. idx/6/attr/placeholder
+msgctxt "tpp:/find.html:24"
+msgid "Translation"
+msgstr "Bản dịch"

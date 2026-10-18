@@ -1,0 +1,91 @@
+---
+- 
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Common event 1
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [のびた人陰を舗道に並べ]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [夕闇のなかをキミと歩いてる]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [手を繋いでいつまでもずっと]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そばにいれたなら泣けちゃうくらい]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [風が冷たくなって]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [冬の匂いがした]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そろそろこの街に]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [キミと近付ける季節がくる]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 1
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 2
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Common event 3
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [今年、最初の雪の華を]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [2人寄り添って]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [眺めているこの時間に]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [シアワセがあふれだす]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [甘えとか弱さじゃない]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ただ、キミを愛してる]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [心からそう思った]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 3
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 4
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 5
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 6
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 7
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 8
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 9
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 10

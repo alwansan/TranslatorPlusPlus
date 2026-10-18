@@ -1,0 +1,426 @@
+{
+  "RibbonMenu": {
+    "constructor": {
+      "RibbonMenu": {
+        "signature": "new RibbonMenu()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new RibbonMenu()"
+      }
+    },
+    "extends": {},
+    "members": {
+      "container": {
+        "signature": "container :jQuery",
+        "description": "Container element for the ribbon menu.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "container"
+      },
+      "lastSelected": {
+        "signature": "lastSelected :string",
+        "description": "ID of the last selected ribbon.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "lastSelected"
+      },
+      "ribbons": {
+        "signature": "ribbons :Object.<string, Object>",
+        "description": "Collection of ribbon configurations.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "ribbons"
+      }
+    },
+    "methods": {
+      "add": {
+        "signature": "add(id, options) → Object",
+        "description": "Adds a new ribbon to the menu.",
+        "parameters": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "The ID of the ribbon.",
+            "required": true
+          },
+          {
+            "name": "optionstitleiconpermanentonClickonBlurtoolbar",
+            "type": "Objectstringstringbooleanfunctionfunctionui.Toolbar",
+            "description": "The toolbar associated with the ribbon.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "The title of the ribbon.",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "type": "string",
+            "description": "The icon class for the ribbon.",
+            "required": false
+          },
+          {
+            "name": "permanent",
+            "type": "boolean",
+            "description": "Whether the ribbon is permanent.",
+            "required": false
+          },
+          {
+            "name": "onClick",
+            "type": "function",
+            "description": "The onClick event handler.",
+            "required": false
+          },
+          {
+            "name": "onBlur",
+            "type": "function",
+            "description": "The onBlur event handler.",
+            "required": false
+          },
+          {
+            "name": "toolbar",
+            "type": "ui.Toolbar",
+            "description": "The toolbar associated with the ribbon.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The added ribbon configuration."
+        },
+        "examples": [],
+        "usage": "add(id, optionstitleiconpermanentonClickonBlurtoolbar, , title, icon, permanent, onClick, onBlur, toolbar) : Object"
+      },
+      "clear": {
+        "signature": "clear()",
+        "description": "Clears all non-permanent ribbons from the menu.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "clear()"
+      },
+      "defaultClickEvt": {
+        "signature": "defaultClickEvt()",
+        "description": "Default click event handler for ribbons.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "defaultClickEvt()"
+      },
+      "init": {
+        "signature": "init()",
+        "description": "Initializes the ribbon menu.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "init()"
+      },
+      "isExist": {
+        "signature": "isExist(id) → boolean",
+        "description": "Checks if a ribbon with the given ID exists.",
+        "parameters": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "The ID of the ribbon.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "boolean",
+          "description": "True if the ribbon exists, false otherwise."
+        },
+        "examples": [],
+        "usage": "isExist(id) : boolean"
+      },
+      "off": {
+        "signature": "off(evt, fn)",
+        "description": "Removes an event\nEqual to $(document).off()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [
+          "trans.off('transLoaded', (e, opt)=> {\n\t// do something\n})"
+        ],
+        "usage": "off(evt, fn)"
+      },
+      "on": {
+        "signature": "on(evt, fn)",
+        "description": "Create a new event with JQuery eventing convenience\nEqual to $(document).on()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "on(evt, fn)"
+      },
+      "onReady": {
+        "signature": "onReady(fn)",
+        "description": "Executes a function when the DOM is ready.",
+        "parameters": [
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "The function to execute.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "onReady(fn)"
+      },
+      "one": {
+        "signature": "one(evt, fn)",
+        "description": "Run the event once\nTrigger an event and immediately removes it\nEqual to $(document).one()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "one(evt, fn)"
+      },
+      "processWith": {
+        "signature": "processWith(processName, value) → *",
+        "description": "Add a custom process to a value.",
+        "parameters": [
+          {
+            "name": "processName",
+            "type": "String",
+            "description": "Name of the process",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value to be processed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "By default will return value as is"
+        },
+        "examples": [],
+        "usage": "processWith(processName, value) : *"
+      },
+      "rejectState": {
+        "signature": "rejectState(state, error?)",
+        "description": "Reject a state",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          },
+          {
+            "name": "error",
+            "type": "String",
+            "description": "Error message",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "rejectState(state, error)"
+      },
+      "remove": {
+        "signature": "remove(id)",
+        "description": "Removes a ribbon from the menu.",
+        "parameters": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "The ID of the ribbon to remove.",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "remove(id)"
+      },
+      "resolveState": {
+        "signature": "resolveState(state, arg?)",
+        "description": "Resolve a state",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          },
+          {
+            "name": "arg",
+            "type": "*",
+            "description": "Arguments to be passed to until",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "resolveState(state, arg)"
+      },
+      "select": {
+        "signature": "select($ribbon, trigger?)",
+        "description": "Selects a ribbon and triggers its onClick event.",
+        "parameters": [
+          {
+            "name": "$ribbon",
+            "type": "jQuery|string",
+            "description": "The ribbon element or its ID.",
+            "required": true
+          },
+          {
+            "name": "trigger",
+            "type": "boolean",
+            "description": "Whether to trigger the onClick event.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "select($ribbon, trigger)"
+      },
+      "trigger": {
+        "signature": "trigger(evt, fn)",
+        "description": "Trigger an event\nEqual to $(document).trigger()",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "trigger(evt, fn)"
+      },
+      "until": {
+        "signature": "async until(state) → Promise.<*>",
+        "description": "State monitor. Wait until a state is resolved.\nWill wait until resolveState is called.\nWill immidiately executed if resolveState is already called",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<*>",
+          "description": "Returns any variables passed on resolveState"
+        },
+        "examples": [
+          "await basicEventHandler.until(\"ready\");"
+        ],
+        "usage": "until(state) : Promise.<*>"
+      }
+    },
+    "type definitions": {
+      "Event": {
+        "signature": "Event",
+        "description": "BasicEventHandler's event. This itself extends the standard Event API for html element. So, you can use the default element's event such as click, focus, blur, etc.\nMethods that uses Event are: on(), off(), one(), trigger()",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "Event"
+      },
+      "State": {
+        "signature": "State",
+        "description": "Javascript's Promise type event handler.\nThe state will switch from off to on once. And after that, it will stay in that state forever, so any further until() call will be resolved immidiately.\nMethods that uses Event are: until(), resolveState(), rejectState()",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "State"
+      }
+    },
+    "events": {
+      "event:active": {
+        "signature": "active",
+        "description": "Event triggered when a ribbon is active.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:active"
+      },
+      "event:beforeSelect": {
+        "signature": "beforeSelect",
+        "description": "Event triggered before a ribbon is selected.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:beforeSelect"
+      },
+      "event:ready": {
+        "signature": "ready",
+        "description": "Event triggered when the ribbon menu is ready.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:ready"
+      },
+      "event:select": {
+        "signature": "select",
+        "description": "Event triggered when a ribbon is selected.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "event:select"
+      }
+    }
+  }
+}

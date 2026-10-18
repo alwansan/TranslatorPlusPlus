@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kagParser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"0","tags":null}
+#. tid/2913/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:0"
+msgid "Select directory"
+msgstr "Chọn thư mục"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"1","tags":null}
+#. tid/2918/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:1"
+msgid "Select a directory to repack"
+msgstr "Chọn một thư mục để đóng gói lại"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"2","tags":null}
+#. tid/2925/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:2"
+msgid "Target xp3"
+msgstr "Mục tiêu xp3"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"3","tags":null}
+#. tid/2930/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:3"
+msgid "Select filename. Special filename such as <b>patch.xp3</b>, <b>patch2.xp3</b>...etc get priority over data.xp3 when loaded."
+msgstr "Chọn tên tệp. Tên tệp đặc biệt như <b>patch.xp3</b>, <b>patch2.xp3</b>...v.v. được ưu tiên hơn data.xp3 khi tải."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"4","tags":null}
+#. tid/2937/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:4"
+msgid "Patch to allow folder structure"
+msgstr "Bản vá để cho phép cấu trúc thư mục"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"5","tags":null}
+#. tid/2942/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:5"
+msgid "By default KAG engine do not read files inside a folder within xp3 files. This option will automatically add folder structure definition to Config.tjs. Has no effect if no Config.tjs file is found."
+msgstr "Mặc định, động cơ KAG không đọc các tệp bên trong một thư mục trong các tệp xp3. Tùy chọn này sẽ tự động thêm định nghĩa cấu trúc thư mục vào Config.tjs. Không có hiệu lực nếu không tìm thấy tệp Config.tjs."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"6","tags":null}
+#. tid/3173/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:6"
+msgid "Repack into xp3"
+msgstr "Đóng gói lại thành xp3"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"7","tags":null}
+#. tid/3274/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:7"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"8","tags":null}
+#. tid/3325/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:8"
+msgid "Process"
+msgstr "Xử lý"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"9","tags":null}
+#. tid/3558/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:9"
+msgid "<b>Order does matter</b> if you unpack multiple files at once! The files will be unpacked in ordered manner. If the files exist it will be overwritten."
+msgstr "<b>Thứ tự có quan trọng</b> nếu bạn giải nén nhiều tệp cùng lúc! Các tệp sẽ được giải nén theo thứ tự. Nếu tệp đã tồn tại, nó sẽ bị ghi đè."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"10","tags":null}
+#. tid/3684/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/kagParser/kagParser.js:10"
+msgid "Unpack XP3 files"
+msgstr "Giải nén các tệp XP3"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"11","tags":null}
+#. tid/3872/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:11"
+msgid "Repack a folder to xp3"
+msgstr "Đóng gói lại một thư mục thành xp3"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"12","tags":null}
+#. tid/3929/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:12"
+msgid "Unpack xp3 file"
+msgstr "Giải nén tệp xp3"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"13","tags":null}
+#. tid/4297/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:13"
+msgid "Before you create a new project, please make sure that :"
+msgstr "Trước khi tạo một dự án mới, hãy đảm bảo rằng:"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"14","tags":null}
+#. tid/4302/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:14"
+msgid "All .ks & .tjs files are in plain text (uncompiled, unscrambled, and unencrypted)"
+msgstr "Tất cả tệp .ks & .tjs đều ở dạng văn bản thuần (chưa biên dịch, chưa xáo trộn và chưa mã hóa)"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"15","tags":null}
+#. tid/4307/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:15"
+msgid "KAG Games should be playable even without being repacked. So you should check whether your game is playable or not after being extracted."
+msgstr "Trò chơi KAG nên có thể chơi được ngay cả khi không được đóng gói lại. Vì vậy, bạn nên kiểm tra xem trò chơi của mình có thể chơi được hay không sau khi được trích xuất."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"16","tags":null}
+#. tid/4312/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:16"
+msgid "Some of the actions will modify your game. <b>So make sure to create a backup of your game!</b>"
+msgstr "Một số hành động sẽ sửa đổi trò chơi của bạn. <b>Vì vậy hãy đảm bảo tạo bản sao lưu cho trò chơi của bạn!</b>"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"17","tags":null}
+#. tid/4468/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:17"
+msgid "Select the game executable file. This file is the main game file that will be used to extract the game data."
+msgstr "Chọn tệp thực thi trò chơi. Tệp này là tệp trò chơi chính sẽ được sử dụng để trích xuất dữ liệu trò chơi."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"18","tags":null}
+#. tid/4508/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:18"
+msgid "Translator++ can extract XP3 files with AEC addon. <b>But the extractor is not a surefire solution for all kind XP3</b>."
+msgstr "Translator++ có thể trích xuất các tệp XP3 với tiện ích bổ sung AEC. <b>Nhưng công cụ trích xuất không phải là giải pháp chắc chắn cho mọi loại XP3</b>."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"19","tags":null}
+#. tid/4542/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:19"
+msgid "Some scenario files are encrypted. Check this option if you wish Translator++ to try to decrypt them."
+msgstr "Một số tệp kịch bản được mã hóa. Chọn tùy chọn này nếu bạn muốn Translator++ thử giải mã chúng."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"20","tags":null}
+#. tid/4549/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:20"
+msgid "This may not work on some projects."
+msgstr "Điều này có thể không hoạt động trên một số dự án."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"21","tags":null}
+#. tid/4583/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:21"
+msgid "List of the possible character encodings. <b>Order does matter!</b>. You can drag to sort the list."
+msgstr "Danh sách các bảng mã ký tự có thể. <b>Thứ tự quan trọng!</b>. Bạn có thể kéo để sắp xếp danh sách."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"22","tags":null}
+#. tid/4631/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:22"
+msgid "Literal tags are the tags that will be escaped into Translator++ editor."
+msgstr "Thẻ nguyên văn là các thẻ sẽ được thoát trong trình soạn thảo Translator++."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"23","tags":null}
+#. tid/4640/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:23"
+msgid "<b>ruby l r</b> are mandatory."
+msgstr "<b>ruby l r</b> là bắt buộc."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"24","tags":null}
+#. tid/4649/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:24"
+msgid "<b>[r]</b> Tags will be interpolated by Translator++ into a new line. So you don't need to write <b>[r]</b> explicitly."
+msgstr "<b>[r]</b> Các thẻ sẽ được Translator++ chèn vào một dòng mới. Vì vậy bạn không cần viết <b>[r]</b> một cách rõ ràng."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"25","tags":null}
+#. tid/5046/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:25"
+msgid "Kirikiri script (.ks) is heavily customizable and allows developers to create their own tags."
+msgstr "Kịch bản Kirikiri (.ks) có thể tùy chỉnh cao và cho phép nhà phát triển tạo thẻ riêng."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"26","tags":null}
+#. tid/5053/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:26"
+msgid "Translator++ can handle standard tags such as character names that start with a sharp (#)."
+msgstr "Translator++ có thể xử lý các thẻ tiêu chuẩn như tên nhân vật bắt đầu bằng dấu thăng (#)."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"27","tags":null}
+#. tid/5060/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:27"
+msgid "However, Translator++ cannot handle custom tags created by developers."
+msgstr "Tuy nhiên, Translator++ không thể xử lý các thẻ tùy chỉnh do nhà phát triển tạo."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"28","tags":null}
+#. tid/5067/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:28"
+msgid "Therefore, you may need to define the tags and attributes that need to be translated and those that need to be marked as actor names."
+msgstr "Do đó, bạn có thể cần xác định các thẻ và thuộc tính cần dịch và những thứ cần đánh dấu là tên diễn viên."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"29","tags":null}
+#. tid/5078/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:29"
+msgid "You might need to <input type=\"button\" value=\"extract your xp3 game\" onclick=\"addonLoader.addons.kagParser.utils.unpackXP3Dialog()\" /> and analyze the ks script inside it before starting the project."
+msgstr "Bạn có thể cần <input type=\"button\" value=\"giải nén trò chơi xp3 của bạn\" onclick=\"addonLoader.addons.kagParser.utils.unpackXP3Dialog()\" /> và phân tích kịch bản ks bên trong trước khi bắt đầu dự án."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"30","tags":null}
+#. tid/5389/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:30"
+msgid "Create Project"
+msgstr "Tạo Dự án"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"31","tags":null}
+#. tid/6942/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:31"
+msgid "Pack a folder into xp3"
+msgstr "Đóng gói một thư mục thành xp3"
+
+# {"path":"/addons/kagParser/kagParser.js","row":"32","tags":null}
+#. tid/7218/type/StringLiteral
+#. tid/7397/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:32"
+msgid "Select the target character encoding.<br />Most Japanese KAG games are written with SHIFT-JIS, but KAG actually has support for UTF16LE unicode. Many translators set the character encoding to UTF16LE so that the game is playable non-Japanese windows without locale emulator. And most importantly, can displays characters outside SHIFT-JIS such as \"café\".<br />By default Translator++ will write to its original character encoding."
+msgstr "Chọn bảng mã ký tự mục tiêu.<br />Hầu hết trò chơi KAG tiếng Nhật được viết bằng SHIFT-JIS, nhưng KAG thực sự hỗ trợ unicode UTF16LE. Nhiều dịch giả đặt bảng mã thành UTF16LE để trò chơi có thể chơi được trên Windows không phải tiếng Nhật mà không cần trình giả lập ngôn ngữ. Và quan trọng nhất, có thể hiển thị các ký tự ngoài SHIFT-JIS như \"café\".<br />Mặc định Translator++ sẽ ghi theo bảng mã gốc của nó."
+
+# {"path":"/addons/kagParser/kagParser.js","row":"33","tags":null}
+#. tid/7462/type/StringLiteral
+msgctxt "tpp:/addons/kagParser/kagParser.js:33"
+msgid "There are several ways to produce playable localized game for KAG. Please select one that suit your preference."
+msgstr "Có nhiều cách để tạo trò chơi KAG đã bản địa hóa có thể chơi được. Vui lòng chọn một cách phù hợp với sở thích của bạn."

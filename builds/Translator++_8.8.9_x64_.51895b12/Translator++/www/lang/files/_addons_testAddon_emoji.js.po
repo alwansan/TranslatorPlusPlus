@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: emoji.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/testAddon/emoji.js","row":"0","tags":null}
+#. tid/1555/type/StringLiteral
+#. tid/2095/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:0"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Nhân vật làm Từ điển"
+
+# {"path":"/addons/testAddon/emoji.js","row":"1","tags":null}
+#. tid/1565/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:1"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu nhân vật làm từ điển. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu nhân vật là tên của nhân vật trong hội thoại. Nó sẽ được tải như một từ điển cho người dịch. Điều này sẽ làm tăng chi phí dịch thuật."
+
+# {"path":"/addons/testAddon/emoji.js","row":"2","tags":null}
+#. tid/1572/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:2"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm từ điển cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu nhân vật trong tin nhắn nhắc."
+
+# {"path":"/addons/testAddon/emoji.js","row":"3","tags":null}
+#. tid/1606/type/StringLiteral
+#. tid/2126/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:3"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Nhân vật"
+
+# {"path":"/addons/testAddon/emoji.js","row":"4","tags":null}
+#. tid/1616/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:4"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch của tên nhân vật. Cột này sẽ được sử dụng làm bản dịch của tham chiếu nhân vật. Điều này sẽ cải thiện tính nhất quán trong việc dịch tên nhân vật trong cuộc trò chuyện."
+
+# {"path":"/addons/testAddon/emoji.js","row":"5","tags":null}
+#. tid/1643/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:5"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Nhân vật"
+
+# {"path":"/addons/testAddon/emoji.js","row":"6","tags":null}
+#. tid/1653/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:6"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung về nhân vật. Bạn có thể đặt thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện việc dịch đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/testAddon/emoji.js","row":"7","tags":null}
+#. tid/1685/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:7"
+msgid "System Message Template"
+msgstr "Mẫu Tin nhắn Hệ thống"
+
+# {"path":"/addons/testAddon/emoji.js","row":"8","tags":null}
+#. tid/1695/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:8"
+msgid "System message is the header of the message that will tell what is the role of your chatGPT assistant. This message will be sent as the very first message of every batch you send to chatGPT."
+msgstr "Tin nhắn hệ thống là phần đầu của tin nhắn sẽ cho biết vai trò của trợ lý chatGPT của bạn. Tin nhắn này sẽ được gửi như tin nhắn đầu tiên của mỗi lô bạn gửi đến chatGPT."
+
+# {"path":"/addons/testAddon/emoji.js","row":"9","tags":null}
+#. tid/1703/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:9"
+msgid "You can include the following variables with JavaScript's Template Literal style <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+msgstr "Bạn có thể bao gồm các biến sau với kiểu Template Literal của JavaScript <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"10","tags":null}
+#. tid/1711/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:10"
+msgid "Variables:<br>"
+msgstr "Các biến:<br>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"11","tags":null}
+#. tid/1724/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:11"
+msgid "<li>LANG_FROM : Source language</li>"
+msgstr "<li>LANG_FROM : Ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"12","tags":null}
+#. tid/1732/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:12"
+msgid "<li>LANG_TO : Target language</li>"
+msgstr "<li>LANG_TO : Ngôn ngữ đích</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"13","tags":null}
+#. tid/1740/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:13"
+msgid "<li>LANG_FROM_FULL : Full source language name</li>"
+msgstr "<li>LANG_FROM_FULL : Tên đầy đủ của ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"14","tags":null}
+#. tid/1748/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:14"
+msgid "<li>LANG_TO_FULL : Full target language name</li>"
+msgstr "<li>LANG_TO_FULL : Tên đầy đủ của ngôn ngữ đích</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"15","tags":null}
+#. tid/1756/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:15"
+msgid "<li>SOURCE_TEXT : Source text</li>"
+msgstr "<li>SOURCE_TEXT : Văn bản nguồn</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"16","tags":null}
+#. tid/1764/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:16"
+msgid "<li>ESCAPE_ALGORITHM_PROMPT : Pre-defined message of escape algorithm.</li>"
+msgstr "<li>ESCAPE_ALGORITHM_PROMPT : Tin nhắn được định nghĩa trước của thuật toán mã hóa.</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"17","tags":null}
+#. tid/1772/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:17"
+msgid "<li>NEWLINE_STRING : String represents new line (Line substitute).</li>"
+msgstr "<li>NEWLINE_STRING : Chuỗi đại diện cho dòng mới (Thay thế dòng).</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"18","tags":null}
+#. tid/1780/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:18"
+msgid "<li>MESSAGE_COUNT : Number of messages in the batch.</li>"
+msgstr "<li>MESSAGE_COUNT : Số lượng tin nhắn trong lô.</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"19","tags":null}
+#. tid/1788/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:19"
+msgid "<li>ACTOR_INFO : Add information of the actors.</li>"
+msgstr "<li>ACTOR_INFO : Thêm thông tin của các nhân vật.</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"20","tags":null}
+#. tid/1796/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:20"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"21","tags":null}
+#. tid/1804/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:21"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"22","tags":null}
+#. tid/1812/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:22"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu Chung]</code></li>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"23","tags":null}
+#. tid/1850/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:23"
+msgid "Body Message Template"
+msgstr "Mẫu Tin Nhắn Thân"
+
+# {"path":"/addons/testAddon/emoji.js","row":"24","tags":null}
+#. tid/1860/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:24"
+msgid "Template of the body of your chat."
+msgstr "Mẫu cho phần thân của cuộc trò chuyện của bạn."
+
+# {"path":"/addons/testAddon/emoji.js","row":"25","tags":null}
+#. tid/1906/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:25"
+msgid "Sample conversation"
+msgstr "Cuộc hội thoại mẫu"
+
+# {"path":"/addons/testAddon/emoji.js","row":"26","tags":null}
+#. tid/2001/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/testAddon/emoji.js:26"
+msgid "The ChatGPT Batch API allows you to translate your project asynchronously at 50% lower costs, meaning you will receive the results of your translation <b style=\"color:red\">within 24 hours</b> at <b style=\"color:red\">half the normal cost</b>. This is particularly useful for large projects that do not require immediate translation results."
+msgstr "API ChatGPT Batch cho phép bạn dịch dự án của mình không đồng bộ với chi phí thấp hơn 50%, nghĩa là bạn sẽ nhận được kết quả dịch <b style=\"color:red\">trong vòng 24 giờ</b> với <b style=\"color:red\">một nửa chi phí thông thường</b>. Điều này đặc biệt hữu ích cho các dự án lớn không yêu cầu kết quả dịch ngay lập tức."
+
+# {"path":"/addons/testAddon/emoji.js","row":"27","tags":null}
+#. tid/2013/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/testAddon/emoji.js:27"
+msgid " <br />Read more about the ChatGPT Batch API: https://platform.openai.com/docs/guides/batch ."
+msgstr " <br />Đọc thêm về API ChatGPT Batch: https://platform.openai.com/docs/guides/batch ."
+
+# {"path":"/addons/testAddon/emoji.js","row":"28","tags":null}
+#. tid/2039/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:28"
+msgid "Glossary"
+msgstr "Bảng Thuật Ngữ"
+
+# {"path":"/addons/testAddon/emoji.js","row":"29","tags":null}
+#. tid/2065/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:29"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Bảng Thuật Ngữ</h2>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"30","tags":null}
+#. tid/2072/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:30"
+msgid "<p>You may or may not use the glossary. The glossary will be loaded for each batch items to improve the quality of the translation.</p>"
+msgstr "<p>Bạn có thể sử dụng hoặc không sử dụng bảng thuật ngữ. Bảng thuật ngữ sẽ được tải cho mỗi mục lô để cải thiện chất lượng dịch.</p>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"31","tags":null}
+#. tid/2157/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:31"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông Tin Bổ Sung của Nhân Vật"
+
+# {"path":"/addons/testAddon/emoji.js","row":"32","tags":null}
+#. tid/2189/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:32"
+msgid "Prompt Template"
+msgstr "Mẫu Lời Nhắc"
+
+# {"path":"/addons/testAddon/emoji.js","row":"33","tags":null}
+#. tid/2215/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:33"
+msgid "<h2>1. System Message</h2>"
+msgstr "<h2>1. Tin Nhắn Hệ Thống</h2>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"34","tags":null}
+#. tid/2222/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:34"
+msgid "<p>Here you can explain to the assistant, what is their role.</p>"
+msgstr "<p>Tại đây, bạn có thể giải thích cho trợ lý về vai trò của họ.</p>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"35","tags":null}
+#. tid/2266/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:35"
+msgid "<h2>2. Sample dialogue</h2>"
+msgstr "<h2>2. Hội thoại mẫu</h2>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"36","tags":null}
+#. tid/2273/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:36"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Cuộc hội thoại mẫu hiện có. Bạn có thể viết một mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục tiêu và ngữ cảnh của cuộc trò chuyện.</p>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"37","tags":null}
+#. tid/2399/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:37"
+msgid "<h2>3. Your actual prompt</h2>"
+msgstr "<h2>3. Lời nhắc thực tế của bạn</h2>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"38","tags":null}
+#. tid/2406/type/StringLiteral
+msgctxt "tpp:/addons/testAddon/emoji.js:38"
+msgid "<p>This is the actual prompt to the assistant.</p>"
+msgstr "<p>Đây là lời nhắc thực tế gửi đến trợ lý.</p>"
+
+# {"path":"/addons/testAddon/emoji.js","row":"39","tags":null}
+#. tid/2459/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/testAddon/emoji.js:39"
+msgid ""
+"<h3>Overhead cost</h3>\n"
+"                        Overhead cost is the cost of the prompt message that you send to the assistant without the actual translation texts. The cost is calculated based on the number of tokens in the prompt message. The more tokens you have, the higher the cost will be.<br>\n"
+"                        <b>Current overhead cost:</b> <span class=\"overheadCost\">0</span> tokens / request."
+msgstr ""
+"<h3>Chi phí chung</h3>\n"
+"                        Chi phí chung là chi phí của tin nhắn nhắc mà bạn gửi đến trợ lý mà không có văn bản dịch thực tế. Chi phí được tính dựa trên số lượng token trong tin nhắn nhắc. Càng nhiều token, chi phí càng cao.<br>\n"
+"                        <b>Chi phí chung hiện tại:</b> <span class=\"overheadCost\">0</span> token / yêu cầu."

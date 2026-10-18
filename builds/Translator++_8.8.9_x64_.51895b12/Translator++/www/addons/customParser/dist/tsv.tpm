@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "pattern": "*.tsv",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/(^|\\t)([^\\t\\r\\n]+)(?=\\t|$)/gm",
+          "captureGroups": "2"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "TSV Table Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing tab-separated text files.</p><p>Extracts every non-empty TSV cell as translatable text. Adjust the model if your first column contains IDs or other fields that should stay untranslated.</p>"
+  },
+  "options": {
+    "testData": "id\tname\tdescription\n1\tPotion\tRestores HP\n2\tElixir\tRestores HP and MP\n"
+  }
+}

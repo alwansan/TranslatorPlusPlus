@@ -1,0 +1,114 @@
+{
+  // =========================
+  // Required identity
+  // =========================
+
+  // IMPORTANT: used as key for persisted config: sys.config.addons.package[package.name]
+  // Keep stable across releases.
+  "name": "myAddonPackageName",
+
+  // Shown in the add-on manager UI (Options). If omitted, UI falls back to `name`.
+  "title": "My Addon Display Name",
+
+  // Shown in add-on manager UI.
+  "description": "Short description of what this addon does.",
+
+  // Common convention in existing addons; not required by loader.
+  "main": "otherScript.js",
+
+  // Optional informational metadata.
+  "homepage": "https://example.com/my-addon",
+
+  // Shown in add-on manager UI.
+  "version": "0.1.0",
+
+  // Shown in add-on manager UI.
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.invalid"
+  },
+
+  // Displayed in add-on list if present.
+  "license": "GPL-3.0-or-later",
+
+  // Icon path relative to this addon folder.
+  // The UI renders it using: addon.getWebLocation() + '/' + icon
+  "icon": "icon.png",
+
+  // =========================
+  // Runtime loader behavior
+  // =========================
+
+  // If true, the loader reads the addon directory and attempts to load supported file types.
+  // (Exact recursion depends on common.readDir)
+  "autoload": false,
+
+  // Explicit load list.
+  // - Local entries are resolved relative to the addon folder.
+  // - Entries starting with `ao://` are treated as external scripts.
+  // - Entries starting with http(s):// are treated as network scripts.
+  "load": [
+    // Local JS (executed as AsyncFunction with `this` bound to Addon instance)
+    "otherScript.js",
+
+    // Local CSS (appended to addon container)
+    "style.css",
+
+    // Local HTML (appended to addon container)
+    "panel.html",
+
+    // Local NW.js binary module (evaluated via evalNWBin; loader also tries to fall back to JS sources)
+    "bin/myFeature.bin",
+
+    // External script protocol. Loader may evaluate from local filesystem or localStorage cache.
+    // Note: `ao:///` style paths are treated as external.
+    "ao:///www/addons/myAddonDir/externalCachedScript.js",
+
+    // Network script (fetched). Some loaders allow local fallback with `?l=/relativeFile.js`.
+    "https://example.com/remote-addon-script.js?l=/remoteFallback.js"
+  ],
+
+  // If true, the loader will stop after reading package.json.
+  "disabled": false,
+
+  // Default config values merged into addon.config on first load.
+  // Effective config is stored under sys.config.addons.package[package.name].
+  "config": {
+    // Used by addon manager UI to show a lock icon and prevent disabling.
+    "isMandatory": false,
+
+    // Used by loader + addon manager UI to skip loading & hide options.
+    "isDisabled": false,
+
+    // Example addon-specific defaults (your optionsForm keys usually map to config keys)
+    "enabled": true,
+    "logLevel": "info",
+    "apiBaseUrl": "https://example.com/api",
+    "features": ["a", "b"],
+    "maxBatchSize": 20
+  },
+
+  // Used by addon manager / ecosystem; not required by loader.
+  "minimumVersion": "7.8.27",
+
+  // =========================
+  // Build/packaging metadata (used by tooling, not by runtime loader)
+  // =========================
+
+  // Some addons use a build config or scripts for producing .bin or dist artifacts.
+  // Runtime loader does NOT interpret these fields.
+  "build": {
+    "src": ["src/*.js"],
+    "dist": "bin"
+  },
+
+  // Exclusion list used by some packaging flows (not interpreted by runtime loader).
+  "exclude": ["src/*.js", "test/*.js"],
+
+  // Node dependencies if the addon has its own node_modules.
+  // Use `this.globalizeNodeModules()` or `this.require(...)` from addon scripts.
+  "dependencies": {
+    "openai": "^4.0.0",
+    "node-fetch-cjs": "^3.3.2"
+  }
+}

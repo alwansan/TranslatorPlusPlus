@@ -1,0 +1,17 @@
+{
+    "name": "renParser",
+    "description": "Javascript parser for Ren'Py engines",
+    "main": "renParser.js",
+    "homepage": "http://dreamsavior.net",
+	"version": "0.18",
+	"icon": "icon.png",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"autoload" : false,
+	"minVersion":"8.5.25",
+	"load" : [
+		"renParser.js"
+	]
+}

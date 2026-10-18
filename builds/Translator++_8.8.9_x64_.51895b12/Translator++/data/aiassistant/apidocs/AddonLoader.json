@@ -1,0 +1,88 @@
+{
+  "AddonLoader": {
+    "constructor": {
+      "AddonLoader": {
+        "signature": "new AddonLoader()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new AddonLoader()"
+      }
+    },
+    "methods": {
+      "addonLoader.getAddon": {
+        "signature": "getAddon(dirName) → Addon|undefined",
+        "description": "Get instance of addon by directory name",
+        "parameters": [
+          {
+            "name": "dirName",
+            "type": "String|Addon",
+            "description": "Directory of the addon",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Addon\n|\n\nundefined",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "addonLoader.getAddon(dirName) : Addon\n|\n\nundefined"
+      },
+      "addonLoader.getAddonByName": {
+        "signature": "getAddonByName(name) → Addon|undefined",
+        "description": "Get addon by the name on package.json\nThis function is case insensitive",
+        "parameters": [
+          {
+            "name": "name",
+            "type": "String",
+            "description": "Addon's name",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Addon\n|\n\nundefined",
+          "description": "Addon object"
+        },
+        "examples": [],
+        "usage": "addonLoader.getAddonByName(name) : Addon\n|\n\nundefined"
+      },
+      "addonLoader.isActive": {
+        "signature": "isActive(addon) → Boolean",
+        "description": "Check if an addon is active or not",
+        "parameters": [
+          {
+            "name": "addon",
+            "type": "String|Addon",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if addon is exist and active"
+        },
+        "examples": [],
+        "usage": "addonLoader.isActive(addon) : Boolean"
+      },
+      "addonLoader.waitFor": {
+        "signature": "async waitFor(path) → Promise.<Addon>",
+        "description": "Wait until certain addon is loaded",
+        "parameters": [
+          {
+            "name": "path",
+            "type": "String",
+            "description": "Folder name of the addon",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<Addon>",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "addonLoader.waitFor(path) : Promise.<Addon>"
+      }
+    }
+  }
+}

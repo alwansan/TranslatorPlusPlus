@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rmmv.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"0","tags":null}
+#. tid/125/type/StringLiteral
+#. tid/152/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:0"
+msgid "Beautify JSON data"
+msgstr "Làm đẹp dữ liệu JSON"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"1","tags":null}
+#. tid/135/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:1"
+msgid "When checked the generated data will be beautified."
+msgstr "Khi được chọn, dữ liệu tạo ra sẽ được làm đẹp."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"2","tags":null}
+#. tid/16151/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:2"
+msgid "Error loading system.json"
+msgstr "Lỗi tải system.json"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"3","tags":null}
+#. tid/19426/type/StringLiteral
+#. tid/19469/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:3"
+msgid "Loading"
+msgstr "Đang tải"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"4","tags":null}
+#. tid/20448/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:4"
+msgid "index.html not found in"
+msgstr "Không tìm thấy index.html trong"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"5","tags":null}
+#. tid/20619/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:5"
+msgid "Encrypted game"
+msgstr "Trò chơi được mã hóa"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"6","tags":null}
+#. tid/20624/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:6"
+msgid "Select the index.html of your encrypted game."
+msgstr "Chọn index.html của trò chơi được mã hóa của bạn."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"7","tags":null}
+#. tid/20635/type/StringLiteral
+#. tid/21231/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:7"
+msgid "Target folder"
+msgstr "Thư mục đích"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"8","tags":null}
+#. tid/20640/type/StringLiteral
+#. tid/21236/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:8"
+msgid "Select destination folder. The process will replace the existing files."
+msgstr "Chọn thư mục đích. Quá trình sẽ thay thế các tệp hiện có."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"9","tags":null}
+#. tid/20713/type/StringLiteral
+#. tid/30541/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:9"
+msgid "Decrypt Resources"
+msgstr "Giải mã Tài nguyên"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"10","tags":null}
+#. tid/20814/type/StringLiteral
+#. tid/21410/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:10"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"11","tags":null}
+#. tid/20865/type/StringLiteral
+#. tid/21461/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:11"
+msgid "Process"
+msgstr "Xử lý"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"12","tags":null}
+#. tid/20925/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:12"
+msgid "Source path can not empty"
+msgstr "Đường dẫn nguồn không được để trống"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"13","tags":null}
+#. tid/20962/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:13"
+msgid "Destination path can not empty"
+msgstr "Đường dẫn đích không được để trống"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"14","tags":null}
+#. tid/20992/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:14"
+msgid "Path is not a file:"
+msgstr "Đường dẫn không phải là tệp:"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"15","tags":null}
+#. tid/21023/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:15"
+msgid "Invalid directory:"
+msgstr "Thư mục không hợp lệ:"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"16","tags":null}
+#. tid/21215/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:16"
+msgid "Extract enigma"
+msgstr "Trích xuất enigma"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"17","tags":null}
+#. tid/21220/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:17"
+msgid "Select enigma file."
+msgstr "Chọn tệp enigma."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"18","tags":null}
+#. tid/21309/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:18"
+msgid "Extract Enigma"
+msgstr "Trích xuất Enigma"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"19","tags":null}
+#. tid/21564/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:19"
+msgid "Selected file is not an Enigma Virtual Box package."
+msgstr "Tệp đã chọn không phải là gói Enigma Virtual Box."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"20","tags":null}
+#. tid/21678/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:20"
+msgid "Plugins are already fetched for this project. Want to re-fetch the plugins?"
+msgstr "Các plugin đã được lấy cho dự án này. Bạn có muốn lấy lại các plugin không?"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"21","tags":null}
+#. tid/22062/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:21"
+msgid "Translate Javascript File?"
+msgstr "Dịch Tệp Javascript?"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"22","tags":null}
+#. tid/22163/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:22"
+msgid "Cancel"
+msgstr "Hủy"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"23","tags":null}
+#. tid/22214/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:23"
+msgid "I know the risk, Proceed!"
+msgstr "Tôi biết rủi ro, Tiếp tục!"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"24","tags":null}
+#. tid/22424/type/StringLiteral
+#. tid/24166/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:24"
+msgid "Game Executable Path"
+msgstr "Đường dẫn Tệp thực thi Game"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"25","tags":null}
+#. tid/22434/type/StringLiteral
+#. tid/24176/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:25"
+msgid "Path to the game executable file (.exe)"
+msgstr "Đường dẫn đến tệp thực thi game (.exe)"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"26","tags":null}
+#. tid/22468/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:26"
+msgid "NWJS Version"
+msgstr "Phiên bản NWJS"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"27","tags":null}
+#. tid/22478/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:27"
+msgid "Change into this NWJS version"
+msgstr "Chuyển sang phiên bản NWJS này"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"28","tags":null}
+#. tid/22512/type/StringLiteral
+#. tid/22962/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:28"
+msgid "Use Developer version"
+msgstr "Sử dụng phiên bản Nhà phát triển"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"29","tags":null}
+#. tid/22522/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:29"
+msgid "Use the NWJS Developer version. The Developer version has developer tools available. Suitable for debugging and development."
+msgstr "Sử dụng phiên bản Nhà phát triển của NWJS. Phiên bản Nhà phát triển có sẵn các công cụ dành cho nhà phát triển. Phù hợp cho việc gỡ lỗi và phát triển."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"30","tags":null}
+#. tid/22533/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:30"
+msgid "In Developer version you can use <b>Developer Console</b>. Developer Console can be accessed by pressing F12 or right-clicking the app and selecting 'Inspect'."
+msgstr "Trong phiên bản Nhà phát triển, bạn có thể sử dụng <b>Bảng điều khiển Nhà phát triển</b>. Bảng điều khiển Nhà phát triển có thể được truy cập bằng cách nhấn F12 hoặc nhấp chuột phải vào ứng dụng và chọn 'Kiểm tra'."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"31","tags":null}
+#. tid/22560/type/StringLiteral
+#. tid/22986/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:31"
+msgid "Use 32-bit version"
+msgstr "Sử dụng phiên bản 32-bit"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"32","tags":null}
+#. tid/22570/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:32"
+msgid "Use the 32-bit version of NWJS. The 32-bit version is useful for compatibility with older systems. It is recommended to uncheck this option if possible (just upgrade your machine, dude)."
+msgstr "Sử dụng phiên bản 32-bit của NWJS. Phiên bản 32-bit hữu ích cho khả năng tương thích với các hệ thống cũ. Khuyến nghị bỏ chọn tùy chọn này nếu có thể (chỉ cần nâng cấp máy của bạn, anh bạn)."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"33","tags":null}
+#. tid/22605/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:33"
+msgid "Some game feature may not work across NWJS version"
+msgstr "Một số tính năng game có thể không hoạt động trên các phiên bản NWJS"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"34","tags":null}
+#. tid/22610/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:34"
+msgid "Please be aware that some game feature may not work across NWJS version."
+msgstr "Xin lưu ý rằng một số tính năng game có thể không hoạt động trên các phiên bản NWJS."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"35","tags":null}
+#. tid/23014/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:35"
+msgid "Change RPG Maker MV / RPG Maker MZ / NWJS version"
+msgstr "Thay đổi phiên bản RPG Maker MV / RPG Maker MZ / NWJS"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"36","tags":null}
+#. tid/23119/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:36"
+msgid "This operation will change the NW.js version into"
+msgstr "Thao tác này sẽ thay đổi phiên bản NW.js thành"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"37","tags":null}
+#. tid/23148/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:37"
+msgid ""
+"Please close the application first before continuing.\n"
+"Do you want to continue?"
+msgstr ""
+"Vui lòng đóng ứng dụng trước khi tiếp tục.\n"
+"Bạn có muốn tiếp tục không?"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"38","tags":null}
+#. tid/23298/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:38"
+msgid "The selected file is not a valid NW.js application."
+msgstr "Tệp đã chọn không phải là ứng dụng NW.js hợp lệ."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"39","tags":null}
+#. tid/23453/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:39"
+msgid "Could not find index.html in the game directory."
+msgstr "Không thể tìm thấy index.html trong thư mục trò chơi."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"40","tags":null}
+#. tid/23555/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:40"
+msgid "Debug menu script not found in addon directory."
+msgstr "Không tìm thấy tập lệnh menu gỡ lỗi trong thư mục addon."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"41","tags":null}
+#. tid/23696/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:41"
+msgid "Debug menu script is already installed in index.html."
+msgstr "Tập lệnh menu gỡ lỗi đã được cài đặt trong index.html."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"42","tags":null}
+#. tid/23770/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:42"
+msgid "Debug options installed successfully!"
+msgstr "Tùy chọn gỡ lỗi đã được cài đặt thành công!"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"43","tags":null}
+#. tid/23812/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:43"
+msgid ""
+"The selected game is not running in NW.js Developer Mode (SDK).\n"
+"\n"
+""
+msgstr ""
+"Trò chơi đã chọn không chạy ở Chế độ Nhà phát triển NW.js (SDK).\n"
+"\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"44","tags":null}
+#. tid/23820/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:44"
+msgid ""
+"Developer Mode provides additional debugging features:\n"
+""
+msgstr ""
+"Chế độ Nhà phát triển cung cấp các tính năng gỡ lỗi bổ sung:\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"45","tags":null}
+#. tid/23828/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:45"
+msgid ""
+"• Developer Console (F12)\n"
+""
+msgstr ""
+"• Bảng điều khiển Nhà phát triển (F12)\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"46","tags":null}
+#. tid/23836/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:46"
+msgid ""
+"• Inspect Element (Right-click)\n"
+""
+msgstr ""
+"• Kiểm tra Phần tử (Nhấp chuột phải)\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"47","tags":null}
+#. tid/23844/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:47"
+msgid ""
+"• Network Monitor\n"
+""
+msgstr ""
+"• Trình giám sát Mạng\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"48","tags":null}
+#. tid/23852/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:48"
+msgid ""
+"• Performance Profiler\n"
+"\n"
+""
+msgstr ""
+"• Trình phân tích Hiệu suất\n"
+"\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"49","tags":null}
+#. tid/23860/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:49"
+msgid ""
+"Do you want to upgrade to NW.js Developer Mode?\n"
+""
+msgstr ""
+"Bạn có muốn nâng cấp lên Chế độ Nhà phát triển NW.js không?\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"50","tags":null}
+#. tid/23868/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:50"
+msgid "(Recommended for better debugging experience)"
+msgstr "(Được khuyến nghị để có trải nghiệm gỡ lỗi tốt hơn)"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"51","tags":null}
+#. tid/23922/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:51"
+msgid "The game will be upgraded to NW.js SDK version"
+msgstr "Trò chơi sẽ được nâng cấp lên phiên bản NW.js SDK"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"52","tags":null}
+#. tid/23931/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:52"
+msgid "This may take a few minutes. Please wait..."
+msgstr "Việc này có thể mất vài phút. Vui lòng chờ..."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"53","tags":null}
+#. tid/23972/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:53"
+msgid "NW.js has been upgraded to Developer Mode successfully!"
+msgstr "NW.js đã được nâng cấp lên Chế độ Nhà phát triển thành công!"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"54","tags":null}
+#. tid/24005/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:54"
+msgid ""
+"Failed to upgrade to Developer Mode:\n"
+""
+msgstr ""
+"Không thể nâng cấp lên Chế độ Nhà phát triển:\n"
+""
+
+# {"path":"/addons/rmmv/rmmv.js","row":"55","tags":null}
+#. tid/24068/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:55"
+msgid "Error installing debug options: "
+msgstr "Lỗi khi cài đặt tùy chọn gỡ lỗi: "
+
+# {"path":"/addons/rmmv/rmmv.js","row":"56","tags":null}
+#. tid/24217/type/NoSubstitutionTemplate
+#. tid/24282/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:56"
+msgid "Install Debug Options"
+msgstr "Cài đặt Tùy chọn Gỡ lỗi"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"57","tags":null}
+#. tid/24222/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:57"
+msgid "This will install a debug menu into your RPG Maker MV/MZ game."
+msgstr "Thao tác này sẽ cài đặt một menu gỡ lỗi vào trò chơi RPG Maker MV/MZ của bạn."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"58","tags":null}
+#. tid/24227/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:58"
+msgid "Select the game executable file to install debug options."
+msgstr "Chọn tệp thực thi của trò chơi để cài đặt tùy chọn gỡ lỗi."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"59","tags":null}
+#. tid/24482/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:59"
+msgid "Compile HTML to Executable"
+msgstr "Biên dịch HTML thành Tệp thực thi"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"60","tags":null}
+#. tid/24546/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:60"
+msgid "Change Existing NWJS Version"
+msgstr "Thay đổi Phiên bản NWJS Hiện tại"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"61","tags":null}
+#. tid/24598/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:61"
+msgid "Install debug options"
+msgstr "Cài đặt tùy chọn gỡ lỗi"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"62","tags":null}
+#. tid/24781/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:62"
+msgid "Find next"
+msgstr "Tìm tiếp theo"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"63","tags":null}
+#. tid/24891/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:63"
+msgid "Open folder"
+msgstr "Mở thư mục"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"64","tags":null}
+#. tid/24981/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:64"
+msgid "Open with external application"
+msgstr "Mở bằng ứng dụng bên ngoài"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"65","tags":null}
+#. tid/25166/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:65"
+msgid "Raw JSON data. Right click to open menu."
+msgstr "Dữ liệu JSON thô. Nhấp chuột phải để mở menu."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"66","tags":null}
+#. tid/26021/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:66"
+msgid ""
+"Patch is available for this trans data. This patch will make your trans data compatible with the current version of Translator++.\n"
+"Do you want to patch your Trans data?\n"
+"(Some feature may not work properly if you don't patch your trans data)"
+msgstr ""
+"Bản vá có sẵn cho dữ liệu dịch này. Bản vá này sẽ làm cho dữ liệu dịch của bạn tương thích với phiên bản hiện tại của Translator++.\n"
+"Bạn có muốn vá dữ liệu dịch của mình không?\n"
+"(Một số tính năng có thể không hoạt động đúng nếu bạn không vá dữ liệu dịch)"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"67","tags":null}
+#. tid/29743/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:67"
+msgid "Unable to locate executable to install debug options. Make sure your game is packaged for Windows with NW.js."
+msgstr "Không thể định vị tệp thực thi để cài đặt tùy chọn gỡ lỗi. Hãy đảm bảo trò chơi của bạn được đóng gói cho Windows với NW.js."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"68","tags":null}
+#. tid/29779/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:68"
+msgid "Error while installing debug options: "
+msgstr "Lỗi khi cài đặt tùy chọn gỡ lỗi: "
+
+# {"path":"/addons/rmmv/rmmv.js","row":"69","tags":null}
+#. tid/30242/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:69"
+msgid "Play last build"
+msgstr "Chạy bản dựng cuối cùng"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"70","tags":null}
+#. tid/30291/type/StringLiteral
+#. tid/30388/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:70"
+msgid ""
+"Dev path is not defined.\n"
+"You should inject your game once to generate dev path."
+msgstr ""
+"Đường dẫn phát triển chưa được xác định.\n"
+"Bạn nên tiêm trò chơi của mình một lần để tạo đường dẫn phát triển."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"71","tags":null}
+#. tid/30339/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:71"
+msgid "Open editor"
+msgstr "Mở trình chỉnh sửa"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"72","tags":null}
+#. tid/30443/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:72"
+msgid "Load Plugins Into Project"
+msgstr "Tải Plugin vào Dự án"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"73","tags":null}
+#. tid/30705/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:73"
+msgid "Compile Game"
+msgstr "Biên dịch Trò chơi"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"74","tags":null}
+#. tid/30891/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:74"
+msgid ""
+"The option has been set to use the legacy parser.\n"
+"You can switch back to the new parser anytime via option menu."
+msgstr ""
+"Tùy chọn đã được đặt để sử dụng trình phân tích cũ.\n"
+"Bạn có thể chuyển lại sang trình phân tích mới bất cứ lúc nào qua menu tùy chọn."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"75","tags":null}
+#. tid/31622/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:75"
+msgid "Unable to find the file related to the data"
+msgstr "Không thể tìm thấy tệp liên quan đến dữ liệu"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"76","tags":null}
+#. tid/31627/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rmmv/rmmv.js:76"
+msgid "To fix this correct the <b>Raw material location</b> field at the <a href=\"#\" class=\"openProjectProperties\">Project properties</a>"
+msgstr "Để sửa lỗi này, hãy chỉnh sửa trường <b>Vị trí nguyên liệu thô</b> tại <a href=\"#\" class=\"openProjectProperties\">Thuộc tính dự án</a>"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"77","tags":null}
+#. tid/32659/type/StringLiteral
+#. tid/32882/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:77"
+msgid "Maximum dialog line"
+msgstr "Dòng hội thoại tối đa"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"78","tags":null}
+#. tid/32669/type/StringLiteral
+#. tid/32892/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:78"
+msgid "Maximum line in the dialog box. Default is 4."
+msgstr "Số dòng tối đa trong hộp thoại. Mặc định là 4."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"79","tags":null}
+#. tid/32935/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:79"
+msgid "Add debug options"
+msgstr "Thêm tùy chọn gỡ lỗi"
+
+# {"path":"/addons/rmmv/rmmv.js","row":"80","tags":null}
+#. tid/32945/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:80"
+msgid "Add debug options into the game to help testing."
+msgstr "Thêm tùy chọn gỡ lỗi vào trò chơi để hỗ trợ kiểm thử."
+
+# {"path":"/addons/rmmv/rmmv.js","row":"81","tags":null}
+#. tid/33021/type/StringLiteral
+msgctxt "tpp:/addons/rmmv/rmmv.js:81"
+msgid "Enable this option to add debugging tools to the game. These features can help you test your translation.<br/><b>⚠️ Note: This option is only available if your game is packaged with NWJS for Windows.</b>"
+msgstr "Bật tùy chọn này để thêm công cụ gỡ lỗi vào trò chơi. Các tính năng này có thể giúp bạn kiểm tra bản dịch của mình.<br/><b>⚠️ Lưu ý: Tùy chọn này chỉ khả dụng nếu trò chơi của bạn được đóng gói với NWJS cho Windows.</b>"

@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mainMenu.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"0","tags":null}
+#. tid/442/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:0"
+msgid "Change Language"
+msgstr "Thay đổi Ngôn ngữ"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"1","tags":null}
+#. tid/729/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:1"
+msgid "No MTL available for this language pair"
+msgstr "Không có MTL khả dụng cho cặp ngôn ngữ này"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"2","tags":null}
+#. tid/974/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:2"
+msgid "Change default MTL for this project"
+msgstr "Thay đổi MTL mặc định cho dự án này"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"3","tags":null}
+#. tid/1182/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:3"
+msgid "???"
+msgstr "???"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"4","tags":null}
+#. tid/1339/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:4"
+msgid "Search in a folder"
+msgstr "Tìm kiếm trong một thư mục"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"5","tags":null}
+#. tid/1404/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:5"
+msgid "Search in Staging Files"
+msgstr "Tìm kiếm trong Tệp Staging"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"6","tags":null}
+#. tid/1501/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:6"
+msgid "Search in Original Files"
+msgstr "Tìm kiếm trong Tệp Gốc"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"7","tags":null}
+#. tid/1539/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:7"
+msgid "No original files path is set for this project."
+msgstr "Không có đường dẫn tệp gốc nào được đặt cho dự án này."
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"8","tags":null}
+#. tid/1624/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:8"
+msgid "Search in Translated Files"
+msgstr "Tìm kiếm trong Tệp Đã Dịch"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"9","tags":null}
+#. tid/1662/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:9"
+msgid ""
+"No translated files path is set for this project.\n"
+"You need to inject your translation once to set the translated files path."
+msgstr ""
+"Không có đường dẫn tệp đã dịch nào được đặt cho dự án này.\n"
+"Bạn cần tiêm bản dịch của mình một lần để đặt đường dẫn tệp đã dịch."
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"10","tags":null}
+#. tid/1777/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:10"
+msgid "Chat with AI Assistant"
+msgstr "Trò chuyện với Trợ lý AI"
+
+# {"path":"/addons/basicUtils/mainMenu.js","row":"11","tags":null}
+#. tid/1812/type/StringLiteral
+msgctxt "tpp:/addons/basicUtils/mainMenu.js:11"
+msgid ""
+"AI Assistant is not available since the new features are not loaded.\n"
+"Please reinstall or re-update Translator++."
+msgstr ""
+"Trợ lý AI không khả dụng vì các tính năng mới chưa được tải.\n"
+"Vui lòng cài đặt lại hoặc cập nhật lại Translator++."

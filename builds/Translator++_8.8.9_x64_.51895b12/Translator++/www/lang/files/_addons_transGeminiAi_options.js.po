@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: options.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"0","tags":null}
+#. tid/727/type/StringLiteral
+#. tid/5390/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:0"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"1","tags":null}
+#. tid/735/type/StringLiteral
+#. tid/5398/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:1"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Công cụ của trò chơi</li>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"2","tags":null}
+#. tid/743/type/StringLiteral
+#. tid/5406/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:2"
+msgid "<li>ACTOR_INFO : Glossary of actor information.(Only if actor information option is enabled in batch mode)</li>"
+msgstr "<li>ACTOR_INFO : Bảng thuật ngữ thông tin diễn viên. (Chỉ khi tùy chọn thông tin diễn viên được bật trong chế độ hàng loạt)</li>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"3","tags":null}
+#. tid/751/type/StringLiteral
+#. tid/5414/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:3"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu Chung]</code></li>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"4","tags":null}
+#. tid/759/type/StringLiteral
+#. tid/5422/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:4"
+msgid "<li>CONTEXT : Context of the previous translation (if context is enabled)</li>"
+msgstr "<li>CONTEXT : Ngữ cảnh của bản dịch trước đó (nếu ngữ cảnh được bật)</li>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"5","tags":null}
+#. tid/828/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:5"
+msgid "Sample conversation"
+msgstr "Cuộc trò chuyện mẫu"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"6","tags":null}
+#. tid/2367/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transGeminiAi/options.js:6"
+msgid "<h2>Don't waste your money on Reasoning Models</h2>"
+msgstr "<h2>Đừng lãng phí tiền vào Mô hình Lý luận</h2>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"7","tags":null}
+#. tid/2375/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transGeminiAi/options.js:7"
+msgid "<p>It has been proven by various studies that reasoning models are far worse than the normal models on performing creative writings and translation tasks.</p>"
+msgstr "<p>Các nghiên cứu khác nhau đã chứng minh rằng mô hình lý luận kém xa so với mô hình thông thường trong việc thực hiện các tác vụ viết sáng tạo và dịch thuật.</p>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"8","tags":null}
+#. tid/2383/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transGeminiAi/options.js:8"
+msgid "<p>You gain nothing but more expensive cost and slower response times when using reasoning models.</p>"
+msgstr "<p>Bạn không thu được gì ngoài chi phí đắt hơn và thời gian phản hồi chậm hơn khi sử dụng mô hình lý luận.</p>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"9","tags":null}
+#. tid/2907/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:9"
+msgid "<h2>Sample dialogue</h2>"
+msgstr "<h2>Đối thoại mẫu</h2>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"10","tags":null}
+#. tid/2914/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:10"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Mẫu hội thoại hiện có. Bạn có thể viết một mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục tiêu và ngữ cảnh của cuộc trò chuyện.</p>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"11","tags":null}
+#. tid/5098/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:11"
+msgid "Always separate file"
+msgstr "Luôn tách tệp"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"12","tags":null}
+#. tid/5108/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:12"
+msgid "Always separate the file for each batch. This may keep the contexts of each files unpoluted with another files."
+msgstr "Luôn tách tệp cho mỗi lô. Điều này có thể giữ cho ngữ cảnh của từng tệp không bị trộn lẫn với các tệp khác."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"13","tags":null}
+#. tid/5142/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:13"
+msgid "Add actor name"
+msgstr "Thêm tên diễn viên"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"14","tags":null}
+#. tid/5152/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:14"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên diễn viên từ thông tin hàng vào văn bản có thể dịch. Điều này sẽ giúp người dịch theo dõi hội thoại và đại từ. Translator++ sau đó sẽ loại bỏ tên diễn viên khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"15","tags":null}
+#. tid/5189/type/StringLiteral
+#. tid/5599/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:15"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Diễn viên làm Từ điển"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"16","tags":null}
+#. tid/5199/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:16"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu diễn viên làm từ điển. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu diễn viên là tên của diễn viên trong hội thoại. Điều này sẽ được tải như một từ điển cho người dịch. Điều này sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"17","tags":null}
+#. tid/5206/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:17"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm từ điển cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu diễn viên trong thông báo nhắc."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"18","tags":null}
+#. tid/5213/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:18"
+msgid "<br />⚠️If you enable this option, you also need to include the <code>ACTOR_INFO</code> variable in the prompt template to place the character information data."
+msgstr "<br />⚠️Nếu bạn bật tùy chọn này, bạn cũng cần bao gồm biến <code>ACTOR_INFO</code> trong mẫu nhắc để đặt dữ liệu thông tin nhân vật."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"19","tags":null}
+#. tid/5247/type/StringLiteral
+#. tid/5630/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:19"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Diễn viên"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"20","tags":null}
+#. tid/5257/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:20"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột chứa bản dịch của tên diễn viên. Cột này sẽ được sử dụng làm bản dịch của tham chiếu diễn viên. Điều này sẽ cải thiện tính nhất quán của bản dịch tên diễn viên trong cuộc trò chuyện."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"21","tags":null}
+#. tid/5284/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:21"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Diễn viên"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"22","tags":null}
+#. tid/5294/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:22"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung của diễn viên. Bạn có thể đặt thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện bản dịch của đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"23","tags":null}
+#. tid/5324/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:23"
+msgid "Extra Prompt"
+msgstr "Nhắc bổ sung"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"24","tags":null}
+#. tid/5334/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:24"
+msgid "Extra prompt that will be added to the prompt message. This will be added after the system message and before the actual prompt message."
+msgstr "Nhắc bổ sung sẽ được thêm vào thông báo nhắc. Điều này sẽ được thêm sau thông báo hệ thống và trước thông báo nhắc thực tế."
+
+# {"path":"/addons/transGeminiAi/options.js","row":"25","tags":null}
+#. tid/5461/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:25"
+msgid "General Settings"
+msgstr "Cài đặt chung"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"26","tags":null}
+#. tid/5487/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:26"
+msgid "Always separate file for each batch"
+msgstr "Luôn tách tệp cho mỗi lô"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"27","tags":null}
+#. tid/5511/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:27"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên diễn viên vào văn bản có thể dịch"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"28","tags":null}
+#. tid/5543/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:28"
+msgid "Glossary"
+msgstr "Từ điển"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"29","tags":null}
+#. tid/5569/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:29"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Từ điển</h2>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"30","tags":null}
+#. tid/5576/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:30"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm một bảng thuật ngữ vào lời nhắc. Bảng thuật ngữ sẽ được tải cho mỗi nhóm mục để cải thiện chất lượng bản dịch. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm phình to lời nhắc của bạn.</p>"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"31","tags":null}
+#. tid/5661/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:31"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông Tin Bổ Sung của Diễn Viên"
+
+# {"path":"/addons/transGeminiAi/options.js","row":"32","tags":null}
+#. tid/5692/type/StringLiteral
+msgctxt "tpp:/addons/transGeminiAi/options.js:32"
+msgid "Prompt"
+msgstr "Lời nhắc"

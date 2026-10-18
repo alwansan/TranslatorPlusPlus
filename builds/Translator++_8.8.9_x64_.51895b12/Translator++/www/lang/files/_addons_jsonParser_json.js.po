@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: json.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/jsonParser/json.js","row":"0","tags":null}
+#. tid/92/type/StringLiteral
+#. tid/119/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:0"
+msgid "Beautify JSON data"
+msgstr "Làm đẹp dữ liệu JSON"
+
+# {"path":"/addons/jsonParser/json.js","row":"1","tags":null}
+#. tid/102/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:1"
+msgid "When checked the generated data will be beautified."
+msgstr "Khi được chọn, dữ liệu tạo ra sẽ được làm đẹp."
+
+# {"path":"/addons/jsonParser/json.js","row":"2","tags":null}
+#. tid/2826/type/StringLiteral
+#. tid/2879/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:2"
+msgid "Start a new translation project from any JSON file."
+msgstr "Bắt đầu một dự án dịch mới từ bất kỳ tệp JSON nào."
+
+# {"path":"/addons/jsonParser/json.js","row":"3","tags":null}
+#. tid/2831/type/StringLiteral
+#. tid/2884/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:3"
+msgid "Translator++ will translate any translatable texts found in the JSON files."
+msgstr "Translator++ sẽ dịch mọi văn bản có thể dịch được tìm thấy trong các tệp JSON."
+
+# {"path":"/addons/jsonParser/json.js","row":"4","tags":null}
+#. tid/2836/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:4"
+msgid "Read the guide on how to start a new JSON translation project here"
+msgstr "Đọc hướng dẫn về cách bắt đầu một dự án dịch JSON mới tại đây"
+
+# {"path":"/addons/jsonParser/json.js","row":"5","tags":null}
+#. tid/2998/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:5"
+msgid "Translator++ will scan through this folder for any JSON files."
+msgstr "Translator++ sẽ quét qua thư mục này để tìm bất kỳ tệp JSON nào."
+
+# {"path":"/addons/jsonParser/json.js","row":"6","tags":null}
+#. tid/3038/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:6"
+msgid "How do you want to get the data from the JSON object?"
+msgstr "Bạn muốn lấy dữ liệu từ đối tượng JSON như thế nào?"
+
+# {"path":"/addons/jsonParser/json.js","row":"7","tags":null}
+#. tid/3214/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:7"
+msgid "Parser mode"
+msgstr "Chế độ phân tích"
+
+# {"path":"/addons/jsonParser/json.js","row":"8","tags":null}
+#. tid/3293/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:8"
+msgid "<h2>Simple Mode</h2><p>In simple mode, you can translate all strings value recursively inside the JSON object.<br />In simple mode, the original texts is always the value.</p>"
+msgstr "<h2>Chế độ Đơn giản</h2><p>Trong chế độ đơn giản, bạn có thể dịch tất cả các giá trị chuỗi một cách đệ quy bên trong đối tượng JSON.<br />Trong chế độ đơn giản, văn bản gốc luôn là giá trị.</p>"
+
+# {"path":"/addons/jsonParser/json.js","row":"9","tags":null}
+#. tid/3346/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:9"
+msgid "<h2>Advanced Mode</h2><p>In advanced mode you can query the JSON and handle key-value paired type translation table where the original text is the key.</p>"
+msgstr "<h2>Chế độ Nâng cao</h2><p>Trong chế độ nâng cao, bạn có thể truy vấn JSON và xử lý bảng dịch kiểu cặp khóa-giá trị, trong đó văn bản gốc là khóa.</p>"
+
+# {"path":"/addons/jsonParser/json.js","row":"10","tags":null}
+#. tid/3446/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:10"
+msgid "<h2>Info</h2><p>You can use the following query field to select a specific part of the JSON object. The result of the query must be an object or an array of texts.</p>"
+msgstr "<h2>Thông tin</h2><p>Bạn có thể sử dụng trường truy vấn sau để chọn một phần cụ thể của đối tượng JSON. Kết quả của truy vấn phải là một đối tượng hoặc một mảng văn bản.</p>"
+
+# {"path":"/addons/jsonParser/json.js","row":"11","tags":null}
+#. tid/3451/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:11"
+msgid "<h3>For objects</h3><p>The <b>key will be used as the original text</b> and <b>the value as the default translation</b>.</p>"
+msgstr "<h3>Đối với đối tượng</h3><p><b>Khóa sẽ được sử dụng làm văn bản gốc</b> và <b>giá trị làm bản dịch mặc định</b>.</p>"
+
+# {"path":"/addons/jsonParser/json.js","row":"12","tags":null}
+#. tid/3456/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:12"
+msgid "Parser will automatically register if the value is a string, null, or undefined.<br />"
+msgstr "Trình phân tích sẽ tự động đăng ký nếu giá trị là chuỗi, null hoặc undefined.<br />"
+
+# {"path":"/addons/jsonParser/json.js","row":"13","tags":null}
+#. tid/3461/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:13"
+msgid "<h3>For arrays</h3><p>The parser will register all string values in the array as translatable texts.</p>"
+msgstr "<h3>Đối với mảng</h3><p>Trình phân tích sẽ đăng ký tất cả các giá trị chuỗi trong mảng làm văn bản có thể dịch.</p>"
+
+# {"path":"/addons/jsonParser/json.js","row":"14","tags":null}
+#. tid/3615/type/StringLiteral
+msgctxt "tpp:/addons/jsonParser/json.js:14"
+msgid "Start project"
+msgstr "Bắt đầu dự án"
+
+# {"path":"/addons/jsonParser/json.js","row":"15","tags":null}
+#. tid/4070/type/TemplateHead
+msgctxt "tpp:/addons/jsonParser/json.js:15"
+msgid "`Invalid destination directory:\\n${"
+msgstr "`Thư mục đích không hợp lệ:\\n${"
+
+# {"path":"/addons/jsonParser/json.js","row":"16","tags":null}
+#. tid/4072/type/TemplateTail
+msgctxt "tpp:/addons/jsonParser/json.js:16"
+msgid "}`"
+msgstr "}`"

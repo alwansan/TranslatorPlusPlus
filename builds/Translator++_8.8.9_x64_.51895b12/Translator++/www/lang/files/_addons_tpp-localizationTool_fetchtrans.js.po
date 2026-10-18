@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fetchtrans.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"0","tags":null}
+#. tid/2001/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:0"
+msgid "Preparing download file..."
+msgstr "Đang chuẩn bị tệp tải xuống..."
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"1","tags":null}
+#. tid/2228/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:1"
+msgid "Translation template downloaded successfully!"
+msgstr "Tải xuống mẫu dịch thành công!"
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"2","tags":null}
+#. tid/2286/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:2"
+msgid "Building translation data..."
+msgstr "Đang xây dựng dữ liệu dịch..."
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"3","tags":null}
+#. tid/2439/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:3"
+msgid "Processing: "
+msgstr "Đang xử lý: "
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"4","tags":null}
+#. tid/2623/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:4"
+msgid "Fetching directory content..."
+msgstr "Đang tải nội dung thư mục..."
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"5","tags":null}
+#. tid/2825/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:5"
+msgid "Parsing: "
+msgstr "Phân tích: "
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"6","tags":null}
+#. tid/3098/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:6"
+msgid "Localization Tools"
+msgstr "Công cụ Bản địa hóa"
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"7","tags":null}
+#. tid/3131/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:7"
+msgid "Generate UI Translation Template"
+msgstr "Tạo Mẫu Dịch UI"
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"8","tags":null}
+#. tid/3208/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:8"
+msgid "Update Translation Table"
+msgstr "Cập nhật Bảng Dịch"
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"9","tags":null}
+#. tid/3244/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:9"
+msgid ""
+"This will overwrite www/lang/template.trans and update all localization files listed in www/lang/options.json.\n"
+"\n"
+"Existing translations will be preserved. New strings from the current source will be added.\n"
+"\n"
+"Continue?"
+msgstr ""
+"Hành động này sẽ ghi đè www/lang/template.trans và cập nhật tất cả các tệp bản địa hóa được liệt kê trong www/lang/options.json.\n"
+"\n"
+"Các bản dịch hiện có sẽ được giữ nguyên. Các chuỗi mới từ nguồn hiện tại sẽ được thêm vào.\n"
+"\n"
+"Tiếp tục?"
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"10","tags":null}
+#. tid/3358/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:10"
+msgid "Saving template.trans..."
+msgstr "Đang lưu template.trans..."
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"11","tags":null}
+#. tid/3408/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:11"
+msgid "Loading language options..."
+msgstr "Đang tải tùy chọn ngôn ngữ..."
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"12","tags":null}
+#. tid/3657/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:12"
+msgid "Updating: "
+msgstr "Đang cập nhật: "
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"13","tags":null}
+#. tid/3812/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:13"
+msgid "Failed to update: "
+msgstr "Không thể cập nhật: "
+
+# {"path":"/addons/tpp-localizationTool/fetchtrans.js","row":"14","tags":null}
+#. tid/3852/type/StringLiteral
+msgctxt "tpp:/addons/tpp-localizationTool/fetchtrans.js:14"
+msgid "Translation tables updated successfully!"
+msgstr "Bảng dịch đã được cập nhật thành công!"

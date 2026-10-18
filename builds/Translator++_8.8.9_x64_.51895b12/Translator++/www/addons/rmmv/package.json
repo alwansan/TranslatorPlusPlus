@@ -1,0 +1,33 @@
+{
+    "name": "rmmv",
+	"title" : "MV/MZ Parser V2",
+    "description": "The new RPG Maker MV & RPG Maker MZ parser. Support Javascript.",
+    "main": "rmmv.js",
+    "homepage": "http://dreamsavior.net",
+	"version": "2.19",
+	"icon": "icon.png",
+    "minimumVersion": "8.5.18",
+	"author" : {
+		"name":"Dreamsavior",
+		"email": "dreamsavior@gmail.com"
+	},
+	"exclude": [
+        "src/*.js",
+		"utils/universal_decrypt.js"
+    ],
+	"minify": {
+		"src/dv-debugmenu.js": {
+			"destination": "utils/dv-debugmenu.js"
+		}
+	},
+	"autoload" : false,
+	"load":[
+		"decrypt-data-mv.module.js", 
+		"rmmv.js"
+	],
+	"compile": {
+        "simple": [
+			"decrypt-data-mv.module.js"
+		]
+	}
+}

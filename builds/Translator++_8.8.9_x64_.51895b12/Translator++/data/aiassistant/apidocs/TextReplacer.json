@@ -1,0 +1,59 @@
+{
+  "TextReplacer": {
+    "constructor": {
+      "TextReplacer": {
+        "signature": "new TextReplacer(rules)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "rules",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new TextReplacer(rules)"
+      }
+    },
+    "methods": {
+      "apply": {
+        "signature": "apply(text) → string",
+        "description": "Applies the replacement rules to the given text.",
+        "parameters": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The input text to process.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The modified text."
+        },
+        "examples": [],
+        "usage": "apply(text) : string"
+      },
+      "parseRules": {
+        "signature": "parseRules(rules)",
+        "description": "Parses the rules and converts them into appropriate types.",
+        "parameters": [
+          {
+            "name": "rules",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "void",
+          "description": ""
+        },
+        "examples": [],
+        "usage": "parseRules(rules) : void"
+      }
+    }
+  }
+}

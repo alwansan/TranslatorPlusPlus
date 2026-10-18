@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trans.googleCloudV3.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"0","tags":null}
+#. tid/2012/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:0"
+msgid "Invalid language string"
+msgstr "Chuỗi ngôn ngữ không hợp lệ"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"1","tags":null}
+#. tid/3382/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:1"
+msgid "Required field Project ID is blank!"
+msgstr "Trường bắt buộc ID Dự án đang trống!"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"2","tags":null}
+#. tid/3437/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:2"
+msgid "Required field Service Account Key is blank!"
+msgstr "Trường bắt buộc Khóa Tài khoản Dịch vụ đang trống!"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"3","tags":null}
+#. tid/3499/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:3"
+msgid "Required field Server Location is blank!"
+msgstr "Trường bắt buộc Vị trí Máy chủ đang trống!"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"4","tags":null}
+#. tid/3554/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:4"
+msgid "Required field Location of the glossary file is blank!"
+msgstr "Trường bắt buộc Vị trí của tệp bảng thuật ngữ đang trống!"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"5","tags":null}
+#. tid/3609/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:5"
+msgid "Required field Glossary Languages is blank!"
+msgstr "Trường bắt buộc Ngôn ngữ Bảng thuật ngữ đang trống!"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"6","tags":null}
+#. tid/3640/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:6"
+msgid "Invalid glossary language value"
+msgstr "Giá trị ngôn ngữ bảng thuật ngữ không hợp lệ"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"7","tags":null}
+#. tid/3738/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:7"
+msgid "Currently active glossary on this project: "
+msgstr "Bảng thuật ngữ hiện đang hoạt động trên dự án này: "
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"8","tags":null}
+#. tid/3819/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:8"
+msgid "Error when retreiving glossary info: "
+msgstr "Lỗi khi truy xuất thông tin bảng thuật ngữ: "
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"9","tags":null}
+#. tid/3903/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:9"
+msgid "Error when removing glossary : "
+msgstr "Lỗi khi xóa bảng thuật ngữ: "
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"10","tags":null}
+#. tid/3932/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:10"
+msgid "Glossary removed successfully."
+msgstr "Bảng thuật ngữ đã được xóa thành công."
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"11","tags":null}
+#. tid/4007/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:11"
+msgid "Error when creating glossary : "
+msgstr "Lỗi khi tạo bảng thuật ngữ: "
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"12","tags":null}
+#. tid/4036/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:12"
+msgid "Glossary created successfully."
+msgstr "Bảng thuật ngữ đã được tạo thành công."
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"13","tags":null}
+#. tid/4510/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:13"
+msgid ""
+"Configuration error:\r\n"
+""
+msgstr ""
+"Lỗi cấu hình:\r\n"
+""
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"14","tags":null}
+#. tid/4546/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:14"
+msgid "No error found!"
+msgstr "Không tìm thấy lỗi!"
+
+# {"path":"/addons/googleCloudV3/trans.googleCloudV3.js","row":"15","tags":null}
+#. tid/6155/type/StringLiteral
+msgctxt "tpp:/addons/googleCloudV3/trans.googleCloudV3.js:15"
+msgid "Node JS is required to use Google Cloud Translate Advanced. Please download and install it from https://node.js"
+msgstr "Node JS là bắt buộc để sử dụng Google Cloud Translate Advanced. Vui lòng tải và cài đặt từ https://node.js"

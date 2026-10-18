@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: chatGPTtester.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transChatGPT/tester/chatGPTtester.js","row":"0","tags":null}
+#. tid/1692/type/StringLiteral
+msgctxt "tpp:/addons/transChatGPT/tester/chatGPTtester.js:0"
+msgid "This feature only available if you are using Developer version of Translator++. You can switch into Developer version by using Basic Utilities -> Change Core NWJS."
+msgstr "Tính năng này chỉ khả dụng nếu bạn đang sử dụng phiên bản Developer của Translator++. Bạn có thể chuyển sang phiên bản Developer bằng cách sử dụng Basic Utilities -> Change Core NWJS."

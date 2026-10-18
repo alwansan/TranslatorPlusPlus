@@ -1,0 +1,13 @@
+> RPGMAKER TRANS PATCH FILE VERSION 3.2
+> BEGIN STRING
+EV001
+> CONTEXT: Map002/events/1/name/ < UNTRANSLATED
+> CONTEXT: Map001/events/1/name/ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\n<Something\>\\{\\{\\c[6]Someword\\c[0]\\}\\}
+> CONTEXT: Map002/events/1/pages/0/0/Dialogue/hasPicture/top < UNTRANSLATED
+
+> END STRING

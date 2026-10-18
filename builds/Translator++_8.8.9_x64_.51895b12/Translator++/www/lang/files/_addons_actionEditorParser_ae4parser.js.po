@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ae4parser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/actionEditorParser/ae4parser.js","row":"0","tags":null}
+#. tid/920/type/StringLiteral
+msgctxt "tpp:/addons/actionEditorParser/ae4parser.js:0"
+msgid "Start translation from Action Editor 4 Game"
+msgstr "Bắt đầu dịch từ Action Editor 4 Game"
+
+# {"path":"/addons/actionEditorParser/ae4parser.js","row":"1","tags":null}
+#. tid/997/type/StringLiteral
+msgctxt "tpp:/addons/actionEditorParser/ae4parser.js:1"
+msgid "Create Project"
+msgstr "Tạo Dự án"

@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: scriptEditor.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/scriptEditor.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/scriptEditor.html:0"
+msgid "Run"
+msgstr "Chạy"
+
+# {"path":"/scriptEditor.html","row":"1","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/scriptEditor.html:1"
+msgid "New Project (ctrl+n)"
+msgstr "Dự án mới (ctrl+n)"
+
+# {"path":"/scriptEditor.html","row":"2","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/scriptEditor.html:2"
+msgid "Open (ctrl+o)"
+msgstr "Mở (ctrl+o)"
+
+# {"path":"/scriptEditor.html","row":"3","tags":null}
+#. idx/2/attr/title
+msgctxt "tpp:/scriptEditor.html:3"
+msgid "Save file (ctrl+s)"
+msgstr "Lưu tệp (ctrl+s)"
+
+# {"path":"/scriptEditor.html","row":"4","tags":null}
+#. idx/3/attr/title
+msgctxt "tpp:/scriptEditor.html:4"
+msgid "Save As (ctrl+shift+s)"
+msgstr "Lưu thành (ctrl+shift+s)"
+
+# {"path":"/scriptEditor.html","row":"5","tags":null}
+#. idx/4/attr/title
+msgctxt "tpp:/scriptEditor.html:5"
+msgid "Open debugger (F12)"
+msgstr "Mở trình gỡ lỗi (F12)"
+
+# {"path":"/scriptEditor.html","row":"6","tags":null}
+#. idx/5/attr/title
+msgctxt "tpp:/scriptEditor.html:6"
+msgid "Help"
+msgstr "Trợ giúp"
+
+# {"path":"/scriptEditor.html","row":"7","tags":null}
+#. idx/6/attr/title
+msgctxt "tpp:/scriptEditor.html:7"
+msgid "Select file in the current workspace"
+msgstr "Chọn tệp trong không gian làm việc hiện tại"
+
+# {"path":"/scriptEditor.html","row":"8","tags":null}
+#. idx/7/attr/title
+msgctxt "tpp:/scriptEditor.html:8"
+msgid "file path"
+msgstr "đường dẫn tệp"
+
+# {"path":"/scriptEditor.html","row":"9","tags":null}
+#. idx/8/attr/title
+msgctxt "tpp:/scriptEditor.html:9"
+msgid "Create shortcut of the current script"
+msgstr "Tạo lối tắt cho tập lệnh hiện tại"

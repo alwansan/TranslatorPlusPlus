@@ -1,0 +1,77 @@
+{
+  "RowProperties": {
+    "constructor": {
+      "RowProperties": {
+        "signature": "new RowProperties(options)",
+        "description": "Represents a RowProperties object.",
+        "parameters": [
+          {
+            "name": "optionscontainer",
+            "type": "objectjQuery",
+            "description": "The container element for the RowProperties.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "container",
+            "type": "jQuery",
+            "description": "The container element for the RowProperties.",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new RowProperties(optionscontainer, , container)"
+      }
+    },
+    "members": {
+      "container": {
+        "signature": "container :jQuery",
+        "description": "The container element for the RowProperties.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "container"
+      },
+      "feather": {
+        "signature": "feather :number",
+        "description": "The feather value for the RowProperties.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "feather"
+      },
+      "options": {
+        "signature": "options :object",
+        "description": "Options for configuring the RowProperties.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "options"
+      }
+    },
+    "methods": {
+      "init": {
+        "signature": "init()",
+        "description": "Initializes the RowProperties by setting event listeners",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "init()"
+      },
+      "setListener": {
+        "signature": "setListener()",
+        "description": "Sets event listeners for the RowProperties.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "setListener()"
+      }
+    }
+  }
+}

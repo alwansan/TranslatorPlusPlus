@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: !postPackage.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:0"
+msgid "Select package json file"
+msgstr "Chọn tệp json gói"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"1","tags":null}
+#. idx/1/innerText
+#. idx/3/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:1"
+msgid "Select the generated patch file"
+msgstr "Chọn tệp vá đã tạo"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"2","tags":null}
+#. idx/2/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:2"
+msgid "Or Select Destination File"
+msgstr "Hoặc Chọn Tệp Đích"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"3","tags":null}
+#. idx/4/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:3"
+msgid "Or Download location"
+msgstr "Hoặc Vị trí Tải xuống"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"4","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:4"
+msgid "Icon"
+msgstr "Biểu tượng"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"5","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:5"
+msgid "Author"
+msgstr "Tác giả"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"6","tags":null}
+#. idx/10/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:6"
+msgid "Name"
+msgstr "Tên"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"7","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:7"
+msgid "name of the package."
+msgstr "tên của gói."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"8","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:8"
+msgid "Title"
+msgstr "Tiêu đề"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"9","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:9"
+msgid "Title of the package."
+msgstr "Tiêu đề của gói."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"10","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:10"
+msgid "Version"
+msgstr "Phiên bản"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"11","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:11"
+msgid "Version of the package."
+msgstr "Phiên bản của gói."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"12","tags":null}
+#. idx/16/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:12"
+msgid "Description"
+msgstr "Mô tả"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"13","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:13"
+msgid "Description of the package."
+msgstr "Mô tả của gói."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"14","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:14"
+msgid "Whether this release is active or not."
+msgstr "Liệu bản phát hành này có đang hoạt động hay không."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"15","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:15"
+msgid "Whether this release is hidden or not."
+msgstr "Liệu bản phát hành này có bị ẩn hay không."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"16","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:16"
+msgid "Patron Level"
+msgstr "Cấp độ Patron"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"17","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:17"
+msgid "Current month's pledge in $"
+msgstr "Cam kết tháng hiện tại bằng $"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"18","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:18"
+msgid "Patron Points"
+msgstr "Điểm Hội Viên"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"19","tags":null}
+#. idx/23/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:19"
+msgid "100pts = 1$"
+msgstr "100 điểm = 1$"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"20","tags":null}
+#. idx/24/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:20"
+msgid "Purchase type"
+msgstr "Loại mua hàng"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"21","tags":null}
+#. idx/25/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:21"
+msgid "Type of the purchase."
+msgstr "Loại của giao dịch mua."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"22","tags":null}
+#. idx/26/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:22"
+msgid "On Before Install"
+msgstr "Trước Khi Cài Đặt"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"23","tags":null}
+#. idx/27/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:23"
+msgid "Javascript code to be run before install"
+msgstr "Mã Javascript sẽ được chạy trước khi cài đặt"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"24","tags":null}
+#. idx/28/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:24"
+msgid "On After Install"
+msgstr "Sau Khi Cài Đặt"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"25","tags":null}
+#. idx/29/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:25"
+msgid "Javascript code to be run after install"
+msgstr "Mã Javascript sẽ được chạy sau khi cài đặt"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"26","tags":null}
+#. idx/30/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:26"
+msgid "Manifest"
+msgstr "Bản Kê Khai"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"27","tags":null}
+#. idx/31/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:27"
+msgid "Manifest data"
+msgstr "Dữ liệu bản kê khai"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"28","tags":null}
+#. idx/32/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:28"
+msgid "Minimum version"
+msgstr "Phiên bản tối thiểu"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"29","tags":null}
+#. idx/33/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:29"
+msgid "Minimum version of Translator++ to be able to insatall this addon."
+msgstr "Phiên bản tối thiểu của Translator++ để có thể cài đặt tiện ích này."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"30","tags":null}
+#. idx/34/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:30"
+msgid "Release Date"
+msgstr "Ngày Phát Hành"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"31","tags":null}
+#. idx/36/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:31"
+msgid "Is parser changed?"
+msgstr "Trình phân tích có thay đổi?"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"32","tags":null}
+#. idx/37/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:32"
+msgid "Mark as parser change. Would warn the user to backup their project before updating to this addon."
+msgstr "Đánh dấu là thay đổi trình phân tích. Sẽ cảnh báo người dùng sao lưu dự án của họ trước khi cập nhật tiện ích này."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"33","tags":null}
+#. idx/38/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:33"
+msgid "Remove the same version found on database."
+msgstr "Xóa phiên bản giống nhau tìm thấy trong cơ sở dữ liệu."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"34","tags":null}
+#. idx/39/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:34"
+msgid "Excluded files"
+msgstr "Tệp bị loại trừ"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"35","tags":null}
+#. idx/40/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:35"
+msgid "Files listed here will be excluded from the distribution packages"
+msgstr "Các tệp được liệt kê ở đây sẽ bị loại trừ khỏi gói phân phối"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"36","tags":null}
+#. idx/41/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:36"
+msgid "Script URL"
+msgstr "URL Script"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"37","tags":null}
+#. idx/42/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:37"
+msgid "Script of the URL."
+msgstr "Script của URL."
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"38","tags":null}
+#. idx/43/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:38"
+msgid "Upload script"
+msgstr "Tải lên kịch bản"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"39","tags":null}
+#. idx/44/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:39"
+msgid ""
+"This script will be uploaded to the back-end and will be processed with [php]Scripts template script.\n"
+"\t\t\t\t\tTo use this feature:\n"
+"\t\t\t\t\t<ol>\n"
+"\t\t\t\t\t\t<li>Create a wordpress page with <b>[php]Scripts template</b> template.<br>You can also set the patreon's requirement to view the post.</li>\n"
+"\t\t\t\t\t\t<li>Add the url to the page into the package.json file with <b>l</b> GET parameter point to the local file.<br>\n"
+"\t\t\t\t\t\tFor example : <u>https://dreamsavior.net/script/translation-proxy/?l=/sub.js</u>\n"
+"\t\t\t\t\t\t</li>\n"
+"\t\t\t\t\t</ol>\n"
+"\t\t\t\t"
+msgstr ""
+"Kịch bản này sẽ được tải lên máy chủ và xử lý với mẫu kịch bản [php]Scripts.\n"
+"\t\t\t\t\tĐể sử dụng tính năng này:\n"
+"\t\t\t\t\t<ol>\n"
+"\t\t\t\t\t\t<li>Tạo một trang wordpress với mẫu <b>[php]Scripts template</b>.<br>Bạn cũng có thể đặt yêu cầu patreon để xem bài viết.</li>\n"
+"\t\t\t\t\t\t<li>Thêm URL của trang vào tệp package.json với tham số <b>l</b> GET trỏ đến tệp cục bộ.<br>\n"
+"\t\t\t\t\t\tVí dụ: <u>https://dreamsavior.net/script/translation-proxy/?l=/sub.js</u>\n"
+"\t\t\t\t\t\t</li>\n"
+"\t\t\t\t\t</ol>\n"
+"\t\t\t\t"
+
+# {"path":"/addons/adminTools/!postPackage.html","row":"40","tags":null}
+#. idx/47/innerText
+msgctxt "tpp:/addons/adminTools/!postPackage.html:40"
+msgid "Actions"
+msgstr "Hành động"

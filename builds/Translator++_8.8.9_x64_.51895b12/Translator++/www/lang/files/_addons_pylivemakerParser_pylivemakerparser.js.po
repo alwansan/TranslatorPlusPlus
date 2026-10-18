@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pylivemakerparser.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/pylivemakerParser/pylivemakerparser.js","row":"0","tags":null}
+#. tid/5574/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/pylivemakerParser/pylivemakerparser.js:0"
+msgid "Livemaker engine has limitations regarding language support. It requires setting the Windows non-unicode system locale to Japanese to run LiveMaker and LiveNovel applications. Additionally, the engine is hardcoded to only use installed Windows system fonts that support Windows Shift-JIS (MS CP932), which means it may not supports other locales or encodings"
+msgstr "Động cơ Livemaker có hạn chế về hỗ trợ ngôn ngữ. Nó yêu cầu đặt vùng hệ thống không phải unicode của Windows sang tiếng Nhật để chạy các ứng dụng LiveMaker và LiveNovel. Ngoài ra, động cơ được mã hóa cứng chỉ sử dụng các phông chữ hệ thống Windows đã cài đặt hỗ trợ Windows Shift-JIS (MS CP932), có nghĩa là nó có thể không hỗ trợ các vùng hoặc mã hóa khác"
+
+# {"path":"/addons/pylivemakerParser/pylivemakerparser.js","row":"1","tags":null}
+#. tid/5684/type/StringLiteral
+msgctxt "tpp:/addons/pylivemakerParser/pylivemakerparser.js:1"
+msgid "Next"
+msgstr "Tiếp theo"
+
+# {"path":"/addons/pylivemakerParser/pylivemakerparser.js","row":"2","tags":null}
+#. tid/6243/type/StringLiteral
+msgctxt "tpp:/addons/pylivemakerParser/pylivemakerparser.js:2"
+msgid ""
+"Unable to detect RPG Maker type!\n"
+"Are you sure the game is RPG Maker XP, VX or VX Ace?"
+msgstr ""
+"Không thể phát hiện loại RPG Maker!\n"
+"Bạn có chắc trò chơi là RPG Maker XP, VX hoặc VX Ace không?"
+
+# {"path":"/addons/pylivemakerParser/pylivemakerparser.js","row":"3","tags":null}
+#. tid/6541/type/StringLiteral
+msgctxt "tpp:/addons/pylivemakerParser/pylivemakerparser.js:3"
+msgid "Create a new project"
+msgstr "Tạo một dự án mới"
+
+# {"path":"/addons/pylivemakerParser/pylivemakerparser.js","row":"4","tags":null}
+#. tid/6626/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/pylivemakerParser/pylivemakerparser.js:4"
+msgid "Invalid destination file:"
+msgstr "Tệp đích không hợp lệ:"
+
+# {"path":"/addons/pylivemakerParser/pylivemakerparser.js","row":"5","tags":null}
+#. tid/6662/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/pylivemakerParser/pylivemakerparser.js:5"
+msgid " doesn't seems to be a LiveMaker game."
+msgstr " dường như không phải là trò chơi LiveMaker."

@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="/www/js/boot.js"></script>
+
+<script>
+  var $ = require('jquery');
+  window.jQuery = $;
+
+  var LT = require("light-trans");
+  var lt = new LT({
+    recordMode:true,
+    listener:"t"
+  });
+  
+</script>
+<script type="text/javascript" src="/www/js/scriptRunner.js"></script>
+<script type="text/javascript" src="/www/js/consts.js"></script>
+<link type="text/css" href="/www/modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<link type="text/css" href="/www/css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal" >
+<link type="text/css" href="/www/css/trans.css" rel="stylesheet" />
+<link type="text/css" href="/www/css/options.css" rel="stylesheet" />
+<link type="text/css" href="/www/addons/customParser/modelEditor/modelEditor.css" rel="stylesheet" />
+<link type="text/css" href="/www/css/fontello-embedded.css" rel="stylesheet" />
+<script type="text/javascript" src="/www/modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="/www/js/common.js"></script>
+<script type="text/javascript" src="/www/addons/customParser/modelEditor/modelEditor.js"></script>
+<script type="text/javascript" src="/www/js/loadingScreen.js"></script>
+<script src="/www/modules/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/www/modules/handsontable/handsontable.js"></script>
+<link type="text/css" href="/www/modules/handsontable/handsontable.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="/www/css/hot-normal.css" data-theme="normal" />
+<link href="/www/modules/prismjs/prism.css" rel="stylesheet" /> 
+<script src="/www/modules/prismjs/prism.js"></script>
+
+<title data-tran="">Parser Model Creator - Translator++</title>
+
+ 
+<body>
+<div class="toolbarGroup">
+  <div class="toolbar mainToolbar" data-id="home">
+    <div class="toolbar-content toolbar1">
+      <button class="menu-button button-new" data-tranattr="title" title="New File"><img src="/www/img/doc_new_icon.png" alt="New"></button>
+      <!-- <button class="menu-button button-open" data-tranattr="title" title="Open"><img src="/www/img/open.png" alt="Open"></button> -->
+      <span class="menu-button buttonGroup button-open"><button class="hasMenuSide mainButton" data-tranattr="title" title="Open file"><img src="/www/img/open.png" alt="Open"></button><button class="menuSide"></button></span>
+      <button class="menu-button button-save" data-tranattr="title" title="Save file" disabled=""><img src="/www/img/save.png" alt="save"></button>
+      <button class="menu-button button-save-as" data-tranattr="title" title="Save As" disabled=""><img src="/www/img/save_as.png" alt="save as"></button>
+    </div>
+    <div class="toolbar-content toolbar2">
+      <button class="menu-button button-debugger hidden" data-tranattr="title" title="Open debugger (F12)"><i class="icon-bug"></i></button>
+      <button class="menu-button button-help" data-tranattr="title" title="Help"><img src="/www/img/help2.png" alt="Help"></button>
+    </div>
+  </div>
+</div>
+
+<div id="fileNavigator">
+  <div class="toolbarGroup">
+    <div class="toolbar mainToolbar" data-id="fileNavigator">
+      <div class="toolbar-content">
+        <select id="fileNavSelector">
+          <option>*.txt</option>
+        </select>
+        <button class="menu-button editFileGroup" data-tranattr="title" title="Edit current file pattern" data-tran=""><i class="icon-edit"></i></button>
+      </div>
+      <div class="toolbar-content">
+        <button class="menu-button addFileGroup" data-tranattr="title" title="Add a new file pattern" data-tran=""><i class="icon-plus-circled"></i><label data-tran="">Add a new file group</label></button>
+        <button class="menu-button removeFileGroup" data-tranattr="title" title="Remove current file pattern" data-tran=""><i class="icon-cancel-circled red"></i><label data-tran="">Remove current file group</label></button>
+        <button class="menu-button modelInfoButton" data-tranattr="title" title="Edit model information" data-tran=""><i class="icon-doc-text"></i><label data-tran="">Model Info</label></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="patternEditorWrapper">
+  
+</div>
+
+<div id="modelInfoDialog" class="hidden" title="Model Info">
+  <div class="dialogSectionGroup modelInfoDialogContent">
+    <div class="dialogSectionBlock">
+      <h2 data-tran="">Parser Model Name</h2>
+      <label><input type="text" class="fullWidth modelInfoName" autocomplete="off" /></label>
+    </div>
+    <div class="dialogSectionBlock">
+      <h2 data-tran="">Version</h2>
+      <label><input type="text" class="fullWidth modelInfoVersion" autocomplete="off" /></label>
+    </div>
+    <div class="dialogSectionBlock">
+      <h2 data-tran="">Author</h2>
+      <label><input type="text" class="fullWidth modelInfoAuthor" autocomplete="off" /></label>
+    </div>
+    <div class="dialogSectionBlock">
+      <h2 data-tran="">Contact</h2>
+      <label><input type="text" class="fullWidth modelInfoContact" autocomplete="off" /></label>
+    </div>
+    <div class="dialogSectionBlock">
+      <h2 data-tran="">Info</h2>
+      <div class="info" data-tran="">Rich text is allowed. Pasted images will be converted to inline base64 images. Iframe and JavaScript content are removed automatically.</div>
+      <div class="modelInfoEditor" contenteditable="true"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="template" class="hidden">
+  <div class="patternEditor">
+    <ul>
+      <li><a href="#rules" class="" data-tran="">Rules</a></li>
+      <li><a href="#hooks" class="" data-tran="">Hooks</a></li>
+      <li><a href="#options" class="" data-tran="">Options</a></li>
+      <li><a href="#testing" class="" data-tran="">Testing</a></li>
+    </ul>
+    <div id="rules" class="flex fullWidth tabContent">
+      <div id="leftPane">
+        <ul class="sortable ruleNavigator">
+          <li class="selectable pattern" data-role="pattern" data-tranattr="title" title="Rule's order does matter, especially when you use masking! Drag to reorder.">
+            <span class="label">Rule <span class="patternId"></span></span>
+            <span class="buttons">
+              <i class="icon-plus add" title="add pattern below this"></i>
+              <i class="icon-cancel-circled delete" title="delete this pattern"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div id="rightPane">
+        
+      </div>
+      
+    </div>
+
+    <div id="hooks" class="tabContent">
+      <div class="hooksWrapper flex">
+        <ul class="hooksNavigator">
+          <li data-targettab="toGrid">To Grid</li>
+          <li data-targettab="fromGrid">From Grid</li>
+          <li data-targettab="beforeWrite">Before Write</li>
+         </ul>
+         <div class="hooksContent">
+          <article class="" data-tabid="toGrid">
+            <h1>To Grid</h1>
+            <p data-tran="">Interpolate the strings before being displayed on the cells. <b>To Grid</b> is antithesis of <b>From Grid</b></p>
+            <div class="editorBlock">
+              <div class="scriptBlock">function(<span class="arg yellow" title="The text that about to be passed into the grid">text</span>, <span class="arg yellow" title="Context of the text">context = []</span>, <span class="arg yellow" title="Parameters of the text">parameters = {}</span>) {</div>
+              <textarea class="editor fullWidth" data-field="toGrid" placeholder=""></textarea>
+              <div class="scriptBlock">}</div>
+            </div>
+            <h1 data-tran="">Example</h1>
+            <div class="information">
+<p data-tran="">For example, the text obtained from the parser is as follows:</p>
+<pre>
+  <code class="language-javascript">"The phrase is:\n\"The quick brown fox jumps over the lazy dog\""</code>
+</pre>           
+<p data-tran="">In this grid it will look like this:</p>
+<div><img src="img/toGrid-img1.png" alt="" /></div>
+<p data-tran="">That's not the easiest text to work with.<br />
+  We can fix that by declaring <span class="inlineCode">To Grid hooks</span> as follows:
+</p>
+<pre>
+<code class="language-javascript">
+return JSON.parse(text);
+</code>
+</pre>
+<p data-tran="">With the hook above the text in the grid will be :</p>
+<div><img src="img/toGrid-img2.png" alt="" /></div>
+            </div> <!-- information -->
+          </article>
+
+
+          <article class="" data-tabid="fromGrid">
+            <h1>From Grid</h1>
+            <p data-tran="">Interpolate the strings from the cells into the translation result. <b>From Grid</b> is antithesis of <b>To Grid</b>.</p>
+            <div class="editorBlock">
+              <div class="scriptBlock">function(<span class="arg yellow" title="The text from the grid">text</span>, <span class="arg yellow" title="Context of the text">context = []</span>, <span class="arg yellow" title="Parameters of the text">parameters = {}</span>, <span class="arg yellow" title="The information of current text">info = {}</span>) {</div>
+                <textarea class="editor fullWidth" data-field="fromGrid" placeholder=""></textarea>
+              <div class="scriptBlock">}</div>
+            </div>
+            <h1 data-tran="">Example</h1>
+            <div class="information">
+<p data-tran="">
+  For example, the expected translated strings should be in JSON format.<br />
+  But writing translation in JSON format is not realy the easiest thing to do. <br />
+  So, instead of asking our translator to translate in JSON format, we can just ask them to type normally, and add a <span class="inlineCode">From Grid hook</span> as follows:
+</p>
+<pre>
+<code class="language-javascript">
+return JSON.stringify(text);
+</code>
+</pre>
+
+<p data-tran="">
+  With the <span class="inlineCode">From Grid hook</span> above, the following translation ...
+</p>
+<div><img src="img/fromGrid-img1.png" alt="" /></div>
+
+<p data-tran="">...will be converted into desired format: </p>
+<pre>
+  <code class="language-javascript">"フレーズは\n「速い茶色のキツネが怠惰な犬を飛び越える」と言います。"</code>
+</pre> 
+            </div> <!-- information -->
+          </article>
+
+          <article class="" data-tabid="beforeWrite">
+            <h1>From Grid</h1>
+            <p data-tran="">Edit the translated text just before writing it into a file.</p>
+            <div class="editorBlock">
+              <div class="scriptBlock">function(<span class="arg yellow" title="The text to write">text</span>) {</div>
+                <textarea class="editor fullWidth" data-field="beforeWrite" placeholder="return text;"></textarea>
+              <div class="scriptBlock">}</div>
+            </div>
+            <h1 data-tran="">Parameters</h1>
+            <div class="information" data-tran="">
+              <h3 data-tran="">text</h3>
+              <p data-tran="">The text that is about to be written into a file.</p>
+            </div>
+            <h1 data-tran="">Return value</h1>
+            <div class="information" data-tran="">
+              <h3><i>String</i></h3>
+              <p data-tran="">The text that will be written into a file.</p>
+            </div>
+            <h1 data-tran="">Example</h1>
+  
+<pre><code class="language-javascript">
+  // converts windows CR LF to unix LF
+  return text.replace(/\r\n/g, '\n');
+</code></pre>
+            </article>
+         </div>
+      </div>
+    </div>
+
+    <div id="options" class="tabContent">
+      <h1 data-tran="">Options</h1>
+      <div class="dialogSectionGroup">	
+        <h1 data-tran="">General</h1>
+        <div class="dialogSectionBlock">
+          <h2 data-tran="">Read character encoding</h2>
+          <div class="info" data-tran="">Force parser to use the following character encoding when reading the file(s).</div>
+          <label class="">
+            <select class="fullWidth" data-fld="readEncoding" value="" data-default="">  <option selected="" value="">AUTO (default)</option> <option value="utf-7">utf-7</option> <option value="utf-7-imap">utf-7-imap</option> <option value="utf8">utf8</option> <option value="UTF-16">UTF-16</option> <option value="UTF-16BE">UTF-16BE</option> <option value="UTF-16LE">UTF-16LE</option> <option value="UTF-32">UTF-32</option> <option value="UTF-32BE">UTF-32BE</option> <option value="UTF-32LE">UTF-32LE</option> <option value="ascii">ascii</option> <option value="ISO-8859-1">ISO-8859-1</option> <option value="ISO-8859-16">ISO-8859-16</option> <option value="koi8-r">koi8-r</option> <option value="koi8-u">koi8-u</option> <option value="koi8-ru">koi8-ru</option> <option value="koi8-t">koi8-t</option> <option value="Shift_JIS">Shift_JIS</option> <option value="Windows-31j">Windows-31j</option> <option value="Windows932">Windows932</option> <option value="CP932">CP932</option> <option value="CP936">CP936</option> <option value="CP949">CP949</option> <option value="CP950">CP950</option> <option value="GB2312">GB2312</option> <option value="EUC-JP">EUC-JP</option> <option value="EUC-CN">EUC-CN</option> <option value="EUC-KR">EUC-KR</option> <option value="GBK">GBK</option> <option value="GB18030">GB18030</option> <option value="Windows936">Windows936</option> <option value="KS_C_5601">KS_C_5601</option> <option value="Windows949">Windows949</option> <option value="Big5">Big5</option> <option value="Big5-HKSCS">Big5-HKSCS</option> <option value="Windows950">Windows950</option>  </select>
+          </label>
+        </div>
+        <div class="dialogSectionBlock">
+          <h2 data-tran="">Write character encoding</h2>
+          <div class="info" data-tran="">Force parser to use the following character encoding when writing the file(s).</div>
+          <label class="">
+            <select class="fullWidth" data-fld="writeEncoding" value="" data-default="">  <option selected="" value="">AUTO (default)</option> <option value="utf-7">utf-7</option> <option value="utf-7-imap">utf-7-imap</option> <option value="utf8">utf8</option> <option value="UTF-16">UTF-16</option> <option value="UTF-16BE">UTF-16BE</option> <option value="UTF-16LE">UTF-16LE</option> <option value="UTF-32">UTF-32</option> <option value="UTF-32BE">UTF-32BE</option> <option value="UTF-32LE">UTF-32LE</option> <option value="ascii">ascii</option> <option value="ISO-8859-1">ISO-8859-1</option> <option value="ISO-8859-16">ISO-8859-16</option> <option value="koi8-r">koi8-r</option> <option value="koi8-u">koi8-u</option> <option value="koi8-ru">koi8-ru</option> <option value="koi8-t">koi8-t</option> <option value="Shift_JIS">Shift_JIS</option> <option value="Windows-31j">Windows-31j</option> <option value="Windows932">Windows932</option> <option value="CP932">CP932</option> <option value="CP936">CP936</option> <option value="CP949">CP949</option> <option value="CP950">CP950</option> <option value="GB2312">GB2312</option> <option value="EUC-JP">EUC-JP</option> <option value="EUC-CN">EUC-CN</option> <option value="EUC-KR">EUC-KR</option> <option value="GBK">GBK</option> <option value="GB18030">GB18030</option> <option value="Windows936">Windows936</option> <option value="KS_C_5601">KS_C_5601</option> <option value="Windows949">Windows949</option> <option value="Big5">Big5</option> <option value="Big5-HKSCS">Big5-HKSCS</option> <option value="Windows950">Windows950</option>  </select>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="testing" class="tabContent">
+      <div class="sampleWrapper flex col-2">
+        <div class="sampleEditor"></div>
+        <div class="translationPreviewer flex">
+          <div class="sampleEditorToolbar">
+            <button class="menu-grid active" data-targettab="gridPreview"><i class="icon-th"></i><span>Grid</span></button>
+            <button class="menu-translated" data-targettab="translationPreview"><i class="icon-language"></i><span>Translated</span></button>
+          </div>
+          <div class="preview gridPreview active hotContainer" data-tabid="gridPreview"></div>
+          <div class="preview translationPreview hidden" data-tabid="translationPreview"></div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <fieldset class="editorRegexWrapper">
+    <div class="breadCrumb">
+      <span data-tran="">You are editing:</span>
+      <div class="path"></div>
+    </div>
+    <div class="typeSelection">
+      <h2 data-tran="">Please select the mode of your pattern</h2>
+      <div class="typeSelector">
+        <button class="typeSelectorFld regex" value="regex" data-for="regex">Regular Expression</button>
+        <button class="typeSelectorFld function" value="function" data-for="function">JavaScript Function</button>
+        <input type="hidden" data-field="type" /> 
+      </div>
+    </div>
+    <div class="sectionBlock regex hidden" data-fieldGroup="regex">
+        <div class="form-group">
+          <label data-tran="">Regular expression Pattern</label>
+          <textarea class="regexPattern fullWidth" data-field="pattern" placeholder="/example/g"></textarea>
+          <span class="help-block" data-tran="">A valid ECMA Script's regular expression along with the modifier.<br />You can use <a href="https://regex101.com/" class="externalLink" external>regex101.com</a> to create and test your pattern.</span>
+          <div class="blockBox warningBlock withIcon" data-tran="">Pay attention to the use of carriage return (\r) in the text to be translated. regex101.com will strip out the carriage returns so your pattern may have a different effect than what you see on regex101. </div>
+          <div class="blockBox warningBlock withIcon" data-tran=""><strong>About quantifier that captures a zero length string.</strong><br />
+            <i>Null</i> strings will cause problems for the parser. Therefore, instead of using the <strong>*</strong> quantifier which will also capture <i>nulls</i>, it is highly recommended to use the <strong>+</strong> quantifier which will only capture strings if exist.</div>
+        </div>
+
+        <div class="form-group">
+          <label data-tran="">Translatable Capture groups</label>
+          <input type="text" class="fullWidth" data-field="captureGroups" placeholder="Separate each value with a comma" />
+          <span class="help-block" data-tran="">Index of the regular expression's groups (Integer) for the translatable texts. Can be more than one. Separate with comma.</span>
+        </div>
+
+        <div class="form-group">
+          <label data-tran="">Row Info Capture group</label>
+          <input type="number" class="fullWidth" data-field="captureRowInfo" placeholder="" />
+          <span class="help-block" data-tran="">
+            Index of the regular expression's group (Integer) for the row info (e.g. character name). <b>Only one group</b> is allowed. <br />
+            The value of the Row info can be carried over to the child rules and will be overwritten by the child rule's Row info value if exist.
+          </span>
+        </div>
+        
+        <div class="form-group">
+          <label data-tran="">Context template</label>
+          <input type="text" class="fullWidth" data-field="contextTemplate" placeholder="" />
+          <span class="help-block" data-tran="">
+            Context is unique identifier for translatable texts. <br />
+            You can use Javascript's template literals to add information to the context.<br />
+            <b>Available variable:</b>
+            <ul>
+              <li><span class="inlineCode">GROUP[<i>n</i>]</span> - Group capture.</li>
+              <!-- <li><span class="inlineCode">RULE_ID</span> - The ID of the rule.</li> -->
+            </ul>
+            <br />
+            <b>Example:</b>
+            <pre>item/${GROUP[2]}</pre>
+          </span>
+        </div>
+
+
+        <div class="form-group">
+          <label data-tran="">Action</label>
+          <div class="flex fullWidth col-2">
+            <select data-field="action">
+              <option value="capture" data-tran="">Capture value</option>
+              <option value="captureMask" data-tran="">Capture then mask value</option>
+              <option value="mask" data-tran="">Mask value</option>
+              <option value="innerRule" data-tran="">Send to inner rule</option>
+            </select>
+            <div class="innerRuleWrapper hidden"><button class="innerRule"  data-tran="">Edit inner rule <i class="icon-angle-double-right"></i></button></div>
+
+          </div>
+
+          <span class="help-block" data-tran="">What action the pattern is going to do.</span>
+        </div>
+
+    </div>
+    <div class="sectionBlock function hidden" data-fieldGroup="function">
+      <div class="form-group">
+        <h1 data-tran="">Javascript function</h1>
+        <div class="editorBlock">
+          <div class="scriptBlock"><span class="token yellow">async</span> function(<span class="arg yellow" title="The content of the file">text</span>, <span class="arg yellow" title="The model object of the current file">thisModel = {}</span>) {</div>
+            <textarea class="functionEditor fullWidth" data-field="function" placeholder=""></textarea>
+            <div class="scriptBlock">}</div>
+        </div>
+
+        <h1 data-tran="">Guide</h1>
+        <div class="information" data-tran="">
+          <h2 data-tran="">Arguments</h2>
+          <p data-tran="">The code you write will be inside a function with 2 arguments that can be accessed anywhere in your code:</p>
+          <ul>
+            <li>
+              <h3>text</h3>
+              <p><b>String</b></p>
+              <p data-tran="">A string of the entire content of the file.</p>
+            </li>
+            <li>
+              <h3>thisModel</h3>
+              <p><b>Object</b></p>
+              <p data-tran="">The rule object that is currently used by the file.</p>
+            </li>
+          </ul>
+          <h2 data-tran=""><i>this</i> Keyword</h2>
+          <p data-tran=""><b>this</b> will reffer to the instance of CustomParser class.</p>
+
+        </div>
+        <div class="information" data-tran="">
+          <h2 data-tran="">Expected Return Value</h2>
+          <p data-tran="">Your code must <b>return</b> one of the following value:</p>
+          <ul>
+            <li><pre>undefined</pre></li>
+            <li data-tran="">Offset of the captured text, for example:
+<pre>
+  {
+    start:100,
+    end:120,
+    rowInfoText:"Character Name", // Character name. optional
+    context: ["some", "context", "here"] // Context. optional
+  }
+</pre>
+            </li>
+            <li data-tran="">Array of the offset of the captured text, for example:
+<pre>
+  [
+    {start:0, end:5, rowInfoText:"Character Name", context: ["some", "context", "here"]},
+    {start:12, end:30, rowInfoText:"Another Character", context: ["another", "context"]},
+    {start:4581, end:4593, rowInfoText:"Third Character", context: ["third", "context"]}
+  ]
+</pre>              
+            </li>
+          </ul>
+        </div>
+        <div class="information" data-tran="">
+          <h2 data-tran="">Example</h2>
+          <p data-tran="">The following code is an example to parse srt subtitle.</p>
+<pre>
+<code class="language-javascript">
+/*
+  Translator++ is using regexp-match-indices
+  by that all RegExp.exec() method will return their group offset
+  read more about Regular Expression Indices here: https://v8.dev/features/regexp-match-indices
+*/
+
+var result 			= [];
+var captureGroup 	= 1;
+var regex 			= /\d+[\r\n]+\d+:\d+:\d+,\d+ --> \d+:\d+:\d+,\d+[\r\n]+((.+\r?\n)+(?=(\r?\n)?))/g;
+while(null != (matches=regex.exec(text))) {
+  console.log(matches);
+  if (!matches?.indices?.[captureGroup]) continue;
+  result.push({
+    start	: matches.indices[captureGroup][0],
+    end		: matches.indices[captureGroup][1]
+  })
+}
+return result;             
+</code>
+</pre>
+        </div>        
+      </div>
+    </div>
+  </fieldset>
+
+  <div class="noFileGroup">
+    <h1 data-tran="">Welcome to the Custom Parser Model Creator</h1>
+    <h2 data-tran="">Please start by creating a new File Group.</h2>
+    <p data-tran="">Please define what kind of file you want to parse by clicking
+      <button class="addFileGroup" onclick="addFileGroup(this)"><i class="icon-plus-circled"></i>Add a new file group</button> button.
+    </p>
+    <p data-tran="">Press F1 to open the help dialog.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 2k.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"0","tags":null}
+#. tid/164/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:0"
+msgid "Use Native RPG Player"
+msgstr "Sử dụng Trình chơi RPG gốc"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"1","tags":null}
+#. tid/174/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:1"
+msgid "Use native RPG Player instead of Easy RPG Player"
+msgstr "Sử dụng Trình chơi RPG gốc thay vì Trình chơi RPG Dễ dàng"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"2","tags":null}
+#. tid/184/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:2"
+msgid "Use native RPG Player"
+msgstr "Sử dụng Trình chơi RPG gốc"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"3","tags":null}
+#. tid/5955/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:3"
+msgid "Target folder"
+msgstr "Thư mục đích"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"4","tags":null}
+#. tid/5960/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:4"
+msgid "Select destination folder."
+msgstr "Chọn thư mục đích."
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"5","tags":null}
+#. tid/6034/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:5"
+msgid "Install Easy RPG Player"
+msgstr "Cài đặt Trình chơi Easy RPG"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"6","tags":null}
+#. tid/6151/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:6"
+msgid "Close"
+msgstr "Đóng"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"7","tags":null}
+#. tid/6202/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:7"
+msgid "Install"
+msgstr "Cài đặt"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"8","tags":null}
+#. tid/6393/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:8"
+msgid "Process completed!"
+msgstr "Quá trình hoàn tất!"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"9","tags":null}
+#. tid/7198/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/rm2k2k3/2k.js:9"
+msgid "RPG Maker 2000 & 2003 Parser with xmlTrans plugin."
+msgstr "Trình phân tích RPG Maker 2000 & 2003 với plugin xmlTrans."
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"10","tags":null}
+#. tid/8288/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:10"
+msgid "Play last build"
+msgstr "Chơi bản dựng cuối cùng"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"11","tags":null}
+#. tid/8344/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:11"
+msgid "Apply translation then play"
+msgstr "Áp dụng bản dịch rồi chơi"
+
+# {"path":"/addons/rm2k2k3/2k.js","row":"12","tags":null}
+#. tid/8395/type/StringLiteral
+msgctxt "tpp:/addons/rm2k2k3/2k.js:12"
+msgid "Setup Easy RPG in the current directory"
+msgstr "Thiết lập Easy RPG trong thư mục hiện tại"

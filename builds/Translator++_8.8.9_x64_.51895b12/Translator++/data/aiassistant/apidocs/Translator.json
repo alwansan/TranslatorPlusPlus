@@ -1,0 +1,14 @@
+{
+  "Translator": {
+    "constructor": {
+      "Translator": {
+        "signature": "new Translator()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new Translator()"
+      }
+    }
+  }
+}

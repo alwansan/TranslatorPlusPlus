@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CustomParserLoader.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/customParser/CustomParserLoader.js","row":"0","tags":null}
+#. tid/3375/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/customParser/CustomParserLoader.js:0"
+msgid "List of the possible character encodings. <b>Order does matter!</b>. Separate each value with a comma.<br />Translator++ will read the original file with the following encodings, patch the files and write with the <b>Write Character encoding</b> option. Leave blank to use the original character encoding when the project is created."
+msgstr "Danh sách các mã hóa ký tự có thể. <b>Thứ tự có quan trọng!</b>. Phân tách mỗi giá trị bằng dấu phẩy.<br />Translator++ sẽ đọc tệp gốc với các mã hóa sau, vá các tệp và ghi với tùy chọn <b>Mã hóa ký tự ghi</b>. Để trống để sử dụng mã hóa ký tự gốc khi dự án được tạo."
+
+# {"path":"/addons/customParser/CustomParserLoader.js","row":"1","tags":null}
+#. tid/3383/type/StringLiteral
+msgctxt "tpp:/addons/customParser/CustomParserLoader.js:1"
+msgid "For BOM support, add a space after the encoding. Example: <code>utf8 bom</code>"
+msgstr "Để hỗ trợ BOM, thêm một khoảng trắng sau mã hóa. Ví dụ: <code>utf8 bom</code>"
+
+# {"path":"/addons/customParser/CustomParserLoader.js","row":"2","tags":null}
+#. tid/3392/type/StringLiteral
+msgctxt "tpp:/addons/customParser/CustomParserLoader.js:2"
+msgid "Example: utf8,utf8 bom,utf16le,ascii"
+msgstr "Ví dụ: utf8,utf8 bom,utf16le,ascii"
+
+# {"path":"/addons/customParser/CustomParserLoader.js","row":"3","tags":null}
+#. tid/4740/type/StringLiteral
+msgctxt "tpp:/addons/customParser/CustomParserLoader.js:3"
+msgid "Select the target character encoding."
+msgstr "Chọn mã hóa ký tự mục tiêu."

@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tm.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/tm/tm.js","row":"0","tags":null}
+#. tid/292/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:0"
+msgid "Automatic organic translation memorization"
+msgstr "Ghi nhớ bản dịch hữu cơ tự động"
+
+# {"path":"/addons/tm/tm.js","row":"1","tags":null}
+#. tid/302/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:1"
+msgid "If checked, all organic translation (manually inputted translation) will be memorized automatically."
+msgstr "Nếu được chọn, tất cả bản dịch hữu cơ (bản dịch được nhập thủ công) sẽ được ghi nhớ tự động."
+
+# {"path":"/addons/tm/tm.js","row":"2","tags":null}
+#. tid/340/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:2"
+msgid "Memorize translation by automation script"
+msgstr "Ghi nhớ bản dịch bằng kịch bản tự động"
+
+# {"path":"/addons/tm/tm.js","row":"3","tags":null}
+#. tid/350/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:3"
+msgid ""
+"If checked, Translator++ will remember the translation created from automation scripts. \n"
+"All changes via 'this.cells' will be memorized. But it is possible for us to modify the contents of the grid directly using the trans API, such changes will not trigger the automatic memorization."
+msgstr ""
+"Nếu được chọn, Translator++ sẽ ghi nhớ bản dịch được tạo từ kịch bản tự động. \n"
+"Tất cả thay đổi qua 'this.cells' sẽ được ghi nhớ. Nhưng có thể chúng tôi sửa đổi nội dung của lưới trực tiếp bằng API trans, những thay đổi đó sẽ không kích hoạt việc ghi nhớ tự động."
+
+# {"path":"/addons/tm/tm.js","row":"4","tags":null}
+#. tid/388/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:4"
+msgid "Remind translation on cell translate"
+msgstr "Nhắc bản dịch khi dịch ô"
+
+# {"path":"/addons/tm/tm.js","row":"5","tags":null}
+#. tid/398/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:5"
+msgid "If checked, Translator++ will load translation from translation memory first before performing automatic translation on selected cell."
+msgstr "Nếu được chọn, Translator++ sẽ tải bản dịch từ bộ nhớ dịch trước khi thực hiện dịch tự động trên ô được chọn."
+
+# {"path":"/addons/tm/tm.js","row":"6","tags":null}
+#. tid/436/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:6"
+msgid "Default memorization behavior"
+msgstr "Hành vi ghi nhớ mặc định"
+
+# {"path":"/addons/tm/tm.js","row":"7","tags":null}
+#. tid/446/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:7"
+msgid "Overwrite previous record when performing organic translation. If unchecked, TM will not memorize the new translation for existing record."
+msgstr "Ghi đè bản ghi trước đó khi thực hiện dịch hữu cơ. Nếu không chọn, TM sẽ không ghi nhớ bản dịch mới cho bản ghi hiện có."
+
+# {"path":"/addons/tm/tm.js","row":"8","tags":null}
+#. tid/484/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:8"
+msgid "MySQL host"
+msgstr "Máy chủ MySQL"
+
+# {"path":"/addons/tm/tm.js","row":"9","tags":null}
+#. tid/494/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:9"
+msgid "The host name or IP address of your MySQL server"
+msgstr "Tên máy chủ hoặc địa chỉ IP của máy chủ MySQL của bạn"
+
+# {"path":"/addons/tm/tm.js","row":"10","tags":null}
+#. tid/532/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:10"
+msgid "MySQL port"
+msgstr "Cổng MySQL"
+
+# {"path":"/addons/tm/tm.js","row":"11","tags":null}
+#. tid/542/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:11"
+msgid "MySQL Port. Default is 3306."
+msgstr "Cổng MySQL. Mặc định là 3306."
+
+# {"path":"/addons/tm/tm.js","row":"12","tags":null}
+#. tid/588/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:12"
+msgid "MySQL user name"
+msgstr "Tên người dùng MySQL"
+
+# {"path":"/addons/tm/tm.js","row":"13","tags":null}
+#. tid/598/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:13"
+msgid "Username to access the DB."
+msgstr "Tên người dùng để truy cập cơ sở dữ liệu."
+
+# {"path":"/addons/tm/tm.js","row":"14","tags":null}
+#. tid/643/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:14"
+msgid "MySQL password"
+msgstr "Mật khẩu MySQL"
+
+# {"path":"/addons/tm/tm.js","row":"15","tags":null}
+#. tid/653/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:15"
+msgid "Password to access the DB."
+msgstr "Mật khẩu để truy cập cơ sở dữ liệu."
+
+# {"path":"/addons/tm/tm.js","row":"16","tags":null}
+#. tid/698/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:16"
+msgid "Database Name"
+msgstr "Tên Cơ sở dữ liệu"
+
+# {"path":"/addons/tm/tm.js","row":"17","tags":null}
+#. tid/708/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:17"
+msgid "Database name. Translator++ will try to create database if not exist. But the success is depend on the privilege of the given credential."
+msgstr "Tên cơ sở dữ liệu. Translator++ sẽ cố gắng tạo cơ sở dữ liệu nếu chưa tồn tại. Nhưng thành công phụ thuộc vào quyền hạn của thông tin đăng nhập được cung cấp."
+
+# {"path":"/addons/tm/tm.js","row":"18","tags":null}
+#. tid/754/type/StringLiteral
+#. tid/764/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:18"
+msgid "Database Type"
+msgstr "Loại cơ sở dữ liệu"
+
+# {"path":"/addons/tm/tm.js","row":"19","tags":null}
+#. tid/835/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:19"
+msgid "Automatically memorize manually inputted translations?"
+msgstr "Tự động ghi nhớ các bản dịch được nhập thủ công?"
+
+# {"path":"/addons/tm/tm.js","row":"20","tags":null}
+#. tid/878/type/StringLiteral
+#. tid/1008/type/StringLiteral
+#. tid/1138/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:20"
+msgid ""
+"Sorry, this addon is only available for active patrons only.\n"
+"You can unlock this feature by becoming a $1 patron."
+msgstr ""
+"Xin lỗi, tiện ích này chỉ khả dụng cho những người bảo trợ đang hoạt động.\n"
+"Bạn có thể mở khóa tính năng này bằng cách trở thành người bảo trợ $1."
+
+# {"path":"/addons/tm/tm.js","row":"21","tags":null}
+#. tid/965/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:21"
+msgid "Automatically memorize translation made by automation scripts?"
+msgstr "Tự động ghi nhớ bản dịch được tạo bởi các tập lệnh tự động?"
+
+# {"path":"/addons/tm/tm.js","row":"22","tags":null}
+#. tid/1095/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:22"
+msgid "Remind translations when performing translate selection?"
+msgstr "Nhắc nhở bản dịch khi thực hiện dịch lựa chọn?"
+
+# {"path":"/addons/tm/tm.js","row":"23","tags":null}
+#. tid/1225/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:23"
+msgid "Use rememorize in organic translation"
+msgstr "Sử dụng ghi nhớ lại trong dịch thuật hữu cơ"
+
+# {"path":"/addons/tm/tm.js","row":"24","tags":null}
+#. tid/1290/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:24"
+msgid "default"
+msgstr "mặc định"
+
+# {"path":"/addons/tm/tm.js","row":"25","tags":null}
+#. tid/1300/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:25"
+msgid "Indexed DB (experimental)"
+msgstr "Indexed DB (thử nghiệm)"
+
+# {"path":"/addons/tm/tm.js","row":"26","tags":null}
+#. tid/1310/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:26"
+msgid "MySQL"
+msgstr "MySQL"
+
+# {"path":"/addons/tm/tm.js","row":"27","tags":null}
+#. tid/1390/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:27"
+msgid "Database Setting"
+msgstr "Cài đặt cơ sở dữ liệu"
+
+# {"path":"/addons/tm/tm.js","row":"28","tags":null}
+#. tid/1428/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:28"
+msgid "IndexedDB"
+msgstr "IndexedDB"
+
+# {"path":"/addons/tm/tm.js","row":"29","tags":null}
+#. tid/1459/type/StringLiteral
+#. tid/1938/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:29"
+msgid "Generate"
+msgstr "Tạo"
+
+# {"path":"/addons/tm/tm.js","row":"30","tags":null}
+#. tid/1469/type/StringLiteral
+#. tid/1948/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:30"
+msgid "Escaping algorithm for inline code inside dialogues"
+msgstr "Thuật toán thoát cho mã nội tuyến bên trong hội thoại"
+
+# {"path":"/addons/tm/tm.js","row":"31","tags":null}
+#. tid/1500/type/StringLiteral
+#. tid/1979/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:31"
+msgid "Test connection"
+msgstr "Kiểm tra kết nối"
+
+# {"path":"/addons/tm/tm.js","row":"32","tags":null}
+#. tid/1523/type/StringLiteral
+#. tid/2093/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:32"
+msgid "Connection success!"
+msgstr "Kết nối thành công!"
+
+# {"path":"/addons/tm/tm.js","row":"33","tags":null}
+#. tid/1557/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:33"
+msgid "MySql"
+msgstr "MySql"
+
+# {"path":"/addons/tm/tm.js","row":"34","tags":null}
+#. tid/2114/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:34"
+msgid ""
+"Connection failed!\n"
+"Error:"
+msgstr ""
+"Kết nối thất bại!\n"
+"Lỗi:"
+
+# {"path":"/addons/tm/tm.js","row":"35","tags":null}
+#. tid/2153/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:35"
+msgid "Install MySQL Server"
+msgstr "Cài đặt MySQL Server"
+
+# {"path":"/addons/tm/tm.js","row":"36","tags":null}
+#. tid/2201/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:36"
+msgid "How to setup MySQL Server"
+msgstr "Cách thiết lập MySQL Server"
+
+# {"path":"/addons/tm/tm.js","row":"37","tags":null}
+#. tid/3362/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:37"
+msgid ""
+"Multiple translations for one key sentence is detected.\n"
+"Only the last found translation will be memorized by the Translation Memory.\n"
+"Do you want to continue?"
+msgstr ""
+"Phát hiện nhiều bản dịch cho một câu khóa.\n"
+"Chỉ bản dịch tìm thấy cuối cùng sẽ được ghi nhớ bởi Bộ nhớ Dịch.\n"
+"Bạn có muốn tiếp tục?"
+
+# {"path":"/addons/tm/tm.js","row":"38","tags":null}
+#. tid/4084/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:38"
+msgid "Your database structure need to be updated."
+msgstr "Cấu trúc cơ sở dữ liệu của bạn cần được cập nhật."
+
+# {"path":"/addons/tm/tm.js","row":"39","tags":null}
+#. tid/4095/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:39"
+msgid "Upgrade database"
+msgstr "Nâng cấp cơ sở dữ liệu"
+
+# {"path":"/addons/tm/tm.js","row":"40","tags":null}
+#. tid/4123/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:40"
+msgid ""
+"This action will upgrade your database.\n"
+"Do you want to upgrade your translation memory database?"
+msgstr ""
+"Hành động này sẽ nâng cấp cơ sở dữ liệu của bạn.\n"
+"Bạn có muốn nâng cấp cơ sở dữ liệu bộ nhớ dịch?"
+
+# {"path":"/addons/tm/tm.js","row":"41","tags":null}
+#. tid/4203/type/StringLiteral
+msgctxt "tpp:/addons/tm/tm.js:41"
+msgid ""
+"The translation memory database has been upgraded!\n"
+"Please restart Translator++!"
+msgstr ""
+"Cơ sở dữ liệu bộ nhớ dịch đã được nâng cấp!\n"
+"Vui lòng khởi động lại Translator++!"

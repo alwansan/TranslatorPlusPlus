@@ -1,0 +1,112 @@
+{
+  "ParserFile": {
+    "constructor": {
+      "ParserFile": {
+        "signature": "new ParserFile()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new ParserFile()"
+      }
+    },
+    "methods": {
+      "readFile": {
+        "signature": "readFile(file, readEncoding) → Promise.<string>",
+        "description": "Asynchronously read the contents of a file.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "string",
+            "description": "The path of the file to read.",
+            "required": true
+          },
+          {
+            "name": "readEncoding",
+            "type": "string",
+            "description": "The encoding to use for reading (optional).",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise resolving to the decoded file content."
+        },
+        "examples": [],
+        "usage": "readFile(file, readEncoding) : Promise.<string>"
+      },
+      "readTextFromFile": {
+        "signature": "readTextFromFile(file, readEncoding) → Promise.<string>",
+        "description": "Asynchronously read the text contents of a file.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "string",
+            "description": "The path of the file to read.",
+            "required": true
+          },
+          {
+            "name": "readEncoding",
+            "type": "string",
+            "description": "The encoding to use for reading (optional).",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise resolving to the text content of the file."
+        },
+        "examples": [],
+        "usage": "readTextFromFile(file, readEncoding) : Promise.<string>"
+      },
+      "write": {
+        "signature": "write(file, encoding, bom) → Promise",
+        "description": "Asynchronously write the parsed text to a file.",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "string",
+            "description": "The path of the file to write.",
+            "required": true
+          },
+          {
+            "name": "encoding",
+            "type": "string",
+            "description": "The encoding to use for writing (optional).",
+            "required": true
+          },
+          {
+            "name": "bom",
+            "type": "boolean",
+            "description": "Whether to include a byte order mark (optional).",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise",
+          "description": "A promise indicating the success of the write operation."
+        },
+        "examples": [],
+        "usage": "write(file, encoding, bom) : Promise"
+      },
+      ".detectEncoding": {
+        "signature": "(static) detectEncoding(buffer) → string",
+        "description": "Detect the encoding of the given buffer.",
+        "parameters": [
+          {
+            "name": "buffer",
+            "type": "Buffer",
+            "description": "The buffer to detect encoding from.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The detected encoding."
+        },
+        "examples": [],
+        "usage": ".detectEncoding(buffer) : string"
+      }
+    }
+  }
+}

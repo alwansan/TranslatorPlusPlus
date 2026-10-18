@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Translator++ Login</title>
+<style>
+html, body {
+	font-family: "Tahoma";
+	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+img.patreon_logo {
+    max-width: 400px;
+}	
+button {
+    text-align: center;
+}
+.patreon-responsive-button {
+    text-align: center;
+    margin: 32px 0px 32px 0px;
+}
+.patreon-patron-button-wrapper {
+    text-align: center;
+}
+
+a {
+	color: #6174ff;
+}
+a:hover {
+	color: #323869;
+}
+
+.application-buttonbar .icon-cancel:before {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;	
+}
+.application-buttonbar .icon-cancel {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	transition:background .2s ease-out;
+	
+}
+
+.application-buttonbar .icon-cancel:hover {
+    color:#fff;
+	background:red;
+	transition:background .2s ease-out;
+}
+.application-buttonbar  {
+	width: 32px;
+    position: relative;	
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contentContainer > .loginButtons {
+	width: 100%;
+	display:flex;
+	flex-direction:column;
+}
+.contentContainer > .loginButtons > *{
+	text-align:center;
+}
+
+.dreamsaviorLogin {
+	font-size: .8em;
+	margin-top: 1.2em;
+}
+
+.patreonButton {
+
+	transition: all .2s ease-out;
+}
+
+.patreonButton:hover {
+	transform: scale(1.1);
+	transition: all .2s ease-out;
+}
+
+
+
+/*LOADER*/
+#busyOverlay {
+	background: rgba(0,0,0, .6);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1010;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #cef;
+  margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#busyOverlay .lds-roller {
+	position:fixed;
+	top:calc(50vh - 32px);
+	left:calc(50vw - 32px);
+}
+
+@keyframes flashing {
+	0% { 
+		opacity: 0.3;
+	}
+	50% { 
+		opacity: 1; 
+	}
+	100% { 
+		opacity: 0.3; 
+	}
+}
+#busyOverlay .loading-text {
+    text-shadow: none;
+    width: 80px;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+    position: fixed;
+    left: calc(50vw - 40px);
+    top: calc(50vh - 16px);
+	font-size: 10px;
+	animation-name: flashing;
+	animation-duration: .6s; /* or: Xms */
+	animation-iteration-count: infinite;
+	/*animation-direction: alternate;  or: normal */
+	animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+	animation-fill-mode: forwards; /* or: backwards, both, none */
+	/*animation-delay: 2s;  or: Xms */	
+	color: #fff;
+}
+
+.hidden {
+	display:none;
+}
+</style>
+<script>
+var $ = require('jquery');
+window.jQuery = $;
+
+$(document).ready(()=>{
+	$("a.external, [external]").on("click", function(e) {
+		e.preventDefault();
+		nw.Shell.openExternal($(this).attr("href"));
+	});
+	
+	$("a").on("click", function(e) {
+		$("#busyOverlay").removeClass("hidden");
+	});
+	
+	$("#busyOverlay").addClass("hidden");
+});
+</script>
+</head>
+<body>
+<div class="contentContainer">
+	<div class="loginButtons">
+		<a href="https://dreamsavior.net/patreon-flow/?patreon-login=yes&amp;patreon-final-redirect=http%3A%2F%2Fdreamsavior.net%2Flogin-app" class="ptrn-button">
+			<img src="/www/img/patreon-login.png" class="patreonButton" width="272" height="42" />
+		</a>
+		<div class="dreamsaviorLogin">Or login with <a href="https://dreamsavior.net/login-app/">Dreamsavior.net's account</a>.</div>
+		
+	</div>
+	
+</div>
+<div id="busyOverlay" class="pitchBlack" >
+	<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	<div class="loading-text" data-tran="">working</div>
+</div>
+</body>
+</html>

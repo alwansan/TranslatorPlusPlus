@@ -1,0 +1,1042 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: options.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transLitellm/options.js","row":"0","tags":null}
+#. tid/576/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:0"
+msgid "LiteLLM's proxy url. The url address of your LiteLLM proxy. The default is : <code>http://localhost:8890/chat/completions</code>"
+msgstr "URL proxy của LiteLLM. Địa chỉ URL của proxy LiteLLM của bạn. Mặc định là: <code>http://localhost:8890/chat/completions</code>"
+
+# {"path":"/addons/transLitellm/options.js","row":"1","tags":null}
+#. tid/618/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:1"
+msgid "API's base URL"
+msgstr "URL Cơ sở của API"
+
+# {"path":"/addons/transLitellm/options.js","row":"2","tags":null}
+#. tid/628/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:2"
+msgid "The base URL of your selected service. Only fill this field if you're using a custom endpoint URL. LiteLLM will automatically detect the base URL based on the given model.<br />The way LiteLLM adds the path to the URL depends on the service. For example, for OpenAI-compatible endpoints, LiteLLM will append <code>/chat/completions</code> to the given URL. So, if your endpoint is <code>https://api.fast-tunnel.one/v1/chat/completions</code>, fill the field with <code>https://api.fast-tunnel.one/v1</code>."
+msgstr "URL cơ sở của dịch vụ bạn đã chọn. Chỉ điền trường này nếu bạn đang sử dụng URL điểm cuối tùy chỉnh. LiteLLM sẽ tự động phát hiện URL cơ sở dựa trên mô hình đã cho.<br />Cách LiteLLM thêm đường dẫn vào URL phụ thuộc vào dịch vụ. Ví dụ, đối với các điểm cuối tương thích OpenAI, LiteLLM sẽ nối thêm <code>/chat/completions</code> vào URL đã cho. Vì vậy, nếu điểm cuối của bạn là <code>https://api.fast-tunnel.one/v1/chat/completions</code>, hãy điền trường này với <code>https://api.fast-tunnel.one/v1</code>."
+
+# {"path":"/addons/transLitellm/options.js","row":"3","tags":null}
+#. tid/670/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:3"
+msgid "API Version"
+msgstr "Phiên bản API"
+
+# {"path":"/addons/transLitellm/options.js","row":"4","tags":null}
+#. tid/680/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:4"
+msgid "Optional. The API version parameter needed for some services."
+msgstr "Tùy chọn. Tham số phiên bản API cần thiết cho một số dịch vụ."
+
+# {"path":"/addons/transLitellm/options.js","row":"5","tags":null}
+#. tid/722/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:5"
+msgid "API Key"
+msgstr "Khóa API"
+
+# {"path":"/addons/transLitellm/options.js","row":"6","tags":null}
+#. tid/732/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:6"
+msgid "Optional. The API key used for authenticating your access to the service."
+msgstr "Tùy chọn. Khóa API được sử dụng để xác thực quyền truy cập của bạn vào dịch vụ."
+
+# {"path":"/addons/transLitellm/options.js","row":"7","tags":null}
+#. tid/768/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:7"
+msgid "Model"
+msgstr "Mô hình"
+
+# {"path":"/addons/transLitellm/options.js","row":"8","tags":null}
+#. tid/782/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLitellm/options.js:8"
+msgid "Pre-train the model of your choice. Utilize the LiteLLM model convenience format to specify your preferred model. The format is {service name}/{model}. For example:"
+msgstr "Huấn luyện trước mô hình bạn chọn. Sử dụng định dạng tiện lợi mô hình LiteLLM để chỉ định mô hình ưa thích của bạn. Định dạng là {tên dịch vụ}/{mô hình}. Ví dụ:"
+
+# {"path":"/addons/transLitellm/options.js","row":"9","tags":null}
+#. tid/790/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:9"
+msgid "your deployment name"
+msgstr "tên triển khai của bạn"
+
+# {"path":"/addons/transLitellm/options.js","row":"10","tags":null}
+#. tid/798/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLitellm/options.js:10"
+msgid "However, some models have unique names that can be directly identified, like:"
+msgstr "Tuy nhiên, một số mô hình có tên duy nhất có thể được xác định trực tiếp, như:"
+
+# {"path":"/addons/transLitellm/options.js","row":"11","tags":null}
+#. tid/880/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:11"
+msgid "Azure AD Token"
+msgstr "Token Azure AD"
+
+# {"path":"/addons/transLitellm/options.js","row":"12","tags":null}
+#. tid/923/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:12"
+msgid "AWS Access Key ID"
+msgstr "ID Khóa Truy cập AWS"
+
+# {"path":"/addons/transLitellm/options.js","row":"13","tags":null}
+#. tid/966/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:13"
+msgid "AWS secret access key"
+msgstr "Khóa truy cập bí mật AWS"
+
+# {"path":"/addons/transLitellm/options.js","row":"14","tags":null}
+#. tid/1009/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:14"
+msgid "Open router site URL"
+msgstr "URL trang web Open router"
+
+# {"path":"/addons/transLitellm/options.js","row":"15","tags":null}
+#. tid/1052/type/StringLiteral
+#. tid/1062/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:15"
+msgid "Open router APP name"
+msgstr "Tên ứng dụng Open router"
+
+# {"path":"/addons/transLitellm/options.js","row":"16","tags":null}
+#. tid/1103/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:16"
+msgid "Enable Context"
+msgstr "Bật Ngữ cảnh"
+
+# {"path":"/addons/transLitellm/options.js","row":"17","tags":null}
+#. tid/1113/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:17"
+msgid "Enable context for the translation. The previously translated material above the current batch will be included as a context. <b>You also need to explicitly includes the CONTEXT into the template</b>"
+msgstr "Bật ngữ cảnh cho bản dịch. Tài liệu đã dịch trước đó phía trên lô hiện tại sẽ được bao gồm như một ngữ cảnh. <b>Bạn cũng cần bao gồm rõ ràng NGỮ CẢNH vào mẫu</b>"
+
+# {"path":"/addons/transLitellm/options.js","row":"18","tags":null}
+#. tid/1146/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:18"
+msgid "Context Character Limit"
+msgstr "Giới hạn Ký tự Ngữ cảnh"
+
+# {"path":"/addons/transLitellm/options.js","row":"19","tags":null}
+#. tid/1156/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:19"
+msgid "Character limit for the context."
+msgstr "Giới hạn ký tự cho ngữ cảnh."
+
+# {"path":"/addons/transLitellm/options.js","row":"20","tags":null}
+#. tid/1190/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:20"
+msgid "System Message Template"
+msgstr "Mẫu Tin nhắn Hệ thống"
+
+# {"path":"/addons/transLitellm/options.js","row":"21","tags":null}
+#. tid/1200/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:21"
+msgid "System message is the header of the message that will tell what is the role of your chatGPT assistant. This message will be sent as the very first message of every batch you send to chatGPT."
+msgstr "Tin nhắn hệ thống là tiêu đề của tin nhắn sẽ cho biết vai trò của trợ lý chatGPT của bạn. Tin nhắn này sẽ được gửi như tin nhắn đầu tiên của mỗi lô bạn gửi đến chatGPT."
+
+# {"path":"/addons/transLitellm/options.js","row":"22","tags":null}
+#. tid/1208/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:22"
+msgid "You can include the following variables with JavaScript's Template Literal style <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+msgstr "Bạn có thể bao gồm các biến sau với phong cách Template Literal của JavaScript <span class='inlineCode'><b>${</b>VARIABLE<b>}</b></span><br>"
+
+# {"path":"/addons/transLitellm/options.js","row":"23","tags":null}
+#. tid/1216/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:23"
+msgid "Variables:<br>"
+msgstr "Biến số:<br>"
+
+# {"path":"/addons/transLitellm/options.js","row":"24","tags":null}
+#. tid/1229/type/StringLiteral
+#. tid/1492/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:24"
+msgid "<li>LANG_FROM : Source language</li>"
+msgstr "<li>LANG_FROM : Ngôn ngữ nguồn</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"25","tags":null}
+#. tid/1237/type/StringLiteral
+#. tid/1500/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:25"
+msgid "<li>LANG_TO : Target language</li>"
+msgstr "<li>LANG_TO : Ngôn ngữ đích</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"26","tags":null}
+#. tid/1245/type/StringLiteral
+#. tid/1508/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:26"
+msgid "<li>SOURCE_TEXT : Source text</li>"
+msgstr "<li>SOURCE_TEXT : Văn bản nguồn</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"27","tags":null}
+#. tid/1253/type/StringLiteral
+#. tid/1516/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:27"
+msgid "<li>ESCAPE_ALGORITHM_PROMPT : Pre-defined message of escape algorithm.</li>"
+msgstr "<li>ESCAPE_ALGORITHM_PROMPT : Thông báo định sẵn của thuật toán thoát.</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"28","tags":null}
+#. tid/1261/type/StringLiteral
+#. tid/1524/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:28"
+msgid "<li>NEWLINE_STRING : String represents new line (Line substitute).</li>"
+msgstr "<li>NEWLINE_STRING : Chuỗi đại diện cho dòng mới (Thay thế dòng).</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"29","tags":null}
+#. tid/1269/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:29"
+msgid "<li>MESSAGE_COUNT : Number of messages in the batch.</li>"
+msgstr "<li>MESSAGE_COUNT : Số lượng tin nhắn trong lô.</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"30","tags":null}
+#. tid/1277/type/StringLiteral
+#. tid/8920/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:30"
+msgid "<li>TITLE : Title of the game</li>"
+msgstr "<li>TITLE : Tiêu đề của trò chơi</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"31","tags":null}
+#. tid/1285/type/StringLiteral
+#. tid/8928/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:31"
+msgid "<li>ENGINE : Engine of the game</li>"
+msgstr "<li>ENGINE : Engine của trò chơi</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"32","tags":null}
+#. tid/1293/type/StringLiteral
+#. tid/8936/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:32"
+msgid "<li>ACTOR_INFO : Glossary of actor information.(Only if actor information option is enabled in batch mode)</li>"
+msgstr "<li>ACTOR_INFO : Từ điển thông tin diễn viên. (Chỉ khi tùy chọn thông tin diễn viên được bật trong chế độ lô)</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"33","tags":null}
+#. tid/1301/type/StringLiteral
+#. tid/8944/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:33"
+msgid "<li>REFERENCE[object name] : Generate reference from Translator++ object. <br />Example : <code>REFERENCE[Common Reference]</code></li>"
+msgstr "<li>REFERENCE[tên đối tượng] : Tạo tham chiếu từ đối tượng Translator++. <br />Ví dụ : <code>REFERENCE[Tham chiếu chung]</code></li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"34","tags":null}
+#. tid/1309/type/StringLiteral
+#. tid/8952/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:34"
+msgid "<li>CONTEXT : Context of the previous translation (if context is enabled)</li>"
+msgstr "<li>CONTEXT : Ngữ cảnh của bản dịch trước đó (nếu ngữ cảnh được bật)</li>"
+
+# {"path":"/addons/transLitellm/options.js","row":"35","tags":null}
+#. tid/1378/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:35"
+msgid "Sample conversation"
+msgstr "Mẫu hội thoại"
+
+# {"path":"/addons/transLitellm/options.js","row":"36","tags":null}
+#. tid/1407/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:36"
+msgid "User message"
+msgstr "Tin nhắn người dùng"
+
+# {"path":"/addons/transLitellm/options.js","row":"37","tags":null}
+#. tid/1433/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:37"
+msgid "Assistant's response"
+msgstr "Phản hồi của trợ lý"
+
+# {"path":"/addons/transLitellm/options.js","row":"38","tags":null}
+#. tid/1469/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:38"
+msgid "Body Message Template"
+msgstr "Mẫu Thông điệp Nội dung"
+
+# {"path":"/addons/transLitellm/options.js","row":"39","tags":null}
+#. tid/1479/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:39"
+msgid "Template of the body of your message."
+msgstr "Mẫu của nội dung thông điệp của bạn."
+
+# {"path":"/addons/transLitellm/options.js","row":"40","tags":null}
+#. tid/1571/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:40"
+msgid "Enable JailBreak"
+msgstr "Bật JailBreak"
+
+# {"path":"/addons/transLitellm/options.js","row":"41","tags":null}
+#. tid/1581/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:41"
+msgid "Enable Jailbreak for the translation. This will make the translation more accurate and less biased. Some models may want to relate fictional events to real life events, hence they will try to alter the translation to fit their own narrative. This option will prevent that."
+msgstr "Bật Jailbreak cho bản dịch. Điều này sẽ làm cho bản dịch chính xác hơn và ít thiên vị hơn. Một số mô hình có thể muốn liên kết sự kiện hư cấu với sự kiện thực tế, do đó chúng sẽ cố gắng thay đổi bản dịch để phù hợp với câu chuyện riêng của chúng. Tùy chọn này sẽ ngăn chặn điều đó."
+
+# {"path":"/addons/transLitellm/options.js","row":"42","tags":null}
+#. tid/1615/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:42"
+msgid "Jailbreak Template"
+msgstr "Mẫu Jailbreak"
+
+# {"path":"/addons/transLitellm/options.js","row":"43","tags":null}
+#. tid/1625/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:43"
+msgid "Template of the Jailbreak message."
+msgstr "Mẫu của tin nhắn Jailbreak."
+
+# {"path":"/addons/transLitellm/options.js","row":"44","tags":null}
+#. tid/1662/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:44"
+msgid "Maximum Tokens"
+msgstr "Số Token Tối Đa"
+
+# {"path":"/addons/transLitellm/options.js","row":"45","tags":null}
+#. tid/1672/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:45"
+msgid "The maximum number of tokens to generate in the completion.<br>The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096)."
+msgstr "Số lượng token tối đa để tạo trong phần hoàn thành.<br>Số token của lời nhắc cộng với max_tokens không được vượt quá độ dài ngữ cảnh của mô hình. Hầu hết các mô hình có độ dài ngữ cảnh là 2048 token (ngoại trừ các mô hình mới nhất, hỗ trợ 4096)."
+
+# {"path":"/addons/transLitellm/options.js","row":"46","tags":null}
+#. tid/1728/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:46"
+msgid "Temperature"
+msgstr "Nhiệt Độ"
+
+# {"path":"/addons/transLitellm/options.js","row":"47","tags":null}
+#. tid/1738/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:47"
+msgid "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. <br>OpenAI generally recommend altering this or top_p but not both."
+msgstr "Nhiệt độ lấy mẫu sử dụng, từ 0 đến 2. Giá trị cao hơn như 0.8 sẽ làm đầu ra ngẫu nhiên hơn, trong khi giá trị thấp hơn như 0.2 sẽ làm nó tập trung và xác định hơn. <br>OpenAI thường khuyên thay đổi thông số này hoặc top_p nhưng không phải cả hai."
+
+# {"path":"/addons/transLitellm/options.js","row":"48","tags":null}
+#. tid/1794/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:48"
+msgid "Nucleus sampling (top_p)"
+msgstr "Lấy mẫu hạt nhân (top_p)"
+
+# {"path":"/addons/transLitellm/options.js","row":"49","tags":null}
+#. tid/1804/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:49"
+msgid "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. <br>OpenAI generally recommend altering this or temperature but not both."
+msgstr "Một phương án thay thế cho lấy mẫu với nhiệt độ, gọi là lấy mẫu hạt nhân, nơi mô hình xem xét kết quả của các token với khối lượng xác suất top_p. Vì vậy 0.1 có nghĩa là chỉ các token chiếm 10% xác suất hàng đầu được xem xét. <br>OpenAI thường khuyên thay đổi thông số này hoặc nhiệt độ nhưng không phải cả hai."
+
+# {"path":"/addons/transLitellm/options.js","row":"50","tags":null}
+#. tid/1860/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:50"
+msgid "Frequency Penalty"
+msgstr "Hình Phạt Tần Suất"
+
+# {"path":"/addons/transLitellm/options.js","row":"51","tags":null}
+#. tid/1870/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:51"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên tần suất hiện có của chúng trong văn bản cho đến nay, giảm khả năng mô hình lặp lại cùng một dòng nguyên văn. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transLitellm/options.js","row":"52","tags":null}
+#. tid/1927/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:52"
+msgid "Presence Penalty"
+msgstr "Hình Phạt Hiện Diện"
+
+# {"path":"/addons/transLitellm/options.js","row":"53","tags":null}
+#. tid/1937/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:53"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên việc chúng có xuất hiện trong văn bản cho đến nay hay không, tăng khả năng mô hình nói về các chủ đề mới. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transLitellm/options.js","row":"54","tags":null}
+#. tid/1994/type/StringLiteral
+#. tid/5919/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:54"
+msgid "Use JSON Schema"
+msgstr "Sử Dụng Lược Đồ JSON"
+
+# {"path":"/addons/transLitellm/options.js","row":"55","tags":null}
+#. tid/2004/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:55"
+msgid "Use <code>json_schema</code> for the <code>response_format.type</code> field instead of the old <code>json_object</code>. The <code>json_schema</code> is required by some of the latest models and some servers like <b>LM Studio</b>, but some old models are still using <code>json_object</code>."
+msgstr "Sử dụng <code>json_schema</code> cho trường <code>response_format.type</code> thay vì <code>json_object</code> cũ. <code>json_schema</code> được yêu cầu bởi một số mô hình mới nhất và một số máy chủ như <b>LM Studio</b>, nhưng một số mô hình cũ vẫn sử dụng <code>json_object</code>."
+
+# {"path":"/addons/transLitellm/options.js","row":"56","tags":null}
+#. tid/2044/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:56"
+msgid "Stop"
+msgstr "Dừng"
+
+# {"path":"/addons/transLitellm/options.js","row":"57","tags":null}
+#. tid/2054/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:57"
+msgid "Enter a keyword where the API will stop generating further tokens. Separate each entry with a new line."
+msgstr "Nhập từ khóa nơi API sẽ dừng tạo thêm token. Phân tách mỗi mục bằng dòng mới."
+
+# {"path":"/addons/transLitellm/options.js","row":"58","tags":null}
+#. tid/2091/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:58"
+msgid "Additional argument variables"
+msgstr "Biến đối số bổ sung"
+
+# {"path":"/addons/transLitellm/options.js","row":"59","tags":null}
+#. tid/2101/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:59"
+msgid "Additional argument variables that would be appended when starting the server.<br />https://docs.litellm.ai/docs/proxy/cli#--drop_params"
+msgstr "Các biến đối số bổ sung sẽ được thêm vào khi khởi động máy chủ.<br />https://docs.litellm.ai/docs/proxy/cli#--drop_params"
+
+# {"path":"/addons/transLitellm/options.js","row":"60","tags":null}
+#. tid/2138/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:60"
+msgid "Batch Timeout"
+msgstr "Thời Gian Chờ Lô"
+
+# {"path":"/addons/transLitellm/options.js","row":"61","tags":null}
+#. tid/2148/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:61"
+msgid "Timeout for each batch in milisecond"
+msgstr "Thời gian chờ cho mỗi lô tính bằng mili giây."
+
+# {"path":"/addons/transLitellm/options.js","row":"62","tags":null}
+#. tid/2181/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:62"
+msgid "Max Request Length"
+msgstr "Độ dài tối đa yêu cầu"
+
+# {"path":"/addons/transLitellm/options.js","row":"63","tags":null}
+#. tid/2191/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:63"
+msgid ""
+"The maximum length of characters for each translation batch.\n"
+"Each translator has a different specs.\n"
+"I recommend less than 2000 for WEB front-end translator that uses GET parameter."
+msgstr ""
+"Độ dài ký tự tối đa cho mỗi lô dịch.\n"
+"Mỗi dịch giả có thông số kỹ thuật khác nhau.\n"
+"Tôi khuyên nên ít hơn 2000 cho dịch giả giao diện WEB sử dụng tham số GET."
+
+# {"path":"/addons/transLitellm/options.js","row":"64","tags":null}
+#. tid/2247/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:64"
+msgid "Max concurrent requests"
+msgstr "Yêu cầu đồng thời tối đa"
+
+# {"path":"/addons/transLitellm/options.js","row":"65","tags":null}
+#. tid/2257/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:65"
+msgid "How many concurrent requests are allowed to be connected simultaneously. Set it to <b>0</b> to disable this feature.<br />Combine this option with <b>Max row per concurrent request</b> to boost the translation speed."
+msgstr "Số lượng yêu cầu đồng thời được phép kết nối cùng lúc. Đặt thành <b>0</b> để tắt tính năng này.<br />Kết hợp tùy chọn này với <b>Số dòng tối đa mỗi yêu cầu đồng thời</b> để tăng tốc độ dịch."
+
+# {"path":"/addons/transLitellm/options.js","row":"66","tags":null}
+#. tid/2315/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:66"
+msgid "Max row per concurrent requests"
+msgstr "Số dòng tối đa mỗi yêu cầu đồng thời"
+
+# {"path":"/addons/transLitellm/options.js","row":"67","tags":null}
+#. tid/2325/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:67"
+msgid "How many rows are allowed for each concurrent requests. Set it to <b>0</b> to disable this feature.<br />If this option is disabled then no matter how many <b>Max concurrent requests</b> you set, Translator++ will process the request as a single chunk."
+msgstr "Số dòng được phép cho mỗi yêu cầu đồng thời. Đặt thành <b>0</b> để tắt tính năng này.<br />Nếu tùy chọn này bị tắt thì dù bạn đặt bao nhiêu <b>Yêu cầu đồng thời tối đa</b>, Translator++ sẽ xử lý yêu cầu như một khối duy nhất."
+
+# {"path":"/addons/transLitellm/options.js","row":"68","tags":null}
+#. tid/2383/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:68"
+msgid "Batch delay"
+msgstr "Độ trễ lô"
+
+# {"path":"/addons/transLitellm/options.js","row":"69","tags":null}
+#. tid/2393/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:69"
+msgid "Delay between batch (in miliseconds)"
+msgstr "Độ trễ giữa các lô (tính bằng mili giây)"
+
+# {"path":"/addons/transLitellm/options.js","row":"70","tags":null}
+#. tid/2433/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:70"
+msgid "Code Escaping Algorithm"
+msgstr "Thuật toán thoát mã"
+
+# {"path":"/addons/transLitellm/options.js","row":"71","tags":null}
+#. tid/2443/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:71"
+msgid "Escaping algorithm for inline code inside dialogues. You may need to change the <b>System Message Template</b> and <b>Body Message Template</b> according to the escape algorighm of your choice."
+msgstr "Thuật toán thoát cho mã nội tuyến bên trong hội thoại. Bạn có thể cần thay đổi <b>Mẫu tin nhắn hệ thống</b> và <b>Mẫu tin nhắn nội dung</b> theo thuật toán thoát bạn chọn."
+
+# {"path":"/addons/transLitellm/options.js","row":"72","tags":null}
+#. tid/2524/type/StringLiteral
+#. tid/7772/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:72"
+msgid "Number of retry"
+msgstr "Số lần thử lại"
+
+# {"path":"/addons/transLitellm/options.js","row":"73","tags":null}
+#. tid/2534/type/StringLiteral
+#. tid/7782/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:73"
+msgid "How many times the engine should retry when translation output validation fails. If nullish (empty), then no retry."
+msgstr "Số lần động cơ nên thử lại khi xác thực đầu ra dịch thất bại. Nếu để trống (rỗng), thì không thử lại."
+
+# {"path":"/addons/transLitellm/options.js","row":"74","tags":null}
+#. tid/2583/type/StringLiteral
+#. tid/7947/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:74"
+msgid "Retry when the number of translated rows doesn't match original"
+msgstr "Thử lại khi số dòng dịch không khớp với bản gốc"
+
+# {"path":"/addons/transLitellm/options.js","row":"75","tags":null}
+#. tid/2593/type/StringLiteral
+#. tid/7957/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:75"
+msgid "If enabled, the engine will retry when the model returns a different number of translation rows compared to the original payload."
+msgstr "Nếu bật, động cơ sẽ thử lại khi mô hình trả về số dòng dịch khác so với tải trọng gốc."
+
+# {"path":"/addons/transLitellm/options.js","row":"76","tags":null}
+#. tid/2635/type/StringLiteral
+#. tid/8028/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:76"
+msgid "Retry when the number of lines for each translated row doesn't match original"
+msgstr "Thử lại khi số dòng cho mỗi dòng dịch không khớp với bản gốc"
+
+# {"path":"/addons/transLitellm/options.js","row":"77","tags":null}
+#. tid/2645/type/StringLiteral
+#. tid/8038/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:77"
+msgid "If enabled, the engine will retry when any translated row has different number of lines than its original row."
+msgstr "Nếu bật, động cơ sẽ thử lại khi bất kỳ dòng dịch nào có số dòng khác với dòng gốc của nó."
+
+# {"path":"/addons/transLitellm/options.js","row":"78","tags":null}
+#. tid/2687/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:78"
+msgid "Prompt: Row count mismatch"
+msgstr "Lời nhắc: Số dòng không khớp"
+
+# {"path":"/addons/transLitellm/options.js","row":"79","tags":null}
+#. tid/2697/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:79"
+msgid "Prompt used when retrying due to row/element count mismatch."
+msgstr "Lời nhắc được sử dụng khi thử lại do số dòng/phần tử không khớp."
+
+# {"path":"/addons/transLitellm/options.js","row":"80","tags":null}
+#. tid/2739/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:80"
+msgid "Prompt: Line count mismatch"
+msgstr "Lời nhắc: Số dòng không khớp"
+
+# {"path":"/addons/transLitellm/options.js","row":"81","tags":null}
+#. tid/2749/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:81"
+msgid "Prompt used when retrying due to per-row line count mismatch."
+msgstr "Lời nhắc được sử dụng khi thử lại do số dòng mỗi dòng không khớp."
+
+# {"path":"/addons/transLitellm/options.js","row":"82","tags":null}
+#. tid/2791/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:82"
+msgid "Prompt: Error / Retry instruction"
+msgstr "Lời nhắc: Lỗi / Hướng dẫn thử lại"
+
+# {"path":"/addons/transLitellm/options.js","row":"83","tags":null}
+#. tid/2801/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:83"
+msgid "Prompt appended after the mismatch prompt(s) to instruct the model to retry."
+msgstr "Lời nhắc được thêm sau lời nhắc không khớp để hướng dẫn mô hình thử lại."
+
+# {"path":"/addons/transLitellm/options.js","row":"84","tags":null}
+#. tid/2861/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:84"
+msgid "Custom Parameter"
+msgstr "Tham số Tùy chỉnh"
+
+# {"path":"/addons/transLitellm/options.js","row":"85","tags":null}
+#. tid/2890/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:85"
+msgid "Key"
+msgstr "Khóa"
+
+# {"path":"/addons/transLitellm/options.js","row":"86","tags":null}
+#. tid/2917/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:86"
+msgid "Value"
+msgstr "Giá trị"
+
+# {"path":"/addons/transLitellm/options.js","row":"87","tags":null}
+#. tid/2944/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:87"
+msgid "Type"
+msgstr "Loại"
+
+# {"path":"/addons/transLitellm/options.js","row":"88","tags":null}
+#. tid/2972/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:88"
+msgid "Type of the value."
+msgstr "Loại của giá trị."
+
+# {"path":"/addons/transLitellm/options.js","row":"89","tags":null}
+#. tid/2979/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:89"
+msgid "For <b>javascript</b> type, the value will be evaluated as JavaScript code."
+msgstr "Đối với loại <b>javascript</b>, giá trị sẽ được đánh giá như mã JavaScript."
+
+# {"path":"/addons/transLitellm/options.js","row":"90","tags":null}
+#. tid/2986/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:90"
+msgid "The scope of the javascript code is <code>window</code>. So you can pretty much grab any value."
+msgstr "Phạm vi của mã javascript là <code>window</code>. Vì vậy bạn có thể truy cập hầu hết mọi giá trị."
+
+# {"path":"/addons/transLitellm/options.js","row":"91","tags":null}
+#. tid/2993/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:91"
+msgid "<br />Example: <code>trans.project.title</code>"
+msgstr "<br />Ví dụ: <code>trans.project.title</code>"
+
+# {"path":"/addons/transLitellm/options.js","row":"92","tags":null}
+#. tid/3032/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:92"
+msgid "Drop parameters that will not be sent to the API.<br />"
+msgstr "Bỏ các tham số sẽ không được gửi đến API.<br />"
+
+# {"path":"/addons/transLitellm/options.js","row":"93","tags":null}
+#. tid/3039/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:93"
+msgid "OpenAI API is keep changing, some new models may not support the old parameters and will return HTTP error for unrecognized request parameter."
+msgstr "API OpenAI liên tục thay đổi, một số mô hình mới có thể không hỗ trợ các tham số cũ và sẽ trả về lỗi HTTP cho tham số yêu cầu không được nhận dạng."
+
+# {"path":"/addons/transLitellm/options.js","row":"94","tags":null}
+#. tid/3046/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:94"
+msgid "You can drop the parameters that are not supported by the model here."
+msgstr "Bạn có thể bỏ các tham số không được mô hình hỗ trợ ở đây."
+
+# {"path":"/addons/transLitellm/options.js","row":"95","tags":null}
+#. tid/3093/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:95"
+msgid "Manage configuration"
+msgstr "Quản lý cấu hình"
+
+# {"path":"/addons/transLitellm/options.js","row":"96","tags":null}
+#. tid/3332/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLitellm/options.js:96"
+msgid "Some of the feature of this engine requires ChatGPT add-on to be installed. Please make sure you have installed ChatGPT add-on before using this engine."
+msgstr "Một số tính năng của công cụ này yêu cầu tiện ích ChatGPT được cài đặt. Vui lòng đảm bảo bạn đã cài đặt tiện ích ChatGPT trước khi sử dụng công cụ này."
+
+# {"path":"/addons/transLitellm/options.js","row":"97","tags":null}
+#. tid/3355/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:97"
+msgid "Text Completion Setting"
+msgstr "Cài đặt Hoàn thành Văn bản"
+
+# {"path":"/addons/transLitellm/options.js","row":"98","tags":null}
+#. tid/3401/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:98"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/addons/transLitellm/options.js","row":"99","tags":null}
+#. tid/3780/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLitellm/options.js:99"
+msgid "<h2>Don't waste your money on Reasoning Models</h2>"
+msgstr "<h2>Đừng lãng phí tiền vào Mô hình Lý luận</h2>"
+
+# {"path":"/addons/transLitellm/options.js","row":"100","tags":null}
+#. tid/3788/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLitellm/options.js:100"
+msgid "<p>It has been proven by various studies that reasoning models are far worse than the normal models on performing creative writings and translation tasks.</p>"
+msgstr "<p>Các nghiên cứu khác nhau đã chứng minh rằng mô hình lý luận kém hơn nhiều so với mô hình thông thường trong việc thực hiện các tác vụ viết sáng tạo và dịch thuật.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"101","tags":null}
+#. tid/3796/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLitellm/options.js:101"
+msgid "<p>You gain nothing but more expensive cost and slower response times when using reasoning models.</p>"
+msgstr "<p>Bạn không nhận được gì ngoài chi phí đắt hơn và thời gian phản hồi chậm hơn khi sử dụng mô hình lý luận.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"102","tags":null}
+#. tid/3886/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:102"
+msgid "Platform specific"
+msgstr "Cụ thể nền tảng"
+
+# {"path":"/addons/transLitellm/options.js","row":"103","tags":null}
+#. tid/3919/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:103"
+msgid "Azure"
+msgstr "Azure"
+
+# {"path":"/addons/transLitellm/options.js","row":"104","tags":null}
+#. tid/4013/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:104"
+msgid "AWS"
+msgstr "AWS"
+
+# {"path":"/addons/transLitellm/options.js","row":"105","tags":null}
+#. tid/4164/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:105"
+msgid "Open Router"
+msgstr "Open Router"
+
+# {"path":"/addons/transLitellm/options.js","row":"106","tags":null}
+#. tid/4316/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:106"
+msgid "Templates"
+msgstr "Mẫu"
+
+# {"path":"/addons/transLitellm/options.js","row":"107","tags":null}
+#. tid/4349/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:107"
+msgid "Enable context"
+msgstr "Bật ngữ cảnh"
+
+# {"path":"/addons/transLitellm/options.js","row":"108","tags":null}
+#. tid/4583/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:108"
+msgid "<h2>Sample dialogue</h2>"
+msgstr "<h2>Mẫu hội thoại</h2>"
+
+# {"path":"/addons/transLitellm/options.js","row":"109","tags":null}
+#. tid/4590/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:109"
+msgid "<p>Sample existing dialog. You can write a sample of good or bad responses to help the translator understand your aim and the context of the conversation.</p>"
+msgstr "<p>Mẫu hội thoại hiện có. Bạn có thể viết một mẫu phản hồi tốt hoặc xấu để giúp người dịch hiểu mục tiêu và ngữ cảnh của cuộc trò chuyện.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"110","tags":null}
+#. tid/4898/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:110"
+msgid "Retry prompts"
+msgstr "Nhắc lại lời nhắc"
+
+# {"path":"/addons/transLitellm/options.js","row":"111","tags":null}
+#. tid/4924/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:111"
+msgid "<p>These prompts are appended as extra <b>user</b> messages during retries, right after the previous model output.</p>"
+msgstr "<p>Những lời nhắc này được thêm vào như các tin nhắn <b>người dùng</b> bổ sung trong quá trình thử lại, ngay sau đầu ra mô hình trước đó.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"112","tags":null}
+#. tid/4931/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:112"
+msgid "<p>Available variables:</p>"
+msgstr "<p>Các biến có sẵn:</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"113","tags":null}
+#. tid/5296/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:113"
+msgid "Enable Jailbreak"
+msgstr "Bật Jailbreak"
+
+# {"path":"/addons/transLitellm/options.js","row":"114","tags":null}
+#. tid/5469/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:114"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+# {"path":"/addons/transLitellm/options.js","row":"115","tags":null}
+#. tid/5990/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:115"
+msgid "Custom Parameters"
+msgstr "Tham số Tùy chỉnh"
+
+# {"path":"/addons/transLitellm/options.js","row":"116","tags":null}
+#. tid/6023/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:116"
+msgid "You can add custom parameters to the OpenAI Chat API request body. This is useful if you want to add additional parameters that are not available in the form."
+msgstr "Bạn có thể thêm tham số tùy chỉnh vào phần thân yêu cầu API Chat của OpenAI. Điều này hữu ích nếu bạn muốn thêm các tham số bổ sung không có sẵn trong biểu mẫu."
+
+# {"path":"/addons/transLitellm/options.js","row":"117","tags":null}
+#. tid/6046/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:117"
+msgid "<h2>Warning</h2><ul><li>Incorrectly setting custom parameters may cause the API request to fail. Make sure you know what you are doing before adding custom parameters. Some services like OpenAI are strict about what parameters you're sending, and they will return HTTP error for unrecognized request parameter.</li><li>If the same key is used multiple times, only the last value will be used.</li><li>If the same key in the existing configuration is used, then existing configuration parameter will be overwritten by the custom parameter.</li></ul>"
+msgstr "<h2>Cảnh báo</h2><ul><li>Thiết lập tham số tùy chỉnh không chính xác có thể khiến yêu cầu API thất bại. Hãy chắc chắn bạn biết mình đang làm gì trước khi thêm tham số tùy chỉnh. Một số dịch vụ như OpenAI rất nghiêm ngặt về các tham số bạn gửi, và họ sẽ trả về lỗi HTTP cho tham số yêu cầu không được công nhận.</li><li>Nếu cùng một khóa được sử dụng nhiều lần, chỉ giá trị cuối cùng sẽ được dùng.</li><li>Nếu cùng một khóa trong cấu hình hiện có được sử dụng, thì tham số cấu hình hiện có sẽ bị ghi đè bởi tham số tùy chỉnh.</li></ul>"
+
+# {"path":"/addons/transLitellm/options.js","row":"118","tags":null}
+#. tid/6292/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:118"
+msgid "Drop Parameters"
+msgstr "Bỏ Tham số"
+
+# {"path":"/addons/transLitellm/options.js","row":"119","tags":null}
+#. tid/6465/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:119"
+msgid "LiteLLM Proxy Configuration"
+msgstr "Cấu hình Proxy LiteLLM"
+
+# {"path":"/addons/transLitellm/options.js","row":"120","tags":null}
+#. tid/6573/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:120"
+msgid "Start LiteLLM server"
+msgstr "Khởi động máy chủ LiteLLM"
+
+# {"path":"/addons/transLitellm/options.js","row":"121","tags":null}
+#. tid/6669/type/StringLiteral
+#. tid/6858/type/StringLiteral
+#. tid/7000/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:121"
+msgid "Processing..."
+msgstr "Đang xử lý..."
+
+# {"path":"/addons/transLitellm/options.js","row":"122","tags":null}
+#. tid/6710/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:122"
+msgid "Server started on port "
+msgstr "Máy chủ đã khởi động trên cổng "
+
+# {"path":"/addons/transLitellm/options.js","row":"123","tags":null}
+#. tid/6762/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:123"
+msgid "Check LiteLLM Status"
+msgstr "Kiểm tra Trạng thái LiteLLM"
+
+# {"path":"/addons/transLitellm/options.js","row":"124","tags":null}
+#. tid/6921/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:124"
+msgid "Change LiteLLM Version"
+msgstr "Thay đổi Phiên bản LiteLLM"
+
+# {"path":"/addons/transLitellm/options.js","row":"125","tags":null}
+#. tid/7089/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:125"
+msgid ""
+"Enter the new version of LiteLLM you wish to install.\n"
+"Known working version: 1.38.0, 1.49.4 \n"
+"The suggested version is: "
+msgstr ""
+"Nhập phiên bản mới của LiteLLM bạn muốn cài đặt.\n"
+"Phiên bản hoạt động đã biết: 1.38.0, 1.49.4 \n"
+"Phiên bản đề xuất là: "
+
+# {"path":"/addons/transLitellm/options.js","row":"126","tags":null}
+#. tid/7131/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:126"
+msgid "Are you sure you want to install LiteLLM version "
+msgstr "Bạn có chắc chắn muốn cài đặt phiên bản LiteLLM "
+
+# {"path":"/addons/transLitellm/options.js","row":"127","tags":null}
+#. tid/7207/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:127"
+msgid "Failed to install LiteLLM. Please check the console for more details."
+msgstr "Không thể cài đặt LiteLLM. Vui lòng kiểm tra bảng điều khiển để biết thêm chi tiết."
+
+# {"path":"/addons/transLitellm/options.js","row":"128","tags":null}
+#. tid/7226/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:128"
+msgid "LiteLLM has been successfully updated to version "
+msgstr "LiteLLM đã được cập nhật thành công lên phiên bản "
+
+# {"path":"/addons/transLitellm/options.js","row":"129","tags":null}
+#. tid/7281/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:129"
+msgid "Batch Translation Setting"
+msgstr "Cài đặt Dịch Hàng loạt"
+
+# {"path":"/addons/transLitellm/options.js","row":"130","tags":null}
+#. tid/7402/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:130"
+msgid ""
+"Sorry, this addon is only available for active patrons only.\n"
+"You can unlock this feature by becoming a $1 patron."
+msgstr ""
+"Xin lỗi, tiện ích này chỉ khả dụng cho các nhà tài trợ đang hoạt động.\n"
+"Bạn có thể mở khóa tính năng này bằng cách trở thành nhà tài trợ $1."
+
+# {"path":"/addons/transLitellm/options.js","row":"131","tags":null}
+#. tid/7694/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:131"
+msgid "Retries and Refinement"
+msgstr "Thử lại và Tinh chỉnh"
+
+# {"path":"/addons/transLitellm/options.js","row":"132","tags":null}
+#. tid/7720/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:132"
+msgid "<h2>Retries and Refinement</h2>"
+msgstr "<h2>Thử lại và Tinh chỉnh</h2>"
+
+# {"path":"/addons/transLitellm/options.js","row":"133","tags":null}
+#. tid/7727/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:133"
+msgid "<p>When the translation output fails the validation, Translator++ can ask the model to retry the translation. You can set how many times the model should retry and also set the condition for the retry.</p>"
+msgstr "<p>Khi đầu ra dịch không vượt qua kiểm tra, Translator++ có thể yêu cầu mô hình thử lại bản dịch. Bạn có thể đặt số lần mô hình nên thử lại và cũng đặt điều kiện cho việc thử lại.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"134","tags":null}
+#. tid/7734/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:134"
+msgid "<p>Setting a reasonable number of retries with proper retry conditions can significantly improve the translation quality while keeping the cost and time in check.</p>"
+msgstr "<p>Đặt số lần thử lại hợp lý với điều kiện thử lại phù hợp có thể cải thiện đáng kể chất lượng dịch trong khi vẫn kiểm soát được chi phí và thời gian.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"135","tags":null}
+#. tid/7741/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:135"
+msgid "<p><b>Each retry costs you additional time and money</b>. If your batch ends up retrying frequently, you may want to adjust your prompt to make the instructions clearer for the model.</p>"
+msgstr "<p><b>Mỗi lần thử lại tốn thêm thời gian và tiền bạc</b>. Nếu quá trình dịch hàng loạt của bạn thường xuyên phải thử lại, bạn có thể muốn điều chỉnh lời nhắc để làm cho hướng dẫn rõ ràng hơn cho mô hình.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"136","tags":null}
+#. tid/7748/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:136"
+msgid "<p>Use developer tool or Batch Manager to debug your batch translation.</p>"
+msgstr "<p>Sử dụng công cụ nhà phát triển hoặc Quản lý Hàng loạt để gỡ lỗi quá trình dịch hàng loạt của bạn.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"137","tags":null}
+#. tid/8117/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:137"
+msgid "<h2>Code Escaping Algorithm</h2>"
+msgstr "<h2>Thuật toán Mã hóa Mã</h2>"
+
+# {"path":"/addons/transLitellm/options.js","row":"138","tags":null}
+#. tid/8124/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:138"
+msgid "<p>Code escaping is a technique to prevent the MTL from altering the code snippets inside the dialogues. This is useful when your dialogues contains code snippets such as HTML tags, XML tags, JSON objects, or JavaScript templates.</p>"
+msgstr "<p>Mã hóa mã là một kỹ thuật để ngăn MTL thay đổi các đoạn mã bên trong hội thoại. Điều này hữu ích khi hội thoại của bạn chứa các đoạn mã như thẻ HTML, thẻ XML, đối tượng JSON hoặc mẫu JavaScript.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"139","tags":null}
+#. tid/8131/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:139"
+msgid "<p>Choose the escaping algorithm that matches the code snippets inside your dialogues. You may need to adjust the <b>system message</b>, <b>Sample prompt</b> and <b>body message</b> templates accordingly.</p>"
+msgstr "<p>Chọn thuật toán mã hóa phù hợp với các đoạn mã bên trong hội thoại của bạn. Bạn có thể cần điều chỉnh mẫu <b>thông điệp hệ thống</b>, <b>Lời nhắc Mẫu</b> và <b>thông điệp nội dung</b> tương ứng.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"140","tags":null}
+#. tid/8138/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:140"
+msgid "<p>Click <a href='https://dreamsavior.net/docs/translator/code-escaping-algorithm/' external>here</a> to read more about code escaping algorithms and how to use them effectively.</p>"
+msgstr "<p>Nhấp <a href='https://dreamsavior.net/docs/translator/code-escaping-algorithm/' external>vào đây</a> để đọc thêm về thuật toán mã hóa mã và cách sử dụng chúng hiệu quả.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"141","tags":null}
+#. tid/8168/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:141"
+msgid "JavaScript template cloaking"
+msgstr "Mã hóa mẫu JavaScript"
+
+# {"path":"/addons/transLitellm/options.js","row":"142","tags":null}
+#. tid/8178/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:142"
+msgid "None (no escaping)"
+msgstr "Không (không thoát)"
+
+# {"path":"/addons/transLitellm/options.js","row":"143","tags":null}
+#. tid/8425/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:143"
+msgid "Do you want to load the sample dialogue preset for the selected escape algorithm? This will overwrite your existing sample dialogue."
+msgstr "Bạn có muốn tải mẫu hội thoại mẫu cho thuật toán thoát đã chọn không? Điều này sẽ ghi đè hội thoại mẫu hiện có của bạn."
+
+# {"path":"/addons/transLitellm/options.js","row":"144","tags":null}
+#. tid/8628/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:144"
+msgid "Always separate file"
+msgstr "Luôn tách file"
+
+# {"path":"/addons/transLitellm/options.js","row":"145","tags":null}
+#. tid/8638/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:145"
+msgid "Always separate the file for each batch. This may keep the contexts of each files unpoluted with another files."
+msgstr "Luôn tách file cho mỗi lô. Điều này có thể giữ ngữ cảnh của mỗi file không bị lẫn lộn với các file khác."
+
+# {"path":"/addons/transLitellm/options.js","row":"146","tags":null}
+#. tid/8672/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:146"
+msgid "Add actor name"
+msgstr "Thêm tên diễn viên"
+
+# {"path":"/addons/transLitellm/options.js","row":"147","tags":null}
+#. tid/8682/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:147"
+msgid "Append actor name from row info to the translatable text. This will help the translators to keep track of the dialogue and pronouns. Translator++ will then removes the actor name from the translation result. This obviously will increase the cost of the translation."
+msgstr "Thêm tên diễn viên từ thông tin hàng vào văn bản có thể dịch. Điều này sẽ giúp người dịch theo dõi hội thoại và đại từ. Translator++ sau đó sẽ loại bỏ tên diễn viên khỏi kết quả dịch. Điều này rõ ràng sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transLitellm/options.js","row":"148","tags":null}
+#. tid/8719/type/StringLiteral
+#. tid/9129/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:148"
+msgid "Load Actor Reference as Glossary"
+msgstr "Tải Tham chiếu Diễn viên làm Bảng Thuật ngữ"
+
+# {"path":"/addons/transLitellm/options.js","row":"149","tags":null}
+#. tid/8729/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:149"
+msgid "If checked, Translator++ will load the actor reference as glossary. This will help the translator to understand the context of the conversation. The actor reference is the name of the actor in the dialogue. This will be loaded as a glossary to the translator. This will increase the cost of the translation."
+msgstr "Nếu được chọn, Translator++ sẽ tải tham chiếu diễn viên làm bảng thuật ngữ. Điều này sẽ giúp người dịch hiểu ngữ cảnh của cuộc trò chuyện. Tham chiếu diễn viên là tên của diễn viên trong hội thoại. Điều này sẽ được tải như một bảng thuật ngữ cho người dịch. Điều này sẽ làm tăng chi phí dịch."
+
+# {"path":"/addons/transLitellm/options.js","row":"150","tags":null}
+#. tid/8736/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:150"
+msgid "Only the characters that are exists in the conversation will be loaded as glossary for each batch item. Use the template command to load the actor reference in the prompt message."
+msgstr "Chỉ các nhân vật tồn tại trong cuộc trò chuyện sẽ được tải làm bảng thuật ngữ cho mỗi mục lô. Sử dụng lệnh mẫu để tải tham chiếu diễn viên trong thông báo nhắc."
+
+# {"path":"/addons/transLitellm/options.js","row":"151","tags":null}
+#. tid/8743/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:151"
+msgid "<br />⚠️If you enable this option, you also need to include the <code>ACTOR_INFO</code> variable in the prompt template to place the character information data."
+msgstr "<br />⚠️Nếu bạn bật tùy chọn này, bạn cũng cần bao gồm biến <code>ACTOR_INFO</code> trong mẫu nhắc để đặt dữ liệu thông tin nhân vật."
+
+# {"path":"/addons/transLitellm/options.js","row":"152","tags":null}
+#. tid/8777/type/StringLiteral
+#. tid/9160/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:152"
+msgid "Actor Reference Translation Column"
+msgstr "Cột Dịch Tham chiếu Diễn viên"
+
+# {"path":"/addons/transLitellm/options.js","row":"153","tags":null}
+#. tid/8787/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:153"
+msgid "The column of the translation of the actor name. This column will be used as the translation of the actor reference. This will improve the consistency of actor name's translation in the conversation."
+msgstr "Cột của bản dịch tên diễn viên. Cột này sẽ được sử dụng làm bản dịch của tham chiếu diễn viên. Điều này sẽ cải thiện tính nhất quán của bản dịch tên diễn viên trong cuộc trò chuyện."
+
+# {"path":"/addons/transLitellm/options.js","row":"154","tags":null}
+#. tid/8814/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:154"
+msgid "Actor's Information Column"
+msgstr "Cột Thông tin Diễn viên"
+
+# {"path":"/addons/transLitellm/options.js","row":"155","tags":null}
+#. tid/8824/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:155"
+msgid "The column that contains the actor's additional information. You can put more information such as gender, age, etc. This will improve the translation of the pronouns in the conversation."
+msgstr "Cột chứa thông tin bổ sung của diễn viên. Bạn có thể đặt thêm thông tin như giới tính, tuổi, v.v. Điều này sẽ cải thiện bản dịch của đại từ trong cuộc trò chuyện."
+
+# {"path":"/addons/transLitellm/options.js","row":"156","tags":null}
+#. tid/8854/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:156"
+msgid "Extra Prompt"
+msgstr "Nhắc Thêm"
+
+# {"path":"/addons/transLitellm/options.js","row":"157","tags":null}
+#. tid/8864/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:157"
+msgid "Extra prompt that will be added to the prompt message. This will be added after the system message and before the actual prompt message."
+msgstr "Nhắc thêm sẽ được thêm vào thông báo nhắc. Điều này sẽ được thêm sau thông báo hệ thống và trước thông báo nhắc thực tế."
+
+# {"path":"/addons/transLitellm/options.js","row":"158","tags":null}
+#. tid/8991/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:158"
+msgid "General Settings"
+msgstr "Cài đặt Chung"
+
+# {"path":"/addons/transLitellm/options.js","row":"159","tags":null}
+#. tid/9017/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:159"
+msgid "Always separate file for each batch"
+msgstr "Luôn tách file cho mỗi lô"
+
+# {"path":"/addons/transLitellm/options.js","row":"160","tags":null}
+#. tid/9041/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:160"
+msgid "Append actor name to the translatable text"
+msgstr "Thêm tên diễn viên vào văn bản có thể dịch"
+
+# {"path":"/addons/transLitellm/options.js","row":"161","tags":null}
+#. tid/9073/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:161"
+msgid "Glossary"
+msgstr "Bảng Thuật ngữ"
+
+# {"path":"/addons/transLitellm/options.js","row":"162","tags":null}
+#. tid/9099/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:162"
+msgid "<h2>Glossary</h2>"
+msgstr "<h2>Bảng Thuật Ngữ</h2>"
+
+# {"path":"/addons/transLitellm/options.js","row":"163","tags":null}
+#. tid/9106/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:163"
+msgid "<p>This feature will help you automatically add a glossary into the prompt. The glossary will be loaded for each batch of items to improve the quality of the translation. The feature will try to load only the relevant terms to avoid bloating your prompt.</p>"
+msgstr "<p>Tính năng này sẽ giúp bạn tự động thêm bảng thuật ngữ vào lời nhắc. Bảng thuật ngữ sẽ được tải cho mỗi nhóm mục để cải thiện chất lượng bản dịch. Tính năng sẽ cố gắng chỉ tải các thuật ngữ liên quan để tránh làm phình to lời nhắc của bạn.</p>"
+
+# {"path":"/addons/transLitellm/options.js","row":"164","tags":null}
+#. tid/9191/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:164"
+msgid "The Column of Actor's Additional Information"
+msgstr "Cột Thông Tin Bổ Sung của Nhân Vật"
+
+# {"path":"/addons/transLitellm/options.js","row":"165","tags":null}
+#. tid/9222/type/StringLiteral
+msgctxt "tpp:/addons/transLitellm/options.js:165"
+msgid "Prompt"
+msgstr "Lời Nhắc"

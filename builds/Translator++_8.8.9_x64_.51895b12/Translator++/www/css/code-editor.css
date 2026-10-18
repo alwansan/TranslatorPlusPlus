@@ -1,0 +1,202 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+body, .body {
+	width:100%;
+	height:100%;
+}
+.body {
+	display: flex;
+	width:100vw;
+	height:calc(100vh - 24px);
+	flex-direction: column;
+}
+
+.body > .fullContent,
+.body > .ace_editor {
+	width:100vw;
+	flex-grow: 2;
+	box-sizing: border-box;
+	margin:0px;
+}
+#editor {
+	width:100vw;
+	height:100vh;
+}
+
+#currentFile {
+	cursor:pointer;
+}
+
+.ace_editor.ace_autocomplete {
+    display: block;
+    min-height: 32px;
+    width: 70vw;
+}
+
+.ui-dialog[aria-describedby="fileListDialog"] .ui-dialog-titlebar  {
+	display: none;
+}
+.ui-dialog[aria-describedby="fileListDialog"] .ui-dialog-buttonpane  {
+	display: none;
+}
+#fileListDialog {
+	padding: .2em
+}
+#fileListDialog ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#fileListDialog ul li {
+    line-height: 24px;
+	padding-left: 4px;
+    padding-right: 4px;
+}
+
+#fileListDialog ul li:hover {
+    line-height: 24px;
+	color: var(--primary-color-text);
+	background: var(--bg-highlighted);
+}
+
+
+.ui-dialog[aria-describedby="thisHelpContext"] .ui-dialog-titlebar  {
+	display: none;
+}
+.ui-dialog[aria-describedby="thisHelpContext"] .ui-dialog-buttonpane  {
+	display: none;
+}
+#thisHelpContext {
+	padding: .2em
+}
+#thisHelpContext ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#thisHelpContext ul li {
+    line-height: 24px;
+	padding-left: 4px;
+    padding-right: 4px;
+}
+
+#thisHelpContext ul li:hover {
+    line-height: 24px;
+	color: var(--primary-color-text);
+	background: var(--bg-highlighted);
+}
+#thisHelpContext h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#thisHelpContext .helperChoice {
+	cursor: pointer;
+    /* margin-bottom: 1em; */
+    padding: .4em;
+    box-sizing: border-box;
+}
+
+#thisHelpContext .helperChoice:hover {
+	background-color: var(--bg-alt-1);
+}
+
+#thisHelpContext .types {
+	font-size: .9em;
+	font-style: italic;
+	color:#004080;
+}
+
+#thisHelpContext .description {
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.snippet a {
+    text-decoration: none;
+    color: #b6d2e6;
+}
+
+.snippet a:hover {
+    color: #24b4f7;
+}
+
+
+input.fileId {
+    width: 100%;
+    border: none;
+    background: none;
+}
+
+.pathinfoWrapper {
+	box-shadow: inset 0px 0px 0px 1px #bbb;
+    background: var(--surface-section);
+    height: 22px;
+    margin-top: 2px;
+	overflow: hidden;
+    box-sizing: border-box;
+}
+.snippet {
+	font: 12pt/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+	background:#272822;
+	color:#eee;
+	padding-left: 8px;
+    box-sizing: border-box;
+}
+.statementVoid {
+	color:#8acdf5;
+}
+
+.statementAsync {
+	color:#f92672;
+}
+
+.statementFn,
+.statementFnCall {
+	color: #65d6eb;
+	font-style: italic;
+
+}
+
+.statementThis {
+	color: #95c92c;
+	font-weight: bold;
+}
+
+.fnName {
+	color: #95c92c;
+	display: inline-block;
+	margin-left: .5em;
+}
+.fnName:empty {
+	display: none;
+}
+.menuPanelTool {
+	background-color: #c0c0c0;
+	position: sticky;
+	top:-4px;
+}
+
+.pathinfoWrapper:hover {
+	box-shadow: inset 0px 0px 0px 1px rgb(145, 153, 255);
+}

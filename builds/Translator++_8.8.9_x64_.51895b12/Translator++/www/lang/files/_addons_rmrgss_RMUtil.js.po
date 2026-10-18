@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RMUtil.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"0","tags":null}
+#. tid/263/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:0"
+msgid "Use legacy parser"
+msgstr "Sử dụng trình phân tích cũ"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"1","tags":null}
+#. tid/273/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:1"
+msgid "Use the old parser prior to (Translator++ ver. 3.8.12). The old parser doesn't support some newly added features."
+msgstr "Sử dụng trình phân tích cũ trước (Translator++ phiên bản 3.8.12). Trình phân tích cũ không hỗ trợ một số tính năng mới được thêm vào."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"2","tags":null}
+#. tid/290/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:2"
+msgid "Use old parser"
+msgstr "Sử dụng trình phân tích cũ"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"3","tags":null}
+#. tid/344/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:3"
+msgid "Event's thread concurrency"
+msgstr "Đồng thời luồng sự kiện"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"4","tags":null}
+#. tid/354/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:4"
+msgid "<b>Warning! Experimental feature!</b><br />This option determines the maximum number of worker threads that can concurrently parse event data on the Map and CommonEvents. <b>Set to 0 to disable worker thread</b>. <br />This option has the potential to accelerate the parsing process in larger games. However, it is important to note that in smaller games, enabling this option may actually slow down the parsing process due to the higher execution overhead compared to the parsing time for each data."
+msgstr "<b>Cảnh báo! Tính năng thử nghiệm!</b><br />Tùy chọn này xác định số lượng luồng công nhân tối đa có thể phân tích dữ liệu sự kiện đồng thời trên Bản đồ và Sự kiện Chung. <b>Đặt thành 0 để tắt luồng công nhân</b>. <br />Tùy chọn này có tiềm năng tăng tốc quá trình phân tích trong các trò chơi lớn. Tuy nhiên, cần lưu ý rằng trong các trò chơi nhỏ, bật tùy chọn này thực sự có thể làm chậm quá trình phân tích do chi phí thực thi cao hơn so với thời gian phân tích cho mỗi dữ liệu."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"5","tags":null}
+#. tid/424/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:5"
+msgid "The minimum number of command in an event that allowed in thread worker"
+msgstr "Số lượng lệnh tối thiểu trong một sự kiện được phép trong luồng công nhân"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"6","tags":null}
+#. tid/434/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:6"
+msgid "<b>Warning! Experimental feature!</b><br />Thread workers incur overhead during execution, which means that processing blank events or events with a low number of commands can actually hinder the overall process. This option enables you to specify the minimum number of commands an event must have in order to be parsed in a worker thread. <br />It is important to note that even blank events contain one command, and it is more efficient to process such events in the main thread rather than in a worker thread. Therefore, it is recommended to set this number to a value <b>greater than 1</b>.<br />Set to 0 to disable splitting task based on commands."
+msgstr "<b>Cảnh báo! Tính năng thử nghiệm!</b><br />Luồng công nhân phát sinh chi phí trong quá trình thực thi, có nghĩa là xử lý các sự kiện trống hoặc sự kiện có số lượng lệnh thấp thực sự có thể cản trở toàn bộ quá trình. Tùy chọn này cho phép bạn chỉ định số lượng lệnh tối thiểu mà một sự kiện phải có để được phân tích trong một luồng công nhân. <br />Cần lưu ý rằng ngay cả sự kiện trống cũng chứa một lệnh, và việc xử lý các sự kiện như vậy trong luồng chính hiệu quả hơn so với trong luồng công nhân. Do đó, khuyến nghị đặt số này thành một giá trị <b>lớn hơn 1</b>.<br />Đặt thành 0 để tắt việc phân chia nhiệm vụ dựa trên lệnh."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"7","tags":null}
+#. tid/438/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:7"
+msgid "Note that a blank event actually contains one command, and you definitely want to process blank events in the main thread instead of a worker thread. You should set this number to a value greater than 1."
+msgstr "Lưu ý rằng một sự kiện trống thực sự chứa một lệnh, và bạn chắc chắn muốn xử lý các sự kiện trống trong luồng chính thay vì luồng công nhân. Bạn nên đặt số này thành một giá trị lớn hơn 1."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"8","tags":null}
+#. tid/21951/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:8"
+msgid "RPG Maker XP, VX, Ace, MV & MZ Parser V.3"
+msgstr "Trình phân tích RPG Maker XP, VX, Ace, MV & MZ V.3"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"9","tags":null}
+#. tid/21956/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:9"
+msgid "Start translation from RPG Maker game using the latest parser."
+msgstr "Bắt đầu dịch từ trò chơi RPG Maker bằng trình phân tích mới nhất."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"10","tags":null}
+#. tid/22453/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:10"
+msgid ""
+"Error!\r\n"
+"Translator++ is unable to detect the type of "
+msgstr ""
+"Lỗi!\r\n"
+"Translator++ không thể phát hiện loại của "
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"11","tags":null}
+#. tid/22989/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:11"
+msgid ""
+"You should change the path!\r\n"
+"The Dev directory should not inside the original game's directory, as this will cause problem if you inject the game latter."
+msgstr ""
+"Bạn nên thay đổi đường dẫn!\r\n"
+"Thư mục Dev không nên nằm trong thư mục trò chơi gốc, vì điều này sẽ gây ra vấn đề nếu bạn tiêm trò chơi sau này."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"12","tags":null}
+#. tid/23038/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:12"
+msgid ""
+"The game is packed with Enigma.\r\n"
+"Do you want to extract the package?\r\n"
+"This will take minutes, depend on the size of your game."
+msgstr ""
+"Trò chơi được đóng gói với Enigma.\r\n"
+"Bạn có muốn giải nén gói này không?\r\n"
+"Việc này sẽ mất vài phút, tùy thuộc vào kích thước trò chơi của bạn."
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"13","tags":null}
+#. tid/23126/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:13"
+msgid "Unable to extract the Enigma package!"
+msgstr "Không thể giải nén gói Enigma!"
+
+# {"path":"/addons/rmrgss/RMUtil.js","row":"14","tags":null}
+#. tid/23333/type/StringLiteral
+msgctxt "tpp:/addons/rmrgss/RMUtil.js:14"
+msgid "Copy & extract data into "
+msgstr "Sao chép & trích xuất dữ liệu vào "

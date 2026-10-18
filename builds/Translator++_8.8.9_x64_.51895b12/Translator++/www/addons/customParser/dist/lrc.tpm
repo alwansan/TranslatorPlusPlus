@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "pattern": "*.lrc",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/^(?:\\[\\d{1,2}:\\d{2}(?:[\\.:]\\d{1,3})?\\])+([^\\r\\n]+)$/gm",
+          "captureGroups": "1"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "LRC Lyrics Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing timestamped LRC lyric files.</p><p>Extracts lyric text that follows time tags while leaving metadata tags and timestamps untouched.</p>"
+  },
+  "options": {
+    "testData": "[ar:Sample Artist]\n[ti:Sample Song]\n[00:12.00]First lyric line\n[00:16.50][00:32.10]Repeated lyric line\n[00:21.00]Last lyric line\n"
+  }
+}

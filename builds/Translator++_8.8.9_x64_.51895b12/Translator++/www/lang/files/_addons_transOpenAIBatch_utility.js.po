@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: utility.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transOpenAIBatch/utility.js","row":"0","tags":null}
+#. tid/78/type/StringLiteral
+msgctxt "tpp:/addons/transOpenAIBatch/utility.js:0"
+msgid "Batch Manager"
+msgstr "Trình quản lý Lô"
+
+# {"path":"/addons/transOpenAIBatch/utility.js","row":"1","tags":null}
+#. tid/114/type/StringLiteral
+msgctxt "tpp:/addons/transOpenAIBatch/utility.js:1"
+msgid "This feature is only available if you have a project open."
+msgstr "Tính năng này chỉ khả dụng nếu bạn đã mở một dự án."

@@ -1,0 +1,16 @@
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Common event 3
+  switch_id: 1
+  list:
+    - !ruby/object:RPG::EventCommand { i: 0, c: 101, p: [ '', 0, 0, 2 ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 今年、最初の雪の華を ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 2人寄り添って ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 眺めているこの時間に ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ シアワセがあふれだす ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 101, p: [ '', 0, 0, 2 ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 甘えとか弱さじゃない ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ ただ、キミを愛してる ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 心からそう思った ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 0, p: [] }
+  id: 3

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="img/icon.png">
+
+<!-- <script type="text/javascript" src="modules/jquery/jquery-1.12.4.min.js"></script> -->
+<script>
+	var $ = require('jquery');
+	window.jQuery = $;
+	var {JavaScript} 		= require("www\\js\\JavaScript.js");
+	window.javaScript 		= new JavaScript();
+
+	var LT = require("light-trans");
+	var lt = new LT({
+		recordMode:true,
+		listener:"t"
+	});
+	
+
+console.log('%cThis is thread window', 'color:blue; font-size:1em;');
+console.log('%cWelcome to Translator++', 'color:blue; font-size:1.2em;');
+console.log('%cYou can dump this console log by right click -> save-as', 'background:black; color:#f1f1d0; font-size:1.2em;');
+console.log('Visit https://dreamsavior.net for documentation and news ');
+console.log('You can contact me at Patreon : https://patreon.com/dreamsavior');
+console.log('current version : ', nw.App.manifest.version);
+console.log('NW version : ', nw.process.versions.nw);
+	
+</script>
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+<script type="text/javascript" src="modules/json2.js"></script>
+
+<script type="text/javascript" src="js/trans.js"></script>
+<script type="text/javascript" src="js/consts.js"></script>
+<script type="text/javascript" src="js/TranslatorEngine.js"></script>
+<script type="text/javascript" src="js/ProofreaderEngine.js"></script>
+
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/php.js"></script>
+<script type="text/javascript" src="js/ui.js"></script>
+<script type="text/javascript" src="js/Engines.js"></script>
+
+<script type="text/javascript" src="js/sys.js" defer></script>
+<script type="text/javascript" src="js/addon.js" defer></script>
+
+<script type="text/javascript" src="js/Thread.bc.js"></script>
+<link href="modules/prismjs/prism.css" rel="stylesheet" />
+<script src="modules/prismjs/prism.js"></script>
+
+<script type="text/javascript" src="js/autoload/tests/test.js"></script>
+
+
+
+<title>Translator++ - Thread</title>
+
+<head>
+
+<body data-window="thread">
+<div class="status">Thread window</div>
+</body>
+</html>

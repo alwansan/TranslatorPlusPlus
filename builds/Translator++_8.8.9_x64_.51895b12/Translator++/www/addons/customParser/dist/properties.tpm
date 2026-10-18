@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "pattern": "*.properties",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/^(?!\\s*[#!])([^=:\\r\\n]+)\\s*[=:]\\s*([^\\r\\n]*)$/gm",
+          "captureGroups": "2",
+          "captureRowInfo": "1",
+          "contextTemplate": "key/${GROUP[1].trim()}"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "Properties File Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing Java-style <code>.properties</code> files.</p><p>Extracts values from <code>key=value</code> and <code>key:value</code> lines while ignoring comment lines.</p>"
+  },
+  "options": {
+    "testData": "app.title=Sample Application\napp.subtitle:Welcome to the demo\n# Comment line\nmenu.file=File\nmenu.help=Help\n"
+  }
+}

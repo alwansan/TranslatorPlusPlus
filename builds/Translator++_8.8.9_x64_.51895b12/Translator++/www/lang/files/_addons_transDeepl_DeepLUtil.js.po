@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DeepLUtil.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transDeepl/DeepLUtil.js","row":"0","tags":null}
+#. tid/850/type/StringLiteral
+msgctxt "tpp:/addons/transDeepl/DeepLUtil.js:0"
+msgid "DeepL server is not installed. Do you want to install it now?"
+msgstr "Máy chủ DeepL chưa được cài đặt. Bạn có muốn cài đặt ngay bây giờ không?"

@@ -1,0 +1,5 @@
+How to add a custom font.
+
+The fonts must be placed in the Font folder of the game directory and must be named Font.ttf or Font2.ttf. Which font file is used depends on the system graphic font setting. Besides ttf, fon and many other fonts are supported (anything supported by FreeType, the best open source library available for font rendering).
+
+Source: https://blog.easyrpg.org/2023/04/easyrpg-player-0-8-paralyze/

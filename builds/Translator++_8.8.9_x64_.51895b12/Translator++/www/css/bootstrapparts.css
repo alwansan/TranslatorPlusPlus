@@ -1,0 +1,369 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+/*selective styling from bootstrap*/
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-tabs {
+    border-bottom: 1px solid var(--gr-lv8); /* #808080 */
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+    background: var(--tab-inactive-bg); /* #808080 */
+    color: var(--text-color-highlighted); /* #fff */
+    text-decoration: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: var(--text-color-highlighted); /* #fff */
+    cursor: default;
+    background-color: var(--tab-active-bg); /* #4b89ff */
+    border: 1px solid var(--tab-active-border); /* #ddd */
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+/* .nav>li>a rule already exists and is identical, can be removed if desired for conciseness */
+/* .nav-tabs>li>a rule already exists and is identical, can be removed if desired for conciseness */
+
+.nav-tabs > li > a:hover {
+    border-color: var(--tab-hover-border-top-left) var(--tab-hover-border-top-left) var(--tab-hover-border-bottom); /* #eee #eee #ddd */
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: var(--tab-hover-bg); /* #cbcbcb */
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 4px 0px;
+}
+
+
+.btn-default {
+    color: var(--text-color); /* #333 */
+    background-color: var(--gr-lv0); /* #fff */
+    border-color: var(--btn-default-border-color); /* #ccc */
+}
+
+.btn-success {
+    color: var(--text-color-highlighted); /* #fff */
+    background-color: var(--btn-success-bg); /* #5cb85c */
+    border-color: var(--btn-success-border); /* #4cae4c */
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: var(--text-color); /* #333 */
+    background-color: var(--btn-default-active-bg); /* #e6e6e6 */
+    border-color: var(--btn-default-active-border); /* #adadad */
+}
+.btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    color: var(--text-color-highlighted); /* #fff */
+    background-color: var(--btn-success-active-bg); /* #449d44 */
+    border-color: var(--btn-success-active-border); /* #398439 */
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: var(--text-color); /* #333 */
+    background-color: var(--btn-default-hover-active-bg); /* #d4d4d4 */
+    border-color: var(--btn-default-hover-active-border); /* #8c8c8c */
+}
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+    color: var(--text-color-highlighted); /* #fff */
+    background-color: var(--btn-success-hover-active-bg); /* #398439 */
+    border-color: var(--btn-success-hover-active-border); /* #255625 */
+}
+
+.btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+.btn-default:hover {
+    color: var(--text-color); /* #333 */
+    background-color: var(--btn-default-active-bg); /* #e6e6e6 - same as active */
+    border-color: var(--btn-default-active-border); /* #adadad - same as active */
+}
+
+.btn:disabled {
+    color: var(--gr-lv6); /* #a0a0a0 */
+    background: transparent;
+}
+
+/* .nav-tabs>li rule already exists and is identical */
+/* .nav>li rule already exists and is identical */
+
+
+.tab-content>.tab-pane {
+    display: none;
+}
+
+.tab-content>.active {
+    display: block;
+}
+
+legend[aria-expanded] {
+    cursor: pointer;
+    border: 1px solid var(--legend-expanded-border-color); /* #c0c0c0 */
+    line-height: 1.5em;
+    padding: 4px 12px 4px 8px;
+    background: var(--legend-expanded-bg); /* #111 */
+    color: var(--legend-expanded-text-color); /* #f1f1f1 */
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+legend[aria-expanded]:before {
+    content: '\e81b';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    -webkit-font-smoothing: antialiased;
+}
+
+legend[aria-expanded=false]:before {
+    content: '\e81d';
+}
+
+legend[aria-expanded=true]:before {
+    content: '\e81b';
+}
+
+.controls ._jsonform-array-ul li {
+    display: flex;
+}
+
+.controls ._jsonform-array-ul li > div.form-group {
+    flex-grow: 1;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.controls ._jsonform-array-ul li > div.form-group > label {
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+.controls ._jsonform-array-ul span._jsonform-array-buttons {
+    padding-top: 1.3em;
+    padding-left: .5em;
+}
+
+.controls > div > ._jsonform-array-buttons {
+    text-align: right;
+    display: block;
+    position: relative;
+}
+
+.controls > div > ._jsonform-array-buttons::before {
+    content: "Array control:";
+    position: absolute;
+    top: -1.1em;
+    font-size: .8em;
+    color: var(--jsonform-array-buttons-before-text-color); /* #777 */
+}
+
+.controls .range {
+    display: flex;
+}
+
+.controls .range input {
+    flex-grow: 1;
+}
+
+.controls .range .range-value {
+    display: block;
+    min-width: 64px;
+    text-align: right;
+    font-family: monospace;
+}
+
+fieldset.form-group,
+fieldset.tab-container {
+    border-radius: 4px;
+    background: var(--fieldset-bg); /* #fafafa */
+    margin-bottom: 1.2em;
+    margin-top: 1.5em;
+    padding-bottom: .5em;
+    border: 1px solid var(--fieldset-border); /* #888 */
+}
+
+fieldset.form-group.expandable {
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+    background: none;
+    display: block;
+    width: 100%;
+    opacity: .9;
+}
+
+fieldset.form-group.expandable.expanded {
+    border-radius: 4px;
+    background: var(--fieldset-bg); /* #fafafa */
+    margin-bottom: 1.2em;
+    margin-top: 1.5em;
+    padding-bottom: .5em;
+    border: 1px solid var(--fieldset-border); /* #888 */
+    padding: revert;
+}
+
+fieldset.form-group.expandable:hover {
+    opacity: 1;
+}
+
+
+.form-group .input-group {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.form-group[data-field-type=ace] .input-group {
+    display: block;
+    box-sizing: border-box;
+}
+
+.form-group[data-field-type=ace] .input-group > span.input-group-addon {
+    display: block;
+    background-color: var(--ace-addon-bg); /* #141414 */
+    color: var(--ace-addon-text-color); /* #F8F8F8 */
+    font-family: monospace;
+}
+
+.tabbable.tabs-left > div.tab-content,
+.fieldset-content > div.tab-content
+{
+    padding: .5em;
+    background: var(--tab-content-bg); /* #f3f3f3 */
+    border: 1px solid var(--tab-content-border); /* #888 */
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: none;
+}
+.tabbable.tabs-left > div.tab-content:empty, .fieldset-content > div.tab-content:empty {
+    border-radius: 4px;
+}
+.tabbable.tabs-left > div.tab-content:empty::before, .fieldset-content > div.tab-content:empty::before {
+    content: "No content! Click + button to add fields.";
+}
+
+[class^="glyphicon-"]:before, [class*=" glyphicon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+
+    font-variant: normal;
+    text-transform: none;
+
+    line-height: 1em;
+
+    margin-left: .2em;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  .glyphicon-plus-sign:before { content: '\e840'; }
+  .glyphicon-minus-sign:before { content: '\e842'; }
+
+
+tags.tagify {
+    background-color: var(--gr-lv0); /* #fff */
+    border: 1px solid; /* Uses current color, which will be var(--text-color) or inherited */
+}
+
+
+/** for trans ONLY**/
+[data-window=trans] .form-group.error {
+    outline: 1px solid var(--form-error-outline); /* red */
+    outline-offset: 2px;
+}
+
+[data-window=trans] span.help-block.jsonform-errortext {
+    color: var(--form-error-text-color); /* red */
+    display: block !important;
+}
+
+[data-window=trans] span.help-block.jsonform-errortext:before {
+    content: "⚠️";
+}
+
+[data-window=trans] span.help-block.jsonform-errortext:empty {
+    display: none !important;
+}

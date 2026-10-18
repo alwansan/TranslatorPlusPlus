@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+	var $ = require('jquery');
+	window.jQuery = $;
+
+	const Logger = require('www/js/Logger.js');
+	var logger = new Logger({file:"data/logs/codeEditor.log"});
+	logger.loadState();
+	
+	var LT = require("light-trans");
+	var lt = new LT({
+		recordMode:false,
+		listener:"t"
+	});
+	console.log("This is CODE EDITOR debug console");
+</script>
+
+<script type="text/javascript" src="/www/modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="/www/modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+<script type="text/javascript" src="/www/modules/json2.js"></script>
+<script type="text/javascript" src="/www/modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="/www/js/consts.js"></script>
+<script type="text/javascript" src="/www/js/common.js"></script>
+<script type="text/javascript" src="/www/js/loadingScreen.js"></script>
+<script type="text/javascript" src="/www/modules/ace/src-min-noconflict/ace.js" charset="utf-8"></script>
+<script type="text/javascript" src="/www/modules/ace/src-min-noconflict/ext-language_tools.js"></script>
+<script src="/www/modules/bootstrap/js/bootstrap.js"></script>
+<link type="text/css" href="/www/modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet" />
+<link type="text/css" href="/www/modules/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link type="text/css" href="/www/css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/www/css/fontello-embedded.css" rel="stylesheet" media="screen">
+
+<link type="text/css" href="chatGPTtester.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="chatGPTtester.js"></script>
+
+<title>ChatGPT tester - Translator++</title>
+
+<head>
+
+<body class="editor">
+	<div class="body">
+		<div class="toolbar">
+			<div class="toolbar-content toolbar1">
+				<button class="menu-button button-execute" title="Send query (alt+s)" accesskey="s"><i class="icon-play green"></i><span data-tran=""><u>S</u>end</span></button>
+			</div>
+			<div class="toolbar-content toolbar2">
+                <button class="menu-button button-wordwrap checked" data-tranattr="title" title="Toggle word wrap"><img src="/www/img/wrap.png" alt="wrap"></button>
+				<button class="menu-button button-debugger" data-tranattr="title" title="Open debugger (F12)"><i class="icon-bug"></i></button>
+				<button class="menu-button button-help" data-tranattr="title" title="Help"><i class="icon-help-circled-1"></i></button>
+			</div>
+			<div class="toolbar-content toolbar3 fill">
+			</div>
+		</div>
+		<div id="response" class="sectionWrapper">
+			<nav>
+				<div class="nav nav-tabs" id="nav-tab-response" role="tablist">
+					<button class="nav-link active" id="nav-translation-tab" data-bs-toggle="tab" data-bs-target="#nav-translation" type="button" role="tab" aria-controls="nav-translation" aria-selected="false">Translation</button>
+					<button class="nav-link" id="nav-rawconversation-tab" data-bs-toggle="tab" data-bs-target="#nav-rawconversation" type="button" role="tab" aria-controls="nav-rawconversation" aria-selected="true">Raw Response</button>
+					<button class="nav-link" id="nav-httptransaction-tab" data-bs-toggle="tab" data-bs-target="#nav-httptransaction" type="button" role="tab" aria-controls="nav-httptransaction" aria-selected="false">HTTP Transaction</button>
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent-top">
+				
+				<div class="tab-pane fade show active" id="nav-translation" role="tabpanel" aria-labelledby="nav-translation-tab">
+					<div class="snippet">GPT Response parsed into translation:</div>
+					<textarea class="fullContent" id="translation"></textarea>
+				</div>
+				<div class="tab-pane fade" id="nav-rawconversation" role="tabpanel" aria-labelledby="nav-rawconversation-tab">
+					<div class="snippet">Raw Response:</div>
+					<textarea class="fullContent" id="conversation"></textarea>
+				</div>
+
+				<div class="tab-pane fade" id="nav-httptransaction" role="tabpanel" aria-labelledby="nav-httptransaction-tab">
+					<div class="snippet">Full HTTP Transaction:</div>
+					<textarea class="fullContent" id="httptransaction"></textarea>
+				</div>
+			</div>
+
+		</div>
+		<div id="bottomSection" class="sectionWrapper">
+			<div class="bottomLeftPane">
+				<nav>
+					<div class="nav nav-tabs" id="nav-tab-user" role="tablist">
+						<button class="nav-link active" id="nav-translate-tab" data-bs-toggle="tab" data-bs-target="#nav-translate" type="button" role="tab" aria-controls="nav-translate" aria-selected="false">Translate</button>
+					  	<button class="nav-link" id="nav-raw-tab" data-bs-toggle="tab" data-bs-target="#nav-raw" type="button" role="tab" aria-controls="nav-raw" aria-selected="true">Raw</button>
+					</div>
+				  </nav>
+				  <div class="tab-content" id="nav-tabContent-btm">
+					<div class="tab-pane fade show active" id="nav-translate" role="tabpanel" aria-labelledby="nav-translate-tab">
+						<div class="snippet">Text to be translated:</div>
+						<textarea class="textToTranslate aceEditor" id="textToTranslate"></textarea>
+					</div>
+					<div class="tab-pane fade" id="nav-raw" role="tabpanel" aria-labelledby="nav-raw-tab">
+						<div class="snippet">Your message:</div>
+						<textarea class="userMessage aceEditor" id="userMessage"></textarea>
+					</div>
+
+				  </div>
+			</div>
+			<div class="bottomRightPane">
+				<button type="button" class="btn btn-success btn-lg button-execute"><i class="icon-play"></i>Send</button>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="footer">
+		<div class="footer-content footer1"><span></span></div>
+		<div class="footer-content footer2"><span></span></div>
+		<div class="footer-content footer3"><span></span></div>
+		<div class="footer-content footer4"><span></span></div>
+		<div class="footer-content footer5"><span></span></div>
+	</div>
+	<div id="template" class="hidden">
+		
+	</div>
+</body>
+</html>

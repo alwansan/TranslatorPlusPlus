@@ -1,0 +1,198 @@
+{
+  "BasicEventHandler": {
+    "constructor": {
+      "BasicEventHandler": {
+        "signature": "new BasicEventHandler()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new BasicEventHandler()"
+      }
+    },
+    "methods": {
+      "off": {
+        "signature": "off(evt)",
+        "description": "Removes an event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name (can include .scope)",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "off(evt)"
+      },
+      "on": {
+        "signature": "on(evt, fn)",
+        "description": "Create a new event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name (can include .scope)",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "on(evt, fn)"
+      },
+      "one": {
+        "signature": "one(evt, fn)",
+        "description": "Run the event once",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name (can include .scope)",
+            "required": true
+          },
+          {
+            "name": "fn",
+            "type": "function",
+            "description": "Function to trigger",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "one(evt, fn)"
+      },
+      "processWith": {
+        "signature": "processWith(processName, value) → *",
+        "description": "Add a custom process to a value.",
+        "parameters": [
+          {
+            "name": "processName",
+            "type": "String",
+            "description": "Name of the process",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "Value to be processed",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "By default will return value as is"
+        },
+        "examples": [],
+        "usage": "processWith(processName, value) : *"
+      },
+      "rejectState": {
+        "signature": "rejectState(state, error?)",
+        "description": "Reject a state",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          },
+          {
+            "name": "error",
+            "type": "String",
+            "description": "Error message",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "rejectState(state, error)"
+      },
+      "resolveState": {
+        "signature": "resolveState(state, arg?)",
+        "description": "Resolve a state",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          },
+          {
+            "name": "arg",
+            "type": "*",
+            "description": "Arguments to be passed to until",
+            "required": false
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "resolveState(state, arg)"
+      },
+      "trigger": {
+        "signature": "trigger(evt, …params)",
+        "description": "Trigger an event",
+        "parameters": [
+          {
+            "name": "evt",
+            "type": "String",
+            "description": "Event name (can include .scope)",
+            "required": true
+          },
+          {
+            "name": "params",
+            "type": "*",
+            "description": "Event parameters",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "trigger(evt, params)"
+      },
+      "until": {
+        "signature": "async until(state) → Promise.<*>",
+        "description": "State monitor. Wait until a state is resolved.\nWill wait until resolveState is called.\nWill immidiately executed if resolveState is already called",
+        "parameters": [
+          {
+            "name": "state",
+            "type": "String",
+            "description": "State name",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Promise.<*>",
+          "description": "Returns any variables passed on resolveState"
+        },
+        "examples": [
+          "await basicEventHandler.until(\"ready\");"
+        ],
+        "usage": "until(state) : Promise.<*>"
+      }
+    },
+    "type definitions": {
+      "Event": {
+        "signature": "Event",
+        "description": "BasicEventHandler's event. This itself extends the standard Event API for html element. So, you can use the default element's event such as click, focus, blur, etc.\nMethods that uses Event are: on(), off(), one(), trigger()",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "Event"
+      },
+      "State": {
+        "signature": "State",
+        "description": "Javascript's Promise type event handler.\nThe state will switch from off to on once. And after that, it will stay in that state forever, so any further until() call will be resolved immidiately.\nMethods that uses Event are: until(), resolveState(), rejectState()",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "State"
+      }
+    }
+  }
+}

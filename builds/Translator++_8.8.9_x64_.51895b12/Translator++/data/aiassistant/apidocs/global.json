@@ -1,0 +1,494 @@
+{
+  "Global": {
+    "constructor": {},
+    "members": {
+      "FormIOConverter": {
+        "signature": "(constant) FormIOConverter",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "FormIOConverter"
+      },
+      "LibGPT": {
+        "signature": "(constant) LibGPT",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "LibGPT"
+      },
+      "UIParts": {
+        "signature": "(constant) UIParts",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "UIParts"
+      },
+      "Util": {
+        "signature": "(constant) Util",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "Util"
+      },
+      "WebSocket": {
+        "signature": "(constant) WebSocket",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "WebSocket"
+      },
+      "addonLoader": {
+        "signature": "addonLoader",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "addonLoader"
+      },
+      "commentParser": {
+        "signature": "(constant) commentParser",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "commentParser"
+      },
+      "consts": {
+        "signature": "(constant) consts",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "consts"
+      },
+      "debounce": {
+        "signature": "(constant) debounce",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "debounce"
+      },
+      "encoding": {
+        "signature": "encoding",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "encoding"
+      },
+      "fs": {
+        "signature": "fs",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "fs"
+      },
+      "iconv": {
+        "signature": "iconv",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "iconv"
+      },
+      "langDB": {
+        "signature": "langDB",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "langDB"
+      },
+      "note": {
+        "signature": "note",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "note"
+      },
+      "nwPath": {
+        "signature": "nwPath",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "nwPath"
+      },
+      "pLimit": {
+        "signature": "(constant) pLimit",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "pLimit"
+      },
+      "php": {
+        "signature": "php",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "php"
+      },
+      "romaji": {
+        "signature": "(constant) romaji",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "romaji"
+      },
+      "speech": {
+        "signature": "speech",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "speech"
+      },
+      "test": {
+        "signature": "test",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "test"
+      },
+      "thisWorker": {
+        "signature": "(constant) thisWorker",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "thisWorker"
+      },
+      "trans": {
+        "signature": "trans",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "trans"
+      },
+      "worker": {
+        "signature": "worker",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "worker"
+      }
+    },
+    "methods": {
+      "AddonInstaller": {
+        "signature": "AddonInstaller(location, type)",
+        "description": "AddonIstaller\nHandle addon installation",
+        "parameters": [
+          {
+            "name": "location",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "type",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "AddonInstaller(location, type)"
+      },
+      "FormIOConverter": {
+        "signature": "FormIOConverter()",
+        "description": "Converts FormIO schema into JSONForm format",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "FormIOConverter()"
+      },
+      "LoadingScreen": {
+        "signature": "LoadingScreen()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "LoadingScreen()"
+      },
+      "LowLevelUpdate": {
+        "signature": "LowLevelUpdate()",
+        "description": "Copy 7zip to temp folder",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "LowLevelUpdate()"
+      },
+      "MiniEditor": {
+        "signature": "MiniEditor()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "MiniEditor()"
+      },
+      "ScriptRunner": {
+        "signature": "ScriptRunner()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "ScriptRunner()"
+      },
+      "Synth": {
+        "signature": "Synth()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "Synth()"
+      },
+      "appendCommentString": {
+        "signature": "appendCommentString(script) → Array.<Object>",
+        "description": "Append comment string to the begining of the script",
+        "parameters": [
+          {
+            "name": "script",
+            "type": "String",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array.<Object>",
+          "description": "Array of the appended comment object"
+        },
+        "examples": [],
+        "usage": "appendCommentString(script) : Array.<Object>"
+      },
+      "die": {
+        "signature": "die()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "die()"
+      },
+      "formatSeconds": {
+        "signature": "formatSeconds(seconds) → string",
+        "description": "Formats seconds into a human-readable string (e.g., 1h 5m, 3m 10s, 15s).",
+        "parameters": [
+          {
+            "name": "seconds",
+            "type": "number",
+            "description": "The total number of seconds.",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The formatted time string."
+        },
+        "examples": [],
+        "usage": "formatSeconds(seconds) : string"
+      },
+      "getConfiguration": {
+        "signature": "getConfiguration()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "getConfiguration()"
+      },
+      "initForm": {
+        "signature": "async initForm()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "initForm()"
+      },
+      "insertArrayAt": {
+        "signature": "insertArrayAt(array, index, arrayToInsert) → Array",
+        "description": "Insert an array into another array at some index",
+        "parameters": [
+          {
+            "name": "array",
+            "type": "Array",
+            "description": "Source array",
+            "required": true
+          },
+          {
+            "name": "index",
+            "type": "Number",
+            "description": "Index to insert at",
+            "required": true
+          },
+          {
+            "name": "arrayToInsert",
+            "type": "Array",
+            "description": "Array to insert",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array",
+          "description": "Merged array"
+        },
+        "examples": [],
+        "usage": "insertArrayAt(array, index, arrayToInsert) : Array"
+      },
+      "showModalDialog": {
+        "signature": "async showModalDialog()",
+        "description": "=====LICENSE STATEMENT START=====\nTranslator++\nCAT (Computer-Assisted Translation) tools and framework to create quality\ntranslations and localizations efficiently.\nCopyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n=====LICENSE STATEMENT END=====",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "showModalDialog()"
+      },
+      "wget": {
+        "signature": "async wget(from, to, options?) → Promise.<string>",
+        "description": "Downloads a file from a URL to a local path using the external wget.exe binary.",
+        "parameters": [
+          {
+            "name": "from",
+            "type": "string",
+            "description": "The source URL to download from.",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "The destination file or folder path.",
+            "required": true
+          },
+          {
+            "name": "optionsonProgressdynamicUnitsthrottlenoCheckCertificatetimeoutuserAgent",
+            "type": "objectfunctionbooleannumberbooleannumberstring",
+            "description": "Set the User-Agent header.",
+            "required": false
+          },
+          {
+            "name": "",
+            "type": "",
+            "description": "",
+            "required": true
+          },
+          {
+            "name": "onProgress",
+            "type": "function",
+            "description": "Callback for progress updates.",
+            "required": false
+          },
+          {
+            "name": "dynamicUnits",
+            "type": "boolean",
+            "description": "If true, downloaded, total, speed, and eta in onProgress will be formatted strings.",
+            "required": false
+          },
+          {
+            "name": "throttle",
+            "type": "number",
+            "description": "Milliseconds to throttle progress updates.",
+            "required": false
+          },
+          {
+            "name": "noCheckCertificate",
+            "type": "boolean",
+            "description": "Use --no-check-certificate flag.",
+            "required": false
+          },
+          {
+            "name": "timeout",
+            "type": "number",
+            "description": "Set network timeout in seconds.",
+            "required": false
+          },
+          {
+            "name": "userAgent",
+            "type": "string",
+            "description": "Set the User-Agent header.",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "Promise.<string>",
+          "description": "A promise that resolves with the final path of the downloaded file, or rejects on error."
+        },
+        "examples": [],
+        "usage": "wget(from, to, optionsonProgressdynamicUnitsthrottlenoCheckCertificatetimeoutuserAgent, , onProgress, dynamicUnits, throttle, noCheckCertificate, timeout, userAgent) : Promise.<string>"
+      }
+    },
+    "type definitions": {
+      "CellRange": {
+        "signature": "CellRange",
+        "description": "HOT's CellRange object",
+        "parameters": [],
+        "returns": null,
+        "examples": [
+          "{\n  \"highlight\": {\n    \"row\": 8,\n    \"col\": 2\n  },\n  \"from\": {\n    \"row\": 8,\n    \"col\": 2\n  },\n  \"to\": {\n    \"row\": 10,\n    \"col\": 2\n  }\n}"
+        ],
+        "usage": "CellRange"
+      },
+      "SearchResult": {
+        "signature": "SearchResult",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "SearchResult"
+      },
+      "TransData": {
+        "signature": "TransData",
+        "description": "Object representing translation data.",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "TransData"
+      },
+      "TranslationData": {
+        "signature": "TranslationData",
+        "description": "Translation Data object generated by trans.getTranslationData",
+        "parameters": [],
+        "returns": null,
+        "examples": [
+          "{\n  \"info\": {\n    \"filterTag\": [],\n    \"filterTagMode\": \"\"\n  },\n  \"translationData\": {\n    \"data/Actors.json\": {\n      \"info\": {},\n      \"translationPair\": {\n\t\t  \"key text\": \"translation\",\n\t\t  \"key text2\": \"translation2\",\n\t  }\n    },\n    \"data/Animations.json\": {\n      \"info\": {},\n      \"translationPair\": {\n\t\t  \"key text\": \"translation\",\n\t\t  \"key text2\": \"translation2\",\n\t  }\n    }\n  }\n}"
+        ],
+        "usage": "TranslationData"
+      },
+      "TranslationInfo": {
+        "signature": "TranslationInfo",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "TranslationInfo"
+      },
+      "TranslationResult": {
+        "signature": "TranslationResult",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "TranslationResult"
+      },
+      "TranslationStats": {
+        "signature": "TranslationStats",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "TranslationStats"
+      }
+    }
+  }
+}

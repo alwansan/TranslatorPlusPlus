@@ -1,0 +1,221 @@
+{
+  "LangTools": {
+    "constructor": {
+      "LangTools": {
+        "signature": "new LangTools(langDB)",
+        "description": "Language Tools class",
+        "parameters": [
+          {
+            "name": "langDB",
+            "type": "Object",
+            "description": "The language database",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "new LangTools(langDB)"
+      }
+    },
+    "methods": {
+      "compareWithDB": {
+        "signature": "compareWithDB(langPairs) → Object",
+        "description": "Compare language pairs with the language database",
+        "parameters": [
+          {
+            "name": "langPairs",
+            "type": "Object",
+            "description": "The language pairs to compare",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The result of the comparison"
+        },
+        "examples": [],
+        "usage": "compareWithDB(langPairs) : Object"
+      },
+      "generateLangPairs": {
+        "signature": "generateLangPairs(langPairs) → Object",
+        "description": "Generate language pairs",
+        "parameters": [
+          {
+            "name": "langPairs",
+            "type": "Object",
+            "description": "The language pairs to generate",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The result of the generation"
+        },
+        "examples": [],
+        "usage": "generateLangPairs(langPairs) : Object"
+      },
+      "getDisplayName": {
+        "signature": "getDisplayName(langObj) → string",
+        "description": "Get the display name of the language",
+        "parameters": [
+          {
+            "name": "langObj",
+            "type": "Object|string",
+            "description": "The language object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The display name of the language"
+        },
+        "examples": [
+          "```js\nlangTools.getDisplayName(\"ja\");\n// returns \"日本語\"\n```"
+        ],
+        "usage": "getDisplayName(langObj) : string"
+      },
+      "getFullName": {
+        "signature": "getFullName(langObj) → string",
+        "description": "Get the full name of the language",
+        "parameters": [
+          {
+            "name": "langObj",
+            "type": "Object|string",
+            "description": "The language object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The full name of the language"
+        },
+        "examples": [
+          "```js\nlangTools.getFullName(\"ja\");\n// returns \"Japanese(日本語)\"\n```"
+        ],
+        "usage": "getFullName(langObj) : string"
+      },
+      "getLanguage": {
+        "signature": "getLanguage(code) → Object",
+        "description": "Get language by code",
+        "parameters": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "The language code",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The language object"
+        },
+        "examples": [],
+        "usage": "getLanguage(code) : Object"
+      },
+      "getLanguageList": {
+        "signature": "getLanguageList(blacklist, mode) → Object",
+        "description": "Get a list of languages, excluding those in the blacklist",
+        "parameters": [
+          {
+            "name": "blacklist",
+            "type": "Array",
+            "description": "The list of language codes to exclude",
+            "required": true
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": "What code to send to the client, default is \"name\"",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The list of languages"
+        },
+        "examples": [],
+        "usage": "getLanguageList(blacklist, mode) : Object"
+      },
+      "getName": {
+        "signature": "getName(langObj) → string",
+        "description": "Get the name of the language",
+        "parameters": [
+          {
+            "name": "langObj",
+            "type": "Object|string",
+            "description": "The language object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "string",
+          "description": "The name of the language"
+        },
+        "examples": [
+          "```js\nlangTools.getName(\"ja\");\n// returns \"Japanese\"\n```"
+        ],
+        "usage": "getName(langObj) : string"
+      },
+      "isCJK": {
+        "signature": "isCJK(langCode) → boolean",
+        "description": "Check if a language is CJK (Chinese, Japanese, Korean)",
+        "parameters": [
+          {
+            "name": "langCode",
+            "type": "string",
+            "description": "The language code",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "boolean",
+          "description": "True if the language is CJK, false otherwise"
+        },
+        "examples": [],
+        "usage": "isCJK(langCode) : boolean"
+      },
+      "lookupAlias": {
+        "signature": "lookupAlias(langObj) → Object",
+        "description": "Lookup alias in the language database",
+        "parameters": [
+          {
+            "name": "langObj",
+            "type": "Object",
+            "description": "The language object",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The language object"
+        },
+        "examples": [],
+        "usage": "lookupAlias(langObj) : Object"
+      },
+      "lookupDB": {
+        "signature": "lookupDB(key, name) → Object",
+        "description": "Lookup in the language database by key or name",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The key to lookup",
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "The name to lookup",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The language object"
+        },
+        "examples": [],
+        "usage": "lookupDB(key, name) : Object"
+      }
+    }
+  }
+}

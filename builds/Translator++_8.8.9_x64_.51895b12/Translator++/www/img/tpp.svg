@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g>
+	<defs>
+		<polyline id="SVGID_1_" points="790,697.105 790,102.894 10,102.894 10,697.105 790,697.105 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g id="XMLID_1_" clip-path="url(#SVGID_2_)">
+		<g>
+			<polygon fill="#010101" points="786.902,426.628 786.902,533.456 626.815,533.456 626.815,693.543 520.142,693.543 
+				520.142,533.456 359.9,533.456 359.9,426.628 520.142,426.628 520.142,266.541 626.815,266.541 626.815,426.628 			"/>
+		</g>
+		<g>
+			
+				<polygon fill="none" stroke="#010101" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+				520.142,266.541 626.815,266.541 626.815,426.628 786.902,426.628 786.902,533.456 626.815,533.456 626.815,693.543 
+				520.142,693.543 520.142,533.456 359.9,533.456 359.9,426.628 520.142,426.628 			"/>
+		</g>
+	</g>
+	
+		<polyline clip-path="url(#SVGID_2_)" fill="#010101" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		173.184,106.454 279.857,106.454 279.857,266.542 440.099,266.542 440.099,373.372 279.857,373.372 279.857,533.459 
+		173.184,533.459 173.184,373.372 13.097,373.372 13.097,266.542 173.184,266.542 173.184,106.454 	"/>
+	
+		<polyline clip-path="url(#SVGID_2_)" fill="#ED2224" stroke="#ED2224" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		440.099,693.545 440.099,586.871 173.184,586.871 173.184,693.545 440.099,693.545 	"/>
+</g>
+</svg>

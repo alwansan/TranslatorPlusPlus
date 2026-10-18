@@ -1,0 +1,256 @@
+{
+  "CellInfo": {
+    "constructor": {
+      "CellInfo": {
+        "signature": "new CellInfo()",
+        "description": "Handle cell level information",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new CellInfo()"
+      }
+    },
+    "methods": {
+      "delete": {
+        "signature": "delete(key, file, row, col) → Boolean",
+        "description": "Delete cell information",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "The key to delete",
+            "required": true
+          },
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          },
+          {
+            "name": "col",
+            "type": "Number",
+            "description": "The column number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if success"
+        },
+        "examples": [],
+        "usage": "delete(key, file, row, col) : Boolean"
+      },
+      "deleteRow": {
+        "signature": "deleteRow(file, row) → Boolean",
+        "description": "Delete row information",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if success"
+        },
+        "examples": [],
+        "usage": "deleteRow(file, row) : Boolean"
+      },
+      "get": {
+        "signature": "get(key, file, row, col) → *",
+        "description": "Get configuration of a cell",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "The key to get",
+            "required": true
+          },
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          },
+          {
+            "name": "col",
+            "type": "Number",
+            "description": "The column number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "*",
+          "description": "The value of the key"
+        },
+        "examples": [],
+        "usage": "get(key, file, row, col) : *"
+      },
+      "getAll": {
+        "signature": "getAll(file) → Array",
+        "description": "Get all cell information",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array",
+          "description": "The cell information"
+        },
+        "examples": [],
+        "usage": "getAll(file) : Array"
+      },
+      "getBestCellInfo": {
+        "signature": "getBestCellInfo(file, row, key) → Object",
+        "description": "Get the best translation cell information",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          },
+          {
+            "name": "key",
+            "type": "String",
+            "description": "The key to get",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The cell information"
+        },
+        "examples": [],
+        "usage": "getBestCellInfo(file, row, key) : Object"
+      },
+      "getCell": {
+        "signature": "getCell(file, row, col) → Object",
+        "description": "Get cell information",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          },
+          {
+            "name": "col",
+            "type": "Number",
+            "description": "The column number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Object",
+          "description": "The cell information"
+        },
+        "examples": [],
+        "usage": "getCell(file, row, col) : Object"
+      },
+      "getRow": {
+        "signature": "getRow(file, row) → Array",
+        "description": "Get row information",
+        "parameters": [
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Array",
+          "description": "The row information"
+        },
+        "examples": [],
+        "usage": "getRow(file, row) : Array"
+      },
+      "set": {
+        "signature": "set(key, value, file, row, col) → Boolean",
+        "description": "Set cell information",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "String",
+            "description": "The key to set",
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "*",
+            "description": "The value to set",
+            "required": true
+          },
+          {
+            "name": "file",
+            "type": "String",
+            "description": "The file ID",
+            "required": true
+          },
+          {
+            "name": "row",
+            "type": "Number",
+            "description": "The row number",
+            "required": true
+          },
+          {
+            "name": "col",
+            "type": "Number",
+            "description": "The column number",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "Boolean",
+          "description": "True if success"
+        },
+        "examples": [],
+        "usage": "set(key, value, file, row, col) : Boolean"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Updating Translator++</title>
+
+<script>
+var {LowLevelUpdate} = require(__dirname+"\\www\\js\\lowLevelUpdate.js");
+var win = nw.Window.get();
+win.setAlwaysOnTop(true);
+
+window.setTimeout(() => {
+    var lowLevelUpdate = new LowLevelUpdate(localStorage.getItem('onStartInstallPackage'), 
+    {
+        callbackArguments : "--installPackageDone"
+    });
+    lowLevelUpdate.run();				
+    win.close(true);
+}, 3000)
+</script>
+</head>
+
+<body>
+    <h3>Hold a moment we are updating</h3>
+</body>
+</html>

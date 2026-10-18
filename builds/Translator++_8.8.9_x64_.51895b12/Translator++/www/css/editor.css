@@ -1,0 +1,75 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+.dvEditor {
+    height:120px;
+}
+
+[data-role='fgContent'],
+[data-role='bgContent'],
+[data-role='bgWrapper'] {
+    padding:0px;
+    margin:0px
+}
+
+
+
+[data-role='editorWrapper'] {
+    width: 100%;
+    position: relative;
+}
+
+[data-role='fgContent'] {
+    background: transparent;
+    color: transparent;
+    z-index: 2;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+[data-role='bgContent'] {
+    font-family: monospace;
+    font-size: 1em;  
+}
+
+[data-role='fgContent'],
+[data-role='bgWrapper'] {
+    font-family: monospace;
+    font-size: 1em;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    resize: none;
+    min-height: 32px;
+    overflow: auto;
+    white-space: pre; /* Allows textarea to scroll horizontally */
+}
+
+[data-role='bgWrapper'] {
+    background: #fff;
+    z-index: 1;
+    height: 100%;
+    overflow: auto;
+}
+
+[data-role='editorWrapper'] .highlight {
+    background: turquoise;
+}

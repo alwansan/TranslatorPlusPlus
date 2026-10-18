@@ -1,0 +1,18 @@
+{
+    "name": "wolfJs",
+    "description": "Wolf RPG Editor parser for Translator++",
+    "main": "wolfJs.js",
+    "homepage": "http://dreamsavior.net",
+    "version": "1.18",
+    "icon": "icon.png",
+    "author": {
+        "name": "Dreamsavior",
+        "email": "dreamsavior@gmail.com"
+    },
+    "autoload": false,
+    "load": [
+        "wolfjs.js",
+        "wolftl.js"
+    ],
+    "minimumVersion": "7.5.28"
+}

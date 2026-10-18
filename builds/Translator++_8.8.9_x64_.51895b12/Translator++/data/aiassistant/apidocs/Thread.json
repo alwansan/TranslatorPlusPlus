@@ -1,0 +1,31 @@
+{
+  "Thread": {
+    "constructor": {
+      "Thread": {
+        "signature": "new Thread()",
+        "description": "",
+        "parameters": [],
+        "returns": null,
+        "examples": [],
+        "usage": "new Thread()"
+      }
+    },
+    "methods": {
+      "onReady": {
+        "signature": "onReady(fn)",
+        "description": "Execute immidiately or wait until the thread is ready\ntodo : should wait until all libraries are loaded",
+        "parameters": [
+          {
+            "name": "fn",
+            "type": "",
+            "description": "",
+            "required": true
+          }
+        ],
+        "returns": null,
+        "examples": [],
+        "usage": "onReady(fn)"
+      }
+    }
+  }
+}

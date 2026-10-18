@@ -1,0 +1,68 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+trans = trans||{};
+trans.rmvxace = {
+	
+}
+
+trans.rmvxace.setAutocompleteData = function(text) {
+	console.log("running trans.rmvxace.setAutocompleteData");
+	if (typeof trans.lastSelectedCell == 'undefined') return false;
+	text = text||trans.data[trans.lastSelectedCell[0]][0]||"";
+	ui.lastRenderedText = ui.lastRenderedText||"";
+	if (text == ui.lastRenderedText) return false;
+	//console.log("text : "+text);
+	//var newText = text;
+	ui.autoComplateData = [];
+	
+	var collector = function() {
+		ui.autoComplateData.push(arguments[0]);
+		//console.log(arguments);
+		/*
+		var input = String(newText);
+		var newString= input.replace(arguments[0], ' ');
+		console.log(newString);
+		return newString;
+		*/
+		
+	}
+	
+	text = text.replace(/\\\s*(\w+)\s*\[\s*(.*?)\s*\]/g, collector);
+	text = text.replace(/\\\s*(\w+)\s*\<\s*(.*?)\s*\>/g, collector);
+	text = text.replace(/\\\s*(\w+)/, collector);
+	text = text.replace(/\\\s*([\{\}\\\$\.\|\!\>\<\^])/, collector)	
+
+	ui.lastRenderedText = text;
+	
+}
+
+trans.rmvxace.render = function(filename, content, options) {
+	var result = [];
+	function getTranslatableText(obj) {
+		var thisResult = [];
+		for (var i in obj) {
+			
+		}
+		
+	}
+	result = getTranslatableText();
+	
+}

@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: options.js\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"0","tags":null}
+#. tid/413/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:0"
+msgid "Service Name"
+msgstr "Tên Dịch vụ"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"1","tags":null}
+#. tid/423/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:1"
+msgid "Service provider for your Batch API."
+msgstr "Nhà cung cấp dịch vụ cho Batch API của bạn."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"2","tags":null}
+#. tid/479/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:2"
+msgid "API Key"
+msgstr "Khóa API"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"3","tags":null}
+#. tid/489/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:3"
+msgid "Please enter your API key for the Batch API service."
+msgstr "Vui lòng nhập khóa API cho dịch vụ Batch API."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"4","tags":null}
+#. tid/529/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:4"
+msgid "Model"
+msgstr "Mô hình"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"5","tags":null}
+#. tid/539/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:5"
+msgid "The pre-trained model"
+msgstr "Mô hình được huấn luyện trước"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"6","tags":null}
+#. tid/546/type/NoSubstitutionTemplate
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:6"
+msgid "In ChatGPT, you may need to set the allowed model to be used (https://platform.openai.com/settings/proj_xxx/limits)."
+msgstr "Trong ChatGPT, bạn có thể cần đặt mô hình được phép sử dụng (https://platform.openai.com/settings/proj_xxx/limits)."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"7","tags":null}
+#. tid/625/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:7"
+msgid "Enable JailBreak"
+msgstr "Bật JailBreak"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"8","tags":null}
+#. tid/635/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:8"
+msgid "Enable Jailbreak for the translation. This will make the translation more accurate and less biased. Some models may want to relate fictional events to real life events, hence they will try to alter the translation to fit their own narrative. This option will prevent that."
+msgstr "Bật Jailbreak cho bản dịch. Điều này sẽ làm cho bản dịch chính xác hơn và ít thiên vị hơn. Một số mô hình có thể muốn liên kết sự kiện hư cấu với sự kiện thực tế, do đó chúng sẽ cố gắng thay đổi bản dịch để phù hợp với câu chuyện riêng của chúng. Tùy chọn này sẽ ngăn chặn điều đó."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"9","tags":null}
+#. tid/669/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:9"
+msgid "Jailbreak Template"
+msgstr "Mẫu Jailbreak"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"10","tags":null}
+#. tid/679/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:10"
+msgid "Template of the Jailbreak message."
+msgstr "Mẫu của tin nhắn Jailbreak."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"11","tags":null}
+#. tid/716/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:11"
+msgid "Maximum Tokens"
+msgstr "Số Token Tối đa"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"12","tags":null}
+#. tid/726/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:12"
+msgid "The maximum number of tokens to generate in the completion.<br>The token count of your prompt plus max_tokens cannot exceed the model's context length. Most models have a context length of 2048 tokens (except for the newest models, which support 4096)."
+msgstr "Số lượng token tối đa để tạo trong phần hoàn thành.<br>Tổng số token của lời nhắc của bạn cộng với max_tokens không thể vượt quá độ dài ngữ cảnh của mô hình. Hầu hết các mô hình có độ dài ngữ cảnh là 2048 token (ngoại trừ các mô hình mới nhất, hỗ trợ 4096)."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"13","tags":null}
+#. tid/782/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:13"
+msgid "Temperature"
+msgstr "Nhiệt độ"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"14","tags":null}
+#. tid/792/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:14"
+msgid "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. <br>OpenAI generally recommend altering this or top_p but not both."
+msgstr "Nhiệt độ lấy mẫu nào để sử dụng, từ 0 đến 2. Giá trị cao hơn như 0.8 sẽ làm cho đầu ra ngẫu nhiên hơn, trong khi giá trị thấp hơn như 0.2 sẽ làm cho nó tập trung và xác định hơn. <br>OpenAI thường khuyên nên thay đổi tham số này hoặc top_p nhưng không phải cả hai."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"15","tags":null}
+#. tid/848/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:15"
+msgid "Nucleus sampling (top_p)"
+msgstr "Lấy mẫu hạt nhân (top_p)"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"16","tags":null}
+#. tid/858/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:16"
+msgid "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. <br>OpenAI generally recommend altering this or temperature but not both."
+msgstr "Một phương pháp thay thế cho lấy mẫu với nhiệt độ, gọi là lấy mẫu hạt nhân, trong đó mô hình xem xét kết quả của các token với khối lượng xác suất top_p. Vì vậy, 0.1 có nghĩa là chỉ các token chiếm 10% xác suất hàng đầu được xem xét. <br>OpenAI thường khuyên nên thay đổi tham số này hoặc nhiệt độ nhưng không phải cả hai."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"17","tags":null}
+#. tid/914/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:17"
+msgid "Frequency Penalty"
+msgstr "Hình phạt Tần suất"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"18","tags":null}
+#. tid/924/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:18"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên tần suất hiện có của chúng trong văn bản cho đến nay, giảm khả năng mô hình lặp lại cùng một dòng nguyên văn. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"19","tags":null}
+#. tid/981/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:19"
+msgid "Presence Penalty"
+msgstr "Hình phạt Hiện diện"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"20","tags":null}
+#. tid/991/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:20"
+msgid "Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+msgstr "Số từ -2.0 đến 2.0. Giá trị dương phạt các token mới dựa trên việc chúng xuất hiện trong văn bản hiện tại, tăng khả năng mô hình nói về chủ đề mới. <br>https://platform.openai.com/docs/api-reference/parameter-details"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"21","tags":null}
+#. tid/1054/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:21"
+msgid "Max Characters per Batch"
+msgstr "Số Ký tự Tối đa Mỗi Lô"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"22","tags":null}
+#. tid/1064/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:22"
+msgid ""
+"Maximum character limit per translation batch.\n"
+"This options will count the original text's character length only, and not the prompt message's character length."
+msgstr ""
+"Giới hạn ký tự tối đa cho mỗi lô dịch.\n"
+"Tùy chọn này chỉ đếm độ dài ký tự của văn bản gốc, không tính độ dài ký tự của tin nhắn nhắc."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"23","tags":null}
+#. tid/1122/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:23"
+msgid "Max row per concurrent requests"
+msgstr "Số Dòng Tối đa Mỗi Yêu cầu Đồng thời"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"24","tags":null}
+#. tid/1132/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:24"
+msgid "How many rows are allowed for each concurrent requests. Set it to <b>0</b> to disable this feature.<br />If this option is disabled then no matter how many <b>Max concurrent requests</b> you set, Translator++ will process the request as a single chunk.<br />"
+msgstr "Số dòng được phép cho mỗi yêu cầu đồng thời. Đặt thành <b>0</b> để tắt tính năng này.<br />Nếu tùy chọn này bị tắt, thì dù bạn đặt <b>Số yêu cầu đồng thời tối đa</b> bao nhiêu, Translator++ cũng sẽ xử lý yêu cầu như một khối duy nhất.<br />"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"25","tags":null}
+#. tid/1139/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:25"
+msgid "The more rows you set, the more translation you can get in a single batch. Hence reduce the overhead cost and increases the chance of the AI returning error results.<br />The lower the number, the less likely the translation will error but will cost you extra for overhead prompts."
+msgstr "Bạn đặt càng nhiều dòng, bạn càng nhận được nhiều bản dịch trong một lô. Do đó giảm chi phí phụ trội và tăng khả năng AI trả về kết quả lỗi.<br />Số càng thấp, khả năng dịch bị lỗi càng ít nhưng sẽ tốn thêm chi phí cho các nhắc nhở phụ trội."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"26","tags":null}
+#. tid/1217/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:26"
+msgid "Code Escaping Algorithm"
+msgstr "Thuật toán Mã Hóa Mã"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"27","tags":null}
+#. tid/1227/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:27"
+msgid "Escaping algorithm for inline code inside dialogues. You may need to change the <b>System Message Template</b> and <b>Body Message Template</b> according to the escape algorighm of your choice.<br />When you choose <b>JSONCloaking</b>, response_format: { type: 'json_object' } parameter will be sent to ChatGPT automatically. <b>JSONCLoaking</b> is very acurate, but doesn't work with all models, try <b>gpt-3.5-turbo-1106</b>."
+msgstr "Thuật toán mã hóa cho mã nội tuyến bên trong hội thoại. Bạn có thể cần thay đổi <b>Mẫu Tin nhắn Hệ thống</b> và <b>Mẫu Tin nhắn Thân</b> theo thuật toán mã hóa bạn chọn.<br />Khi chọn <b>JSONCloaking</b>, tham số response_format: { type: 'json_object' } sẽ được gửi tự động đến ChatGPT. <b>JSONCloaking</b> rất chính xác, nhưng không hoạt động với tất cả mô hình, hãy thử <b>gpt-3.5-turbo-1106</b>."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"28","tags":null}
+#. tid/1382/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:28"
+msgid "The <b>Batch API</b> allows you to submit many requests at once, which are processed asynchronously in the background. You won’t receive results immediately, but the process <b>will be completed within 24 hours</b>—and often much faster. This method <b>costs only half as much as the standard approach</b>."
+msgstr "<b>API Lô</b> cho phép bạn gửi nhiều yêu cầu cùng lúc, được xử lý không đồng bộ trong nền. Bạn sẽ không nhận kết quả ngay lập tức, nhưng quá trình <b>sẽ hoàn thành trong vòng 24 giờ</b>—và thường nhanh hơn nhiều. Phương pháp này <b>chỉ tốn một nửa chi phí so với cách tiếp cận tiêu chuẩn</b>."
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"29","tags":null}
+#. tid/1406/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:29"
+msgid "Batch API settings"
+msgstr "Cài đặt API Lô"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"30","tags":null}
+#. tid/1444/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:30"
+msgid "General"
+msgstr "Chung"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"31","tags":null}
+#. tid/1670/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:31"
+msgid "Explore more models"
+msgstr "Khám phá thêm mô hình"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"32","tags":null}
+#. tid/1860/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:32"
+msgid "Templates"
+msgstr "Mẫu"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"33","tags":null}
+#. tid/1896/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:33"
+msgid "Enable Jailbreak"
+msgstr "Bật Jailbreak"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"34","tags":null}
+#. tid/2069/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:34"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"35","tags":null}
+#. tid/2578/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:35"
+msgid "Batch Translation Setting"
+msgstr "Cài đặt Dịch Lô"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"36","tags":null}
+#. tid/2766/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:36"
+msgid "Default"
+msgstr "Mặc định"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"37","tags":null}
+#. tid/2776/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:37"
+msgid "JavaScript template cloaking"
+msgstr "Mẫu che giấu JavaScript"
+
+# {"path":"/addons/transLLMBatchApi/options.js","row":"38","tags":null}
+#. tid/2786/type/StringLiteral
+msgctxt "tpp:/addons/transLLMBatchApi/options.js:38"
+msgid "None (no escaping)"
+msgstr "Không (không mã hóa)"

@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: index.html\n"
+"POT-Creation-Date: 2026-04-09 04:35+0000\n"
+"PO-Revision-Date: 2026-04-09 04:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Generator: Translator++ Git Collab\n"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"0","tags":null}
+#. idx/0/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:0"
+msgid "Batches"
+msgstr "Các lô"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"1","tags":null}
+#. idx/1/innerText
+#. idx/4/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:1"
+msgid "Apply translation"
+msgstr "Áp dụng bản dịch"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"2","tags":null}
+#. idx/2/innerText
+#. idx/5/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:2"
+msgid "Cancel batch"
+msgstr "Hủy lô"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"3","tags":null}
+#. idx/3/innerText
+#. idx/9/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:3"
+msgid "Status"
+msgstr "Trạng thái"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"4","tags":null}
+#. idx/4/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:4"
+msgid "Batch ID"
+msgstr "ID Lô"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"5","tags":null}
+#. idx/5/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:5"
+msgid "Input File ID"
+msgstr "ID Tệp Đầu vào"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"6","tags":null}
+#. idx/6/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:6"
+msgid "End point"
+msgstr "Điểm cuối"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"7","tags":null}
+#. idx/7/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:7"
+msgid "Created at"
+msgstr "Được tạo lúc"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"8","tags":null}
+#. idx/8/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:8"
+msgid "Expires at <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Batches that do not complete in time eventually move to an expired state; unfinished requests within that batch are cancelled, and any responses to completed requests are made available via the batch's output file. You will be charged for tokens consumed from any completed requests.\"></i>"
+msgstr "Hết hạn lúc <i class=\"icon-info-circled-1\" data-tranattr=\"title\" title=\"Các lô không hoàn thành đúng thời hạn cuối cùng sẽ chuyển sang trạng thái hết hạn; các yêu cầu chưa hoàn thành trong lô đó sẽ bị hủy, và bất kỳ phản hồi nào cho các yêu cầu đã hoàn thành sẽ được cung cấp qua tệp đầu ra của lô. Bạn sẽ bị tính phí cho các token tiêu thụ từ bất kỳ yêu cầu đã hoàn thành nào.\"></i>"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"9","tags":null}
+#. idx/10/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:9"
+msgid "Completed at"
+msgstr "Hoàn thành lúc"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"10","tags":null}
+#. idx/11/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:10"
+msgid "Errors"
+msgstr "Lỗi"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"11","tags":null}
+#. idx/12/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:11"
+msgid "Batch Item Detail of"
+msgstr "Chi tiết Mục Hàng loạt của"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"12","tags":null}
+#. idx/13/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:12"
+msgid "ID"
+msgstr "ID"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"13","tags":null}
+#. idx/14/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:13"
+msgid "Completed on"
+msgstr "Hoàn thành vào"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"14","tags":null}
+#. idx/15/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:14"
+msgid "Model"
+msgstr "Mô hình"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"15","tags":null}
+#. idx/16/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:15"
+msgid "Prompt Token"
+msgstr "Token Đầu vào"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"16","tags":null}
+#. idx/17/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:16"
+msgid "Completion Token"
+msgstr "Token Hoàn thành"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"17","tags":null}
+#. idx/18/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:17"
+msgid "Total Token"
+msgstr "Tổng Token"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"18","tags":null}
+#. idx/19/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:18"
+msgid "Status Code"
+msgstr "Mã Trạng thái"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"19","tags":null}
+#. idx/20/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:19"
+msgid "error"
+msgstr "lỗi"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"20","tags":null}
+#. idx/21/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:20"
+msgid "Conversation"
+msgstr "Cuộc trò chuyện"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"21","tags":null}
+#. idx/22/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:21"
+msgid "Response Validation"
+msgstr "Xác thực Phản hồi"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"22","tags":null}
+#. idx/23/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:22"
+msgid "Raw Payload"
+msgstr "Dữ liệu Thô"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"23","tags":null}
+#. idx/24/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:23"
+msgid "View raw payload"
+msgstr "Xem dữ liệu thô"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"24","tags":null}
+#. idx/25/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:24"
+msgid "Response Preview"
+msgstr "Xem trước Phản hồi"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"25","tags":null}
+#. idx/26/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:25"
+msgid "Apply translations from selected rows"
+msgstr "Áp dụng bản dịch từ các hàng đã chọn"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"26","tags":null}
+#. idx/27/innerText
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:26"
+msgid "Here you can edit the translation result individually and send it into Translator++"
+msgstr "Ở đây bạn có thể chỉnh sửa kết quả dịch từng cái một và gửi vào Translator++"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"27","tags":null}
+#. idx/0/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:27"
+msgid "Open ChatGPT Settings"
+msgstr "Mở Cài đặt ChatGPT"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"28","tags":null}
+#. idx/1/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:28"
+msgid "Help"
+msgstr "Trợ giúp"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"29","tags":null}
+#. idx/2/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:29"
+msgid "File list"
+msgstr "Danh sách tệp"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"30","tags":null}
+#. idx/3/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:30"
+msgid "Collapse / restore left panel"
+msgstr "Thu gọn / khôi phục bảng trái"
+
+# {"path":"/addons/transGeminiAi/chatgpt-batch-manager/index.html","row":"31","tags":null}
+#. idx/6/attr/title
+msgctxt "tpp:/addons/transGeminiAi/chatgpt-batch-manager/index.html:31"
+msgid "Batches that do not complete in time eventually move to an expired state; unfinished requests within that batch are cancelled, and any responses to completed requests are made available via the batch's output file. You will be charged for tokens consumed from any completed requests."
+msgstr "Các lô không hoàn thành đúng thời hạn cuối cùng sẽ chuyển sang trạng thái hết hạn; các yêu cầu chưa hoàn thành trong lô đó bị hủy, và mọi phản hồi cho các yêu cầu đã hoàn thành được cung cấp qua tệp đầu ra của lô. Bạn sẽ bị tính phí cho token tiêu thụ từ bất kỳ yêu cầu đã hoàn thành nào."

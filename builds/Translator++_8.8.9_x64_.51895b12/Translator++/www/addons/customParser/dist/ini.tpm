@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "pattern": "*.ini",
+      "rules": [
+        {
+          "type": "regex",
+          "pattern": "/^(?!\\s*(?:[;#]|\\[))([^=\\r\\n]+)=([^\\r\\n]*)$/gm",
+          "captureGroups": "2",
+          "captureRowInfo": "1",
+          "contextTemplate": "key/${GROUP[1].trim()}"
+        }
+      ],
+      "options": {
+        "writeEncoding": ""
+      },
+      "toGrid": "",
+      "fromGrid": "",
+      "beforeWrite": ""
+    }
+  ],
+  "modelInfo": {
+    "name": "INI Config Parser",
+    "version": "0.1",
+    "author": "Dreamsavior",
+    "contact": "",
+    "info": "<p>TPM script for parsing INI-style key/value files.</p><p>Extracts the value part of <code>key=value</code> lines while leaving section headers and comment lines untouched.</p>"
+  },
+  "options": {
+    "testData": "[Game]\nTitle=Sample Game\nDescription=An example description\n; Comment line\n[UI]\nStartButton=Start Adventure\nExitButton=Quit\n"
+  }
+}

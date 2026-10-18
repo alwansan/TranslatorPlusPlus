@@ -1,0 +1,17 @@
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Common event 1
+  switch_id: 1
+  list:
+    - !ruby/object:RPG::EventCommand { i: 0, c: 101, p: [ '', 0, 0, 2 ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ のびた人陰を舗道に並べ ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 夕闇のなかをキミと歩いてる ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 手を繋いでいつまでもずっと ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ そばにいれたなら泣けちゃうくらい ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 101, p: [ '', 0, 0, 2 ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 風が冷たくなって ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ 冬の匂いがした ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ そろそろこの街に ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 401, p: [ キミと近付ける季節がくる ] }
+    - !ruby/object:RPG::EventCommand { i: 0, c: 0, p: [] }
+  id: 1

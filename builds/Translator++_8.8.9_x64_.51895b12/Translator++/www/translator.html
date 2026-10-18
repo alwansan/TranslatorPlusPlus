@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="img/google_translate.png">
+<link type="text/css" href="modules/jquery-ui/base/jquery-ui.css" rel="stylesheet" data-theme="normal" />
+<script>
+	var $ = require('jquery');
+	window.jQuery = $;
+
+	const Logger = require('www/js/Logger.js');
+	var logger = new Logger({file:"data/logs/liveTranslation.log"});
+	logger.loadState();
+</script>
+<script type="text/javascript" src="modules/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/base/jquery-ui.js"></script>
+<script type="text/javascript" src="js/scriptRunner.js"></script>
+<script type="text/javascript" src="modules/json2.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery.ui-contextmenu.js"></script>
+<script type="text/javascript" src="modules/list.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="modules/jquerytextcomplete/dist/jquery.textcomplete.js"></script>
+
+
+<script type="text/javascript" src="js/translatorWindow.js"></script>
+<link type="text/css" href="css/theme-vars.css" rel="stylesheet" media="screen" data-theme="normal">
+
+<link type="text/css" href="css/trans.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/translator.css" rel="stylesheet" media="screen">
+<link type="text/css" href="css/fontello-embedded.css" rel="stylesheet" media="screen">
+
+
+<title>Translation Pane - Translator++</title>
+
+<head>
+
+<body data-window="translators">
+
+
+<div class="toolbar">
+	<div class="toolbar-content toolbar1">
+		<button class="menu-button column-1" title="Show 1 column" data-for="1"><img src='img/column-1.png' alt="column-1" /></button>
+		<button class="menu-button column-2" title="Show 2 column" data-for="2"><img src='img/column-2.png' alt="column-2" /></button>
+		<button class="menu-button column-3" title="Show 3 column" data-for="3"><img src='img/column-3.png' alt="column-3" /></button>
+		<button class="menu-button column-4" title="Show 4 column" data-for="4"><img src='img/column-4.png' alt="column-4" /></button>
+	</div>
+	<div class="toolbar-content toolbar2">
+		<button class="menu-button always-on-top" title="Toggle always on top"><img src='img/always-on-top.png' alt="always-on-top" /></button>
+		<button class="menu-button dock" title="Dock this window to main application"><img src='img/dock.png' alt="dock" /></button>
+	</div>
+	<div class="toolbar-content toolbar3">
+		<button class="menu-button clipboard_copy" title="Automatically process clipboard"><img src='img/clipboard.png' alt="clipboard" /></button>
+	</div>
+</div> 
+
+<div class="mainPane">
+	<div class="column col4">
+
+	</div>
+</div>
+
+<div id="template" class="hidden">
+	<div class="column">
+		<div class="portlet">
+			<div class="portlet-header">
+				<span class="portlet-title" tran-attr="title" title="Double click to toggle on/off. Drag to re-order.">Feeds</span>
+				<span class="portlet-shortcut" title="Use shortcut to copy the text when you are editing via Default Translation pane">alt+1</span>
+			</div>
+			<div class="portlet-content hidden"></div>
+			<div class="portlet-status">Click <img src="img/connect_icon.png" class="inline inlineIcon" alt="connect" title="Connect to auto translator" /> <b>Connect to auto translator</b> button  to activate this translator.</div>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>

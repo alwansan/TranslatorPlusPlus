@@ -1,0 +1,16 @@
+{
+  "name": "buffer-tools",
+  "version": "1.0.0",
+  "description": "Tool collection for manipulating buffers",
+  "main": "buffer-tools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "buffer",
+    "join",
+    "replace"
+  ],
+  "author": "Dreamsavior",
+  "license": "MIT"
+}

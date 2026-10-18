@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var $ = require('jquery');
+        window.jQuery = $;
+
+        var LT = require("light-trans");
+        var lt = new LT({
+            recordMode:false,
+            listener:"t"
+        });
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/www/js/scriptRunner.js"></script>
+    <script type="text/javascript" src="/www/js/DVField.js"></script>
+    <script type="text/javascript" src="/www/js/common.js"></script>
+    <link type="text/css" href="/www/modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet" />
+    <script type="text/javascript" src="/www/modules/jquery-ui/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <link type="text/css" href="/www/css/dvField.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="/www/css/theme-vars.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="/www/css/trans.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="/www/css/options.css" rel="stylesheet" media="screen">
+    <link type="text/css" href="/www/css/fontello-embedded.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="/www/js/loadingScreen.js"></script>
+    <link type="text/css" href="serverManager.css" rel="stylesheet" />
+    <script src="serverManager.js"></script>
+    <script type="text/javascript" src="/www/js/DVField.js"></script>
+    <title data-tran="">Sugoi Translator Manager</title>
+
+</head>
+<body>
+    <h1 data-tran="">Sugoi Translator Server Manager</h1>
+    <div class="dialogSectionBlock">
+        <h2 data-tran="">Sugoi translator location <i class="icon-info-circled-1" data-tranatrr="title" title="Point to the .bat file or .exe file on the root directory of the application."></i></h2>
+        <input type="dvSelectPath" class="form-control sugoiPath" data-autoset="" data-bind="sugoiPath" accept=".bat,.exe" />
+        <div class="dialogInfo alert alert-warning hidden" data-tran=""><i class="icon-attention red"></i> Invalid path.<br>Some features will be disabled until this is fixed.</div>
+    </div>
+    <div class="dialogSectionBlock">
+        <div class="col-2">
+            <div>
+                <div class="serverInfo">
+                    <strong data-tran="">Server Type :</strong> <output class="serverType" data-bind="serverType"></output>
+                </div>
+                <div class="modelInfo hidden">
+                    <strong data-tran="">Installed Model :</strong> <output class="installedModel" data-bind="installedModel">unknown</output>
+                </div>
+            </div>
+            <div class="right">
+                <button class="config-reset red" title="Reset configuration"><i class="icon-ccw"></i>Reset</button>
+                <button class="config-refresh" title="Reload configuration"><i class="icon-arrows-cw"></i>Reload</button>
+            </div>
+        </div>
+
+    </div>
+    <hr />
+    <div class="sectionGroup serverInstaller">
+        <h1 data-tran="">Install Sugoi Translator</h1>
+        <div data-tran="">Don't have Sugoi Translator?
+            Install customized & optimized Sugoi Translator server now!
+        </div>
+
+        <div class="dialogSectionBlock center">
+            <button class="button-big installSugoi"><i class="icon-download-1"></i> <span data-tran="">Install Sugoi Translator</span></button>
+        </div>
+        <div class="installationStatus hidden">
+            <div>Installation status</div>
+            <div class='statusInfo hidden'>
+                <span class='progressBar'><span class='progressValue'></span></span>
+                <span class='info'></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sectionGroup serverSettings hidden">
+        <div class="dialogSectionBlock cpuServerControlWrapper">
+            <h2 data-tran="">Number of server to start (CPU) <i class="icon-info-circled-1" data-tranatrr="title" title="Number of server started simultaneously"></i></h2>
+            <div class="info" data-tran="">Number of server to be started simultaneously.<br />More process desn't always means more speed, be mindful of your RAM & CPU capacity.<br />You may won't get the benefit if by running just one server the CPU usage has reached 100%</div>
+            <div><input type="range" min="0" max="8" value="0" data-bind="serverCount" /></div>
+        </div>
+        <div class="dialogSectionBlock gpuServerControlWrapper">
+            <div class="hidden gpuServerPatcher">
+                <div class="blockBox warningBlock withIcon" data-tran="">
+                    Your Sugoi Translator doesn't support GPU processing.<br />
+                    You need to patch your server to support GPU processing.<br />
+                    <h3 data-tran="">Select the following option to install the suitable patch for your system</h3>
+                    <div>
+                        <span data-tran="">Your GPU is:</span>
+                        <ul class="gpuList"></ul>
+                    </div>
+                    <div class="gpuPatchOptions">
+                        <button class="patchGPU" data-tran="">Install patch For NVIDIA series 30xx or greater</button>
+                        <button class="patchGPULegacy" data-tran="">Install patch For NVIDIA series 20xx or lower</button>
+    
+                    </div>
+                </div>
+
+            </div>
+            <div class="hidden gpuServerControl">
+                <h2 data-tran="">Number of server to start (GPU) <i class="icon-info-circled-1" data-tranatrr="title" title="Number of server started simultaneously using GPU. Your server must be patched to enable GPU processing."></i></h2>
+                <div class="info" data-tran="">How many server do you want to start on your <b>GPU</b>. It is possible to run both CPU and GPU based service simultaneously. But please keep in mind that if your CPU usage is high it may hinder the GPU performance.<br />Your server must be patched to enable this mode.</div>
+                <div><input type="range" min="0" max="8" value="0" data-bind="serverCountGPU" /></div>
+            </div>
+        </div>
+        <div class="dialogSectionBlock options">
+            <h2 data-tran="">Starting port number</h2>
+            <div class="info" data-tran="">The port numbers will be generated incrementaly starting from the value below</div>
+            <div><input type="number" class="fullWidth" value="14366"  data-bind="startingPortNumber" /></div>
+        </div>
+        <div class="dialogSectionBlock options sectionBlock">
+			<label class="flex fullWidth">
+				<div class="flexMain">
+					<div class="label" data-tran="">Keep console window open</div>
+					<div class="info" data-tran="">prevent console window from closing when the server closes. This option is useful for checking for errors that caused the server to crash.</div>
+				</div>
+				<div>
+					<input type="checkbox" class="flipSwitch preventClose" data-bind="preventClose" value="1" /> 
+				</div>
+			</label>
+		</div>
+        <div class="dialogSectionBlock actionSection">
+            <h2 data-tran="">Action</h2>
+            <div class="actionButton">
+                <button class="applySettings" data-tran="">Set Sugoi Trans config based on this setting</button>
+            </div>
+            <div class="actionButton highlightedButton">
+                <button class="startAllServer button-big"><i class="icon-link-ext-alt"></i><span data-tran="">Start All Server</span></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

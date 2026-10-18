@@ -1,0 +1,1234 @@
+{
+  "project": {
+    "files": {
+      "main": {
+        "data": [
+          [
+            "Original Text",
+            "Text asli"
+          ],
+          [
+            "Initial",
+            "Awal"
+          ],
+          [
+            "Machine translation",
+            "Translasi mesin"
+          ],
+          [
+            "Better translation",
+            "Translasi bagus"
+          ],
+          [
+            "Best translation",
+            "Translasi terbagus"
+          ],
+          [
+            "Column width",
+            ""
+          ],
+          [
+            "Insert column right",
+            "Tambah kolom kanan"
+          ],
+          [
+            "Duplicate column",
+            "Salin kolom"
+          ],
+          [
+            "Remove this column",
+            "Hapus kolom"
+          ],
+          [
+            "Rename this column",
+            "Ubah nama kolom"
+          ],
+          [
+            "Red",
+            "Merah"
+          ],
+          [
+            "Yellow",
+            "Kuning"
+          ],
+          [
+            "Green",
+            "Hijau"
+          ],
+          [
+            "Blue",
+            "Biru"
+          ],
+          [
+            "Gold",
+            "Emas"
+          ],
+          [
+            "More tags...",
+            "Tag lain..."
+          ],
+          [
+            "Clear tags",
+            "Hapus tag"
+          ],
+          [
+            "Row properties",
+            "Properti baris"
+          ],
+          [
+            "Start",
+            "Mulai"
+          ],
+          [
+            "Home",
+            "Beranda"
+          ],
+          [
+            "Objects",
+            "Objek"
+          ],
+          [
+            "Live translation",
+            "Translasi live"
+          ],
+          [
+            "\n\t\tPath <a class=\"problemPath\"></a> is not accessible by PHP interpreter.<br>\n\t\tPlease rename the path and use only alphanumeric naming.\n\t",
+            "\n\t\tPath <a class=\"problemPath\"></a> tidak dapat diakses oleh PHP interpreter.<br>\n\t\tTolong ubah path hanya menggunakan angka dan huruf.\n\t"
+          ],
+          [
+            "Location",
+            "Lokasi"
+          ],
+          [
+            "File :",
+            "Dokumen :"
+          ],
+          [
+            "Row ID :",
+            "Baris ID :"
+          ],
+          [
+            "Key Text",
+            "Frase kunci"
+          ],
+          [
+            "Context",
+            "Konteks"
+          ],
+          [
+            "Best Translation",
+            "Translasi terbaik"
+          ],
+          [
+            "File ID",
+            "ID dokumen"
+          ],
+          [
+            "Path",
+            ""
+          ],
+          [
+            "Original Format",
+            "Format asli"
+          ],
+          [
+            "Data Length",
+            "Jumlah data"
+          ],
+          [
+            "Translated",
+            "Terjemahan"
+          ],
+          [
+            "Select Export Mode",
+            "Pilih mode ekspor"
+          ],
+          [
+            "Export to a folder",
+            "Ekspor ke folder"
+          ],
+          [
+            "Export pre-compiled game data to a folder<br>Folder structures are retained",
+            "Ekspor game data ke folder<br>Struktur folder tetap"
+          ],
+          [
+            "Export as a Zip file",
+            "Ekspor sebagai zip dokumen"
+          ],
+          [
+            "Export pre-compiled game data to a single zipped archive",
+            "Ekspor game data sebagai zip"
+          ],
+          [
+            "Export as a TPP file",
+            "Ekspor sebagai dokumen TPP"
+          ],
+          [
+            "Save as Translator++ Project Package. Transferable project to another devices.",
+            "Simpan sebagai Translator++ Project Package. Paket dokumen yang memungkinkan untuk dibuka di komputer lain."
+          ],
+          [
+            "RPGMakerTrans Patch Files",
+            "dokumen RPGMakerTrans"
+          ],
+          [
+            "Export to RPGMakerTrans formatted *.txt files in a folder",
+            "Ekspor ke format dokumen .txt RPGMaker Trans dalam satu folder"
+          ],
+          [
+            "Comma Separated Values",
+            "Fail CSV (Comma Separated Values)"
+          ],
+          [
+            "Export to Comma Separated Values (csv) files in a folder",
+            "Ekspor ke format CSV"
+          ],
+          [
+            "Office Open XML (.xlsx) Excel 2007 and above",
+            "Open XML (.xlsx) Excel 2007 ke atas"
+          ],
+          [
+            "Export to Microsoft Excel Spreadsheet (xlsx) files in a folder",
+            "Ekspor ke format Microsoft Excel Spreadsheet (xlsx) dalam satu folder"
+          ],
+          [
+            "BIFF 8 (.xls) Excel 97 and above",
+            "BIFF 8 (.xls) Exel 97 ke atas"
+          ],
+          [
+            "Export to Microsoft Excel Spreadsheet (xls) files in a folder",
+            "ekspor ke dokumen Microsoft Excel Spreadsheet (xls) dalam satu folder"
+          ],
+          [
+            "HTML Spreadsheet",
+            "Spreadsheet HTML"
+          ],
+          [
+            "Export to HTML files in a folder",
+            "Ekspor ke HTML dokumen dalam satu folder"
+          ],
+          [
+            "Open Document Format/OASIS (.ods)",
+            ""
+          ],
+          [
+            "Export to ODS files in a folder",
+            "Ekspor ke ODS dokumen dalam satu folder"
+          ],
+          [
+            "Select Import Mode",
+            "Pilih impor mode"
+          ],
+          [
+            "Import from TPP file",
+            "Impor dar dokumen TPP"
+          ],
+          [
+            "Open Translator++ Project Package file.",
+            "Buka dokumen Translator++ Project Package "
+          ],
+          [
+            "Import translation from another .trans file",
+            "Impor translasi dari dokumen .trans yang lain"
+          ],
+          [
+            "Open another Translator++ file<br>Apply translation into current project.",
+            "Buka dokumen Translator++ lain<br>Lalu memasukkan terjemahannya ke dalam proyek yang sedang aktif"
+          ],
+          [
+            "Import translation from spreadsheets",
+            "Impor terjemahan dari spreadsheets"
+          ],
+          [
+            "Import translation from various spreadsheets file<br>(.xls, .xlsx, .ods, .html, .xml, etc)",
+            "Impor terjemahan dari beragam jenis dokumen spreadsheet<br>(.xls, .xlsx, .ods, .html, etc)"
+          ],
+          [
+            "Import translation from RPGMakerTrans Patch format",
+            "Impor terjemahan dari dokumen patch RPGMakerTrans"
+          ],
+          [
+            "Import translation from RPGMaker Trans' patch files<br>(.txt)",
+            "Impor terjemahan dari dokumen RPGMakerTrans<br>(.txt)"
+          ],
+          [
+            "Source :",
+            "Sumber :"
+          ],
+          [
+            "Select objects to import",
+            "Pilih objek untuk diimpor"
+          ],
+          [
+            "Import mode :",
+            "Mode impor :"
+          ],
+          [
+            "Import translations",
+            "Impor terjemahan"
+          ],
+          [
+            "Import data object",
+            "Impor data"
+          ],
+          [
+            "Destination :",
+            "Tujuan :"
+          ],
+          [
+            "Currently selected : ",
+            "Pilihan saat ini :"
+          ],
+          [
+            "Ignore destination selection (will import into all object)",
+            ""
+          ],
+          [
+            "Destination column : ",
+            "Kolom tujuan :"
+          ],
+          [
+            "Overwrite target",
+            ""
+          ],
+          [
+            "Options :",
+            "Pilihan :"
+          ],
+          [
+            "Translation mode : ",
+            "Mode terjemahan :"
+          ],
+          [
+            "Context by context translation",
+            "Terjemahan konteks demi konteks"
+          ],
+          [
+            "Line by line translation",
+            "Terjemahan baris demi baris"
+          ],
+          [
+            "Merge data",
+            ""
+          ],
+          [
+            "Import translation from spreadsheet into project",
+            "Impor terjemahan dari spreadsheet ke proyek"
+          ],
+          [
+            "Please click the radio button to select files/folder to import",
+            "Klik radio button guna memilih fail/folder untuk diimpor"
+          ],
+          [
+            "Import translation from RPG Maker Trans into project",
+            "Impor terjemahan dari RPG Maker Trans"
+          ],
+          [
+            "<i class=\"icon-tpp\"></i>Select project type",
+            "<i class=\"icon-tpp\"></i>Pilih tipe proyek"
+          ],
+          [
+            "RPG Maker &amp; Wolf RPG Editor games",
+            ""
+          ],
+          [
+            "Select executable file from RPG Maker XP, VX, VX ace, MV or Wolf RPG Editor games",
+            "Pilih file .exe dari RPG Maker XP, VX, VX ace, MV atau Wolf RPG"
+          ],
+          [
+            "Spreadsheet",
+            ""
+          ],
+          [
+            "Start a translation project from spreadsheet data",
+            "Mulai proyek terjemahan dari spreadsheet"
+          ],
+          [
+            "Blank project",
+            "Proyek kosong"
+          ],
+          [
+            "Create a new .trans file from scratch.",
+            "Buat file .trans baru dari kosong"
+          ],
+          [
+            "Renpy Game",
+            "Game Renpy"
+          ],
+          [
+            "Start translation from Renpy games.",
+            "Mulai terjemahan dari game Renpy."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "\n\t\t\tDo you plan to work with Wolf RPG game?<br>\n\t\t\tTranslator++ may not support the latest version of Wolf RPG game.",
+            "Apakah kamu ingin menerjemahkan Wolf RPG Game?<br>\nTranslator++ mungkin tidak mendukung edisi terbaru dari Wolf RPG"
+          ],
+          [
+            "<i class=\"icon-plus-circled\"></i>Spreadsheet",
+            ""
+          ],
+          [
+            "Fetch type",
+            ""
+          ],
+          [
+            "Options",
+            "Opsi"
+          ],
+          [
+            "<i class=\"icon-plus-circled\"></i>Create a new Trans file",
+            "<i class=\"icon-plus-circled\"></i>Buat trans file baru"
+          ],
+          [
+            "Title",
+            "Judul"
+          ],
+          [
+            "\n\t\t\t\t\tThe title of this project\n\t\t\t\t",
+            "Judul proyek"
+          ],
+          [
+            "Engine type",
+            "Tipe enjin"
+          ],
+          [
+            "\n\t\t\t\t\tType of the engine\n\t\t\t\t",
+            "Jenis dari enjin"
+          ],
+          [
+            "<i class=\"icon-plus-circled\"></i>Placeholder for something great at the near future!",
+            "<i class=\"icon-plus-circled\"></i>Nanti akan ada yang menarik di bagian ini, segera!"
+          ],
+          [
+            "\n<span style=\"color:blue; font-weight:bold\">This module will be created when the patron count reach 500!</span><br>\nKeep up with the development of Translator ++ at <a href=\"http://dreamsavior.net\" external=\"\">dreamsavior.net</a> or <a href=\"https://patreon.com/dreamsavior\" external=\"\">patreon</a>. (maybe this feature is already available in the most recent update)<br>\nAlso please consider to support this project by becoming a <a href=\"https://patreon.com/dreamsavior\" external=\"\">patron</a>.\n\t\t",
+            ""
+          ],
+          [
+            "\n\t\tA project with the same title <br>\"<span class=\"dialogGameTitle\"></span>\"<br> is already exist on the post processed cache.<br>\n\t\tYou can re-use this cache to shorten loading time significantly.\n\t",
+            "\n\t\tProyek dengan nama <br>\"<span class=\"dialogGameTitle\"></span>\"<br> sudah pernah dibuat.<br>\n\t\tKamu bisa menggunakan cache untuk mempercepat proses pembuatan proyek baru.\n\t"
+          ],
+          [
+            "If you are confused, you can always safely click <strong><a href=\"#\">\"Create new project\"</a></strong> button. ",
+            "Kalau kamu kebingungan, langsung saja klik tombol <strong><a href=\"#\">\"Buat proyek baru\"</a></strong>"
+          ],
+          [
+            "Existed cache",
+            "Yang ada di cache"
+          ],
+          [
+            "Select Translator",
+            "Pilih Penerjemah"
+          ],
+          [
+            "Target column",
+            "Kolom tujuan"
+          ],
+          [
+            "Also try to translate other object",
+            "Coba untuk menerjemahkan obyek lainnya"
+          ],
+          [
+            "If this option is checked then Translator++ will also try to translate other objects that you did not select that doesn't require machine translation. This is the default behavior in Translator++ version 2.3.23 or lower.",
+            "Bila pilihan ini terpilih maka Translator++ akan mencoba menerjemahkan obyek lain sekalipun obyek tersebut tidak terpilih. Ini adalah prilaku standar di Translator++ versi 2.3.23 atau lebih baru."
+          ],
+          [
+            "Select Context",
+            "Pilih konteks"
+          ],
+          [
+            "Manual Query",
+            "Query manual"
+          ],
+          [
+            "Match all words",
+            "Semua kata harus sama"
+          ],
+          [
+            "Action",
+            "Aksi"
+          ],
+          [
+            "Remove selected",
+            "Hapus yang dipilih"
+          ],
+          [
+            "Remove all but selected",
+            "Hapus kecuali yang dipilih"
+          ],
+          [
+            "Source Column",
+            "Kolom asal"
+          ],
+          [
+            "Target Column",
+            "Kolom tujuan"
+          ],
+          [
+            "Maximum length",
+            "Panjang maksimum"
+          ],
+          [
+            "What to do with tagged rows?",
+            "Apa yang ingin kamu lakukan dengan tag pada baris?"
+          ],
+          [
+            "Select Color Tag",
+            "Pilih warna tag"
+          ],
+          [
+            "Append tags",
+            "Tambahkan tag"
+          ],
+          [
+            "Remove tags",
+            "Hapus tag"
+          ],
+          [
+            "Set tags",
+            "Tentukan tag"
+          ],
+          [
+            "Do nothing",
+            "Tidak melakukan apapun"
+          ],
+          [
+            "Select the source material to be translated",
+            "Pilih material asli sebagai pe"
+          ],
+          [
+            "\n\t\t\t\tPlease select the material to apply translation into.\n\t\t\t",
+            "Pilih material tujuan untuk diterjemahkan"
+          ],
+          [
+            "Path is inaccessible.",
+            "Path tidak bisa diakses"
+          ],
+          [
+            "Target Directory",
+            "Direktori tujuan"
+          ],
+          [
+            "\n\t\t\t\tPlease select destination directory.\n\t\t\t",
+            "Pilih direktori tujuan"
+          ],
+          [
+            "Field can not be empty!",
+            "Kolom tidak boleh kosong!"
+          ],
+          [
+            "Tags",
+            "Tag"
+          ],
+          [
+            "Directory name",
+            "Nama direktori"
+          ],
+          [
+            "\n\t\t\t\tThe object will be grouped under this directory\n\t\t\t",
+            "Objek akan dikelompokkan berdasarkan direktori ini"
+          ],
+          [
+            "Invalid directory  name",
+            "Nama direktori tidak sesuai ketentuan"
+          ],
+          [
+            "Object name",
+            "Nama objek"
+          ],
+          [
+            "\n\t\t\t\tThe name of the object.\n\t\t\t",
+            "Nama dari objek"
+          ],
+          [
+            "Invalid object name",
+            "Nama objek tidak sesuai ketentuan"
+          ],
+          [
+            "New Project",
+            "Proyek baru"
+          ],
+          [
+            "Save",
+            "Simpan"
+          ],
+          [
+            "Save as...",
+            "Simpan sebagai..."
+          ],
+          [
+            "Open...",
+            "Buka..."
+          ],
+          [
+            "Recent",
+            "Belakangan"
+          ],
+          [
+            "None...",
+            "Tidak ada..."
+          ],
+          [
+            "Export Project",
+            "Expor proyek"
+          ],
+          [
+            "To a folder",
+            "Ke folder"
+          ],
+          [
+            "As a zip file",
+            "Sebagai dokumen zip"
+          ],
+          [
+            "To portable .tpp file",
+            "Sebagai file .tpp portabel"
+          ],
+          [
+            "To RPGMakerTrans file (*.txt)",
+            "Sebagai RPGMakerTrans (*.txt)"
+          ],
+          [
+            "To CSV file",
+            "Sebagai CSV"
+          ],
+          [
+            "To XLSX file",
+            "Sebagai XLSX"
+          ],
+          [
+            "To XLS file",
+            "Sebagai XLS"
+          ],
+          [
+            "To ODS file",
+            "Sebagai ODS"
+          ],
+          [
+            "To HTML file",
+            "Sebagai HTML"
+          ],
+          [
+            "Import",
+            "Impor"
+          ],
+          [
+            "Project from .tpp file",
+            "Proyek dari file .tpp"
+          ],
+          [
+            "Translation from .trans file",
+            "Terjemahan dari file .trans"
+          ],
+          [
+            "Translation Spreadsheet",
+            "Terjemahan dari Spreadsheet"
+          ],
+          [
+            "Translation RPGMKTRANSPATCH Format",
+            "Terjemahan dari format RPGMakerTrans "
+          ],
+          [
+            "Automation",
+            "Otomatisasi"
+          ],
+          [
+            "Batch translation",
+            "Penerjemahan otomatis"
+          ],
+          [
+            "Batch context removal",
+            "Hapus berdasarkan konteks"
+          ],
+          [
+            "Batch word wrapping",
+            "Ratakan baris"
+          ],
+          [
+            "Trim",
+            "Pangkas teks"
+          ],
+          [
+            "Auto padding",
+            "Padding otomatis"
+          ],
+          [
+            "Third Party Application Installer",
+            "Pemasang aplikasi pihak ketiga"
+          ],
+          [
+            "Exit",
+            "Keluar"
+          ],
+          [
+            "Start here",
+            "Mulai dari sini"
+          ],
+          [
+            "Start a New Project",
+            "Buat proyek baru"
+          ],
+          [
+            "Continue your work",
+            "Lanjutkan pekerjaan"
+          ],
+          [
+            "Open Project",
+            "Buka proyek"
+          ],
+          [
+            "Your recent translation",
+            "Terjemahan terakhir"
+          ],
+          [
+            "Tips for you",
+            "Tips untukmu"
+          ],
+          [
+            "\n\t\tThank you for supporting Translator++.\n\t",
+            "Terima kasih telah mendukung Translator++."
+          ],
+          [
+            "Next tip! <span class=\"icon-angle-double-right\"></span>",
+            "Tips berikutnya! <span class=\"icon-angle-double-right\"></span>"
+          ],
+          [
+            "\n\t\tAlways backup your game before working with Translator++!\n\t",
+            "Selalu backup game kamu sebelum bekerja dengan Translator++!"
+          ],
+          [
+            "\n\t\tIf you encountered a feature that is not running normally, try restarting Translator++, it will fix the problem in the most cases.\n\t",
+            "Apabila kamu menemukan fitur yang tidak bekerja dengan normal, coba restart Translator++. Kemungkinan besar problemmu akan terbenahi."
+          ],
+          [
+            "\n\t\tAlways create a backup of your game before patching with a translation.\n\t",
+            "Selalu buat backup dari game kamu sebelum melakukan patch."
+          ],
+          [
+            "&gt;Please check Translator++'s online documentation at <a class=\"externalLink\" href=\"http://dreamsavior.net\">dreamsavior.net</a>\n\t",
+            ""
+          ],
+          [
+            "working",
+            "bekerja"
+          ],
+          [
+            "Open",
+            "Buka"
+          ],
+          [
+            "Save file",
+            "Simpan file"
+          ],
+          [
+            "Save As",
+            "Simpan sebagai"
+          ],
+          [
+            "Import Project",
+            "Impor proyek"
+          ],
+          [
+            "Inject / apply translation",
+            "Suntikkan / pasang terjemahan"
+          ],
+          [
+            "Context Tool",
+            "Peralatan konteks"
+          ],
+          [
+            "Toggle Active Cell Info",
+            ""
+          ],
+          [
+            "Automatically set to clipboard",
+            "Pasang ke clipboard secara otomatis"
+          ],
+          [
+            "Get Help (F1)",
+            "Bantu saya (F1)"
+          ],
+          [
+            "File list",
+            "Daftar File"
+          ],
+          [
+            "Live Translation Pane",
+            "Panel penerjemahan otomatis"
+          ],
+          [
+            "Toggle selection",
+            "Pilih / hapus pilihan"
+          ],
+          [
+            "Invert selection",
+            "Balik pilihan"
+          ],
+          [
+            "Add A New Object",
+            "Tambahkan objek baru"
+          ],
+          [
+            "Connect to auto translator",
+            "Sambungkan ke penerjemah otomatis"
+          ],
+          [
+            "Undock pane",
+            "Pisahkan panel"
+          ],
+          [
+            "Collapse / restore left panel",
+            "Buka / tutup panel kiri"
+          ],
+          [
+            "Add new key (alt+n)",
+            "Tambahkan frasa kunci baru (alt+n)"
+          ],
+          [
+            "Import Here",
+            "Impor ke sini"
+          ],
+          [
+            "Properties",
+            "Properti"
+          ],
+          [
+            "Add a note to this file",
+            "Tambahkan catatan untuk dokumen ini"
+          ],
+          [
+            "Search on table",
+            "Cari pada tabel"
+          ],
+          [
+            "Resize Font",
+            "Ubah ukuran teks"
+          ],
+          [
+            "Toggle word wrapping & Explicit white spaces",
+            "Non/aktifkan word wrap & white spaces"
+          ],
+          [
+            "Use Monospace font",
+            "Gunakan font Monospace "
+          ],
+          [
+            "Remove all translation from this file",
+            "Hapus semua terjemahan dari dokumen ini"
+          ],
+          [
+            "Remove this file from project",
+            "Hapus dokumen ini dari proyek"
+          ],
+          [
+            "file path",
+            "Lokasi dokumen"
+          ],
+          [
+            "Quick find",
+            "Pencarian cepat"
+          ],
+          [
+            "Active cell's info",
+            ""
+          ],
+          [
+            "Speak original text (alt+,)",
+            "Suarakan teks asli (alt+,)"
+          ],
+          [
+            "Copy original text into current cell (ctrl+0)",
+            "Salin teks original ke teks saat ini (ctrl+0)"
+          ],
+          [
+            "Word wraping",
+            "Bungkus berdasarkan kata"
+          ],
+          [
+            "Speak current translation text (alt+.)",
+            "Suarakan teks terjemahan (alt+.)"
+          ],
+          [
+            "Current Cell Editor options",
+            "Opsi-opsi editor sel terpilih"
+          ],
+          [
+            "Open menu",
+            "Buka menu"
+          ],
+          [
+            "Path not accessible",
+            "Lokasi tidak dapat diakses"
+          ],
+          [
+            "Import .TRANS into project",
+            "Impor .TRANS ke proyek"
+          ],
+          [
+            "Import Spreadsheet Options",
+            "Opsi Impor Spreadsheet"
+          ],
+          [
+            "Import RPGMTransPatch Options",
+            "Opsi Impor RPGMTransPatch"
+          ],
+          [
+            "Start a new project",
+            "Mulai proyek baru"
+          ],
+          [
+            "Project is exist",
+            "Proyek sudah ada"
+          ],
+          [
+            "Your list of context separated by new line",
+            "Daftar dari konteks-konteks yang dipisahkan dengan baris baru"
+          ],
+          [
+            "Wrap text",
+            "Bungkus teks"
+          ],
+          [
+            "Export Options",
+            "Opsi-opsi untuk ekspor"
+          ],
+          [
+            "Tagging",
+            "Tag"
+          ],
+          [
+            "Apply Translation",
+            "Pasang terjemahan"
+          ],
+          [
+            "Add new Object",
+            "Tambahkan obyek baru"
+          ],
+          [
+            "\n\t\tI have a general idea for making this module.<br>\nBut I don't have enough free time to create it.<br><br>\n<span style=\"color:blue; font-weight:bold\">I will create this module when the patron counts reach 500!</span><br>\nKeep up with the development of Translator ++ at <a href=\"http://dreamsavior.net\" external=\"\">dreamsavior.net</a> or <a href=\"https://patreon.com/dreamsavior\" external=\"\">patreon</a>. (maybe this feature is already available in the most recent update)<br>\nAlso please consider to support this project by becoming a <a href=\"https://patreon.com/dreamsavior\" external=\"\">patron</a>.\n\t\t",
+            "\n\t\tSaya tahu apa yang harus dilakukan untuk mewujudkan modul ini.<br>\nTapi saya tidak punya banyak waktu untuk melakukannya.<br><br>\n<span style=\"color:blue; font-weight:bold\">Saya akan membuat modul ini apabila jumlah patron sudah mencapai 500!</span><br>\nTerus pantau perkembangan Translator++ di <a href=\"http://dreamsavior.net\" external=\"\">dreamsavior.net</a> atau di halaman <a href=\"https://patreon.com/dreamsavior\" external=\"\">patreon</a>. (Mungkin fitur ini sudah tersedia di update terbaru)<br>\nJuga, mohon mempertimbangkan untuk mendukung proyek ini di <a href=\"https://patreon.com/dreamsavior\" external=\"\">patron</a>.\n\t\t"
+          ],
+          [
+            "\n\t\tPlease check Translator++'s online documentation at <a class=\"externalLink\" href=\"http://dreamsavior.net\">dreamsavior.net</a>\n\t",
+            "Periksalah dokumentasi Translator++ di <a class=\"externalLink\" href=\"http://dreamsavior.net\">dreamsavior.net</a>"
+          ],
+          [
+            "Cancel",
+            "Batal"
+          ],
+          [
+            "Markers",
+            "Penanda"
+          ],
+          [
+            "Mark at",
+            "Tandai pada"
+          ],
+          [
+            "Units",
+            "Unit"
+          ],
+          [
+            "Half width character (ie. Alphabet, etc)",
+            "Karakter berlebar separuh (cth. Alfabet, dsb)"
+          ],
+          [
+            "Full width character (ie. Hiragana, Kanji, 漢字, etc)",
+            "Karakter berlebar penuh (cth. Hiragana, Kanji, 漢字, dsb)"
+          ],
+          [
+            "Color",
+            "Warna"
+          ],
+          [
+            "Remove",
+            "Hapus"
+          ],
+          [
+            "Current Cell's Editor Options",
+            "Opsi-opsi sel terpilih"
+          ],
+          [
+            "Ok",
+            "OK"
+          ],
+          [
+            "Select all",
+            "Pilih semua"
+          ],
+          [
+            " Set Red tag",
+            " Beri tag merah"
+          ],
+          [
+            " Set Yellow tag",
+            " Beri tag kuning"
+          ],
+          [
+            " Set Green tag",
+            " Beri tag hijau"
+          ],
+          [
+            " Set Blue tag",
+            " Beri tag biru"
+          ],
+          [
+            " Set Gold tag",
+            " Beri tag emas"
+          ],
+          [
+            " Clear tags",
+            " Singkirkan tag"
+          ],
+          [
+            "With selection ...",
+            "Dengan yang terpilih ..."
+          ],
+          [
+            "Close",
+            "Tutup"
+          ],
+          [
+            "Find and replace - Translator++",
+            "Cari dan ganti - Translator++"
+          ],
+          [
+            "Find",
+            "Cari"
+          ],
+          [
+            "Replace",
+            "Ganti"
+          ],
+          [
+            "Put",
+            "Taruh"
+          ],
+          [
+            "Case sensitive",
+            "Case sensitif"
+          ],
+          [
+            "Search all files",
+            "Cari semua obyek"
+          ],
+          [
+            "Search in context",
+            "Cari di konteks juga"
+          ],
+          [
+            "Find all string above and replace with :",
+            "Temukan semua string di atas dan ganti dengan :"
+          ],
+          [
+            "Find all string above then  put :",
+            "Temukan semua string di atas dan taruh :"
+          ],
+          [
+            "into: ",
+            "di:"
+          ],
+          [
+            "Not found!",
+            "Tidak ketemu!"
+          ],
+          [
+            "Found nothing to replace!<br />Replace function doesn't replace anything on the key column.",
+            "Tidak menemukan apa-apa!<br />Cari dan ganti tidak akan mengganti apapun yang berada di kolom kunci!"
+          ],
+          [
+            "Replace '",
+            "Ganti '"
+          ],
+          [
+            "' with '",
+            "' dengan '"
+          ],
+          [
+            "'?\r\nWe still haven't create undo function for this thing!\nAre you sure want to proceed?",
+            "'?\nAksi ini tidak bisa dibatalkan!\nYakin mau melanjutkan?"
+          ],
+          [
+            "click to go",
+            "Klik untuk lanjut"
+          ],
+          [
+            "This will replace any translation found in target colum,\nAre you sure?",
+            "Hal ini akan mengganti terjemahan di kolom tujuan, apakah kamu yakin?"
+          ],
+          [
+            "Searching done!",
+            "Pencarian selesai!"
+          ],
+          [
+            "Found ",
+            "Ditemukan"
+          ],
+          [
+            " occurance!",
+            " kali!"
+          ],
+          [
+            "Search took ",
+            "Pencarian memakan waktu"
+          ],
+          [
+            "Version.",
+            "Versi."
+          ],
+          [
+            "By.",
+            "Oleh."
+          ],
+          [
+            "No option for this engine",
+            "Tidak ada opsi untuk enjin ini"
+          ],
+          [
+            "No option for this add-on",
+            "Tidak ada opsi untuk add-on ini"
+          ],
+          [
+            "Translator &amp; Language",
+            "Penerjemah &amp; Bahasa"
+          ],
+          [
+            "General",
+            "Umum"
+          ],
+          [
+            "Preferences",
+            "Preferensi"
+          ],
+          [
+            "Add-ons",
+            "Add-on"
+          ],
+          [
+            "About",
+            "Tentang"
+          ],
+          [
+            "Primary Translator",
+            "Penerjemah Utama"
+          ],
+          [
+            "Default Translator Engine",
+            "Enjin Penerjemah Standar"
+          ],
+          [
+            "\n\t\t\t\t\tThis Translator Engine will be used when you press <span class=\"keyboardHint\">Ctrl+g</span> at the selected cell(s) to <strong>g</strong>enerate translation at selected cell.\n\t\t\t\t",
+            "Enjin penerjemah ini akan digunakan setiap kali tombol <span class=\"keyboardHint\">Ctrl+g</span> ditekan di sel yang aktif guna memasa<strong>g</strong> terjemahan pada sel tersebut."
+          ],
+          [
+            "Language",
+            "Bahasa"
+          ],
+          [
+            "Source Language",
+            "Bahasa Asli"
+          ],
+          [
+            "Target Language",
+            "Bahasa Tujuan"
+          ],
+          [
+            "File Association",
+            "Kelompok File"
+          ],
+          [
+            "Set All",
+            "Pasang semua"
+          ],
+          [
+            "Unset All",
+            "Batal pasang semua"
+          ],
+          [
+            "Apply",
+            "Tentukan"
+          ],
+          [
+            "Project creation",
+            "Pembuatan proyek"
+          ],
+          [
+            "Auto Load Common Reference",
+            "Muat Common Reference secara otomatis"
+          ],
+          [
+            "Auto load common reference from .trans file.",
+            "Muat Common Reference dari dokuman .trans."
+          ],
+          [
+            "Interface Language",
+            "Bahasa antar muka"
+          ],
+          [
+            "<i class=\"selected icon-ok-circled\"></i>Installed",
+            "<i class=\"selected icon-ok-circled\"></i>Terinstall"
+          ],
+          [
+            "<i class=\"icon-menu-1\"></i>Preference",
+            "<i class=\"icon-menu-1\"></i>Pilihan"
+          ],
+          [
+            "Version Info",
+            "Informasi Versi"
+          ],
+          [
+            "Architecture",
+            "Arsitektur"
+          ],
+          [
+            "License",
+            "Lisensi"
+          ],
+          [
+            "Click here to read the license.",
+            "Klik di sini untuk membaca lisensi."
+          ],
+          [
+            "Credits",
+            "Penghargaan"
+          ],
+          [
+            "About Third Party Software",
+            "Tentang aplikasi pihak ketiga"
+          ],
+          [
+            "\n\t\t\t\tThis software is using third party softwares that located at /3rdParty. These third party softwares hold their own licenses and \n\t\t\t\tare included solely for convenience of use and \n\t\t\t\tprovided “as is” without warranty of any kind, either expressed or implied and such software is to be used at your own risk.\n\t\t\t\t",
+            "Software ini menggunakan beberapa aplikasi pihak ketiga di /3rdParty.\nAplikasi pihak ketiga ini memiliki lisensinya masing-masing dan disertakan semata untuk kemudahan pengguna dan disediakan \"apa adanya\" tanpa garansidan sejenisnya.\nResiko penggunaan software tersebut ditanggung pengguna masing-masing."
+          ],
+          [
+            "Special Thanks",
+            "Ucapan terima kasih"
+          ],
+          [
+            "Click here to learn more about how to do that!",
+            "Klik di sini untuk mengetahui lebih banyak caranya melakukan itu!"
+          ],
+          [
+            "Change log",
+            "Log perubahan"
+          ],
+          [
+            "Click connect button, to connect translator with Translator++ table",
+            "Klik tombol \"sambungkan\" untuk menyambungkan penerjemah dengan tabel."
+          ],
+          [
+            "Support Translator++ at : ",
+            "Dukung Translator++ di : "
+          ],
+          [
+            "Want to explicitly support Translator++ by putting your name on this section?",
+            "Ingin secara eksplisit mendukung Translator++ dengan menempatkan namamu di bagian ini?"
+          ]
+        ]
+      }
+    }
+  }
+}

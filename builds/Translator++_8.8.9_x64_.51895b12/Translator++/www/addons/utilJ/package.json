@@ -1,0 +1,23 @@
+{
+  "name": "utilJ",
+  "title": "Utility for Japanese language",
+  "description": "Utility for Japanese language",
+  "main": "utilJ.js",
+  "homepage": "http://dreamsavior.net",
+  "version": "0.1",
+  "author": {
+    "name": "Dreamsavior",
+    "email": "dreamsavior@gmail.com"
+  },
+  "autoload": false,
+  "load": [
+    "utilJ.js"
+  ],
+  "minimumVersion": "5.6.15",
+  "dependencies": {
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "mikanjs": "^1.0.14",
+    "wanakana": "^5.3.1"
+  }
+}

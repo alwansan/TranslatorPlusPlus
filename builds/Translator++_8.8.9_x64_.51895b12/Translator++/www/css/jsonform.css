@@ -1,0 +1,186 @@
+/**=====LICENSE STATEMENT START=====
+    Translator++
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+
+    Copyright (C) 2018  Dreamsavior<dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+div.form-group {
+    margin-bottom: 1.2em;
+    padding-bottom: .5em;
+    /* border-bottom: 1px dashed var(--gr-lv6); */ /* #aaa */
+}
+
+div.form-group:last-child {
+    border-bottom: none;
+}
+
+/* This rule might be redundant if bootstrapparts.css is always loaded and defines fieldset.form-group */
+fieldset.form-group {
+    margin-bottom: 1.2em;
+    padding-bottom: .5em;
+    border:1px solid var(--fieldset-border); /* #888, uses var from bootstrapparts which is var(--gr-lv8) */
+}
+
+/* This rule might be redundant if bootstrapparts.css defines .form-group .input-group */
+.form-group .input-group {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.form-group .input-group .input-group-addon {
+    border: 1px solid var(--input-group-addon-border-color); /* #888 */
+    padding: 0px 6px;
+    color: var(--input-group-addon-text-color); /* #fff */
+    background: var(--input-group-addon-bg); /* #888 */
+    white-space: nowrap;
+}
+
+
+.form-group > label {
+    margin: .2em 0em;
+    display: block;
+    color: var(--form-label-text-color); /* #444444 */
+    font-size: 10.5pt;
+    /* display: block; redundant */
+    margin: .8em 0em .3em 0em;
+    font-weight: bold;
+}
+
+.form-group .form-control {
+    padding: .2em;
+    width: calc(100% - .6em);
+}
+
+
+
+.form-group .fieldLine label {
+    color: var(--form-fieldline-label-text-color); /* #4841a7 */
+    font-size: 10pt;
+    display: block;
+    margin: .8em 0em .3em 0em;
+}
+
+.form-group .controls .checkbox label {
+    /*line-height: 36px;*/
+    display: block;
+    position:relative;
+}
+/* .form-group .controls .checkbox label:hover {
+    background: var(--checkbox-label-hover-bg); */ /* #f1f1f1 */
+/* } */
+
+.form-group .help-block {
+    padding-top: .4em;
+    display: inline-block;
+    color: var(--form-help-block-text-color); /* #676767 */
+}
+
+/* Combined and cleaned checkbox rules */
+.form-group .controls .checkbox label input[type=checkbox] {
+    -webkit-appearance: none;
+    font-family: 'fontello';
+    font-size: 2em;
+    position: absolute;
+    right: 0px;
+    top: -12px; /* Default top position */
+}
+
+.form-group.jsonform-hasdescription .controls .checkbox label input[type=checkbox] {
+    top: -16px;
+}
+
+.form-group.jsonform-hasdescription.jsonform-inlinetitle .controls .checkbox label input[type=checkbox] {
+    top: 0px;
+}
+
+.form-group .controls .checkbox label input[type=checkbox]:checked:before {
+    color: var(--form-checkbox-checked-color); /* green */
+    content: '\f205';
+}
+
+.form-group .controls .checkbox label input[type=checkbox]:before {
+    color: var(--form-checkbox-unchecked-color); /* gray */
+    content: '\f204';
+}
+
+.form-group .controls .checkbox label input[type=checkbox]:disabled {
+	opacity:.5
+}
+
+.form-group .controls .checkbox + .help-block {
+    width: calc(100% - 50px);
+    border-top: 1px dotted var(--form-checkbox-help-block-border-color); /* #c0c0c0 */
+    display: block; /* Added from later rule for consistency */
+}
+
+.form-group .controls .checkbox + .help-block:empty {
+    content: " "
+}
+
+.help-block h2 {
+    margin: 0.8em 0em .3em 0em;
+    font-size: 14pt;
+    color: var(--form-help-block-h2-text-color); /* #5d5d5d */
+    letter-spacing: .1em;
+    /* margin: .6em 0em .3em .0em; This margin is more specific, a previous one for h2 exists */
+    border-bottom: 1px solid var(--form-help-block-h2-border-color); /* #dcdcdc */
+}
+
+.jsonform-password-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* The following checkbox rules were largely duplicates or slight modifications,
+   I've integrated them into the block above for .form-group .controls .checkbox label input[type=checkbox]
+   and related pseudo-classes.
+*/
+/*
+.controls .checkbox label {
+    display: block;
+    position:relative;
+}
+.form-group .controls .checkbox label input[type=checkbox] {
+    -webkit-appearance: none;
+    font-family: 'fontello';
+    font-size: 2em;
+    position: absolute;
+    right: 0px;
+    top: -12px;
+}
+.form-group.jsonform-hasdescription .controls .checkbox label input[type=checkbox] {
+    top: -16px;
+}
+.form-group.jsonform-hasdescription.jsonform-inlinetitle .controls .checkbox label input[type=checkbox] {
+    top: 0px;
+}
+.form-group .controls .checkbox label input[type=checkbox]:checked:before {
+    color: green;
+    content: '\f205';
+}
+.form-group .controls .checkbox label input[type=checkbox]:before {
+    color: gray;
+    content: '\f204';
+}
+.form-group .controls .checkbox label input[type=checkbox]:disabled {
+	opacity:.5
+}
+.form-group .controls .checkbox + .help-block {
+    width: calc(100% - 50px);
+    border-top: 1px dotted #c0c0c0;
+}
+*/
