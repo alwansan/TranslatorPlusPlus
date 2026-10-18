@@ -26,6 +26,9 @@ class RpgMakerJsonEngineTest {
         val projectText = RpgMakerJsonEngine.createTranslationProject(source, "Actors.json")
         assertNotNull(projectText)
         assertTrue(RpgMakerJsonEngine.canRebuild(projectText!!))
+        val parsedProject = TransProject.parse(projectText)
+        assertNotNull(parsedProject)
+        assertEquals("Actors #1 • name", parsedProject!!.rows.first().context)
 
         val project = JSONObject(projectText)
         project.getJSONArray("data").getJSONArray(0).put(1, "هارولد")
