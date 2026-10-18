@@ -10,7 +10,9 @@ The project stores the original JSON snapshot and a pointer map from each transl
 
 - Database JSON arrays by filename: `Actors.json`, `Classes.json`, `Skills.json`, `Items.json`, `Weapons.json`, `Armors.json`, `Enemies.json`, `States.json`, `Troops.json`, and `MapInfos.json`.
 - `System.json`: game title, currency name, selected label arrays, and the `terms` text fields.
-- Map JSON objects with an `events` array: event text commands 401, scrolling text command 405, and choice strings from command 102.
+- Map JSON objects with an `events` array: event text commands 401, scrolling text command 405, choice strings from command 102, and actor name/nickname/profile commands 320/324/325 (the text parameter only).
+- `CommonEvents.json`: common-event dialogue, choices, and actor name/nickname/profile commands.
+- `Troops.json`: troop names plus text and choices in troop event pages.
 
 The row context is displayed where available, such as the database field or event/page/command where the text came from.
 
@@ -24,4 +26,4 @@ The row context is displayed where available, such as the database field or even
 
 ## Tests
 
-`RpgMakerJsonEngineTest.kt` covers database array entries, event dialogue and choices, scrolling text, actor name/nickname/profile commands, System terms, preservation of unrelated fields, and rejection of unsupported input shapes. `RpgMakerBatchEngineTest.kt` covers two-file combination, translated ZIP output, preserving unedited data, and path traversal/absolute-path rejection.
+`RpgMakerJsonEngineTest.kt` covers database array entries, map/common-event dialogue and choices, troop-page dialogue, actor name/nickname/profile commands, System terms, preservation of unrelated fields, and rejection of unsupported input shapes. `RpgMakerBatchEngineTest.kt` covers two-file combination, translated ZIP output, preserving unedited data, and path traversal/absolute-path rejection.
