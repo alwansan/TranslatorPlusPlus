@@ -209,7 +209,7 @@ private fun TranslatorPrototype(
                     val acceptedNames = setOf(
                         "actors.json", "classes.json", "skills.json", "items.json",
                         "weapons.json", "armors.json", "enemies.json", "states.json",
-                        "troops.json", "mapinfos.json", "system.json"
+                        "troops.json", "commonevents.json", "mapinfos.json", "system.json"
                     )
 
                     fun isSupportedName(name: String): Boolean {
