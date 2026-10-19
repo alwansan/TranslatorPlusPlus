@@ -2,7 +2,7 @@ name: Android ARM64 prototype
 
 on:
   push:
-    branches: [android-arm64-port]
+    branches: [android-arm64-port, android-cat-ui-integration]
     paths:
       - "android/**"
       - ".github/workflows/android-arm64.yml"
