@@ -116,9 +116,17 @@ class MainActivity : ComponentActivity() {
         lifecycleScope.launch {
             viewModel.notifyUser("يجري فحص مجلد Data...")
             val result = withContext(Dispatchers.IO) { scanData(uri) }
-            if (result?.second.isNullOrBlank()) {
+            val scanned = result
+            if (scanned == null) {
                 viewModel.notifyUser("لم أجد ملفات JSON مدعومة أو تجاوز المجلد حدود الفحص.")
-            } else viewModel.importTranslationProject(result!!.second!!, "${result.first}-translated.trans")
+            } else {
+                val projectContent = scanned.second
+                if (projectContent.isNullOrBlank()) {
+                    viewModel.notifyUser("لم أجد ملفات JSON مدعومة أو تجاوز المجلد حدود الفحص.")
+                } else {
+                    viewModel.importTranslationProject(projectContent, "${scanned.first}-translated.trans")
+                }
+            }
         }
     }
 
