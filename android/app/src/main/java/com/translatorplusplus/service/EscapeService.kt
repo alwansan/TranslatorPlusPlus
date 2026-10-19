@@ -57,8 +57,14 @@ object EscapeService {
         if (lines.size > maxLines) return true
         for (line in lines) {
             // Count CJK characters as 2 units, ASCII as 1 unit
-            val width = line.sumOf { ch ->
-                if (ch.code in 0x4E00..0x9FFF || ch.code in 0x3040..0x30FF || ch.code in 0xFF00..0xFFEF) 2 else 1
+            var width = 0
+            for (ch in line) {
+                val codePoint = ch.code
+                width += if (
+                    codePoint in 0x4E00..0x9FFF ||
+                    codePoint in 0x3040..0x30FF ||
+                    codePoint in 0xFF00..0xFFEF
+                ) 2 else 1
             }
             if (width > maxCharsPerLine) return true
         }
